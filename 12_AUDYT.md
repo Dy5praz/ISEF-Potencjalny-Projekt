@@ -324,3 +324,70 @@ To jest drugi, niezależny od Kołodzieja argument za tym, żeby artefaktem zaj�
 3. **arXiv 2601.01772** — platforma ESP32+ADS1299 jest wykonalna i scharakteryzowana, a jej słabym punktem jest niedopasowanie impedancji, czyli dokładnie to, co kompensacja może poprawić
 
 **Czego nie znalazłem w żadnym z dwóch przejść:** analogowej kompensacji zmierzonego artefaktu mięśniowego z dedykowanego kanału, przed wzmocnieniem, w noszalnym urządzeniu EEG.
+
+---
+
+# CZĘŚĆ III — trzecie przejście: konferencje układowe
+
+**Zlecenie:** domknąć jedyną lukę zgłoszoną na końcu części II — ISSCC, JSSC i pokrewne konferencje układowe, których nie ma w PubMed.
+
+**Kanał:** **Crossref API**, który indeksuje IEEE TBioCAS, ISSCC, ISCAS, A-SSCC, BioCAS i pokrewne. (OpenAlex i Semantic Scholar odmówiły — wyczerpany limit zapytań i 429. Crossref zadziałał i pokrywa te same wydawnictwa.)
+
+---
+
+## 12. Znalezisko, które koryguje MOJĄ WŁASNĄ korektę
+
+`[fakt]` **Dabbaghian A., Kassiri H., *„An 8-Channel Ambulatory EEG Recording IC With In-Channel Fully-Analog Real-Time Motion Artifact Extraction and Removal"*, IEEE Transactions on Biomedical Circuits and Systems, 2023, DOI 10.1109/tbcas.2023.3289159.**
+
+Do tego, tej samej grupy: *„An 8-Channel 0,45 mm²/Channel EEG Recording IC with ADC-Free Mixed-Signal In-Channel Motion Artifact Detection"*, **ISCAS 2020**.
+
+**Pierwsza sesja miała rację, a ja ją błędnie poprawiłem.** Opis „8-kanałowy IC EEG ambulatoryjny z wewnątrzkanałową, w pełni analogową ekstrakcją i usuwaniem artefaktów ruchowych, publikacja ~2023" był **poprawny co do wszystkiego** — jest to układ scalony, jest ośmiokanałowy, jest z 2023 roku.
+
+W K-029 uznałem, że chodzi o *„A 9,2-g Fully-Flexible Wireless Ambulatory EEG Monitoring and Diagnostics Headband"* (2019, ten sam pierwszy autor) i „poprawiłem" rok oraz klasę urządzenia. **To są dwie różne prace tej samej grupy** (laboratorium Kassiriego, York University): opaska z 2019 i układ scalony z 2023.
+
+**K-029 zostaje wycofana w części dotyczącej roku i klasy urządzenia.** Utrzymuje się wyłącznie zastrzeżenie o parametrze CMRR >115 dB, którego nie zweryfikowałem w żadnej z tych prac.
+
+**To trzeci przypadek w tej sesji, gdy przesadziłem w korekcie** (poprzednie: K-040 — zawyżenie wyniku SpiralE; K-029 — właśnie ten). **Wzorzec jest jednoznaczny: koryguję zbyt pewnie, na podstawie pierwszego znalezionego dopasowania, nie sprawdzając, czy nie istnieje druga praca tych samych autorów.** Reguła operacyjna, która z tego zostaje: przed skorygowaniem cudzego namiaru sprawdzić, czy autorzy nie mają kilku prac o zbliżonym tytule.
+
+---
+
+## 13. Pełen obraz analogowego usuwania artefaktów — po przeszukaniu konferencji układowych
+
+| Rok | Praca | Co robi | Czy to nasza oś |
+|---|---|---|---|
+| **1984** | *EMG artifact minimization during clinical EEG recordings by **special analog filtering***, Electroenceph Clin Neurophysiol | analogowe **filtrowanie pasmowe** EMG | **nie** — filtracja częstotliwościowa, nie odejmowanie zmierzonego artefaktu |
+| 1996 | *Application of **LMS adaptive predictive filtering** for muscle artifact cancellation from EEG*, Comput Electr Eng | filtr adaptacyjny LMS | **nie** — cyfrowy |
+| 2016 | *An analog front-end with fast **motion artifact recovery*** for bio-signal recording, VLSI-DAT | odzyskiwanie po artefakcie ruchowym | **nie** — ruch, nie mięsień |
+| 2020 | Dabbaghian, Kassiri, ISCAS — IC z mieszaną detekcją artefaktu ruchowego bez ADC | artefakt **ruchowy** | **nie** |
+| 2023 | **Dabbaghian, Kassiri, TBioCAS — IC z w pełni analogową ekstrakcją i usuwaniem artefaktu ruchowego** | artefakt **ruchowy**, wewnątrzkanałowo, analogowo | **nie — ale najbliżej ze wszystkiego** |
+| 2023 | *A Low-power Reconfigurable Neural Interface AFE IC with **Common-mode Artifact Cancellation Loop*** | **szum wspólny** | **nie** |
+| 2025 | *EEG Artifact Removal At the Edge Using **AI Hardware***, IEEE Sensors Lett | wnioskowanie na brzegu | **nie** — cyfrowe, tylko lokalnie |
+| **2026** | **Kołodziej i in., Sensors — kanały pomocnicze, w tym szczękowy, dla potylicznego SSVEP** | **artefakt mięśniowy, kanał referencyjny** | **tak co do idei — ale CYFROWO, regresją** |
+
+**Wniosek po trzech przejściach i czterech bazach:**
+
+Analogowe radzenie sobie z artefaktami w EEG jest dziedziną zajętą — ale **konsekwentnie dla artefaktów ruchowych, szumu wspólnego i offsetu**. Artefakt **mięśniowy** obsługuje się albo analogowym filtrowaniem pasmowym (1984, prymitywne i zawodne, bo pasma EMG i EEG się pokrywają), albo **cyfrowo** (1996 → 2026).
+
+**Nie znalazłem — w PubMed, arXiv, Crossref i bazie patentów — analogowego odejmowania zmierzonego artefaktu mięśniowego z dedykowanego kanału referencyjnego, przed wzmocnieniem, w noszalnym urządzeniu EEG.**
+
+To jest najmocniejsze zdanie o nowości, jakie mogę uczciwie napisać. **I nadal nie jest dowodem nieistnienia** — jest opisem tego, gdzie szukałem i czego nie znalazłem.
+
+---
+
+## 14. Zamknięcie audytu
+
+**Przeszukane kanały:** PubMed (E-utilities), arXiv (API), Crossref (API), Google Patents przez wyszukiwarkę, bazy abstraktów ISEF, strony i regulaminy obu konkursów. **Nieprzeszukane i zgłaszam to jawnie:** literatura nieanglojęzyczna, pełne teksty zastrzeżeń patentowych, IEEE Xplore bezpośrednio (pokryty pośrednio przez Crossref i PubMed), oraz prace za paywallem, których abstrakty przeczytałem, ale pełnych tekstów nie.
+
+**Stan tezy o innowacyjności po trzech przejściach:**
+
+| Warstwa | Status |
+|---|---|
+| tani interfejs SSVEP | **zajęte** — £20, 102 bit/min, Imperial College |
+| elektroda sucha przez włosy | **zajęte** — PNAS 2025, Georgia Tech, patent w toku |
+| układ elektrod centralna + obwodowe | **zajęte i opatentowane** — US 11241183 B2, Neurolutions |
+| platforma ESP32 + ADS1299 | **zajęte** — arXiv 2601.01772, ze scharakteryzowanymi parametrami |
+| kanał pomocniczy przeciw artefaktowi mięśniowemu, cyfrowo | **zajęte** — Kołodziej i in. 2026, +9 pp |
+| analogowa kompensacja artefaktu **ruchowego** | **zajęte** — Dabbaghian, Kassiri, IC 2023 |
+| **analogowa kompensacja artefaktu MIĘŚNIOWEGO z kanału referencyjnego, przed wzmocnieniem, w urządzeniu noszonym** | **nie znalezione w czterech bazach** |
+
+**To jest wynik audytu i na nim kończę.** Nie umiem sprawdzić więcej kanałami, które mam.

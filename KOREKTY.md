@@ -620,3 +620,22 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Sprawdzone w oryginałach trzech roczników:** ISEF **2024** — „may not include research performed before **January 2023**", okno „**January 2023 – May 2024**". ISEF **2025** — „before **January 2024**", okno „**January 2024 – May 2025**". ISEF **2027** — „before **January 2026**", okno „**January 2026 – May 2027**".
 
 **Wzorzec stabilny na trzech rocznikach: styczeń roku poprzedzającego ISEF – maj roku ISEF.** Okno dla ISEF 2028 to **I 2027 – V 2028** i przestaje to być ekstrapolacja. Kampanię pod ISEF startować w maju 2027 — bez zmian, ale teraz na twardej podstawie.
+
+---
+
+### K-047 — WYCOFUJĘ K-029 w części. Pierwsza sesja miała rację
+
+**Co było źle — w mojej korekcie, nie w oryginale:** w K-029 uznałem, że opis „8-kanałowy IC EEG ambulatoryjny z w pełni analogową ekstrakcją i usuwaniem artefaktów ruchowych, ~2023" jest błędny, i „poprawiłem" go na *„A 9,2-g Fully-Flexible Wireless Ambulatory EEG Monitoring and Diagnostics Headband"* (2019) — twierdząc, że to nie jest układ scalony i że rok jest zły.
+
+**Poprawka, z Crossref:** obie prace istnieją i są różne, tej samej grupy (laboratorium H. Kassiriego):
+- Dabbaghian, Yousefi, Fatmi, Shafia, Kassiri, **TBioCAS 13(6):1141–1151 (2019)** — opaska na elastycznym podłożu
+- **Dabbaghian A., Kassiri H., *„An 8-Channel Ambulatory EEG Recording IC With In-Channel Fully-Analog Real-Time Motion Artifact Extraction and Removal"*, IEEE TBioCAS, 2023, DOI 10.1109/tbcas.2023.3289159** — **układ scalony, ośmiokanałowy, 2023**
+- oraz ISCAS 2020, ten sam kierunek, IC bez ADC
+
+**Pierwsza sesja opisała to poprawnie.** Mój błąd polegał na znalezieniu pierwszej pracy o zbliżonym tytule i uznaniu, że to ta sama.
+
+**Co z K-029 zostaje w mocy:** wyłącznie zastrzeżenie, że **parametru CMRR >115 dB nie zweryfikowałem** w żadnej z tych prac. Reszta wycofana.
+
+**Wzorzec, który trzeba nazwać:** to trzeci przypadek w tej sesji, gdy przesadziłem w korekcie — po K-040 (zawyżenie wyniku SpiralE na podstawie abstraktu) i po tym wpisie. **Koryguję zbyt pewnie, na pierwszym znalezionym dopasowaniu.** Reguła: przed skorygowaniem cudzego namiaru sprawdzić, czy autorzy nie mają kilku prac o zbliżonym tytule i czy różnica nie jest realna.
+
+**Konsekwencja merytoryczna dla projektu:** analogowa kompensacja artefaktów **ruchowych** jest zajęta mocniej, niż wynikało z mojej korekty — na poziomie układu scalonego, 2023. **Nasza oś dotyczy artefaktu mięśniowego, nie ruchowego, i to rozróżnienie staje się przez to ważniejsze**, a nie mniej ważne. Do wypowiedzenia wprost przed jurorem.
