@@ -41,6 +41,7 @@ Działa wyłącznie wyszukiwarka zwracająca tytuły, adresy i streszczenia gene
 
 | Plik | Zawartość | Status |
 |---|---|---|
+| **`PRZEKAZANIE.md`** | **start nowej sesji — prompt, priorytety, pułapki** | **czytaj pierwsze** |
 | `HANDBOOK.md` | kontekst i zlecenie | źródło |
 | `00_PYTANIA_I_LUKI.md` | luki, pytania, odpowiedzi użytkownika, lista zadań 4d | gotowy |
 | `00_STRESZCZENIE.md` | **co z etapu 1 wynika — czytaj to pierwsze** | gotowy |
