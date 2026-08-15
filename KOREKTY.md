@@ -93,3 +93,37 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 **Poprawka:** do czasu potwierdzenia piszę neutralnie. Bez znaczenia merytorycznego, ale nie powielam nieustalonego szczegółu o realnej osobie.
 
 **Kto wyłapał:** Claude Code.
+
+---
+
+### K-009 — typ zapisany przed weryfikacją, żeby nie dało się go później naciągnąć
+
+**Czego dotyczy:** pomysł użycia sEMG/EOG jako kanału odniesienia do sprzętowego usuwania zakłóceń z EEG przy uchu.
+
+**Zapis:** przed jakimkolwiek sprawdzeniem oceniam, że w wersji ogólnej technika jest znana i stara (korekcja artefaktów ocznych przez osobny kanał, lata 80.), a ewentualna szczelina leży wyłącznie w realizacji analogowej przed przetwornikiem w urządzeniu noszonym.
+
+**Po co ten wpis:** sekcja 8 handbooka, błąd nr 5 — założenie luki zamiast jej sprawdzenia, a potem budowa strategii na założeniu. Data i treść typu są zapisane, więc po weryfikacji nie da się go przesunąć w żadną stronę.
+
+**Kto zażądał sprawdzenia:** użytkownik, wprost, powołując się na wcześniejsze wpadki z rzekomą innowacyjnością.
+
+---
+
+### K-010 — ciągłe vs dyskretne sterowanie było źle postawionym wyborem, także przeze mnie
+
+**Co było źle:** w rundzie pierwszej przedstawiłem sterowanie ciągłe i dyskretne jako alternatywę na jednej osi. To sklejało dwie niezależne warstwy: sposób odczytu sygnału i sposób poruszania się sterowanego obiektu.
+
+**Poprawka:** warstwy są niezależne. Odczyt dyskretny z płynnym ruchem obiektu (sterowanie prędkością, podział pracy z maszyną) daje efekt, którego użytkownik chciał, bez elektrod nad korą ruchową.
+
+**Konsekwencja:** dopiero po rozdzieleniu widać właściwy argument — to nie „ciągłe jest trudniejsze", tylko „ciągły odczyt wymusza hełm", co zderza się z twardym wymaganiem z sekcji 9.1 handbooka. Argument jest mocniejszy i innego rodzaju niż ten, który podałem najpierw.
+
+**Kto wyłapał:** użytkownik, pytaniem „czy z dyskretnym da się osiągnąć podobny efekt, kosztem większej ilości pracy". Odpowiedź brzmiała tak, a pytanie ujawniło, że moje pierwsze postawienie sprawy było niepełne.
+
+---
+
+### K-011 — wymaganie materiałowe dla drukarki odziedziczone z porzuconego projektu
+
+**Co było źle:** wybór Qidi Q2 uzasadniony materiałami trudnymi (PA12-CF) pochodzi z projektu drona, porzuconego w poprzednim cyklu. Przeniesienie tego wymagania na projekt urządzenia dousznego nie zostało zakwestionowane przez nikogo, łącznie ze mną w rundzie pierwszej.
+
+**Poprawka:** [wniosek] wymaganie prawdopodobnie odwraca się co do kierunku — potrzebne jest odwzorowanie kształtu i bezpieczeństwo kontaktu ze skórą, nie sztywność i odporność termiczna. Zakup wstrzymany do weryfikacji w etapie 1.
+
+**Kto wyłapał:** użytkownik, prosząc o zbadanie tematu zamiast potwierdzenia wyboru.

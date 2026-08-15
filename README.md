@@ -16,10 +16,14 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 
 ### Ustalenia kierunkowe (15 VIII 2026)
 
-- **zdolność:** sterowanie **dyskretne** (skończony zbiór komend), nie komunikacja i nie sterowanie ciągłe
-- **sEMG/EOG:** dopuszczone jako **kanał odniesienia do usuwania zakłóceń** w torze analogowym; jako źródło sterowania odłożone, nie odrzucone
+- **zdolność:** sterowanie, nie komunikacja. **Odczyt dyskretny, zachowanie sterowanego obiektu ciągłe** — odczyt ciągły wymusza elektrody nad korą ruchową, czyli hełm
+- **sEMG/EOG:** dopuszczone jako **kanał odniesienia do usuwania zakłóceń** w torze analogowym; jako źródło sterowania odłożone, nie odrzucone. Typ przed weryfikacją: w wersji ogólnej znane i stare, szczelina najwyżej w realizacji sprzętowej
+- **forma:** element zauszny wielkości aparatu słuchowego przechodzi; opaska raczej nie
+- **badani:** na start sam autor, rozszerzenie na grupę przed finałem Explory — **zgoda komisji ISEF musi poprzedzać tę kampanię**
 - **czas:** 10 h/tydz. → ~350 h do El-Robo-Mech, ~910 h do ISEF
 - **budżet:** świadomie nieustalony, decyzja po opracowaniu
+- **drukarka:** zakup wstrzymany. Wymaganie z drona (PA12-CF) prawdopodobnie nie obowiązuje; dla wkładek dousznych właściwy jest druk żywiczny
+- **sprzęt pomiarowy:** brak; plan pomiaru szumu bez oscyloskopu w `00_PYTANIA_I_LUKI.md` sekcja 4c/B3
 
 ### Żeby ruszyć dalej
 

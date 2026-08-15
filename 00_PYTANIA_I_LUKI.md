@@ -335,13 +335,128 @@ Użytkownik nie znał tych skrótów. Wyjaśnienie i rozstrzygnięcie:
 
 [domysł] Rola 2 siedzi w warstwie 3 z sekcji 9.4 handbooka (tor analogowy front-endu), czyli w najmocniejszej umiejętności użytkownika, i daje twierdzenie wymagające zbudowania płytki — czyli takie, którego nie powtórzy ktoś z laptopem i publicznym zbiorem danych. To jest kandydat na oś projektu, ale wymaga potwierdzenia w etapie 1, że nie jest to rozwiązane i opublikowane.
 
+---
+
+## 4c. Runda druga — 15 VIII 2026
+
+### C1 (powrót) — ciągłe vs dyskretne, rozstrzygnięcie
+
+Użytkownik: „ciągłe brzmi lepiej i w coś takiego celowałem. No chyba, że z dyskretnym da się osiągnąć podobny efekt, kosztem większej ilości pracy."
+
+**Odpowiedź: da się, i rozstrzygnięcie polega na rozdzieleniu dwóch warstw, które w pytaniu są sklejone.**
+
+1. **odczyt sygnału** — dyskretny czy ciągły
+2. **ruch sterowanego obiektu** — skokowy czy płynny
+
+Warstwy są niezależne. Dyskretny odczyt + płynny ruch to normalna, działająca kombinacja.
+
+**Dlaczego odczyt ciągły zderza się z twardym wymaganiem „zero hełmów":**
+
+[wniosek, do policzenia w etapie 1] Ciągłe sterowanie z EEG opiera się w praktyce na rytmach sensomotorycznych, których źródło leży w korze ruchowej — pozycje C3/Cz/C4 układu 10–20, czyli linia ucho–wierzch–ucho. Z okolicy ucha to jest kilkanaście centymetrów przez kość skroniową. Amplituda tam spada prawdopodobnie do okolic szumu własnego wzmacniacza.
+
+Reguła trzech punktów z sekcji 2.2 handbooka:
+1. **parametr:** pozycja elektrody względem źródła korowego; odległość ucho ↔ kora ruchowa
+2. **wersja poza pętlą:** paradygmaty, których generator neuronalny leży blisko ucha — uwaga słuchowa, słuchowy oddball; kora słuchowa siedzi w płacie skroniowym kilka cm od kanału słuchowego. Te paradygmaty są z natury dyskretne
+3. **pomiar, który to przeżywa:** dokładność klasyfikacji i ITR — ta sama metryka w obu wariantach, więc twierdzenie pozostaje porównywalne
+
+**Jak uzyskać efekt ciągły przy odczycie dyskretnym:**
+
+- **sterowanie prędkością zamiast pozycją** — komenda ustawia kierunek, obiekt jedzie sam do następnej komendy. Cztery komendy co ~2 s wystarczają do gładkiego ruchu
+- **podział pracy z maszyną** — mózg podaje intencję („weź kubek"), maszyna wykonuje część płynną. [wniosek, do potwierdzenia w etapie 1] uznana i publikowana klasa rozwiązań, **nie liczyć jako innowacji**
+
+**Gdzie leży „większa ilość pracy", o którą pytał użytkownik:** w mechanice i układzie sterowania budowanego obiektu, nie w algorytmie. Dla profilu z sekcji 1 handbooka to przesunięcie korzystne.
+
+**Haczyk do obsłużenia od pierwszego szkicu:** im więcej pracy wykonuje maszyna, tym mocniejsze będzie pytanie jurora „ile z tego to naprawdę mózg". Odpowiedź musi być pomiarowa — ten sam układ na sygnale losowym i na sygnale z głowy, porównanie. **To jest element planu eksperymentalnego, nie dodatek**; nie da się go dorobić po fakcie.
+
+**Ustalenie: odczyt dyskretny, zachowanie sterowanego obiektu ciągłe.**
+
+### C3 (powrót) — typ przed weryfikacją, zapisany świadomie
+
+Użytkownik przyjął rolę 2 (kanał odniesienia do usuwania zakłóceń) i poprosił o sprawdzenie, czy nie jest to powszechne, powołując się na wcześniejsze wpadki z rzekomą innowacyjnością.
+
+**Typ zapisany przed sprawdzeniem, żeby nie było niejasności co do tego, kiedy powstał:**
+
+[domysł, mocny] W wersji ogólnej to jest znane i stare — usuwanie zakłóceń ocznych przez osobny kanał odniesienia to technika podręcznikowa z okolic lat 80. Jeżeli tak, samo „dokładam kanał referencyjny" **nie przejdzie kryterium innowacyjności w półfinale**.
+
+[domysł] Możliwa wąska szczelina: nie sam pomysł, lecz realizacja **sprzętowa, w torze analogowym, przed przetwornikiem, w urządzeniu noszonym przy uchu**. Standardowo odejmuje się programowo, po nagraniu. Różnica niebłaha — zakłócenie usunięte przed wzmocnieniem nie zjada zakresu dynamicznego wzmacniacza. Ale to szczelina, nie otwarte pole.
+
+**Zadanie na etap 1, priorytet wysoki:** rozstrzygnąć to twardo, z podaniem wyniku również w wersji „zajęte".
+
+### B3 — brak sprzętu pomiarowego
+
+Stan: brak czegokolwiek pod pomiary interfejsów neuralnych.
+
+[wniosek] Nie blokuje, ale wymaga planu, bo połowa twierdzenia o własnym torze analogowym to **dowód**, że jest cichy.
+
+| Pomiar | Czym | Status |
+|---|---|---|
+| szum własny wzmacniacza, sprowadzony na wejście | zwarcie wejść + nagranie własnym urządzeniem; komputer wystarczy | [wniosek] metoda standardowa, do potwierdzenia |
+| sygnał wzorcowy o znanej amplitudzie µV | dzielnik rezystorowy z wyjścia słuchawkowego komputera | [wniosek] do potwierdzenia, w tym szum i zniekształcenia źródła |
+| niezależne potwierdzenie na sprzęcie klasy laboratoryjnej | firma brata | **zasób jednorazowy, rezerwacja po VI 2027** wg sekcji 5.4 handbooka |
+
+### B4 — drukarka 3D, wymaganie prawdopodobnie się odwraca
+
+Stan: wybrana Qidi Q2 pod porzucony projekt drona, uzasadniona materiałami trudnymi (PA12-CF). Użytkownik pyta, czy nadal są potrzebne.
+
+[wniosek, do potwierdzenia w etapie 1] **Prawdopodobnie nie, i wymaganie odwraca się co do kierunku.** Dron potrzebował sztywności, wytrzymałości i odporności termicznej. Urządzenie noszone przy uchu potrzebuje odwzorowania kształtu, gładkiej powierzchni, bezpieczeństwa kontaktu ze skórą i miejscami miękkości.
+
+[wniosek] Obudowy aparatów słuchowych i wkładek dousznych wykonuje się przemysłowo drukiem żywicznym (SLA/MSLA), nie FDM: FDM zostawia warstwy zbierające zabrudzenia, słabo odwzorowuje drobne krzywizny i ma ubogą ofertę materiałów z certyfikatem kontaktu ze skórą. Włókno węglowe jest tu przeciwskuteczne — ścierne i sztywne.
+
+**Rekomendacja: wstrzymać zakup.** Przy formie dousznej/zausznej właściwy zestaw to tania drukarka żywiczna plus ewentualnie zwykły FDM, łącznie taniej niż jedna Q2. Q2 pozostaje sensowna, jeżeli dron kiedyś wróci, ale to osobna decyzja.
+
+**Zadanie na etap 1:** materiały do kontaktu ze skórą, ich certyfikaty i dostępność dla amatora.
+
+### B5 / C4 — opiekun i badania na ludziach
+
+Stan: opiekun dostępny w szkole, stopień magistra. Badania na start na sobie, rozszerzenie na grupę przed finałem Explory. Użytkownik zakłada, że badania sprzed zgody komisji można powtórzyć po jej uzyskaniu.
+
+[wniosek] Założenie o powtórzeniu jest poprawne — to standardowa droga i handbook opisuje ją w sekcji 5.4.
+
+**Dwie pozycje `[luka]`, priorytet wysoki, do pliku `ISEF_HUMAN_PARTICIPANTS.md`:**
+
+1. ISEF rozróżnia kilka ról dorosłego opiekuna o różnych progach — od wymagającej wyłącznie pełnoletności po wymagającą stopnia doktora. **Która rola obowiązuje przy urządzeniu elektronicznym w kontakcie z głową — nieustalone.** Magister może wystarczyć. Nie zgaduję, bo błąd tutaj dyskwalifikuje.
+2. **Czy badanie na samym sobie jest zwolnione z obowiązku zgody komisji przed rozpoczęciem — nieustalone.** Zgoda komisji i zgoda badanego to dwa różne wymogi i zwolnienie z drugiego nie oznacza zwolnienia z pierwszego.
+
+**Konsekwencja harmonogramowa, wynikająca z planu C4:** dane zebrane przed zgodą komisji przepadają dla ISEF. Skoro rozszerzenie na grupę ma nastąpić przed finałem Explory (X 2027), **zgoda komisji musi być wcześniej niż ta kampania**. Formalności idą przed pomiarami na grupie, nie po nich.
+
+### D1 / D2 — granica „zero hełmów"
+
+| Forma | Werdykt |
+|---|---|
+| element za uchem wielkości aparatu słuchowego | **przechodzi** |
+| opaska na głowę, nawet bez widocznych kabli | **raczej odpada**, użytkownik zaznaczył wahanie |
+| pozostałe przypadki graniczne z sekcji 2.4 | nierozstrzygnięte |
+
+[wniosek] Werdykt jest spójny z ustaleniem C1: forma zausznej wielkości aparatu słuchowego i tak wyklucza elektrody nad korą ruchową, więc odczyt ciągły odpada niezależnie od tego rozstrzygnięcia.
+
 ### Pytania nadal otwarte
 
-- **B3, B4, B5** — sprzęt pomiarowy, drukarka 3D, opiekun naukowy
-- **C2** — w czym konkretnie „lepsze od komercyjnych". Nierozstrzygnięte. Etap 1 musi zebrać dane pod warianty 1 i 2 z sekcji 2.1
-- **C4** — kto będzie badanym
-- **D1, D2** — definicja operacyjna „zero hełmów"
+- **C2** — w czym konkretnie „lepsze od komercyjnych". Zostawione otwarte decyzją użytkownika. Etap 1 zbiera dane pod warianty 1 i 2 z sekcji 2.1
+- **D1 przypadki graniczne** — coś schowanego pod włosami, coś wyglądającego jak słuchawki, czapka z wszytymi elektrodami
 - **E1, E2, E3** — potwierdzenia do handbooka
+
+Zamknięte w rundzie drugiej: B2, B3, B4, B5, C1, C3, C4, D2 i D1 częściowo.
+
+---
+
+## 4d. Lista zadań weryfikacyjnych wyniesiona z rund 1–2
+
+Do wykonania w etapie 1, w tej kolejności.
+
+| # | Do sprawdzenia | Dlaczego priorytet | Plik docelowy |
+|---|---|---|---|
+| 1 | który finał Explory wyłania reprezentację na ISEF 2028 | pod tym stoi cała teza „jeden strzał" | `08` + `KOREKTY` |
+| 2 | ISEF Human Participants: role opiekuna i ich progi; czy badanie na sobie wymaga zgody komisji przed startem; wymogi wobec urządzeń elektrycznych w kontakcie z człowiekiem | dyskwalifikacja na technikalium | `ISEF_HUMAN_PARTICIPANTS.md` |
+| 3 | czy sprzętowe usuwanie zakłóceń mięśniowo-ocznych w torze analogowym urządzenia dousznego jest już zrobione | pod tym stoi kandydat na oś projektu | `04` |
+| 4 | amplituda rytmów sensomotorycznych w pozycjach usznych i zausznych, liczby | domyka argument, że odczyt ciągły wymusza hełm | `03` |
+| 5 | paradygmaty działające przy uchu: uwaga słuchowa, oddball słuchowy, SSVEP — realne ITR i dokładności | wyznacza pułap tego, co obiecujemy | `07` |
+| 6 | czy „intencja od mózgu, wykonanie od maszyny" jest publikowaną klasą rozwiązań i jak się ją uczciwie raportuje | żeby nie sprzedać znanego jako nowe | `04` + `07` |
+| 7 | materiały do druku w kontakcie ze skórą, certyfikaty, dostępność dla amatora; SLA vs FDM dla wkładek | decyzja zakupowa czeka | `05` |
+| 8 | metoda pomiaru szumu wzmacniacza bez oscyloskopu; źródło wzorcowe µV z karty dźwiękowej | bez tego nie ma dowodu na tor analogowy | `03` |
+| 9 | El-Robo-Mech: regulamin 2027, data, czy interfejs się kwalifikuje; alternatywy | ustawia, czy pierwszy twardy termin to 8 czy 14 miesięcy | `08` |
+| 10 | pełny abstrakt ENBM074 | żeby nie wejść przypadkiem w zakazaną ścieżkę | `08` |
+| 11 | projekty neuro/EEG/BCI w finałach Explory 2016–2026, liczby | weryfikacja argumentu z sekcji 9.3 handbooka | `08` |
+| 12 | oba arkusze oceny ISEF w całości | sekcja 5.2 handbooka | osobny plik |
 
 ---
 
