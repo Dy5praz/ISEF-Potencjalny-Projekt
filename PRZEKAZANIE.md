@@ -1,94 +1,103 @@
-# PRZEKAZANIE — start nowej sesji
+# PRZEKAZANIE — start etapu 2
 
-**Data:** 15 sierpnia 2026, wieczór — **wersja druga**
-**Po co ten plik:** poprzednia wersja mówiła nowej sesji, że etap 1 został wykonany bez dostępu do sieci i co trzeba domknąć. **Zostało domknięte.** Ta wersja mówi, co zastajesz teraz i od czego zacząć etap 2.
+**Data:** 15 sierpnia 2026, po zamknięciu etapu 1
+**Po co ten plik:** etap 1 jest zamknięty. Ten plik mówi nowej sesji, co zastaje, czego nie wolno podważać, i od czego zacząć etap 2.
 
 ---
 
-## 1. Stan: etap 1 ZAMKNIĘTY
+## 1. Stan: ETAP 1 ZAMKNIĘTY
 
-Sesja z 15 VIII wieczorem miała pełny dostęp do sieci i wykonała wszystkie dziewięć pozycji z sekcji 3 poprzedniej wersji tego pliku.
+Zamknięty po **trzech przejściach audytu adwersaryjnego**. Odczytane w oryginale: **regulamin ISEF 2026–2027 w całości** (plus roczniki 2024 i 2025 do weryfikacji reguły 12 miesięcy), **regulamin Explory w całości**, oba arkusze oceny ISEF, pełny abstrakt projektu referencyjnego, pełne teksty dwóch kluczowych prac, kilkanaście abstraktów, dwa patenty, oficjalne listy finalistów Explory.
 
-**Odczytane w oryginale:**
-- *International Rules for Pre-College Science Research 2026–2027*, Society for Science, 46 stron
-- *Regulamin Konkursu Explory*, Fundacja Zaawansowanych Technologii, 11 stron
-- *ISEF Grand Award Judging Criteria*, oba arkusze
-- baza abstraktów Society for Science — **pełny abstrakt ENBM074 (2026)** oraz liczby projektów EEG za lata 2014–2026
-- oficjalna lista finalistów Explory 2026 i pełna lista 133 projektów półfinałowych
-- **12 prac naukowych** (abstrakty przez PubMed E-utilities)
-- karta katalogowa ADS1299
+**Przeszukane bazy:** PubMed (E-utilities), arXiv (API), Crossref (API — pokrywa IEEE TBioCAS, ISSCC, ISCAS, BioCAS), Google Patents, baza abstraktów Society for Science.
 
-**Wynik: szesnaście korekt, `KOREKTY.md` K-020…K-035.**
+**Dwadzieścia osiem korekt: K-020…K-047.**
 
 ---
 
 ## 2. Co przeczytać i w jakiej kolejności
 
 1. **`CLAUDE.md`** — zasady współpracy, obowiązują bezwzględnie
-2. **`00_STRESZCZENIE.md`** — sekcja 0 mówi w pięciu punktach, co się zmieniło. Jeżeli masz przeczytać jedną rzecz, to tę
-3. **`HANDBOOK.md`** — zlecenie, z pięcioma wstawkami „POPRAWKA"
-4. **`KOREKTY.md`** — K-020…K-035 to ta sesja. **Trzy z nich zmieniają decyzje projektowe**
-5. reszta wg potrzeby, nawigacja w `00_STRESZCZENIE.md` sekcja 6
+2. **`12_AUDYT.md`** — **najważniejszy plik w repozytorium.** Trzy przejścia audytu, co zostało zabite, co przeżyło i dlaczego. Sekcja 14 to zamknięcie
+3. **`DECYZJE.md`** — cztery decyzje użytkownika, wszystkie zapadłe
+4. **`10_PROJEKT_DLA_LAIKA.md`** — czym jest projekt, co umie, czego nie umie
+5. **`11_OCENA_SZANS.md`** — szanse, w tym rozbicie na poszczególne wyniki (sekcja F)
+6. **`KOREKTY.md`** — K-020…K-047. Czytać, bo zawierają wzorce błędów, które się powtarzają
+7. reszta wg potrzeby, nawigacja w `00_STRESZCZENIE.md` sekcja 6
 
 ---
 
-## 3. Co jest otwarte — i czyja to decyzja
+## 3. Ustalenia zamknięte — nie podważać bez nowego argumentu
 
-### 3.1 Czeka na użytkownika, blokuje etap 2
-
-| # | Decyzja | Gdzie | Uwaga |
-|---|---|---|---|
-| 1 | **C2 — w czym „lepsze od komercyjnych"** | `00_STRESZCZENIE.md` 1.2 | **rekomendacja poprzedniej sesji WYCOFANA** — stała na liczbie nieaktualnej o osiem lat (K-028). Trzy warianty mają porównywalny status. **Nie rozstrzygać tego za użytkownika drugi raz** |
-| 2 | **umiejscowienie elektrod** | `09_UMIEJSCOWIENIE.md` | argument za potylicą osłabł po K-028. Rekomendacja bez zmian: zrobić z geometrii zmienną mierzoną |
-| 3 | skala widoczności / gabarytu | `06` sekcja 4 | zatwierdzić albo poprawić |
-| 4 | E1 — potwierdzenie korekty K-001 | `00_PYTANIA_I_LUKI.md` 1.1 | 8 miesięcy do El-Robo-Mech, nie 14 |
-
-### 3.2 Do zrobienia poza komputerem, jesień 2026
-
-1. **rozmowa z dyrekcją szkoły** o powołaniu komisji IRB (nauczyciel inny niż opiekun + dyrektor + pielęgniarka lub psycholog). Najdłuższy proces w harmonogramie formalnym
-2. **mail do FZT** — czy organizator prowadzi SRC pełniące funkcję IRB. Może skasować punkt 1
-3. **mail do FZT i do Funduszu ZDOLNI** — czy start w Explory i EUCYS można łączyć
-4. **pisemna zgoda opiekuna** na Adult Sponsor i Direct Supervisor
-
-### 3.3 Pozycje merytoryczne otwarte
-
-| Co | Dlaczego |
+| Ustalenie | Podstawa |
 |---|---|
-| **pełne teksty prac w otwartym dostępie** — SpiralE (PMC10349124), Kappel (PMC5553928), Lee (PMC8688416) | odczytane są abstrakty, nie pełne teksty. Te trzy da się przeczytać za darmo i **na nich stoi najwięcej twierdzeń** |
-| licencje publicznych zbiorów danych | wymagają otwarcia stron z danymi. **Przed użyciem czegokolwiek** |
-| `02_MECHANIZMY.md` | **jedyny plik treściowy nieweryfikowany źródłowo w tej sesji.** Zawiera wyjaśnienia mechanizmów fizycznych, nie liczby, więc ryzyko jest niższe — ale nie zerowe |
-| Explory 2016–2024, liczby projektów neuro | archiwalne listy są aplikacjami renderowanymi w przeglądarce; przeglądarka w tym środowisku nie ma dostępu do sieci (patrz sekcja 5) |
-| regulamin ISEF 2027–2028 | jeszcze nie istnieje, ~połowa 2027. **Przeczytać wtedy od nowa** |
-| regulamin El-Robo-Mech XII i OITwEiM 2026/27 | ukażą się jesienią 2026 |
+| **paradygmat: SSVEP** | wynika z decyzji C2 i z umiejscowienia |
+| **umiejscowienie: zwarty moduł potyliczny**, bez łuku, bez drugiego miejsca | K-036, trzy źródła: referencja laplasjanowa optymalna dla SSVEP |
+| **rozstaw elektrod: zmienna mierzona, nie założenie** | decyzja użytkownika; płytka ma obsłużyć kilka rozstawów |
+| **twierdzenie: przepustowościowe (ITR, bit/min)** | decyzja C2 użytkownika |
+| **oś naukowa: analogowa kompensacja artefaktu SZCZĘKOWEGO przed wzmocnieniem** | K-026, K-043; punkt odniesienia Kołodziej 2026 (+9 pp cyfrowo) |
+| **kalendarz: kampania pod ISEF od V 2027** | K-023, K-046 — potwierdzone na trzech rocznikach regulaminu |
+| **gabaryt: nic zbliżonego do opaski przechylonej na tył głowy** | granica twarda użytkownika |
+| **zakaz słowa „pierwszy" w materiałach zgłoszeniowych** | K-044 — nazwany konkurent |
 
 ---
 
-## 4. Pułapki — zaktualizowane
+## 4. Od czego zacząć etap 2
 
-Poprzednia wersja wymieniała K-012/K-018, K-014, K-015, K-016, K-019 i nazywała wspólny wzorzec: **budowanie mocnego twierdzenia na własnym założeniu, bez sprawdzenia**.
+Handbook, sekcja 11, żąda pięciu rzeczy. Ocena szans jest zrobiona z wyprzedzeniem. Zostają cztery:
 
-**Ta sesja pokazała, że wzorzec ma drugą, gorszą odmianę: budowanie mocnego twierdzenia na cudzym streszczeniu, bez sprawdzenia.** Trzy najpoważniejsze wpadki tej sesji to K-026, K-027 i K-028 — wszystkie polegały na tym, że streszczenie mówiło coś podobnego do prawdy, a oryginał mówił coś innego.
+1. **gotowy projekt** — co konkretnie budujemy, z czego, za ile, w jakiej kolejności, z kamieniami milowymi w kalendarzu z sekcji 3 handbooka
+2. **twierdzenie w jednym zdaniu, z baseline'em** — szkielet jest, wymaga domknięcia
+3. **plan eksperymentalny** — co mierzone, ile prób, jakie zakresy, jaka niepewność. **To jest największy blok pracy**
+4. **ryzyka z planem awaryjnym** dla każdego
 
-**Konkretne reguły, które z tego zostają:**
+### 4.1 Trzy tory na jesień 2026, dwa niezależne od powodzenia trzeciego
 
-1. **Przy każdej liczbie z literatury podawać liczbę badanych.** Liczba „16,6 bit/min" wyglądała solidnie, dopóki nie okazało się, że pochodzi z badania na **czterech osobach** (K-031)
-2. **Sprawdzać rok publikacji, zanim się uzna coś za stan techniki.** Liczby opisujące „pułap formy dousznej" pochodziły z 2015 i 2022, a praca z 2023 przesunęła go o rząd wielkości (K-028)
-3. **Zgodność trzech streszczeń nie jest weryfikacją.** CMRR układu ADS1299 był oznaczony jako „najpewniejsza liczba w pliku, trzy niezależne opisy" i był błędny o 10 dB (K-030)
-4. **Twierdzenie „nie znalazłem, więc nie ma" jest zakazane bez podania, gdzie się szukało.** K-027 obalił takie twierdzenie jednym zapytaniem w PubMed
-5. **Szukać także najwcześniejszej pracy, nie tylko najświeższej.** Rola sEMG jako źródła sterowania wyglądała na zamkniętą w 2025; pierwszeństwo jest z **2014** (`04` sekcja 4)
+**Tor A — sprzęt kupiony.** Moduł ADS1299, stymulator migający (diody, nie ekran — Kołodziej używał LED-ów), pierwsze własne zapisy z potylicy. Cel: **własny, zmierzony punkt wyjścia**.
+
+**Tor B — dekodowanie.** Dwa publiczne zbiory na licencji CC-BY: Zhu 2021 (**102 osoby**, 12 celów, elektrody mokre i suche) oraz Lee 2021 (24 osoby, ear-EEG + skalp, ERP i SSVEP, EOG, IMU). Cel: klasyfikator odtwarzający opublikowane liczby.
+
+**Tor C — własny sprzęt.** Nauka PCB, projekt front-endu z kompensacją. Tu leży wkład naukowy i tu leży ryzyko.
+
+**Kolejność: A i B równolegle od zaraz, C po opanowaniu projektowania płytek.** Wszystko przed majem 2027 jest poza oknem 12 miesięcy ISEF, więc to jest czas rozwojowy.
+
+### 4.2 Dwie rzeczy do wyciągnięcia z literatury na start
+
+1. **Pełny tekst Kołodziej i in. 2026** (PMC12899023, otwarty dostęp) — konkretnie **rozbicie udziału kanału szczękowego wobec karkowego**. Podali, że szczęka i Cz były najskuteczniejsze, ale nie odczytałem rozbicia. To jest pierwsza liczba potrzebna do projektu układu.
+2. **Problem Cz** (K-045) — Kołodziej ustalił, że Cz jest jednym z dwóch najlepszych kanałów pomocniczych, a Cz leży na wierzchołku głowy, czyli poza dopuszczalną formą. Ile korzyści przeżywa bez Cz — do zmierzenia, i jest to osobne, publikowalne pytanie.
+
+### 4.3 Dwie rzeczy poza komputerem
+
+Użytkownik zgłosił, że z komisją IRB i formalnościami nie będzie problemu, więc te pozycje schodzą z listy ryzyk. Zostaje:
+
+- **mail do FZT i do Funduszu ZDOLNI** — czy start w Explory i EUCYS można łączyć
+- **regulamin El-Robo-Mech XII i OITwEiM 2026/27** — ukażą się jesienią 2026
 
 ---
 
-## 5. Sprawy techniczne środowiska
+## 5. Wzorce błędów z tej sesji — czytać przed pierwszą korektą
 
-- **sieć: działa.** To środowisko ma pełny dostęp wychodzący. Zweryfikowane na `societyforscience.org`, `explory.pl`, `pubmed.ncbi.nlm.nih.gov`, `ti.com`, `isef.net`, `sspcdn.blob.core.windows.net`
-- **przeglądarka nie działa.** Chromium jest zainstalowany, ale nie ma dostępu do sieci nawet przez proxy (`ERR_CONNECTION_RESET`). **Skutek: stron renderowanych po stronie klienta nie da się odczytać.** Dotyczy `final.explory.pl` i archiwalnych stron Explory. Obejście, które zadziałało: szukać danych w metatagach (`isef.net`), w plikach PDF publikowanych obok strony (`Wyniki_Polfinal_2026.pdf`), albo w formularzach POST (`abstracts.societyforscience.org`)
-- **PubMed przez E-utilities działa i jest najlepszym kanałem do literatury.** Indeksuje także IEEE TBioCAS i IEEE TBME, więc obejmuje literaturę układową. Skrypty pomocnicze zostały w katalogu tymczasowym sesji i **nie są w repozytorium** — trzeba je napisać od nowa, to kilkanaście linijek
-- **`pypdf` wymaga naprawy `cffi`** przed użyciem: `pip install --force-reinstall cffi`. Bez tego wysypuje się na module kryptograficznym
-- **gałąź:** ta sesja pracuje na `claude/verify-complete-docs-mmu2qn`. Repozytorium ma też `main` i `claude/oto-handbook-instrukcje-g3e7hd`. **Commituj na gałąź, na której wylądowałeś, i nie zajmuj użytkownika gałęziami** — pisze z telefonu
+Poprzednia wersja tego pliku wymieniała wzorzec: **budowanie mocnego twierdzenia na własnym założeniu, bez sprawdzenia.** Etap 1 dołożył trzy nowe i wszystkie są moje.
+
+1. **Zmiana konfiguracji projektu nie wywołała ponownego audytu prior art.** Pierwsze przeszukanie robiłem dla wersji dousznej; po przejściu na potylicę nie powtórzyłem go. Praca Kołodzieja (O1/O2/Oz) nie mogła wyjść pod zapytaniami o ucho. **Każda zmiana umiejscowienia, paradygmatu albo osi wymaga powtórzenia przeszukania.**
+2. **Przenoszenie osi projektu razem ze zmianą miejsca, wbrew własnemu zapisowi** (K-042). Plik `09` mówił wprost, że przy potylicy oś trzeba wyprowadzić od nowa. Zignorowałem to.
+3. **Przesadzone korekty — trzy przypadki** (K-029/K-047, K-040). Korygowałem zbyt pewnie, na pierwszym znalezionym dopasowaniu, nie sprawdzając, czy autorzy nie mają kilku prac o zbliżonym tytule, i nie czytając pełnego tekstu, zanim podważyłem liczbę.
+
+**Reguła operacyjna, która z tego zostaje:** przed skorygowaniem czegokolwiek — sprawdź, czy nie ma drugiej pracy tych samych autorów, i czy masz pełny tekst, a nie sam abstrakt.
 
 ---
 
-## 6. Jedno zdanie na koniec
+## 6. Sprawy techniczne środowiska
 
-Etap 1 jest zamknięty i jego wynik jest **inny**, niż wyglądał rano: formalności są łatwiejsze, konkurencja na Explory prawie nie istnieje, konkurencja na ISEF rośnie szybko, a forma douszna ma pułap o rząd wielkości wyżej, niż zakładaliśmy — w warstwie, w której użytkownik jest mocny. **Etap 2 można zaczynać, ale nie od miejsca, w którym rano się wydawało, że się kończy.**
+- **sieć działa.** Zweryfikowane: `societyforscience.org`, `explory.pl`, `pubmed.ncbi.nlm.nih.gov`, `export.arxiv.org`, `api.crossref.org`, `patents.google.com`, `ti.com`, `isef.net`, `sspcdn.blob.core.windows.net`, `pmc.ncbi.nlm.nih.gov`
+- **przeglądarka nie działa** — Chromium jest zainstalowany, ale nie ma dostępu do sieci nawet przez proxy (`ERR_CONNECTION_RESET`). Stron renderowanych po stronie klienta nie odczytasz. Obejścia, które zadziałały: metatagi (`isef.net`), pliki PDF publikowane obok strony (`Wyniki_Polfinal_2026.pdf`), formularze POST (`abstracts.societyforscience.org`)
+- **kanały do literatury, w kolejności użyteczności:** PubMed E-utilities (najlepszy, indeksuje też IEEE TBioCAS i TBME), **Crossref API** (pokrywa ISSCC, ISCAS, BioCAS — czyli konferencje układowe, których nie ma w PubMed), arXiv API. **OpenAlex i Semantic Scholar odmówiły** — wyczerpany limit zapytań, HTTP 429
+- **`pypdf` wymaga naprawy `cffi`** przed użyciem: `pip install --force-reinstall cffi`
+- **uwaga na polskie cudzysłowy** w skryptach Pythona pisanych w heredoc — znak zamykający jest zwykłym `"` i kończy napis
+- **gałęzie:** `main` oraz `claude/verify-complete-docs-mmu2qn`. Po zamknięciu etapu 1 obie mają identyczną treść. **Commituj na tę, na której wylądujesz, i nie zajmuj użytkownika gałęziami** — pisze z telefonu
+
+---
+
+## 7. Jedno zdanie na koniec etapu 1
+
+Z czterech kandydujących twierdzeń projektu **przeżyło jedno**, i jest to jedyne, które od początku było formułowane jako pomiar, a nie jako pierwszeństwo. Trzy pozostałe zabił audyt — zanim cokolwiek zbudowano, zanim wydano złotówkę i zanim złożono zgłoszenie. **To jest różnica między tym projektem a dronem.**

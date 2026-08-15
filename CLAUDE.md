@@ -16,9 +16,17 @@ Użytkownik: Julek. **Odpowiadaj po polsku.**
 2. badanie na sobie **zwolnione** z uprzedniej zgody komisji; osobnej kategorii ryzyka dla urządzeń elektrycznych **nie ma**; Qualified Scientist **nie wymaga doktoratu**
 3. oś projektu: wersja ogólna zajęta od 1983, analogowa dla artefaktów ruchowych od 2019. **Twierdzenie musi być pomiarowe, nie o pierwszeństwie**
 
-**Etap 2: opracowanie projektu.** Czeka na cztery decyzje użytkownika — `README.md`, sekcja „Decyzje czekające na użytkownika". **Nie rozstrzygaj C2 samodzielnie** — poprzednia rekomendacja została wycofana, bo stała na błędnej liczbie (K-028).
+**Wszystkie cztery decyzje użytkownika ZAPADŁY** — `DECYZJE.md`:
+1. **C2: wariant 3 — przepustowość.** Metryka główna: dokładność i ITR w bit/min. Punkt odniesienia: Xing 2018, 92,35 bit/min
+2. **umiejscowienie: moduł zwarty na potylicy**, bez łuku, bez zausznika, bez drugiego miejsca elektrod (K-036)
+3. **skala gabarytu zatwierdzona.** Granica twarda: nic zbliżonego do opaski przechylonej na tył głowy. Rozstaw elektrod do zmierzenia, nie do założenia
+4. **kalendarz przyjęty.** Kampania pomiarowa pod ISEF startuje **maj 2027** (K-023, potwierdzone na trzech rocznikach w K-046)
 
-Zacznij od `00_STRESZCZENIE.md` sekcja 0 i od `PRZEKAZANIE.md`.
+**Etap 1 ZAMKNIĘTY po trzech przejściach audytu adwersaryjnego** — `12_AUDYT.md`. Korekty K-020…K-047.
+
+**Oś projektu, jedyna, która przeżyła audyt:** analogowa kompensacja **artefaktu szczękowego** z dedykowanego kanału referencyjnego, **przed wzmocnieniem**, w zwartym module potylicznym. Punkt odniesienia zewnętrzny: Kołodziej i in., *Sensors* 2026 — ta sama idea **cyfrowo**, +9 pp. **Nigdy nie używaj słowa „pierwszy"** w materiałach zgłoszeniowych (K-044).
+
+**Etap 2: opracowanie projektu.** Zaczyna się w nowej rozmowie. Zacznij od `PRZEKAZANIE.md`, potem `12_AUDYT.md` sekcja 14 i `DECYZJE.md`.
 
 ## Ustalenia wiążące, nie do podważania bez nowego argumentu
 

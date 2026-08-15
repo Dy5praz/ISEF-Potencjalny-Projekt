@@ -6,7 +6,13 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 
 ---
 
-## Stan na 15 sierpnia 2026, wieczór — po weryfikacji w oryginałach
+## ETAP 1 ZAMKNIĘTY — 15 sierpnia 2026
+
+> Zamknięty po **trzech przejściach audytu adwersaryjnego** (`12_AUDYT.md`). Przeszukane kanały: PubMed, arXiv, Crossref, baza patentów, bazy abstraktów ISEF, regulaminy obu konkursów. **Dwadzieścia osiem korekt, K-020…K-047.**
+>
+> **Etap 2 zaczyna się w nowej rozmowie.** Punkt startowy: `PRZEKAZANIE.md`, potem `12_AUDYT.md` sekcja 14 i `DECYZJE.md`.
+
+### Stan po weryfikacji w oryginałach
 
 | Etap | Status |
 |---|---|
