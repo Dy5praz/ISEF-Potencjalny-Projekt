@@ -45,5 +45,5 @@ Pełna lista w sekcjach 2.1 i 2.2 handbooka. Skrót:
 ## Uwagi praktyczne
 
 - użytkownik często pisze z telefonu — nie zlecaj mu czynności wymagających przełączania się między aplikacjami, jeżeli da się je wykonać po twojej stronie
-- ta gałąź jest domyślna w repozytorium; nowa sesja ląduje na niej sama
+- repozytorium ma dwie gałęzie o identycznej treści: `main` i `claude/oto-handbook-instrukcje-g3e7hd`. `main` została dodana 15 VIII 2026 tylko po to, żeby formularz nowej sesji się nie wykrzaczał. **Commituj na tę gałąź, na której wylądowałeś, i nie zajmuj użytkownika gałęziami** — pisze z telefonu
 - **etap 1 wymaga środowiska z `Network access: Full`.** Przy poziomie `Trusted` zablokowane są bazy publikacji, strony konkursów i wyszukiwarki naukowe — sprawdzone empirycznie 15 VIII 2026, szczegóły w `00_PYTANIA_I_LUKI.md` sekcja 0
