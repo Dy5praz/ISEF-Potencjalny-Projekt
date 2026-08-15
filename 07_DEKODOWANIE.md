@@ -143,4 +143,3 @@ Wzmacnia to obserwacja z sekcji 9.2 handbooka: ta sama osoba wygrała rok wcześ
 **[luka] Licencji nie sprawdziłem dla żadnego zbioru** — to wymaga otwarcia stron. Przed użyciem czegokolwiek w projekcie konkursowym licencja musi być sprawdzona, bo standardy etyczne Explory (sekcja 4.5) i zasady ISEF dotyczą także danych wtórnych.
 
 **[wniosek] Obserwacja, która może być elementem wkładu projektu:** **nie znalazłem publicznego zbioru ear-EEG pod zadania sterowania.** Istniejące dotyczą snu i uwagi słuchowej. Jeżeli to się potwierdzi po przeszukaniu baz, opublikowanie własnego zbioru razem z projektem jest tanie i punktowane — pokazuje weryfikowalność, której nie ma żaden produkt komercyjny z `05_RYNEK.md` sekcja 6.
-</content>

@@ -121,4 +121,3 @@ Użytkownik nie ma sprzętu pomiarowego. Połowa twierdzenia o własnym torze an
 2. **impedancja i stabilność elektrod suchych w formie zausznej** — materiały i mechanika
 3. **standaryzacja referencji w ear-EEG** — luka metodologiczna, tania, wymaga staranności zamiast sprzętu
 4. **metryki użytkowe zamiast przepustowościowych** — pole opisane jako ważne, a rzadko mierzone
-</content>

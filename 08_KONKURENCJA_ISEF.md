@@ -121,4 +121,3 @@ Handbookowe rozbicie (Research Problem 10 / Design and Methodology 15 / Executio
 **[wniosek] 2. Ryzyko na ISEF jest realne i udokumentowane.** Projekt o interfejsach nieinwazyjnych zdobył Grand Award w kategorii biomedycznej na ISEF 2026. Pole jest obsadzone i widoczne dla jurorów — którzy w 2028 będą pamiętać tamtą pracę. To argument **za** wyraźnym odróżnieniem twierdzenia (sterowanie, nie komunikacja), a nie za unikaniem tematu.
 
 **[wniosek] 3. Wąskie gardło pozostaje tam, gdzie wskazała korekta K-003:** przejście półfinał → finał Explory, ~14–17%, oceniane w trzech czwartych po kryteriach zależnych od znajomości literatury i jakości prezentacji. **Ten etap pracy jest bezpośrednio punktowany w najwęższym miejscu lejka** — i to jest argument, żeby domknąć pozycje niezamknięte, a nie przejść do budowania.
-</content>

@@ -49,12 +49,12 @@ Skala widoczności wg `06_TABELA_PARAMETROW.md` sekcja 4: **0** = niewidoczne z 
 
 - **odzyskuje rząd wielkości ITR** dla SSVEP, patrz sekcja 1
 - alfa potyliczna jest najsilniejszym rytmem, jaki EEG w ogóle rejestruje — czyli **rezerwa na paradygmat zapasowy**, gdyby SSVEP odpadł
-- **może być bardziej niewidoczne niż zausznik, nie mniej.** Rzecz schowana pod włosami z tyłu głowy to stopień 0. Aparat słuchowy to stopień 1. Wymaganie „zero hełmów" nie mówi „przy uchu", tylko „nie ma być widać"
+- **widoczność przestała być przeszkodą** — użytkownik rozstrzygnął (sekcja 5a), że kilka małych elementów z tyłu głowy przechodzi, także widocznych. Ten argument nie musi już opierać się na chowaniu pod włosami
 - większy dostępny rozstaw elektrod (O1–O2 to kilka centymetrów) → lepszy stosunek sygnału do szumu przy tym samym torze
 
 ### 3.2 Co przemawia przeciw
 
-- **włosy.** To jest główny problem inżynierski. Elektrody suche przez włosy wymagają szpilek lub pazurków, docisku, i mają gorszy oraz mniej stabilny kontakt niż na skórze gołej. Impedancje, które mam zmierzone (4 kΩ mokra, ~450 kΩ sucha), dotyczą **kanału słuchowego, czyli skóry bez włosów** — dla owłosionej potylicy będzie gorzej `[wniosek]`
+- **włosy.** Po odpowiedziach z sekcji 5a to jest **jedyny poważny zarzut, jaki został** — i jest inżynierski, nie estetyczny. Elektrody suche przez włosy wymagają szpilek lub pazurków, docisku, i mają gorszy oraz mniej stabilny kontakt niż na skórze gołej. Impedancje, które mam zebrane (4 kΩ mokra, ~450 kΩ sucha), dotyczą **kanału słuchowego, czyli skóry bez włosów** — dla owłosionej potylicy będzie gorzej `[wniosek]`. **To jest pozycja do zmierzenia w pierwszej kampanii, nie do rozstrzygnięcia teraz**
 - **mocowanie.** Za uchem jest małżowina, w kanale jest sam kanał. Na potylicy nie ma się o co zaczepić. Zostaje: cienki łuk pod włosami z tyłu głowy, klej (tak trzyma się cEEGrid), albo wpięcie we włosy
 - **mięśnie karku.** Zamiast szczęki dostajemy prostowniki karku. `[domysł, do sprawdzenia]` możliwe, że to zakłócenie jest **rzadsze**, bo mówi się i żuje stale, a kark napina się przy ruchach głowy — ale to jest domysł i wymaga pomiaru, nie założenia
 - **SSVEP wymaga patrzenia na migający obiekt**, więc traci się argument „działa przy zamkniętych oczach" i wchodzi się w bezpośrednie porównanie z eye trackingiem
@@ -66,12 +66,12 @@ Skala widoczności wg `06_TABELA_PARAMETROW.md` sekcja 4: **0** = niewidoczne z 
 Dlaczego to się składa:
 - wyrostek sutkowaty za uchem to **klasyczna pozycja elektrody odniesienia** w EEG — czyli i tak jej tam potrzebujemy
 - małżowina daje zaczep mechaniczny dla całości i miejsce na baterię oraz płytkę
-- łuk biegnie z tyłu głowy, **pod włosami**, nie przez czoło i nie przez czubek — to nie jest opaska w rozumieniu Muse
+- łuk biegnie z tyłu głowy, nie przez czoło i nie przez czubek — mieści się w granicy z sekcji 5a
 - rozstaw potylica ↔ wyrostek sutkowaty jest duży, więc amplituda różnicowa duża
 
 To zachowuje mocne strony formy zausznej (mocowanie, elektronika, brak włosów pod referencją) i odzyskuje sygnał, którego przy uchu nie ma.
 
-**Czego nie wiem i co decyduje, czy to działa:** czy przy fryzurze użytkownika łuk z tyłu głowy jest niewidoczny. To pytanie do użytkownika, nie do literatury.
+**Rozstrzygnięte 15 VIII 2026:** widoczność łuku nie jest przeszkodą (sekcja 5a). Otwarte pozostaje jedno — **kontakt elektrody przez włosy** — i to jest pytanie do pomiaru, nie do użytkownika.
 
 ---
 
@@ -102,7 +102,6 @@ Pytania postawione i **odpowiedziane 15 VIII 2026** — patrz sekcja 5a.
 - **elektrody nad korą ruchową (C3/Cz/C4) pozostają wykluczone** — wymagają czapki, stopień widoczności 4. Ustalenie „odczyt dyskretny" trzyma się niezależnie od tego pliku
 - **wymaganie bezpieczeństwa** z sekcji 12 handbooka: zasilanie bateryjne albo izolacja galwaniczna, niezależnie od umiejscowienia
 - **twierdzenie pomiarowe zamiast twierdzenia o pierwszeństwie** — patrz `00_STRESZCZENIE.md` sekcja 1.1
-</content>
 
 
 ---

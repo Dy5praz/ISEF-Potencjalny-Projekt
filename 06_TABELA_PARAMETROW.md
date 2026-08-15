@@ -136,4 +136,3 @@ Stopnie 0–4 poniżej zostają jako narzędzie opisowe, ale **próg akceptacji 
 **Rekomendacja bez zmian względem `00_STRESZCZENIE.md`: wariant 2 jako oś twierdzenia, wariant 1 jako tabela towarzysząca.**
 
 **4. Wiersz projektu referencyjnego zostaje pusty w każdej kolumnie poza wpm, a i tam z `[domysł]`.** Zgodnie z K-004 i sekcją 9.2 handbooka nie ustawiamy tego wyniku jako progu — ten wiersz jest w tabeli po to, żeby było widać, że nie ma z czym się porównywać, a nie żeby się porównywać.
-</content>

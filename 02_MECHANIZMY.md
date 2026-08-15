@@ -139,4 +139,3 @@ Fizyka mówi, co da się zmierzyć. **Paradygmat** mówi, co użytkownik ma zrob
 1. **EEG mierzy zsumowaną, zsynchronizowaną aktywność dużych populacji neuronów, przefiltrowaną przestrzennie przez czaszkę.** Rozdzielczość ~5–9 cm jest ograniczeniem fizycznym.
 2. **Sygnał użyteczny (10–100 µV) jest 10–100 razy mniejszy niż zakłócenia mięśniowe i oczne**, które przy uchu leżą bezpośrednio pod elektrodą — i tam są większym problemem niż na skalpie.
 3. **Miejsce elektrody decyduje, jakie sygnały są dostępne.** Przy uchu blisko jest kora słuchowa; kora ruchowa i wzrokowa są daleko. Tego nie zmienia żaden wzmacniacz ani algorytm — to jest geometria.
-</content>

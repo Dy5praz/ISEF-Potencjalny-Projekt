@@ -11,9 +11,11 @@ Pierwsza wersja tego pliku prowadziła od znalezisk do wniosków. To był zły p
 
 Wersja, którą da się obronić po przemiale, w jednym miejscu:
 
-> **Urządzenie zauszne wielkości aparatu słuchowego, rejestrujące EEG, z analogową kompensacją zakłóceń mięśniowo-ocznych przed wzmocnieniem, sterujące obiektem kilkoma komendami dyskretnymi.**
-> **Twierdzenie jest pomiarowe:** kompensacja analogowa poprawia mierzalny parametr toru o X względem identycznego układu bez kompensacji, w warunkach, w których zakłócenia przy uchu są największe (mowa, żucie, ruch oczu).
-> **Przewaga nad rynkiem leży w metryce użytkowej**, nie w przepustowości.
+> **Urządzenie noszone na głowie, złożone z modułów nie większych niż aparat słuchowy, rejestrujące EEG, sterujące obiektem kilkoma komendami dyskretnymi.**
+> **Twierdzenie jest pomiarowe**, nie o pierwszeństwie.
+> **Umiejscowienie elektrod: DECYZJA OTWARTA** — `09_UMIEJSCOWIENIE.md`. Rekomendacja: uczynić z geometrii **zmienną mierzoną**, nie wybieraną założeniem.
+
+**Uwaga do tej sekcji, 15 VIII 2026 wieczorem:** poniższe podsekcje 1.1–1.4 powstały przy założeniu formy zausznej. Użytkownik to założenie **unieważnił** (K-019), a następnie rozluźnił samo wymaganie: kryterium to **gabaryt, nie widoczność**, granica twarda to hełm. Co przez to przestaje obowiązywać — zaznaczone w każdej podsekcji.
 
 Cztery rzeczy zmieniły się w tym opisie względem stanu sprzed etapu 1, i każda z nich jest decyzją, nie ciekawostką.
 
@@ -25,7 +27,9 @@ Nie znalazłem kompensacji konkretnie EMG szczękowego i EOG, z kanału referenc
 
 **Co z tego robimy:** twierdzenie „pierwszy raz" jest niedostępne i nie warto o nie walczyć. Twierdzenie „ten układ poprawia X o Y, oto pomiar" jest dostępne, mocniejsze i **nie unieważni go znalezienie cudzej pracy w połowie 2027 roku**. Przy historii tego projektu — trzy kierunki ubite przez prior art — to jest różnica między planem odpornym a kolejnym kadłubkiem.
 
-### 1.2 Przewaga jest w metryce użytkowej, bo w przepustowości nie da się wygrać
+### 1.2 Przewaga w metryce użytkowej — **teza osłabiona po otwarciu umiejscowienia**
+
+> **Nieaktualne w wersji kategorycznej.** Zdanie „w przepustowości nie da się wygrać" jest prawdziwe **dla ucha**, nie dla projektu. Przy dostępnej potylicy SSVEP wraca do gry z ITR rzędu 70–92 bit/min. Metryka użytkowa pozostaje **mocnym kandydatem**, ale nie jest już jedynym wyjściem.
 
 **Powód, liczbowo:** SSVEP z elektrod potylicznych daje ~92 bit/min. Ten sam paradygmat z ucha: 6–17 bit/min. Różnica pięcio- do piętnastokrotna i wynika z geometrii — odległości od kory i rozstawu elektrod — a nie z jakości wykonania. Żaden wzmacniacz tego nie odrobi.
 
@@ -67,7 +71,7 @@ Bliskość anatomiczna nie wystarcza — liczy się też orientacja dipola i roz
 
 ## 3. Czego NIE robimy — lista zamknięta
 
-Wynika z `03_SCIANY_FIZYCZNE.md`. Każda pozycja to twierdzenie, którego nie da się obronić przy formie zausznej:
+Wynika z `03_SCIANY_FIZYCZNE.md`. **Pozycje 1, 4 i 5 obowiązują niezależnie od umiejscowienia. Pozycje 2 i 3 dotyczą wyłącznie formy zausznej** i przy potylicy trzeba je przeliczyć:
 
 - **rozdzielczość porównywalna z inwazyjnymi** — czaszka rozmywa sygnał do ~5–9 cm i to jest ściana fizyczna
 - **wyższy ITR niż czapka przy tym samym paradygmacie** — geometria, sekcja 1.2
@@ -123,4 +127,3 @@ Pozycje 1, 5, 6, 7, 8, 9 z listy 4d są zrobione.
 | `08_KONKURENCJA_ISEF.md` | kalendarz, El-Robo-Mech, projekt referencyjny |
 | `ISEF_HUMAN_PARTICIPANTS.md` | **formalności i terminarz wsteczny — najpilniejsze** |
 | `KOREKTY.md` | K-001…K-018, w tym cztery błędy moje z tego etapu |
-</content>

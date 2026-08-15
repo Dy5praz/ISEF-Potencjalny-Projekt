@@ -97,4 +97,3 @@ W etapie 1 doszedł znacznik złożony **`[wniosek, streszczenie]`** — twierdz
 Każda liczba, na której cokolwiek się opiera: 2–3 niezależne źródła. Jedno źródło — oznaczone wyraźnie przy twierdzeniu, nie w przypisie.
 
 Hierarchia przy sprzeczności: dokument regulaminowy > publikacja recenzowana > preprint > materiał prasowy > blog/forum.
-</content>

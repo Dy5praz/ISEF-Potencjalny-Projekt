@@ -117,4 +117,3 @@ Handbook żądał terminarza wstecznego. Poniższy jest zbudowany na ustaleniach
 7. sprawdzić, czy zwolnienie dla badania na sobie obowiązuje także przy urządzeniu elektrycznym
 
 **Pozycje 5 i 7 są zależne od siebie i razem rozstrzygają, czy pierwszy rok pracy może iść bez formalności, czy nie.** To jest pytanie warte odpowiedzi przed rozpoczęciem jakichkolwiek pomiarów, i jest to jedyna pozycja w całym etapie 1, w której nieodczytanie oryginału ma bezpośrednie konsekwencje dyskwalifikacyjne.
-</content>

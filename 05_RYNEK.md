@@ -120,4 +120,3 @@ Materiały branżowe do aparatów słuchowych: seria **E-Shell** (EnvisionTEC/ET
 | **surowy dostęp do sygnału** | konsumenckie oddają wskaźniki, **nie surowy sygnał** | **tu mamy przewagę strukturalną** |
 
 **[wniosek] Ostatni wiersz jest ważniejszy, niż wygląda.** NextSense i IDUN oddają „wskaźnik gotowości poznawczej", a nie mikrowolty. Oznacza to, że **nikt z zewnątrz nie może zweryfikować ani powtórzyć ich wyników** — a projekt otwarty, z surowym sygnałem i opublikowanym zbiorem danych, może. To jest wymiar przewagi, którego nie da się kupić za pieniądze i który arkusze oceny punktują wprost.
-</content>

@@ -84,4 +84,3 @@ To jest linia, w którą wchodzi projekt użytkownika. Jest **młoda: ma kilkana
 **[wniosek] 2. Forma douszna nigdy nie wygrała z czapką w przepustowości i nie po to powstała.** Cała linia z sekcji 2 to prace o wygodzie, długim noszeniu, monitoringu snu i uwagi. **Nikt w tej linii nie obiecuje bicia czapki na ITR.** To jest bezpośrednia wskazówka, jak formułować twierdzenie projektu — patrz `00_STRESZCZENIE.md` sekcja 7 punkt 1.
 
 **[wniosek] 3. Metryka „słowa na minutę" wędruje między pracami bez wspólnej definicji.** 62 wpm Willetta (wewnątrzkorowe, z modelem językowym), 78 wpm Metzgera (ECoG, słownik 1024), >100 wpm AlterEgo (mięśnie, nie mózg), ~12 wpm Chena (EEG, znaki przeliczone na słowa). **Zestawianie ich w jednym rzędzie jest bez sensu** i to jest dokładnie ta pułapka, o której mówi sekcja 10.G handbooka. Rozbiór w `07_DEKODOWANIE.md` sekcja 5.
-</content>

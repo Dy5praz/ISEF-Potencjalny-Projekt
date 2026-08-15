@@ -168,4 +168,3 @@ Sekcja 13 handbooka wymaga oznaczenia, jak pewne jest każde źródło. Skala uw
 | X — odrzucone | 5 |
 
 **[fakt] Pozycji przeczytanych w oryginale: 0.** To jest liczba, która opisuje ten etap najuczciwiej i dlatego stoi na końcu bibliografii, a nie w przypisie.
-</content>

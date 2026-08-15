@@ -135,4 +135,3 @@ Rozwinięcie w `07_DEKODOWANIE.md`. Tutaj same pozycje otwarte:
 | metryki użytkowe (czas montażu, stabilność w ciągu dnia, odsetek sesji bez rekalibracji) rzadko raportowane | wskazywane jako motywacja ear-EEG, rzadko mierzone | **tak** — tanie i dobrze punktowane |
 
 **Rozwinięcie wiersza trzeciego [wniosek]:** największy publiczny zbiór ear-EEG, jaki znalazłem, to **320 zapisów snu od 30 osób** (*Scientific Data*, 19 II 2025); drugi to cEEGrid od 98 osób do dekodowania uwagi słuchowej. **Nie znalazłem publicznego zbioru ear-EEG pod zadania sterowania.** Jeżeli to się potwierdzi, opublikowanie własnego zbioru wraz z projektem jest tanim i mocnym elementem wkładu — bo pokazuje, że praca jest weryfikowalna przez innych, co arkusze oceny punktują wprost.
-</content>
