@@ -127,7 +127,10 @@ Bez kompletu tych trzech nie masz prawa napisać, że coś odpada. Niewykonalno�
 
 **Dlaczego jeden strzał:** następny cykl to Explory 2028 → ISEF maj 2029, co koliduje z maturą. [wniosek] Ten cykl jest jedyny użyteczny.
 
-**Ile realnie czasu:** do zgłoszenia ~6,5 miesiąca, ale zgłoszenie nie wymaga gotowości. Do działającego prototypu ~14 miesięcy (El-Robo-Mech). Do ISEF ~21 miesięcy. **Nie licz sześciu.**
+**Ile realnie czasu:** do zgłoszenia ~6,5 miesiąca, ale zgłoszenie nie wymaga gotowości. Do działającego prototypu **~8 miesięcy** (El-Robo-Mech, IV 2027). Do finału krajowego ~14 miesięcy. Do ISEF ~21 miesięcy. **Nie licz sześciu.**
+
+> **POPRAWKA, 15 VIII 2026 — `KOREKTY.md` K-001.** Pierwotnie było tu „do działającego prototypu ~14 miesięcy". To błąd arytmetyczny: 14 miesięcy to dystans do finału krajowego, do El-Robo-Mech jest **8 miesięcy**. Margines do pierwszego twardego terminu sprzętowego jest o 43% krótszy, niż podawał dokument.
+> **POTWIERDZENIE, etap 1 — `KOREKTY.md` K-013.** Założenie „finał X 2027 → ISEF V 2028" zostało **sprawdzone i potwierdzone**: wzorzec to finał w październiku roku N → ISEF w maju roku N+1 (Explory 2025 → ISEF 2026 Phoenix; Explory 2026 → ISEF 2027). Teza „jeden strzał" stoi.
 
 ---
 
@@ -333,6 +336,8 @@ Konsekwencja praktyczna: zasoby jednorazowe (wizyta w laboratorium uczelnianym, 
 
 **Rola:** zewnętrzna walidacja, której projektowi brakowało. Silne wpisy w Explory mają podium z niezależnych zawodów.
 
+> **POPRAWKA, etap 1, 15 VIII 2026 — `KOREKTY.md` K-016.** Powyższe zdanie skleja dwie różne role. Ustalone dla edycji XI (2025/2026): zgłoszenia do 25 III 2026, finał 15–16 IV 2026, tematyka od mechaniki po inżynierię biomedyczną (**interfejs neuralny kwalifikuje się**), nagrodą jest **indeks na studia**, laureatów **34**. To nie jest podium z selektywnych zawodów. El-Robo-Mech zachowuje wartość jako **wymuszony termin i tani dry-run prezentacji**, nie jako zewnętrzna walidacja w rozumieniu sekcji 4.13. Skutek: termin IV 2027 jest **samonarzucony** i można go przesunąć bez straty strategicznej. Szczegóły i alternatywy: `08_KONKURENCJA_ISEF.md` sekcja 4.
+
 **Do weryfikacji przez ciebie:** aktualny regulamin, kategorie, dokładna data 2027, **i czy projekt typu interfejs neuralny w ogóle się tam kwalifikuje** — to konkurs robotyczno-mechatroniczny i może nie mieć kategorii, w którą wchodzi urządzenie pomiarowe. Jeżeli nie kwalifikuje, znajdź alternatywne konkursy dające zewnętrzną walidację (polskie i międzynarodowe, dla licealistów, w obszarze elektroniki/biomedycyny).
 
 ---
@@ -383,7 +388,10 @@ Sformułowane przez niego, cytuję sens wiernie:
 
 ### 9.2 Precedens — dowód istnienia, nie wzorzec
 
-[fakt] ISEF 2026, kod projektu **ENBM074**. Autorka: **Ameya Kharade**, Nashua High School South, New Hampshire.
+[fakt] ISEF 2026. Autorstwo: **Ameya Kharade**, Nashua High School South, New Hampshire. Grand Award.
+
+> **POPRAWKA, etap 1, 15 VIII 2026 — `KOREKTY.md` K-012.** Ten akapit podawał wcześniej kod projektu **ENBM074**. Kod jest błędny: `ENBM074` to „Synthetic DNA Engineering With ICOR" (Rishab Jain, ISEF **2022**, nagroda Yancopoulos). Kody projektów ISEF są numerowane w obrębie edycji i używane ponownie w kolejnych latach, więc kod bez rocznika nie identyfikuje pracy. **Projekt nazywać tytułem, nie kodem.**
+> **Rodzaj gramatyczny nierozstrzygnięty — `KOREKTY.md` K-008.** Poniższy tekst używa rodzaju żeńskiego, bo tak został napisany pierwotnie; w dokumentach etapu 1 piszę neutralnie do czasu potwierdzenia.
 
 Tytuł: „Breaking the Brain-Computer Interface Ceiling: Discovering a New Paradigm for Brain-Machine Communication that Enables Noninvasive Interfaces to Reach Invasive-Class Communication Speeds".
 

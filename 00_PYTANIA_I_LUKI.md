@@ -62,6 +62,17 @@ en.wikipedia.org
 
 **Do czasu odblokowania robię wszystko, co nie zależy od sieci** — czyli ten plik, `KOREKTY.md` i strukturę repozytorium.
 
+### AKTUALIZACJA, 15 VIII 2026 — sesja etapu 1
+
+**Blokada nie została zdjęta.** Sprawdzone ponownie trzema drogami: tunel kontenera (403 na CONNECT), narzędzie WebFetch (`EGRESS_BLOCKED` dla `en.wikipedia.org`, `societyforscience.org`, `explory.pl`), bezpośredni `curl`. Przechodzą wyłącznie rejestry pakietów i GitHub.
+
+**Zmiana decyzji względem powyższego: etap 1 został mimo to wykonany w części, w której da się to zrobić uczciwie.** Powód: druga sesja bez żadnego produktu byłaby gorsza niż produkt z jawnie oznaczonym statusem źródłowym. Podział:
+
+- **wykonane** — literatura naukowa (pliki `01`–`07`), z oznaczeniem `[wniosek, streszczenie]` przy każdej liczbie i z bibliografią, w której widać, czego nie otwarto
+- **niewykonane** — dokumenty regulaminowe (ISEF International Rules, regulamin Explory, baza abstraktów, listy finalistów). Tu parafraza streszczenia byłaby błędem nr 5 z sekcji 8 handbooka, a dokument regulaminowy stoi na szczycie hierarchii z sekcji 13
+
+Pełne postawienie sprawy: `00_STRESZCZENIE.md` sekcja 0. Lista pozycji otwartych: `README.md`.
+
 ---
 
 ## 1. Błędy i rozbieżności znalezione w samym handbooku
