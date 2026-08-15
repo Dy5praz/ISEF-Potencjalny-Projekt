@@ -1,5 +1,31 @@
 # 09 — Gdzie ma być interfejs
 
+> # ROZSTRZYGNIĘTE — 15 VIII 2026, wieczór
+>
+> **Decyzja użytkownika:** zgoda na potraktowanie geometrii jako zmiennej mierzonej, **z twardym zastrzeżeniem: „niech nie zamieni się to w opaskę, ale z tyłu głowy"**. Do tego polecenie: *„zweryfikuj czy elektrody w 2 miejscach aż tak dużo zmieniają. Jak nie, to lecimy dalej z potylicą."*
+>
+> **Weryfikacja wykonana. Odpowiedź: nie zmieniają — zmieniają na gorsze.** Trzy niezależne źródła (`KOREKTY.md` K-036):
+> - Zhang i in., *J Neurophysiol* 130:557–568 (2023): porównanie czterech metod referencji na **siedmiu zbiorach**; **referencja laplasjanowa (lokalna) daje najwyższy SNR**, referencja na wyrostkach sutkowatych wypada gorzej
+> - Diez i in., EMBC 2010: zapis **bipolarny z bliskich par** 80,1% wobec **74,5%** dla referencji odległej
+> - Luo i in., EMBC 2025: trzecie potwierdzenie kierunku
+>
+> **Mój argument z sekcji 5b — „większy rozstaw, większa amplituda różnicowa, to jest główny zysk i on jest fizyczny" — był błędny.** Pomyliłem amplitudę ze stosunkiem sygnału do szumu. Większy rozstaw daje większą amplitudę, ale odległa referencja zbiera też nieskorelowany szum, którego bliska nie zbiera.
+>
+> ## WYNIK: moduł zwarty na potylicy. Bez łuku, bez zausznika, bez drugiego miejsca.
+>
+> Ten wybór wygrywa jednocześnie w trzech wymiarach, co się rzadko zdarza:
+> 1. **sygnałowo** — układ laplasjanowy jest optymalny dla SSVEP, potwierdzone na siedmiu zbiorach
+> 2. **konstrukcyjnie** — brak przewodu między modułami, więc brak anteny na 50 Hz, brak artefaktu tryboelektrycznego przy zginaniu, brak złącza w torze analogowym
+> 3. **gabarytowo** — jeden mały przedmiot z tyłu głowy, czyli **dokładnie to, czego zażądał użytkownik, i bez ryzyka „opaski przechylonej na tył"**
+>
+> **Co z tego zostaje jako jedyny nierozwiązany problem: mocowanie.** Na potylicy nie ma naturalnego zaczepu. To jest problem mechaniczny, czyli najmocniejsza umiejętność użytkownika — i jest to teraz **główna oś pracy konstrukcyjnej**, a nie kwestia poboczna.
+>
+> Sekcje 1–5b poniżej zostają jako **udokumentowana ścieżka decyzyjna** — arkusz inżynierski ISEF punktuje wprost `exploration of alternatives` (sekcja II, 15 pkt), więc porównanie ośmiu miejsc z uzasadnieniem odrzucenia jest materiałem na punkty, a nie balastem. Czytać je jako historię, nie jako obowiązujące ustalenia.
+
+---
+
+## Stan pierwotny pliku (przed rozstrzygnięciem)
+
 **Status: decyzja otwarta.** Do 15 VIII 2026 była zamknięta bez postawienia pytania — patrz `KOREKTY.md` K-019.
 
 Ten plik istnieje, bo forma „za uchem, wielkości aparatu słuchowego" była traktowana jak ograniczenie wejściowe, a jest jedną z możliwych odpowiedzi na rzeczywiste wymaganie. Rzeczywiste wymaganie brzmi: **niewidoczne albo nierozpoznawalne jako sprzęt, wygodne do noszenia, zero hełmów.**

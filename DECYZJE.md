@@ -1,7 +1,44 @@
-# DECYZJE — cztery rzeczy, które czekają na Ciebie
+# DECYZJE — cztery rzeczy, które czekały na Ciebie
 
 **Data:** 15 sierpnia 2026, po zamknięciu etapu 1
-**Po co ten plik:** decyzje były rozrzucone po czterech dokumentach. Tutaj są w jednym miejscu, z materiałem potrzebnym do rozstrzygnięcia i z jawnym zaznaczeniem, gdzie mam zdanie, a gdzie go świadomie nie stawiam.
+**Status: TRZY Z CZTERECH ROZSTRZYGNIĘTE 15 VIII wieczorem.**
+
+## Odpowiedzi
+
+| # | Decyzja | Rozstrzygnięcie |
+|---|---|---|
+| **1** | C2 — w czym „lepsze od komercyjnych" | **OTWARTA.** Zawężona do wariantów 2 i 3. Propozycja wyjścia z wahania: sekcja „Domknięcie decyzji 1" niżej |
+| **2** | umiejscowienie elektrod | **ZAMKNIĘTA: moduł zwarty na potylicy.** Zgoda na geometrię jako zmienną mierzoną, ale weryfikacja pokazała, że drugie miejsce elektrod **pogarsza** wynik. Bez łuku, bez zausznika. `KOREKTY.md` K-036 |
+| **3** | skala gabarytu | **ZATWIERDZONA**, z Twoim zastrzeżeniem wpisanym jako granica twarda: **żadnej konstrukcji zbliżającej się do opaski przechylonej na tył głowy** |
+| **4** | E1 — kalendarz | **PRZYJĘTY.** Wchodzi do handbooka jako obowiązujący |
+
+**Komisja IRB i formalności:** użytkownik zgłasza, że nie będzie z tym problemu. Pozycja schodzi z listy ryzyk.
+
+---
+
+## Domknięcie decyzji 1 — propozycja, nie rozstrzygnięcie
+
+Wahasz się między wariantem 2 (metryka użytkowa) a 3 (przepustowość). **Nie musisz teraz wybierać, i uważam, że nie powinieneś** — z tego samego powodu, dla którego zgodziłeś się nie wybierać umiejscowienia założeniem.
+
+**Te dwa warianty wykluczają się w abstrakcie, nie w laboratorium.** Abstrakt na ISEF ma 250 słów i musi mieć jedno twierdzenie. Ale kampania pomiarowa mierzy ten sam układ — pod wariant 3 potrzeba dokładności i liczby komend na minutę, pod wariant 2 tych samych sesji, tylko rozłożonych w czasie i powtórzonych. **Nakład to nie dwie kampanie, tylko jedna dłuższa.**
+
+**Propozycja:** zapisać oba twierdzenia w planie eksperymentalnym **przed pierwszym pomiarem**, zbierać dane pod oba, a wybrać główne dopiero wtedy, gdy będzie widać, która liczba wyszła mocniej.
+
+**Warunek, bez którego to jest nadużycie, a nie strategia:** oba muszą być zapisane z góry i **oba muszą być raportowane**. Wybieranie po fakcie metryki, która wypadła najlepiej, i przemilczenie drugiej, ma w nauce nazwę i jest jednym z tych zachowań, które Załącznik nr 1 regulaminu Explory wymienia wprost jako naruszenie (krytycyzm wobec własnych wyników). Pokazujemy obie, jedną nazywamy główną.
+
+**Co przemawia za każdym, w skrócie:**
+
+| | Wariant 2 — metryka użytkowa | Wariant 3 — przepustowość |
+|---|---|---|
+| za | pole praktycznie nieraportowane; nie da się przegrać z cudzą liczbą | jest z czym porównywać; liczba jest zrozumiała dla każdego jurora |
+| przeciw | juror może uznać metrykę za skrojoną pod wynik | grupa z Tsinghua opublikowała w 2023 wynik z ucha, którego się nie pobije |
+| haczyk | **metryki zależne od Twojego stanu (wyspanie, zmęczenie) łamią zwolnienie ISEF dla badania na sobie** — dryf sygnału w czasie noszenia wolno mierzyć, wpływ wyspania nie | brak |
+
+Rozwinięcie dla laika: `10_PROJEKT_DLA_LAIKA.md` sekcja 6.
+
+---
+
+**Poniżej materiał, na którym te decyzje zapadły. Zostaje jako dokumentacja ścieżki decyzyjnej — arkusz inżynierski ISEF punktuje wprost `exploration of alternatives`.**
 
 Pełne rozbiory zostają w plikach źródłowych — odsyłam przy każdej pozycji.
 

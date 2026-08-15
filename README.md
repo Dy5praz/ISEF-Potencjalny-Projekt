@@ -75,14 +75,25 @@ Zmiany względem stanu porannego zaznaczone **pogrubieniem**.
 
 ---
 
-## Decyzje czekające na użytkownika
+## Decyzje — stan po 15 VIII wieczorem
 
-1. **C2 — w czym „lepsze od komercyjnych".** **Rekomendacja z porannej wersji wycofana**, bo stała na liczbie, która okazała się nieaktualna o osiem lat. Trzy warianty mają teraz porównywalny status. `00_STRESZCZENIE.md` sekcja 1.2
-2. **umiejscowienie** — `09_UMIEJSCOWIENIE.md`. Rekomendacja bez zmian: uczynić z geometrii zmienną mierzoną
-3. **skala widoczności** z `06` sekcja 4 — zatwierdzić albo poprawić
-4. **E1** — potwierdzenie korekty K-001 (8 miesięcy do El-Robo-Mech, nie 14)
+| # | Decyzja | Status |
+|---|---|---|
+| 1 | C2 — w czym „lepsze od komercyjnych" | **otwarta**, zawężona do wariantów 2 i 3. Propozycja: zapisać oba z góry, wybrać główne po pierwszych wynikach. `DECYZJE.md` |
+| 2 | umiejscowienie | **ZAMKNIĘTA: moduł zwarty na potylicy**, bez łuku i bez drugiego miejsca. Weryfikacja pokazała, że dwa miejsca elektrod **pogarszają** SNR dla SSVEP. K-036 |
+| 3 | skala gabarytu | **zatwierdzona**, z granicą twardą: żadnej konstrukcji zbliżającej się do opaski przechylonej na tył głowy |
+| 4 | E1 — kalendarz | **przyjęty** |
+| E3 | skąd liczby 65 i 3 wpm | **zamknięte** — z abstraktu projektu referencyjnego, prawdziwe |
+| formalności / IRB | | **zdjęte z listy ryzyk** decyzją użytkownika |
 
-**E3 zamknięte:** liczby 65 i 3 wpm pochodzą z abstraktu projektu referencyjnego i są prawdziwe.
+## Finał etapu 1
+
+| Plik | Zawartość |
+|---|---|
+| **`10_PROJEKT_DLA_LAIKA.md`** | czym jest projekt bez żargonu; **co realnie umie i czego nie umie**; odpowiedź na „a czemu nie kamerka" |
+| **`11_OCENA_SZANS.md`** | **ocena szans Explory i ISEF z liczbami**, w trzech wymiarach: prawdopodobieństwo, sterowalność, koszt porażki |
+
+**Skrót werdyktu:** cel z handbooka (miejsce w kategorii na ISEF) ma prawdopodobieństwo rzędu **1%**; wyjazd na ISEF ~6%; jakikolwiek wymierny sukces konkursowy ~50%. Liczby są niskie, ale wąskie gardło leży tam, gdzie masz największy wpływ, a każda ścieżka porażki zostawia umiejętność albo wpis do dorobku. Pełne uzasadnienie w `11`.
 
 ## Trzy rzeczy do zrobienia poza komputerem, jesień 2026
 

@@ -472,3 +472,65 @@ Dla frazy „brain-computer interface": 0 do 5 rocznie, w 2026 — **5**.
 **Konsekwencja:** obejście z sekcji 5.3 (kupna silikonowa końcówka douszna na wydrukowanym korpusie) **przestaje być konieczne**, choć pozostaje sensowne jako wariant tańszy i wygodniejszy. Rekomendacja „wstrzymać zakup Qidi Q2, kupić tanią drukarkę żywiczną" jest teraz kompletna: znany jest zarówno sprzęt, jak i materiał.
 
 **Warunek, którego nie wolno pominąć:** biozgodność deklarowana jest **po obróbce końcowej zgodnej z wytycznymi producenta** (mycie, doświetlanie). Wydruk niedomyty nie jest biozgodny niezależnie od tego, co pisze na butelce.
+
+---
+
+## 2026-08-15, sesja druga — po decyzjach użytkownika
+
+### K-036 — „większy rozstaw elektrod to większy zysk i jest on fizyczny" jest NIEPRAWDĄ dla SSVEP
+
+**Co było źle:** `09_UMIEJSCOWIENIE.md` sekcja 5b, tabela porównawcza wariantu zwartego i rozłożonego. Wpisałem tam, że przy wariancie rozłożonym „amplituda różnicowa **duża. To jest główny zysk i on jest fizyczny**", a przy zwartym — „mała, bo bliskie punkty na skalpie mają podobny potencjał". Z tego wyprowadziłem, że wariant rozłożony (potylica ↔ wyrostek sutkowaty) ma przewagę sygnałową nad modułem zwartym.
+
+**Dlaczego to nie wynika:** pomyliłem **amplitudę** z **stosunkiem sygnału do szumu**. Większy rozstaw rzeczywiście daje większą amplitudę różnicową — ale referencja położona daleko zbiera też **nieskorelowany szum i zakłócenia**, których referencja bliska nie zbiera, bo one są dla obu elektrod wspólne i odejmują się. O klasyfikacji decyduje SNR, nie amplituda.
+
+**Trzy źródła, wszystkie w tę samą stronę:**
+
+1. **Zhang, Valsecchi, Gegenfurtner, Chen, *„Laplacian reference is optimal for steady-state visual-evoked potentials"*, J Neurophysiol 130(3):557–568 (2023), PMID 37492903.** Systematyczne porównanie czterech metod referencji — monopolarnej, uśrednionej po wszystkich elektrodach, **uśrednionych wyrostków sutkowatych** i **laplasjanowej** — na **siedmiu zbiorach** (cztery własne, trzy publiczne). Wynik: **referencja laplasjanowa daje najwyższy SNR i najlepszą powtarzalność między sesjami**. Referencja na wyrostkach sutkowatych — czyli dokładnie wariant rozłożony — wypada gorzej.
+2. **Diez, Mut, Laciar, Avila, *„A comparison of monopolar and bipolar EEG recordings for SSVEP detection"*, EMBC 2010, PMID 21096910.** Pięciu badanych, cztery częstotliwości. Zapis **bipolarny z bliskich par** (O1–P3, O2–P4) dał **80,1%** trafności wobec **74,5%** dla zapisu monopolarnego z referencją odległą (Fz).
+3. **Luo i in., *„Boosting Spatial Properties of Single-Flicker SSVEP via Laplacian Electrodes"*, EMBC 2025, PMID 41335820.** Trzecie, niezależne potwierdzenie kierunku.
+
+**Poprawna wersja:** dla SSVEP **optymalna jest referencja lokalna** — elektroda czynna w miejscu maksimum sygnału minus średnia z kilku elektrod otaczających, w odległości rzędu 2–3 cm. Cytat z Zhang 2023: referencja laplasjanowa „is especially advantageous for SSVEP experiments where short preparation time is preferred as it requires only data from the maximally activated electrode and **a few surrounding electrodes**".
+
+**Konsekwencja, i jest ona wprost korzystna dla projektu:**
+
+Wariant rozłożony z łukiem przez tył głowy do zausznika **nie ma przewagi sygnałowej, którą mu przypisywałem** — ma za to wszystkie swoje koszty: przewód jako antena na 50 Hz i źródło artefaktu tryboelektrycznego, złącze w torze, dwa punkty mocowania, oraz kształt, który użytkownik odrzucił jako zbliżający się do opaski.
+
+**Moduł zwarty na potylicy z układem laplasjanowym jest jednocześnie lepszy sygnałowo, prostszy konstrukcyjnie i zgodny z ograniczeniem gabarytowym.** Trzy rzeczy naraz, co się rzadko zdarza.
+
+**Kto wyłapał:** użytkownik, poleceniem „zweryfikuj czy elektrody w 2 miejscach aż tak dużo zmieniają. Jak nie, to lecimy dalej z potylicą". Odpowiedź: **nie zmieniają, zmieniają na gorsze.** Intuicja była trafna.
+
+---
+
+### K-037 — licencje trzech kluczowych zbiorów danych: sprawdzone, wszystkie CC-BY 4.0
+
+**Czego dotyczy:** `[luka]` postawionej w `07_DEKODOWANIE.md` sekcja 7 i `04` sekcja 5.1 — „licencji nie sprawdziłem dla żadnego zbioru, przed użyciem czegokolwiek licencja musi być sprawdzona".
+
+**Sprawdzone bezpośrednio na stronach PMC:**
+
+| Zbiór | Licencja | Gdzie leżą dane |
+|---|---|---|
+| Lee i in. 2021, ear-EEG + skalp, ERP i SSVEP w ruchu, 24 osoby | **CC-BY 4.0** | skrypty: `github.com/youngeun1209/MobileBCI_Data` |
+| **Zhu i in. 2021, wearable SSVEP, 102 osoby, elektrody mokre I suche** | **CC-BY 4.0** | **FigShare 10.6084/m9.figshare.13560281** oraz `bci.med.tsinghua.edu.cn/download.html` |
+| Wang Z., Shi N. i in. 2023, SpiralE, Nature Communications | **CC-BY 4.0** | Zenodo 10.5281/zenodo.7748035; **surowe EEG tylko na życzenie u autorów** |
+
+**CC-BY 4.0 oznacza: wolno używać, przetwarzać i publikować wyniki, pod warunkiem podania autorstwa.** To wystarcza zarówno wobec standardów etycznych Explory (Załącznik nr 1), jak i wobec wymogu ISEF o poszanowaniu własności intelektualnej. **Luka zamknięta.**
+
+---
+
+### K-038 — istnieje drugi publiczny zbiór, trafiony w projekt jeszcze lepiej niż pierwszy
+
+**Czego dotyczy:** uzupełnienia K-027.
+
+**Zbiór:** Zhu, Jiang, Dong, Gao, Wang, *„An Open Dataset for Wearable SSVEP-Based Brain-Computer Interfaces"*, **Sensors 21(4):1256 (2021)**, PMID 33578754.
+
+**Zawartość: 102 osoby**, 8 kanałów, zadanie SSVEP z **12 celami**, po 10 kolejnych bloków — **osobno elektrodami mokrymi i osobno suchymi**, dla każdej osoby.
+
+**Dlaczego to jest ważniejsze niż zbiór z K-027 dla tego konkretnego projektu:**
+
+Projekt zmierza do modułu potylicznego z **elektrodami suchymi**, paradygmat **SSVEP**, kilka–kilkanaście komend. Ten zbiór to dokładnie to zadanie, na **102 osobach**, z gotowym porównaniem sucha-mokra wykonanym przez kogoś innego. Daje:
+
+1. **punkt odniesienia dla własnej elektrody** — „moja sucha elektroda wobec suchej i mokrej ze zbioru na 102 osobach" jest twierdzeniem znacznie mocniejszym niż „moja elektroda działa"
+2. **materiał do pracy nad dekodowaniem od zaraz**, bez żadnego sprzętu
+3. **realistyczne widełki**, czego się spodziewać po elektrodach suchych, zanim cokolwiek zostanie zbudowane
+
+**Uwaga do zapisania, bo działa w drugą stronę:** skoro istnieje publiczny zbiór 102 osób z porównaniem elektrod suchych i mokrych, to **twierdzenie „zbadałem elektrody suche" jest zajęte**. Nasze twierdzenie musi dotyczyć **konkretnej konstrukcji elektrody albo konkretnego toru analogowego**, mierzonego przeciwko temu zbiorowi — nie samego faktu, że elektrody suche zbadano.
