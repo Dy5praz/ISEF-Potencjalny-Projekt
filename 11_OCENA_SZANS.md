@@ -327,3 +327,77 @@ To ryzyko **w całości leży po stronie przygotowania**, czyli w wymiarze o naj
 Zmieniło się co innego: **przed audytem to była liczba oparta na czterech twierdzeniach, z których żadne nie było sprawdzone do końca. Po audycie jest oparta na jednym twierdzeniu, sprawdzonym w dwóch przejściach, dwóch bazach, patentach i dorobku konkurenta — z trzema zewnętrznymi podporami i policzonym ryzykiem utraty pierwszeństwa.**
 
 To jest ta sama liczba o zupełnie innej jakości. Ocena szans wystawiona na niesprawdzonych założeniach jest bezwartościowa niezależnie od wysokości — tak mówi błąd nr 5 z sekcji 8 handbooka. Ta już taka nie jest.
+
+---
+
+# F. SZANSE ROZBITE NA POSZCZEGÓLNE WYNIKI — Explory i ISEF osobno
+
+**Zlecenie użytkownika:** podać osobno szanse na wyniki w Explory, oraz jeszcze raz szanse na ISEF liczone od momentu dostania się tam.
+
+`[domysł]` Wszystkie prawdopodobieństwa poniżej są moim oszacowaniem. Twarde są tylko liczby bazowe (kolumna „baza"), pochodzące z list finalistów i regulaminów.
+
+---
+
+## F.1 Założenia techniczne, na których stoi cała tabela
+
+| Zdarzenie | Prawdopodobieństwo | Dlaczego |
+|---|---|---|
+| urządzenie działa i ma pomiary **do maja 2027** (półfinał) | **~70%** | krótszy termin, ale wystarczy wersja na kupionym ADS1299 |
+| urządzenie działa i ma pomiary **do października 2027** (finał) | **~85%** | pięć dodatkowych miesięcy; opublikowany przepis ESP32+ADS1299 |
+| własny tor z kompensacją, z mierzalną poprawą | **~55%** | to jest wkład naukowy, i to jest najbardziej niepewna pozycja |
+
+**Rzecz, która obniża zależność od sprzętu na wejściu:** regulamin Explory nie wymaga ukończonego projektu przy zgłoszeniu, a kryteria etapu I (znajomość tematu, wartość dodana, praktyczne zastosowanie) są spełnialne samym przemiałem literatury i jasno postawionym twierdzeniem.
+
+---
+
+## F.2 Explory — wynik po wyniku
+
+| Wynik | Baza (2026) | Warunkowo, gdy dojdzie do tego etapu | **Łącznie** |
+|---|---|---|---|
+| **kwalifikacja do półfinału** | 133 z ~300 → 44% | ~85% | **~85%** |
+| **awans do finału** | 21 ze 133 → 16% | ~45% jeśli sprzęt działa w V 2027, ~20% jeśli nie | **~32%** |
+| **reprezentacja Polski na ISEF** | 3 z 21 → 14% | ~25% | **~8%** |
+| **Nagroda Zrównoważonego Rozwoju** (3 × 7 500 zł) | 3 z 21 → 14% | ~17% | **~5,5%** |
+| **Nagroda Specjalna Partnera** (3 000 zł) | kilka na 21 | ~25% | **~8%** |
+| **Nagroda Publiczności** | 1 z 21 → 5% | ~12% | **~4%** |
+| **Nagroda Główna** (15 000 zł) | 1 z 21 → 5% | ~10% | **~3%** |
+| **jakakolwiek nagroda finansowa w Explory** | — | ~40% | **~13%** |
+
+**Trzy uwagi, bez których ta tabela wprowadza w błąd:**
+
+1. **Te wyniki się nie wykluczają.** Emil Pająk w 2025 zdobył Nagrodę Główną **i** wyjechał na ISEF. Sumowanie wierszy nie ma sensu.
+2. **Wiersz „awans do finału" nie uwzględnia plebiscytu „Bilet na Finał"** — drugiej, niezależnej drogi przez to samo wąskie gardło. Próg to **904 głosy** (edycja 2026). Nie wliczam go, bo nie umiem oszacować mobilizacji, ale **przesuwa wiersz finałowy w górę**, a wszystkie pod nim razem z nim.
+3. **Nagroda Publiczności jest zaniżona względem realnych szans tego tematu.** Interfejs mózg-komputer opowiada się laikowi w jednym zdaniu; konkurencja w plebiscycie 2026 to kompensator napięcia dla fotowoltaiki i system nawadniania upraw.
+
+---
+
+## F.3 ISEF — od momentu, w którym już tam jesteś
+
+Poniższe **nie zawiera** lejka Explory. To są szanse w chwili, gdy stoisz przy stoisku w USA.
+
+| Wynik | Baza ISEF | Baza polskiej reprezentacji | **Ten projekt** |
+|---|---|---|---|
+| **jakakolwiek nagroda** (Grand lub specjalna) | ~32% | ~62% `[dane organizatora]` | **45–60%** |
+| **Grand Award w kategorii** (I–IV miejsce) | ~26% | — | **30–40%** |
+| **miejsce I–II** | ~7% | — | **12–18%** |
+| **I miejsce** | ~2% | — | **3–5%** |
+
+**Struktura nagród w ENBM 2026, dla orientacji, co te procenty znaczą:** 2 × I miejsce (6 000 USD), 5 × II (2 400), 8 × III (1 200), 10 × IV (600) — razem **25 nagrodzonych projektów** przy szacowanych 90–100 startujących w kategorii.
+
+**Punkt kalibracyjny, do którego wracam trzeci raz, bo jest najważniejszy:** **ENBM079 — domowe EEG poniżej 11 USD na kanał, 52% trafności przy zadaniu dwuklasowym — trzecia nagroda, 1 200 USD.** Projekt bez żadnej nowości względem literatury, ze słabym wynikiem. To jest próg, nad którym trzeba się znaleźć, a nie PNAS i nie Imperial College.
+
+---
+
+## F.4 Zestawienie końcowe — trzy poziomy ambicji
+
+| Cel | Prawdopodobieństwo | Uwaga |
+|---|---|---|
+| **finał Explory** | **~32%** | plus plebiscyt, nieuwzględniony |
+| **jakakolwiek nagroda finansowa w Explory** | ~13% | |
+| **wyjazd na ISEF** | **~8%** | |
+| **jakakolwiek nagroda na ISEF** | **~4%** | 0,08 × 0,5 |
+| **Grand Award w kategorii ISEF** | **~2,8%** | 0,08 × 0,35 |
+| **miejsce I–II na ISEF (cel z handbooka)** | **~1,2%** | 0,08 × 0,15 |
+| **jakikolwiek wymierny sukces konkursowy** (finał Explory, laureat OITwEiM, EUCYS) | **~52%** | trzy niezależne ścieżki, jedna praca |
+
+**Zdanie, które warto mieć na oku przy czytaniu tej tabeli:** różnica między pierwszym a ostatnim wierszem to nie jest różnica w jakości projektu — to jest różnica w tym, ile niezależnych sit trzeba przejść. **Projekt jest ten sam; sit jest siedem.**
