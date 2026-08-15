@@ -11,7 +11,9 @@ Ta ocena jest wystawiona po sprawdzeniu założeń — ale **na projekcie, któr
 
 ## 1. Odpowiedź w trzech zdaniach
 
-**Cel postawiony w handbooku — nie sam udział w ISEF, tylko miejsce w kategorii — jest celem o prawdopodobieństwie rzędu 1%.** Cel łagodniejszy, czyli jakakolwiek nagroda na ISEF, to rząd 3%. Sam wyjazd na ISEF: rząd 7%.
+**Cel postawiony w handbooku — nie sam udział w ISEF, tylko miejsce w kategorii — jest celem o prawdopodobieństwie rzędu 1,5%.** Cel łagodniejszy, czyli jakakolwiek nagroda na ISEF, to rząd 4%. Sam wyjazd na ISEF: rząd **9%**.
+
+*(Liczby podniesione 15 VIII wieczorem po K-041 — wcześniej odpowiednio 1%, 3% i 7%. Powód: użytkownik czytał plakaty finalistów Explory i ocenia medianę stawki niżej, niż wynikało z mojej analizy metadanych.)*
 
 **To są liczby niskie i mówię to wprost, tak jak wymaga sekcja 11 handbooka.**
 
@@ -200,10 +202,10 @@ Do zrobienia od zera: nauka projektowania PCB, budowa toru analogowego o szumie 
 
 | Cel | Prawdopodobieństwo |
 |---|---|
-| wyjazd na ISEF | 0,8 × 0,075 ≈ **~6%** |
-| jakakolwiek nagroda na ISEF | ≈ **~2,5%** |
-| **miejsce w kategorii (cel z handbooka)** | ≈ **~0,8%** |
-| Nagroda Główna Explory | ≈ **~2%** |
+| wyjazd na ISEF | 0,8 × 0,095 ≈ **~8%** |
+| jakakolwiek nagroda na ISEF | ≈ **~4%** |
+| **miejsce w kategorii (cel z handbooka)** | ≈ **~1,2%** |
+| Nagroda Główna Explory | ≈ **~2,5%** |
 | jakikolwiek wymierny sukces konkursowy (finał Explory, laureat OITwEiM, EUCYS) | **~50%** |
 
 ---
