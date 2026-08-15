@@ -566,3 +566,57 @@ Projekt zmierza do modułu potylicznego z **elektrodami suchymi**, paradygmat **
 **Co to zmienia, i jest to korzystne:** po wyborze potylicy **projekt nie konkuruje ze SpiralE**. Punkt odniesienia dla wariantu przepustowościowego to **Xing 2018: 92,35 bit/min na elektrodach suchych**, a nie 36,86 bit/min z ucha. Potylica daje ~2,5× najlepszego opublikowanego wyniku z ucha — i to jest argument za tą decyzją, a nie przeciw.
 
 **Czego się z tego uczę, i jest to nieprzyjemne:** przesadziłem w korekcie, która sama była korektą przesady w drugą stronę. Najpierw zaniżyłem pułap formy dousznej na streszczeniach z 2015 i 2022, potem zawyżyłem go na abstrakcie z 2023. **Obie pomyłki miały to samo źródło: liczba czytana bez pełnego tekstu.** Dopiero trzecie podejście, z pełnym tekstem, dało wartość, którą można cytować.
+
+---
+
+## 2026-08-15, audyt całkowity etapu 1
+
+### K-042 — przeniosłem oś projektu z ucha na potylicę wbrew własnemu zapisowi
+
+**Co było źle:** `09_UMIEJSCOWIENIE.md` sekcja 4 mówi wprost: *„Przeniesienie na potylicę nie unieważnia projektu, ale **wymaga wyprowadzenia osi od nowa** — nie da się jej przenieść mechanicznie, bo problem szczęki tam nie dominuje."* Po decyzji o potylicy (K-036) **przeniosłem oś mechanicznie** i wpisałem „kompensacja artefaktu szczękowego" do `DECYZJE.md` jako wkład własny, nie sprawdzając, czy przesłanka Kappela (mierzona dla ucha) obowiązuje na potylicy.
+
+**Jak się to skończyło:** przeniesienie okazało się **przypadkowo trafne** — Kołodziej i in. 2026 mierzyli na O1/O2/Oz i ustalili, że kanał szczękowy jest jednym z dwóch najskuteczniejszych kanałów pomocniczych. Ale trafność wyszła z cudzej pracy, nie z mojego rozumowania, i gdyby wyszło inaczej, oś projektu byłaby zbudowana na przesłance z innego miejsca na głowie.
+
+**Reguła:** kiedy własny dokument mówi „to wymaga wyprowadzenia od nowa", to nie jest uwaga stylistyczna.
+
+---
+
+### K-043 — trzy kandydujące twierdzenia projektu są zajęte. Pełny rozbiór: `12_AUDYT.md`
+
+**1. „Tani interfejs SSVEP o wysokim ITR"** — Teversham i in., Imperial College, EMBC 2022, PMID 36086083: **~£20, ESP32, 95,56% dokładności, ITR 102 bit/min**. Więcej niż Xing 2018 przy ułamku kosztu.
+
+**2. „Mały suchy czujnik przez włosy na potylicy"** — Kim i in., Georgia Tech, ***PNAS* 122(15):e2419304122 (2025)**, PMID 40193612: mikroczujniki między mieszkami włosowymi, **96,4% SSVEP bez treningu, także podczas chodzenia i biegu**, 12 h noszenia, najniższa raportowana gęstość impedancji kontaktu, **zgłoszenie patentowe w toku**.
+
+**3. „Kanał pomocniczy do usuwania artefaktów z potylicznego SSVEP"** — **Kołodziej, Majkowski, Wiszniewski, Politechnika Warszawska, *Sensors* 26(3):917, 31 I 2026**, PMID 41682433: O1/O2/Oz plus kanały pomocnicze (Cz, Fp1, HEOG, kark, policzek, **szczęka**), regresja liniowa, 12 osób, **+9,1 pp (SVM) i +9,9 pp (CNN)**; najskuteczniejsze kanały to **Cz i szczęka**.
+
+**Co przeżyło:** redukcja artefaktu **na etapie akwizycji** — wskazana jako przyszła praca przez samych autorów pozycji 3, cytat w `12_AUDYT.md` sekcja 2.1. Przeszukanie pod analogową kompensację w torze: **zero trafień**.
+
+---
+
+### K-044 — nazwany konkurent z terminem
+
+`[wniosek]` Grupa z Wydziału Elektrycznego Politechniki Warszawskiej **sama wskazała redukcję artefaktów na etapie akwizycji jako następny krok**, w pracy ze stycznia 2026. Ma kompetencje i motywację, żeby to zrobić.
+
+**Najbardziej prawdopodobny scenariusz utraty pierwszeństwa to publikacja tej grupy w latach 2026–2027.** Ryzyko rzędu dziesiątek procent, nie jednostek.
+
+**Skutek operacyjny, wiążący:** w żadnym materiale zgłoszeniowym nie może paść słowo **„pierwszy"**. Twierdzenie zostaje pomiarowe i przeżywa cudzą publikację jako niezależne potwierdzenie na własnym sprzęcie.
+
+---
+
+### K-045 — konflikt Cz: najlepsze rozwiązanie leży poza dopuszczalną formą
+
+`[fakt]` Kołodziej i in. ustalili, że najskuteczniejsze kanały pomocnicze to **Cz i szczęka**. **Cz to wierzchołek głowy** — a ograniczenie gabarytowe z decyzji 3 wyklucza konstrukcje nad czubkiem głowy.
+
+Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); znaleźć zamiennik bliżej potylicy; albo **zmierzyć, ile korzyści przeżywa bez Cz**.
+
+`[wniosek]` Trzecie jest osobnym, publikowalnym pytaniem — „ile z redukcji artefaktów da się uzyskać przy ograniczeniu do elektrod mieszczących się w module noszonym" — i jest bezpośrednio o wykonalność formy, czyli o rzecz, na której użytkownikowi zależy od początku.
+
+---
+
+### K-046 — reguła 12 miesięcy: ekstrapolacja zamieniona na wzorzec
+
+**Czego dotyczy:** K-023 opierał się na jednym roczniku (2026–2027) i przenosił regułę na nasz rok jako `[wniosek]`.
+
+**Sprawdzone w oryginałach trzech roczników:** ISEF **2024** — „may not include research performed before **January 2023**", okno „**January 2023 – May 2024**". ISEF **2025** — „before **January 2024**", okno „**January 2024 – May 2025**". ISEF **2027** — „before **January 2026**", okno „**January 2026 – May 2027**".
+
+**Wzorzec stabilny na trzech rocznikach: styczeń roku poprzedzającego ISEF – maj roku ISEF.** Okno dla ISEF 2028 to **I 2027 – V 2028** i przestaje to być ekstrapolacja. Kampanię pod ISEF startować w maju 2027 — bez zmian, ale teraz na twardej podstawie.
