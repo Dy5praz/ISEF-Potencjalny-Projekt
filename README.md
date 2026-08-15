@@ -52,9 +52,10 @@ Działa wyłącznie wyszukiwarka zwracająca tytuły, adresy i streszczenia gene
 | `06_TABELA_PARAMETROW.md` | metryka porównawcza, widoczność, „skąd ta liczba" | gotowy |
 | `07_DEKODOWANIE.md` | paradygmaty, metody, metryki, zbiory danych | gotowy |
 | `08_KONKURENCJA_ISEF.md` | kalendarz ISEF, El-Robo-Mech, projekt referencyjny | gotowy, zadania 11 i 12 otwarte |
+| `09_UMIEJSCOWIENIE.md` | **gdzie ma być interfejs — porównanie miejsc, decyzja otwarta** | czeka na użytkownika |
 | `ISEF_HUMAN_PARTICIPANTS.md` | badania z udziałem ludzi, terminarz wsteczny | **częściowy, priorytet** |
 | `ZRODLA.md` | bibliografia z oceną wiarygodności | gotowy |
-| `KOREKTY.md` | rejestr błędów, K-001…K-018 | prowadzony |
+| `KOREKTY.md` | rejestr błędów, K-001…K-019 | prowadzony |
 
 ---
 
@@ -68,7 +69,7 @@ Zmiany względem stanu sprzed etapu 1 zaznaczone **pogrubieniem**.
 - **kod projektu referencyjnego ENBM074 (2026) jest prawidłowy** — moja poprawka K-012 była błędna i została wycofana. **K-018.** Kody ISEF cytować zawsze z rocznikiem
 - **sEMG/EOG jako kanał odniesienia: nadal kandydat na oś**, ale twierdzenie musi być pomiarowe, nie o pierwszeństwie. **K-009 rozstrzygnięte**
 - **paradygmat: nieprzesądzony.** Moja rekomendacja paradygmatów słuchowych została podważona; SSVEP wygląda lepiej mimo większej odległości. **K-015**
-- **forma:** element zauszny wielkości aparatu słuchowego. **Skala widoczności 0–4 w `06` sekcja 4 — do zatwierdzenia przez użytkownika**
+- **umiejscowienie: DECYZJA OTWARTA, K-019.** Forma zauszna była moim założeniem, nie Twoim wymaganiem. Potylica daje 5–15× większe ITR dla SSVEP i **może być mniej widoczna** (pod włosami, stopień 0). Porównanie miejsc: `09_UMIEJSCOWIENIE.md`. **Miejsce i oś projektu są sprzężone** — przy potylicy oś trzeba wyprowadzić od nowa
 - **El-Robo-Mech:** kwalifikuje się tematycznie, ale **to nie jest zewnętrzna walidacja, tylko wymuszony termin. K-016**
 - **drukarka:** zakup Q2 wstrzymany, potwierdzone. Właściwy kierunek to druk żywiczny. **Otwarte: czy certyfikowana żywica ISO 10993 jest dostępna dla amatora w Polsce**
 - badani, czas, budżet, sprzęt pomiarowy: bez zmian

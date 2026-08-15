@@ -20,7 +20,7 @@ Kolejność startowa — sekcja 4d pliku `00_PYTANIA_I_LUKI.md`. Trzy pierwsze p
 
 ## Ustalenia wiążące, nie do podważania bez nowego argumentu
 
-- kierunek: **nieinwazyjny interfejs neuralny**, forma zauszna wielkości aparatu słuchowego
+- kierunek: **nieinwazyjny interfejs neuralny**. **Umiejscowienie: DECYZJA OTWARTA** — forma zauszna była założeniem, nie wymaganiem. Rzeczywiste wymaganie: niewidoczne albo nierozpoznawalne jako sprzęt, zero hełmów. Porównanie miejsc i cztery pytania: `09_UMIEJSCOWIENIE.md`, błąd opisany w `KOREKTY.md` K-019
 - zdolność: **sterowanie, nie komunikacja**
 - **odczyt dyskretny, zachowanie sterowanego obiektu ciągłe** — odczyt ciągły wymusza elektrody nad korą ruchową, czyli hełm, co łamie twarde wymaganie
 - sEMG/EOG: dopuszczone jako **kanał odniesienia do usuwania zakłóceń**, nie jako źródło sterowania

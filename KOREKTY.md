@@ -233,3 +233,23 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 **Reguła operacyjna, która z tego zostaje:** kody projektów ISEF cytować **wyłącznie z rocznikiem** — `ENBM074 (2026)`. Kod bez rocznika jest niejednoznaczny i to jest jedyna prawdziwa treść, jaka wyszła z całej tej pomyłki.
 
 **Kto wyłapał:** użytkownik, wskazując, że sprawdzał tegoroczną edycję i że sam sobie zaprzeczyłem.
+
+---
+
+### K-019 — potraktowałem rozwiązanie designowe jak wymaganie wejściowe
+
+**Co było źle:** przez cały etap 1 projektowałem pod formę „za uchem, wielkości aparatu słuchowego", traktując ją jako ograniczenie nienaruszalne. Wpisałem ją do `CLAUDE.md` jako ustalenie wiążące i wyprowadziłem z niej oś projektu, wybór paradygmatu i kształt twierdzenia.
+
+**Na czym polega błąd:** rzeczywiste wymaganie użytkownika brzmi **„niewidoczne albo nierozpoznawalne jako sprzęt, wygodne, zero hełmów"**. „Za uchem" to jedna z możliwych **odpowiedzi** na to wymaganie, podana przy okazji rozstrzygania przypadków granicznych D1/D2. Zamieniłem odpowiedź na założenie i nigdy nie postawiłem pytania „gdzie ma być interfejs", ani nie porównałem kandydujących miejsc.
+
+**Koszt tego błędu, liczbowo:** umiejscowienie zauszne oddaje **5–15× przepustowości** dla SSVEP względem potylicy (16,6 wobec ~92 bit/min). Przez cały etap 1 opisywałem to jako ścianę fizyczną projektu, podczas gdy jest to **konsekwencja niepostawionej decyzji**. Ściana jest prawdziwa dla ucha; nie jest prawdziwa dla urządzenia niewidocznego jako takiego.
+
+**Dodatkowa obserwacja, która wyszła dopiero przy rozbiorze:** rzecz schowana pod włosami z tyłu głowy ma widoczność **stopnia 0**, czyli **lepszą niż aparat słuchowy** (stopień 1). Wymaganie „zero hełmów" nie tylko nie wyklucza potylicy — potylica może je spełniać lepiej.
+
+**Poprawka:** decyzja o umiejscowieniu **otwarta**, analiza w `09_UMIEJSCOWIENIE.md`, cztery pytania postawione użytkownikowi. Wpis w `CLAUDE.md` o formie zausznej traci status ustalenia wiążącego do czasu rozstrzygnięcia.
+
+**Ustalenie, które przeżywa:** wykluczenie elektrod nad korą ruchową (C3/Cz/C4) — te wymagają czapki przy każdym scenariuszu.
+
+**Sprzężenie, które trzeba było zauważyć wcześniej:** miejsce i oś projektu nie są niezależne. Kompensacja artefaktów szczękowych ma sens **dlatego**, że urządzenie jest przy uchu. Przy potylicy oś trzeba wyprowadzić od nowa (kontakt przez włosy, odporność na ruch) — obie mają pokrycie w literaturze jako problemy otwarte.
+
+**Kto wyłapał:** użytkownik, dwoma uwagami — pytaniem „skoro na potylicy mamy większą przepustowość, nie łatwiej to tam przenieść" oraz wprost: „zakładasz i sam uzupełniasz luki designowe, zamiast jasno spytać".
