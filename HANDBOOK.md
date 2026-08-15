@@ -313,9 +313,13 @@ W sekcji Execution arkusza inżynierskiego punktowane jest wprost, czy prototyp 
 - **Wniosek strategiczny:** twarde sito jest w Explory (~300 zgłoszeń → ~3 miejsca w reprezentacji, rzędu 1%), nie na ISEF. Optymalizacja pod Explory jest optymalizacją pod ISEF
 
 ### 5.4 Reguła 12 miesięcy
-[fakt] Dotyczy ISEF, nie Explory. Maksymalnie 12 miesięcy ciągłych badań, zakaz wykorzystywania badań wykonanych wcześniej niż 18 miesięcy przed ISEF. **To wymóg dokumentacyjny dotyczący formalnej kampanii eksperymentalnej, nie zakaz wcześniejszego rozwoju.** Eksperymenty wykonane poza oknem można po prostu powtórzyć w oknie.
+[fakt] Dotyczy ISEF, nie Explory. Maksymalnie 12 miesięcy ciągłych badań. **To wymóg dokumentacyjny dotyczący formalnej kampanii eksperymentalnej, nie zakaz wcześniejszego rozwoju.** Eksperymenty wykonane poza oknem można po prostu powtórzyć w oknie.
 
-Konsekwencja praktyczna: zasoby jednorazowe (wizyta w laboratorium uczelnianym, dostęp do specjalistycznego sprzętu) rezerwować **po czerwcu 2027**, bo nie da się ich łatwo powtórzyć.
+> **POPRAWKA, 15 VIII 2026, sesja druga — `KOREKTY.md` K-023. Regulamin odczytany w oryginale.**
+> Zdanie „zakaz wykorzystywania badań wykonanych wcześniej niż **18 miesięcy** przed ISEF" **nie ma pokrycia w regulaminie**. W *International Rules 2026–2027* reguła jest zakotwiczona w kalendarzu, nie w odstępie od imprezy, i brzmi: „may not include research performed **before January 2026**" oraz „12 continuous months **beginning no earlier than January 2026 and ending May 2027**".
+> Przeniesione na nasz rocznik `[wniosek]`: okno **styczeń 2027 – maj 2028**, z dowolnym ciągłym blokiem dwunastu miesięcy w środku.
+> **Konsekwencja praktyczna, łagodniejsza niż w K-006:** formalną kampanię pomiarową pod ISEF zaczynać w **maju 2027**. Wszystko wcześniejsze to prace rozwojowe — i liczą się bez ograniczeń na Explory oraz El-Robo-Mech, bo tamte konkursy reguły czasowej nie mają (sprawdzone w regulaminie Explory).
+> Zalecenie o rezerwowaniu zasobów jednorazowych po czerwcu 2027 **pozostaje słuszne**, tylko z innego powodu: bo wtedy zaczyna się okno.
 
 ### 5.5 PRIORYTET WERYFIKACYJNY NR 1 — Human Participants
 
@@ -327,6 +331,14 @@ Konsekwencja praktyczna: zasoby jednorazowe (wizyta w laboratorium uczelnianym, 
 - osobne rygory, jeśli badani są niepełnoletni — a koledzy z klasy będą niepełnoletni
 
 **To jest najbardziej prawdopodobna przyczyna dyskwalifikacji na technikalium w całym projekcie i jest to pozycja harmonogramowa, nie formalność do załatwienia na końcu.** Zweryfikuj kompletnie i jako pierwsze: dokładne wymogi, terminy, kto wystawia zgodę dla uczestnika z zagranicy, czy badanie na samym sobie podlega tym samym regułom, jakie są wymogi wobec urządzeń elektrycznych mających kontakt z człowiekiem (prawdopodobnie osobna kategoria ryzyka). Wynik do osobnego pliku `ISEF_HUMAN_PARTICIPANTS.md` z terminarzem wstecznym.
+
+> **WYKONANE I ROZSTRZYGNIĘTE, 15 VIII 2026, sesja druga.** Regulamin *International Rules 2026–2027* odczytany w całości. Wynik: **alarm z tej sekcji był ostrożnym domysłem i się nie potwierdził.**
+> - badanie prototypu **wyłącznie na sobie jest zwolnione** z uprzedniej zgody komisji i z papierologii badań na ludziach; warunki: brak zagrożenia zdrowia oraz **brak wprowadzenia zmiennej ludzkiej** (drugi warunek jest tu trudniejszy i był przeoczony)
+> - **osobna kategoria ryzyka dla urządzeń elektrycznych w kontakcie z człowiekiem nie istnieje.** Sekcja *Hazardous Chemicals, Activities or Devices* obejmuje substancje kontrolowane, leki, alkohol, broń, promieniowanie, lasery i drony. Reguły elektryczne dotyczą **stoiska**, próg to 36 V na obwodach odsłoniętych
+> - Qualified Scientist **nie wymaga doktoratu** — regulamin dopuszcza „extensive experience and expertise" jako alternatywę (K-020)
+> - **doszła jedna realna pozycja, której ta sekcja nie przewidywała:** komisję IRB trzeba **powołać przy szkole**, w składzie edukator + dyrektor + pracownik medyczny lub psycholog. To jedyna rzecz w całej sprawie wymagająca zgody osób trzecich, i dlatego jedyna warta traktowania jako pozycja harmonogramowa
+>
+> Ocena ryzyka formalnego: **obniżona z „najbardziej prawdopodobna przyczyna dyskwalifikacji" na „jedna rozmowa z dyrekcją i jeden mail, jesień 2026".** Nie planować harmonogramu pod alarm z tej sekcji.
 
 ---
 
@@ -397,6 +409,14 @@ Tytuł: „Breaking the Brain-Computer Interface Ceiling: Discovering a New Para
 
 Twierdzenie wg relacji użytkownika: umożliwia komunikację osoby niemówiącej z komputerem, ~65 słów na minutę wobec ~3 dla typowych rozwiązań nieinwazyjnych, czyli dwudziestokrotna poprawa.
 
+> **ZWERYFIKOWANE, 15 VIII 2026, sesja druga — `KOREKTY.md` K-025. Pełny abstrakt odczytany w bazie Society for Science.**
+> - **Liczby 65 i 3 wpm są prawdziwe** i pochodzą wprost z abstraktu. K-004 zamknięty na korzyść handbooka, znacznik `[domysł]` zdjęty.
+> - **Nagroda to Second Award of $2,400**, nie nieokreślone „Grand Award". Pierwsze miejsca w ENBM 2026 zdobyły projekty o innej tematyce.
+> - **Sprzęt był kupiony:** „$1,800 of consumer electroencephalography hardware". Nic nie zostało zbudowane.
+> - **Baseline 3 wpm to własny warunek kontrolny autora na tym samym sprzęcie**, w 111 randomizowanych i kontrbalansowanych próbach, z replikacją na drugiej grupie — a nie wybrany z literatury dolny koniec rozrzutu, jak podejrzewałem. Zarzut wycofany.
+> - Istota pracy: **rozstrzyganie intencji zamiast literowania**, czyli zmiana definicji zadania, a nie lepszy klasyfikator.
+> Pełny tekst abstraktu i rozbiór: `08_KONKURENCJA_ISEF.md` sekcja 2.
+
 [fakt] Ta sama autorka wygrała 1. miejsce Grand Award w kategorii BEHA na ISEF 2025 za projekt CLIMB — sieci konwolucyjne i curriculum learning na rs-fMRI. **Czyli nie jest to osoba, która zbudowała nowy czujnik — to osoba pracująca w warstwie dekodowania.**
 
 [wniosek, do zweryfikowania przez ciebie] Dwudziestokrotność mieszka prawdopodobnie w algorytmie dekodowania i w doborze punktu odniesienia, nie w sprzęcie. Tytuł nie mówi „szybki interfejs", mówi „nieinwazyjny osiąga klasę inwazyjnego" — liczba ma sens, bo baseline został wybrany świadomie.
@@ -425,6 +445,11 @@ Cytuję jego rozumowanie, bo jest sensowne i ma być zweryfikowane, nie przyjęt
 
 **Zweryfikuj to twardo:** przejrzyj listy finalistów Explory 2016–2026 i policz, ile było projektów z obszaru neurotechnologii, EEG, interfejsów mózg-komputer i szerzej elektroniki medycznej. Podaj liczby, nie wrażenie.
 
+> **WYKONANE, 15 VIII 2026, sesja druga — `KOREKTY.md` K-034. Rozumowanie użytkownika potwierdzone liczbowo.**
+> Explory 2026: **133 projekty półfinałowe, z tego 1 oparty na EEG** („Aletheia — rozpoznawanie emocji"), który **do finału nie przeszedł**. Finał 2026: 21 projektów, **zero EEG i zero BCI**. Finał 2025: 22 projekty, **zero**.
+> Edycje 2016–2024 nieprzeliczone — archiwalne listy finalistów są aplikacjami renderowanymi w przeglądarce, a przeglądarka w tym środowisku nie ma dostępu do sieci.
+> **Ale ta sama metoda zastosowana do ISEF daje wynik przeciwny:** projektów zawierających „EEG" było 8 w 2024, 15 w 2025 i **22 w 2026**. Czyli **argument użytkownika jest słuszny dla Explory i nieprawdziwy dla ISEF** — a to są dwa różne etapy tej samej drogi i wymagają różnych optymalizacji. Rozbiór: `08_KONKURENCJA_ISEF.md` sekcja 3.3.
+
 ### 9.4 Moja hipoteza robocza — do weryfikacji lub obalenia, NIE ustalenie
 
 Oznaczam jako `[domysł]` w całości. Nie buduj na tym, dopóki nie sprawdzisz.
@@ -437,6 +462,10 @@ Oznaczam jako `[domysł]` w całości. Nie buduj na tym, dopóki nie sprawdzisz.
 4. **Dekodowanie** — algorytm zamieniający sygnał na intencję. **Od 14 VIII 2026 dostępne.** To jest warstwa, w której najprawdopodobniej mieszka dwudziestokrotność Kharade
 
 Ograniczenie, które zostaje niezależnie od wszystkiego: fizyka przewodnictwa objętościowego i tłumienia przez czaszkę ogranicza stosunek sygnału do szumu i rozdzielczość przestrzenną EEG. To ograniczenie **fizyczne**, nie technologiczne, i żadna warstwa go nie znosi — warstwy 1–3 poprawiają to, co dociera do przetwornika, warstwa 4 lepiej wyciska to, co już zostało zarejestrowane.
+
+> **UZUPEŁNIENIE, 15 VIII 2026, sesja druga — `KOREKTY.md` K-028. Hipoteza z tej sekcji dostała mocne wsparcie z literatury, w punkcie, którego się nie spodziewałem.**
+> Praca *„Conformal in-ear bioelectronics for visual and auditory brain-computer interfaces"* (Tsinghua, **Nature Communications 14:4213, 2023**) pokazuje z kanału słuchowego **95% dokładności SSVEP na 9 celach i speller 40-celowy online bez kalibracji** — o rząd wielkości powyżej wszystkiego, co wcześniej raportowano z ucha. Czynnikiem, który to umożliwił, był **kontakt konformalny elektrody**, czyli **warstwa 1 i 2 z listy powyżej**.
+> **To znaczy, że warstwy 1–3 robią więcej, niż zakładała ta sekcja.** Nie tylko „poprawiają to, co dociera do przetwornika" — w formie dousznej **decydują o tym, czy sygnał w ogóle jest użyteczny do sterowania**. Ostrzeżenie o zatłoczonym polu algorytmicznym pozostaje w mocy; hipoteza o kombinacji sprzętu i dekodowania jest po tej pracy mocniejsza, nie słabsza.
 
 **Ostrzeżenie strategiczne, [wniosek]:** projekt czysto dekodujący stawia użytkownika na tym samym polu co każdy uczestnik z doświadczeniem w uczeniu maszynowym, bez sprzętu i bez przewagi. Publiczne zbiory danych EEG są dostępne dla wszystkich, więc jedyną barierą wejścia jest umiejętność algorytmiczna — a to nie jest przewaga użytkownika. Odwrotnie: projekt czysto sprzętowy oddaje całą dostępną poprawę wydajności.
 

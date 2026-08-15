@@ -95,11 +95,19 @@ Materiały branżowe do aparatów słuchowych: seria **E-Shell** (EnvisionTEC/ET
 
 ### 5.3 Ocena dostępności dla amatora — i tu jest problem
 
-`[fakt, na podstawie zebranego materiału]` Znalezione rozwiązania certyfikowane są **przemysłowe**: materiały przeznaczone do drukarek profesjonalnych, sprzedawane w kanale B2B.
+**LUKA ZAMKNIĘTA 15 VIII 2026 — odpowiedź brzmi TAK. `KOREKTY.md` K-035.**
 
-`[luka]` **Nie ustaliłem, czy istnieje żywica z certyfikatem ISO 10993-5/-10 dostępna dla osoby prywatnej w Polsce, w rozsądnej cenie, do zwykłej drukarki MSLA.** To jest pytanie zakupowe, nie naukowe, i wymaga sprawdzenia sklepów — czego nie zrobię bez sieci.
+Poprzednia wersja zapisywała `[luka]`: „nie ustaliłem, czy istnieje żywica z certyfikatem ISO 10993-5/-10 dostępna dla osoby prywatnej w Polsce, w rozsądnej cenie, do zwykłej drukarki MSLA". **Istnieje.**
 
-**Obejście, gdyby certyfikowana żywica okazała się niedostępna [domysł, do sprawdzenia w etapie 2]:** warstwa pośrednia między wydrukiem a skórą — silikonowa końcówka douszna klasy medycznej z rynku aparatów słuchowych, gotowa i tania, na wydrukowanym korpusie nośnym. Wtedy certyfikat dotyczy elementu kupionego, a wydruk nie dotyka skóry. **Bezpieczeństwo kontaktu jest warunkiem wstępnym konstrukcji wg sekcji 12 handbooka, nie sprawą do rozwiązania na końcu** — więc ta ścieżka musi być rozstrzygnięta, zanim powstanie pierwszy prototyp noszony.
+`[fakt]` **Liqcreate Bio-Med Clear.** Deklarowana zgodność z **ISO 10993-5** (cytotoksyczność), **ISO 10993-10** (uczulenie) i **ISO 10993-23** (podrażnienie). Producent wymienia z nazwy zwykłe drukarki desktopowe MSLA/LCD/DLP, na których materiał działa: **Phrozen, Elegoo, Creality3D, Anycubic**, a także systemy profesjonalne (Asiga). Dostępna w polskich sklepach detalicznych — **2B3D** i **3DUV** — w cenie rzędu **456 zł za 0,5 kg**.
+
+`[fakt]` Alternatywa droższa i zamknięta ekosystemowo: **Formlabs BioMed Clear** i **BioMed Elastic 50A** (ISO 10993 i USP class VI, produkcja w zakładzie zarejestrowanym w FDA wg ISO 13485, dopuszczenie do kontaktu ze skórą powyżej 30 dni). Wymaga drukarki Formlabs, więc dla amatora odpada cenowo, ale warto znać nazwę — **BioMed Elastic 50A jest materiałem miękkim**, czyli odpowiednikiem tego, z czego robi się wkładki douszne.
+
+**Warunek, którego nie wolno pominąć i który trzeba wpisać do procedury, nie do notatki:** biozgodność jest deklarowana **po obróbce końcowej zgodnej z wytycznymi producenta** — mycie i doświetlanie. Niedomyty wydruk żywiczny nie jest biozgodny niezależnie od tego, co pisze na butelce, bo niezwiązany monomer jest drażniący. To jest realna procedura do opanowania, nie formalność.
+
+**Obejście pozostaje sensowne jako wariant, nie jako konieczność `[wniosek]`:** silikonowa końcówka douszna klasy medycznej z rynku aparatów słuchowych, gotowa i tania, na wydrukowanym korpusie nośnym. Zalety niezależne od certyfikatu: gotowe rozmiary, komfort, wymienność, i to, że część dotykająca skóry jest elementem kupionym o znanej trwałości. **Rekomendacja: mieć obie drogi otwarte, wybrać po pierwszym prototypie.**
+
+**Decyzja zakupowa jest teraz kompletna:** tania drukarka MSLA (Elegoo lub Anycubic, rząd kilkuset złotych) plus Liqcreate Bio-Med Clear na elementy dotykające skóry plus dowolna tania żywica na prototypy robocze. Łącznie wyraźnie taniej niż jedna Qidi Q2, i z materiałem, którego Q2 by nie wydrukowała.
 
 ### 5.4 Rekomendacja zakupowa — bez zmian
 
@@ -119,4 +127,25 @@ Materiały branżowe do aparatów słuchowych: seria **E-Shell** (EnvisionTEC/ET
 | widoczność | douszne wyglądają jak słuchawki | równorzędnie |
 | **surowy dostęp do sygnału** | konsumenckie oddają wskaźniki, **nie surowy sygnał** | **tu mamy przewagę strukturalną** |
 
-**[wniosek] Ostatni wiersz jest ważniejszy, niż wygląda.** NextSense i IDUN oddają „wskaźnik gotowości poznawczej", a nie mikrowolty. Oznacza to, że **nikt z zewnątrz nie może zweryfikować ani powtórzyć ich wyników** — a projekt otwarty, z surowym sygnałem i opublikowanym zbiorem danych, może. To jest wymiar przewagi, którego nie da się kupić za pieniądze i który arkusze oceny punktują wprost.
+**[wniosek] Ostatni wiersz jest ważniejszy, niż wygląda.** NextSense i IDUN oddają „wskaźnik gotowości poznawczej", a nie mikrowolty. Oznacza to, że **nikt z zewnątrz nie może zweryfikować ani powtórzyć ich wyników** — a projekt otwarty, z surowym sygnałem, może. To jest wymiar przewagi, którego nie da się kupić za pieniądze i który arkusze oceny punktują wprost (`ISEF_ARKUSZE_OCENY.md`, sekcja Execution: `reproducibility of results`).
+
+---
+
+## 7. Baseline, którego brakowało — i który jest niewygodny
+
+**[fakt, abstrakt odczytany] Knierim, Bleichner, Reali, *„A Systematic Comparison of High-End and Low-Cost EEG Amplifiers for Concealed, Around-the-Ear EEG Recordings"*, Sensors 23(9):4559 (2023), PMID 37177761.**
+
+Porównanie **OpenBCI Cyton+Daisy** (tani, otwarty) z **MBrainTrain Smarting Mobi** (wzmacniacz odniesienia klasy badawczej), w zastosowaniu do ukrytych zapisów wokółusznych (cEEGrid). Wynik wg abstraktu: OpenBCI to „a viable alternative for concealed EEG research, with **highly similar noise performance**, but **slightly lower timing precision**".
+
+**Dlaczego to jest niewygodne i dlaczego zapisuję to tutaj, a nie chowam `[wniosek]`:**
+
+Kandydat na oś projektu to własny tor analogowy. Naturalny baseline dla „mój wzmacniacz jest cichy" to wzmacniacz komercyjny. **Ta praca pokazuje, że OpenBCI za kilkaset dolarów ma już szum porównywalny ze wzmacniaczem badawczym w tym konkretnym zastosowaniu.** Czyli:
+
+- twierdzenie „zbudowałem tani wzmacniacz o dobrym szumie" **jest już zajęte przez produkt z półki**, i to otwartoźródłowy
+- juror znający dziedzinę zapyta wprost: „dlaczego nie OpenBCI"
+
+**To nie zamyka osi projektu — przesuwa ją, i przesuwa we właściwą stronę.** Odpowiedź na pytanie jurora nie może brzmieć „bo mój jest cichszy". Musi brzmieć: **„bo OpenBCI nie ma kompensacji artefaktu szczękowego przed przetwornikiem, a przy uchu to jest dominujące zakłócenie (Kappel 2017) — i oto pomiar tego samego układu z kompensacją i bez"**.
+
+Czyli: **OpenBCI staje się naszym baseline'em, a nie naszym konkurentem.** Buduje się jeden tor z kompensacją, mierzy się go przeciwko OpenBCI **i** przeciwko sobie samemu bez kompensacji. To jest mocniejszy plan eksperymentalny niż porównanie z wzmacniaczem laboratoryjnym, którego użytkownik i tak nie ma, i jest tańszy.
+
+**Efekt uboczny, korzystny:** OpenBCI jest sprzętem, który da się kupić i mieć przed zbudowaniem czegokolwiek. To znaczy, że pomiary EEG mogą ruszyć równolegle z nauką projektowania PCB, zamiast po niej — tak samo jak praca nad dekodowaniem może ruszyć na publicznym zbiorze (`07` sekcja 7.1). **Dwa niezależne ustalenia z tej sesji mówią to samo: jesień 2026 nie musi być wyłącznie nauką, może być już pomiarem.**

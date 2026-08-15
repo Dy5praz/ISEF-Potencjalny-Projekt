@@ -8,15 +8,47 @@
 
 Sekcja 13 handbooka wymaga oznaczenia, jak pewne jest każde źródło. Skala uwzględniająca ograniczenie tego etapu:
 
+**SKALA ZMIENIONA 15 VIII 2026 wieczorem.** Poprzednia skala nie odróżniała „dwa streszczenia zgodne" od „przeczytane", przez co stopień A wprowadzał w błąd — najlepszy przykład to CMRR układu ADS1299, oznaczone jako „najpewniejsza liczba w pliku, trzy niezależne opisy" i błędne o 10 dB (`KOREKTY.md` K-030). Zgodność streszczeń nie jest weryfikacją, jeżeli wszystkie przepisują od siebie.
+
 | Stopień | Znaczenie |
 |---|---|
-| **A** | pozycja istnieje na pewno (tytuł, autorzy, czasopismo i numer z indeksu wyszukiwarki), **treść potwierdzona co najmniej dwoma niezależnymi streszczeniami** |
+| **AA** | **abstrakt lub dokument odczytany bezpośrednio u wydawcy albo w PubMed.** Cytowane liczby pochodzą z tekstu źródła |
+| **A** | pozycja istnieje na pewno, treść potwierdzona co najmniej dwoma niezależnymi streszczeniami, **oryginału nie otwierałem** |
 | **B** | pozycja istnieje na pewno, treść z jednego streszczenia |
 | **C** | pozycja istnieje, treści nie ustaliłem — sam namiar do sprawdzenia |
 | **D** | źródło niskiej jakości, użyte wyłącznie jako sygnał, że temat istnieje. Nie opierać na tym niczego |
 | **X** | **odrzucone** — sprzeczne z lepszym źródłem albo niewiarygodne |
 
-**Zastrzeżenie nadrzędne, obowiązujące dla całego pliku: ani jednej z tych prac nie otworzyłem.** Nawet stopień A oznacza „dwa streszczenia zgodne", a nie „przeczytane". Przy każdej liczbie użytej w plikach 00–08 stoi znacznik `[wniosek, streszczenie]` właśnie z tego powodu.
+**Czego nadal nie mam, i mówię to wprost:** pełnych tekstów za paywallem — dotyczy to IEEE Xplore i części Elsevier. Stopień **AA** oznacza „odczytany abstrakt", nie „przeczytana praca". Dla pozycji, na których stoi twierdzenie projektu, przeczytanie pełnego tekstu jest zadaniem na etap 2; prace w otwartym dostępie (PMC) da się przeczytać bez opłat i to jest pierwsza kolejka.
+
+### 0.1 Pozycje podniesione do AA w tej sesji
+
+| Pozycja | PMID | Co zweryfikowano |
+|---|---|---|
+| Kappel i in. 2017, artefakty w ear-EEG | 28800744 | n=9; szczęka gorsza w uchu; **mrugnięcie nie wpływa na SNR w uchu** — K-026 |
+| Wang Z., Shi N. i in. 2023, SpiralE, Nat Commun | 37452047 | 95% / 9 celów; speller 40-celowy online bez kalibracji — K-028 |
+| Lee i in. 2021, zbiór mobile BCI ear-EEG, Sci Data | 34930915 | 24 osoby, ERP+SSVEP, EOG, IMU — K-027 |
+| Frei i in. 2026, signal-specific in-ear | 42592227 | n=19; alfa tak, N1-P2 nie; finansowanie Logitech |
+| Ueda i in. 2025, mu-ERD z ucha, PLoS One | 40198632 | n=20; 9–12,5 Hz; **ruch wykonany, nie wyobrażony** |
+| Wang Y-T. i in. 2015, online SSVEP ear-EEG, EMBC | 26736745 | 16,6 ± 6,6 bit/min, **n=4** — K-031 |
+| Israsena, Pan-Ngum 2022, CNN SSVEP ear-EEG | 35664916 | 69,21% / 6,42 bit/min przy 63,49%, T7+T8 |
+| Moumane i in. 2024, jakość sygnału dousznego | 39319310 | n=30; ~80% dotyczy korelacji ze skalpem — K-032 |
+| Dabbaghian i in. **2019**, analogowa kompensacja artefaktów ruchowych | 31443050 | **rok i klasa urządzenia poprawione**; CMRR >115 dB wycofane — K-029 |
+| Kim i in. 2026, zauszny IC z kompensacją offsetu | 41370143 | nowa pozycja; kompensuje offset, nie artefakt biologiczny |
+| Knierim i in. 2023, OpenBCI vs wzmacniacz badawczy | 37177761 | szum porównywalny — zmienia baseline projektu |
+| *jaw artifacts* jako sygnał sterujący, PLoS One **2014** | 25390372 | cofa pierwszeństwo roli 1 o 11 lat przed ID.EARS |
+
+### 0.2 Dokumenty regulaminowe i konkursowe odczytane w oryginale — stopień AA
+
+| Dokument | Co z niego wzięto |
+|---|---|
+| **International Rules for Pre-College Science Research 2026–2027**, Society for Science, 46 s., PDF | zwolnienie dla badania na sobie, brak kategorii ryzyka dla urządzeń elektrycznych, role dorosłych, skład IRB, reguła 12 miesięcy, formularze, kategorie, zasady AI, reguły stoiska |
+| **Regulamin Konkursu Explory**, FZT, 11 s., PDF | §8 pkt 7c — ISEF „w maju kolejnego roku"; §4 pkt 5 — zakaz badań **inwazyjnych**; §7 — kryteria oceny; §6 — kalendarz i „Bilet na Finał"; §3 — Data Kwalifikacji |
+| **ISEF Grand Award Judging Criteria**, societyforscience.org | oba arkusze w całości; **Poster 10 + Interview 25** — K-024 |
+| **Baza abstraktów Society for Science** | pełny abstrakt ENBM074 (2026); nagroda **Second Award $2,400**; liczby projektów EEG 2014–2026 |
+| **Wyniki_Polfinal_2026.pdf**, Explory | oficjalna lista finalistów 2026 |
+| **glosuj.explory.pl** | 133 projekty półfinałowe Explory 2026 |
+| **ti.com/product/ADS1299** | szum 1 µV p-p @ 70 Hz potwierdzony; **CMRR −110 dB** — K-030 |
 
 ---
 
@@ -161,10 +193,15 @@ Sekcja 13 handbooka wymaga oznaczenia, jak pewne jest każde źródło. Skala uw
 
 | Stopień | Liczba pozycji |
 |---|---|
-| A — treść potwierdzona dwoma streszczeniami | **26** |
-| B — jedno streszczenie | 32 |
-| C — sam namiar, treści nie ustalono | 20 |
+| **AA — odczytane u wydawcy / w PubMed** | **12 prac + 7 dokumentów regulaminowych i konkursowych** |
+| A — treść potwierdzona dwoma streszczeniami, oryginału nie otwierano | ~20 |
+| B — jedno streszczenie | ~30 |
+| C — sam namiar, treści nie ustalono | ~20 |
 | D — niska jakość, tylko sygnał | 4 |
 | X — odrzucone | 5 |
 
-**[fakt] Pozycji przeczytanych w oryginale: 0.** To jest liczba, która opisuje ten etap najuczciwiej i dlatego stoi na końcu bibliografii, a nie w przypisie.
+**[fakt] Pozycji odczytanych w oryginale: 19** (12 prac naukowych, 7 dokumentów). W poprzedniej wersji tej tabeli stało **0** i to była najuczciwsza liczba tamtego etapu.
+
+**[fakt] Ile z tego wyszło korekt: szesnaście**, K-020…K-035. Trzy z nich zmieniają decyzje projektowe, nie tylko zapis: K-026 (oś projektu dotyczy szczęki, nie pary szczęka+oko), K-027 (publiczny zbiór ear-EEG do sterowania istnieje), K-028 (pułap SSVEP z ucha jest o rząd wielkości wyżej, niż zakładałem).
+
+**Wskaźnik trafności streszczeń, policzony na tym, co udało się sprawdzić:** z dwunastu prac odczytanych w oryginale **osiem miało liczby lub opis zgodny** ze streszczeniem, **cztery miały istotny błąd** (K-026, K-029, K-031 przez pominięcie n, K-032). To jest **jedna trzecia**. Przy przeglądzie literatury, którego celem jest ustalenie, co już zrobiono, jedna trzecia błędnych pozycji nie jest szumem — unieważnia wynik. **To jest empiryczne uzasadnienie zasady „weryfikuj 2–3 razy" z sekcji 2.2 handbooka, wyrażone liczbą.**

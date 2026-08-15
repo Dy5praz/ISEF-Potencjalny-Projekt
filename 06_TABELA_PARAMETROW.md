@@ -6,7 +6,11 @@
 
 ## 0. Jak czytać tę tabelę — trzy zastrzeżenia, bez których wprowadza w błąd
 
-**1. Kolumna „skąd ta liczba" jest ważniejsza niż sama liczba.** Żadnej z tych liczb nie odczytałem z pełnego tekstu pracy. Wszystkie pochodzą ze streszczeń wyszukiwarki.
+**1. Kolumna „skąd ta liczba" jest ważniejsza niż sama liczba.**
+
+> **AKTUALIZACJA 15 VIII 2026, wieczór.** Część liczb została **zweryfikowana w abstraktach odczytanych z PubMed**. Te mają w kolumnie „skąd" wpis **`abstrakt`** i numer PMID, i **nie mają już znacznika `[wniosek, streszczenie]`**. Reszta pozostaje na streszczeniach i jest tak oznaczona. Trzy liczby okazały się błędne — patrz `KOREKTY.md` K-030, K-031, K-032.
+>
+> **Dodana kolumna „n"** — liczba badanych. Jej brak był realnym błędem poprzedniej wersji: liczba bez wielkości próby nie znaczy tego, co się wydaje, że znaczy. Dokładnie tego wymaga sekcja 10.G handbooka od naszych własnych liczb, więc nie ma powodu, żeby cudze traktować łagodniej.
 
 **2. ITR między pracami nie jest wprost porównywalny.** Wzór Wolpawa jest jeden:
 
@@ -22,14 +26,16 @@ Ale to samo N przy innym zadaniu znaczy co innego, a **t** bywa liczone raz z pr
 
 ## 1. Interfejsy sterujące i komunikacyjne — wydajność
 
-| Rozwiązanie | Modalność | Kanały | Dokładność | ITR | wpm | Widoczne? | Skąd ta liczba |
-|---|---|---|---|---|---|---|---|
-| SSVEP wielokomendowy, potylica | EEG skalp | wiele | 92,8% | **91,7 bit/min** | — | **tak, czapka** | streszczenie, 12 celów |
-| SSVEP high-speed (Chen 2015) | EEG skalp | wiele | — | — | **~12** (60 znaków/min) | **tak** | streszczenie, PNAS 112 |
-| SSVEP ogólnie | EEG skalp | wiele | wysoka | ~70 bit/min | — | **tak** | streszczenie, wartość zbiorcza |
-| **SSVEP douszne, online** | **ear-EEG** | mało | **87,9 ± 12,1%** | **16,6 ± 6,6 bit/min** | — | **nie** | streszczenie |
-| SSVEP douszne, 7 s okna | ear-EEG | mało | 79,9 ± 13,1% | 11,0 ± 4,2 bit/min | — | **nie** | streszczenie |
-| SSVEP douszne, T7/T8, CNN | ear-EEG | 2 | 63,5% (69,2% trening grupowy) | 6,4 bit/min | — | **nie** | streszczenie, Front Comput Neurosci 16:868642 |
+| Rozwiązanie | Modalność | Kanały | n | Dokładność | ITR | wpm | Widoczne? | Skąd ta liczba |
+|---|---|---|---|---|---|---|---|---|
+| SSVEP wielokomendowy, potylica | EEG skalp | wiele | ? | 92,8% | **91,7 bit/min** | — | **tak, czapka** | streszczenie, 12 celów |
+| SSVEP high-speed (Chen 2015) | EEG skalp | wiele | ? | — | — | **~12** (60 znaków/min) | **tak** | namiar potwierdzony, PNAS 112, PMID 26483479 |
+| SSVEP ogólnie | EEG skalp | wiele | — | wysoka | ~70 bit/min | — | **tak** | streszczenie, wartość zbiorcza |
+| **SSVEP douszne, SpiralE, offline** | **ear-EEG konformalne** | mało | ? | **95%** (9 celów) | — | — | **nie** | **abstrakt, Nat Commun 14:4213, PMID 37452047** |
+| **SSVEP douszne, SpiralE, speller online** | **ear-EEG konformalne** | mało | ? | **40 celów, bez kalibracji** | — | — | **nie** | **abstrakt, j.w.** |
+| SSVEP douszne, online (2015) | ear-EEG | mało | **4** | **87,9 ± 12,1%** | **16,6 ± 6,6 bit/min** | — | **nie** | **abstrakt, EMBC 2015, PMID 26736745** |
+| SSVEP douszne, offline, okno 4 s (2015) | ear-EEG | mało | **4** | 82,7 ± 11,8% | — | — | **nie** | **abstrakt, j.w.** |
+| SSVEP douszne, T7/T8, CNN | ear-EEG | 2 | ? | 63,5% (69,2% trening grupowy) | 6,4 bit/min | — | **nie** | **abstrakt, Front Comput Neurosci 16:868642, PMID 35664916** |
 | P300 słuchowy, ear-EEG | ear-EEG | mało | **95,6%** | **~2,97 bit/min** | — | **nie** | streszczenie, IEEE 8311519 |
 | P300 słuchowy hybrydowy | EEG skalp | — | 85,3% | 9,1 bit/min | — | tak | streszczenie |
 | P300 słuchowy klasyczny | EEG skalp | — | 74,6% | 4,2 bit/min | — | tak | streszczenie |
@@ -47,7 +53,7 @@ Ale to samo N przy innym zadaniu znaczy co innego, a **t** bywa liczone raz z pr
 | OPM-MEG mind-spelling | MEG | 80+ | **97,7%** | — | — | **tak, i wymaga ekranowania** | streszczenie, jedno źródło |
 | **ID.EARS, 5 gestów** | **EMG/EOG przy uchu** | 1 ucho | **>90%** | — | — | **nie** | streszczenie, CHI 2025 |
 | eye tracking | kamera | — | ułamek stopnia | bardzo wysokie | — | zależy od montażu | wiedza ogólna |
-| **projekt referencyjny (sekcja 9.2 handbooka)** | nieinwazyjne | ? | ? | ? | **~65 vs ~3** | ? | **`[domysł]` — relacja ustna użytkownika, abstraktu nie odczytano. K-004** |
+| **projekt referencyjny ENBM074 (2026)** | nieinwazyjne, **sprzęt konsumencki za 1 800 USD** | ? | 111 prób + replikacja | — | — | **65 vs 3** (baseline: własny speller na tym samym sprzęcie) | tak, sprzęt kupiony | **abstrakt odczytany w bazie Society for Science. K-004 ZAMKNIĘTE — liczby są prawdziwe** |
 
 ---
 
@@ -59,9 +65,10 @@ Ale to samo N przy innym zadaniu znaczy co innego, a **t** bywa liczone raz z pr
 | **amplituda EOG** | do 30–40 mV u źródła | streszczenie |
 | **amplituda EMG** | 50 µV – 30 mV | streszczenie |
 | stosunek EMG/EEG | **×10–100** | streszczenie, zgodne z powyższymi |
-| **szum wejściowy ADS1299** | **1,0 µV p-p @ 70 Hz** | **parametr katalogowy, trzy niezależne opisy — najpewniejsza liczba w tym pliku** |
-| CMRR ADS1299 | −120 dB | j.w. |
-| CMRR dobrego IC EEG @ 50/60 Hz | >115 dB | streszczenie |
+| **szum wejściowy ADS1299** | **1,0 µV p-p @ 70 Hz** | **strona producenta (TI), odczytana. Potwierdzone** |
+| **CMRR ADS1299** | **−110 dB** | **strona producenta. POPRAWKA — było −120 dB, K-030** |
+| rozdzielczość / wzmocnienie / próbkowanie ADS1299 | 24 bity / 1–24 / 250 SPS – 16 kSPS | strona producenta |
+| ~~CMRR dobrego IC EEG @ 50/60 Hz >115 dB~~ | **WYCOFANE** | liczba przypisana błędnie pracy Dabbaghian 2019; nie występuje w tym źródle. K-029 |
 | CMRR układu RLD | 80–100 dB | streszczenie |
 | impedancja, elektroda mokra Ag, kanał słuchowy @50 Hz | **4 kΩ** (σ=3) | streszczenie, jedno źródło |
 | impedancja, elektroda sucha Ag | **452 kΩ** (σ=737) | j.w. |
@@ -71,7 +78,8 @@ Ale to samo N przy innym zadaniu znaczy co innego, a **t** bywa liczone raz z pr
 | przewaga jakości sygnału inwazyjnego nad nieinwazyjnym | **20 – ponad 100×** | streszczenie, jedno źródło |
 | zmiana mocy alfa (oczy otwarte/zamknięte), skalp | **152%** | streszczenie, jedno źródło |
 | zmiana mocy alfa, ucho | **57%** | j.w. |
-| wykrywalność alfa w zapisie dousznym | ~80% zapisów | streszczenie |
+| **korelacja sygnału dousznego ze skalpowym** | **istotna w ~80% przypadków** (p<0,01), n=**30** | **abstrakt, Front Neurosci 18:1441897, PMID 39319310. POPRAWKA — wcześniej opisane jako „wykrywalność alfy w ~80% zapisów", to co innego. K-032** |
+| amplituda alfy i SNR w uchu vs skalp | **niższe w uchu**, n=30 | abstrakt, j.w. |
 | SNR douszne vs czołowe | 5–6 vs 8 | streszczenie, jedno źródło |
 | BCI illiteracy, wyobrażenie ruchu | **15–30% osób** | streszczenie, dwa źródła zgodne |
 
@@ -127,12 +135,16 @@ Stopnie 0–4 poniżej zostają jako narzędzie opisowe, ale **próg akceptacji 
 
 ## 5. Co z tej tabeli wynika dla twierdzenia projektu
 
-**[wniosek] 1. Wariant „lepszy w przepustowości" jest zamknięty.** SSVEP douszne 6–17 bit/min wobec ~92 bit/min z potylicy. To 5–15×, geometria, nie warsztat.
+**PRZELICZONE 15 VIII 2026 wieczorem. Punkt 1 był błędny i był fundamentem rekomendacji C2.**
 
-**[wniosek] 2. Wariant „przewaga przy stałej widoczności" ma pusty baseline.** Żaden produkt komercyjny na stopniu 0–1 nie robi sterowania. Trzeba porównywać się z **literaturą** ear-EEG (16,6 bit/min SSVEP, ~3 bit/min P300 słuchowy), nie z produktami. To jest wykonalne i uczciwe.
+**1. Wariant „lepszy w przepustowości" NIE jest zamknięty — `KOREKTY.md` K-028.** Liczby 6–17 bit/min, na których stało to zamknięcie, pochodziły z prac z **2015 (n=4)** i **2022**. Praca z **Nature Communications 2023** pokazuje z kanału słuchowego 95% na 9 celach i speller 40-celowy online bez kalibracji. Różnica względem potylicy okazała się kosztem **kontaktu elektrody**, nie geometrii — a kontakt elektrody to warstwy 1 i 2 z sekcji 9.4 handbooka, czyli **warsztat użytkownika**.
 
-**[wniosek] 3. Wariant „metryka użytkowa" ma najwięcej wolnego miejsca.** Czas montażu, stabilność w ciągu dnia, odsetek sesji bez rekalibracji, tolerancja na ruch i mówienie — praktycznie nieraportowane, a wskazywane jako motywacja całej linii ear-EEG.
+**Co to znaczy dla decyzji C2:** rekomendacja na wariant 2 (metryka użytkowa) **traci swoje główne uzasadnienie liczbowe**. Nie znaczy to, że wariant 2 jest zły — znaczy, że wybór trzeba przeprowadzić od nowa, na trzech wariantach o porównywalnym statusie, a nie na jednym pozostałym po eliminacji. **To jest decyzja użytkownika i zostaje otwarta.**
 
-**Rekomendacja bez zmian względem `00_STRESZCZENIE.md`: wariant 2 jako oś twierdzenia, wariant 1 jako tabela towarzysząca.**
+**2. Wariant „przewaga przy stałej widoczności" ma baseline słaby, ale nie pusty.** Żaden produkt komercyjny na stopniu 0–1 nie robi sterowania. Porównywać trzeba się z **literaturą** ear-EEG. Doszła pozycja, której wcześniej nie miałem: *„Electrophysiological Characterisation of Commercial Ear-EEG Devices"*, EMBC 2025, PMID 41336899 — charakterystyka elektrofizjologiczna urządzeń komercyjnych, czyli gotowy materiał na ten baseline.
 
-**4. Wiersz projektu referencyjnego zostaje pusty w każdej kolumnie poza wpm, a i tam z `[domysł]`.** Zgodnie z K-004 i sekcją 9.2 handbooka nie ustawiamy tego wyniku jako progu — ten wiersz jest w tabeli po to, żeby było widać, że nie ma z czym się porównywać, a nie żeby się porównywać.
+**3. Wariant „metryka użytkowa" nadal ma najwięcej wolnego miejsca.** Czas montażu, stabilność w ciągu dnia, odsetek sesji bez rekalibracji, tolerancja na ruch i mówienie — praktycznie nieraportowane, a wskazywane jako motywacja całej linii ear-EEG.
+
+**Uwaga formalna, której nie było, a która ogranicza wariant 3 (`ISEF_HUMAN_PARTICIPANTS.md` sekcja 1.1):** metryki zależne od stanu badanego (wyspanie, zmęczenie) są w regulaminie ISEF **zmienną ludzką** i łamią zwolnienie dla badania na sobie. Mierzenie dryfu jakości sygnału w czasie noszenia — dozwolone. Mierzenie, jak wynik zależy od tego, ile badany spał — wymaga zgody IRB. Granica jest cienka i trzeba ją trzymać świadomie.
+
+**4. Wiersz projektu referencyjnego jest już wypełniony i K-004 zamknięte.** Liczby 65 i 3 wpm są prawdziwe, pochodzą z abstraktu, a baseline 3 wpm to **własny warunek kontrolny autora na tym samym sprzęcie**, nie wybrany dolny koniec cudzego rozrzutu. Mój zarzut z `07` sekcja 5.2 nie dotyczy tej pracy i został wycofany. Zgodnie z sekcją 9.2 handbooka nadal nie ustawiamy tego wyniku jako progu — ale teraz przynajmniej wiadomo, czego się nie ustawia.

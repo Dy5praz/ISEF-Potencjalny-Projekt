@@ -2,6 +2,12 @@
 
 **Zakres wg sekcji 10.C handbooka.** Dla każdego ograniczenia: kto to stwierdził, na jakiej podstawie, **pod jakimi warunkami** i — najważniejsze — czy jest fizyczne czy technologiczne.
 
+> **AKTUALIZACJA, 15 VIII 2026 wieczorem — jedna z opisanych tu ścian okazała się nie być ścianą.**
+>
+> Sekcja 3 tego pliku opisywała stratę przepustowości SSVEP przy uchu jako **ograniczenie geometryczne**, czyli fizyczne dla danej formy urządzenia. Podstawą były liczby 6–17 bit/min z prac z 2015 i 2022. Po odczytaniu **Nature Communications 14:4213 (2023)** — urządzenie SpiralE, elektroda douszna o kontakcie konformalnym, **95% na 9 celach i 40-celowy speller SSVEP online bez kalibracji** — to twierdzenie się nie broni. Czynnikiem ograniczającym był **kontakt elektrody**, czyli parametr technologiczny, nie odległość od kory wzrokowej.
+>
+> Poprawka opisana w `KOREKTY.md` **K-028**, rozbiór w `04_LUKI_ZAPISANE.md` sekcja 1.5. Sekcja 3 poniżej jest **przepisana**, sekcja 7 skorygowana. Reszta pliku pozostaje w mocy.
+
 Rozróżnienie działa tak: **ograniczenie fizyczne** wynika z praw przyrody i zostaje niezależnie od pieniędzy i pomysłowości. **Ograniczenie technologiczne** wynika ze stanu techniki w chwili, w której ktoś je stwierdził, i może się zdezaktualizować — wtedy jest szansą, nie ścianą. Trzecia kategoria, którą dokładam, bo pojawiła się w materiale: **ograniczenie geometryczne** — wynika z tego, gdzie postawiono elektrodę, więc jest fizyczne dla danej formy urządzenia i znika przy zmianie formy. Dla nas jest to ograniczenie fizyczne, bo forma jest wymaganiem twardym.
 
 ---
@@ -39,16 +45,19 @@ To rozróżnienie jest sednem kandydata na oś projektu, więc rozpisuję je dok
 
 W sekcji 4c `00_PYTANIA_I_LUKI.md` napisałem, że rytmy sensomotoryczne z okolicy ucha „spadają prawdopodobnie do okolic szumu własnego wzmacniacza", i użyłem tego jako głównego argumentu za odczytem dyskretnym. **Ten argument był za mocny.**
 
-**Co znalazłem:** *„Detection of motor-related mu rhythm desynchronization by ear EEG"*, PLOS One 2025 — praca w całości poświęcona temu, że desynchronizacja mu związana z ruchem **jest wykrywalna z ucha** `[wniosek, streszczenie, jedno źródło, liczb nie odczytałem]`. Osobno: ear-EEG jest opisywane jako porównywalne ze skalpowym **dla źródeł leżących blisko ucha**, czyli w płacie skroniowym.
+**Co znalazłem — teraz w oryginale `[fakt, abstrakt odczytany]`:** Ueda, Ueno, Inoue, Sakiyama, Shiroma, Ishii, Naito, *„Detection of motor-related mu rhythm desynchronization by ear EEG"*, **PLoS One 20(4):e0321107 (2025)**, PMID 40198632. **Dwudziestu zdrowych uczestników.** Porównanie mocy rytmu mu i danych czasowo-częstotliwościowych między spoczynkiem z otwartymi oczami a ruchem prawej ręki. Wynik: istotna różnica mocy rytmu mu oraz istotne stłumienie w paśmie **9–12,5 Hz**.
+
+**Zastrzeżenie, którego wcześniej nie zapisałem, a które zmienia zasięg tego wyniku:** badani wykonywali **rzeczywisty ruch chwytania i puszczania**, nie wyobrażenie ruchu. Desynchronizacja przy ruchu wykonanym jest silniejsza niż przy wyobrażonym `[wniosek, wiedza podręcznikowa]`. **Ta praca nie pokazuje więc, że wyobrażenie ruchu jest wykrywalne z ucha** — pokazuje, że wykrywalny jest ruch. Dla sterowania interfejsem potrzebne jest to pierwsze. Pułap jest zatem niżej, niż sugeruje sam tytuł.
 
 **Poprawna wersja twierdzenia, z warunkami:**
 
 | Sygnał | Dostępność przy uchu | Status |
 |---|---|---|
 | alfa spoczynkowa (oczy otwarte/zamknięte) | **pewna**, choć amplituda niższa; zmiana mocy 57% w uchu vs 152% na skalpie | fizycznie osiągalne |
-| ERD rytmu mu przy ruchu | **wykrywalna**, ale to detekcja, nie sterowanie wielokomendowe | osiągalne, trudność otwarta |
-| odpowiedzi kory słuchowej | blisko anatomicznie, ale patrz ostrzeżenie niżej | **niepewne** |
-| SSVEP (kora wzrokowa) | działa, ITR spada 5–15× względem potylicy | osiągalne, kosztowne |
+| ERD rytmu mu przy **wykonanym** ruchu ręki | **wykrywalna**, n=20, pasmo 9–12,5 Hz | osiągalne |
+| ERD rytmu mu przy **wyobrażonym** ruchu | `[luka]` — nie znalazłem pracy pokazującej to z ucha | **nierozstrzygnięte** |
+| odpowiedzi kory słuchowej (N1-P2) | **nie wychodzą wiarygodnie** w konfiguracji dousznej, n=19 | patrz sekcja 3.1 |
+| SSVEP (kora wzrokowa) | **działa dobrze przy dobrym kontakcie elektrody** — 9 celów 95%, speller 40-celowy online (Nat Commun 2023) | **technologiczne, nie geometryczne** — poprawka K-028 |
 | sterowanie ciągłe kursorem z gęstej siatki nad korą ruchową | wymaga elektrod C3/Cz/C4 | **niedostępne w formie zausznej** — geometria |
 
 **Argument, który zostaje w mocy po korekcie:** nie „z ucha nie widać kory ruchowej", tylko **„ciągłe, dwu- lub trójwymiarowe sterowanie wymaga gęstej siatki elektrod nad korą ruchową, a pojedyncza pozycja zauszna nie daje filtracji przestrzennej potrzebnej do rozdzielenia kierunków"**. To jest słabsze twierdzenie i uczciwsze. Ustalenie „odczyt dyskretny" zostaje, bo stoi też na czterech innych nogach (patrz tabela w sekcji 4c `00_PYTANIA_I_LUKI.md`), ale **nie wolno go uzasadniać zdaniem, które padło wcześniej.** Wpis K-014 w `KOREKTY.md`.
@@ -57,13 +66,15 @@ W sekcji 4c `00_PYTANIA_I_LUKI.md` napisałem, że rytmy sensomotoryczne z okoli
 
 W rundzie drugiej rekomendowałem paradygmaty słuchowe jako „te, których generator neuronalny leży blisko ucha". Materiał tego **nie potwierdza jednoznacznie**.
 
-*„Signal-specific performance of in-ear EEG: strengths and limitations"*, Frontiers in Neuroscience 20 (2026): 19 osób, w pełni douszny system z elektrodami suchymi, porównanie równoległe z 32-kanałowym BioSemi. Wynik `[wniosek, streszczenie, jedno źródło, waga wysoka]`:
+*„Signal-specific performance of in-ear EEG: strengths and limitations"*, **Frontiers in Neuroscience 20:1859327 (2026), PMID 42592227** — Frei, Mainar, Fritz, Chardon, Giroud: **19 zdrowych dorosłych**, w pełni douszny system z elektrodami suchymi o generycznym dopasowaniu, porównanie **równoległe** z 32-kanałowym BioSemi. Wynik `[fakt, abstrakt odczytany]`:
 
 - alfa spoczynkowa przy zamkniętych oczach — **wychodzi pewnie** mimo niższej amplitudy
 - **odpowiedź słuchowa N1-P2 — wiarygodna tylko przy uśrednionej referencji skalpowej**; w konfiguracji dousznej wykrywalność komponentu i jego SNR spadają
 - alfa podczas słuchania mowy w szumie — istotne odchylenia widoczne w EEG skalpowym, **w minimalnej konfiguracji dousznej nie wykrywane konsekwentnie**
 
-Bliskość anatomiczna kory słuchowej nie wystarcza, bo liczy się też **orientacja dipola i rozstaw elektrod względem niego**, nie sama odległość. To jest pozycja obowiązkowa do sprawdzenia w oryginale przed wyborem paradygmatu w etapie 2 — od niej zależy, czy paradygmat słuchowy w ogóle jest dobrym wyborem dla formy zausznej.
+Bliskość anatomiczna kory słuchowej nie wystarcza, bo liczy się też **orientacja dipola i rozstaw elektrod względem niego**, nie sama odległość.
+
+**Status: sprawdzone w oryginale, ustalenie potwierdzone.** Do zapisania dodatkowo: praca była finansowana przez **Logitech S.A.**, który dostarczył badany system douszny i uczestniczył w projektowaniu badania. Dwóch współautorów było wówczas pracownikami tej firmy. **To wzmacnia wiarygodność wyników negatywnych** — producent nie ma interesu w publikowaniu, że jego urządzenie czegoś nie wykrywa. Wynik pozostaje w mocy jako argument przeciw paradygmatom słuchowym w formie dousznej.
 
 ## 4. ŚCIANA FIZYCZNA — opóźnienie hemodynamiczne
 
@@ -111,13 +122,16 @@ Użytkownik nie ma sprzętu pomiarowego. Połowa twierdzenia o własnym torze an
 ## 7. Podsumowanie — czego nie wolno obiecywać, i co zostaje
 
 **Nie do obrony przy formie zausznej:**
-- rozdzielczość przestrzenna porównywalna z rozwiązaniami inwazyjnymi — ściana fizyczna, sekcja 1
-- ITR wyższy niż wielokanałowa czapka przy tym samym paradygmacie — geometria, sekcja 3
-- sterowanie ciągłe, wielowymiarowe, z jednej pozycji zausznej — sekcja 3
+- rozdzielczość przestrzenna porównywalna z rozwiązaniami inwazyjnymi — **ściana fizyczna**, sekcja 1
+- sterowanie ciągłe, wielowymiarowe, z jednej pozycji zausznej — brak filtracji przestrzennej, sekcja 3
 - działanie u 100% badanych w paradygmacie wyobrażenia ruchu — sekcja 5
+- odpowiedzi kory słuchowej jako podstawa sterowania — sekcja 3.1, n=19, potwierdzone
+
+**Pozycja wycofana z tej listy, `KOREKTY.md` K-028:** „ITR wyższy niż wielokanałowa czapka przy tym samym paradygmacie" **nie jest ścianą geometryczną**. Praca z Nature Communications 2023 pokazuje speller SSVEP 40-celowy online z kanału słuchowego. Ograniczeniem był kontakt elektrody, czyli parametr technologiczny — a to jest warstwa 1 i 2 z sekcji 9.4 handbooka, czyli **warsztat użytkownika**. Twierdzenie przepustowościowe wraca do rozważenia w etapie 2 i **nie wolno go odrzucać powołując się na ten plik.**
 
 **Zostaje do wzięcia, w kolejności atrakcyjności dla tego projektu:**
-1. **zakres dynamiczny toru w obecności artefaktów mięśniowo-ocznych przy uchu** — ograniczenie technologiczne, udokumentowane jako gorsze w uchu niż na skalpie (Kappel 2017), mieszczące się w najmocniejszej umiejętności użytkownika
-2. **impedancja i stabilność elektrod suchych w formie zausznej** — materiały i mechanika
-3. **standaryzacja referencji w ear-EEG** — luka metodologiczna, tania, wymaga staranności zamiast sprzętu
-4. **metryki użytkowe zamiast przepustowościowych** — pole opisane jako ważne, a rzadko mierzone
+1. **zakres dynamiczny toru w obecności artefaktu szczękowego przy uchu** — ograniczenie technologiczne, udokumentowane w oryginale jako **gorsze w uchu niż na skalpie** (Kappel 2017, n=9, największe w paśmie gamma), mieszczące się w najmocniejszej umiejętności użytkownika. **Uwaga: dotyczy szczęki, nie mrugnięcia — K-026**
+2. **jakość i powtarzalność kontaktu elektroda–skóra** — po pracy SpiralE to jest udokumentowany czynnik decydujący o przepustowości, a nie drobiazg wykonawczy. Awansowało z pozycji 2 na najmocniejszą przesłankę w całym pliku
+3. **impedancja i stabilność elektrod suchych w formie zausznej** — materiały i mechanika
+4. **standaryzacja referencji w ear-EEG** — luka metodologiczna wskazana wprost przez Frontiers 2026, tania, wymaga staranności zamiast sprzętu
+5. **metryki użytkowe zamiast przepustowościowych** — pole opisane jako ważne, a rzadko mierzone

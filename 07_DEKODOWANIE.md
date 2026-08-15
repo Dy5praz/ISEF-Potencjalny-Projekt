@@ -110,20 +110,30 @@ To nie jest ostrożność dla samej ostrożności. To jest jedyny sposób, żeby
 
 ---
 
-## 6. Projekt referencyjny — co da się powiedzieć bez abstraktu
+## 6. Projekt referencyjny — ABSTRAKT ODCZYTANY, hipoteza rozstrzygnięta
 
 Sekcja 9.2 handbooka każe ustalić, co konkretnie zostało zrobione, **żeby wiedzieć, którą ścieżką nie idziemy**.
 
-**Abstraktu nie odczytałem** (baza zablokowana). Ale kontekst z sekcji 5 pozwala postawić hipotezę **falsyfikowalną**, i to jest lepsze niż nic:
+**[fakt] Pełny abstrakt odczytany** w bazie abstraktów Society for Science, 15 VIII 2026. Cytaty i pełny rozbiór: `08_KONKURENCJA_ISEF.md` sekcja 2.
 
-`[domysł, do zweryfikowania po odblokowaniu sieci]` Jeżeli deklarowany jest skok z ~3 do ~65 wpm w rozwiązaniu nieinwazyjnym, to przy fizyce z `03_SCIANY_FIZYCZNE.md` **nie może to pochodzić z sprzętu** — czaszka nie zniknęła. Zostają trzy możliwości, wzajemnie niewykluczające się:
-1. warstwa dekodowania z silnym modelem językowym (mechanizm z sekcji 5.1, gdzie zysk jest udokumentowany i duży)
-2. dobór punktu odniesienia (3 wpm to dolny koniec rozrzutu, sekcja 5.2)
-3. inna definicja „słowa na minutę" niż w pracach, z którymi jest to zestawiane
+**Moja hipoteza z poprzedniej wersji — trafiona w dwóch punktach z trzech, i chybiona w tym, który wydawał się najpewniejszy.**
 
-Wzmacnia to obserwacja z sekcji 9.2 handbooka: ta sama osoba wygrała rok wcześniej w kategorii BEHA za pracę o sieciach konwolucyjnych na rs-fMRI. **To jest profil osoby pracującej w dekodowaniu, nie w czujnikach.**
+| Co stawiałem | Jak jest |
+|---|---|
+| „nie może to pochodzić ze sprzętu" | **trafione.** Sprzęt to kupione konsumenckie EEG za **1 800 USD**. Nic nie zostało zbudowane |
+| „zysk siedzi w warstwie dekodowania z silnym modelem językowym" | **chybione co do mechanizmu.** Zysk nie pochodzi z modelu językowego doklejonego na wyjściu, tylko ze **zmiany zadania**: „resolving intent directly, instead of spelling messages out letter by letter" |
+| „dobór punktu odniesienia — 3 wpm to dolny koniec rozrzutu" | **chybione i wycofuję ten zarzut.** Baseline 3 wpm to **klasyczny speller uruchomiony przez tego samego autora, na tym samym sprzęcie, jako warunek kontrolny**, w 111 randomizowanych i kontrbalansowanych próbach. To jest uczciwie zmierzone odniesienie wewnętrzne, a nie wybrana z literatury liczba |
+| „inna definicja słowa na minutę" | nierozstrzygnięte, ale nieistotne przy baseline wewnętrznym |
 
-**Ścieżka, w którą nie wchodzimy:** komunikacja, dekodowanie językowe, duże modele na wyjściu. Decyzja C1 użytkownika (sterowanie, nie komunikacja) prowadzi w przeciwną stronę i **to jest zgodne z zakazem z sekcji 9.2** — nie dlatego, że unikamy porównania, tylko dlatego, że to inne zadanie.
+**Wniosek, który trzeba zapisać wprost, bo jest niewygodny:** podejrzewałem tę pracę o naciągnięcie punktu odniesienia i **nie miałem racji**. Metodologicznie jest ona mocniejsza niż moje wobec niej zastrzeżenie: warunek kontrolny na tym samym sprzęcie, randomizacja, kontrbalansowanie, replikacja na drugiej, naiwnej grupie, poprawka na wielokrotne porównania (`q` zamiast `p`), rozmiar efektu (Cohen's d = 2,9) i **test mechanizmu przez podwójną dysocjację**, a nie tylko test wyniku.
+
+Obserwacja z sekcji 9.2 handbooka pozostaje trafna: profil osoby pracującej w dekodowaniu, nie w czujnikach. Rok wcześniej Grand Award w BEHA za sieci konwolucyjne na rs-fMRI.
+
+**Ścieżka, w którą nie wchodzimy, sformułowana precyzyjniej niż dotąd:** rozstrzyganie intencji z małego zbioru zamiast literowania, mierzone w słowach na minutę, na kupionym sprzęcie, z twierdzeniem o uniwersalnym prawie dla interfejsów ograniczonych pasmem.
+
+**Ostrzeżenie do pilnowania przez cały etap 2, ostrzejsze niż dotychczasowe:** „sterowanie dyskretne z ośmioma komendami" i „rozstrzyganie intencji z ośmiu możliwości" to **jest ta sama rzecz opisana dwoma językami**. Granicy nie pilnuje temat, tylko to, że naszym produktem jest **sprzęt i pomiar toru analogowego**, a metryką dokładność i ITR — nie słowa na minutę.
+
+**Co wolno skopiować, i co należy:** strukturę planu eksperymentalnego. Zakaz z sekcji 9.2 dotyczy rozwiązania, nie rzemiosła. Trzy warunki z `04` sekcja 3 idą w tę stronę i mają teraz potwierdzenie, że taka struktura wygrywa w tej kategorii.
 
 ---
 
@@ -134,12 +144,25 @@ Wzmacnia to obserwacja z sekcji 9.2 handbooka: ta sama osoba wygrała rok wcześ
 | **BCI Competition IV 2a** | 9 osób, 22 elektrody, 2 sesje, 288 prób 4-sekundowych, 4 klasy (lewa/prawa ręka, stopy, język) | standardowy punkt odniesienia dla wyobrażenia ruchu |
 | **PhysioNet MI/ME** | **109 osób**, 64 kanały | największy klasyczny zbiór wyobrażenia ruchu |
 | **MOABB** | agregat wielu zbiorów: 2–4 klasy, 3–128 kanałów, 9–109 osób | **infrastruktura do porównań**, nie pojedynczy zbiór. Kluczowa, jeśli chcemy porównywać się uczciwie |
-| **ear-EEG sen** | **320 zapisów, 30 osób**, ear-EEG, część równolegle ze skalpem i aktygrafią | *Scientific Data*, 19 II 2025. Największy publiczny ear-EEG, jaki znalazłem |
+| **ear-EEG, BCI: ERP + SSVEP, w ruchu** | **24 osoby**; 32-kan. skalp **+ 14-kan. ear-EEG + 4-kan. EOG + 9-kan. IMU**; cztery prędkości: 0 / 0,8 / 1,6 / 2,0 m/s; dwa paradygmaty BCI dla każdej | **Lee i in., *Sci Data* 8:315 (2021), PMID 34930915. `[fakt, abstrakt odczytany]` NAJWAŻNIEJSZA POZYCJA W TEJ TABELI — patrz sekcja 7.1** |
+| **ear-EEG sen** | **320 zapisów, 30 osób**, ear-EEG, część równolegle ze skalpem i aktygrafią | *Scientific Data*, 19 II 2025 |
 | **cEEGrid, uwaga słuchowa** | **98 osób**, 16 kanałów, 63 próby × 30 s = 31,5 min na osobę | arXiv 2510.19174 |
 | ICASSP 2024 Auditory EEG Challenge | dekodowanie mowy | — |
 | EEG-Dash / EEGDash | **791 zbiorów** skatalogowanych, format gotowy do uczenia maszynowego | arXiv 2606.16041 — brama do reszty |
 | speech decoding, artykulacja | otwarty zbiór | *Scientific Data* 2025 |
 
-**[luka] Licencji nie sprawdziłem dla żadnego zbioru** — to wymaga otwarcia stron. Przed użyciem czegokolwiek w projekcie konkursowym licencja musi być sprawdzona, bo standardy etyczne Explory (sekcja 4.5) i zasady ISEF dotyczą także danych wtórnych.
+**[luka] Licencji nie sprawdziłem dla żadnego zbioru** — to wymaga otwarcia stron z danymi, nie samych artykułów. Przed użyciem czegokolwiek w projekcie konkursowym licencja musi być sprawdzona, bo standardy etyczne Explory (Załącznik nr 1) i etyka ISEF dotyczą także danych wtórnych. Regulamin ISEF wymaga osobno: *„Confidential communications, as well as patents, copyrights, and other forms of intellectual property must be honored."*
 
-**[wniosek] Obserwacja, która może być elementem wkładu projektu:** **nie znalazłem publicznego zbioru ear-EEG pod zadania sterowania.** Istniejące dotyczą snu i uwagi słuchowej. Jeżeli to się potwierdzi po przeszukaniu baz, opublikowanie własnego zbioru razem z projektem jest tanie i punktowane — pokazuje weryfikowalność, której nie ma żaden produkt komercyjny z `05_RYNEK.md` sekcja 6.
+### 7.1 Twierdzenie z poprzedniej wersji: OBALONE
+
+Poprzednia wersja tej sekcji twierdziła: „**nie znalazłem publicznego zbioru ear-EEG pod zadania sterowania.** Istniejące dotyczą snu i uwagi słuchowej" — i proponowała opublikowanie własnego zbioru jako element wkładu.
+
+**[fakt] To jest nieprawda.** Zbiór Lee i in. (*Sci Data* 8:315, 2021) zawiera 14-kanałowy ear-EEG z paradygmatami **ERP i SSVEP**, czyli wprost pod sterowanie, na 24 osobach — plus równoległy EOG i pomiar ruchu. `KOREKTY.md` **K-027**.
+
+**Trzy konsekwencje, dwie dobre:**
+
+1. **Teza „własny zbiór to tani wyróżnik" — osłabiona.** Pole nie jest puste, więc publikacja własnego zbioru jest dobrą praktyką, a nie argumentem konkursowym. Nie budować na tym twierdzenia.
+2. **Warstwę dekodowania da się rozwijać, zanim powstanie sprzęt.** To jest realna zmiana w planowaniu jesieni 2026: nauka projektowania PCB nie musi blokować pracy nad warstwą 4 z sekcji 9.4 handbooka. Dane są, są darmowe i mają właściwe paradygmaty.
+3. **Zbiór daje punkt odniesienia dla własnego urządzenia** — te same paradygmaty, znany materiał, uczciwe porównanie „mój tor analogowy wobec zbioru referencyjnego". Tego rodzaju porównanie punktuje wprost w sekcji Execution arkusza inżynierskiego ISEF.
+
+**Dlaczego zapisuję to tak dokładnie:** to była pozycja, na której budowałem element wkładu projektu, oparta na jednym nieudanym przeszukaniu. Ten sam wzorzec co K-009 i K-028 — twierdzenie o nieistnieniu postawione na podstawie tego, że czegoś nie znalazłem.

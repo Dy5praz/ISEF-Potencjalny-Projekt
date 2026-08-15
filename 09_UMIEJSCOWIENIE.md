@@ -14,15 +14,22 @@ Miejsce elektrody decyduje o tym, jaki sygnał w ogóle istnieje. Wzmacniacz i a
 
 Najlepszy paradygmat sterowania dyskretnego pod względem przepustowości to **SSVEP**. Jego generator leży w korze wzrokowej, czyli **na potylicy**. Obecne założenie umieszcza elektrody **maksymalnie daleko od tego źródła** — po przeciwnej stronie głowy.
 
-| Gdzie | ITR dla SSVEP |
-|---|---|
-| potylica (Oz/O1/O2) | **~70–92 bit/min** |
-| skroń (T7/T8) | 6,4 bit/min |
-| ucho, online | 11–16,6 bit/min |
+| Gdzie | ITR dla SSVEP | Status po weryfikacji |
+|---|---|---|
+| potylica (Oz/O1/O2) | ~70–92 bit/min | streszczenie, niezweryfikowane |
+| skroń (T7/T8), CNN, 2 kanały | 6,42 bit/min przy 63,49% | **potwierdzone w abstrakcie**, PMID 35664916 |
+| ucho, online, 4 klasy, **n=4**, rok **2015** | 16,6 ± 6,6 bit/min | **potwierdzone w abstrakcie**, PMID 26736745 |
+| **kanał słuchowy, elektroda konformalna, rok 2023** | **speller 40-celowy online bez kalibracji; 95% na 9 celach** | **potwierdzone w abstrakcie**, Nat Commun, PMID 37452047 |
 
-`[wniosek, streszczenie]`. **Różnica pięcio- do piętnastokrotna jest w całości kosztem umiejscowienia**, nie jakości wykonania. To nie jest strata, którą odrabia się lepszym torem analogowym.
-
-**Wniosek [wniosek]:** w wersji zausznej projekt z góry oddaje rząd wielkości wydajności, żeby spełnić wymaganie estetyczne. To może być świadomy wybór — ale musi być wyborem, a nie skutkiem ubocznym.
+> **POPRAWKA, 15 VIII 2026 wieczorem — `KOREKTY.md` K-028. Wniosek z tej sekcji był błędny.**
+>
+> Napisałem, że „różnica pięcio- do piętnastokrotna jest **w całości kosztem umiejscowienia**, nie jakości wykonania" i że „to nie jest strata, którą odrabia się lepszym torem analogowym". Podstawą były dwie górne liczby z ucha — z **2015 (czterech badanych)** i **2022**.
+>
+> Ostatni wiersz tabeli tego nie potwierdza. Praca SpiralE (Nature Communications 2023) osiąga z kanału słuchowego wynik o rząd wielkości wyższy, a czynnikiem, który to umożliwił, był **kontakt konformalny elektrody** — czyli mechanika, materiały i dopasowanie kształtu.
+>
+> **Poprawna wersja:** różnica między uchem a potylicą jest w znacznej części kosztem **jakości kontaktu elektrody**, a nie odległości od kory. To jest ograniczenie **technologiczne**, leżące w warstwach 1–2 z sekcji 9.4 handbooka, czyli **w warsztacie użytkownika**. Nie jest to strata, którą odrabia się lepszym wzmacniaczem — ale jest to strata, którą odrabia się lepszą wkładką.
+>
+> **Co z tego wynika dla decyzji o umiejscowieniu:** argument „ucho oddaje rząd wielkości, więc trzeba iść na potylicę" **osłabł znacznie**. Nie znika — potylica nadal daje silniejszy sygnał u źródła — ale przestaje być argumentem rozstrzygającym. Rekomendacja z sekcji 5b (uczynić z geometrii **zmienną mierzoną**) staje się przez to jeszcze rozsądniejsza: różnica, o którą się spieramy, jest dokładnie tym, co ten eksperyment ma zmierzyć.
 
 ---
 
@@ -81,7 +88,7 @@ To zachowuje mocne strony formy zausznej (mocowanie, elektronika, brak włosów 
 
 | Umiejscowienie | Dominujące zakłócenie | Jaka oś projektu z tego wynika |
 |---|---|---|
-| ucho / zausznik | EMG szczęki i EOG, udokumentowane jako **gorsze niż na skalpie** (Kappel 2017) | **analogowa kompensacja artefaktów mięśniowo-ocznych** — obecny kandydat |
+| ucho / zausznik | **EMG szczęki**, udokumentowane w oryginale jako gorsze niż na skalpie (Kappel 2017, n=9, największe w gamma). **Mrugnięcie NIE psuje sygnału w uchu — K-026.** Ruch gałek ocznych: tak, słabiej | **analogowa kompensacja artefaktu szczękowego** — obecny kandydat. Węższa i prostsza niż „mięśniowo-oczna", jak pisałem wcześniej |
 | potylica | kontakt elektrody przez włosy, artefakty ruchowe, stabilność mechaniczna | **elektroda sucha i mocowanie odporne na ruch** — też problem opisany jako otwarty w przeglądach 2025–2026 |
 | wariant hybrydowy | oba, w różnych punktach | do wyboru — albo obie warstwy, jeżeli starczy czasu |
 

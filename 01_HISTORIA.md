@@ -2,7 +2,7 @@
 
 **Zakres wg sekcji 10.A handbooka.** Inwazyjne i nieinwazyjne, od początków do sierpnia 2026.
 
-**Status źródłowy całego pliku:** daty i nazwiska pochodzą z indeksu wyszukiwarki i z wiedzy własnej modelu; **żadna praca nie została otwarta**. Kamienie milowe sprzed 2015 są w literaturze wielokrotnie powtórzone i mają status `[fakt]` w sensie „powszechnie ustalone", ale przy dacie rocznej mogą się różnić o rok między źródłami (data eksperymentu vs data publikacji). Liczby wydajnościowe oznaczam osobno.
+**Status źródłowy całego pliku, zaktualizowany 15 VIII 2026 wieczorem:** kamienie milowe sprzed 2015 są w literaturze wielokrotnie powtórzone i mają status `[fakt]` w sensie „powszechnie ustalone", ale przy dacie rocznej mogą się różnić o rok między źródłami (data eksperymentu vs data publikacji). **Pozycje z linii ear-EEG, oznaczone niżej pogrubionym PMID, mają odczytane abstrakty** i tracą znacznik `[wniosek, streszczenie]`. Reszta pozostaje na indeksie.
 
 ---
 
@@ -31,18 +31,23 @@ To jest linia, w którą wchodzi projekt użytkownika. Jest **młoda: ma kilkana
 | 2015 | Debener i in., *Scientific Reports* 5:16743 | **cEEGrid** — dziesięć elektrod nadrukowanych na elastycznej folii w kształcie litery C wokół małżowiny. Dziesięć osób nosiło układ ≥7 h; P300 w paradygmacie oddball powtarzalny między porankiem a popołudniem, rzetelność testu-retestu r ≥ 0,74 `[wniosek, streszczenie]` |
 | 2015–2016 | Kidmose i in. | „EEG Recorded from the Ear: Characterizing the Ear-EEG Method" — charakterystyka metody |
 | 2016 | Mirkovic, Debener i in., *J Neural Eng* 13:066004 | porównanie cEEGrid z czapką wielokanałową w dekodowaniu uwagi słuchowej |
-| 2017 | Kappel i in., *BioMed Eng OnLine* 16:103 | **artefakty fizjologiczne w EEG skalpowym i dousznym.** Wynik istotny dla nas: pogorszenie SNR od artefaktów szczękowych **większe w uchu niż na skalpie** `[wniosek, streszczenie]` |
+| **2015** | **Wang Y-T., Nakanishi, Kappel, Kidmose, Mandic i in., EMBC, PMID 26736745** | **pierwszy działający online SSVEP-BCI z ear-EEG.** Cztery klasy, **czterech badanych**: offline 82,7 ± 11,8% (okno 4 s), online 87,9 ± 12,1%, ITR 16,6 ± 6,6 bit/min. `[fakt, abstrakt odczytany]`. **Liczba badanych ma znaczenie — patrz K-031** |
+| **2017** | **Kappel, Looney, Mandic, Kidmose, *BioMed Eng OnLine* 16:103, PMID 28800744** | **artefakty fizjologiczne w EEG skalpowym i dousznym, 9 badanych.** Pogorszenie SNR od artefaktów szczękowych **większe w uchu niż na skalpie**, największe w paśmie gamma. **Mrugnięcie NIE wpływa na SNR w uchu**, ruch gałek ocznych — tak. `[fakt, abstrakt odczytany]`. **Zmienia oś projektu — K-026** |
 | 2018 | Ahn i in., *Electronics Letters* 54 | nauszny system SSVEP; równolegle prace Nakamury/Mandica nad ear-EEG bezprzewodowym |
-| 2022 | Frontiers Comput Neurosci 16:868642 | SSVEP z ear-EEG sieciami konwolucyjnymi: 69,2% przy treningu grupowym, 6,4 bit/min przy 63,5% na T7/T8 `[wniosek, streszczenie]` |
-| 2024 | Frontiers Neurosci 18:1441897 | ocena jakości sygnału systemu dousznego względem czapki: alfa wykrywana w ~80% zapisów dousznych, amplituda niższa `[wniosek, streszczenie]` |
+| **2021** | **Lee, Shin, Lee, Lee, *Sci Data* 8:315, PMID 34930915** | **pierwszy publiczny zbiór ear-EEG pod paradygmaty sterowania.** 24 osoby, 32-kan. skalp + 14-kan. ear-EEG + EOG + IMU, ERP i SSVEP przy czterech prędkościach ruchu. `[fakt, abstrakt odczytany]`. **Obala twierdzenie z poprzedniej wersji — K-027** |
+| **2022** | **Israsena, Pan-Ngum, *Front Comput Neurosci* 16:868642, PMID 35664916** | SSVEP z ear-EEG sieciami konwolucyjnymi na zbiorze publicznym: 69,21% przy treningu grupowym; ITR 6,42 bit/min przy 63,49%, wyłącznie z T7 i T8. `[fakt, abstrakt odczytany]` |
+| **2023** | **Wang Z., Shi N. i in., Tsinghua, *Nature Communications* 14:4213, PMID 37452047** | **SpiralE — elektroda douszna o kontakcie konformalnym, rozwijana elektrotermicznie. 95% na 9 celach SSVEP offline; speller 40-celowy SSVEP online BEZ KALIBRACJI; 84% klasyfikacji mowy w cocktail party.** `[fakt, abstrakt odczytany]`. **Najważniejsza pozycja tej tabeli — wywraca tezę o pułapie formy dousznej, K-028** |
+| **2024** | **Moumane i in., *Front Neurosci* 18:1441897, PMID 39319310** | ocena jakości sygnału systemu dousznego (elektrody suche, jeden kanał dwubiegunowy) względem 64-kanałowej czapki, **30 osób**: istotna korelacja ze skalpem w ~80% przypadków, amplituda alfy i SNR niższe w uchu. `[fakt, abstrakt odczytany]`. **Poprawka opisu — K-032** |
 | 2025 | An i in., **CHI 2025**, DOI 10.1145/3706598.3714185 | **ID.EARS** — jedno ucho, elektrody suche, pięć gestów (mrugnięcia, wink L/P, zaciśnięcie zębów, żucie), >90% dokładności. Odwraca konwencję: EMG/EOG **jako sygnał, nie szum** |
-| 2025 | PLOS One | **„Detection of motor-related mu rhythm desynchronization by ear EEG"** — desynchronizacja mu wykrywalna z ucha. Osłabia argument „ruch wymaga elektrod nad korą ruchową" |
+| **2025** | **Ueda i in., *PLoS One* 20(4):e0321107, PMID 40198632** | **desynchronizacja mu wykrywalna z ucha, 20 badanych, pasmo 9–12,5 Hz.** `[fakt, abstrakt odczytany]`. **Zastrzeżenie: badani wykonywali ruch rzeczywisty, nie wyobrażony** — dla sterowania potrzebne jest to drugie i pozostaje `[luka]` |
 | 2025 | *Scientific Data* (19 II 2025) | **320 zapisów snu ear-EEG od 30 osób**, otwarty dostęp. Największy publiczny zbiór ear-EEG, jaki znalazłem |
 | 2025 | MDPI *Sensors* 25:3321 | przegląd: „The Next Frontier in Brain Monitoring: In-Ear EEG Electrodes and Their Applications" |
 | 2026 | Frontiers Neurosci 20:1859327 | **„Signal-specific performance of in-ear EEG"** — 19 osób, douszny suchy vs 32-kanałowy BioSemi. Alfa spoczynkowa wychodzi, **N1-P2 nie** |
 | 2026 | Frontiers Hum Neurosci, art. 1793705 | przegląd: ear-EEG a „multimodal embedded intelligence" |
 
-**[wniosek] Wniosek z tej tabeli, ważny strategicznie:** pole jest młode (14 lat), ale **nie jest puste i przyspiesza** — cztery z wymienionych pozycji pochodzą z 2025 i 2026. Rok temu ktoś opublikował na CHI urządzenie robiące przy uchu to, co użytkownik rozważał jako wariant. Założenie „mało kto tam patrzy" jest fałszywe.
+**[wniosek] Wniosek z tej tabeli, ważny strategicznie — i mocniejszy po weryfikacji:** pole jest młode (14 lat), ale **nie jest puste, przyspiesza, i sięga najwyższych czasopism**. Cztery pozycje pochodzą z 2025 i 2026, jedna z Nature Communications, jedna z CHI. Rok temu ktoś opublikował na CHI urządzenie robiące przy uchu to, co użytkownik rozważał jako wariant; trzy lata temu grupa z Tsinghua opublikowała elektrodę douszną, która bije wszystkie wcześniejsze wyniki SSVEP z ucha o rząd wielkości. **Założenie „mało kto tam patrzy" jest fałszywe i było fałszywe także wtedy, gdy pisałem tę tabelę po raz pierwszy** — po prostu nie sprawdziłem.
+
+**[wniosek] Drugi wniosek, którego nie widziałem przed weryfikacją:** postęp w tej linii przyszedł z **materiałów i mechaniki** (SpiralE — kontakt konformalny), a nie z algorytmów. To jest odwrotność wniosku nr 1 z sekcji 5, dotyczącego linii inwazyjnej. **Dla profilu użytkownika z sekcji 1 handbooka jest to wiadomość dobra**: warstwa, w której ostatnio przesunęła się granica w ear-EEG, jest warstwą jego warsztatu.
 
 ## 3. Linia inwazyjna i półinwazyjna
 

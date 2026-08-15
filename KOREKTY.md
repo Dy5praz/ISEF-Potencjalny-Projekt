@@ -253,3 +253,222 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 **Sprzężenie, które trzeba było zauważyć wcześniej:** miejsce i oś projektu nie są niezależne. Kompensacja artefaktów szczękowych ma sens **dlatego**, że urządzenie jest przy uchu. Przy potylicy oś trzeba wyprowadzić od nowa (kontakt przez włosy, odporność na ruch) — obie mają pokrycie w literaturze jako problemy otwarte.
 
 **Kto wyłapał:** użytkownik, dwoma uwagami — pytaniem „skoro na potylicy mamy większą przepustowość, nie łatwiej to tam przenieść" oraz wprost: „zakładasz i sam uzupełniasz luki designowe, zamiast jasno spytać".
+
+---
+
+## 2026-08-15, sesja druga — weryfikacja w oryginałach
+
+Wszystkie poniższe wpisy powstały przez **otwarcie źródła**, nie przez streszczenie. Przy każdym podaję, co konkretnie zostało odczytane.
+
+### K-020 — Qualified Scientist NIE wymaga doktoratu
+
+**Co było źle:** `ISEF_HUMAN_PARTICIPANTS.md` sekcja 2 podawała próg „stopień doktora w dziedzinie badań" jako definicję Qualified Scientist i wyprowadzała z tego, że opiekun-magister go nie spełnia, a użytkownik „musi zorganizować doktora".
+
+**Poprawka, cytat z oryginału** (*International Rules 2026–2027*, sekcja *Roles & Responsibilities*): „Earned a doctoral/professional degree in a scientific discipline related to student's area of research **AND/OR** Individual with **extensive experience and expertise** in the student's area of research".
+
+**Konsekwencja:** próg jest alternatywą, nie koniunkcją. Brat pracujący w firmie produkującej precyzyjną elektronikę mieści się w drugim członie `[wniosek]`. Ryzyko formalne z sekcji 3 `00_PYTANIA_I_LUKI.md` schodzi z wysokiego na średnie.
+
+**Kto wyłapał:** Claude Code, sesja druga, przy odczytaniu oryginału.
+
+---
+
+### K-021 — rola nazywa się Direct Supervisor i nie wymaga niczego
+
+**Co było źle:** pisałem o „Designated Supervisor" jako roli wyznaczanej przez Qualified Scientist i będącej „jego przedłużeniem".
+
+**Poprawka:** rola nazywa się **Direct Supervisor (DS)**. Kwalifikacje wg oryginału: „Does not need an advanced degree", musi znać projekt i przyjąć potrzebne szkolenie, „**May also serve as the Adult Sponsor** for the project". DS jest wymagany m.in. wtedy, gdy QS nie jest lokalny.
+
+**Konsekwencja:** opiekun szkolny ze stopniem magistra obsadza jednocześnie Adult Sponsor i Direct Supervisor. Nie potrzeba trzech osób tam, gdzie wystarczy jedna.
+
+---
+
+### K-022 — nie wiedziałem, że IRB trzeba POWOŁAĆ, a nie znaleźć
+
+**Co było źle:** cała poprzednia wersja `ISEF_HUMAN_PARTICIPANTS.md` traktowała „zgodę komisji" jak procedurę u instytucji zewnętrznej, którą się uruchamia. Nigdzie nie pytałem, kto tę komisję stanowi.
+
+**Poprawka:** dla projektu prowadzonego w szkole i w domu IRB **musi zostać powołane przy szkole**, a jego skład jest w regulaminie określony co do zawodu: edukator (inny niż Adult Sponsor), dyrektor lub wicedyrektor, oraz **pracownik medyczny lub ochrony zdrowia psychicznego** (dopuszczeni m.in.: pielęgniarka, psycholog, licencjonowany pracownik socjalny). Do tego zakaz konfliktu interesów: opiekun projektu ani krewny nie mogą w niej zasiadać.
+
+**Dlaczego to poważniejsze niż wygląda:** to nie jest formularz, to są trzy osoby, które ktoś musi zebrać. Pozycja harmonogramowa na jesień 2026, nie na wiosnę 2027.
+
+**Pozycja otwarta, którą to rodzi:** czy FZT prowadzi SRC pełniące funkcję IRB dla polskich uczestników. Jedno pytanie mailem, może skasować całą procedurę.
+
+---
+
+### K-023 — reguły „18 miesięcy" nie ma w regulaminie ISEF
+
+**Co było źle:** handbook, sekcja 5.4: „Maksymalnie 12 miesięcy ciągłych badań, **zakaz wykorzystywania badań wykonanych wcześniej niż 18 miesięcy przed ISEF**". Na tym stał cały K-006 i ostrzeżenie, że pomiary z wiosny 2027 „będą wymagały powtórzenia".
+
+**Poprawka, dwa cytaty z rocznika 2026–2027:** „may not include research performed **before January 2026**" oraz „judged only on laboratory experiment/data collection performed over **12 continuous months beginning no earlier than January 2026 and ending May 2027**".
+
+Reguła jest zakotwiczona w kalendarzu, nie w odstępie od imprezy. **Liczby osiemnaście w oryginale nie ma.**
+
+**Przełożenie na nasz rocznik** `[wniosek, wzorzec z jednego rocznika]`: okno **styczeń 2027 – maj 2028**, z dowolnym ciągłym blokiem 12 miesięcy w środku.
+
+**Konsekwencja, łagodniejsza niż K-006:** nie „wszystko trzeba powtórzyć", tylko „formalna kampania pod ISEF startuje w maju 2027". Wcześniejsze prace są pracami rozwojowymi i na Explory oraz El-Robo-Mech liczą się bez ograniczeń, bo tamte konkursy reguły czasowej nie mają — sprawdzone w regulaminie Explory, nie ma tam żadnego takiego zapisu.
+
+**K-006 pozostaje w mocy co do istnienia problemu, traci moc co do dat.**
+
+---
+
+### K-024 — Presentation to 35 pkt, ale plakat to tylko 10 z nich
+
+**Co było źle:** `08_KONKURENCJA_ISEF.md` sekcja 5 wyciągała wniosek „Presentation to 35 ze 100 punktów — więcej niż wykonanie i więcej niż kreatywność" i wiązała to z ustaleniem o dziennikach postępu i plakatach.
+
+**Poprawka:** sekcja V dzieli się na **Poster 10 pkt** i **Interview 25 pkt**. Plakat jest wart mniej niż metodologia i dwa razy mniej niż wykonanie.
+
+**Wniosek zmieniony:** to nie plakat jest niedoszacowany, tylko **rozmowa z jurorem**, i jest to najwyżej punktowana pojedyncza pozycja w całym arkuszu. Trening polega na opowiadaniu o projekcie ludziom, nie na projektowaniu grafiki. Pełny rozbiór: `ISEF_ARKUSZE_OCENY.md`.
+
+---
+
+### K-025 — projekt referencyjny zdobył DRUGIE miejsce, nie „Grand Award" bez określenia
+
+**Co było źle:** handbook sekcja 9.2 i `08` sekcja 2 podawały „Grand Award, Regeneron ISEF 2026" bez miejsca, co czytało się jak pierwsza nagroda.
+
+**Poprawka, z bazy abstraktów Society for Science:** ENBM074 (2026), Kharade, Ameya, Nashua High School South, NH — **Second Award of $2,400** w kategorii Biomedical Engineering. Pierwsze miejsca w ENBM 2026 (po 6 000 USD) zdobyły ENBM062 i ENBM075T, projekty o zupełnie innej tematyce.
+
+**Co przy okazji zostało zamknięte:** pełny abstrakt odczytany. **Liczby 65 i 3 wpm są prawdziwe i pochodzą wprost z abstraktu** — K-004 rozstrzygnięty na korzyść handbooka, znacznik `[domysł]` zdjęty. Pełny tekst i rozbiór: `08_KONKURENCJA_ISEF.md` sekcja 2.
+
+---
+
+### K-026 — mrugnięcie NIE jest problemem przy uchu. Oś projektu wymaga przeformułowania
+
+**Czego dotyczy:** kandydata na oś projektu — analogowej kompensacji artefaktów **mięśniowo-ocznych** przy uchu (rola 2 z sekcji 4b/C3 `00_PYTANIA_I_LUKI.md`).
+
+**Co było źle:** przez cały etap 1 pisałem „EMG szczęki **i** EOG" jako jedną parę zakłóceń do skompensowania, powołując się na Kappel 2017 jako przesłankę dla obu.
+
+**Poprawka, z abstraktu oryginału** (Kappel, Looney, Mandic, Kidmose, *BioMed Eng OnLine* 16:103, 2017, 9 badanych):
+
+> „Artifacts related to jaw muscle contractions were present all over the scalp and in the ear … The SNR deterioration for jaw artifacts were **in general higher in the ear compared to the scalp**. **Whereas eye-blinking did not influence the SNR in the ear**, it was significant for all groups of scalps electrodes in the delta and theta bands. Eye movements resulted in statistical significant SNR deterioration in both frontal, temporal and ear electrodes."
+
+I wprost we wnioskach: „ear-EEG was **more prone to jaw related artifacts and less prone to eye-blinking artifacts** compared to state-of-the-art scalp based systems."
+
+**Co z tego wynika, i jest to zmiana kierunkowa:**
+
+1. **Przesłanka dla szczęki jest mocniejsza, niż ją stawiałem** — potwierdzona w oryginale, na 9 osobach, mierzona jako pogorszenie SNR odpowiedzi ASSR, największe w paśmie gamma.
+2. **Przesłanka dla mrugnięcia jest fałszywa.** Mrugnięcie przy uchu nie psuje SNR. Kompensowanie go byłoby rozwiązywaniem problemu, którego w tej formie urządzenia nie ma.
+3. **Zostaje ruch gałek ocznych** (nie mrugnięcie), który pogarsza SNR także na elektrodach usznych.
+
+**Poprawna wersja osi:** „analogowa kompensacja artefaktów **szczękowych**, z ruchem gałek ocznych jako kanałem drugorzędnym" — a nie „mięśniowo-ocznych" traktowanych łącznie.
+
+**Dlaczego to ma znaczenie praktyczne:** upraszcza układ. Detektor mrugnięcia, który wg `04` sekcja 4 mieliśmy wziąć z ID.EARS jako gotową cegiełkę, **nie jest do tego potrzebny**. Potrzebny jest detektor zaciśnięcia szczęki. To jest mniej pracy, nie więcej.
+
+**Dlaczego to jest ten sam błąd co poprzednio:** postawiłem mocne twierdzenie o dwóch zakłóceniach, mając w ręku streszczenie, które mówiło tylko o jednym. Wzorzec z sekcji 5 `PRZEKAZANIE.md`, czwarta odsłona.
+
+---
+
+### K-027 — publiczny zbiór ear-EEG do zadań sterowania ISTNIEJE
+
+**Co było źle:** `04_LUKI_ZAPISANE.md` sekcja 5 i `07_DEKODOWANIE.md` sekcja 7 twierdziły: „**nie znalazłem publicznego zbioru ear-EEG pod zadania sterowania**. Istniejące dotyczą snu i uwagi słuchowej", i budowały na tym propozycję, żeby opublikowanie własnego zbioru uczynić elementem wkładu projektu.
+
+**Poprawka:** Lee, Shin, Lee, Lee, *„Mobile BCI dataset of scalp- and ear-EEGs with ERP and SSVEP paradigms while standing, walking, and running"*, **Scientific Data 8:315 (2021)**, DOI 10.1038/s41597-021-01094-4, PMID 34930915. Zawartość: **24 osoby, 32-kanałowy EEG skalpowy + 14-kanałowy ear-EEG + 4-kanałowy EOG + 9-kanałowe IMU**, dwa paradygmaty BCI (ERP i SSVEP), cztery prędkości ruchu: stanie, wolny marsz, szybki marsz, lekki bieg (0 / 0,8 / 1,6 / 2,0 m/s).
+
+**Dlaczego to jest gorsze niż zwykła pomyłka:** to nie jest zbiór „przy okazji pasujący". To jest zbiór z **równoległym EOG i pomiarem ruchu**, czyli dokładnie pod pytanie o artefakty i stabilność przy ruchu, na którym stoi oś projektu.
+
+**Ale to jest prezent, nie cios.** Konsekwencje:
+- teza „opublikowanie własnego zbioru jest tanim elementem wkładu" — **osłabiona**, bo pole nie jest puste
+- **można pracować nad dekodowaniem, zanim powstanie sprzęt.** Zbiór ma ear-EEG, SSVEP, ERP i ruch. Cała warstwa 4 z sekcji 9.4 handbooka da się rozwijać jesienią 2026 równolegle z nauką PCB, bez czekania na własne urządzenie
+- daje **punkt odniesienia dla własnego sprzętu** — te same paradygmaty, znany zbiór, porównanie
+
+---
+
+### K-028 — SSVEP z ucha osiąga znacznie więcej, niż podawałem. Nature Communications 2023
+
+**Co było źle:** liczba „SSVEP z ucha to 6–17 bit/min" była powtarzana w `06`, `07`, `09` i `00_STRESZCZENIE.md` jako pułap formy dousznej, i na niej stała teza o „5–15× stracie względem potylicy" oraz cała rekomendacja C2 na wariant 2 (metryka użytkowa zamiast przepustowościowej).
+
+**Poprawka:** Wang Z., Shi N. i in., *„Conformal in-ear bioelectronics for visual and auditory brain-computer interfaces"*, **Nature Communications 14:4213 (2023)**, DOI 10.1038/s41467-023-39814-6, PMID 37452047. Urządzenie **SpiralE** — elektroda douszna rozwijająca się spiralnie wzdłuż przewodu słuchowego pod wpływem pobudzenia elektrotermicznego, dla zapewnienia kontaktu konformalnego. Wyniki wg abstraktu: **95% dokładności offline w klasyfikacji SSVEP z 9 celami** oraz **udane pisanie fraz w 40-celowym spellerze SSVEP online bez kalibracji**; do tego 84% dokładności klasyfikacji mowy naturalnej w warunkach cocktail party.
+
+**Skala pomyłki:** 40-celowy speller online bez kalibracji to przepustowość o rząd wielkości wyższa niż 16,6 bit/min, na którym opierałem cały wniosek. Liczby 6–17 bit/min pochodziły z prac **2015 i 2022** i opisywały stan techniki sprzed ośmiu i trzech lat, a ja podawałem je jako ograniczenie formy.
+
+**Co się przez to zmienia:**
+- teza „w przepustowości z ucha nie da się wygrać" — **obalona co do formy dousznej jako takiej**, nie tylko osłabiona jak w `00_STRESZCZENIE.md` sekcja 1.2
+- rekomendacja C2 na wariant 2 (metryka użytkowa) **wymaga przeliczenia od nowa**, bo była uzasadniona liczbą, która okazała się nieaktualna
+- **czynnikiem decydującym okazał się kontakt elektrody z kanałem słuchowym**, nie odległość od kory wzrokowej. To jest warstwa 1 i 2 z sekcji 9.4 handbooka, czyli **warsztat użytkownika** — mechanika, materiały, dopasowanie kształtu
+- jednocześnie: elektroda z aktuacją elektrotermiczną, wykonana na Tsinghua i opublikowana w Nature Communications, jest **poważną konkurencją w tej samej niszy**. Pole nie jest puste i nie jest amatorskie
+
+**Dlaczego to najpoważniejszy wpis w tej sesji:** liczba, która nie została sprawdzona w oryginale, przez cały etap 1 służyła jako **ściana fizyczna** i na jej podstawie odrzuciłem cały wariant twierdzenia. To jest błąd nr 5 z sekcji 8 handbooka w najczystszej postaci — ocena wystawiona na niesprawdzonym założeniu.
+
+---
+
+### K-029 — praca o analogowym usuwaniu artefaktów: zły rok, zła klasa urządzenia
+
+**Co było źle:** `04_LUKI_ZAPISANE.md` sekcja 2.1 opisywała stan techniki jako „**8-kanałowy IC EEG ambulatoryjny** z wewnątrzkanałową, w pełni analogową ekstrakcją i usuwaniem artefaktów ruchowych; CMRR >115 dB przy 50/60 Hz", z datą „publikacja ~2023 `[wniosek, streszczenie, jedno źródło]`".
+
+**Poprawka:** Dabbaghian, Yousefi, Fatmi, Shafia, Kassiri, *„A 9.2-g Fully-Flexible Wireless Ambulatory EEG Monitoring and Diagnostics Headband With Analog Motion Artifact Detection and Compensation"*, **IEEE Trans Biomed Circuits Syst 13(6):1141–1151 (2019)**, PMID 31443050.
+
+Trzy rzeczy były przekręcone: rok (**2019**, nie ~2023), klasa urządzenia (**opaska na elastycznym podłożu poliimidowym**, nie układ scalony), i przypisany parametr — **CMRR >115 dB nie występuje w tym źródle**. Parametry podane w abstrakcie: wzmocnienie 260 V/V, pasmo DC–300 Hz, masa 9,2 g z baterią, elektrody suche bezkontaktowe.
+
+**Co zostaje w mocy:** teza, że analogowe usuwanie artefaktów **ruchowych** jest zajęte. Jest, i to od 2019.
+
+**Co się zmienia:** to nie jest praca o kompensacji z kanału odniesienia i nie dotyczy artefaktów szczękowych. Szczelina z K-009 jest odrobinę szersza, niż wynikało z błędnego opisu.
+
+---
+
+### K-030 — CMRR układu ADS1299 to −110 dB, nie −120 dB
+
+**Co było źle:** `06_TABELA_PARAMETROW.md` sekcja 2 podawała „CMRR ADS1299: −120 dB" ze statusem „parametr katalogowy, trzy niezależne opisy — najpewniejsza liczba w tym pliku".
+
+**Poprawka, ze strony producenta (Texas Instruments):** CMRR **−110 dB**. Szum wejściowy **1 µV p-p przy paśmie 70 Hz** — ta liczba jest potwierdzona i pozostaje bez zmian. Rozdzielczość 24 bity, wzmocnienie programowane 1–24, 250 SPS – 16 kSPS.
+
+**Dlaczego ten wpis jest pouczający mimo drobnej skali:** to była liczba oznaczona jako **najpewniejsza w całym pliku**, na podstawie „trzech niezależnych opisów" — i była błędna o 10 dB. Zgodność trzech streszczeń nie jest weryfikacją, jeżeli wszystkie trzy przepisują od siebie.
+
+---
+
+### K-031 — 16,6 bit/min pochodzi z badania na czterech osobach
+
+**Czego dotyczy:** liczby „SSVEP douszne, online: 87,9 ± 12,1%, ITR 16,6 ± 6,6 bit/min", używanej w `06`, `07` i `09`.
+
+**Weryfikacja:** liczby są **poprawne co do wartości** — Wang Y-T., Nakanishi, Kappel, Kidmose, Mandic, Wang Y., Cheng, Jung, EMBC 2015, PMID 26736745. Offline 82,71 ± 11,83% przy oknie 4 s, online 87,92 ± 12,10%, ITR 16,60 ± 6,55 bit/min, cztery klasy.
+
+**Czego brakowało:** **badanie objęło czterech uczestników.** Odchylenie standardowe rzędu 12 punktów procentowych przy n=4 oznacza, że ta liczba jest orientacyjna, a nie ustalona. Nigdzie tego nie zapisałem, a podawałem tę liczbę jako punkt odniesienia dla całej formy dousznej.
+
+**Reguła operacyjna, która z tego zostaje:** przy każdej liczbie z literatury podawać **liczbę badanych**. Bez niej liczba nie znaczy tego, co się wydaje, że znaczy — dokładnie tak, jak wymaga sekcja 10.G handbooka wobec naszych własnych liczb.
+
+---
+
+### K-032 — Front Neurosci 2024: „~80%" dotyczy czego innego, niż napisałem
+
+**Co było źle:** `06` sekcja 2 i `01` sekcja 2 podawały „wykrywalność alfa w zapisie dousznym: ~80% zapisów".
+
+**Poprawka, z abstraktu** (Moumane i in., *Front Neurosci* 18:1441897, 2024, PMID 39319310, **30 uczestników**): „In around 80% of cases, **cross-correlation analysis between in-ear and scalp signals** … revealed significant correlations with scalp EEG (p < 0.01)". To jest odsetek przypadków z istotną korelacją między sygnałem dousznym a skalpowym, a **nie** odsetek zapisów, w których wykryto alfę.
+
+**Co przy okazji potwierdzone i przydatne:** mniejsza amplituda alfy i nieco niższy SNR w uchu niż na skalpie; oraz — istotne dla osi projektu — „intermittent signal alterations were noticed in the in-ear recordings during nap sessions, **attributed to movements of the head and facial muscles**".
+
+---
+
+### K-033 — konkurencja EEG na ISEF rośnie szybko, i mam na to liczby
+
+**Czego dotyczy:** sekcji 6 `08_KONKURENCJA_ISEF.md`, gdzie ryzyko konkurencyjne na ISEF było oznaczone jako „realne i udokumentowane" na podstawie jednego projektu.
+
+**Ustalenie:** przeszukanie bazy abstraktów Society for Science, słowo kluczowe „EEG", rocznik po roczniku:
+
+| Rok | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | **2026** |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| projektów | 7 | 5 | 8 | 14 | 10 | 12 | 11 | 7 | 7 | 10 | 8 | 15 | **22** |
+
+Dla frazy „brain-computer interface": 0 do 5 rocznie, w 2026 — **5**.
+
+**Wniosek:** liczba projektów EEG na ISEF **potroiła się w dwa lata** (8 → 15 → 22). W samym ENBM 2026 obok projektu referencyjnego startowały m.in. ENBM079 (tani EEG z otwartym BCI, trzecia nagroda) i ENBM042 (nieinwazyjny interfejs dwukierunkowy). To nie jest nisza.
+
+---
+
+### K-034 — Explory: pole neuro jest niemal puste, i mam na to liczby
+
+**Czego dotyczy:** zadania 4d nr 11 i argumentu użytkownika z sekcji 9.3 handbooka, dotąd niezweryfikowanego.
+
+**Ustalenie:** lista wszystkich projektów **półfinałowych Explory 2026** (`glosuj.explory.pl`, plebiscyt „Bilet na Finał") liczy **133 pozycje**. Projektów opartych na EEG: **jeden** — „Aletheia — Rozpoznawanie emocji za pomocą EEG i AI". Do finału **nie przeszedł**. W oficjalnej liście finalistów 2026 (`Wyniki_Polfinal_2026.pdf`, 21 projektów) **nie ma ani jednego projektu EEG ani BCI**. W finale 2025 (22 projekty) również nie ma.
+
+**Wniosek: argument użytkownika z sekcji 9.3 handbooka jest potwierdzony liczbowo** — ~0,75% zgłoszeń półfinałowych, zero w finale, w dwóch kolejnych edycjach.
+
+**Ale wniosek strategiczny jest odwrotny do intuicyjnego** i wart zapisania: skoro sito jest w Explory (K-003), a konkurencja tematyczna jest na ISEF (K-033), to **projekt konkuruje o wejście z projektami z zupełnie innych dziedzin, a o nagrodę — z projektami z tej samej**. To są dwa różne zadania i optymalizacja pod nie nie jest ta sama.
+
+---
+
+### K-035 — żywica z certyfikatem ISO 10993 jest dostępna dla amatora. Luka zamknięta
+
+**Czego dotyczy:** `05_RYNEK.md` sekcja 5.3, `[luka]` blokująca decyzję zakupową od rundy drugiej: „nie ustaliłem, czy istnieje żywica z certyfikatem ISO 10993-5/-10 dostępna dla osoby prywatnej w Polsce, w rozsądnej cenie, do zwykłej drukarki MSLA".
+
+**Odpowiedź: tak, istnieje.** **Liqcreate Bio-Med Clear** — deklarowana zgodność z ISO 10993-5 (cytotoksyczność), ISO 10993-10 (uczulenie) i ISO 10993-23 (podrażnienie), przeznaczona dla **zwykłych desktopowych drukarek MSLA/LCD/DLP** wymienionych z nazwy: Phrozen, Elegoo, Creality3D, Anycubic. Dostępna w polskich sklepach (2B3D, 3DUV), rząd ceny **456 zł za 0,5 kg**.
+
+**Konsekwencja:** obejście z sekcji 5.3 (kupna silikonowa końcówka douszna na wydrukowanym korpusie) **przestaje być konieczne**, choć pozostaje sensowne jako wariant tańszy i wygodniejszy. Rekomendacja „wstrzymać zakup Qidi Q2, kupić tanią drukarkę żywiczną" jest teraz kompletna: znany jest zarówno sprzęt, jak i materiał.
+
+**Warunek, którego nie wolno pominąć:** biozgodność deklarowana jest **po obróbce końcowej zgodnej z wytycznymi producenta** (mycie, doświetlanie). Wydruk niedomyty nie jest biozgodny niezależnie od tego, co pisze na butelce.

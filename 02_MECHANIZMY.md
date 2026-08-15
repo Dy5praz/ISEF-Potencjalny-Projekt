@@ -2,6 +2,10 @@
 
 **Zakres wg sekcji 10.B handbooka.** Mechanizm fizyczny każdej klasy rozwiązań. Każdy termin użyty pierwszy raz dostaje wyjaśnienie. Zakładam fizykę i matematykę szkolną, zero terminologii neurofizjologicznej.
 
+> **Status źródłowy, 15 VIII 2026 wieczorem:** to jest **jedyny plik treściowy, którego nie weryfikowałem źródłowo w sesji drugiej.** Powód: zawiera głównie wyjaśnienia mechanizmów fizycznych (przewodnictwo objętościowe, dipol prądowy, impedancja kontaktu), które są wiedzą podręcznikową, a nie liczbami, na których coś stoi. Ryzyko błędu jest przez to niższe, ale **nie zerowe** — liczby w sekcji 3.1 nadal mają znacznik `[wniosek, streszczenie]` i to nie jest ozdobnik.
+>
+> Jedna poprawka merytoryczna została naniesiona niżej, w sekcji 3.1 — dotyczy tego, które zakłócenie faktycznie przeszkadza przy uchu.
+
 ---
 
 ## 1. Skąd w ogóle bierze się napięcie na głowie
@@ -54,6 +58,20 @@ Amplitudy, do zapamiętania, bo cały projekt się wokół nich kręci `[wniosek
 | **EMG**, mięsień | 50 µV – 30 **mV** | ×10–1000 |
 
 **To jest fizyczne jądro problemu projektu.** Sygnał użyteczny jest 10–100 razy mniejszy niż zakłócenia, które siedzą tuż obok, a przy uchu — bezpośrednio pod elektrodą.
+
+> **POPRAWKA, 15 VIII 2026 — `KOREKTY.md` K-026. Amplituda u źródła nie przekłada się wprost na to, co przeszkadza przy uchu.**
+>
+> Powyższa tabela mówi o amplitudach **u źródła**. Ale to, ile zakłócenie psuje pomiar, zależy jeszcze od tego, **jak daleko od elektrody leży jego źródło i jak zorientowany jest jego dipol**. Kappel i in. (2017, 9 badanych, abstrakt odczytany) zmierzyli to bezpośrednio dla elektrod usznych:
+>
+> | Zakłócenie | Wpływ na SNR w uchu | Wpływ na SNR na skalpie |
+> |---|---|---|
+> | **zaciśnięcie szczęki (EMG)** | **duży, największy w paśmie gamma** | mniejszy niż w uchu |
+> | **mrugnięcie (EOG)** | **żaden** | istotny, w pasmach delta i theta |
+> | ruch gałek ocznych (EOG) | istotny | istotny |
+>
+> Czyli: **mimo że mrugnięcie ma ogromną amplitudę u źródła, przy uchu nie przeszkadza.** Gałka oczna jest za daleko, a jej dipol źle zorientowany względem pary elektrod usznych. Mięsień skroniowy i żwacz leżą natomiast tuż pod elektrodą.
+>
+> **To jest dobra ilustracja tego, po co w ogóle jest ten plik:** z samej tabeli amplitud wyszedł błędny wniosek, że trzeba kompensować oba zakłócenia. Mechanizm — odległość i orientacja dipola — mówi co innego i został potwierdzony pomiarem.
 
 **Elektroda mokra vs sucha.** Mokra używa żelu przewodzącego wypełniającego nierówności naskórka. Sucha dotyka skóry bezpośrednio: wygodniejsza, ale ma **znacznie większą impedancję kontaktu** (opór zespolony na styku elektroda–skóra). Zmierzone dla elektrod w kanale słuchowym przy ~50 Hz `[wniosek, streszczenie, jedno źródło]`:
 
