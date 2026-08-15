@@ -93,12 +93,7 @@ Obie osie mają pokrycie w literaturze jako problemy otwarte (`04_LUKI_ZAPISANE.
 
 ## 5. Czego nie da się rozstrzygnąć bez użytkownika
 
-1. **fryzura** — czy z tyłu głowy da się cokolwiek schować. Determinuje, czy potylica ma widoczność 0 czy 3
-2. **czy urządzenie ma być jednym elementem**, czy może być rozłożone (zausznik + łuk)
-3. **klej do skóry** — cEEGrid trzyma się na kleju i to jest sprawdzona droga; czy dopuszczalne na kilka godzin dziennie
-4. **co jest ważniejsze, jeżeli się rozjadą:** absolutna niewidoczność czy wygoda przy wielogodzinnym noszeniu
-
-Pytania 1–4 postawione użytkownikowi 15 VIII 2026.
+Pytania postawione i **odpowiedziane 15 VIII 2026** — patrz sekcja 5a.
 
 ---
 
@@ -108,3 +103,84 @@ Pytania 1–4 postawione użytkownikowi 15 VIII 2026.
 - **wymaganie bezpieczeństwa** z sekcji 12 handbooka: zasilanie bateryjne albo izolacja galwaniczna, niezależnie od umiejscowienia
 - **twierdzenie pomiarowe zamiast twierdzenia o pierwszeństwie** — patrz `00_STRESZCZENIE.md` sekcja 1.1
 </content>
+
+
+---
+
+## 5a. Odpowiedzi użytkownika, 15 VIII 2026 — ograniczenie jest luźniejsze, niż je stawiałem
+
+### Widoczność: kryterium to gabaryt, nie widoczność
+
+Odpowiedź dosłowna: *„może być nawet widoczne. Te moje kategoryczne »nie« co do widoczności dotyczyło kasków itd., a jeden lub kilka elementów z tyłu głowy aż tak tego nie psuje. Pod warunkiem, że będą mniejsze, a nie cała stacja pomiarowa."*
+
+**To jest przeformułowanie wymagania, nie jego złagodzenie o stopień.** Przez cały etap 1 optymalizowałem pod „niewidoczne", podczas gdy rzeczywiste ograniczenie brzmi **„nie może być klocem"**. Konsekwencje:
+
+- **potylica jest otwarta bezwarunkowo** — nie zależy już od tego, czy włosy ją zakryją
+- kilka małych elementów jest dopuszczalne, więc **wariant rozłożony nie jest obciążony estetycznie**
+- odpada cała gałąź rozumowania o chowaniu urządzenia pod włosami
+
+**Propozycja definicji operacyjnej, do potwierdzenia:**
+
+| Przechodzi | Nie przechodzi |
+|---|---|
+| moduł do rozmiaru aparatu słuchowego lub słuchawki dousznej | cokolwiek wielkości pudełka |
+| kilka takich modułów, także z tyłu głowy | konstrukcja przechodząca **nad czubkiem głowy albo przez czoło** |
+| cienki przewód lub łuk między modułami, przy głowie | pasek pod brodą, opaska czołowa |
+| łączna masa noszona rzędu kilkudziesięciu gramów | plecak, pasek, moduł zewnętrzny na kablu |
+
+**Twarda granica, powtórzona przez użytkownika dwa razy: żadnych kasków.**
+
+### Priorytet przy konflikcie
+
+*„Na start nie schodźmy z żadnej. Ale jak już nic ci nie wyjdzie, to w pierwszej kolejności tnij trochę na niewidoczności. Ale pamiętaj, żadnych kasków."*
+
+Kolejność ustępstw, wiążąca dla etapu 2: **1) gabaryt i widoczność, 2) wygoda długiego noszenia, 3) nigdy — konstrukcja typu hełm.** Każde zejście zapisywane z powodem, zgodnie z sekcją 11 handbooka.
+
+### Mocowanie: klej wyłącznie jako wariant testowy
+
+To rozstrzygnięcie jest lepsze, niż wyglądało w pytaniu, bo **rozdziela dwa dowody, które inaczej by się mieszały**:
+
+| Wariant | Do czego | Co dowodzi |
+|---|---|---|
+| **klejony**, elektrody płaskie + plaster medyczny | kampania pomiarowa | jakość **toru analogowego i elektrod** przy kontakcie bliskim ideału. Mocowanie przestaje być zmienną zakłócającą |
+| **mechaniczny**, docelowy | urządzenie noszone | jakość **mocowania** — o ile pogarsza wynik względem wariantu klejonego |
+
+Koszt: dwie konstrukcje. Ale wariant klejony jest tani (elektrody płaskie i plaster), a różnica między nimi **jest wynikiem pomiarowym, nie stratą** — pokazuje, ile kosztuje wygoda. To jest dokładnie ten typ liczby, który punktuje sekcja Execution arkusza inżynierskiego ISEF.
+
+---
+
+## 5b. Zwarty czy rozłożony — różnica, o którą pytał użytkownik
+
+### Porównanie
+
+| | **Jeden zwarty element** | **Rozłożony (zausznik + łuk + potylica)** |
+|---|---|---|
+| **rozstaw elektrod** | 2–6 cm w obrębie modułu | **do kilkunastu cm** (potylica ↔ wyrostek sutkowaty) |
+| **amplituda różnicowa** | mała — bliskie punkty na skalpie mają podobny potencjał | **duża. To jest główny zysk i on jest fizyczny** |
+| **referencja** | lokalna, blisko elektrody czynnej → **zjada część sygnału** | wyrostek sutkowaty, czyli klasyczna pozycja referencji, daleko od źródła wzrokowego |
+| **elektronika i bateria** | musi siedzieć tam, gdzie elektrody | **można odsunąć do ucha.** Przetwornica i radio to źródła zakłóceń przy sygnale mikrowoltowym — oddalenie ich od elektrod czynnych jest realną przewagą |
+| **przewody** | brak, więc brak artefaktów od ruchu przewodu | **łuk to przewód**: efekt tryboelektryczny przy zginaniu i antena dla 50 Hz. Do rozwiązania ekranowaniem i prowadzeniem, ale **to jest praca do wykonania**, nie drobiazg |
+| **mocowanie** | jeden punkt, na potylicy nie ma o co zaczepić | dwa punkty, przy czym **małżowina daje kotwicę mechaniczną** |
+| **nakład pracy** | mniejszy | ~1,5–2×, ale **nie trudniejszy jakościowo** — mieści się w warsztacie z sekcji 1 handbooka |
+| **pokaz na stoisku** | wygląda jak produkt | wymaga zdania wyjaśnienia, ale wygląda na przemyślane inżyniersko |
+
+### Rekomendacja: nie wybierać teraz, zrobić z tego zmienną mierzoną
+
+**Jeden tor analogowy ze złączem, dwie wiązki elektrodowe: zauszna i zauszno-potyliczna. Ten sam paradygmat, ten sam wzmacniacz, ta sama osoba, dwie geometrie, pomiar.**
+
+Dlaczego to jest lepsze niż wybór z góry:
+
+1. **Zamienia moją pomyłkę w wynik.** Decyzja, którą podjąłem założeniem (K-019), zostaje podjęta pomiarem. Różnica ITR między geometriami to liczba, której nikt w tym projekcie nie musi zgadywać
+2. **Jest to publikowalna forma.** Literatura ma prace porównujące równolegle skalp, okolicę wokółuszną i kanał słuchowy (arXiv 2505.14478), a przegląd z 2026 wskazuje **brak standaryzacji konfiguracji i referencji w ear-EEG** jako lukę otwartą (`04_LUKI_ZAPISANE.md` sekcja 1.2)
+3. **Zabezpiecza przed porażką jednej gałęzi.** Jeżeli łuk okaże się nie do opanowania szumowo, zostaje wariant zwarty i pomiar, który pokazuje dlaczego
+4. **Punktuje wprost w arkuszu inżynierskim ISEF**, sekcja Execution: testowanie w wielu warunkach i próbach
+
+**Koszt tej drogi:** złącze w torze analogowym jest dodatkowym miejscem na zakłócenia i rezystancję przejścia. Trzeba je wybrać świadomie i zmierzyć jego wpływ osobno. To jest znany problem, nie niespodzianka.
+
+---
+
+## 6a. Co się zmienia w reszcie dokumentacji po tych odpowiedziach
+
+- **`06_TABELA_PARAMETROW.md` sekcja 4** — skala widoczności przestaje być skalą widoczności, staje się skalą gabarytu. Próg akceptacji przesuwa się ze stopnia 1 na „nie kloc, nie hełm"
+- **oś projektu** — nadal nierozstrzygnięta i nadal sprzężona z miejscem (sekcja 4). Kampania porównawcza z 5b **dostarczy danych do jej wyboru**, zamiast wymuszać wybór przed pomiarem
+- **`00_STRESZCZENIE.md` sekcja 1.2** — teza „nie da się wygrać w przepustowości" była **poprawna dla ucha i nieprawdziwa dla projektu**. Przy dostępnej potylicy SSVEP wraca do gry jako paradygmat o realnym ITR

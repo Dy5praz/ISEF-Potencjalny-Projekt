@@ -104,7 +104,22 @@ Handbook żądał kolumny „czy widać, że użytkownik to ma na sobie", ale ni
 | **3** | rozpoznawalne jako sprzęt na głowę | opaska Muse | **raczej odpada** (D1) |
 | **4** | wyraźnie sprzęt pomiarowy | czapka EEG, EPOC X | odpada |
 
-**Cel projektu: stopień 1.** Progiem akceptacji jest granica 1/2 — czyli forma nie może być większa niż słuchawka douszna albo aparat słuchowy.
+**AKTUALIZACJA 15 VIII 2026 — próg przesunięty, kryterium zmienione.**
+
+Użytkownik rozstrzygnął, że kryterium to **gabaryt, nie widoczność**: *„może być nawet widoczne … pod warunkiem, że będą mniejsze, a nie cała stacja pomiarowa"*. Kategoryczne „nie" dotyczyło hełmów.
+
+| Nowe kryterium | Przechodzi |
+|---|---|
+| moduł wielkości aparatu słuchowego lub słuchawki dousznej | **tak**, także kilka takich |
+| moduł z tyłu głowy, widoczny | **tak** |
+| cienki łuk lub przewód przy głowie | **tak** |
+| konstrukcja nad czubkiem głowy lub przez czoło | **nie** |
+| pasek pod brodą, opaska czołowa, moduł zewnętrzny na kablu | **nie** |
+| cokolwiek typu hełm | **nie, granica twarda, powtórzona dwukrotnie** |
+
+Kolejność ustępstw przy konflikcie: najpierw gabaryt i widoczność, potem wygoda, **nigdy hełm**.
+
+Stopnie 0–4 poniżej zostają jako narzędzie opisowe, ale **próg akceptacji nie leży już na granicy 1/2**. Szczegóły: `09_UMIEJSCOWIENIE.md` sekcja 5a.
 
 **[wniosek] Dlaczego ta skala jest użyteczna nie tylko wewnętrznie:** stopnie 0–1 są sprawdzalne prostym testem, który da się wykonać i pokazać na stoisku — zdjęcie osoby w urządzeniu, pytanie do widza „gdzie ono jest". To zamienia kolumnę opiniową w pomiar, a plakat zyskuje element, którego nie ma nikt inny.
 
