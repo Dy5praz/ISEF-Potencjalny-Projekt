@@ -388,9 +388,9 @@ Sformułowane przez niego, cytuję sens wiernie:
 
 ### 9.2 Precedens — dowód istnienia, nie wzorzec
 
-[fakt] ISEF 2026. Autorstwo: **Ameya Kharade**, Nashua High School South, New Hampshire. Grand Award.
+[fakt] ISEF 2026, kod projektu **ENBM074**. Autorstwo: **Ameya Kharade**, Nashua High School South, New Hampshire. Grand Award.
 
-> **POPRAWKA, etap 1, 15 VIII 2026 — `KOREKTY.md` K-012.** Ten akapit podawał wcześniej kod projektu **ENBM074**. Kod jest błędny: `ENBM074` to „Synthetic DNA Engineering With ICOR" (Rishab Jain, ISEF **2022**, nagroda Yancopoulos). Kody projektów ISEF są numerowane w obrębie edycji i używane ponownie w kolejnych latach, więc kod bez rocznika nie identyfikuje pracy. **Projekt nazywać tytułem, nie kodem.**
+> **UWAGA, etap 1 — `KOREKTY.md` K-018.** Podważyłem tu kod ENBM074 i **myliłem się**; poprawka K-012 została wycofana. Kod jest prawidłowy dla edycji **2026**, zweryfikowany przez użytkownika bezpośrednio w tegorocznej bazie. Zasada, o której trzeba pamiętać przy każdym dalszym cytowaniu: **kody ISEF są numerowane w obrębie edycji i używane ponownie co roku**, więc zawsze podawać kod **razem z rocznikiem** — `ENBM074 (2026)`. Ten sam kod w 2022 należał do innej pracy.
 > **Rodzaj gramatyczny nierozstrzygnięty — `KOREKTY.md` K-008.** Poniższy tekst używa rodzaju żeńskiego, bo tak został napisany pierwotnie; w dokumentach etapu 1 piszę neutralnie do czasu potwierdzenia.
 
 Tytuł: „Breaking the Brain-Computer Interface Ceiling: Discovering a New Paradigm for Brain-Machine Communication that Enables Noninvasive Interfaces to Reach Invasive-Class Communication Speeds".

@@ -1,166 +1,126 @@
-# 00 — Streszczenie etapu 1
+# 00 — Streszczenie etapu 1: co z tego wynika dla projektu
 
-**Data:** 15 sierpnia 2026
+**Data:** 15 sierpnia 2026, wersja druga (przebudowana)
 **Zakres:** przemiał literatury wg sekcji 10 handbooka, plus 12 zadań weryfikacyjnych z `00_PYTANIA_I_LUKI.md` sekcja 4d.
 
+Pierwsza wersja tego pliku prowadziła od znalezisk do wniosków. To był zły porządek — literatura jest materiałem, nie produktem. Ta wersja prowadzi od decyzji projektowych, a znaleziska są pod nimi jako uzasadnienie.
+
 ---
 
-## 0. Status źródłowy tego etapu — przeczytaj przed resztą
+## 1. Co projekt ma robić — stan po etapie 1
 
-**[fakt] Dostęp do sieci nadal nie został przełączony na `Full`.** Sprawdzone trzema niezależnymi drogami 15 VIII 2026: tunel HTTPS kontenera (brama odpowiada 403 na CONNECT), narzędzie WebFetch (`EGRESS_BLOCKED` dla każdej domeny), bezpośredni `curl`. Przechodzą wyłącznie rejestry pakietów i GitHub.
+Wersja, którą da się obronić po przemiale, w jednym miejscu:
 
-Działa jedno narzędzie: wyszukiwarka, która zwraca **listę tytułów z adresami plus streszczenie wygenerowane przez inny model**. Nie otworzyłem ani jednej pracy źródłowej.
+> **Urządzenie zauszne wielkości aparatu słuchowego, rejestrujące EEG, z analogową kompensacją zakłóceń mięśniowo-ocznych przed wzmocnieniem, sterujące obiektem kilkoma komendami dyskretnymi.**
+> **Twierdzenie jest pomiarowe:** kompensacja analogowa poprawia mierzalny parametr toru o X względem identycznego układu bez kompensacji, w warunkach, w których zakłócenia przy uchu są największe (mowa, żucie, ruch oczu).
+> **Przewaga nad rynkiem leży w metryce użytkowej**, nie w przepustowości.
 
-**Co z tego wynika dla wiarygodności tego etapu — bez owijania:**
+Cztery rzeczy zmieniły się w tym opisie względem stanu sprzed etapu 1, i każda z nich jest decyzją, nie ciekawostką.
 
-| Rodzaj twierdzenia | Status po tym etapie |
+### 1.1 Twierdzenie przestaje być o pierwszeństwie, staje się o pomiarze
+
+**Powód:** kandydat na oś projektu jest częściowo zajęty. Usuwanie artefaktów ocznych z osobnego kanału to technika z 1983 roku. Usuwanie artefaktów **w domenie analogowej, przed wzmocnieniem** też jest zrobione — istnieje 8-kanałowy układ scalony EEG z w pełni analogową ekstrakcją i usuwaniem artefaktów ruchowych.
+
+Nie znalazłem kompensacji konkretnie EMG szczękowego i EOG, z kanału referencyjnego, w urządzeniu przyusznym. **Ale to jest przeszukanie jednym kanałem, nie dowód nieistnienia**, i budowanie na tym strategii byłoby powtórzeniem błędu nr 5 z sekcji 8 handbooka.
+
+**Co z tego robimy:** twierdzenie „pierwszy raz" jest niedostępne i nie warto o nie walczyć. Twierdzenie „ten układ poprawia X o Y, oto pomiar" jest dostępne, mocniejsze i **nie unieważni go znalezienie cudzej pracy w połowie 2027 roku**. Przy historii tego projektu — trzy kierunki ubite przez prior art — to jest różnica między planem odpornym a kolejnym kadłubkiem.
+
+### 1.2 Przewaga jest w metryce użytkowej, bo w przepustowości nie da się wygrać
+
+**Powód, liczbowo:** SSVEP z elektrod potylicznych daje ~92 bit/min. Ten sam paradygmat z ucha: 6–17 bit/min. Różnica pięcio- do piętnastokrotna i wynika z geometrii — odległości od kory i rozstawu elektrod — a nie z jakości wykonania. Żaden wzmacniacz tego nie odrobi.
+
+**Co z tego robimy:** rozstrzygam C2 rekomendacją na **wariant 2** z sekcji 2.1 `00_PYTANIA_I_LUKI.md`. Mierzymy czas montażu, stabilność w ciągu dnia, odsetek sesji bez ponownej kalibracji, tolerancję na ruch i mówienie. To są wymiary, w których forma zauszna bije czapkę **realnie**, a nie na papierze, i są prawie nieraportowane w literaturze — czyli jest tam miejsce na wkład.
+
+Wariant 1 („przewaga przy stałej widoczności") zostaje jako tabela towarzysząca. Jego baseline jest prawie pusty: **żaden produkt douszny na rynku nie robi sterowania** — NextSense, IDUN, Neurable mierzą sen i skupienie. Porównywać się trzeba z literaturą ear-EEG, nie z produktami.
+
+### 1.3 Paradygmat wraca do rozstrzygnięcia — moja poprzednia rekomendacja jest podważona
+
+**Powód:** rekomendowałem paradygmaty słuchowe, bo kora słuchowa leży blisko ucha. Praca z 2026 na 19 osobach porównująca system douszny z 32-kanałowym skalpowym podaje, że w konfiguracji dousznej **alfa spoczynkowa wychodzi pewnie, a odpowiedź słuchowa N1-P2 nie**. Do tego uwaga słuchowa ma najniższe ITR ze wszystkiego, co zebrałem: 1,9–2,1 bit/min, czyli około trzech komend na minutę.
+
+Bliskość anatomiczna nie wystarcza — liczy się też orientacja dipola i rozstaw elektrod względem niego.
+
+**Co z tego robimy:** SSVEP wygląda lepiej mimo większej odległości, bo daje sygnał okresowy o znanej z góry częstotliwości, który da się wyłuskać przy złym SNR. **Ale ma koszt:** wymaga patrzenia na migający obiekt, co osłabia argument „działa przy zamkniętych oczach" i wpycha nas w bezpośrednie porównanie z eye trackingiem, na które trzeba mieć odpowiedź. **Decyzja należy do etapu 2 i musi być świadoma.**
+
+### 1.4 Wariant hybrydowy zamknięty — ale zostawia nam gotowy element
+
+**Powód:** ID.EARS (CHI 2025) — urządzenie na jedno ucho, elektrody suche, pięć gestów rozpoznawanych w czasie rzeczywistym z ponad 90% trafnością: mrugnięcie, wink lewy, wink prawy, zaciśnięcie zębów, żucie. Autorzy wprost odwracają konwencję: EMG i EOG jako sygnał zamiast szumu.
+
+**Co z tego robimy:** rola 1 (sEMG/EOG jako źródło sterowania) schodzi z „odłożonej" na zamkniętą. Rola 2 jest nietknięta — ta praca idzie w przeciwną stronę niż my.
+
+**Element do wzięcia:** nasz układ musi wiedzieć, **kiedy** kompensować, czyli potrzebuje detektora zaciśnięcia szczęki i mrugnięcia. ID.EARS jest dowodem, że taki detektor przy uchu działa z trafnością >90%. To skraca nam drogę, zamiast ją zamykać.
+
+---
+
+## 2. Co to zmienia w kalendarzu i w decyzjach zakupowych
+
+| Sprawa | Stan przed etapem 1 | Stan po |
+|---|---|---|
+| **czy zdążymy na ISEF 2028** | `[luka]` o najwyższej stawce, K-007 | **potwierdzone.** Finał X 2027 → ISEF V 2028. Teza „jeden strzał" stoi, kolizji z maturą nie ma |
+| **El-Robo-Mech IV 2027** | twardy termin i zewnętrzna walidacja | **tylko wymuszony termin.** Nagrodą jest indeks na studia, laureatów było 34 — to nie jest podium z selektywnych zawodów. Termin można przesunąć bez straty strategicznej |
+| **drukarka Qidi Q2** | zakup wstrzymany do weryfikacji | **nie kupować.** Wkładki douszne robi się drukiem żywicznym, nie FDM; włókno węglowe jest tu przeciwskuteczne. Otwarte: czy żywica z certyfikatem ISO 10993 jest dostępna dla amatora w Polsce |
+| **badania na sobie** | `[luka]`, ryzyko dyskwalifikacji | **prawdopodobnie zwolnione** z uprzedniej zgody komisji — ale warunkiem jest brak ryzyka, a urządzenie elektryczne przy głowie może ten warunek łamać. **Jedyna pozycja o bezpośrednich konsekwencjach dyskwalifikacyjnych** |
+| **opiekun naukowy** | `[luka]` | magister **nie** spełnia definicji Qualified Scientist (wymaga doktoratu), ale może być Adult Sponsor. Czy w ogóle potrzebny doktor — zależy od klasyfikacji ryzyka, patrz wyżej |
+
+**Najpilniejsza rzecz w całej tabeli:** wiersz o badaniach na sobie. Jeżeli urządzenie elektryczne przy głowie łamie zwolnienie, to formalności muszą ruszyć **przed pierwszym pomiarem**, a nie przed finałem. To przesuwa jesień 2026 z „nauka PCB" na „nauka PCB plus papiery".
+
+---
+
+## 3. Czego NIE robimy — lista zamknięta
+
+Wynika z `03_SCIANY_FIZYCZNE.md`. Każda pozycja to twierdzenie, którego nie da się obronić przy formie zausznej:
+
+- **rozdzielczość porównywalna z inwazyjnymi** — czaszka rozmywa sygnał do ~5–9 cm i to jest ściana fizyczna
+- **wyższy ITR niż czapka przy tym samym paradygmacie** — geometria, sekcja 1.2
+- **sterowanie ciągłe, wielowymiarowe z jednej pozycji zausznej** — brak filtracji przestrzennej do rozdzielenia kierunków
+- **działanie u 100% badanych w wyobrażeniu ruchu** — 15–30% osób nie uzyskuje kontroli niezależnie od sprzętu. **Przy grupie kilku osób jedna niedziałająca jest zdarzeniem oczekiwanym i musi być wpisana w plan z góry**, inaczej wygląda jak ukrywanie porażki
+- **oś projektu w uczeniu głębokim** — benchmark z 2024 pokazuje, że metody riemannowskie biją sieci konwolucyjne przy małej liczbie kanałów i danych, czyli dokładnie w naszym reżimie. Wchodzenie na pole zatłoczone bez przewagi wydajnościowej nie ma sensu
+
+---
+
+## 4. Trzy rzeczy do wpisania w plan eksperymentalny już teraz
+
+Nie da się ich dorobić po fakcie, a wszystkie trzy wynikają z tego etapu.
+
+**4.1 Warunek kontrolny na sygnale losowym.** Przy podziale pracy z maszyną („intencja od mózgu, wykonanie od maszyny" — publikowana klasa rozwiązań, **nie liczyć jako innowacji**) juror zapyta, ile z tego to naprawdę mózg. Odpowiedź musi być pomiarowa: ten sam układ w trzech wariantach — sterowanie z sygnału, sterowanie ze wspomaganiem, oraz **układ zasilany sygnałem losowym z tym samym wspomaganiem**. Trzeci warunek pokazuje, ile zadania robi sama maszyna przy zerowej informacji od użytkownika.
+
+**4.2 Każda liczba wydajności w dwóch wersjach.** Surowe dekodowanie i wynik z całą warstwą wspomagającą. Powód: w pracach nad protezami mowy metryka jest liczona na wyjściu całego łańcucha — surowy błąd fonemowy sieci to 19,7%, a jednocyfrowy błąd słowny robi dopiero model językowy. W benchmarku na tych samych danych neuronowych zmiana samego dekodera dała 9,7% → 5,8%. Jeżeli podamy jedną liczbę, jurorzy z dziedziny zapytają o drugą.
+
+**4.3 Wyniki osobno dla wariantu wewnątrzsesyjnego, międzysesyjnego i międzyosobniczego.** Podanie samego wewnątrzsesyjnego jako „dokładności układu" to najczęstszy sposób zawyżania liczby w tej dziedzinie i pierwsza rzecz, o którą pyta ktoś znający temat. Sekcja 4.5 regulaminu Explory (krytycyzm wobec własnych wyników) wymaga tego wprost.
+
+---
+
+## 5. Status źródłowy — dlaczego część tego jest jeszcze miękka
+
+**[fakt] Ta sesja działa w środowisku `env_01NdKrhepeQo6dVAHusCvQFj` („Projekty"), nie w `env_01USAAMBR9QZf9W8ERvrVkEA` („Projekty Full Acess").** Polityka sieciowa idzie ze środowiska sesji i sesji nie da się przenieść. Dlatego mimo poprawnie ustawionego `Full` na nowym środowisku ta sesja nadal dostaje 403 na wszystko poza rejestrami pakietów i GitHubem — sprawdzone tunelem kontenera, narzędziem WebFetch i bezpośrednim curl-em, po restarcie kontenera o 14:00.
+
+Skutek: **żadnej pracy źródłowej nie otworzyłem.** Wszystkie liczby mają znacznik `[wniosek, streszczenie]`. Istnienie prac (tytuł, autorzy, czasopismo) jest wiarygodne, bo pochodzi z indeksu; treść i liczby wymagają potwierdzenia w oryginale.
+
+**Co jest przez to niezamknięte:**
+
+| # z 4d | Zadanie | Czego brakuje |
+|---|---|---|
+| 2 | ISEF Human Participants — **klasyfikacja ryzyka urządzenia elektrycznego** | oryginał International Rules. **Priorytet nr 1** |
+| 3 | czy oś projektu zajęta | IEEE Xplore, PubMed — przegląd systematyczny |
+| 10 | pełny abstrakt ENBM074 (2026) | baza abstraktów Society for Science |
+| 11 | projekty neuro w finałach Explory 2016–2026 | listy finalistów |
+| 12 | oba arkusze oceny ISEF | societyforscience.org |
+
+Pozycje 1, 5, 6, 7, 8, 9 z listy 4d są zrobione.
+
+**Żeby to domknąć:** nowa sesja założona w środowisku **„Projekty Full Acess"**. Ustawienia są dobre, chodzi wyłącznie o wybór środowiska przy zakładaniu sesji.
+
+---
+
+## 6. Nawigacja po pozostałych plikach
+
+| Plik | Po co go otwierać |
 |---|---|
-| istnienie pracy, autorzy, rok, czasopismo | **wiarygodne** — tytuły i adresy pochodzą z indeksu wyszukiwarki, nie ze streszczenia |
-| liczby przypisane pracy (dokładności, ITR, ceny, impedancje) | **do potwierdzenia w oryginale.** Wszystkie oznaczone `[wniosek, streszczenie]` |
-| treść dokumentów regulaminowych (ISEF, Explory, El-Robo-Mech) | **nie zamknięte.** Dokument regulaminowy stoi na szczycie hierarchii z sekcji 13 handbooka i parafraza streszczenia go nie zastępuje |
-
-Nie rozpisałem tego etapu na streszczeniach udając, że to przemiał literatury. Rozpisałem to, co daje się rzetelnie ustalić na tym kanale, i **przy każdej liczbie widać, skąd pochodzi**. Sekcja 6 poniżej mówi, co dokładnie zostaje do zrobienia po odblokowaniu sieci — jest tego mniej, niż zakładałem przed startem, ale nie jest to zero.
-
----
-
-## 1. Trzy ustalenia, które zmieniają plan
-
-### 1.1 [wniosek, dwa źródła zgodne] Teza „jeden strzał" **przeżywa**. K-007 zamknięte na korzyść handbooka
-
-To było pytanie o najwyższej stawce w całym projekcie (zadanie 4d nr 1).
-
-Ustalony wzorzec: **finał krajowy w październiku roku N wyłania reprezentację na ISEF w maju roku N+1.**
-
-| Edycja | Finał | ISEF |
-|---|---|---|
-| Explory 2025 (XIV GEW) | X 2025 | ISEF 2026, Phoenix |
-| Explory 2026 (XV GEW) | 21–23 X 2026 | ISEF 2027 |
-| **edycja użytkownika** | **X 2027** | **ISEF V 2028** |
-
-Potwierdzenie krzyżowe: reprezentacja na ISEF 2026 to Emil Pająk, Jagoda Sułek oraz Marta Truszczyńska z Pauliną Duszyńską — **3 projekty, 4 osoby**, dokładnie tak, jak podaje sekcja 4.9 handbooka. Zgodność niezależnie zebranej listy z liczbą z handbooka podnosi zaufanie do obu.
-
-**Konsekwencja:** okno zgłoszeń IX 2026 – II 2027 prowadzi do finału X 2027 i do ISEF 2028. Kalendarz z sekcji 3 handbooka jest poprawny, alternatywa z punktu 1.4 `00_PYTANIA_I_LUKI.md` (że reprezentacja na 2028 została już wyłoniona) **odpada**. Kolizja z maturą nie występuje.
-
-To jedyna dobra wiadomość w tej sekcji.
-
-### 1.2 [fakt] Pomysł „sygnały mięśniowo-oczne przy uchu jako sterowanie" jest zajęty, opublikowany i zademonstrowany
-
-**ID.EARS**, konferencja CHI 2025 (An, Oh, Kim, Kim, Park, Oh), DOI 10.1145/3706598.3714185.
-
-Urządzenie na **jedno ucho**, elektrody suche, rozpoznaje w czasie rzeczywistym pięć gestów: mrugnięcie, mrugnięcie lewym okiem, mrugnięcie prawym okiem, zaciśnięcie zębów, żucie. **Ponad 90% dokładności** w walidacji krzyżowej [wniosek, streszczenie]. Zastosowania pokazane przez autorów: sterowanie muzyką, dostępność, sterowanie MR/XR.
-
-Sformułowanie z abstraktu jest dla nas kluczowe: dotychczasowe badania nad EEG dousznym traktowały EMG i EOG **jako niepożądany szum do usunięcia**, a ID.EARS odwraca to i robi z szumu sygnał.
-
-**Co to zabija:** rolę 1 z sekcji 4b/C3 `00_PYTANIA_I_LUKI.md` — sEMG/EOG jako źródło sterowania w formie zausznej. Nie „prawdopodobnie zajęte", tylko zajęte, z demonstracją, na topowej konferencji od HCI, rok temu. Użytkownik odłożył ten wariant z innego powodu (uczciwość twierdzenia); teraz dochodzi drugi, twardszy.
-
-**Czego to nie zabija:** roli 2, czyli usuwania tych sygnałów z EEG. ID.EARS idzie w **przeciwną stronę** niż nasz kandydat na oś projektu. To nie jest kolizja — ale jest to dowód, że okolica ucha jest terenem, po którym chodzą ludzie z dobrymi publikacjami, i że „nikt tego nie robił" nie jest tu bezpiecznym założeniem o niczym.
-
-### 1.3 [wniosek] Uzasadnienie „odczyt ciągły wymusza hełm" jest **słabsze**, niż je postawiłem w rundzie drugiej
-
-W sekcji 4c `00_PYTANIA_I_LUKI.md` napisałem, że rytmy sensomotoryczne z okolicy ucha spadają prawdopodobnie do poziomu szumu własnego wzmacniacza, i na tym oparłem rozstrzygnięcie o odczycie dyskretnym.
-
-Znalezione: **„Detection of motor-related mu rhythm desynchronization by ear EEG"**, PLOS One 2025. Praca dokładnie o tym, że desynchronizacja mu związana z ruchem **jest wykrywalna** z ucha [wniosek, streszczenie, jedno źródło].
-
-Ustalenie „odczyt dyskretny" zostaje w mocy, bo stoi też na innych nogach (metryka standardowa, krótki trening, czyste zejście o poziom w dół, pokaz na stoisku). Ale **argument, którym je uzasadniłem, był za mocny i muszę go skorygować**, zanim użytkownik użyje go przed jurorem, który zna dziedzinę. Wpis w `KOREKTY.md` jako K-014. Szczegóły w `03_SCIANY_FIZYCZNE.md` sekcja 3.
-
----
-
-## 2. Odpowiedź na zadanie nr 3 — czy oś projektu jest zajęta
-
-Pytanie z sekcji 4c/C3, zapisane w `KOREKTY.md` jako K-009 **przed** sprawdzeniem: czy sprzętowe usuwanie zakłóceń mięśniowo-ocznych w torze analogowym urządzenia przyusznego jest już zrobione.
-
-**Odpowiedź: typ K-009 był trafny co do kierunku i zbyt optymistyczny co do szerokości szczeliny.**
-
-| Warstwa pomysłu | Status | Źródło |
-|---|---|---|
-| usuwanie artefaktów ocznych przez osobny kanał odniesienia, programowo, po nagraniu | **zajęte od 1983**, technika podręcznikowa | Gratton, Coles, Donchin, *Electroencephalogr Clin Neurophysiol* 55:468–484 [wniosek, streszczenie; metoda regresyjna sięga Hillyard i Galambos 1970] |
-| usuwanie artefaktów w domenie analogowej, przed końcowym wzmocnieniem | **zajęte na poziomie układów scalonych** — 8-kanałowy układ EEG z wewnątrzkanałową, w pełni analogową ekstrakcją i usuwaniem artefaktów ruchowych, CMRR >115 dB przy 50/60 Hz | IC ambulatoryjny, ~2023 [wniosek, streszczenie, jedno źródło] |
-| kompensacja analogowa **konkretnie EMG szczękowego i EOG**, z dedykowanego kanału odniesienia, w urządzeniu **noszonym przy uchu** | **nie znalazłem takiej pracy** | `[luka]` — brak dowodu nieistnienia, patrz niżej |
-| patent na adaptacyjny kompensator artefaktów ruchowych i ocznych w EEG | istnieje, US 5513649 | [wniosek, streszczenie] |
-
-**Uczciwe postawienie sprawy — i to jest zdanie, które trzeba obronić przed jurorem, nie przede mną:** ani sam pomysł, ani jego realizacja analogowa nie są nowe. Nowa może być wyłącznie **kombinacja**: analogowa kompensacja, sygnałów mięśniowo-ocznych, z kanału referencyjnego, w urządzeniu przyusznym, przy poziomie kosztów i złożoności osiągalnym poza laboratorium ASIC. To jest szczelina, nie pole, dokładnie jak zapisał typ K-009.
-
-**Czego nie wolno zrobić:** oprzeć twierdzenia projektu na „nikt tego nie zrobił". Nie mogłem otworzyć IEEE Xplore ani PubMed, więc **brak znaleziska nie jest dowodem nieistnienia** — to jest przeszukanie jednym kanałem, nie przegląd systematyczny. To pozycja obowiązkowa do domknięcia po odblokowaniu sieci.
-
-**Czego natomiast dostarcza literatura, a co wzmacnia sensowność kierunku:** Kappel i in. 2017 (*BioMedical Engineering OnLine* 16, art. 103) mierzyli artefakty fizjologiczne w EEG skalpowym i dousznym równolegle. Wynik: pogorszenie SNR od artefaktów szczękowych jest **w uchu ogólnie większe niż na skalpie** [wniosek, streszczenie]. Czyli problem, który nasz kandydat na oś rozwiązuje, jest w tej właśnie formie udokumentowany jako **poważniejszy**, a nie mniejszy. To jest dobra przesłanka dla projektu i pochodzi z pracy recenzowanej, nie z naszego domysłu.
-
----
-
-## 3. Pułap tego, co da się obiecać — liczby
-
-Pełna tabela w `06_TABELA_PARAMETROW.md`. Skrót, bo to jest liczba, wokół której trzeba zbudować twierdzenie:
-
-| Rozwiązanie | Dokładność | ITR | Uwaga |
-|---|---|---|---|
-| SSVEP, elektrody potyliczne, laboratorium | 92,8% | **~92 bit/min**, rekordy wyżej | wymaga hełmu/czapki |
-| SSVEP, elektrody uszne, online | 87,9 ± 12,1% | **16,6 ± 6,6 bit/min** | forma douszna |
-| SSVEP, elektrody uszne, T7/T8 | 63,5% | 6,4 bit/min | |
-| P300 słuchowy, ear-EEG | 95,6% | **~3,0 bit/min** | |
-| ASSR, uwaga słuchowa | 64,7–84,3% | **1,9–2,1 bit/min** | wybór binarny |
-| dekodowanie uwagi słuchowej, cEEGrid, okno 30 s | 41,5% przy 3 mówcach | — | zadanie trudniejsze niż sterowanie |
-
-Wszystkie `[wniosek, streszczenie]`.
-
-**Wniosek dla twierdzenia projektu [wniosek]:** różnica ITR między formą niewidoczną a czapką jest rzędu **5–15×**, nie kilku procent. Wariant „lepszy od komercyjnych w przepustowości" jest zamknięty — nie z powodu naszego warsztatu, tylko z powodu geometrii. To potwierdza analizę z sekcji 2.1 `00_PYTANIA_I_LUKI.md` i przesuwa decyzję C2 na wariant 1 (przewaga przy stałej widoczności) albo 2 (metryka użytkowa).
-
-**Ostrzeżenie do paradygmatu, który sam rekomendowałem [wniosek, jedno źródło, wysoka waga]:** praca *„Signal-specific performance of in-ear EEG: strengths and limitations"* (Frontiers in Neuroscience 20, 2026; 19 osób, system douszny suchy vs 32-kanałowy BioSemi) podaje, że w konfiguracji dousznej **alfa spoczynkowa wychodzi pewnie, a odpowiedź słuchowa N1-P2 nie** — wiarygodne N1-P2 uzyskano tylko przy uśrednionej referencji skalpowej. Paradygmaty słuchowe, które rekomendowałem w rundzie drugiej jako „te, których generator leży blisko ucha", mogą więc być **gorszym**, a nie lepszym wyborem dla formy dousznej. Do rozstrzygnięcia w oryginale pracy — to jest jedna z ważniejszych pozycji na po odblokowaniu sieci.
-
----
-
-## 4. Zadanie nr 10 — projekt referencyjny. Kod w handbooku jest błędny
-
-**[fakt] Kod `ENBM074` nie należy do projektu opisanego w sekcji 9.2 handbooka.**
-
-`ENBM074` to **„Synthetic DNA Engineering With ICOR"**, Rishab Jain, Westview High School, Oregon, **ISEF 2022** — projekt nagrodzony George D. Yancopoulos Innovator Award. Potwierdzone tytułem strony w bazie isef.net i osobnym wpisem w bazie abstraktów.
-
-Kody projektów ISEF są **numerowane w obrębie edycji i używane ponownie w kolejnych latach**, więc sam kod bez rocznika nie identyfikuje pracy. Wpis do `KOREKTY.md` jako K-012.
-
-Sam projekt referencyjny istnieje i jest realny: *„Breaking the Brain-Computer Interface Ceiling: Discovering a New Paradigm for Brain-Machine Communication That Enables Noninvasive Interfaces to Reach Invasive-Class Communication Speed"*, autorstwo Ameya Kharade, Nashua High School South, New Hampshire, kwalifikacja przez New Hampshire Science & Engineering Expo, **Grand Award na ISEF 2026** [wniosek, dwa źródła zgodne co do tytułu i szkoły].
-
-**Pełnego abstraktu nadal nie odczytałem** — `isef.net` i baza abstraktów są zablokowane. Liczby 65 i 3 wpm z sekcji 9.2 handbooka pozostają `[domysł]` zgodnie z K-004. Zadanie 4d nr 10 **nie jest zamknięte**.
-
-Kontekst, który udało się ustalić i który jest dla nas ważniejszy niż sam abstrakt — patrz sekcja 5 poniżej oraz `07_DEKODOWANIE.md` sekcja 6.
-
----
-
-## 5. Skąd biorą się „słowa na minutę" — zadanie z sekcji 10.G handbooka
-
-Handbook kazał sprawdzić szczególnie uważnie dwie rzeczy. Odpowiedzi, obie `[wniosek, streszczenie]`:
-
-**Jak liczone są wpm i ile z tego robi model językowy.** W pracach nad protezami mowy metryka jest liczona **na wyjściu całego łańcucha**, z modelem językowym włącznie. Skala udziału modelu jest duża i mierzalna: w pracy Willetta i in. (Nature 2023) surowy błąd fonemowy sieci rekurencyjnej wynosił **19,7%**, a dopiero po dołożeniu modelu 5-gramowego i przeważaniu dużym modelem językowym schodzi się do błędu słownego rzędu jednocyfrowego. W benchmarku Brain-to-Text '24 algorytm bazowy miał 9,7% WER, zwycięzca 5,8% — przy **tym samym sygnale neuronowym**, czyli cała różnica leży w dekodowaniu.
-
-**Punkt odniesienia dla rozwiązań nieinwazyjnych.** Liczba „kilka słów na minutę" ma pokrycie, ale jest to **środek szerokiego rozrzutu, nie najgorszy przypadek**: klasyczny speller P300 Farwella i Donchina daje ~5 znaków/min, typowe spellery 1–5 znaków/min, a szybkie systemy SSVEP dochodzą do ~60 znaków/min, czyli ~12 słów/min (Chen i in., PNAS 2015). Zestawianie ~60 wpm inwazyjnych z ~3 wpm nieinwazyjnych **wybiera dolny koniec rozrzutu nieinwazyjnego**; uczciwy górny koniec to ~12 wpm.
-
-**Do czego to jest nam potrzebne — dokładnie tak, jak zastrzegł handbook:** nie do audytowania cudzej pracy, tylko po to, żeby **nasza własna liczba znaczyła to, co powiemy, że znaczy**. Reguła operacyjna do etapu 2: każda liczba wydajności naszego układu podawana w dwóch wersjach — surowe dekodowanie i wynik z całą warstwą wspomagającą. Jeżeli podamy jedną, jurorzy z dziedziny zapytają o drugą.
-
----
-
-## 6. Co zostaje niezamknięte i czego to wymaga
-
-| # z 4d | Zadanie | Stan | Czego brakuje |
-|---|---|---|---|
-| 1 | który finał wysyła na ISEF 2028 | **zamknięte**, patrz 1.1 | — |
-| 2 | ISEF Human Participants | **częściowo**, `ISEF_HUMAN_PARTICIPANTS.md` | oryginał International Rules |
-| 3 | czy oś projektu zajęta | **częściowo**, patrz 2 | IEEE Xplore, PubMed — przegląd systematyczny |
-| 4 | amplitudy rytmów przy uchu | **częściowo**, `03` | PLOS One 2025, liczby z oryginału |
-| 5 | paradygmaty przy uchu | **zrobione**, `07` | potwierdzenie liczb ITR w oryginałach |
-| 6 | podział pracy człowiek–maszyna | **zrobione**, `04` + `07` | — |
-| 7 | materiały do kontaktu ze skórą | **zrobione**, `05` | — |
-| 8 | pomiar szumu bez oscyloskopu | **zrobione**, `03` | — |
-| 9 | El-Robo-Mech | **zrobione**, `08` | regulamin edycji 2026/2027, publikacja ~X 2026 |
-| 10 | abstrakt projektu referencyjnego | **niezamknięte**, patrz 4 | baza abstraktów |
-| 11 | projekty neuro w finałach Explory | **niezamknięte** | listy finalistów 2016–2026 |
-| 12 | arkusze oceny ISEF | **niezamknięte** | societyforscience.org |
-
-Pozycje 10, 11, 12 i oryginały regulaminów wymagają `Network access: Full`. Instrukcja przełączenia — `README.md`.
-
----
-
-## 7. Co z tego wynika dla decyzji, które czekają
-
-1. **C2 rozstrzygnąć na wariant 1 albo 2** z sekcji 2.1 `00_PYTANIA_I_LUKI.md`. Wariant „lepszy w przepustowości" jest zamknięty liczbami z sekcji 3. Moja rekomendacja: **wariant 2, metryka użytkowa**, z wariantem 1 jako tabelą towarzyszącą — bo w metryce użytkowej forma zauszna realnie wygrywa, a w przepustowości najwyżej remisuje sama ze sobą.
-2. **Oś „analogowe usuwanie zakłóceń" zostaje kandydatem**, ale twierdzenie projektu nie może brzmieć „pierwszy raz". Musi brzmieć jako pomiar: o ile poprawia się coś mierzalnego względem tego samego układu bez kompensacji. To jest twierdzenie, którego nie unieważni znalezienie cudzej pracy.
-3. **Zakup drukarki:** rekomendacja z rundy drugiej potwierdzona, szczegóły w `05_RYNEK.md` sekcja 5.
-4. **El-Robo-Mech przestaje być oczywistym źródłem zewnętrznej walidacji** — 34 laureatów w edycji 2026, nagrodą jest indeks na studia, nie miejsce na podium. Szczegóły i alternatywy w `08_KONKURENCJA_ISEF.md` sekcja 4.
+| `02_MECHANIZMY.md` | **jeżeli coś w tym pliku jest niejasne** — tam każdy termin ma wyjaśnienie, od tego, skąd bierze się napięcie na głowie |
+| `03_SCIANY_FIZYCZNE.md` | co jest fizyczne, co technologiczne, oraz **jak zmierzyć szum wzmacniacza bez oscyloskopu** |
+| `04_LUKI_ZAPISANE.md` | pełna weryfikacja osi projektu (sekcja 2) i luki opisane w przeglądach |
+| `06_TABELA_PARAMETROW.md` | wszystkie liczby w jednym miejscu, z kolumną „skąd ta liczba" |
+| `07_DEKODOWANIE.md` | paradygmaty, metody, zbiory danych, rozbiór metryki „słów na minutę" |
+| `08_KONKURENCJA_ISEF.md` | kalendarz, El-Robo-Mech, projekt referencyjny |
+| `ISEF_HUMAN_PARTICIPANTS.md` | **formalności i terminarz wsteczny — najpilniejsze** |
+| `KOREKTY.md` | K-001…K-018, w tym cztery błędy moje z tego etapu |
 </content>
-</invoke>

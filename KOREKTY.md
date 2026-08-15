@@ -134,19 +134,11 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 
 ## 2026-08-15, etap 1
 
-### K-012 — kod projektu referencyjnego w handbooku jest błędny
+### K-012 — WYCOFANA. Patrz K-018
 
-**Co było źle:** handbook, sekcja 9.2, podaje kod `ENBM074` jako identyfikator projektu o interfejsach nieinwazyjnych z ISEF 2026 i oznacza to `[fakt]`.
+**Treść pierwotna:** twierdziłem, że kod `ENBM074` w sekcji 9.2 handbooka jest błędny, bo należy do projektu „Synthetic DNA Engineering With ICOR" (Rishab Jain, ISEF 2022).
 
-**Poprawka:** `ENBM074` to **„Synthetic DNA Engineering With ICOR"**, Rishab Jain, Westview High School, Oregon, **ISEF 2022**, nagroda George D. Yancopoulos Innovator Award. Potwierdzone tytułem strony w bazie isef.net i osobnym wpisem w bazie abstraktów (ProjectId 23103).
-
-**Przyczyna:** kody projektów ISEF są numerowane w obrębie edycji i **używane ponownie w kolejnych latach**. Kod bez rocznika nie identyfikuje pracy.
-
-**Co pozostaje prawdziwe:** projekt referencyjny istnieje — *„Breaking the Brain-Computer Interface Ceiling…"*, autorstwo Ameya Kharade, Nashua High School South, New Hampshire, Grand Award na ISEF 2026. Tytuł i szkoła potwierdzone dwoma źródłami.
-
-**Konsekwencja:** we wszystkich dalszych dokumentach projekt nazywać tytułem, nie kodem. Pełny abstrakt nadal nieodczytany, liczby 65 i 3 wpm nadal `[domysł]` zgodnie z K-004.
-
-**Kto wyłapał:** Claude Code, etap 1.
+**Status: wycofana 15 VIII 2026.** Kod jest prawidłowy dla edycji 2026. Mój wniosek był błędny — szczegóły i przyczyna w K-018.
 
 ---
 
@@ -225,3 +217,19 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 **Wartość uboczna, konkretna:** ID.EARS jest gotowym dowodem, że przy uchu da się wykrywać zaciśnięcie zębów i mrugnięcia w czasie rzeczywistym z >90% trafnością. Nasz układ takiego detektora i tak potrzebuje, żeby wiedzieć, kiedy kompensować. To cegiełka, nie przeszkoda.
 
 **Kto wyłapał:** Claude Code, etap 1.
+
+---
+
+### K-018 — podważyłem prawidłowy kod projektu, łamiąc regułę, którą sam zapisałem
+
+**Co było źle:** w K-012 uznałem kod `ENBM074` z sekcji 9.2 handbooka za błędny. Podstawą była strona projektu „Synthetic DNA Engineering With ICOR" (Rishab Jain, ISEF **2022**) o tym samym kodzie.
+
+**Dlaczego to nie wynika:** w tym samym wpisie napisałem, że **kody ISEF są numerowane w obrębie edycji i używane ponownie co roku**. Skoro tak, to kod z 2022 nie mówi nic o kodzie z 2026. Zignorowałem własną przesłankę w akapicie, w którym ją postawiłem.
+
+**Co pogarsza sprawę:** wyszukiwarka podała wprost, że `ENBM074` w edycji 2026 to praca o interfejsach nieinwazyjnych. **Nadpisałem poprawną informację ze źródła własnym błędnym wnioskiem** — czyli zrobiłem coś gorszego niż brak weryfikacji.
+
+**Poprawka:** kod `ENBM074` jest **prawidłowy dla edycji 2026**. K-012 wycofana. Handbook i `08_KONKURENCJA_ISEF.md` przywrócone.
+
+**Reguła operacyjna, która z tego zostaje:** kody projektów ISEF cytować **wyłącznie z rocznikiem** — `ENBM074 (2026)`. Kod bez rocznika jest niejednoznaczny i to jest jedyna prawdziwa treść, jaka wyszła z całej tej pomyłki.
+
+**Kto wyłapał:** użytkownik, wskazując, że sprawdzał tegoroczną edycję i że sam sobie zaprzeczyłem.

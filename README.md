@@ -17,15 +17,13 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 
 ### Dlaczego etap 1 jest częściowy
 
-**Sieć nadal nie została przełączona na `Full`.** Sprawdzone 15 VIII 2026 trzema drogami: tunel HTTPS kontenera (403 na CONNECT), narzędzie WebFetch (`EGRESS_BLOCKED`), bezpośredni `curl`. Przechodzą wyłącznie rejestry pakietów i GitHub.
+**Ta sesja działa w niewłaściwym środowisku.** Sesja jest przypisana do `env_01NdKrhepeQo6dVAHusCvQFj` („Projekty"), podczas gdy `Network access: Full` zostało ustawione na `env_01USAAMBR9QZf9W8ERvrVkEA` („Projekty Full Acess", utworzone 15 VIII o 07:42). **Polityka sieciowa idzie ze środowiska sesji, a sesji nie da się przenieść między środowiskami.** Dlatego mimo poprawnych ustawień ta sesja dostaje 403 — sprawdzone tunelem kontenera, WebFetch i curl-em po restarcie kontenera o 14:00.
 
 Działa wyłącznie wyszukiwarka zwracająca tytuły, adresy i streszczenia generowane przez inny model. **Żadna praca źródłowa nie została otwarta.** Etap 1 został wykonany na tym kanale, z widocznym oznaczeniem statusu przy każdej liczbie — pełne postawienie sprawy w `00_STRESZCZENIE.md` sekcja 0.
 
 ### Żeby domknąć resztę
 
-`claude.ai/code` → ikona chmurki nad polem wiadomości → zębatka przy środowisku → **Network access: Full** → zapisz → **nowa sesja** (zmiana nie działa wstecz na uruchomioną sesję).
-
-Lista domen dla wariantu **Custom** — `00_PYTANIA_I_LUKI.md` sekcja 0.
+**Nowa sesja założona w środowisku „Projekty Full Acess".** Ustawień nie zmieniać — są dobre. Chodzi wyłącznie o wybór właściwego środowiska z listy przy zakładaniu sesji. Gałąź `claude/etap-1-8fsbpm` ma cały dorobek, więc nowa sesja podniesie pracę bez strat.
 
 ### Co zostaje do zrobienia po odblokowaniu, w kolejności
 
@@ -56,7 +54,7 @@ Lista domen dla wariantu **Custom** — `00_PYTANIA_I_LUKI.md` sekcja 0.
 | `08_KONKURENCJA_ISEF.md` | kalendarz ISEF, El-Robo-Mech, projekt referencyjny | gotowy, zadania 11 i 12 otwarte |
 | `ISEF_HUMAN_PARTICIPANTS.md` | badania z udziałem ludzi, terminarz wsteczny | **częściowy, priorytet** |
 | `ZRODLA.md` | bibliografia z oceną wiarygodności | gotowy |
-| `KOREKTY.md` | rejestr błędów, K-001…K-017 | prowadzony |
+| `KOREKTY.md` | rejestr błędów, K-001…K-018 | prowadzony |
 
 ---
 
@@ -67,6 +65,7 @@ Zmiany względem stanu sprzed etapu 1 zaznaczone **pogrubieniem**.
 - **zdolność:** sterowanie, nie komunikacja. Odczyt dyskretny, zachowanie sterowanego obiektu ciągłe. **Ustalenie zostaje, ale jego uzasadnienie zostało skorygowane — K-014**
 - **kalendarz: potwierdzony.** Finał X 2027 → ISEF V 2028. Teza „jeden strzał" stoi. **K-013 zamyka K-007**
 - **sEMG/EOG jako źródło sterowania: zamknięte.** ID.EARS, CHI 2025, pięć gestów przy uchu, >90%. **K-017**
+- **kod projektu referencyjnego ENBM074 (2026) jest prawidłowy** — moja poprawka K-012 była błędna i została wycofana. **K-018.** Kody ISEF cytować zawsze z rocznikiem
 - **sEMG/EOG jako kanał odniesienia: nadal kandydat na oś**, ale twierdzenie musi być pomiarowe, nie o pierwszeństwie. **K-009 rozstrzygnięte**
 - **paradygmat: nieprzesądzony.** Moja rekomendacja paradygmatów słuchowych została podważona; SSVEP wygląda lepiej mimo większej odległości. **K-015**
 - **forma:** element zauszny wielkości aparatu słuchowego. **Skala widoczności 0–4 w `06` sekcja 4 — do zatwierdzenia przez użytkownika**

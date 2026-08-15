@@ -28,15 +28,15 @@ Podstawa `[wniosek, dwa niezależne stwierdzenia zgodne]`:
 
 ---
 
-## 2. ZADANIE 4d NR 10 — projekt referencyjny. **Kod w handbooku jest błędny**
+## 2. ZADANIE 4d NR 10 — projekt referencyjny
 
-**[fakt] `ENBM074` nie jest kodem projektu opisanego w sekcji 9.2 handbooka.**
+**[fakt] Kod `ENBM074` w sekcji 9.2 handbooka jest prawidłowy dla edycji 2026.** Zweryfikowane przez użytkownika bezpośrednio w tegorocznej bazie.
 
-`ENBM074` = **„Synthetic DNA Engineering With ICOR: Improving Codon Optimization With Recurrent Neural Networks…"**, Rishab Jain, Westview High School, Oregon, **ISEF 2022**. Projekt nagrodzony **George D. Yancopoulos Innovator Award**. Potwierdzenie: tytuł strony w bazie isef.net oraz osobny wpis w bazie abstraktów Society for Science (ProjectId 23103).
+**Uwaga, która zostaje jako reguła cytowania:** kody projektów ISEF są numerowane w obrębie edycji i **używane ponownie w kolejnych latach**. `ENBM074` w edycji **2022** to zupełnie inna praca — „Synthetic DNA Engineering With ICOR", Rishab Jain, Westview High School, Oregon, nagroda Yancopoulos. Dlatego kod zawsze podawać **z rocznikiem**: `ENBM074 (2026)`.
 
-**Przyczyna pomyłki [wniosek]:** kody projektów ISEF są numerowane w obrębie edycji i **używane ponownie w kolejnych latach**. Sam kod bez rocznika nie identyfikuje pracy. Wpis K-012 w `KOREKTY.md`.
+**Historia tej pozycji:** w pierwszym podejściu uznałem kod za błędny na podstawie strony projektu z 2022 — czyli zignorowałem regułę, którą sam w tym samym akapicie zapisałem. Poprawka K-012 wycofana, błąd zapisany jako **K-018**.
 
-**Projekt referencyjny istnieje i jest realny** `[wniosek, dwa źródła zgodne co do tytułu i szkoły]`:
+**Projekt referencyjny** `[wniosek, dwa źródła zgodne co do tytułu i szkoły]`:
 
 > *„Breaking the Brain-Computer Interface Ceiling: Discovering a New Paradigm for Brain-Machine Communication That Enables Noninvasive Interfaces to Reach Invasive-Class Communication Speed"*
 > Autorstwo: Ameya Kharade, Nashua High School South, New Hampshire

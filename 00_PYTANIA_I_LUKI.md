@@ -64,7 +64,13 @@ en.wikipedia.org
 
 ### AKTUALIZACJA, 15 VIII 2026 — sesja etapu 1
 
-**Blokada nie została zdjęta.** Sprawdzone ponownie trzema drogami: tunel kontenera (403 na CONNECT), narzędzie WebFetch (`EGRESS_BLOCKED` dla `en.wikipedia.org`, `societyforscience.org`, `explory.pl`), bezpośredni `curl`. Przechodzą wyłącznie rejestry pakietów i GitHub.
+**Blokada nie została zdjęta — i znana jest przyczyna.**
+
+`[fakt]` Użytkownik ustawił `Network access: Full` poprawnie, ale na **nowym** środowisku „Projekty Full Acess" (`env_01USAAMBR9QZf9W8ERvrVkEA`, utworzone 15 VIII o 07:42). Ta sesja została utworzona o 09:10 i jest przypisana do środowiska **„Projekty"** (`env_01NdKrhepeQo6dVAHusCvQFj`, domyślne z onboardingu, 14 VIII).
+
+**Polityka sieciowa idzie ze środowiska sesji i sesji nie da się przenieść między środowiskami.** Restart kontenera o 14:00 nic nie zmienił — 403 utrzymuje się na tunelu kontenera, w narzędziu WebFetch i w bezpośrednim curl-u.
+
+**Rozwiązanie: nowa sesja założona w środowisku „Projekty Full Acess".** Nie zmieniać już ustawień — są prawidłowe.
 
 **Zmiana decyzji względem powyższego: etap 1 został mimo to wykonany w części, w której da się to zrobić uczciwie.** Powód: druga sesja bez żadnego produktu byłaby gorsza niż produkt z jawnie oznaczonym statusem źródłowym. Podział:
 
