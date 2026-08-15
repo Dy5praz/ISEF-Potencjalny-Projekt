@@ -123,15 +123,47 @@ Różnica między trzecim a drugim miejscem leży w rzemiośle pomiarowym, nie w
 
 ---
 
-## 5. Oszacowanie szans — ISEF
+## 5. Oszacowanie szans — ISEF, licząc od momentu, w którym już tam jesteś
 
-`[domysł]` Warunkowo: **pod warunkiem, że projekt tam dojedzie.**
+**PRZELICZONE 15 VIII wieczorem** na żądanie użytkownika: *„a co do szans na ISEF, przelicz je jak już się dostanę"*. Poniższe liczby są **warunkowe** — zakładają, że reprezentacja jest zdobyta, projekt zbudowany i pomiary zrobione. To jest właściwe ujęcie do planowania, bo w chwili wylotu do USA lejek Explory jest już przeszłością i nie wpływa na nic.
 
-| Wynik | Baseline w kategorii | Ten projekt |
-|---|---|---|
-| jakakolwiek nagroda Grand Award | ~26% | **~35–45%** |
-| miejsce I–II | ~7% | **~10–15%** |
-| I miejsce | ~2% | **~3%** |
+### 5.0 Liczba, której wcześniej nie użyłem, a jest najważniejsza
+
+`[fakt, dane organizatora, zweryfikowane na explory.pl/isef 15 VIII 2026]`
+
+> „Do tej pory Fundacja umożliwiła udział **53 młodym polskim innowatorom i innowatorkom**, którzy zdobyli łącznie **33 nagród i wyróżnień**."
+
+Na tej samej stronie, w innym miejscu: „Zdobyliśmy do tej pory na ISEF **31 różnych nagród i wyróżnień**. Dokonała tego grupa **50 naszych reprezentantów**." Dwie wersje liczb, prawdopodobnie z różnych momentów aktualizacji.
+
+**Stosunek: około 0,62 nagrody na reprezentanta.** Wobec bazowego wskaźnika ISEF rzędu **jednej trzeciej** (ponad 540 nagrodzonych projektów na ponad 1700 finalistów) to jest **prawie dwukrotnie więcej**.
+
+**Trzy zastrzeżenia, bez których ta liczba wprowadza w błąd:**
+1. to są **dane własne organizatora**, nieweryfikowalne niezależnie — handbook zaznaczał to już w sekcji 5.3
+2. mianownik jest niejednoznaczny: 53 to **osoby**, a projekty zespołowe liczą się jako kilka osób. Per projekt wskaźnik byłby wyższy, co czyni go jeszcze mniej wiarygodnym
+3. „nagrody i wyróżnienia" obejmują **nagrody specjalne partnerów i wyróżnienia**, nie tylko Grand Awards
+
+**Ale nawet po ostrożnym zdyskontowaniu** kierunek jest jednoznaczny: **polska reprezentacja wraca z ISEF z nagrodą częściej niż przeciętny finalista.** To ma sens mechanistycznie — Explory przepuszcza ~3 projekty z ~300 zgłoszeń, czyli sito krajowe jest ostrzejsze niż sito wielu targów regionalnych w USA, które wysyłają na ISEF znacznie większy odsetek swoich uczestników.
+
+### 5.1 Liczby warunkowe
+
+`[domysł]` Zakładając: jesteś na ISEF, urządzenie działa, pomiary są zrobione z warunkiem kontrolnym.
+
+| Wynik | Baseline ISEF | Baseline polskiej reprezentacji | **Ten projekt** |
+|---|---|---|---|
+| jakakolwiek nagroda (Grand lub specjalna) | ~32% | **~62%** | **~45–60%** |
+| Grand Award w kategorii | ~26% | — | **~30–40%** |
+| miejsce I–II w kategorii | ~7% | — | **~12–18%** |
+| I miejsce w kategorii | ~2% | — | **~3–5%** |
+
+**Dlaczego plasuję się poniżej historycznego wskaźnika polskiej reprezentacji (62%), a powyżej bazowego (32%):** wskaźnik 62% jest samoraportowany i liczony na osobach, więc go dyskontuję. Przewaga nad bazowym wynika z punktu kalibracyjnego z sekcji 3.1 — **ENBM079 zdobył trzecią nagrodę mając domowe EEG i 52% trafności przy zadaniu dwuklasowym.** Projekt, który dowozi własny sprzęt **plus** strukturę eksperymentu z sekcji 3.3, powinien plasować się wyżej.
+
+**Odpowiedź na pytanie „co wtedy": w chwili, gdy stoisz przy stoisku na ISEF, szansa na powrót z czymkolwiek to mniej więcej rzut monetą, a na miejsce I–II — jedna na sześć do jednej na osiem.** To jest zupełnie inna sytuacja niż liczby bezwarunkowe z sekcji 1, i różnica bierze się w całości z lejka Explory, nie z ISEF.
+
+### 5.2 Co z tego wynika dla planowania
+
+`[wniosek]` **Wąskim gardłem całego przedsięwzięcia nie jest ISEF, tylko przejście przez półfinał Explory.** Po dostaniu się do reprezentacji prawdopodobieństwo sukcesu rośnie skokowo — i to jest argument, żeby nakład pracy koncentrować na tym, co punktuje w półfinale (znajomość literatury, znajomość metod, prezentacja), a nie na tym, co robi wrażenie dopiero na ISEF.
+
+To jest odwrotność intuicji, która mówi „szykuj się na ISEF, Explory jakoś przejdzie".
 
 **Uzasadnienie odchylenia w górę:** punkt kalibracyjny z 3.1 (własny sprzęt + słaby wynik = trzecie miejsce) plus struktura eksperymentu z 3.3. Projekt, który dowozi jedno i drugie, powinien plasować się wyżej niż ENBM079.
 

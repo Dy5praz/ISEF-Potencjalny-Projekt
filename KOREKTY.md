@@ -534,3 +534,35 @@ Projekt zmierza do modułu potylicznego z **elektrodami suchymi**, paradygmat **
 3. **realistyczne widełki**, czego się spodziewać po elektrodach suchych, zanim cokolwiek zostanie zbudowane
 
 **Uwaga do zapisania, bo działa w drugą stronę:** skoro istnieje publiczny zbiór 102 osób z porównaniem elektrod suchych i mokrych, to **twierdzenie „zbadałem elektrody suche" jest zajęte**. Nasze twierdzenie musi dotyczyć **konkretnej konstrukcji elektrody albo konkretnego toru analogowego**, mierzonego przeciwko temu zbiorowi — nie samego faktu, że elektrody suche zbadano.
+
+---
+
+### K-039 — „cztery komendy na minutę" to była moja pomyłka, i to ona popchnęła decyzję użytkownika
+
+**Co było źle:** `10_PROJEKT_DLA_LAIKA.md` sekcja 4.1. Napisałem najpierw poprawnie — „wybrać jedną komendę z kilku, patrząc na nią, **mniej więcej co 1–4 sekundy**" — a trzy akapity niżej: „**cztery komendy na minutę** to nie jest szybkie pisanie. To jest tempo pilota do telewizora". **Te dwa zdania sobie przeczą.** Komenda co 1–4 s to **15–60 komend na minutę**, nie cztery.
+
+**Skąd wzięła się ta pomyłka:** z sekcji 4c `00_PYTANIA_I_LUKI.md`, gdzie napisałem „**cztery komendy** co ~2 s wystarczają do gładkiego ruchu". Tam „cztery komendy" oznaczało **rozmiar alfabetu** — lewo, prawo, jazda, stop. Zamieniłem rozmiar alfabetu na tempo.
+
+**Liczby poprawne, z pracy odczytanej w oryginale:** Xing i in., *Scientific Reports* 8:14708 (2018), PMID 30279463 — **12 celów, elektrody suche typu pazurkowego, okno 1-sekundowe, 93,2% trafności, ITR 92,35 bit/min**, jedenastu badanych. To odpowiada **rzędowi 30–40 wyborów na minutę**.
+
+**Dlaczego ten wpis jest poważny mimo prostoty błędu:** użytkownik podjął na tej podstawie decyzję C2, uzasadniając ją wprost: *„4 komendy na minutę to naprawdę średnio. I to bardzo."* **Reagował na liczbę, którą podałem błędnie, zaniżoną o rząd wielkości.** Decyzja o wyborze wariantu przepustowościowego pozostaje w mocy i jest sensowna — ale została podjęta na złej przesłance i to musi być zapisane.
+
+**Reguła operacyjna:** nie mieszać **liczby komend** (rozmiar alfabetu, N we wzorze Wolpawa) z **tempem** (wyborów na minutę) ani z **przepustowością** (bit/min). To są trzy różne wielkości i w tym pliku pomyliłem dwie z nich.
+
+---
+
+### K-040 — moja własna korekta K-028 była przesadzona. SpiralE to 2,2×, nie rząd wielkości
+
+**Co było źle:** w K-028 napisałem, że praca SpiralE daje wynik „**o rząd wielkości** powyżej wszystkiego, co wcześniej raportowano z ucha", i że „40-celowy speller online bez kalibracji to przepustowość o rząd wielkości wyższa niż 16,6 bit/min". Oparłem to na **abstrakcie**, w którym podano liczbę celów, ale nie podano ITR.
+
+**Poprawka, z pełnego tekstu** (Nature Communications 14:4213, PMC10349124, odczytany w całości):
+
+> „the decoding accuracies of the in-ear channels are 95% in the offline 9-target SSVEP task and **75% in the online 40-target SSVEP task without training**. The **Information Transfer Rate (ITR) reaches 36.86 ± 15.53 bits/min**, which is the highest to those reported in the previous ear EEG results"
+
+**Czyli: 36,86 bit/min, nie „rząd wielkości powyżej 16,6".** To jest **około 2,2×** — poprawa realna i największa w tej niszy, ale nie skokowa. Dokładność w zadaniu 40-celowym to **75%**, nie 95%; liczba 95% dotyczy 9 celów offline.
+
+**Czego to nie zmienia:** wniosek jakościowy K-028 stoi — o wyniku zdecydowała **jakość kontaktu elektrody**, a nie odległość od kory wzrokowej, i liczby 6–17 bit/min nie są sufitem formy dousznej. Decyzja o potylicy (K-036) była podjęta na innej przesłance i pozostaje słuszna.
+
+**Co to zmienia, i jest to korzystne:** po wyborze potylicy **projekt nie konkuruje ze SpiralE**. Punkt odniesienia dla wariantu przepustowościowego to **Xing 2018: 92,35 bit/min na elektrodach suchych**, a nie 36,86 bit/min z ucha. Potylica daje ~2,5× najlepszego opublikowanego wyniku z ucha — i to jest argument za tą decyzją, a nie przeciw.
+
+**Czego się z tego uczę, i jest to nieprzyjemne:** przesadziłem w korekcie, która sama była korektą przesady w drugą stronę. Najpierw zaniżyłem pułap formy dousznej na streszczeniach z 2015 i 2022, potem zawyżyłem go na abstrakcie z 2023. **Obie pomyłki miały to samo źródło: liczba czytana bez pełnego tekstu.** Dopiero trzecie podejście, z pełnym tekstem, dało wartość, którą można cytować.

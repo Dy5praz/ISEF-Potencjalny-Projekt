@@ -107,7 +107,11 @@ Co da się z tym zrobić w praktyce:
 - **obsługiwać menu** — włącz, wyłącz, głośniej, ciszej. Istnieje praca pokazująca **38 komend do sterowania domem, 96,9% trafności, na jednym kanale**
 - **działać u osoby, która nie może się ruszać ani mówić**, ale panuje nad wzrokiem
 
-**Uczciwie o czasie:** cztery komendy na minutę to nie jest szybkie pisanie. To jest tempo pilota do telewizora, nie klawiatury.
+**Uczciwie o tempie — poprawione 15 VIII wieczorem, `KOREKTY.md` K-039.** Miałem tu wcześniej zdanie „cztery komendy na minutę to tempo pilota do telewizora". **To była pomyłka o rząd wielkości** — pomyliłem liczbę komend w alfabecie z tempem ich wydawania.
+
+Liczby prawdziwe, z pracy odczytanej w oryginale (Xing i in., *Scientific Reports* 2018, jedenastu badanych, **elektrody suche**): **12 celów, okno 1-sekundowe, 93,2% trafności, przepustowość 92,35 bit/min**. To odpowiada **rzędowi 30–40 wyborów na minutę**.
+
+To już nie jest tempo pilota do telewizora. To jest tempo, przy którym da się realnie sterować i przy którym twierdzenie przepustowościowe ma sens.
 
 ### 4.2 Nie umie i nie będzie umiało
 

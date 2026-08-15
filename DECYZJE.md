@@ -7,7 +7,7 @@
 
 | # | Decyzja | Rozstrzygnięcie |
 |---|---|---|
-| **1** | C2 — w czym „lepsze od komercyjnych" | **OTWARTA.** Zawężona do wariantów 2 i 3. Propozycja wyjścia z wahania: sekcja „Domknięcie decyzji 1" niżej |
+| **1** | C2 — w czym „lepsze od komercyjnych" | **ZAMKNIĘTA: wariant 3 — przepustowość.** Decyzja użytkownika, 15 VIII wieczorem. Uwaga: podjęta częściowo na mojej błędnej liczbie, patrz niżej |
 | **2** | umiejscowienie elektrod | **ZAMKNIĘTA: moduł zwarty na potylicy.** Zgoda na geometrię jako zmienną mierzoną, ale weryfikacja pokazała, że drugie miejsce elektrod **pogarsza** wynik. Bez łuku, bez zausznika. `KOREKTY.md` K-036 |
 | **3** | skala gabarytu | **ZATWIERDZONA**, z Twoim zastrzeżeniem wpisanym jako granica twarda: **żadnej konstrukcji zbliżającej się do opaski przechylonej na tył głowy** |
 | **4** | E1 — kalendarz | **PRZYJĘTY.** Wchodzi do handbooka jako obowiązujący |
@@ -16,9 +16,31 @@
 
 ---
 
-## Domknięcie decyzji 1 — propozycja, nie rozstrzygnięcie
+## Decyzja 1 — ROZSTRZYGNIĘTA: wariant 3, przepustowość
 
-Wahasz się między wariantem 2 (metryka użytkowa) a 3 (przepustowość). **Nie musisz teraz wybierać, i uważam, że nie powinieneś** — z tego samego powodu, dla którego zgodziłeś się nie wybierać umiejscowienia założeniem.
+**Uzasadnienie użytkownika:** *„4 komendy na minutę to naprawdę średnio. I to bardzo."*
+
+**Muszę zapisać, że ta przesłanka była moja i była błędna — `KOREKTY.md` K-039.** W `10_PROJEKT_DLA_LAIKA.md` napisałem „cztery komendy na minutę", myląc **rozmiar alfabetu komend** z **tempem ich wydawania**. Liczba prawdziwa, z pracy odczytanej w oryginale (Xing i in., *Sci Rep* 2018, elektrody suche, 12 celów, okno 1 s, 93,2% trafności, 92,35 bit/min): **rząd 30–40 wyborów na minutę**.
+
+**Decyzja pozostaje w mocy i jest po korekcie mocniejsza, nie słabsza.** Przy 30–40 wyborach na minutę wariant przepustowościowy ma sens, którego przy czterech na minutę by nie miał. Ale przesłanka została sprostowana i użytkownik ma prawo decyzję zrewidować, wiedząc, na czym naprawdę stoi.
+
+**Co ta decyzja ustawia:**
+
+| | |
+|---|---|
+| **metryka główna** | dokładność klasyfikacji i ITR w bit/min, wg wzoru Wolpawa, z podaniem N, P i t |
+| **punkt odniesienia** | **Xing i in. 2018: 92,35 bit/min, 12 celów, elektrody suche** — nie SpiralE z ucha (36,86 bit/min), bo po wyborze potylicy nie jesteśmy w tamtej niszy |
+| **kształt twierdzenia** | przepustowość porównywalna z układem wielolektrodowym **przy module zwartym zamiast opaski**, plus wkład własny: kompensacja artefaktu szczękowego mierzona przeciwko temu samemu układowi bez kompensacji |
+| **co trzeba mierzyć obowiązkowo** | ITR **oraz** dokładność, osobno dla wariantu wewnątrzsesyjnego, międzysesyjnego i międzyosobniczego (`00_STRESZCZENIE.md` 4.3) |
+| **czego nie wolno** | podać jednej liczby ITR bez konwencji liczenia `t` — `06_TABELA_PARAMETROW.md` sekcja 0 punkt 2 |
+
+**Wariant 2 nie znika — schodzi do tabeli towarzyszącej.** Czas montażu i stabilność w ciągu dnia i tak wypadnie zmierzyć przy okazji kampanii, a kosztuje to tylko dyscyplinę zapisu. Nie jest to już jednak oś twierdzenia.
+
+---
+
+## Materiał, na którym ta decyzja zapadła (zostaje jako dokumentacja)
+
+Wahanie było między wariantem 2 (metryka użytkowa) a 3 (przepustowość). Moja ówczesna propozycja brzmiała: **nie wybierać teraz** — z tego samego powodu, dla którego zgodziłeś się nie wybierać umiejscowienia założeniem.
 
 **Te dwa warianty wykluczają się w abstrakcie, nie w laboratorium.** Abstrakt na ISEF ma 250 słów i musi mieć jedno twierdzenie. Ale kampania pomiarowa mierzy ten sam układ — pod wariant 3 potrzeba dokładności i liczby komend na minutę, pod wariant 2 tych samych sesji, tylko rozłożonych w czasie i powtórzonych. **Nakład to nie dwie kampanie, tylko jedna dłuższa.**
 

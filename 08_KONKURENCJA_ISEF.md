@@ -135,6 +135,45 @@ Zawierających frazę „brain-computer interface": 0–5 rocznie, w 2026 — **
 
 **[wniosek] To jest najważniejsza liczba w tej sekcji i zmienia ocenę ryzyka:** ENBM079 jest **bliższym konkurentem niż projekt referencyjny**. Buduje własny tani sprzęt EEG i dokleja do niego BCI — czyli robi to, co planuje użytkownik, tylko taniej i szerzej. Zdobył trzecią nagrodę, co pokazuje jednocześnie, że **taka praca się kwalifikuje** i że **sam fakt zbudowania taniego EEG nie wystarcza na czołowe miejsce**. Jego 52% trafności przy dwuklasowym zadaniu to wynik ledwie nad przypadkiem — i to jest dokładnie ta różnica, którą trzeba pobić rzemiosłem pomiarowym.
 
+### 3.2a Jakość konkurencji na Explory — sprawdzone na poziomie mentorów i szkół
+
+Sekcja 3.1 policzyła, ilu konkurentów tematycznych jest na Explory (jeden na 133). **Nie mówiła nic o tym, jak mocni są pozostali.** Użytkownik postawił tezę, że poziom jest mierny i realnie walczyłby z „1–2 projektami inżynierskimi i jakimiś medycznymi". Sprawdzone na oficjalnej liście finalistów 2026, która podaje **autorów, mentorów i szkoły**.
+
+**Struktura finału (przypomnienie z 3.1): TOP 5 w każdym z czterech obszarów + zwycięzca plebiscytu = 21.**
+
+| Obszar (2026) | Projekty w TOP 5 |
+|---|---|
+| **Człowiek i Społeczeństwo** | IDLEK (dystrybutor leków); **TRI-AXIS** (regeneracja struktur mózgowych u planarii); Chicken McNugget problem (matematyka czysta); ekstrakt z sorga; **Aero-Haptics** (multimodalny IoT, terapia antynikotynowa) |
+| **Klimat i Środowisko** | kwantowe wspomaganie fotowoltaiki; transestryfikacja olejów; **Stacja SKA** (autonomiczna stacja komunikacji awaryjnej); Baltic Alert; Bio-Volt (ogniwa MFC) |
+| **Gospodarka i Bezpieczeństwo** | Acoustic Leak Positioning; ExoCrete (siarka, infrastruktura kosmiczna); AgricUp (nawadnianie); VVVEBA (zabezpieczenie roweru); **MAPPER** (autonomiczny bolid F1Tenth) |
+| **Poza kategoriami** | BioShield; modelowanie in silico kwercetyny; **SADE** (system autodiagnozy elektrycznej); kompozyt z nanocząstkami; szczepionka przeciw Salmonella; fagi T7 |
+
+**Ile jest projektów inżynierskich w finale: około dziewięciu–jedenastu**, nie jeden ani dwa. IDLEK, Aero-Haptics, Stacja SKA, Bio-Volt, AgricUp, VVVEBA, MAPPER, SADE, Kompensator PV, MuteBand, Driftly. **Teza użytkownika o „1–2 projektach inżynierskich" jest nieprawdziwa dla całego finału.**
+
+**Ale jest prawdziwa dla obszaru** — i to jest właściwe ujęcie, bo konkurencja o miejsce w finale toczy się wewnątrz obszaru, o pięć miejsc. W obszarze „Gospodarka i Bezpieczeństwo" poważnym konkurentem inżynierskim jest **MAPPER**; w „Człowiek i Społeczeństwo" — **Aero-Haptics**. **Po jednym–dwóch na obszar. Tu użytkownik ma rację i jego intuicja o strukturze jest trafniejsza niż moja pierwotna liczba.**
+
+#### Sygnały jakości, które przeczą tezie o miernym poziomie
+
+`[fakt]` Z listy finalistów, kolumna „mentor":
+
+| Projekt | Mentor | Kim jest `[wniosek, zbieżność nazwiska i dziedziny]` |
+|---|---|---|
+| TRI-AXIS (planarie, struktury mózgowe) | **Jacek Kuźnicki** | profesor biologii molekularnej, Międzynarodowy Instytut Biologii Molekularnej i Komórkowej |
+| Genetically enhanced T7 phages | **Piotr Golec** | badacz bakteriofagów, Uniwersytet Warszawski |
+| Kompozyt z nanocząstkami do regeneracji kości | **Magdalena Osiał** | badaczka nanocząstek, UW / IPPT PAN |
+| BioShield (folie z melaniną grzybową) | **Joanna Grzyb** | biofizyka, Uniwersytet Wrocławski |
+| Szczepionka przeciw Salmonella | **Marta Truszczyńska** | zwyciężczyni Explory 2025 (BioBloom), reprezentantka na ISEF 2026 |
+
+Do tego szkoły: **Akademickie Liceum Ogólnokształcące Politechniki Śląskiej**, **United World College Red Cross Nordic**, oraz jedno zgłoszenie afiliowane przy **Uniwersytecie Zielonogórskim**.
+
+**[wniosek] Werdykt, w trzech częściach, bo teza użytkownika jest częściowo trafna i częściowo nie:**
+
+1. **Trafne:** w obrębie jednego obszaru realnymi rywalami są 1–2 projekty, nie dwadzieścia. Struktura TOP 5 na obszar jest kluczowa i wcześniej jej nie doceniałem.
+2. **Nietrafne:** projektów inżynierskich w finale jest ~10, a nie 1–2, i **co najmniej pięciu finalistów ma mentorów będących czynnymi naukowcami** z uczelni i instytutów PAN. To nie jest pole bez zaplecza.
+3. **Najważniejsze, i działa na korzyść użytkownika:** przejrzałem wszystkie 21 projektów finałowych i **żaden nie łączy zbudowanego sprzętu z rygorem pomiarowym**. Projekty z mentorami akademickimi (fagi, nanokompozyt, planarie) mają rygor, ale nie mają zbudowanego urządzenia. Projekty inżynierskie mają urządzenie, ale — jak odnotowuje sekcja 4.13 handbooka o MAPPER-ze — **nie mają na plakacie pomiarów z niepewnościami**.
+
+**To jest realna luka i to jest właściwe miejsce dla tego projektu:** urządzenie **plus** kampania pomiarowa z warunkiem kontrolnym. Nie „lepszy sprzęt niż tamci" ani „lepsza biologia niż tamci", tylko **jedyny projekt, który ma oba naraz**.
+
 ### 3.3 Wniosek strategiczny — dwa różne zadania, nie jedno
 
 **[wniosek]** Sito jest w Explory (K-003: półfinał → finał ~14–17%), a konkurencja tematyczna jest na ISEF. Z tego wynika coś, czego nie widziałem wcześniej:
