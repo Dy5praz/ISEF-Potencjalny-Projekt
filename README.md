@@ -11,7 +11,19 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 | Etap | Status |
 |---|---|
 | Sekcja 14 handbooka — drugie czytanie, luki i pytania | **zrobione** → `00_PYTANIA_I_LUKI.md` |
-| Etap 1 — przemiał literatury | **zablokowany**: brak dostępu wychodzącego do sieci w tym środowisku, patrz `00_PYTANIA_I_LUKI.md` sekcja 0 |
+| Odpowiedzi użytkownika na pytania A/B/C | **zebrane** → `00_PYTANIA_I_LUKI.md` sekcja 4b |
+| Etap 1 — przemiał literatury | **zablokowany do czasu przełączenia sieci na Full**, patrz `00_PYTANIA_I_LUKI.md` sekcja 0 i 4b/A1 |
+
+### Ustalenia kierunkowe (15 VIII 2026)
+
+- **zdolność:** sterowanie **dyskretne** (skończony zbiór komend), nie komunikacja i nie sterowanie ciągłe
+- **sEMG/EOG:** dopuszczone jako **kanał odniesienia do usuwania zakłóceń** w torze analogowym; jako źródło sterowania odłożone, nie odrzucone
+- **czas:** 10 h/tydz. → ~350 h do El-Robo-Mech, ~910 h do ISEF
+- **budżet:** świadomie nieustalony, decyzja po opracowaniu
+
+### Żeby ruszyć dalej
+
+`claude.ai/code` → ikona chmurki nad polem wiadomości → zębatka przy środowisku → **Network access: Full** → zapisz → **nowa sesja** na gałęzi `claude/oto-handbook-instrukcje-g3e7hd` z poleceniem „rób etap 1".
 | Etap 2 — opracowanie projektu | przed nim etap 1 |
 
 ---

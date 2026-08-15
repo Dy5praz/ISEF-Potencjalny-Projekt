@@ -271,6 +271,80 @@ Zgodnie z sekcją 2.2: grupami, konkretne, po wykonaniu tego, co dało się wyko
 
 ---
 
+## 4b. Odpowiedzi użytkownika — 15 VIII 2026
+
+### A1 — środowisko
+
+**Decyzja: zmieniamy politykę sieciową.** Praca w aplikacji czatowej odrzucona jako niedająca odpowiedniego poziomu.
+
+Ustalone z dokumentacji [fakt, źródło: `code.claude.com/docs/en/cloud-environments`]: środowisko chmurowe ma pole **Network access** o czterech poziomach — **None**, **Trusted** (obecny; wyłącznie rejestry pakietów, GitHub, SDK chmurowe), **Full** (dowolna domena), **Custom** (własna lista, opcjonalnie z domyślną).
+
+Ścieżka: `claude.ai/code` → przycisk z ikoną chmurki nad polem wiadomości → najechać na środowisko → zębatka → pole **Network access** → **Full**. Przy wariancie **Custom** trzeba zaznaczyć „Also include default list of common package managers" i wkleić listę z sekcji 0.
+
+Zmiana nie działa wstecz na już uruchomioną sesję — wymagana nowa sesja w tym środowisku.
+
+### B — zasoby
+
+**B1. Budżet:** nieustalony świadomie. Decyzja użytkownika: najpierw opracowanie, potem ocena kosztu. Rząd 15 000 zł z porzuconego projektu drona jako informacja o tym, co było wyobrażalne — **nie jako limit i nie jako założenie**.
+
+**B2. Czas: 10 h/tydzień na spokojnie, z zapasem w górę.** Przeliczenie:
+
+| Do czego | Tygodni | Godzin przy 10 h/tydz. |
+|---|---|---|
+| El-Robo-Mech, IV 2027 | ~35 | **~350 h** |
+| finał Explory, X 2027 | ~61 | ~610 h |
+| ISEF, V 2028 | ~91 | **~910 h** |
+
+[wniosek] Budżet czasowy nie jest wąskim gardłem. Wąskim gardłem jest kolejność: nauka projektowania PCB musi się skończyć przed startem budowy toru analogowego, nie równolegle z nim.
+
+**B3–B5:** bez odpowiedzi. Sprzęt pomiarowy, drukarka 3D i opiekun naukowy nadal `[luka]`. B5 (opiekun) pozostaje ryzykiem formalnym o wysokiej stawce — patrz sekcja 3.
+
+### C1 — zdolność: sterowanie dyskretne
+
+**Decyzja: sterowanie, nie komunikacja.** Uzasadnienie użytkownika: komunikacja wchodzi w pole ENBM074 i wymusza pobicie tamtego wyniku, czego sekcja 9.2 handbooka zakazuje.
+
+[wniosek] Argument jest mocniejszy, niż został postawiony: komunikacja to najgęściej obsadzony poddział dziedziny w ogóle, więc konkurencją są laboratoria akademickie, nie pojedynczy projekt licealny.
+
+**Rekomendacja przyjęta: dyskretne, nie ciągłe.**
+
+| | Dyskretne | Ciągłe |
+|---|---|---|
+| co produkuje | jedna z N komend co kilka sekund | wartość odświeżana kilkadziesiąt razy na sekundę |
+| metryka | dokładność klasyfikacji + ITR, standardowe | brak jednej standardowej |
+| elektrody | mało, zgodne z „zero hełmów" | gęsta siatka nad korą ruchową, czyli czapka |
+| trening użytkownika | krótki | bardzo długi |
+| ryzyko niesterowalne | małe | [wniosek, do weryfikacji] „BCI illiteracy" — u części osób nie działa niezależnie od jakości sprzętu |
+| zejście o poziom w dół | 8 komend → 4 komendy | brak czystego zejścia |
+| pokaz na stoisku | ~30 s | trudny |
+
+**Ostrzeżenie zapisane:** granica sterowanie/komunikacja jest płynna. Sterowanie dyskretne z dużą liczbą komend degeneruje się w wybieranie liter z menu, czyli w komunikację. Granicy pilnuje treść twierdzenia projektu, nie konstrukcja urządzenia. Do pilnowania świadomie przez cały etap 2.
+
+### C3 — sEMG / EOG dopuszczone, ale w roli drugiej
+
+Użytkownik nie znał tych skrótów. Wyjaśnienie i rozstrzygnięcie:
+
+- **sEMG** (elektromiografia powierzchniowa) — napięcie z pracujących mięśni pod elektrodą. Przy uchu głównie mięsień skroniowy, czyli zaciskanie szczęki.
+- **EOG** (elektrookulografia) — gałka oczna jest stałym dipolem elektrycznym (przód dodatni, tył ujemny), więc ruch oka zmienia napięcie na skórze wokół oczodołu. Mrugnięcie daje sygnał bardzo duży.
+
+[wniosek, rzędy wielkości do potwierdzenia w etapie 1] EEG na skórze głowy: jednostki do ~100 µV. EOG: kilkanaście do kilkuset razy więcej. sEMG: jeszcze więcej. Stąd znacznie niższe wymagania wobec toru analogowego.
+
+**Rozstrzygnięcie — dwie role, różne ryzyko:**
+
+1. **Jako źródło sterowania — odłożone, nie odrzucone.** To nie są sygnały mózgowe. Urządzenie sterowane szczęką i okiem nie jest interfejsem neuralnym, tylko czytnikiem grymasów, i jury znające dziedzinę wyłapie to przy stoisku. Zderza się ze standardami etycznymi Explory (sekcja 4.5, krytycyzm wobec własnych wyników). Uczciwe postawienie jest możliwe wyłącznie jako jawnie hybrydowy układ — klasa uznana i publikowana — ale wtedy nie wolno tego sprzedawać jako interfejsu mózgowego. Do sprawdzenia w etapie 1: stan literatury hybrydowej.
+2. **Jako kanał odniesienia do usuwania zakłóceń z EEG — przyjęte.** Przy uchu największe rejestrowane sygnały to właśnie szczęka i oko; zagłuszają EEG. Osobny kanał mierzący wyłącznie te zakłócenia pozwala je odjąć **w torze analogowym**, sprzętowo.
+
+[domysł] Rola 2 siedzi w warstwie 3 z sekcji 9.4 handbooka (tor analogowy front-endu), czyli w najmocniejszej umiejętności użytkownika, i daje twierdzenie wymagające zbudowania płytki — czyli takie, którego nie powtórzy ktoś z laptopem i publicznym zbiorem danych. To jest kandydat na oś projektu, ale wymaga potwierdzenia w etapie 1, że nie jest to rozwiązane i opublikowane.
+
+### Pytania nadal otwarte
+
+- **B3, B4, B5** — sprzęt pomiarowy, drukarka 3D, opiekun naukowy
+- **C2** — w czym konkretnie „lepsze od komercyjnych". Nierozstrzygnięte. Etap 1 musi zebrać dane pod warianty 1 i 2 z sekcji 2.1
+- **C4** — kto będzie badanym
+- **D1, D2** — definicja operacyjna „zero hełmów"
+- **E1, E2, E3** — potwierdzenia do handbooka
+
+---
+
 ## 5. Co robię po odpowiedziach
 
 Etap 1 w całości, wszystkie pliki `/00`–`/08` plus `/ZRODLA.md`, bez przerywania na potwierdzenia — zgodnie z sekcją 14 handbooka.
