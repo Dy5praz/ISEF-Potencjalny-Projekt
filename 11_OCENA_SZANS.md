@@ -265,3 +265,65 @@ W kolejności stosunku efektu do nakładu:
 **Jedna rzecz, która wymaga Twojej świadomej zgody, a nie mojej rekomendacji:** teza „jeden strzał" z sekcji 3 handbooka jest prawdziwa i potwierdzona regulaminem. Następny cykl koliduje z maturą. **To znaczy, że przy poślizgu harmonogramu nie ma dogrywki** — i dlatego termin kwietnia 2027 na działający prototyp, mimo że samonarzucony, warto potraktować poważnie.
 
 Jeżeli po przeczytaniu tego uznasz, że chcesz iść dalej — sekcja 11 handbooka mówi, że dopiero wtedy mogę dostać większą autonomię i zgodę na kompromisy. **Nie zaczynam iść na kompromisy samodzielnie i nie proszę o tę zgodę teraz**, bo nic jeszcze nie zawiodło.
+
+---
+
+# PRZELICZENIE PO AUDYCIE — 15 VIII 2026, wieczór
+
+**Zlecenie użytkownika po audycie:** przeliczyć szanse, bo trzy z czterech twierdzeń projektu okazały się zajęte.
+
+## A. Dlaczego liczby się nie ruszają — i dlaczego to nie jest wykręt
+
+Oszacowania w sekcjach 4 i 5 **nigdy nie były zbudowane na nowości**. Były zbudowane na dwóch punktach kalibracyjnych i na strukturze arkusza oceny:
+
+1. **ENBM079 (2026): domowe EEG za mniej niż 11 USD/kanał, 52% trafności przy zadaniu dwuklasowym → trzecia nagroda.** Ten projekt nie miał żadnej nowości względem literatury. Tanie EEG istnieje od lat, a 52% to ledwie nad przypadkiem.
+2. **ENBM074 (2026): nic nie zbudowano, sprzęt kupiony za 1 800 USD → druga nagroda.** Wygrał strukturą eksperymentu.
+
+**Ani jeden z tych punktów nie zależy od pierwszeństwa w literaturze światowej.** Audyt uderzył w warstwę, na której te liczby nie stały.
+
+**Potwierdzenie w regulaminie, nie w moim przekonaniu.** Arkusz inżynierski ISEF w całości: Research Problem 10, Design and Methodology 15, Execution 20, Creativity & Potential Impact 20, Presentation 35. **Nie istnieje kryterium „czy jest to nowe względem stanu literatury".** Wytyczne dla jurorów precyzują, jak czytać kreatywność: *„Judges should place emphasis on **research outcomes and analysis** in evaluating creativity and potential impact."*
+
+Regulamin Explory §7 pkt 2a: *„Projekt jest innowacyjny, nowatorski **i/lub wnosi dodatkową wartość** w dotychczasowy stan wiedzy"*. Alternatywa jest w tekście regulaminu.
+
+## B. Co drugie przejście audytu realnie zmieniło w liczbach
+
+| Składnik | Przed audytem | Po dwóch przejściach | Dlaczego |
+|---|---|---|---|
+| **P(cokolwiek działającego i zmierzonego do X 2027)** | 80% | **85%** | opublikowana, scharakteryzowana platforma ESP32+ADS1299 (arXiv 2601.01772) to gotowy przepis, nie zgadywanka |
+| **P(własny tor z kompensacją, mierzalna poprawa)** | 50% | **55%** | dwie zewnętrzne podpory: Kołodziej 2026 (+9 pp z kanału szczękowego) i Yang–Lin 2023 (sprzęt działa tam, gdzie cyfrowe metody zawodzą) |
+| zgłoszenie → półfinał | 85% | **85%** | bez zmian |
+| półfinał → finał | 40–50% | **40–50%** | bez zmian; opiera się na kryteriach §7 i na ocenie stawki przez użytkownika |
+| finał → reprezentacja | 20–30% | **20–30%** | bez zmian |
+| P(nagroda \| na ISEF) | 45–60% | **45–60%** | bez zmian; oparte na ENBM079 i na wskaźniku polskiej reprezentacji |
+| P(Grand Award w kategorii \| na ISEF) | 30–40% | **30–40%** | bez zmian |
+| P(miejsce I–II \| na ISEF) | 12–18% | **12–18%** | bez zmian |
+| **ryzyko: grupa z PW publikuje pierwsza** | dziesiątki procent | **10–20%** | to zespół algorytmiczny, bez ani jednej pracy sprzętowej w dorobku |
+
+## C. Liczby łączne po audycie
+
+| Cel | Przed | **Po audycie** |
+|---|---|---|
+| wyjazd na ISEF | ~8% | **~8%** |
+| jakakolwiek nagroda na ISEF | ~4% | **~4%** |
+| **miejsce w kategorii (cel z handbooka)** | ~1,2% | **~1,2%** |
+| Nagroda Główna Explory | ~2,5% | ~2,5% |
+| jakikolwiek wymierny sukces konkursowy | ~50% | **~52%** |
+
+**Audyt nie ruszył liczb, bo liczby nie stały na nowości. Ruszył za to ryzyko techniczne — w dół.**
+
+## D. Jedno ryzyko, które audyt podniósł, i jest sterowalne
+
+**Rozmowa z jurorem, 25 punktów ze 100.** Juror z ENBM znający dziedzinę może zapytać: „czym to się różni od Kołodzieja 2026?".
+
+- **odpowiedź nieprzygotowana** — kosztuje istotną część tych 25 punktów i podważa wiarygodność całego projektu
+- **odpowiedź przygotowana** — jest jednym z najmocniejszych momentów prezentacji, bo pokazuje znajomość literatury na poziomie pojedynczej pracy sprzed roku, umiejętność wyprowadzenia z niej zadania, i jego wykonanie
+
+To ryzyko **w całości leży po stronie przygotowania**, czyli w wymiarze o najwyższej sterowalności. Do wpisania w plan etapu 2 jako pozycja obowiązkowa: **przygotować i przećwiczyć odpowiedź na pytanie o odróżnienie od Kołodziej 2026 i od PNAS 2025.**
+
+## E. Werdykt po audycie
+
+**Cel z handbooka — miejsce w kategorii na ISEF — nadal ma prawdopodobieństwo rzędu 1,2%, i to się nie zmieniło.**
+
+Zmieniło się co innego: **przed audytem to była liczba oparta na czterech twierdzeniach, z których żadne nie było sprawdzone do końca. Po audycie jest oparta na jednym twierdzeniu, sprawdzonym w dwóch przejściach, dwóch bazach, patentach i dorobku konkurenta — z trzema zewnętrznymi podporami i policzonym ryzykiem utraty pierwszeństwa.**
+
+To jest ta sama liczba o zupełnie innej jakości. Ocena szans wystawiona na niesprawdzonych założeniach jest bezwartościowa niezależnie od wysokości — tak mówi błąd nr 5 z sekcji 8 handbooka. Ta już taka nie jest.

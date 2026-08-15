@@ -201,3 +201,126 @@ Czyli: potylica jest **relatywnie odporna** na artefakt mięśniowy w porównani
 **Odpowiedź na pytanie „czy padnie jak z dronem": nie w ten sam sposób.** Dron padł, bo prior art znaleziono po zbudowaniu strategii, a z twierdzenia został slogan bez treści naukowej. Tutaj prior art znaleziono przed, zabił trzy czwarte pomysłu, a to, co zostało, jest twierdzeniem pomiarowym — czyli takim, którego cudza publikacja nie unieważnia.
 
 **Czego ten audyt nie może zagwarantować:** że nikt nie opublikuje wersji analogowej w ciągu najbliższych osiemnastu miesięcy. Przy nazwanym konkurencie z Politechniki Warszawskiej to jest ryzyko realne i policzalne raczej na dziesiątki procent niż na jednostki. **Dlatego twierdzenie projektu nie może zawierać słowa „pierwszy" w żadnym materiale zgłoszeniowym** — i dlatego dobrze, że już go nie zawiera.
+
+---
+
+# CZĘŚĆ II — drugie przejście, 15 VIII 2026
+
+**Zlecenie:** *„wykonaj jeszcze raz sprawdzenie (…) wolę mieć 100% pewności"*.
+
+**Metoda:** kanały, których w pierwszym przejściu nie użyłem — **arXiv przez API, baza patentów, inna terminologia** (adaptive noise cancellation, active electrode, common mode, biopotential), oraz **sprawdzenie dorobku samej grupy konkurencyjnej**.
+
+---
+
+## 7. Patenty — sprawdzone, wypadają na naszą korzyść
+
+### 7.1 US 5513649 A — *Adaptive interference canceler for EEG movement and eye artifacts*
+
+Sam Technology Inc., 1996. Był w `ZRODLA.md` od pierwszej sesji, ale **nigdy nie sprawdziłem, co właściwie zastrzega.** Teraz sprawdzone:
+
+| Cecha | Treść |
+|---|---|
+| kompensacja | **cyfrowa** — „a conventional general purpose digital computer or a DSP processor" |
+| sygnał referencyjny | akcelerometry, detektory ruchu, **średnia przestrzenna kanałów EEG**, kanały EOG |
+| uzasadnienie średniej przestrzennej | „head movement artifacts have an approximately uniform distribution over the head" |
+| **status** | **WYGASŁY** — „Anticipated expiration" 22 III 2014 |
+
+**Wniosek:** dotyczy artefaktów **ruchowych i ocznych**, nie mięśniowych; referencją jest średnia przestrzenna albo czujnik ruchu, **nie dedykowana elektroda mięśniowa**; jest **cyfrowy**; i **wygasł dwanaście lat temu**. Nie koliduje.
+
+### 7.2 US 11241183 B2 — *EEG headsets with precise and consistent electrode positioning*
+
+**Neurolutions Inc., przyznany 8 II 2022, żywy.** To jest firma stojąca za IpsiHand, interfejsem BCI dopuszczonym przez FDA do rehabilitacji poudarowej.
+
+Zastrzega układ **jednej elektrody centralnej i co najmniej trzech obwodowych**, w którym elektrody obwodowe służą do wyznaczenia **szumu wspólnego (common mode noise)** odejmowanego od sygnału elektrody centralnej, przy czym uśrednianie i odejmowanie może wykonywać sam zestaw.
+
+**To jest sprzętowy laplasjan — czyli architektura elektrod, którą wybraliśmy.**
+
+**Dlaczego to nie zabija projektu, w trzech punktach:**
+1. **Patent nie jest przeszkodą konkursową.** Regulamin ISEF wymaga poszanowania własności intelektualnej w sensie cytowania i nieużywania cudzych nieopublikowanych danych; nie zakazuje budowania urządzeń wykorzystujących opatentowane architektury do badań własnych. Projekt szkolny nie jest wdrożeniem komercyjnym.
+2. **Zastrzeżenie dotyczy szumu wspólnego z elektrod obwodowych**, a nasza oś to **dedykowana elektroda nad mięśniem** i odejmowanie **konkretnego artefaktu biologicznego przed wzmocnieniem**. To są różne rzeczy.
+3. **Potwierdza to, co i tak zapisaliśmy w K-043:** układ elektrod nie może być sprzedawany jako wynalazek projektu. Teraz wiadomo, dlaczego — bo jest opatentowany przez firmę medyczną.
+
+`[luka]` Nie czytałem pełnego tekstu zastrzeżeń i interpretacja zastrzeżeń patentowych to zadanie dla prawnika, nie dla mnie. **Dla celów konkursowych to nie ma znaczenia; zapisuję jako niedokończone, żeby nie udawać pewności, której nie mam.**
+
+---
+
+## 8. arXiv — jedno trafienie bardzo blisko, i jest instrukcją, nie zagrożeniem
+
+`[fakt]` **„Design and Quantitative Evaluation of an Embedded EEG Instrumentation Platform for Real-Time SSVEP Decoding", arXiv 2601.01772, 5 I 2026.**
+
+Platforma: **ESP32-S3 plus ADS1299** — dokładnie te komponenty, które rekomendowałem. Osiem kanałów, filtracja zerofazowa i analiza korelacji kanonicznej **w całości na urządzeniu**, łączność bezprzewodowa, praca w pętli zamkniętej bez komputera.
+
+Zmierzone parametry:
+
+| Parametr | Wartość |
+|---|---|
+| **szum przy zwartym wejściu** | **≈0,08 µV RMS** |
+| jitter próbkowania | 0,56 µs (odch. std.) |
+| dryf długoterminowy | < 1 ppm |
+| tłumienie sygnału wspólnego | **>112 dB**, spadek o 26,9 dB przy niedopasowaniu impedancji źródła |
+| dokładność online | **99,17%** |
+| **ITR** | **27,66 bit/min** |
+
+**Dlaczego to jest dobra wiadomość, a nie zła:**
+
+1. **Potwierdza wybór komponentów.** ESP32 + ADS1299 to nie zgadywanka — jest scharakteryzowana, opublikowana platforma o tej architekturze.
+2. **Daje gotową metodologię pomiaru toru**, dokładnie tę, którą zapisałem w `03_SCIANY_FIZYCZNE.md` sekcja 6: zewrzeć wejście, zmierzyć szum. Teraz jest liczba, do której można się porównać: **0,08 µV RMS**.
+3. **Pokazuje, gdzie leży realny problem, i nie jest nim szum.** Ich CMRR spada o 26,9 dB przy **niedopasowaniu impedancji źródła** — czyli wtedy, gdy elektrody mają różne impedancje. To jest dokładnie sytuacja elektrod suchych na owłosionej potylicy. **To jest konkretna, zmierzona przez kogoś innego wskazówka, gdzie nasz układ się wywróci.**
+4. **Ich ITR to 27,66 bit/min przy 99,17% dokładności** — czyli bardzo dokładnie, ale wolno. To ustawia realistyczne widełki inaczej niż 102 bit/min Imperialu.
+
+**Czego to nie zabiera:** oni nie robią kompensacji artefaktu. Budują i charakteryzują platformę.
+
+---
+
+## 9. Znalezisko, które WZMACNIA tezę projektu
+
+`[fakt, abstrakt odczytany]` **Yang S.Y., Lin Y.P., *IEEE Trans Neural Syst Rehabil Eng* (2023), PMID 37751338** — *„Movement Artifact Suppression in Wearable Low-Density and Dry EEG Recordings Using Active Electrodes and Artifact Subspace Reconstruction"*.
+
+Osiemnastu badanych, zadanie oddball podczas chodzenia na bieżni (1 i 2 km/h), trzy warianty systemu trzykanałowego: elektrody suche pasywne, suche aktywne, mokre pasywne.
+
+Wynik, cytat:
+
+> „only the **active-electrode design** more or less rectified movement artifacts for dry electrodes, whereas the **ASR pipeline was substantially compromised by limited electrodes**. These findings suggest that a lightweight, minimally obtrusive dry EEG headset should **at least equip an active-electrode infrastructure** to withstand realistic movement artifacts."
+
+**To jest recenzowany dowód na tezę, którą projekt stawia:** w reżimie **małej liczby kanałów i elektrod suchych** rozwiązanie **sprzętowe działa, a programowe zawodzi**. ASR — czyli klasa metod cyfrowych — „substantially compromised by limited electrodes".
+
+To jest drugi, niezależny od Kołodzieja argument za tym, żeby artefaktem zająć się w sprzęcie, i pochodzi z innego zespołu, innego kraju i innego roku.
+
+---
+
+## 10. Grupa konkurencyjna — sprawdzona imiennie
+
+`[fakt]` Przeszukanie PubMed po autorze `Kolodziej M[au]` w połączeniu z EEG/BCI/SSVEP daje **siedem pozycji**, z czego dotyczące EEG i BCI to:
+
+| Rok | Praca | Charakter |
+|---|---|---|
+| 2026 | Improved SSVEP Classification Through EEG Artifact Reduction Using Auxiliary Sensors | **regresja liniowa, SVM, CNN** |
+| 2022 | Implementation of a Convolutional Neural Network for Eye Blink Artifacts Removal | **sieć neuronowa** |
+| 2018 | The Impact of Different Visual Feedbacks in User Training on Motor Imagery Control in BCI | **badanie behawioralne** |
+
+**Wniosek `[wniosek]`, istotny dla oceny ryzyka z K-044:** to jest zespół **przetwarzania sygnałów i uczenia maszynowego**, nie projektowania układów analogowych. W ich dorobku nie ma ani jednej pracy sprzętowej.
+
+**Skutek: ryzyko, że sami wykonają wersję analogową, jest niższe, niż zapisałem w K-044.** Zdanie o „artifact reduction at the signal acquisition stage" w sekcji przyszłych prac czyta się w tym kontekście jako **wskazanie kierunku dla kogoś innego**, a nie zapowiedź własnego następnego kroku. Obniżam to ryzyko z „dziesiątki procent" na **rząd 10–20%** — nadal realne, ale nie dominujące.
+
+**Czego to nie wyklucza:** że zrobi to inny zespół, albo że nawiążą współpracę z grupą układową. Monitorowanie zostaje w planie.
+
+---
+
+## 11. Co drugie przejście zmieniło
+
+| Ustalenie | Przed | Po drugim przejściu |
+|---|---|---|
+| ryzyko, że grupa z PW zrobi to sama | dziesiątki procent | **10–20%** — to zespół algorytmiczny, bez dorobku sprzętowego |
+| wykonalność techniczna platformy | `[wniosek]`, oszacowanie | **potwierdzona: opublikowana, scharakteryzowana platforma ESP32+ADS1299 z pomiarami** |
+| gdzie układ się wywróci | nieznane | **niedopasowanie impedancji źródła — spadek CMRR o 26,9 dB**, zmierzone przez innych |
+| argument „sprzęt zamiast programu" | nasze rozumowanie | **recenzowany dowód: Yang i Lin 2023, ASR zawodzi przy małej liczbie kanałów, elektroda aktywna działa** |
+| układ elektrod jako wynalazek | „raczej nie" | **definitywnie nie — opatentowane, US 11241183 B2, Neurolutions, żywy** |
+| US 5513649 jako zagrożenie | niesprawdzone | **nie jest — cyfrowy, o artefaktach ruchowych, wygasł w 2014** |
+
+**Twierdzenie projektu po dwóch przejściach audytu pozostaje to samo, ale stoi teraz na trzech niezależnych podporach zamiast jednej:**
+
+1. **Kołodziej i in. 2026** — kanał szczękowy poprawia klasyfikację potylicznego SSVEP o ~9 pp, i wskazanie etapu akwizycji jako następnego kroku
+2. **Yang i Lin 2023** — w reżimie małej liczby kanałów i elektrod suchych sprzęt działa, a metody cyfrowe zawodzą
+3. **arXiv 2601.01772** — platforma ESP32+ADS1299 jest wykonalna i scharakteryzowana, a jej słabym punktem jest niedopasowanie impedancji, czyli dokładnie to, co kompensacja może poprawić
+
+**Czego nie znalazłem w żadnym z dwóch przejść:** analogowej kompensacji zmierzonego artefaktu mięśniowego z dedykowanego kanału, przed wzmocnieniem, w noszalnym urządzeniu EEG.
