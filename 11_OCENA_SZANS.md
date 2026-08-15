@@ -113,13 +113,19 @@ Różnica między trzecim a drugim miejscem leży w rzemiośle pomiarowym, nie w
 | Etap | Baseline | Ten projekt | Dlaczego |
 |---|---|---|---|
 | zgłoszenie → półfinał | 44% | **~85%** | kryteria etapu I to znajomość tematu, wartość dodana, zastosowanie praktyczne. Projekt z udokumentowanym przeglądem literatury jest tu wyraźnie nad medianą stawki licealnej |
-| **półfinał → finał** | 16% | **~30–40%** | trzy z czterech kryteriów mierzą przemiał literatury i znajomość metod. Niewiadomą jest wyłącznie jakość prezentacji |
+| **półfinał → finał** | 16% | **~40–50%** | trzy z czterech kryteriów mierzą przemiał literatury i znajomość metod. **Podniesione z 30–40% po K-041** — użytkownik czytał plakaty finalistów i ocenia medianę stawki jako słabą (brak pomiarów albo pomiary za słabe). Obserwacja bezpośrednia bije moje wnioskowanie z metadanych |
 | finał → reprezentacja ISEF | 14% | **~20–30%** | działający przedmiot na stoisku plus pomiary. Ale finał ocenia też oddziaływanie społeczne i związek z SDG, gdzie projekty medyczne i środowiskowe mają naturalną przewagę |
-| **łącznie do ISEF** | 1,0% | **~6–9%** | |
+| **łącznie do ISEF** | 1,0% | **~8–11%** | |
 
-**Czyli około siedmiokrotnie powyżej przeciętnej stawki** — i praktycznie cała ta przewaga pochodzi z jednego etapu, tego najwęższego.
+**Czyli około dziewięciokrotnie powyżej przeciętnej stawki** — i praktycznie cała ta przewaga pochodzi z jednego etapu, tego najwęższego.
 
-**Do tego dochodzi „Bilet na Finał"** jako niezależna droga. Nie wliczam jej do liczb, bo nie umiem jej oszacować, ale **przesuwa oszacowanie w górę, nie w dół**.
+**Do tego dochodzi „Bilet na Finał"** jako niezależna droga przez to samo wąskie gardło. Nie wliczam jej do liczb, ale **przesuwa oszacowanie w górę, nie w dół** — i po uwadze użytkownika trzeba ją potraktować poważniej, niż to zrobiłem.
+
+`[fakt]` **Próg jest niski: w edycji 2026 plebiscyt wygrał projekt z 904 głosami**, przy ~18 tysiącach oddanych łącznie. To nie jest liczba wymagająca zasięgu medialnego — to jest liczba osiągalna przez szkołę, rodzinę i znajomych, przy dwóch tygodniach głosowania i limicie jednego głosu na projekt na osobę.
+
+`[wniosek]` **Interfejs mózg-komputer jest przy tym tematem wyjątkowo wdzięcznym w plebiscycie** — laik rozumie, o co chodzi, w jednym zdaniu, i jest to temat, który sam się opowiada. Konkurenci to kompensator napięcia dla fotowoltaiki i system nawadniania upraw.
+
+**Do wpisania w plan etapu 2 jako pozycja z terminem**, a nie jako pomysł awaryjny: przygotować krótkie wideo i grafikę **zanim** ruszy plebiscyt, bo głosowanie trwa krótko i wygrywa je ten, kto jest gotowy pierwszego dnia.
 
 ---
 

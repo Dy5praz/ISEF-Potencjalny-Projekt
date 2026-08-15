@@ -166,6 +166,18 @@ Sekcja 3.1 policzyła, ilu konkurentów tematycznych jest na Explory (jeden na 1
 
 Do tego szkoły: **Akademickie Liceum Ogólnokształcące Politechniki Śląskiej**, **United World College Red Cross Nordic**, oraz jedno zgłoszenie afiliowane przy **Uniwersytecie Zielonogórskim**.
 
+> **KOREKTA MOJEJ WŁASNEJ ANALIZY, 15 VIII wieczorem — `KOREKTY.md` K-041.**
+>
+> Powyższą tabelę mentorów zbudowałem z **metadanych** — nazwisk, afiliacji, nazw szkół — i wyprowadziłem z niej wniosek o poziomie merytorycznym stawki. **Użytkownik czytał same projekty i plakaty.** Jego ocena: około połowa finalistów jest słaba — „albo brak pomiarów, albo pomiary za słabe" — a jeden z finalistów ma we wnioskach na plakacie napisane, że autor nauczył się lutować małe elementy i płytka mu wyszła.
+>
+> **To jest obserwacja bezpośrednia przeciwko mojemu wnioskowaniu z metadanych i wygrywa ją bezapelacyjnie.** Nazwisko czynnego naukowca w rubryce „mentor" mówi tylko tyle, że ktoś zgodził się firmować projekt — nie mówi, ile w nim pracy własnej ucznia ani jakiej jakości są pomiary. Mentor bywa nominalny.
+>
+> **Doprecyzowanie tezy użytkownika, którego wcześniej nie zrozumiałem:** „1–2 projekty inżynierskie" nie oznaczało liczby projektów inżynierskich w finale, tylko **liczbę projektów zdolnych realnie konkurować**. Przy tym rozumieniu jego liczba jest zgodna z moją własną analizą struktury TOP 5 na obszar — i z obserwacją, że żaden finalista nie łączy sprzętu z rygorem pomiarowym.
+>
+> **Co z tego wynika liczbowo:** oszacowanie przejścia półfinał → finał w `11_OCENA_SZANS.md` sekcja 4 podnoszę z 30–40% na **40–50%**, przy zachowaniu warunku, że urządzenie działa i ma zmierzone wyniki.
+>
+> **Czego ta korekta nie znosi:** mentorzy są prawdziwi i część projektów jest mocna. Zmienia się ocena **mediany** stawki, nie jej górnego końca. Konkurencja o pięć miejsc w obszarze toczy się z górnym końcem, nie z medianą.
+
 **[wniosek] Werdykt, w trzech częściach, bo teza użytkownika jest częściowo trafna i częściowo nie:**
 
 1. **Trafne:** w obrębie jednego obszaru realnymi rywalami są 1–2 projekty, nie dwadzieścia. Struktura TOP 5 na obszar jest kluczowa i wcześniej jej nie doceniałem.
