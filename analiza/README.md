@@ -27,3 +27,13 @@ Ustawić `ROOT` w `analiza.py` na katalog `un`, potem:
 Zbiór: CC-BY, https://github.com/kolodzima/EEG_artefact_SSVEP_EMG_EOG
 Artykuł: Kołodziej M., Majkowski A., Wiszniewski P., *Sensors* 26(3):917, 2026,
 PMID 41682433, PMC12899023. **Przy każdym użyciu cytować pracę źródłową.**
+
+## Skrypty testu kanału szczękowego (na żądanie użytkownika, 16 VIII 2026)
+
+| Skrypt | Co liczy |
+|---|---|
+| `szczeka.py` | dokładność w kwintylach mocy EMG szczęki — czy zysk rośnie z poziomem artefaktu |
+| `szczeka2.py` | górny decyl skażenia, miara ciągła (SNR SSVEP), rozbicie na osoby, test t |
+| `szczeka3.py` | regresory nieliniowe: kwadrat, obwiednia Hilberta, warianty wielokanałowe |
+
+**Wynik:** sufit zysku kanału szczękowego to **+0,6 pp**, przy p = 0,166 ponad Cz.

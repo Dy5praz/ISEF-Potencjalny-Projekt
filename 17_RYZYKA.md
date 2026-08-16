@@ -21,7 +21,7 @@ Każde ryzyko oceniam w trzech wymiarach wymaganych przez `HANDBOOK.md` §2.2: *
 | **R8** | nowa oś zajęta w bazach nieprzeszukanych | **5%** | wysoka | średni | **częściowo zamknięte 16 VIII 2026** |
 | **R9** | moduł nie mieści się w granicy gabarytu | 25% | wysoka | średni | I 2027 |
 | **R10** | brak opiekuna z tytułem / Qualified Scientist | 20% `[luka]` | średnia | **bardzo wysoki** | XI 2026 |
-| **R11** | użytkownik odrzuca zmianę osi z `14_REANALIZA.md` | — | pełna | zerowy | teraz |
+| **R11** | ~~użytkownik odrzuca zmianę osi~~ | — | — | — | **ZAMKNIĘTE 16 VIII: wariant C** |
 
 ---
 
@@ -145,13 +145,15 @@ Granica twarda: **nic zbliżonego do opaski przechylonej na tył głowy**, żadn
 
 ---
 
-## R11 — użytkownik odrzuca zmianę osi
+## R11 — ZAMKNIĘTE 16 VIII 2026
 
-**To nie jest ryzyko projektu, tylko decyzja użytkownika, i jest w pełni sterowalna.**
+**Rozstrzygnięcie użytkownika: wariant C** — osi nie zamykamy teraz, sprzęt obsługuje obie, wybór następuje po pierwszych własnych pomiarach (`DECYZJE.md` decyzja 5).
 
-Jeżeli stara oś zostaje: sprzęt z `15_PROJEKT.md` **nie zmienia się ani o jeden element**, a plan eksperymentalny traci E2 i E3, zyskuje rozbudowane E4. **Koszt: liczby z `14_REANALIZA.md` mówią, że mierzony efekt wyniesie wtedy 0,2–0,4 pp przy σ = 8 pp.** Trzeba to wiedzieć, podejmując decyzję.
+Użytkownik zażądał przy tym sprawdzenia, czy kanał szczękowy w ogóle daje dość, żeby być osią. **Sprawdzone, `14_REANALIZA.md` §6A: nie daje, sufit +0,6 pp, p = 0,166.** Skutek: elektroda szczękowa wychodzi ze sprzętu, kanał mięśniowy przenosi się na kark, **sprzęt się upraszcza**.
 
-**Rekomendacja: nie decydować teraz, decydować po pierwszych własnych pomiarach**, dokładnie tak jak przy umiejscowieniu elektrod. Sprzęt obsługuje obie osie, więc odłożenie decyzji nic nie kosztuje.
+**Ryzyko rezydualne, które z tego zostaje i jest realne** `[wniosek]`: wariant C oznacza, że **do pierwszych własnych pomiarów projekt nie ma jednego zdania twierdzenia**. Do zgłoszenia Explory (28 II 2027) zdanie musi istnieć. Pierwsze pomiary w torze A planowane są na **X 2026**, czyli z czteromiesięcznym zapasem — ale jeżeli tor A się opóźni, zgłoszenie pisze się na osi wybranej bez pomiaru, czyli dokładnie tak, jak nie chcemy.
+
+**Plan awaryjny:** jeżeli do **31 XII 2026** nie ma własnych pomiarów, oś wybieramy **wariantem A** (odległość odniesienia) na podstawie samej reanalizy i zapisujemy, że wybór był bez własnego pomiaru. Reanaliza jest do tego wystarczającą podstawą — efekt 9–24 pp wobec 0,6 pp nie jest bliskim rozstrzygnięciem.
 
 ---
 

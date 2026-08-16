@@ -1,7 +1,45 @@
-# DECYZJE — cztery rzeczy, które czekały na Ciebie
+# DECYZJE — rejestr decyzji użytkownika
+
+**Status: WSZYSTKIE SZEŚĆ ROZSTRZYGNIĘTE.** Decyzje 1–4 zapadły 15 VIII 2026, decyzje 5–6 **16 VIII 2026**.
+
+---
+
+## Decyzja 5 — oś projektu po reanalizie: **wariant C**
+
+**Kontekst:** `14_REANALIZA.md` wykazała, że przyrost +9 pp należy do Cz, a nie do kanału szczękowego (K-051).
+
+**Rozstrzygnięcie użytkownika, 16 VIII 2026, cytat:** *„Zgoda, wybieram C. Faktyczny nacisk wyjdzie wraz z pomiarami."*
+
+**Co to znaczy operacyjnie:**
+- **osi nie zamykamy teraz.** Sprzęt buduje się tak, żeby obsługiwał obie, i to nie kosztuje ani jednego dodatkowego elementu (`15_PROJEKT.md` §1.4)
+- **domyślne przechylenie na wariant A** (odległość elektrody odniesienia) — bo tam efekt jest 20–60× większy
+- **wybór głównej osi następuje po pierwszych własnych pomiarach**, i jest odnotowywany z datą, zgodnie z regułą rejestracji twierdzeń z góry (`16_PLAN_EKSPERYMENTALNY.md` §1)
+
+**To jest ta sama logika, którą użytkownik przyjął przy umiejscowieniu elektrod:** decyzja podjęta pomiarem jest warta więcej niż decyzja podjęta założeniem, a odłożenie jej nic nie kosztuje.
+
+---
+
+## Decyzja 6 — wyprowadzenie elektrody odniesienia za ucho: **zgoda**
+
+**Rozstrzygnięcie użytkownika, 16 VIII 2026, cytat:** *„No niech będzie. Chociaż sprawdź, czy odejmowanie »szumu« szczęki daje rzeczywiście tak dużo, aby opierać na tym wręcz jedną z osi projektu."*
+
+**Zgoda przyjęta:** jeden cienki przewód od modułu potylicznego do elektrody odniesienia na wyrostku sutkowatym mieści się w granicy gabarytu. Podstawa: tabela z decyzji 3 dopuszcza wprost *„cienki przewód lub łuk między modułami, przy głowie"*; K-036 odrzucał **drugie miejsce elektrod aktywnych**, nie pojedyncze odniesienie (K-053).
+
+**Skutek:** zakres pomiarowy E2 obejmuje pełne 2–10 cm, a nie tylko 2–4 cm.
+
+### Zastrzeżenie użytkownika — sprawdzone i zamknięte na jego niekorzyść
+
+Użytkownik zażądał sprawdzenia, czy kanał szczękowy w ogóle daje dość, żeby być osią. **Zarzut trafiał w realną słabość pierwszej analizy** — uśredniała po wszystkich oknach, także tych bez artefaktu, co rozcieńczyłoby prawdziwy efekt.
+
+**Sprawdzone pięcioma sposobami, `14_REANALIZA.md` §6A. Wynik: nie daje.** Sufit to **+0,6 pp**, uzyskany w najkorzystniejszych możliwych warunkach (tylko okna najbardziej skażone artefaktem, regresory nieliniowe). Zysk szczęki **nie rośnie** z poziomem artefaktu; zysk Cz rośnie (z +2,5 na +6,9 pp). Test t ponad Cz: **p = 0,166**.
+
+**Skutek konstrukcyjny: elektroda szczękowa wychodzi z projektu.** Zostaje jedno wejście mięśniowe, przeniesione **na kark**, bo tylko tam pozostaje pytanie nierozstrzygalne na cudzych danych — gdy elektroda odniesienia sama leży nad mięśniem. **Sprzęt się przez to upraszcza.**
+
+---
+
+## Decyzje 1–4 — stan z 15 sierpnia 2026
 
 **Data:** 15 sierpnia 2026, po zamknięciu etapu 1
-**Status: TRZY Z CZTERECH ROZSTRZYGNIĘTE 15 VIII wieczorem.**
 
 ## Odpowiedzi
 

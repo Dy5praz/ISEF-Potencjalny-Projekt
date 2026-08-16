@@ -188,6 +188,91 @@ Kompensacja regresyjna zastosowana **przed** wyznaczeniem różnic, potem FBCCA:
 
 ---
 
+---
+
+## 6A. Test kontrolny na żądanie użytkownika — czy szczęka daje dość, żeby oprzeć na niej oś
+
+**Zarzut użytkownika, 16 VIII 2026:** *„sprawdź, czy odejmowanie »szumu« szczęki daje rzeczywiście tak dużo, aby opierać na tym wręcz jedną z osi projektu."*
+
+**Zarzut trafia w realną słabość sekcji 2.** Uśredniałem tam po **wszystkich** oknach, w tym po oknach bez artefaktu. Artefakty u Kołodzieja były epizodami 1–2 s w losowych momentach, więc kanał szczękowy z definicji może działać tylko w części okien. Gdyby skażone było 20% okien, prawdziwy efekt zostałby w mojej tabeli **rozcieńczony pięciokrotnie** i wyglądałby na zero, nie będąc zerem.
+
+### 6A.1 Czy w danych w ogóle jest co usuwać — tak
+
+`[fakt]` Moc EMG szczęki (pasmo 20–100 Hz) w oknie jednosekundowym, stosunek 95. centyla do mediany: **mediana po zapisach 4,8×, zakres 1,6–29,8×**. Artefakt jest obecny i silnie epizodyczny. **Test poniżej nie jest testem pustym.**
+
+### 6A.2 Dokładność w podziale na kwintyle mocy EMG szczęki w oknie
+
+| Wariant | Q1 (najczystsze) | Q2 | Q3 | Q4 | **Q5 (najbardziej skażone)** |
+|---|---|---|---|---|---|
+| O-only | 76,9 | 75,5 | 77,0 | 74,2 | 71,5 |
+| **zysk samej szczęki** | **+0,5** | **−1,2** | **+0,3** | **−0,2** | **+0,6** |
+| **zysk Cz** | +3,4 | +2,5 | +2,6 | **+6,5** | **+6,9** |
+| szczęka ponad Cz | −0,2 | +0,6 | +0,9 | 0,0 | +0,2 |
+
+**To jest wynik rozstrzygający i mówi więcej, niż mówiła sekcja 2:**
+- **zysk szczęki nie rośnie z poziomem artefaktu.** Gdyby kanał szczękowy modelował artefakt, Q5 musiałby odstawać. Nie odstaje
+- **zysk Cz rośnie z poziomem artefaktu**, z +2,5 pp na +6,9 pp. **Czyli to Cz obsługuje skażenie mięśniowe** — co jest spójne z jego rolą: EMG szczęki rzutuje się na potylicę jako składowa w dużej mierze wspólna, a nie jako sygnał lokalny, który trzeba zmierzyć osobną elektrodą
+
+### 6A.3 Najostrzejsza możliwa wersja testu — górny decyl skażenia
+
+324 najbardziej skażone okna z 3240.
+
+| Wariant | Dokładność | Zysk | SNR SSVEP | Zysk SNR |
+|---|---|---|---|---|
+| O-only | 71,6% | — | 2,46 dB | — |
+| **O + szczęka** | **72,2%** | **+0,6 pp** | 2,59 dB | **+0,13 dB** |
+| O + Cz | 77,8% | +6,2 pp | 4,01 dB | +1,54 dB |
+| O + Cz + szczęka | 78,4% | +6,8 pp | 4,04 dB | +1,58 dB |
+
+**Per osoba, w tym decylu, zysk szczęki ponad Cz:** u **dziesięciu z dwunastu osób dokładnie 0,0 pp**, u dwóch +5,6 pp. Średnia +0,93 ± 2,16 pp, **test t wobec zera: t = 1,48, p = 0,166 — nieistotne**.
+
+`[luka]` **Uczciwie o rozdzielczości tego testu per osoba:** decyl to 18 okien na osobę, więc najmniejsza wykrywalna zmiana wynosi dokładnie 5,6 pp (jedno okno). Te dwa „+5,6 pp" to **po jednym przerzuconym oknie** i nie należy ich czytać jako efektu. Test zbiorczy na 324 oknach jest wiarygodny, rozbicie na osoby jest tylko poglądowe.
+
+**Kontrola wewnętrzna, mocna:** trzej badani, u których praca Kołodzieja wybrała szczękę do optymalnego zestawu (**S03, S05, S10**), mają w tym teście zysk **dokładnie 0,0 pp**. `[wniosek]` Wybór szczęki przez ich procedurę doboru regresorów był **szumem selekcji** — spodziewany, skoro wybierali najlepszy z 63 zestawów na tych samych danych, na których mierzyli wynik.
+
+### 6A.4 Czy winna jest metoda — sprawdzone, nie jest
+
+Zanim zamknę tę oś, sprawdziłem wersję, w której **narzędzie jest inne**, bo regresja liniowa może być po prostu zła: EMG sprzęga się przez **obwiednię amplitudy**, nie liniowo. Kołodziej testował wyłącznie regresję liniową.
+
+| Regresory | Wszystkie okna | Górny decyl |
+|---|---|---|
+| brak | 75,0% | 71,6% |
+| szczęka, liniowo | 75,0% | 72,2% |
+| szczęka, kwadrat | 75,1% | 71,3% |
+| **szczęka, obwiednia Hilberta** | 74,3% | 70,7% |
+| szczęka: liniowo + obwiednia | 73,8% | 71,3% |
+| trzy mięśniowe, liniowo | 74,8% | 70,7% |
+| **trzy mięśniowe + trzy obwiednie** | **71,5%** | **63,6%** |
+| Cz | 79,4% | 77,8% |
+| Cz + szczęka | 79,7% | 78,4% |
+
+`[fakt]` **Kompensacja nieliniowa nie pomaga — szkodzi.** Najlepszy wariant szczękowy daje +0,1 pp na całości i +0,6 pp na górnym decylu, czyli **tyle samo co zwykła regresja liniowa**.
+
+`[wniosek]` **Mechanizm tej szkody jest istotny dla projektu i wart zapamiętania:** okno ma 256 próbek, a każdy dodany regresor usuwa z sygnału jeden wymiar. Przy dziewięciu regresorach traci się 8 pp na całości i 8 pp na decylu. **Każdy kanał pomocniczy ma koszt, który jego korzyść musi najpierw pokryć.** Kanał szczękowy tego kosztu nie pokrywa.
+
+### 6A.5 Odpowiedź na zarzut
+
+**Nie. Kanał szczękowy nie daje dość, żeby oprzeć na nim oś projektu — i teraz jest to sprawdzone pięcioma niezależnymi sposobami**, a nie jednym uśrednieniem:
+
+| Sposób sprawdzenia | Zysk szczęki |
+|---|---|
+| FBCCA, wszystkie okna | +0,2 pp |
+| SVM/LOSO, wszystkie okna | +0,3 pp |
+| **tylko okna najbardziej skażone (górny decyl)** | **+0,6 pp** |
+| miara ciągła — SNR SSVEP, górny decyl | +0,13 dB |
+| regresory nieliniowe i obwiedniowe | +0,1 do +0,6 pp |
+| ponad Cz, per osoba, test t | +0,93 ± 2,16 pp, **p = 0,166** |
+
+**Sufit dla tej osi to około 0,6 pp, przy najkorzystniejszym możliwym doborze warunków.** Twierdzenie projektu potrzebuje efektu, który przeżyje rozrzut międzyosobniczy σ ≈ 8 pp. **Ta oś zostaje zamknięta jako oś i schodzi do kontrybucji warunkowej.**
+
+### 6A.6 Co z tego wynika dla sprzętu — jedna konkretna zmiana
+
+**Elektroda szczękowa wychodzi z projektu.** Nie ma pomiaru, który by ją uzasadniał, a wymagała elektrody na twarzy, czyli poza modułem i wbrew wymaganiu „niewidoczne".
+
+**Zostaje jedno wejście mięśniowe, ale przeniesione na kark** — bo tam, i tylko tam, pozostaje pytanie nierozstrzygalne na tych danych: **gdy sama elektroda odniesienia leży nad mięśniem karku, wnosi EMG do każdego kanału jednocześnie.** Kołodziej miał odniesienie na płatku ucha, więc ta sytuacja u niego nie wystąpiła i jego dane nie mogą jej rozstrzygnąć `[luka]`.
+
+**Netto: sprzęt się upraszcza, a nie komplikuje** — jedna elektroda mniej, i to ta, która leżała najbardziej niewygodnie.
+
 ## 7. Komplet trzech punktów wymagany przez handbook §2.2
 
 Handbook zakazuje pisania „nie da się" bez podania trzech rzeczy naraz. Podaję.
@@ -197,6 +282,7 @@ Handbook zakazuje pisania „nie da się" bez podania trzech rzeczy naraz. Podaj
 **Marginalny zysk dedykowanego kanału mięśniowego ponad to, co daje samo odniesienie:**
 - montaż z odległą referencją: **+0,2 pp (FBCCA), +0,3 pp (SVM)**
 - montaż zwarty, różnicowy: **−0,8 pp (FBCCA)**
+- **nawet w oknach najbardziej skażonych artefaktem, przy regresorach nieliniowych: +0,6 pp** (sekcja 6A) — to jest sufit tej osi
 
 Rozrzut międzyosobniczy w tych samych danych: **σ ≈ 8 pp**. Żeby wykryć efekt +0,4 pp przy σ = 8 pp z mocą 80% i α = 0,05, potrzeba `[wniosek, wzór na próbę sparowaną]` rzędu **3200 osób**. Projekt dysponuje **jedną** (autor) do maja 2027 i realistycznie **kilkunastoma** po powołaniu komisji IRB.
 

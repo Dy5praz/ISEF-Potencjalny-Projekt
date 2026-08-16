@@ -26,6 +26,10 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 | `18_PYTANIA_ETAP2.md` | pięć pytań do użytkownika, każde z wariantem domyślnym |
 | `analiza/` | kod reanalizy, uruchamialny od zera, zwalidowany wobec publikacji |
 
+**Decyzje 5 i 6 zapadły 16 VIII 2026** (`DECYZJE.md`): oś projektu — **wariant C**, czyli sprzęt obsługuje obie osie, wybór po pierwszych własnych pomiarach; wyprowadzenie elektrody odniesienia za ucho — **zgoda**.
+
+**Kanał szczękowy sprawdzony na żądanie użytkownika i zamknięty** (`14_REANALIZA.md` §6A): sufit **+0,6 pp** nawet w oknach najbardziej skażonych artefaktem i przy regresorach nieliniowych, p = 0,166. **Elektroda szczękowa wychodzi ze sprzętu**, kanał mięśniowy przenosi się na kark — sprzęt się upraszcza.
+
 **Nowe korekty: K-051, K-052, K-053.**
 
 ---

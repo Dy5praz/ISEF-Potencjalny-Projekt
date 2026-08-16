@@ -65,10 +65,12 @@ Moduł na potylicy, plus zestaw punktów odniesienia o rosnącej odległości. W
 | 3 | O2 | aktywna |
 | 4 | ~2 cm poniżej Oz, w obrębie modułu | **kandydat na odniesienie zwarte** |
 | 5 | ~4 cm poniżej Oz, poniżej inionu, nad mięśniem karku | kandydat na odniesienie, **wnosi EMG karku** |
-| 6 | wyrostek sutkowaty (za uchem) | kandydat na odniesienie „krótki wyprowadzony" |
-| 7 | nad mięśniem karku, blisko wejścia 5 | **kanał mięśniowy** — kontrybucja druga, warunkowa |
+| 6 | wyrostek sutkowaty (za uchem), cienkim przewodem | kandydat na odniesienie „krótki wyprowadzony" — **dopuszczony decyzją 6** |
+| 7 | nad mięśniem karku, blisko wejścia 5 | **kanał mięśniowy** — kontrybucja druga, warunkowa. **Nie na szczęce** — patrz niżej |
 | 8 | płatek ucha | **odniesienie literaturowe, górna granica** |
 | DRL | kark, poza obszarem pomiarowym | sterowanie prawą nogą, tłumienie 50 Hz |
+
+**Dlaczego kanał mięśniowy siedzi na karku, a nie na szczęce.** `[fakt, `14_REANALIZA.md` §6A]` Elektroda szczękowa została **usunięta z projektu po teście na żądanie użytkownika**: jej sufit to +0,6 pp nawet w oknach najbardziej skażonych artefaktem i przy regresorach nieliniowych, a wymagała elektrody na twarzy, czyli poza modułem. Kanał karkowy zostaje, bo jest **współlokowany z kandydatem na elektrodę odniesienia** (wejście 5) i tylko tam pozostaje pytanie, którego cudze dane nie rozstrzygają: co się dzieje, gdy odniesienie samo leży nad pracującym mięśniem.
 
 `[wniosek]` Ten układ pozwala wyprowadzić offline **wszystkie** montaże z sekcji 5 pliku `14`, plus warianty, których w tamtym zbiorze nie było (odniesienie na sutkowatym i na karku). **Te dwa są całą stawką projektu i nie ma ich w żadnym publicznym zbiorze**, jaki znalazłem.
 

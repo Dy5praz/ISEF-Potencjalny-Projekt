@@ -21,6 +21,8 @@ Zapisuję **dwa** twierdzenia. Oba będą raportowane niezależnie od wyniku. G�
 
 **Twierdzenie warunkowe T3** (kontrybucja druga, uruchamiane tylko jeśli E4 pokaże efekt): kompensacja EMG karku z dedykowanego kanału poprawia przepustowość **wtedy i tylko wtedy**, gdy elektroda odniesienia leży nad mięśniem — czyli w konfiguracji wymuszonej przez gabaryt. **W danych publicznych nie da się tego sprawdzić** (`14_REANALIZA.md` §8 pkt 3).
 
+> **Zawężenie T3 po teście z §6A pliku `14`, 16 VIII 2026.** Kanał **szczękowy** wypadł z projektu — jego sufit to +0,6 pp nawet w oknach najbardziej skażonych i przy regresorach nieliniowych, przy p = 0,166. **T3 dotyczy wyłącznie EMG karku w konfiguracji z odniesieniem nad mięśniem** i tylko dlatego przeżywa, że tej konfiguracji cudze dane nie zawierają. **Przewidywanie z góry dla T3 brzmi: efektu nie będzie.** Zapisuję to teraz, żeby wynik negatywny był wynikiem, a nie porażką.
+
 ---
 
 ## 2. Eksperyment E1 — charakterystyka toru, bez człowieka
@@ -157,7 +159,7 @@ Druga mierzona kontrybucja z `13_PODNIESIENIE_SZANS.md` §5, **zmieniona po rean
 
 ---
 
-## 5. Eksperyment E4 — kompensacja EMG, warunkowa
+## 5. Eksperyment E4 — kompensacja EMG karku, warunkowa i z przewidywaniem negatywnym
 
 **Uruchamiany tylko wtedy, gdy E2 pokaże, że użyteczne odniesienie leży nad mięśniem karku** (~4 cm poniżej Oz). Wtedy — i tylko wtedy — elektroda odniesienia sama wnosi EMG do każdego kanału, i kompensacja ma zmierzony sens.
 
@@ -165,12 +167,15 @@ Druga mierzona kontrybucja z `13_PODNIESIENIE_SZANS.md` §5, **zmieniona po rean
 |---|---|
 | A | odniesienie nad karkiem, bez kompensacji |
 | B | odniesienie nad karkiem, kompensacja cyfrowa z kanału 7 (regresja, metoda Kołodzieja) |
+| B2 | jw., ale regresor obwiedniowy zamiast liniowego — sprawdzony na cudzych danych i **tam nie pomagał** |
 | C | odniesienie nad karkiem, **kompensacja analogowa przed wzmocnieniem** |
 | D | odniesienie na płatku ucha, bez kompensacji — górna granica |
 
-**Zadanie z wywołanym artefaktem** wzorowane na protokole Kołodzieja: epizody 1–2 s napięcia mięśni karku i zaciśnięcia szczęki, w losowych momentach stymulacji. **Plus warunek bez wywoływania artefaktu**, którego u Kołodzieja nie było i którego brak jest ograniczeniem tamtej pracy.
+**Zadanie z wywołanym artefaktem** wzorowane na protokole Kołodzieja: epizody 1–2 s napięcia mięśni karku, w losowych momentach stymulacji. **Plus warunek bez wywoływania artefaktu**, którego u Kołodzieja nie było i którego brak jest ograniczeniem tamtej pracy.
 
-**Próg decyzyjny zapisany z góry:** jeżeli B − A < 3 pp, kompensacja analogowa **nie wchodzi do projektu jako kontrybucja** i zostaje opisana jako zmierzony wynik negatywny. Wynik negatywny z liczbą jest raportowalny i punktowany w rubryce `Execution`; wynik negatywny przemilczany jest naruszeniem standardów etycznych Explory.
+**Analiza obowiązkowo warunkowana poziomem artefaktu, nie uśredniana po całości.** To jest lekcja z §6A pliku `14`: uśrednienie po wszystkich oknach rozcieńcza efekt epizodyczny i może pokazać zero tam, gdzie zera nie ma. Dokładność i SNR raportowane **w kwintylach mocy EMG w oknie**, tak jak tam.
+
+**Próg decyzyjny zapisany z góry:** jeżeli B − A < 3 pp **w górnym kwintylu skażenia**, kompensacja **nie wchodzi do projektu jako kontrybucja** i zostaje opisana jako zmierzony wynik negatywny. Wynik negatywny z liczbą jest raportowalny i punktowany w rubryce `Execution`; wynik negatywny przemilczany jest naruszeniem standardów etycznych Explory.
 
 ---
 
