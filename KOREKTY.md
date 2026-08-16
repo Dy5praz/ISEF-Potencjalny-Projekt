@@ -685,3 +685,61 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Dane trzymające poniżej 60%:** reprezentacja na ISEF 2026 to **dwa projekty biologiczne i jeden materiałowy, zero elektroniki** — sygnał, że siła inżynierska nie przekłada się wprost na wybór do reprezentacji.
 
 **Podniesione z 25% na 40%.** Pełne przeliczenie: `13_PODNIESIENIE_SZANS.md` sekcja 8.
+
+---
+
+### K-051 — zredukowałem „Cz i szczęka" do samej szczęki i zbudowałem na tym oś projektu
+
+**Co było źle:** w `12_AUDYT.md` sekcji 1.3 zapisałem w tabeli wiersz *„które kanały pomocnicze działały najlepiej — **Cz i szczęka**"*. Zdanie jest poprawne. **Ale w `PRZEKAZANIE.md`, `DECYZJE.md`, `README.md` i `CLAUDE.md` przeniosłem z niego samą szczękę** i na tym postawiłem oś projektu: „analogowa kompensacja artefaktu szczękowego, punkt odniesienia +9 pp".
+
+**Czym to jest naprawdę, po reanalizie surowych danych autorów** (`14_REANALIZA.md`):
+
+| Kanał | Średnie \|β\| | Zysk dokładności, FBCCA | Zysk dokładności, SVM/LOSO |
+|---|---|---|---|
+| **Cz** | **0,416** | **+4,7 pp** | **+8,2 pp** |
+| szczęka | 0,132 | +0,2 pp | +0,3 pp |
+| policzek | 0,127 | +0,2 pp | — |
+| kark | 0,097 | 0,0 pp | **−2,8 pp** |
+| wszystkie sześć razem | — | +4,1 pp | +8,1 pp |
+
+**Cały zysk +9 pp należy do Cz.** Kanał szczękowy, który był osią projektu, dokłada ponad Cz około **0,3 pp**.
+
+**Dlaczego to jest poważny błąd, a nie nieścisłość:** oś projektu, twierdzenie, zewnętrzny punkt odniesienia i cała sekcja 4.2 `PRZEKAZANIE.md` („pierwsza liczba potrzebna do projektu układu") stały na wielkości, która okazała się o **rząd wielkości mniejsza**, niż zakładaliśmy — i którą dało się sprawdzić, bo autorzy opublikowali surowe dane.
+
+**Uwaga, żeby nie przesadzić z korektą** (reguła z `PRZEKAZANIE.md` §5): **praca Kołodzieja i in. nie jest błędna.** Odtworzyłem ich tabelę współczynników co do trzeciego miejsca po przecinku i ich główny wynik z dokładnością do 1 pp. Autorzy nigdzie nie przypisują zysku szczęce — piszą wprost o „dominant role" Cz. **Błąd jest w całości nasz.**
+
+**Zauważone przy okazji, zapisuję jako obserwację, nie zarzut:** tekst pracy podaje „jaw in 4/12, cheek in 4/12, Fp1 in 6/12, HEOG in 6/12", a policzenie z Tabeli 8 tej samej pracy daje odpowiednio **3/12, 3/12, 4/12, 5/12**. Kierunek wniosku bez zmian. Przy cytowaniu podawać za tekstem i wiedzieć o rozbieżności.
+
+**Poprawka:** oś projektu wymieniona — `14_REANALIZA.md` sekcja 7.2 i `15_PROJEKT.md` sekcja 1. Kanał mięśniowy schodzi do kontrybucji drugiej, warunkowej.
+
+---
+
+### K-052 — napisałem „pełny tekst odczytany", nie odczytawszy pełnego tekstu
+
+**Co było źle:** `12_AUDYT.md` sekcja 1.3 opatruje omówienie pracy Kołodzieja znacznikiem **`[fakt, pełny tekst odczytany]`**.
+
+**Dowód, że tak nie było:** w sekcji 4 tej samej pracy, w akapicie o akwizycji sygnału, stoi zdanie: *„The recorded EEG signals are publicly available in the database (…) https://github.com/kolodzima/EEG_artefact_SSVEP_EMG_EOG"*. **Zbiór jest publiczny, na licencji CC-BY, 72 MB, i był dostępny przez cały etap 1.** Gdyby pełny tekst był odczytany, ta linia nie mogła zostać przeoczona — a jej przeoczenie kosztowało nas oś projektu opartą na błędnej atrybucji zysku.
+
+Do tego `PRZEKAZANIE.md` sekcja 4.2 wpisała jako **pierwsze zadanie etapu 2** „wyciągnąć z pełnego tekstu rozbicie udziału kanału szczękowego wobec karkowego" — zadanie, które przy faktycznym odczytaniu pełnego tekstu byłoby zamknięte od razu, i to nie oszacowaniem, tylko przeliczeniem na surowych danych.
+
+**Wzorzec, który z tego zostaje, i jest nowy:** `[fakt, pełny tekst odczytany]` to znacznik, który **sam wymaga dowodu**. Odtąd przy każdym takim znaczniku zapisuję, **czego konkretnie w tym tekście szukałem i co znalazłem w sekcjach, których nie cytuję** — w szczególności: czy praca ma opublikowany zbiór danych, kod, materiały uzupełniające. **Dla każdej pracy, na której cokolwiek stoi, sprawdzić dostępność surowych danych jest tańsze niż cokolwiek innego i może unieważnić całą interpretację.**
+
+---
+
+### K-053 — nie zapisałem, ile kosztuje forma, którą wybraliśmy
+
+**Co było źle:** decyzja 2 (`DECYZJE.md`, K-036) zamknęła umiejscowienie na **module zwartym na potylicy, bez łuku i bez drugiego miejsca elektrod**. Zapisałem konsekwencje dla dostępu do Cz (K-045, „problem Cz"), ale **nie zapisałem konsekwencji dla elektrody odniesienia** — a moduł bez wyprowadzenia nie ma gdzie jej umieścić poza własnym obrysem, czyli pomiar staje się różnicowy między dwiema elektrodami nad korą wzrokową.
+
+**Ile to kosztuje, zmierzone na surowych danych** (`14_REANALIZA.md` §5, FBCCA, poziom losowy 33,3%):
+
+| Montaż | Dokładność |
+|---|---|
+| O1+O2+Oz, odniesienie na małżowinie | **73,3%** |
+| trzy pochodne dwubiegunowe wewnątrz potylicy | 64,0% (**−9,3 pp**) |
+| pojedyncza pochodna O1−Oz (~3,5 cm) | 48,8% (**−24,5 pp**) |
+
+**Mechanizm** `[wniosek]`: SSVEP jest polem rozległym i gładkim nad potylicą, więc dwie bliskie elektrody widzą prawie ten sam potencjał wywołany. Różnicowanie kasuje sygnał razem z zakłóceniem. **To jest fizyka, nie technika.**
+
+**Dodatkowo obalona hipoteza ratunkowa:** sprawdziłem, czy w montażu różnicowym kanały pomocnicze zaczynają się liczyć (bo składowa wspólna jest już usunięta). **Nie zaczynają — wszystkie szkodzą, od −0,8 do −2,1 pp.** Różnicowanie i regresja usuwają to samo.
+
+**Poprawka:** ta strata przestaje być kosztem ukrytym i staje się **mierzoną zmienną projektu** (`16_PLAN_EKSPERYMENTALNY.md`, E2). Doprecyzowanie decyzji 2: **wyprowadzenie samej elektrody odniesienia cienkim przewodem przy głowie mieści się w tabeli gabarytowej decyzji 3** („cienki przewód lub łuk między modułami, przy głowie" — przechodzi); K-036 odrzucał **drugie miejsce elektrod aktywnych**, nie pojedyncze odniesienie. **Wymaga potwierdzenia użytkownika** — pytanie P2 w `18_PYTANIA_ETAP2.md`.

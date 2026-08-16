@@ -6,11 +6,33 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 
 ---
 
+## ETAP 2 W TOKU — od 16 sierpnia 2026
+
+> **Oś projektu została wymieniona pierwszego dnia etapu 2.** Zbiór danych, na którym stała stara oś, okazał się publiczny (CC-BY). Reanaliza surowych danych — z odtworzeniem tabeli autorów co do trzeciego miejsca po przecinku — pokazała, że przyrost **+9 pp należy w całości do elektrody Cz**, a kanał szczękowy, który był osią projektu, dokłada **0,3 pp**.
+>
+> **Nowa oś:** zależność przepustowości SSVEP od **odległości elektrody odniesienia** od okolicy potylicznej, czyli od gabarytu modułu. Efekt zmierzony na cudzych danych: **9–24 pp** — dwadzieścia do sześćdziesięciu razy większy niż ten, który odpadł, i wykrywalny na jednej osobie.
+>
+> **Czytaj w kolejności: `14_REANALIZA.md` → `15_PROJEKT.md` → `16_PLAN_EKSPERYMENTALNY.md` → `17_RYZYKA.md` → `18_PYTANIA_ETAP2.md`.**
+> `PRZEKAZANIE.md` i `12_AUDYT.md` zostają jako tło historyczne — **oba zawierają nieaktualną oś**.
+
+### Pliki etapu 2
+
+| Plik | Zawartość |
+|---|---|
+| **`14_REANALIZA.md`** | **reanaliza surowych danych Kołodziej i in. 2026; zmiana osi projektu; prior art dla nowej osi** |
+| `15_PROJEKT.md` | co budujemy, z czego, za ile, w jakiej kolejności; kamienie milowe |
+| `16_PLAN_EKSPERYMENTALNY.md` | E1–E5, liczba prób policzona, niepewności, granice zwolnienia ISEF |
+| `17_RYZYKA.md` | jedenaście ryzyk, każde z planem awaryjnym, w trzech wymiarach |
+| `18_PYTANIA_ETAP2.md` | pięć pytań do użytkownika, każde z wariantem domyślnym |
+| `analiza/` | kod reanalizy, uruchamialny od zera, zwalidowany wobec publikacji |
+
+**Nowe korekty: K-051, K-052, K-053.**
+
+---
+
 ## ETAP 1 ZAMKNIĘTY — 15 sierpnia 2026
 
 > Zamknięty po **trzech przejściach audytu adwersaryjnego** (`12_AUDYT.md`). Przeszukane kanały: PubMed, arXiv, Crossref, baza patentów, bazy abstraktów ISEF, regulaminy obu konkursów. **Dwadzieścia osiem korekt, K-020…K-047.**
->
-> **Etap 2 zaczyna się w nowej rozmowie.** Punkt startowy: `PRZEKAZANIE.md`, potem `12_AUDYT.md` sekcja 14 i `DECYZJE.md`.
 
 ### Stan po weryfikacji w oryginałach
 

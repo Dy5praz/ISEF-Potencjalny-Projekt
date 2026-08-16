@@ -24,16 +24,16 @@ Użytkownik: Julek. **Odpowiadaj po polsku.**
 
 **Etap 1 ZAMKNIĘTY po trzech przejściach audytu adwersaryjnego** — `12_AUDYT.md`. Korekty K-020…K-047.
 
-**Oś projektu, jedyna, która przeżyła audyt:** analogowa kompensacja **artefaktu szczękowego** z dedykowanego kanału referencyjnego, **przed wzmocnieniem**, w zwartym module potylicznym. Punkt odniesienia zewnętrzny: Kołodziej i in., *Sensors* 2026 — ta sama idea **cyfrowo**, +9 pp. **Nigdy nie używaj słowa „pierwszy"** w materiałach zgłoszeniowych (K-044).
+**Oś projektu — WYMIENIONA 16 VIII 2026, `KOREKTY.md` K-051.** Stara oś (analogowa kompensacja artefaktu **szczękowego**) upadła: zbiór danych Kołodzieja okazał się publiczny, reanaliza pokazała, że przyrost +9 pp należy w całości do **Cz**, a kanał szczękowy dokłada **0,3 pp**. Nowa oś: **zależność przepustowości SSVEP od odległości elektrody odniesienia od okolicy potylicznej** — czyli od gabarytu modułu. Efekt zmierzony na cudzych surowych danych: **9–24 pp**. Rozbiór: **`14_REANALIZA.md`**. **Nigdy nie używaj słowa „pierwszy"** w materiałach zgłoszeniowych (K-044).
 
-**Etap 2: opracowanie projektu.** Zaczyna się w nowej rozmowie. Zacznij od `PRZEKAZANIE.md`, potem `12_AUDYT.md` sekcja 14 i `DECYZJE.md`.
+**Etap 2 W TOKU.** Czytaj w kolejności: **`14_REANALIZA.md`** (najważniejszy plik w repozytorium), potem `15_PROJEKT.md`, `16_PLAN_EKSPERYMENTALNY.md`, `17_RYZYKA.md`, `18_PYTANIA_ETAP2.md`. Dopiero potem `PRZEKAZANIE.md` i `12_AUDYT.md` jako tło historyczne — **oba zawierają nieaktualną oś**.
 
 ## Ustalenia wiążące, nie do podważania bez nowego argumentu
 
 - kierunek: **nieinwazyjny interfejs neuralny**. **Umiejscowienie: DECYZJA OTWARTA** — forma zauszna była założeniem, nie wymaganiem. Rzeczywiste wymaganie: niewidoczne albo nierozpoznawalne jako sprzęt, zero hełmów. Porównanie miejsc i cztery pytania: `09_UMIEJSCOWIENIE.md`, błąd opisany w `KOREKTY.md` K-019
 - zdolność: **sterowanie, nie komunikacja**
 - **odczyt dyskretny, zachowanie sterowanego obiektu ciągłe** — odczyt ciągły wymusza elektrody nad korą ruchową, czyli hełm, co łamie twarde wymaganie
-- sEMG/EOG: dopuszczone jako **kanał odniesienia do usuwania zakłóceń**, nie jako źródło sterowania. **Doprecyzowanie po K-026: chodzi o EMG szczęki. Mrugnięcie przy uchu nie psuje sygnału i nie wymaga kompensacji**
+- sEMG/EOG: dopuszczone jako **kanał odniesienia do usuwania zakłóceń**, nie jako źródło sterowania. **Po K-051 zdegradowane z osi projektu do kontrybucji drugiej, warunkowej** — kanał mięśniowy zostaje w sprzęcie (jedno wejście), ale jego zmierzony zysk to 0,2–0,4 pp i nie wolno na nim stawiać twierdzenia
 - projekt referencyjny ENBM074: **dowód istnienia, nie wzorzec.** Nie proponuj wariantów tamtego rozwiązania, nie ustawiaj tamtego wyniku jako progu. Patrz sekcja 9.2 handbooka
 - badani: najpierw sam autor; grupa dopiero po zgodzie komisji ISEF
 - programowanie dopuszczone jako oś projektu, ale nie rozdmuchuj go ponad to, czego wymaga twierdzenie

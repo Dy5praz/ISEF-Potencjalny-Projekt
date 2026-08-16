@@ -1,5 +1,13 @@
 # PRZEKAZANIE — start etapu 2
 
+> ## ⚠ PLIK CZĘŚCIOWO NIEAKTUALNY — 16 VIII 2026
+>
+> **Oś projektu opisana w tym pliku (analogowa kompensacja artefaktu szczękowego) upadła pierwszego dnia etapu 2.** Zbiór danych Kołodzieja okazał się publiczny; reanaliza pokazała, że przyrost +9 pp należy w całości do **Cz**, a kanał szczękowy dokłada 0,3 pp. `KOREKTY.md` **K-051**, **K-052**, **K-053**.
+>
+> **Aktualny stan: `14_REANALIZA.md` → `15_PROJEKT.md` → `16_PLAN_EKSPERYMENTALNY.md` → `17_RYZYKA.md` → `18_PYTANIA_ETAP2.md`.**
+>
+> **Co w tym pliku dalej obowiązuje:** sekcja 3 poza wierszem o osi naukowej, sekcja 5 (wzorce błędów) i sekcja 6 (środowisko). **Sekcje 4.1 i 4.2 są wykonane** — patrz niżej.
+
 **Data:** 15 sierpnia 2026, po zamknięciu etapu 1
 **Po co ten plik:** etap 1 jest zamknięty. Ten plik mówi nowej sesji, co zastaje, czego nie wolno podważać, i od czego zacząć etap 2.
 
@@ -61,10 +69,12 @@ Handbook, sekcja 11, żąda pięciu rzeczy. Ocena szans jest zrobiona z wyprzedz
 
 **Kolejność: A i B równolegle od zaraz, C po opanowaniu projektowania płytek.** Wszystko przed majem 2027 jest poza oknem 12 miesięcy ISEF, więc to jest czas rozwojowy.
 
-### 4.2 Dwie rzeczy do wyciągnięcia z literatury na start
+### 4.2 Dwie rzeczy do wyciągnięcia z literatury na start — **OBIE WYKONANE 16 VIII 2026**
 
 1. **Pełny tekst Kołodziej i in. 2026** (PMC12899023, otwarty dostęp) — konkretnie **rozbicie udziału kanału szczękowego wobec karkowego**. Podali, że szczęka i Cz były najskuteczniejsze, ale nie odczytałem rozbicia. To jest pierwsza liczba potrzebna do projektu układu.
+   > **WYKONANE, i to nie oszacowaniem, tylko na surowych danych** — autorzy opublikowali zbiór na licencji CC-BY, czego etap 1 nie zauważył (K-052). Odpowiedź: średnie \|β\| szczęka **0,132**, kark **0,097**, ale oba nieistotne wobec Cz = **0,416**; w dokładności klasyfikacji szczęka daje **+0,2 pp**, kark **0,0 pp**. `14_REANALIZA.md` §2.
 2. **Problem Cz** (K-045) — Kołodziej ustalił, że Cz jest jednym z dwóch najlepszych kanałów pomocniczych, a Cz leży na wierzchołku głowy, czyli poza dopuszczalną formą. Ile korzyści przeżywa bez Cz — do zmierzenia, i jest to osobne, publikowalne pytanie.
+   > **WYKONANE. Odpowiedź: bez Cz przeżywa +1,7 pp z +4,7 pp (FBCCA) i +3,6 pp z +8,2 pp (SVM).** Ale ważniejsze jest to, co przy okazji wyszło: rola Cz to **odniesienie i tłumienie składowej wspólnej**, a nie modelowanie mięśnia — i to przesuwa cały projekt na pytanie o **położenie elektrody odniesienia**. `14_REANALIZA.md` §3 i §5.
 
 ### 4.3 Dwie rzeczy poza komputerem
 
