@@ -11,7 +11,7 @@
 
 **Wynik: przyrost +9 pp, wokół którego zbudowaliśmy całe twierdzenie projektu, nie pochodzi od kanału szczękowego. Pochodzi od Cz, i to w całości.** Kanał szczękowy dokłada +0,1 do +0,4 pp. Sprawdzone dwoma niezależnymi klasyfikatorami.
 
-**Drugi wynik, jeszcze ważniejszy dla formy urządzenia:** montaż zamknięty wewnątrz zwartego modułu potylicznego (elektroda odniesienia wewnątrz modułu) kosztuje **9–11 pp dokładności** względem montażu z odległą referencją — bo różnicowanie dwóch elektrod nad korą wzrokową kasuje sam SSVEP, nie tylko zakłócenie.
+**Drugi wynik, jeszcze ważniejszy dla formy urządzenia:** montaż zamknięty wewnątrz zwartego modułu potylicznego (elektroda odniesienia wewnątrz modułu) kosztuje **9,3–24,5 pp dokładności**, a w szczytowej przepustowości **41% ITR**, względem montażu z odległą referencją — bo różnicowanie dwóch elektrod nad korą wzrokową kasuje sam SSVEP, nie tylko zakłócenie.
 
 **Konsekwencja: oś „analogowa kompensacja artefaktu szczękowego" traci ilościowe uzasadnienie i musi zostać wymieniona.** Co wchodzi w jej miejsce — sekcja 7. Czego nie wolno zrobić — sekcja 8.
 
@@ -42,7 +42,7 @@ Odtworzone \|β\|: Cz 0,416 / Fp1 0,115 / HEOG 0,136 / kark 0,097 / policzek 0,1
 
 `[wniosek]` Odtwarzam ich metodę wiernie i mam prawidłową kolejność kanałów. Wszystko poniżej jest liczone tym samym kodem.
 
-Kod: `analiza/` w tym repozytorium, pięć skryptów, uruchamialne od zera po `pip install numpy scipy scikit-learn h5py`.
+Kod: `analiza/` w tym repozytorium, sześć skryptów, uruchamialne od zera po `pip install numpy scipy scikit-learn h5py`.
 
 ---
 
@@ -81,7 +81,7 @@ Dwa niezależne tory klasyfikacji. Baza porównania: te same 3240 okien, trzy ce
 
 ### 2.3 Co z tego wynika, w jednym zdaniu
 
-`[fakt, dwa niezależne klasyfikatory, dane autorów]` **Cały mierzalny zysk pochodzi z Cz. Kanał szczękowy dokłada ponad Cz od +0,4 pp (SVM) do +0,4 pp (FBCCA). Kanał karkowy nie dokłada nic albo szkodzi.**
+`[fakt, dwa niezależne klasyfikatory, dane autorów]` **Cały mierzalny zysk pochodzi z Cz. Kanał szczękowy dokłada ponad samo Cz +0,4 pp — tyle samo w obu torach. Kanał karkowy nie dokłada nic albo szkodzi.**
 
 To jest dokładnie ta liczba, której `PRZEKAZANIE.md` sekcja 4.2 kazała szukać jako **pierwszej rzeczy do wyciągnięcia z pełnego tekstu**: rozbicie udziału kanału szczękowego wobec karkowego. Odpowiedź: **szczęka 0,132, kark 0,097 w \|β\|, ale oba nieistotne wobec Cz = 0,416, i oba nieistotne w dokładności klasyfikacji.**
 
@@ -97,7 +97,7 @@ Trzy niezależne przesłanki, że rola Cz to **odniesienie i tłumienie składow
 
 `[wniosek, trzy przesłanki]` Zysk +9 pp Kołodzieja to w przeważającej części **efekt referencyjny**, a nie kompensacja artefaktu mięśniowego.
 
-**Uwaga, żeby nie przesadzić z korektą** (reguła operacyjna z `PRZEKAZANIE.md` §5): praca Kołodzieja **nie jest błędna**. Autorzy nigdzie nie twierdzą, że zysk pochodzi od szczęki — piszą, że Cz był w optymalnym zestawie u 12/12 osób i nazywają go „dominant role". **Błąd był po naszej stronie**: w `12_AUDYT.md` §1.3 zapisałem „które kanały pomocnicze działały najlepiej: **Cz i szczęka**", zrównując je, a potem cała reszta dokumentacji przeniosła z tego zdania samą szczękę. To jest korekta K-048.
+**Uwaga, żeby nie przesadzić z korektą** (reguła operacyjna z `PRZEKAZANIE.md` §5): praca Kołodzieja **nie jest błędna**. Autorzy nigdzie nie twierdzą, że zysk pochodzi od szczęki — piszą, że Cz był w optymalnym zestawie u 12/12 osób i nazywają go „dominant role". **Błąd był po naszej stronie**: w `12_AUDYT.md` §1.3 zapisałem „które kanały pomocnicze działały najlepiej: **Cz i szczęka**", zrównując je, a potem cała reszta dokumentacji przeniosła z tego zdania samą szczękę. To jest korekta K-051.
 
 ---
 
@@ -144,6 +144,28 @@ Poziom losowy: 33,3%.
 **Czego ten pomiar NIE mówi, i to jest istotne:** nie mówi, ile wynosi koszt przy odniesieniu wyprowadzonym **poza obszar aktywny, ale nadal blisko** — na wyrostek sutkowaty za uchem, na kark poniżej guzowatości potylicznej, na płatek ucha. W tym zbiorze nie ma takiego kanału. **To jest luka, którą może zamknąć wyłącznie pomiar na własnym sprzęcie** — i dlatego staje się osią projektu (sekcja 7).
 
 ---
+
+### 5.1 Czy dłuższe okno decyzyjne odkupuje stratę zwartego modułu — częściowo
+
+Zapisy w zbiorze są ciągłe (okna sąsiadują bez przerw, sprawdzone: `diff(idx_starts) = 256`), więc dało się je posklejać i policzyć dokładność dla okien dłuższych niż sekunda. FBCCA, trzy cele, ITR liczone wzorem Wolpawa dla `t` = długość okna:
+
+| Okno | Odniesienie odległe | ITR | Montaż różnicowy w module | ITR | Strata |
+|---|---|---|---|---|---|
+| 0,5 s | 57,8% | 21,7 | 49,5% | 9,6 | −8,3 pp |
+| **1,0 s** | 73,3% | **28,9** | 64,0% | **17,0** | −9,3 pp |
+| 2,0 s | 82,8% | 22,6 | 74,4% | 15,2 | −8,5 pp |
+| 3,0 s | 86,9% | 17,9 | 80,1% | 13,3 | −6,8 pp |
+| 4,0 s | 85,9% | 12,8 | 80,4% | 10,1 | −5,5 pp |
+| 5,0 s | 86,9% | 10,7 | 82,6% | 8,9 | −4,2 pp |
+
+**Trzy rzeczy z tej tabeli:**
+
+1. `[fakt]` **ITR ma maksimum przy oknie 1 s** i wynosi 28,9 bit/min. Autorzy podają dla SVM 27,5 bit/min przy oknie 1 s — **zgodność niezależnym torem**, kolejne potwierdzenie, że odtwarzam ich pomiar.
+2. `[fakt]` **Strata modułu zwartego maleje z długością okna**: 9,3 pp przy 1 s, 4,2 pp przy 5 s. Dłuższe patrzenie częściowo odkupuje gorszy montaż — to jest sensowne, bo montaż różnicowy obniża SNR, a SNR nadrabia się czasem uśredniania.
+3. `[fakt]` **Ale w ITR nie odkupuje nigdy.** W optimum każdego z montaży: 28,9 wobec 17,0 bit/min. **Moduł zwarty kosztuje 41% szczytowej przepustowości**, a wydłużanie okna obniża ITR obu montaży, więc nie jest drogą wyjścia.
+
+`[wniosek]` **Liczba „41% szczytowego ITR" jest lepszym sformułowaniem kosztu formy niż „9 pp dokładności"** — bo dokładność zależy od okna, a szczytowe ITR jest własnością montażu. Do materiałów zgłoszeniowych idzie ta liczba, z podaniem obu okien, w których jest mierzona.
+
 
 ## 6. Wynik trzeci — w montażu różnicowym kompensacja nie ma czego kompensować
 
@@ -255,7 +277,25 @@ Reguła z `PRZEKAZANIE.md` §5.1: **każda zmiana osi wymaga powtórzenia przesz
 
 **Najbliższa praca, jedyna trafiająca w temat:** Wu i Su 2014 (wyżej). Wybierają **algorytmicznie** najlepszą elektrodę odniesienia **z pełnego czepka**, osobno dla każdej częstotliwości. Nie pytają, jak blisko może leżeć odniesienie; nie budują sprzętu; nie dotykają gabarytu.
 
-`[wniosek]` Nowa oś **nie jest zajęta w PubMed**. Zgodnie z zamknięciem `12_AUDYT.md` §14 to nie jest dowód nieistnienia — to opis tego, gdzie szukałem. **Crossref i arXiv dla nowej osi: do zrobienia** `[luka]`, wpisane jako zadanie w `17_RYZYKA.md`.
+### 11.1 Crossref i arXiv — dołożone tego samego dnia, żeby nie powtórzyć wzorca błędu nr 1
+
+`[fakt]` **Crossref API**, pięć zapytań bibliograficznych o odległość i położenie elektrody odniesienia w SSVEP i w noszalnym EEG. Uwaga metodyczna: Crossref dopasowuje rozmyto, więc **liczby „total" są bez znaczenia** — liczy się ranking. W czołówce każdego z pięciu zapytań **nie ma pracy o odległości elektrody odniesienia w SSVEP**. Powtórnie wychodzi ta sama pozycja co w PubMed (Wu i Su 2014). Najbliższe tematycznie i nienachodzące:
+- *Quantitative Analysis of the Effect of Reference Electrode Position and Active Recording Electrode Size…*, 1992 — dotyczy **elektromiografii i przewodnictwa nerwowego**, nie EEG ani SSVEP
+- *Multi-Command Real-Time Brain Machine Interface Using SSVEP: Feasibility Study for Occipital and Forehead Sensor* — porównuje **położenie elektrody czynnej**, nie odniesienia
+
+`[fakt]` **arXiv API.** Uwaga techniczna do zapisania, bo kosztowała mnie jedną fałszywą odpowiedź: **składnia `all:"fraza w cudzysłowie"` zwraca zero trafień na każde zapytanie** i wygląda jak brak prior art. Kontrola `all:SSVEP` daje **96 prac w całym arXiv** i to jest prawdziwy rozmiar zbioru. Po poprawieniu składni:
+
+| Zapytanie | Trafień |
+|---|---|
+| `all:SSVEP` (kontrola) | 96 |
+| `all:SSVEP AND all:reference` | 6, żadna o elektrodzie odniesienia |
+| `abs:SSVEP AND abs:wearable` | 5 |
+
+**Jedna pozycja warta zapisania, znaleziona przy okazji:** *„In-Ear Electrode EEG for Practical SSVEP BCI"*, **arXiv 2509.15449, 18 IX 2025** — elektroda douszna wobec potylicznej, cztery częstotliwości, **pięciu badanych**, wniosek: wykonalne. To jest preprint bez recenzji na bardzo małej próbie, dotyczy **położenia elektrody czynnej**, nie odniesienia, i **nie zajmuje nowej osi**. Zapisuję, bo dotyczy formy urządzenia i bo pojawił się po zamknięciu etapu 1.
+
+### 11.2 Werdykt
+
+`[wniosek]` Nowa oś **nie jest zajęta w PubMed, Crossref ani arXiv**. Zgodnie z zamknięciem `12_AUDYT.md` §14 to nie jest dowód nieistnienia — to opis tego, gdzie szukałem. **Pozostaje nieprzeszukana baza patentów dla nowej osi** `[luka]`; to jest jedyna otwarta pozycja i wpisana jest jako R8 w `17_RYZYKA.md`.
 
 ---
 

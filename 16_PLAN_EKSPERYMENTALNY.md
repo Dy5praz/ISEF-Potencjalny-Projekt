@@ -65,7 +65,21 @@ Dlaczego to jest ważne, a nie kosmetyczne: sesje różnią się impedancją kon
 | **kontrolowane** | oświetlenie pomieszczenia, odległość od panelu, pora dnia w oknie 2 h, ten sam preparat skóry |
 | **rejestrowane, nieanalizowane pod T1** | temperatura, wilgotność, czas od założenia |
 
-**Bodziec:** osiem celów. Częstotliwości **nie w paśmie 7–9 Hz** — tam leży rytm alfa, który zawyża poziom bazowy i mieszał się z artefaktami u Kołodzieja. Propozycja: **8,0 / 9,4 / 10,8 / 12,2 / 13,6 / 15,0 / 16,4 / 17,8 Hz**, krok 1,4 Hz, tak żeby **żadna druga harmoniczna nie pokrywała się z podstawową innego celu** (2×8,0 = 16,0 wpada między 15,0 a 16,4 — sprawdzić dla wszystkich par przed pierwszą sesją i zapisać tabelę kolizji). Weryfikacja rzeczywistej częstotliwości: **fotodioda w kanale pomocniczym**, każda sesja.
+**Bodziec:** osiem celów. Częstotliwości **nie w paśmie 7–9 Hz** — tam leży rytm alfa, który zawyża poziom bazowy i mieszał się z artefaktami u Kołodzieja.
+
+**Zestaw wybrany: 8,0 / 9,4 / 10,8 / 12,2 / 13,6 / 15,0 / 16,4 / 17,8 Hz**, krok 1,4 Hz. Weryfikacja rzeczywistej częstotliwości: **fotodioda w kanale pomocniczym**, każda sesja.
+
+**Tabela kolizji harmonicznych — policzona, nie założona.** Kryterium: żadna z pierwszych trzech harmonicznych jednego celu nie może paść bliżej niż 0,3 Hz od którejkolwiek z pierwszych trzech harmonicznych innego celu.
+
+| Zestaw | Kolizji | Min. odstęp podstawowych |
+|---|---|---|
+| **8,0…17,8 krok 1,4 Hz (wybrany)** | **0** | **1,400 Hz** |
+| 8,1…15,8 krok 1,1 Hz | 0 | 1,100 Hz |
+| 9,0…14,6 krok 0,8 Hz | 2 | 0,800 Hz |
+| 8…15 krok 1,0 Hz (całkowite) | **4** | 1,000 Hz |
+| 8,0…15,8 krok 1,114 Hz | 4 | 1,114 Hz |
+
+**Wniosek:** częstotliwości całkowite ze stałym krokiem 1 Hz są najgorszym możliwym wyborem — 3×8 = 2×12 = 24 Hz i 3×10 = 2×15 = 30 Hz. **Krok 1,4 Hz od 8,0 Hz jest czysty.** Drugi rozstaw bez kolizji (krok 1,1 Hz) trzymam jako zapasowy, gdyby górne 17,8 Hz okazało się dla oczu męczące.
 
 ### 3.3 Ile prób — policzone, nie oszacowane
 
@@ -82,6 +96,10 @@ Dlaczego to jest ważne, a nie kosmetyczne: sesje różnią się impedancją kon
 α = 0,05 dwustronnie, moc 80%.
 
 **Przyjmuję 240 prób na sesję.** Pokrywa efekt 9 pp z zapasem przy każdym realistycznym odsetku niezgodności i połowicznie pokrywa 5 pp.
+
+**Długość okna decyzyjnego — wybrana pomiarem, nie odczuciem.** Na danych Kołodzieja policzyłem dokładność i ITR dla okien 0,5–5 s (`14_REANALIZA.md` §5.1). **ITR ma wyraźne maksimum przy oknie 1 s** (28,9 bit/min przy trzech celach) i spada dla okien dłuższych, mimo że dokładność dalej rośnie. Dodatkowo: **strata montażu zwartego maleje z długością okna** (9,3 pp przy 1 s → 4,2 pp przy 5 s), więc długość okna jest **zmienną, która wchodzi w interakcję z badanym efektem** i musi być analizowana, a nie ustalona raz.
+
+**Decyzja:** rejestrujemy epoki **2 s**, a okna 0,5 / 1 / 1,5 / 2 s wyprowadzamy z nich offline. Główna liczba raportowana przy oknie, które maksymalizuje ITR — **z podaniem całej krzywej**, nie samego maksimum.
 
 **Struktura sesji:**
 - 8 celów × 30 powtórzeń = **240 prób**

@@ -87,7 +87,13 @@ W etapie 1 świadomie nie ustaliłeś budżetu: *„najpierw opracowanie, potem 
 
 Żeby było jasne, że to nie jest praca w ratach — oto co jest do zrobienia i co nie czeka na Ciebie:
 
-1. **Przeszukanie Crossref, arXiv i patentów dla nowej osi.** Dla nowej osi zrobiłem tylko PubMed. To jest dokładnie ten błąd, który `PRZEKAZANIE.md` §5 wymienia jako wzorzec numer 1 — zmiana konfiguracji bez powtórzenia audytu. **Zgłaszam go na sobie, zanim kosztował**, i domykam przed jakimkolwiek zakupem
-2. **TRCA i krzywa dokładność–czas** na danych Kołodzieja — dokończenie toru B
-3. **Tabela kolizji harmonicznych** dla ośmiu proponowanych częstotliwości bodźca
-4. Regulaminy **El-Robo-Mech XII** i **OITwEiM 2026/27**, gdy się ukażą jesienią
+**Trzy z czterech zrobione jeszcze tego samego dnia** — handbook zakazuje kończenia zdaniem „sprawdzę to później", więc sprawdziłem.
+
+1. ~~Przeszukanie Crossref i arXiv dla nowej osi~~ — **ZROBIONE.** Oś niezajęta w trzech bazach. Przy okazji: znaleziona jedna nowa pozycja o formie urządzenia (arXiv 2509.15449, elektroda douszna dla SSVEP, pięciu badanych) i **wykryta pułapka techniczna w API arXiv**, które zwraca zero trafień na zapytania z frazą w cudzysłowie i wygląda wtedy jak brak prior art. `14_REANALIZA.md` §11.1
+2. ~~Krzywa dokładność–czas~~ — **ZROBIONE.** ITR ma maksimum przy oknie **1 s**; strata modułu zwartego maleje z 9,3 pp do 4,2 pp przy wydłużeniu okna do 5 s, ale **w ITR nie odrabia się nigdy** — moduł zwarty kosztuje **41% szczytowej przepustowości**. `14_REANALIZA.md` §5.1
+3. ~~Tabela kolizji harmonicznych~~ — **ZROBIONA.** Zestaw 8,0–17,8 Hz z krokiem 1,4 Hz ma **zero kolizji**; częstotliwości całkowite z krokiem 1 Hz mają cztery i są najgorszym możliwym wyborem. `16_PLAN_EKSPERYMENTALNY.md` §3.2
+
+**Zostaje otwarte, i to są jedyne otwarte pozycje:**
+- **TRCA** — jedyna metoda z listy, której nie przetestowałem; wymaga uczenia wewnątrzosobniczego, a przy trzech minutach nagrania na osobę danych na to ledwo starcza
+- **baza patentów dla nowej osi** — przed zakupami, czyli przed X 2026 (R8)
+- regulaminy **El-Robo-Mech XII** i **OITwEiM 2026/27**, gdy się ukażą jesienią

@@ -18,7 +18,7 @@ Każde ryzyko oceniam w trzech wymiarach wymaganych przez `HANDBOOK.md` §2.2: *
 | **R5** | ktoś publikuje tę samą oś przed nami | 10–20% | zerowa | **niski** | ciągle |
 | **R6** | komisja IRB przy szkole nie powstaje | 30% | średnia | niski | XII 2026 |
 | **R7** | poślizg: druga wersja płytki wypada po V 2027 | 35% | wysoka | wysoki | III 2027 |
-| **R8** | nowa oś zajęta w bazach nieprzeszukanych | 15% | wysoka | średni | IX 2026 |
+| **R8** | nowa oś zajęta w bazach nieprzeszukanych | **5%** | wysoka | średni | **częściowo zamknięte 16 VIII 2026** |
 | **R9** | moduł nie mieści się w granicy gabarytu | 25% | wysoka | średni | I 2027 |
 | **R10** | brak opiekuna z tytułem / Qualified Scientist | 20% `[luka]` | średnia | **bardzo wysoki** | XI 2026 |
 | **R11** | użytkownik odrzuca zmianę osi z `14_REANALIZA.md` | — | pełna | zerowy | teraz |
@@ -113,11 +113,13 @@ Użytkownik zgłosił, że z formalnościami nie będzie problemu, i pozycja zes
 
 ## R8 — nowa oś zajęta w bazach, których nie przeszukałem
 
-`[luka]` Dla nowej osi przeszukałem **wyłącznie PubMed** (`14_REANALIZA.md` §11). Nieprzeszukane: **Crossref** (konferencje układowe: ISSCC, ISCAS, BioCAS, TBioCAS), **arXiv**, patenty, literatura nieanglojęzyczna.
+**Zamknięte w trzech czwartych tego samego dnia.** Pierwotnie dla nowej osi miałem tylko PubMed — czyli dokładnie ten błąd, który `PRZEKAZANIE.md` §5 wymienia jako **wzorzec numer 1**: zmiana konfiguracji projektu bez powtórzenia audytu prior art. Zamiast zapisać go jako zadanie na później, domknąłem go od razu.
 
-**To jest dokładnie ten błąd, który `PRZEKAZANIE.md` §5 wymienia jako wzorzec numer 1:** zmiana konfiguracji projektu bez powtórzenia pełnego audytu prior art. Zgłaszam go na sobie, zanim kosztował.
+**Stan po 16 VIII 2026** (`14_REANALIZA.md` §11): **PubMed, Crossref i arXiv przeszukane — nowa oś niezajęta.** Znaleziona jedna nowa pozycja o formie urządzenia (arXiv 2509.15449, elektroda douszna dla SSVEP, pięciu badanych), która osi nie zajmuje.
 
-**Plan awaryjny:** **przeszukanie Crossref, arXiv i patentów dla nowej osi jest pierwszym zadaniem następnej sesji, przed jakimkolwiek zakupem.** Zakupy planowane są na X 2026, więc jest czas. Jeżeli oś okaże się zajęta, wraca pytanie o oś — ale sprzęt z `15_PROJEKT.md` się nie zmienia, więc koszt jest w dokumentacji, nie w pieniądzach.
+`[luka]` **Nieprzeszukana zostaje baza patentów** dla nowej osi, oraz literatura nieanglojęzyczna.
+
+**Plan awaryjny:** patenty do sprawdzenia przed jakimkolwiek zakupem, czyli przed X 2026. Jeżeli oś okaże się zajęta, wraca pytanie o oś — ale **sprzęt z `15_PROJEKT.md` się nie zmienia**, więc koszt jest w dokumentacji, nie w pieniądzach.
 
 ---
 
