@@ -18,7 +18,7 @@ Każde ryzyko oceniam w trzech wymiarach wymaganych przez `HANDBOOK.md` §2.2: *
 | **R5** | ktoś publikuje tę samą oś przed nami | 10–20% | zerowa | **niski** | ciągle |
 | **R6** | komisja IRB przy szkole nie powstaje | 30% | średnia | niski | XII 2026 |
 | **R7** | poślizg: druga wersja płytki wypada po V 2027 | 35% | wysoka | wysoki | III 2027 |
-| **R8** | nowa oś zajęta w bazach nieprzeszukanych | **5%** | wysoka | średni | **częściowo zamknięte 16 VIII 2026** |
+| **R8** | ~~nowa oś zajęta w bazach nieprzeszukanych~~ → **oś JEST zajęta w wersji szerokiej** | **ziściło się** | — | średni | **ZAMKNIĘTE 16 VIII: K-058** |
 | **R9** | moduł nie mieści się w granicy gabarytu | 25% | wysoka | średni | I 2027 |
 | **R10** | brak opiekuna z tytułem / Qualified Scientist | 20% `[luka]` | średnia | **bardzo wysoki** | XI 2026 |
 | **R11** | ~~użytkownik odrzuca zmianę osi~~ | — | — | — | **ZAMKNIĘTE 16 VIII: wariant C** |
@@ -119,7 +119,9 @@ Użytkownik zgłosił, że z formalnościami nie będzie problemu, i pozycja zes
 
 ## R8 — nowa oś zajęta w bazach, których nie przeszukałem
 
-**Zamknięte w trzech czwartych tego samego dnia.** Pierwotnie dla nowej osi miałem tylko PubMed — czyli dokładnie ten błąd, który `PRZEKAZANIE.md` §5 wymienia jako **wzorzec numer 1**: zmiana konfiguracji projektu bez powtórzenia audytu prior art. Zamiast zapisać go jako zadanie na później, domknąłem go od razu.
+> **ZISCIŁO SIĘ, 16 VIII 2026 wieczorem — K-058.** OpenAIRE (baza, której limit wcześniej mnie blokował, obeszta przez inny indeks) pokazała **siedem prac o doborze montażu i odniesienia dla SSVEP, od 2005 roku**, w tym pomiar dokładnie naszej zmiennej (EMBC 2010: dwubiegunowy 80,1% wobec jednobiegunowego 74,5%) i pracę z 2026 z naszym zdaniem problemowym w tytule. **Przyczyna przeoczenia: szukałem własnym słownictwem, nie słownictwem dziedziny.** Ryzyko podniesione z 10–15% na **25–40%** dla wąskiej wersji osi. Rozbiór: `25_AUDYT_OPENAIRE.md`.
+
+**Historia pozycji — zamknięte w trzech czwartych tego samego dnia.** Pierwotnie dla nowej osi miałem tylko PubMed — czyli dokładnie ten błąd, który `PRZEKAZANIE.md` §5 wymienia jako **wzorzec numer 1**: zmiana konfiguracji projektu bez powtórzenia audytu prior art. Zamiast zapisać go jako zadanie na później, domknąłem go od razu.
 
 **Stan po 16 VIII 2026** (`14_REANALIZA.md` §11): **PubMed, Crossref i arXiv przeszukane — nowa oś niezajęta.** Znaleziona jedna nowa pozycja o formie urządzenia (arXiv 2509.15449, elektroda douszna dla SSVEP, pięciu badanych), która osi nie zajmuje.
 

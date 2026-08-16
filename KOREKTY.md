@@ -816,3 +816,36 @@ Po przeliczeniu i doliczeniu wysyłki ze Stanów, cła i VAT: **6 000–6 800 z�
 **Poprawka:** pełna ocena obu ConOps i porównanie z interfejsem — `22_POROWNANIE.md`. Oba dokumenty źródłowe zarchiwizowane w `archiwum_poprzednie/`.
 
 **Reguła operacyjna, która z tego zostaje:** **zanim uznasz kierunek za zamknięty, przeczytaj jego dokument źródłowy, a nie własne streszczenie tego dokumentu.** Handbook jest streszczeniem i jako streszczenie gubi drugie twierdzenia.
+
+---
+
+### K-058 — twierdziłem, że oś jest niezajęta w pięciu bazach; jest badana od 2005 roku
+
+**Co było źle:** w `14_REANALIZA.md` §11 i `21_ODPOWIEDZI.md` §1.4 zapisałem, że nowa oś projektu — zależność przepustowości SSVEP od położenia elektrody odniesienia — **nie jest zajęta w PubMed, Crossref, arXiv, Google Patents ani Europe PMC**, i wyceniłem ryzyko przeoczenia na **10–15%**.
+
+**Stan faktyczny, OpenAIRE, 16 VIII 2026 wieczorem:**
+
+| Rok | Praca |
+|---|---|
+| 2005 | *Lead selection for SSVEP-based brain-computer interface* |
+| **2010** | ***A comparison of monopolar and bipolar EEG recordings for SSVEP detection***, EMBC, PMID 21096910 |
+| 2015 | *Monopolar and Bipolar Electrode Settings for SSVEP-Based BCI* |
+| 2015 | *Impact of electrode positions and harmonic frequency components in SSVEP-based BCIs* |
+| 2019 | *Assessment of high-frequency SSVEP from below-the-hairline areas*, PMID 31881401 |
+| 2021 | *Effect of Channel and Reference Selection on a Non-occipital SSVEP* |
+| 2025 | *Boosting Spatial Properties of Single-Flicker SSVEP via Laplacian Electrodes* |
+| **2026** | ***Cross-region neural signal reconstruction to lift electrode placement constraints in SSVEP BCIs***, npj Biomedical Innovations, PMID 42527436 |
+
+**Praca z 2010 mierzy dokładnie naszą zmienną:** pięciu badanych, montaż dwubiegunowy (O1−P3, O2−P4) wobec jednobiegunowego (odniesienie Fz), wynik **80,1% wobec 74,5% na korzyść dwubiegunowego**. Praca z 2026 ma nasze zdanie problemowe w tytule.
+
+**Dlaczego pięć baz tego nie pokazało — przyczyna nazwana:** **szukałem własnym słownictwem.** Budowałem zapytania z fraz `„reference electrode distance"`, `„inter-electrode distance"`, `„electrode spacing"`, `„self-referenced"`. **Dziedzina nazywa to inaczej:** `monopolar versus bipolar`, `lead selection`, `channel and reference selection`, `electrode placement constraints`. Zapytanie zbudowane na własnym sformułowaniu problemu znajduje wyłącznie tych, którzy sformułowali go tak samo.
+
+**Druga przyczyna, techniczna:** pierwsze cztery zapytania do OpenAIRE zwróciły zero, bo parametr `keywords` wymaga **wszystkich słów naraz**. Kontrola (`SSVEP` → 3 649 trafień) wykazała, że zero było artefaktem składni. **Bez kontroli pozytywnej zapisałbym „OpenAIRE potwierdza brak prior art".** To jest ta sama pułapka co w API arXiv (K-052 rodzina), druga tego samego dnia.
+
+**Dwie reguły operacyjne, obie nowe i obie twarde:**
+1. **Każde „zero trafień" wymaga kontroli pozytywnej** — zapytania, o którym wiadomo, że musi coś zwrócić. Bez niej zero nie znaczy nic.
+2. **Przed przeszukaniem ustalić słownictwo dziedziny**, czytając dwie–trzy prace z obszaru i wypisując, jakimi terminami opisują badaną zmienną. **Dopiero potem budować zapytania.** Szukanie własnymi słowami mierzy moje słownictwo, nie literaturę.
+
+**Poprawka:** pełny rozbiór w `25_AUDYT_OPENAIRE.md`. Ryzyko, że wąska wersja osi jest już opublikowana, podniesione z 10–15% na **25–40%**. Twierdzenie projektu przeformułowane z „nikt nie zbadał" na „publikowano porównania dyskretnych montaży; mierzę zależność ciągłą pod ograniczeniem gabarytu" — z obowiązkiem cytowania siedmiu prac zamiast ich przemilczenia.
+
+**Wniosek wykraczający poza tę korektę, zapisany w `25_AUDYT_OPENAIRE.md` §5:** trzy projekty, trzy osie, wszystkie zajęte po przeszukaniu słownictwem dziedziny. **Dla licealisty twierdzenie „nikt tego nie zrobił" jest praktycznie niedostępne.** Ani arkusz ISEF, ani kryteria Explory nie mają rubryki „nowość" — optymalizowaliśmy pod kryterium warte najwyżej 10 punktów na 100 i trzykrotnie przebudowywaliśmy pod nie projekt.
