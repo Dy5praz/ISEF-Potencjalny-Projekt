@@ -14,7 +14,7 @@ Każde ryzyko oceniam w trzech wymiarach wymaganych przez `HANDBOOK.md` §2.2: *
 | **R1** | słaba odpowiedź SSVEP u autora | **20–30%** | niska | **bardzo wysoki** | **X 2026** |
 | **R2** | własny tor analogowy nie osiąga użytecznego szumu | 40% | wysoka | średni | II 2027 |
 | **R3** | brak sprzętu pomiarowego do charakterystyki toru | **50%** `[luka]` | średnia | średni | X 2026 |
-| **R4** | efekt odległości odniesienia < 3 pp — T1 upada | 15% | zerowa | wysoki | XI 2026 (na cudzych danych: już częściowo znany) |
+| **R4** | efekt odległości odniesienia < 3 pp — T1 upada | **25%** | zerowa | wysoki | XI 2026 (na cudzych danych: już częściowo znany) |
 | **R5** | ktoś publikuje tę samą oś przed nami | 10–20% | zerowa | **niski** | ciągle |
 | **R6** | komisja IRB przy szkole nie powstaje | 30% | średnia | niski | XII 2026 |
 | **R7** | poślizg: druga wersja płytki wypada po V 2027 | 35% | wysoka | wysoki | III 2027 |
@@ -69,6 +69,8 @@ Cały plan jednoosobowy do maja 2027 stoi na założeniu, że autor nie jest tak
 ## R4 — efekt okazuje się mały, T1 upada
 
 **Częściowo już rozstrzygnięte i to na korzyść.** Na cudzych surowych danych efekt wynosi **9,3–24,5 pp** (`14_REANALIZA.md` §5). Żeby T1 upadło, własny pomiar musiałby się rozejść z tamtym o rząd wielkości.
+
+**Zastrzeżenie dołożone 16 VIII 2026, i jest realne** `[luka]`: te liczby obowiązują dla metod **bez fazy** (FBCCA, CCA, cechy FFT). **TRCA sprawdzone i na tamtym zbiorze niewykonalne** — faza SSVEP nie jest zsynchronizowana z oknami (`14_REANALIZA.md` §6B). Możliwe, że filtr przestrzenny uczony na osobie odzyskuje część straty montażu zwartego. **Podnosi to prawdopodobieństwo R4 z 15% na 25%** i jest głównym powodem, dla którego własne stanowisko musi zapisywać moment zapłonu bodźca od pierwszej sesji.
 
 **Plan awaryjny:** jeżeli efekt wyjdzie mały, to znaczy, że **moduł zwarty działa prawie tak dobrze jak montaż literaturowy** — czyli twierdzenie odwraca znak i staje się **lepszą wiadomością dla urządzenia**: „gabaryt mieszczący się w module nie kosztuje przepustowości". To też jest wynik, też jest publikowalny i **jest korzystniejszy z punktu widzenia produktu**.
 

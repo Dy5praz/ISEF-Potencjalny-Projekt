@@ -79,7 +79,7 @@ Moduł na potylicy, plus zestaw punktów odniesienia o rosnącej odległości. W
 **Diody LED, nie ekran.** Powód `[fakt]`: ekran ma odświeżanie 60 albo 120 Hz i częstotliwości niebędące jego dzielnikami są odtwarzane z modulacją; Kołodziej użył panelu LED 6×6 cm, światło zielone, 7/8/9 Hz.
 
 - panel LED sterowany osobnym mikrokontrolerem, wypełnienie i częstotliwość z licznika sprzętowego, nie z opóźnienia programowego
-- **fotodioda wpięta w wejście pomocnicze rejestratora** — nie do sterowania, tylko po to, żeby **udowodnić, że bodziec miał częstotliwość, którą deklarujemy**, i żeby zsynchronizować okna. `[wniosek]` To jest tania pozycja, która w rubryce `Execution` waży więcej niż jakikolwiek element obudowy
+- **fotodioda wpięta w wejście pomocnicze rejestratora — WARUNEK KONIECZNY, nie udogodnienie.** Dwa zadania: udowodnić, że bodziec miał częstotliwość, którą deklarujemy, **oraz zapisać moment zapłonu, żeby okna dało się ciąć względem bodźca, a nie względem początku pliku**. `[fakt, `14_REANALIZA.md` §6B]` W zbiorze Kołodzieja tego nie ma i przez to **TRCA — metoda o najwyższym ITR w dziedzinie — jest tam niedostępna**, czego nie da się naprawić żadną analizą po fakcie. To najtańsza pozycja w całym zestawieniu i jedna z najważniejszych
 - częstotliwości: **nie 7/8/9 Hz.** Pasmo 7–9 Hz leży w rytmie alfa, który sam w sobie ma tam maksimum nad potylicą — to zawyża poziom bazowy i mieszał się z artefaktami u Kołodzieja. Do własnych pomiarów **8–15 Hz z krokiem nierównomiernym** albo pasmo 12–20 Hz, żeby harmoniczne nie wpadały na siebie. Konkretny dobór — `16_PLAN_EKSPERYMENTALNY.md` §3.2
 
 ### 2.5 Bezpieczeństwo — warunek wstępny, nie pozycja na końcu

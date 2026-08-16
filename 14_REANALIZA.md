@@ -273,6 +273,39 @@ Zanim zamknę tę oś, sprawdziłem wersję, w której **narzędzie jest inne**,
 
 **Netto: sprzęt się upraszcza, a nie komplikuje** — jedna elektroda mniej, i to ta, która leżała najbardziej niewygodnie.
 
+---
+
+## 6B. TRCA — sprawdzone i okazało się niewykonalne na tym zbiorze
+
+TRCA (task-related component analysis) to metoda, która w literaturze daje najwyższe ITR dla SSVEP, i jedyna z listy, której w §2 nie przetestowałem. Sprawdziłem ją, żeby ustalić, czy strata 9,3–24,5 pp z §5 nie jest artefaktem użycia FBCCA.
+
+**Wynik surowy:** wszystkie montaże 32,0–34,1%, przy poziomie losowym 33,3%. **Czyli TRCA nie działa w ogóle**, a nie „nie widzi różnicy między montażami".
+
+### Dlaczego — zdiagnozowane, nie zgadnięte
+
+TRCA buduje szablon przez uśrednianie prób, więc wymaga, żeby **faza SSVEP była powtarzalna między próbami**. Sprawdziłem ją wprost: spójność fazy składowej o częstotliwości bodźca na elektrodzie Oz.
+
+| Zapis | Spójność fazy R | Amplituda po uśrednieniu 60 okien / amplituda pojedynczego |
+|---|---|---|
+| S01, 7 Hz | 0,108 | 0,13 |
+| S01, 8 Hz | 0,056 | 0,08 |
+| S01, 9 Hz | 0,075 | 0,07 |
+| S02, 7 Hz | 0,027 | 0,02 |
+| S02, 8 Hz | 0,011 | 0,01 |
+| S02, 9 Hz | 0,053 | 0,07 |
+
+`[fakt]` **R ≈ 0, a uśrednienie 60 okien obniża amplitudę w stosunku 1/√60 ≈ 0,13** — czyli dokładnie tak, jak zachowuje się **szum o losowej fazie**. Faza SSVEP nie jest zsynchronizowana z granicami okien.
+
+**Przyczyna** `[wniosek]`: bodziec LED był swobodnie bieżący i nie był zsynchronizowany z rejestratorem, a okna to arbitralne cięcia ciągłego nagrania. Autorzy używali cech **amplitudowych FFT**, które fazy nie potrzebują, więc ich to nie ograniczało — i dlatego ta wada zbioru nie ujawniła się w ich pracy.
+
+### Dwie konsekwencje, obie istotne
+
+1. `[luka]` **Strata montażu zwartego pozostaje niesprawdzona metodami szablonowymi.** Liczby 9,3–24,5 pp obowiązują dla FBCCA, CCA i cech FFT — czyli dla metod bez uczenia albo bez fazy. **Czy przeżywają pod TRCA, rozstrzygnie dopiero własny pomiar.** Zapisuję to jako otwarte i wpisuję do ryzyka R4.
+
+2. **Twardy wymóg konstrukcyjny dla własnego stanowiska, wyprowadzony z tej porażki:** **rejestracja musi zapisywać moment zapłonu bodźca**, a okna muszą być cięte względem niego, nie względem początku pliku. Bez tego TRCA — metoda o najwyższym ITR w dziedzinie — jest **niedostępna**, i to nie da się naprawić po fakcie żadną analizą.
+
+**Kanał fotodiody, który wpisałem do projektu jako kontrolę częstotliwości bodźca, awansuje z „dobrze mieć" na „warunek konieczny".** To jest najtańsza pozycja w całym zestawieniu materiałowym i właśnie okazała się jedną z najważniejszych.
+
 ## 7. Komplet trzech punktów wymagany przez handbook §2.2
 
 Handbook zakazuje pisania „nie da się" bez podania trzech rzeczy naraz. Podaję.
@@ -325,7 +358,7 @@ Dodatkowo przeżywa **zewnętrzny punkt odniesienia**, i jest mocniejszy niż po
 3. **Moja implementacja FBCCA nie jest ich implementacją.** Dostaję 73,3% tam, gdzie oni podają 73,9%; przy pełnej kompensacji 77,4% wobec ich 80,1%. Różnice w doborze podpasm. **Porównania wewnątrz mojej tabeli są rzetelne, porównania mojej liczby z ich liczbą — nie.**
 4. **Odległości elektrod (3,5 cm, 7 cm) to przeliczenie z układu 10–20 na głowę dorosłego**, nie pomiar. Rząd wielkości, nie wartość.
 5. **Nie sprawdziłem zbioru pod kątem błędów** — przyjąłem go takim, jaki jest.
-6. **Nie testowałem TRCA** ani metod z uczeniem wewnątrzosobniczym, które są dziś standardem w mocnych systemach SSVEP. Możliwe, że przy TRCA obraz wygląda inaczej `[luka]`.
+6. **TRCA sprawdzone i niewykonalne na tym zbiorze** — faza SSVEP nie jest zsynchronizowana z oknami (§6B). Wszystkie liczby w tym pliku obowiązują dla metod bez fazy: FBCCA, CCA, cechy FFT. Czy przeżywają pod TRCA — `[luka]`, do rozstrzygnięcia własnym pomiarem.
 7. **Jedno źródło** dla twierdzenia, że Cz jest standardową referencją w SSVEP: Wu i Su 2014. Oznaczam zgodnie z regułą — to jest jedno źródło, nie dwa.
 
 ---
