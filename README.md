@@ -28,6 +28,8 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 | `20_ZAKUPY.md` | **ceny OpenBCI odczytane u producenta, pięć wariantów platformy, właściwa lista sprzętu pomiarowego** |
 | `21_ODPOWIEDZI.md` | **audyt prior art dla nowej osi w pięciu bazach, definicja „wymiernego sukcesu", przesiew E0, granica interfejsów nieinwazyjnych, werdykt „warto?"** |
 | `22_POROWNANIE.md` | **ocena ConOps drona i ortezy, porównanie z interfejsem, werdykt i warunek jego odwrócenia** |
+| `23_NOTY.md` | **przewidywane noty Explory i ISEF dla trzech projektów, na skali z regulaminów** |
+| **`24_PLAN_DZIALANIA.md`** | **plan krok po kroku, prowadzony na bieżąco — pozycje skreślane z datą** |
 | `analiza/` | kod reanalizy, uruchamialny od zera, zwalidowany wobec publikacji |
 | `archiwum_poprzednie/` | ConOps drona i ortezy — dwa poprzednie kierunki, zachowane jako materiał porównawczy |
 
@@ -37,7 +39,7 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 
 **Etap 2 — wszystkie pięć punktów `HANDBOOK.md` §11 domknięte:** gotowy projekt (`15`), twierdzenie z punktem odniesienia (`15` §1), plan eksperymentalny (`16`), ocena szans (`19`), ryzyka z planami awaryjnymi (`17`).
 
-**Nowe korekty: K-051…K-056.**
+**Nowe korekty: K-051…K-057.**
 
 ---
 

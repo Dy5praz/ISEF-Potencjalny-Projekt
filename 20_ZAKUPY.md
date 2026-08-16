@@ -180,3 +180,43 @@ Cyton jest zbudowany na **ADS1299 — dokładnie tym układzie, wokół którego
 1. **wrzesień 2026: szukać używanego Cytona** — eBay, OLX, fora OpenBCI, grupy uczelniane. Warunki odbioru w §3.1
 2. **jeżeli do 30 IX nic sensownego** — wtedy dopiero Ganglion, świadomie przyjmując utratę T3, jednego punktu krzywej i całej nauki ADS1299
 3. **nowy Cyton za 6 000–6 800 zł — nie.** Trzykrotność budżetu za to samo, co używany
+
+---
+
+## 7. Ryzyko zakupu z drugiej ręki — odpowiedź na zastrzeżenie użytkownika
+
+**Zastrzeżenie:** *„jakby przyszedł wadliwy to cofnie nas to co najmniej miesiąc"*. **Trafne, ale dotyczy nie tego, czego się wydaje.**
+
+### 7.1 Miesiąc traci się przez termin zakupu, nie przez stan płytki
+
+Test odbiorczy z §3.1 punkt 5 — **zewrzeć wejścia, zmierzyć szum RMS w OpenBCI GUI** — zajmuje **kwadrans** i wykrywa praktycznie każdą wadę istotną dla naszego zastosowania: martwy kanał, uszkodzony front-end, zawyżony szum, brak łączności.
+
+`[wniosek]` **Wadliwy egzemplarz kosztuje miesiąc tylko wtedy, gdy wadę wykryjesz miesiąc po dostawie.** Przy teście w dniu dostawy koszt to czas na zwrot i drugi zakup — czyli 2–3 tygodnie, i **tylko wtedy, gdy nie ma zapasu w kalendarzu**.
+
+**Zapas jest.** Zakup planowany na wrzesień, E0 na październik. Płytka wadliwa w połowie września zostawia czas na nowy Ganglion i E0 w końcu października. **Ryzyko zamyka się terminem zakupu, nie ceną.**
+
+### 7.2 Co realnie zmniejsza ryzyko, w kolejności skuteczności
+
+1. **Kupować we wrześniu, nie w październiku.** Najskuteczniejsze i darmowe
+2. **Test odbiorczy w dniu dostawy**, wpisany do planu jako pozycja, nie jako dobra praktyka
+3. **Filtrować oferty po „zwroty akceptowane".** Na eBayu dochodzi do tego ochrona kupującego dla „niezgodny z opisem" — nie odzyskuje miesiąca, ale odzyskuje pieniądze
+4. **Wymagać zdjęcia płytki z czytelnymi oznaczeniami ADS1299 i PIC32** przed zakupem
+5. **Źródła bezpieczniejsze niż eBay:** koła naukowe i laboratoria na uczelniach technicznych, forum OpenBCI, grupy studenckie. Sprzęt kupiony z grantu, używany kilka razy, sprzedawany przez kogoś z nazwiskiem i afiliacją
+
+### 7.3 Czego dowiedziałem się o zakupie nowego, i to zmienia rachunek
+
+`[fakt, regulamin sklepu OpenBCI odczytany 16 VIII 2026]`
+
+> *„If you have received the wrong or a **damaged item**, we will take care of return shipping and send you a **replacement at no additional charge**."*
+
+Zwroty i wymiany do **30 dni od dostawy**. **Polska jest na liście krajów wysyłkowych**, a sklep obsługuje ceny w PLN.
+
+`[luka]` **Nie ustaliłem, czy cena dla Polski jest z opłaconym cłem.** Jeżeli tak, mój narzut „6 000–6 800 zł" jest zawyżony. **To jest jedno pytanie mailem do `sales@openbci.com`** i warto je zadać przed decyzją — razem z pytaniem o dystrybutora w UE, bo dystrybutor oznaczałby brak cła, krótszą wysyłkę i gwarancję na miejscu.
+
+### 7.4 Rekomendacja po uwzględnieniu zastrzeżenia — bez zmian, ale z terminem
+
+**Używany Cyton nadal pierwszy, ale z twardym terminem: decyzja do 30 IX.** Powód jest teraz inny niż w §3.1 — nie tylko cena, ale to, że **wrześniowy zakup ma wbudowany zapas na pomyłkę, a październikowy nie ma**.
+
+**Jeżeli szukanie okaże się męczące albo oferty będą wątpliwe — nie przeciągaj.** Nowy Ganglion za 3 000–3 400 zł z gwarancją producenta i prawem do wymiany uszkodzonego egzemplarza jest **rozsądnym zakupem, jeżeli alternatywą jest kupowanie używanego w pośpiechu w październiku**. Straty względem Cytona są policzone w §6.1 i są znane: cztery kanały zamiast ośmiu, brak nauki ADS1299, znak zapytania przy zapisie momentu zapłonu bodźca.
+
+**Czego nadal nie rekomenduję: nowego Cytona za 6 000–6 800 zł.** Nawet po uwzględnieniu gwarancji to jest trzykrotność budżetu za funkcję, którą w 95% przypadków zapewnia kwadransowy test odbiorczy.
