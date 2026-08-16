@@ -25,6 +25,28 @@ Zapisuję **dwa** twierdzenia. Oba będą raportowane niezależnie od wyniku. G�
 
 ---
 
+---
+
+## 1A. Eksperyment E0 — przesiew, PIERWSZY POMIAR W CAŁYM PROJEKCIE
+
+**Dodany 16 VIII 2026 po pytaniu użytkownika, czy da się rozpoznać ryzyko R1 łatwiej niż pełną kampanią. Da się.**
+
+`[fakt, dwa niezależne zespoły]` **Velut i in., *Imaging Neuroscience* 4, 2026** oraz **Thielen, *Biomed Phys Eng Express* 11(4), 2025 (PMID 40494367)** wskazują zgodnie te same predyktory skuteczności BCI: **amplituda międzyszczytowa flash-VEP**, **korelacja między epokami**, **moc pasma alfa** (oraz θ i δ).
+
+| Krok | Czas | Co daje |
+|---|---|---|
+| alfa spoczynkowa: 2 min oczy zamknięte + 2 min otwarte | 4 min | stosunek mocy α |
+| flash-VEP: ~200 pojedynczych błysków, uśrednienie | ~8 min | amplituda międzyszczytowa, korelacja między epokami |
+| krótka próba SSVEP, 3 cele, 60 prób | ~5 min | odpowiedź bezpośrednia, przedział ±9 pp |
+
+**Razem ~20 minut przy pierwszym uruchomieniu kupionej platformy, październik 2026.**
+
+**Próg zapisany z góry:** jeżeli krótka próba SSVEP da poniżej **50%** przy trzech celach (poziom losowy 33,3%) **oraz** amplituda flash-VEP będzie w dolnym zakresie — uruchamiamy plan awaryjny R1, czyli przyspieszamy powołanie komisji IRB, żeby móc mierzyć na kimś innym.
+
+`[luka]` Oba źródła dotyczą **c-VEP**, nie SSVEP. Wspólnota predyktorów jest `[wniosek]` — oba paradygmaty stoją na odpowiedzi kory wzrokowej na bodziec migający.
+
+**Trzecie źródło o skali problemu:** *Streamlining cVEP Paradigms*, Brain Sciences 15(6):549, 2025, **38 badanych** — po redukcji liczby elektrod z 16 do 6 pipeline **przestaje działać u znacznej części osób**. `[wniosek]` W naszym reżimie (mało kanałów, mały moduł) odsetek osób nieskutecznych jest **wyższy** niż ogólne 10–30%. To jest główny argument za wykonaniem E0 przed czymkolwiek innym.
+
 ## 2. Eksperyment E1 — charakterystyka toru, bez człowieka
 
 **Po co osobno:** dopóki tor nie jest zmierzony na stole, każdy wynik z głowy jest nierozstrzygalny. To jest też rubryka `Execution` arkusza inżynierskiego w czystej postaci.
@@ -40,7 +62,11 @@ Zapisuję **dwa** twierdzenia. Oba będą raportowane niezależnie od wyniku. G�
 
 **Punkt krytyczny:** krzywa CMRR wobec niedopasowania impedancji jest **jedynym pomiarem E1, który wchodzi bezpośrednio do twierdzenia**. Elektrody suche na owłosionej potylicy mają różne impedancje, a to jest miejsce, w którym — wg pomiaru cudzego zespołu — układ się wywraca. Krzywa mówi, jaką tolerancję impedancji musi zapewnić konstrukcja elektrody.
 
-`[luka]` **Sprzęt pomiarowy jest nieustalony** (`00_PYTANIA_I_LUKI.md` B3). E1 wymaga generatora i przyrządu o szumie własnym poniżej mierzonego. Bez tego E1 nie da się wykonać w pełni, a wtedy część twierdzenia stoi na deklaracji. **To jest pozycja do rozstrzygnięcia z bratem, jesienią 2026, i wpisana jako ryzyko R3 w `17_RYZYKA.md`.**
+> **POPRAWKA, 16 VIII 2026 — K-056.** Pierwotnie stało tu: *„E1 wymaga generatora i przyrządu o szumie własnym poniżej mierzonego"*. **To nieprawda dla najważniejszego pomiaru E1.** Szum wejściowy mierzy się **samym torem** — zwarte wejście, RMS z próbek własnego przetwornika 24-bitowego; oscyloskop hobbystyczny ma szum własny tysiąc razy większy od mierzonej wielkości i do tego zadania się nie nadaje. **Przyrząd zewnętrzny jest potrzebny jako ŹRÓDŁO znanego sygnału, nie jako miernik.**
+>
+> **Co z tego realnie trzeba kupić:** dzielnik precyzyjny do samodzielnego zlutowania (rezystory 0,1%, **30–80 zł — jedyne miejsce, gdzie dokładność jest krytyczna**) oraz generator funkcyjny ze średniej półki (250–600 zł; jego własny szum przy pomiarze CMRR jest sygnałem wspólnym i tłumi się razem z nim). Rozbiór: **`20_ZAKUPY.md` §4**.
+>
+> `[luka]` Bez pożyczonego sprzętu nie da się zmierzyć **jitteru próbkowania** ani potwierdzić CMRR powyżej ~100 dB. To jest właściwe zastosowanie zasobu „brat", luty 2027, na gotową płytkę v1. Do tego czasu obie liczby podajemy jako katalogowe, z jawnym zaznaczeniem.
 
 ---
 

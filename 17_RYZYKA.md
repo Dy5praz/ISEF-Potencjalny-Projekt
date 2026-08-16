@@ -11,9 +11,9 @@ Każde ryzyko oceniam w trzech wymiarach wymaganych przez `HANDBOOK.md` §2.2: *
 
 | # | Ryzyko | P | Sterowalność | Koszt | Kiedy się rozstrzyga |
 |---|---|---|---|---|---|
-| **R1** | słaba odpowiedź SSVEP u autora | **20–30%** | niska | **bardzo wysoki** | **X 2026** |
+| **R1** | słaba odpowiedź SSVEP u autora | **20–30%** | niska | **bardzo wysoki** | **X 2026, przesiew E0 — 20 min** |
 | **R2** | własny tor analogowy nie osiąga użytecznego szumu | 40% | wysoka | średni | II 2027 |
-| **R3** | brak sprzętu pomiarowego do charakterystyki toru | **50%** `[luka]` | średnia | średni | X 2026 |
+| **R3** | brak sprzętu pomiarowego do charakterystyki toru | **20%** | średnia | **niski** | **przeszacowane, K-056** |
 | **R4** | efekt odległości odniesienia < 3 pp — T1 upada | **25%** | zerowa | wysoki | XI 2026 (na cudzych danych: już częściowo znany) |
 | **R5** | ktoś publikuje tę samą oś przed nami | 10–20% | zerowa | **niski** | ciągle |
 | **R6** | komisja IRB przy szkole nie powstaje | 30% | średnia | niski | XII 2026 |
@@ -57,7 +57,11 @@ Cały plan jednoosobowy do maja 2027 stoi na założeniu, że autor nie jest tak
 
 ## R3 — brak sprzętu pomiarowego do E1
 
-`[luka]` Pytanie B3 z `00_PYTANIA_I_LUKI.md` nadal bez odpowiedzi. Bez oscyloskopu o niskim szumie własnym albo karty pomiarowej nie da się **udowodnić**, że front-end działa.
+**Ryzyko przeszacowane — obniżam z 50% na 20%, K-056.** Użytkownik odpowiedział na B3: ma **regulowaną stację lutowniczą i multimetr**. Ważniejsze jest jednak to, że moje sformułowanie wymagania było błędne.
+
+`[fakt]` Szum wejściowy toru mierzy się **samym torem**, nie przyrządem zewnętrznym — zwarte wejście, RMS z próbek przetwornika 24-bitowego. Oscyloskop hobbystyczny ma szum własny rzędu setek mikrowoltów, czyli **tysiąc razy większy** od mierzonej wielkości, i do tego pomiaru jest bezużyteczny. Przyrząd zewnętrzny jest potrzebny **jako źródło znanego sygnału**.
+
+**Realny brak sprowadza się do dwóch pozycji za łącznie 280–680 zł** (dzielnik precyzyjny do zlutowania oraz generator funkcyjny) — `20_ZAKUPY.md` §4. Oscyloskop schodzi z „niezbędny" na „przydatny do debugowania", czyli pierwszy kandydat do pożyczenia.
 
 **Plan awaryjny:**
 1. **droga przez brata** — pracuje w firmie produkującej precyzyjną elektronikę; to jest zasób jednorazowy i trzeba go zaplanować, nie zużyć przypadkiem (`HANDBOOK.md` §1). Zaplanować na **luty 2027**, na gotową płytkę v1, nie wcześniej

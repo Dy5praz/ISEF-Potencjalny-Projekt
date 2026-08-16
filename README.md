@@ -25,6 +25,8 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 | `17_RYZYKA.md` | jedenaście ryzyk, każde z planem awaryjnym, w trzech wymiarach |
 | `18_PYTANIA_ETAP2.md` | pięć pytań do użytkownika, każde z wariantem domyślnym |
 | `19_SZANSE_PO_ZMIANIE.md` | **ocena szans przeliczona po zmianie osi** — piąty i ostatni punkt handbooka §11 |
+| `20_ZAKUPY.md` | **ceny OpenBCI odczytane u producenta, pięć wariantów platformy, właściwa lista sprzętu pomiarowego** |
+| `21_ODPOWIEDZI.md` | **audyt prior art dla nowej osi w pięciu bazach, definicja „wymiernego sukcesu", przesiew E0, granica interfejsów nieinwazyjnych, werdykt „warto?"** |
 | `analiza/` | kod reanalizy, uruchamialny od zera, zwalidowany wobec publikacji |
 
 **Decyzje 5 i 6 zapadły 16 VIII 2026** (`DECYZJE.md`): oś projektu — **wariant C**, czyli sprzęt obsługuje obie osie, wybór po pierwszych własnych pomiarach; wyprowadzenie elektrody odniesienia za ucho — **zgoda**.
@@ -33,7 +35,7 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 
 **Etap 2 — wszystkie pięć punktów `HANDBOOK.md` §11 domknięte:** gotowy projekt (`15`), twierdzenie z punktem odniesienia (`15` §1), plan eksperymentalny (`16`), ocena szans (`19`), ryzyka z planami awaryjnymi (`17`).
 
-**Nowe korekty: K-051, K-052, K-053.**
+**Nowe korekty: K-051…K-056.**
 
 ---
 

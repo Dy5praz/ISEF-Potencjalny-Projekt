@@ -757,3 +757,42 @@ Do tego `PRZEKAZANIE.md` sekcja 4.2 wpisała jako **pierwsze zadanie etapu 2** �
 **Dlaczego to jest błąd tej samej klasy co błędy merytoryczne, a nie drobiazg organizacyjny:** cała praca etapu 2 jest bezwartościowa, jeżeli nie dociera do osoby, która ma na jej podstawie decydować. **Myliłem zapisanie pracy z jej dostarczeniem** — dokładnie tak, jak wcześniej myliłem „opis realizacji się nie spina" z „projekt odpada" (`HANDBOOK.md` §8 punkt 7). To jest to samo mylenie dwóch różnych obiektów.
 
 **Poprawka:** nowa sekcja w `CLAUDE.md` — **„Dostarczanie plików — zasada twarda"**, umieszczona **nad** uwagami praktycznymi, żeby nie dało się jej przeoczyć. Treść: każdy powstały albo istotnie zmieniony plik trafia do rozmowy w tej samej wiadomości, w której o nim piszę; commit i push to archiwizacja, nie dostarczenie; odesłanie do repozytorium po treść jest zakazane.
+
+---
+
+### K-055 — zaniżyłem cenę platformy odniesienia o połowę
+
+**Co było źle:** w `15_PROJEKT.md` §3.1 wpisałem „OpenBCI Cyton, 8 kanałów — ~2 500–3 500 zł", z adnotacją `[domysł]` i „cena katalogowa ~$500".
+
+**Stan faktyczny, katalog sklepu producenta odczytany 16 VIII 2026:** **Cyton Biosensing Board, 8 kanałów — 1 249,00 USD.** Nie 500 USD. Ganglion (4 kanały) — 624,99 USD. Sam klucz USB jako część zamienna — 249,00 USD.
+
+Po przeliczeniu i doliczeniu wysyłki ze Stanów, cła i VAT: **6 000–6 800 zł**, wobec moich 2 500–3 500 zł.
+
+**Kto to wyłapał:** użytkownik, sprawdzając stronę producenta. Podał 4 700 zł za samą płytkę i miał rację.
+
+**Dlaczego to jest błąd, a nie nieaktualna cena:** oznaczyłem tę liczbę `[domysł]`, ale **napisałem obok konkretną wartość „~$500" tak, jakby pochodziła ze źródła.** Znacznik pewności nie usprawiedliwia podania wymyślonej liczby — miałem sprawdzić albo napisać, że nie wiem. Sklep OpenBCI wystawia pełny katalog w formacie maszynowym pod adresem `/products.json` i odczytanie go zajęło jedno zapytanie.
+
+**Konsekwencja merytoryczna, większa niż sama cena:** przy 6 000–6 800 zł platforma przestaje być „pozycją do przyjęcia" i staje się największym wydatkiem projektu. To wymusiło rozbiór, po co ona naprawdę jest — i wyszło, że z trzech funkcji, które jej przypisałem, **jedna jest pozorna**: „baseline komercyjny" nie działa, bo OpenBCI nie jest produktem konsumenckim, tylko płytką badawczą. **Wycofuję ten argument z `13_PODNIESIENIE_SZANS.md` §6.**
+
+**Poprawka i rekomendacja:** `20_ZAKUPY.md` — pięć wariantów z cenami, rekomendacja to **używany Cyton do 1 600 zł**, z Ganglionem jako awaryjnym i z listą kontrolną do zakupu z drugiej ręki.
+
+---
+
+### K-056 — postawiłem błędne wymaganie wobec sprzętu pomiarowego i przez to zawyżyłem ryzyko R3
+
+**Co było źle:** w `16_PLAN_EKSPERYMENTALNY.md` §2 napisałem, że E1 *„wymaga generatora i przyrządu o szumie własnym poniżej mierzonego"*, a w `17_RYZYKA.md` wyceniłem brak takiego przyrządu na **50% prawdopodobieństwa i średni koszt**.
+
+**Dlaczego to nieprawda:** szum wejściowy toru EEG mierzy się **samym torem** — zwiera się wejście przez rezystor i liczy RMS z próbek własnego przetwornika 24-bitowego. Dokładnie tak zrobili autorzy arXiv 2601.01772, uzyskując 0,08 µV RMS. **Oscyloskop hobbystyczny ma szum własny rzędu setek mikrowoltów**, czyli około tysiąc razy większy od mierzonej wielkości, i do tego zadania nie nadaje się w ogóle — niezależnie od ceny.
+
+**Właściwe sformułowanie:** przyrząd zewnętrzny jest potrzebny **jako źródło znanego sygnału**, nie jako miernik. Mierzy zawsze nasz tor. Z tego wynika zupełnie inna lista zakupowa:
+
+| Pomiar | Czego naprawdę wymaga |
+|---|---|
+| szum wejściowy, dryf | **nic zewnętrznego** |
+| CMRR | generator — **jego własny szum jest sygnałem wspólnym i tłumi się razem z nim**, więc nie musi być drogi |
+| kalibracja skali amplitudy | **dzielnik precyzyjny, rezystory 0,1%, 30–80 zł — jedyne miejsce, gdzie dokładność jest krytyczna** |
+| jitter, CMRR powyżej ~100 dB | źródło lepsze niż tani DDS — zasób „brat", luty 2027 |
+
+**Dlaczego to jest błąd wart zapisania:** użytkownik postawił słuszną zasadę („nie ma miejsca na błąd, bo za słabo mierzy") i moje sformułowanie kierowało tę zasadę **na najdroższy i najmniej użyteczny zakup w całym projekcie**. Dokładność w tym projekcie powstaje w przetworniku na własnej płytce i w dzielniku za kilkadziesiąt złotych, a nie w oscyloskopie za kilka tysięcy.
+
+**Poprawka:** wstawka w `16_PLAN_EKSPERYMENTALNY.md` §2, przeliczenie R3 z 50% na 20% i z kosztu średniego na niski, pełna lista zakupowa w `20_ZAKUPY.md` §4.
