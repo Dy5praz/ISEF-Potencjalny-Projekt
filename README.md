@@ -2,7 +2,9 @@
 
 Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 
-**Cel:** Explory 2027 → reprezentacja Polski na Regeneron ISEF, maj 2028.
+**Cel nadrzędny:** studia za granicą, najpewniej w Stanach. **Explory 2027 → ISEF maj 2028 są środkiem, nie celem** — `HANDBOOK.md` §3, poprawka z 16 VIII 2026 (K-059).
+
+**Zasada pracy:** zaczynaj od tego, co punktują arkusze oceny; luka w literaturze jest dodatkiem, nie warunkiem.
 
 ---
 
@@ -30,6 +32,7 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 | `22_POROWNANIE.md` | **ocena ConOps drona i ortezy, porównanie z interfejsem, werdykt i warunek jego odwrócenia** |
 | `23_NOTY.md` | **przewidywane noty Explory i ISEF dla trzech projektów, na skali z regulaminów** |
 | **`24_PLAN_DZIALANIA.md`** | **plan krok po kroku, prowadzony na bieżąco — pozycje skreślane z datą** |
+| **`26_PRZEKAZANIE_ETAP3.md`** | **stan na koniec etapu 2 — czytaj to pierwsze w nowej rozmowie** |
 | **`25_AUDYT_OPENAIRE.md`** | **audyt w bazach wcześniej niedostępnych — oś zajęta szerzej, niż podawałem; wniosek o optymalizowaniu pod nowość** |
 | `analiza/` | kod reanalizy, uruchamialny od zera, zwalidowany wobec publikacji |
 | `archiwum_poprzednie/` | ConOps drona i ortezy — dwa poprzednie kierunki, zachowane jako materiał porównawczy |
@@ -40,7 +43,7 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 
 **Etap 2 — wszystkie pięć punktów `HANDBOOK.md` §11 domknięte:** gotowy projekt (`15`), twierdzenie z punktem odniesienia (`15` §1), plan eksperymentalny (`16`), ocena szans (`19`), ryzyka z planami awaryjnymi (`17`).
 
-**Nowe korekty: K-051…K-058.**
+**Nowe korekty: K-051…K-059.**
 
 ---
 

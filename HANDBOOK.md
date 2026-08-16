@@ -109,7 +109,17 @@ Bez kompletu tych trzech nie masz prawa napisać, że coś odpada. Niewykonalno�
 
 ## 3. Cel i harmonogram — jeden strzał
 
-**Cel nadrzędny:** poważne miejsce na Regeneron ISEF, maj 2028. Nie sam udział — placement w kategorii.
+> **POPRAWKA, 16 VIII 2026 — `KOREKTY.md` K-059. Hierarchia celów była w tym dokumencie postawiona o jeden poziom za nisko.**
+>
+> **Celem nadrzędnym są studia za granicą, najpewniej w Stanach** — ustalone przez użytkownika. **Placement na ISEF jest środkiem, nie celem.**
+>
+> Konsekwencja, nie kosmetyczna: wyjazd na ISEF ma prawdopodobieństwo **~14%**, a **dorobek** (zbudowane urządzenie, odtwarzalne badanie, preprint) **~50–60%** i leży prawie w całości pod kontrolą autora. **Optymalizować pod dorobek, wynik konkursowy traktować jako premię.** Rozbiór: `21_ODPOWIEDZI.md` §5, `19_SZANSE_PO_ZMIANIE.md`.
+>
+> `[fakt]` **Kalendarz sprzyja:** ISEF maj 2028 wypada **przed** aplikacjami na studia (matura maj 2029 → aplikacje jesień 2028). Wynik i preprint zdążą wejść do dokumentów rekrutacyjnych.
+>
+> `[luka]` SAT, TOEFL, terminy aplikacji, pomoc finansowa dla obcokrajowców, need-blind wobec need-aware — **nieustalone, poza kompetencją tego dokumentu**, do osobnej pracy.
+
+**Cel pośredni:** poważne miejsce na Regeneron ISEF, maj 2028. Nie sam udział — placement w kategorii.
 
 **Explory jest drogą, nie celem.** [fakt] Wygrana w Explory to jedyna droga w Polsce do nominacji do reprezentacji na ISEF — Fundacja Zaawansowanych Technologii ma wyłączność krajową.
 

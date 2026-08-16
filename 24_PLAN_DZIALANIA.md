@@ -8,6 +8,14 @@
 
 ---
 
+## Cel nadrzędny — wpisany 16 VIII 2026
+
+**Studia za granicą, najpewniej w Stanach. Explory i ISEF są środkiem, nie celem.** Dorobek (urządzenie + odtwarzalne badanie + preprint) ma ~50–60% i leży pod kontrolą autora; wyjazd na ISEF ~14% i zależy od jury. **Priorytet ustawiać pod dorobek.** ISEF maj 2028 wypada przed aplikacjami jesienią 2028, więc oba zdążą.
+
+**Zasada pracy: zaczynaj od tego, co punktują arkusze oceny, nie od polowania na lukę** (K-059).
+
+---
+
 ## Kamień milowy 0 — sierpień 2026 (TERAZ)
 
 - [x] ~~Reanaliza danych Kołodzieja, walidacja pipeline'u wobec publikacji~~ — **16 VIII** · AI
@@ -16,6 +24,8 @@
 - [x] ~~Test kanału szczękowego na żądanie użytkownika~~ — **16 VIII** · AI
 - [x] ~~Decyzje 5 i 6 (oś: wariant C; przewód odniesienia za ucho: zgoda)~~ — **16 VIII** · JT
 - [x] ~~Ocena ConOps drona i ortezy, porównanie, noty~~ — **16 VIII** · AI
+- [x] ~~Audyt w bazach wcześniej niedostępnych; oś zajęta od 2005; K-058~~ — **16 VIII** · AI
+- [x] ~~Zmiana hierarchii celów i zasady „od arkuszy"; K-059~~ — **16 VIII** · JT + AI
 - [ ] **Przeczytać `14_REANALIZA.md` w całości** — reszta dokumentów z niego wynika · JT
 
 ---
@@ -124,7 +134,7 @@
 
 - [ ] Kampania dokończona, dane kompletne · JT
 - [ ] Grupa badanych po powołaniu komisji IRB, 10–15 osób · JT
-- [ ] **Preprint z reanalizy** — arXiv albo bioRxiv. **Niezależny od sprzętu i od wyniku konkursu** (`21_ODPOWIEDZI.md` §5.2) · JT + AI
+- [~] **Preprint z reanalizy** — **WSTRZYMANY decyzją użytkownika 16 VIII 2026.** Oznaczony jako **pierwsza pozycja do podjęcia przy powrocie w nowej rozmowie** (`26_PRZEKAZANIE_ETAP3.md` §1). Materiał gotowy w ~80% · JT + AI
 - [ ] **20–23 X 2027 — FINAŁ EXPLORY, GDYNIA** · JT
 
 ---
@@ -157,6 +167,8 @@
 - [x] ~~Ile kosztuje OpenBCI~~ — **1 249 USD za Cyton, K-055**
 - [x] ~~Jaki oscyloskop do pomiaru mikrowoltów~~ — **żaden, K-056.** Mierzy własny przetwornik
 - [x] ~~Czy orteza i dron są lepsze~~ — **`22_POROWNANIE.md`, `23_NOTY.md`**
+- [x] ~~Czy oś trzyma się w bazach, które blokowały~~ — **nie; badana od 2005, K-058**
+- [x] ~~Czy zaczynać od luki, czy od arkuszy~~ — **od arkuszy, decyzja użytkownika 16 VIII, K-059**
 
 ---
 

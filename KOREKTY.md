@@ -849,3 +849,25 @@ Po przeliczeniu i doliczeniu wysyłki ze Stanów, cła i VAT: **6 000–6 800 z�
 **Poprawka:** pełny rozbiór w `25_AUDYT_OPENAIRE.md`. Ryzyko, że wąska wersja osi jest już opublikowana, podniesione z 10–15% na **25–40%**. Twierdzenie projektu przeformułowane z „nikt nie zbadał" na „publikowano porównania dyskretnych montaży; mierzę zależność ciągłą pod ograniczeniem gabarytu" — z obowiązkiem cytowania siedmiu prac zamiast ich przemilczenia.
 
 **Wniosek wykraczający poza tę korektę, zapisany w `25_AUDYT_OPENAIRE.md` §5:** trzy projekty, trzy osie, wszystkie zajęte po przeszukaniu słownictwem dziedziny. **Dla licealisty twierdzenie „nikt tego nie zrobił" jest praktycznie niedostępne.** Ani arkusz ISEF, ani kryteria Explory nie mają rubryki „nowość" — optymalizowaliśmy pod kryterium warte najwyżej 10 punktów na 100 i trzykrotnie przebudowywaliśmy pod nie projekt.
+
+---
+
+### K-059 — optymalizowałem projekt pod kryterium, którego arkusze oceny nie mają
+
+**Co było źle:** przez cały etap 1 i cały etap 2 traktowałem **nowość twierdzenia** jako główną miarę jakości projektu. Trzy przejścia audytu adwersaryjnego w `12_AUDYT.md`, trzy dodatkowe rundy przeszukiwania 16 VIII, **dwie przebudowy osi projektu w jeden dzień** — wszystko po to, żeby ustalić, czy ktoś już czegoś nie zrobił.
+
+**Czego nie sprawdziłem, mając to w repozytorium od etapu 1:** `[fakt, `ISEF_ARKUSZE_OCENY.md`]` **arkusz inżynierski ISEF nie ma rubryki „nowość"**. Ma Research Problem (10), Design and Methodology (15), Execution: Construction and Testing (20), Creativity & Potential Impact (20), **Presentation (35)**. Kryteria Explory (`HANDBOOK.md` §4.7) mają „innowacyjność / wkład w state-of-the-art" wartą **10 punktów na 40** w półfinale i **zero punktów w finale**.
+
+**Czyli optymalizowałem pod kryterium warte najwyżej 10 punktów na 100 i trzykrotnie pod nie przebudowywałem projekt**, podczas gdy sama rubryka prezentacyjna waży 35 punktów i przez cały czas była oznaczona jako `[luka]`.
+
+**Dlaczego to jest większy błąd niż którakolwiek z korekt K-051…K-058:** tamte były pomyłkami w faktach i każdą dało się naprawić jednym sprawdzeniem. Ta jest pomyłką w **kryterium**, więc unieważniała kierunek całej pracy, a nie pojedynczą liczbę. Do tego **kosztowała użytkownika wieczór i morale**, bo po każdej rundzie wyglądało to jak kolejny upadek projektu — podczas gdy upadało wyłącznie zdanie o nowości, a nie projekt.
+
+**Skala kosztu:** trzy kierunki projektowe (dron, orteza, interfejs) i wszystkie trzy „padły" na tym samym kryterium, choć żaden nie padł na kryterium punktowanym.
+
+**Poprawka — reguła nadrzędna, wpisana do `CLAUDE.md` nad wszystkim innym:**
+
+> **Zaczynaj od tego, co arkusze punktują. Lukę traktuj jako miły dodatek, nie jako warunek.**
+
+Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia, tylko degraduje z „nowe" na „potwierdzone niezależnie" (`17_RYZYKA.md` R5). To zabezpieczenie było wpisane od początku etapu 2 i **zadziałało dokładnie tak, jak miało**, kiedy K-058 znalazł siedem prac.
+
+**Druga poprawka, przy okazji:** hierarchia celów w `HANDBOOK.md` §3 była postawiona o poziom za nisko — celem nadrzędnym są **studia za granicą**, a ISEF jest środkiem. Przy tej hierarchii dorobek (urządzenie, odtwarzalne badanie, preprint, ~50–60%) bije wynik konkursowy (~14%) i to on powinien wyznaczać priorytety.

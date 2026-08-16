@@ -2,12 +2,56 @@
 
 Użytkownik: Julek. **Odpowiadaj po polsku.**
 
+## PIERWSZA RZECZ PO WEJŚCIU W NOWĄ ROZMOWĘ
+
+**Zapytaj użytkownika, czy wracamy do preprintu z reanalizy.** Wstrzymany jego decyzją 16 VIII 2026 i **oznaczony jako pierwsza pozycja przy powrocie**. Podstawa: `14_REANALIZA.md` plus kod w `analiza/`. Rozbiór wartości: `21_ODPOWIEDZI.md` §5.2.
+
+---
+
+## Cel nadrzędny — hierarchia, nie jeden cel
+
+**Celem nadrzędnym są studia za granicą, najpewniej w Stanach.** Ustalone przez użytkownika 16 VIII 2026.
+
+**Explory i ISEF są środkiem do tego celu, nie celem samym w sobie.** To nie jest kosmetyka — zmienia priorytety:
+
+| | Prawdopodobieństwo | Uwaga |
+|---|---|---|
+| wyjazd na ISEF | **~14%** | dyplom, wysoka wartość, niska sterowalność |
+| **dorobek: urządzenie + odtwarzalne badanie + preprint** | **~50–60%** | **prawie w całości pod kontrolą użytkownika** |
+
+`[wniosek]` **Optymalizuj pod dorobek, wynik konkursowy traktuj jako premię.** Druga liczba jest cztery razy większa i nie zależy od jury. Pełne uzasadnienie: `21_ODPOWIEDZI.md` §5.
+
+`[fakt, kalendarz]` **ISEF maj 2028 wypada PRZED aplikacjami na studia** (matura maj 2029 → aplikacje jesień 2028). Wynik z ISEF i preprint zdążą wejść do dokumentów rekrutacyjnych. **To jest realna korzyść kalendarzowa i nie wolno jej zmarnować poślizgiem.**
+
+`[luka]` **Nieustalone i wymagające osobnej pracy:** SAT i TOEFL, terminy aplikacji, pomoc finansowa dla studentów zagranicznych, uczelnie need-blind wobec need-aware. **To nie jest moja dziedzina i nie udawaj, że jest** — przy pytaniach o rekrutację oznaczaj odpowiedzi jako `[domysł]`.
+
+---
+
+## Zasada nadrzędna pracy nad projektem — od arkuszy, nie od luki
+
+**Ustalona 16 VIII 2026 po `KOREKTY.md` K-059.**
+
+`[fakt]` **Arkusz inżynierski ISEF nie ma rubryki „nowość".** Ma: Research Problem (10), Design and Methodology (15), Execution (20), Creativity & Potential Impact (20), **Presentation (35)**. Explory ma „innowacyjność" wartą 10 pkt na 40 w półfinale i **zero w finale**.
+
+**Zaczynaj od tego, co arkusze punktują. Lukę traktuj jako miły dodatek, nie jako warunek.**
+
+Polowanie na lukę kosztowało w jeden dzień **trzy przebudowy osi projektu**, a wszystkie trzy kierunki, jakie kiedykolwiek badaliśmy, okazały się zajęte po przeszukaniu **słownictwem dziedziny**. Dla licealisty „nikt tego nie zrobił" jest praktycznie niedostępne. **Twierdzenie ma być pomiarowe — wtedy cudza publikacja go nie unieważnia, tylko degraduje z „nowe" na „potwierdzone niezależnie".**
+
+**Dwie reguły przeszukiwania, obie kupione drogo (K-058):**
+1. **Każde „zero trafień" wymaga kontroli pozytywnej** — zapytania, o którym wiadomo, że musi coś zwrócić. Bez niej zero nie znaczy nic. Złapane dwa razy jednego dnia: arXiv i OpenAIRE
+2. **Przed przeszukaniem ustal słownictwo dziedziny** — przeczytaj dwie–trzy prace i wypisz, jak nazywają badaną zmienną. Szukanie własnymi słowami mierzy twoje słownictwo, nie literaturę
+
+---
+
 ## Co czytać, w tej kolejności
 
-1. **`HANDBOOK.md`** — jedyne źródło kontekstu. Zasady współpracy, cel, kalendarz, ściągawka Explory i ISEF, historia odrzuconych kierunków, rejestr wcześniejszych błędów, opis zlecenia. **Przeczytaj w całości, zanim cokolwiek zrobisz.**
-2. **`00_PYTANIA_I_LUKI.md`** — luki i sprzeczności znalezione w handbooku, odpowiedzi użytkownika z dwóch rund pytań, oraz **lista 12 zadań weryfikacyjnych na etap 1 z priorytetami** (sekcja 4d).
-3. **`KOREKTY.md`** — rejestr błędów. Dopisuj każdy nowy.
-4. **`README.md`** — stan prac i struktura docelowa.
+1. **`26_PRZEKAZANIE_ETAP3.md`** — stan na koniec etapu 2, od czego zacząć. **Czytaj to pierwsze.**
+2. **`14_REANALIZA.md`** — najważniejszy plik merytoryczny; jedyny własny wynik projektu
+3. **`25_AUDYT_OPENAIRE.md`** — dlaczego oś jest zajęta i co z tego wynika
+4. **`HANDBOOK.md`** — zasady współpracy, kalendarz, historia odrzuconych kierunków. **Sekcja 3 poprawiona 16 VIII: cel nadrzędny to studia, nie ISEF**
+5. **`KOREKTY.md`** — rejestr błędów, K-001…K-059. Dopisuj każdy nowy
+6. **`24_PLAN_DZIALANIA.md`** — plan krok po kroku, skreślaj z datą
+7. **`README.md`** — nawigacja po całości
 
 ## Zadanie bieżące
 
