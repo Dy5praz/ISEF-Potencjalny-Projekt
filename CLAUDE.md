@@ -52,6 +52,16 @@ Pełna lista w sekcjach 2.1 i 2.2 handbooka. Skrót:
 - **dokumentacja żyje w plikach.** Jeżeli ustalenie z handbooka okaże się błędne — popraw handbook, nie tylko odpowiedź, i dopisz wpis do `KOREKTY.md`
 - użytkownik jest licealistą drugiej klasy. Zna fizykę i matematykę szkolną, nie zna terminologii neurofizjologicznej. **Każdy termin użyty pierwszy raz dostaje wyjaśnienie**
 
+## Dostarczanie plików — zasada twarda, złamana trzy razy
+
+**Użytkownik pracuje z telefonu. Każdy plik, który powstanie albo zostanie istotnie zmieniony, ma trafić DO ROZMOWY, a nie tylko do repozytorium.**
+
+- **wysyłaj pliki narzędziem do wysyłania plików, w tej samej wiadomości, w której o nich piszesz.** Nie na końcu sesji, nie na prośbę — od razu
+- **nigdy nie odsyłaj użytkownika na GitHuba po treść.** Zdania typu „szczegóły w `14_REANALIZA.md`", „wypchnięte na gałąź", „zobacz w repozytorium" **są zakazane jako sposób dostarczenia treści**. Odwołanie do nazwy pliku jest dopuszczalne wyłącznie jako etykieta obok załączonego pliku, nigdy zamiast niego
+- commit i push nadal robisz — ale to jest **archiwizacja, nie dostarczenie**. Dostarczeniem jest plik w rozmowie
+- jeżeli plików jest dużo, wyślij komplet i dopisz jednym zdaniem, od którego zacząć
+- **to ustalenie było łamane trzykrotnie** (etap 2, 16 VIII 2026), za każdym razem mimo że reguła o telefonie stała poniżej. Traktuj je jak regułę bezpieczeństwa: sprawdzaj przed wysłaniem odpowiedzi, czy każdy wspomniany plik jest załączony
+
 ## Uwagi praktyczne
 
 - użytkownik często pisze z telefonu — nie zlecaj mu czynności wymagających przełączania się między aplikacjami, jeżeli da się je wykonać po twojej stronie
