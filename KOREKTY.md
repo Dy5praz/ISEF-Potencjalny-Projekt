@@ -639,3 +639,49 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Wzorzec, który trzeba nazwać:** to trzeci przypadek w tej sesji, gdy przesadziłem w korekcie — po K-040 (zawyżenie wyniku SpiralE na podstawie abstraktu) i po tym wpisie. **Koryguję zbyt pewnie, na pierwszym znalezionym dopasowaniu.** Reguła: przed skorygowaniem cudzego namiaru sprawdzić, czy autorzy nie mają kilku prac o zbliżonym tytule i czy różnica nie jest realna.
 
 **Konsekwencja merytoryczna dla projektu:** analogowa kompensacja artefaktów **ruchowych** jest zajęta mocniej, niż wynikało z mojej korekty — na poziomie układu scalonego, 2023. **Nasza oś dotyczy artefaktu mięśniowego, nie ruchowego, i to rozróżnienie staje się przez to ważniejsze**, a nie mniej ważne. Do wypowiedzenia wprost przed jurorem.
+
+---
+
+## 2026-08-15, plan podniesienia szans (wolna ręka wg sekcji 11 handbooka)
+
+### K-048 — nie policzyłem wielkości kategorii ISEF, a to była największa dźwignia projektu
+
+**Co było źle:** w `ISEF_ARKUSZE_OCENY.md` sekcji 4.1 i w `08` sekcji 6 zapisałem „rozważyć kategorię EBED zamiast ENBM" i **odłożyłem to do etapu 2 jako rzecz wymagającą sprawdzenia liczby zgłoszeń**. Sprawdzenie zajęło jedno zapytanie do bazy abstraktów.
+
+**Liczby, rocznik 2026:**
+
+| Kategoria | Projektów | Z nagrodą | Odsetek | Z „EEG" |
+|---|---|---|---|---|
+| ENBM | **98** | 39 | 40% | **6** |
+| **EBED** | **49** | 21 | **43%** | **0** |
+| ROBO | 61 | 22 | 36% | kilka |
+
+**EBED ma o połowę mniejszą stawkę, wyższy odsetek nagrodzonych i zero konkurencji tematycznej.** Podkategorie (Circuits, Sensors, Signal Processing) pasują do projektu, którego wkładem jest tor analogowy, lepiej niż ENBM.
+
+**Konsekwencja liczbowa:** warunkowe szanse na ISEF rosną z 30–40% na 35–45% dla Grand Award i z 12–18% na 15–20% dla miejsca I–II. **To jest największa zmiana szans w całym projekcie i nie kosztuje ani złotówki, ani godziny pracy.**
+
+**Dlaczego to jest błąd, a nie tylko zaniedbanie:** zapisałem „do sprawdzenia w etapie 2" przy pozycji, która wymagała jednego zapytania i zmieniała ocenę całego przedsięwzięcia. **Odkładanie taniego sprawdzenia o dużej stawce jest tym samym błędem co budowanie na niesprawdzonym założeniu**, tylko wolniejszym.
+
+---
+
+### K-049 — ustawiłem projektowi punkt odniesienia, którego nie da się osiągnąć
+
+**Co było źle:** w `DECYZJE.md` wpisałem jako punkt odniesienia dla wariantu przepustowościowego **Xing 2018, 92,35 bit/min**.
+
+**Dlaczego to błąd taktyczny:** Xing to Instytut Półprzewodników Chińskiej Akademii Nauk z własną technologią elektrod pazurkowych, a Imperial College osiąga 102 bit/min. **Ustawianie tej poprzeczki gwarantuje przegraną w porównaniu, którego żaden regulamin nie wymaga.**
+
+**Poprawka:** punkt odniesienia **wewnętrzny i podwójny** — ten sam układ bez kompensacji (twierdzenie o wkładzie) oraz kupiony OpenBCI (twierdzenie o sensie własnego sprzętu). Liczby z literatury idą do tabeli kontekstowej. Jedynym zewnętrznym odniesieniem, do którego porównujemy się wprost, zostaje **Kołodziej i in. 2026 (+9 pp cyfrowo)**, bo mierzy to samo zjawisko.
+
+---
+
+### K-050 — przyjmuję zarzut użytkownika o zaniżaniu szans w Explory
+
+**Zarzut:** *„z twojej matematyki wynika, że wszystkie finałowe mają podobne szanse"*, przy bezpośredniej obserwacji użytkownika, że wzorcowy był **jeden** projekt inżynierski na 21 finałowych.
+
+**Zarzut trafny.** `P(reprezentacja | finał) = 25%` przy bazie 14% było założeniem ostrożnościowym („lepszy od średniej, niedominujący"), a nie wnioskiem z danych.
+
+**Dane za wyższą liczbą:** wszystkie trzy kryteria finału (§7 pkt 3) sprzyjają działającemu urządzeniu — doskonałość wykonania z rekwizytami i prototypem, praktyczna stosowalność, oddziaływanie społeczne; oraz **7 z 10 Nagród Głównych w latach 2016–2025 to projekty inżynieryjno-konstrukcyjne**.
+
+**Dane trzymające poniżej 60%:** reprezentacja na ISEF 2026 to **dwa projekty biologiczne i jeden materiałowy, zero elektroniki** — sygnał, że siła inżynierska nie przekłada się wprost na wybór do reprezentacji.
+
+**Podniesione z 25% na 40%.** Pełne przeliczenie: `13_PODNIESIENIE_SZANS.md` sekcja 8.
