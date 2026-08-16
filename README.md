@@ -27,7 +27,9 @@ Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 | `19_SZANSE_PO_ZMIANIE.md` | **ocena szans przeliczona po zmianie osi** — piąty i ostatni punkt handbooka §11 |
 | `20_ZAKUPY.md` | **ceny OpenBCI odczytane u producenta, pięć wariantów platformy, właściwa lista sprzętu pomiarowego** |
 | `21_ODPOWIEDZI.md` | **audyt prior art dla nowej osi w pięciu bazach, definicja „wymiernego sukcesu", przesiew E0, granica interfejsów nieinwazyjnych, werdykt „warto?"** |
+| `22_POROWNANIE.md` | **ocena ConOps drona i ortezy, porównanie z interfejsem, werdykt i warunek jego odwrócenia** |
 | `analiza/` | kod reanalizy, uruchamialny od zera, zwalidowany wobec publikacji |
+| `archiwum_poprzednie/` | ConOps drona i ortezy — dwa poprzednie kierunki, zachowane jako materiał porównawczy |
 
 **Decyzje 5 i 6 zapadły 16 VIII 2026** (`DECYZJE.md`): oś projektu — **wariant C**, czyli sprzęt obsługuje obie osie, wybór po pierwszych własnych pomiarach; wyprowadzenie elektrody odniesienia za ucho — **zgoda**.
 

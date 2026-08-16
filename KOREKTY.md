@@ -796,3 +796,23 @@ Po przeliczeniu i doliczeniu wysyłki ze Stanów, cła i VAT: **6 000–6 800 z�
 **Dlaczego to jest błąd wart zapisania:** użytkownik postawił słuszną zasadę („nie ma miejsca na błąd, bo za słabo mierzy") i moje sformułowanie kierowało tę zasadę **na najdroższy i najmniej użyteczny zakup w całym projekcie**. Dokładność w tym projekcie powstaje w przetworniku na własnej płytce i w dzielniku za kilkadziesiąt złotych, a nie w oscyloskopie za kilka tysięcy.
 
 **Poprawka:** wstawka w `16_PLAN_EKSPERYMENTALNY.md` §2, przeliczenie R3 z 50% na 20% i z kosztu średniego na niski, pełna lista zakupowa w `20_ZAKUPY.md` §4.
+
+---
+
+### K-057 — akt zgonu ortezy w handbooku dotyczył tylko połowy projektu
+
+**Co było źle:** `HANDBOOK.md` §7 zamyka ortezę kolanową jednym wierszem: prior art na sprzęgło-sprężynę, wersję magnetoreologiczną, zmienny punkt zazębienia i Ottobock C-Brace, z konkluzją *„z twierdzenia o nowości zostało tylko »przy koszcie konsumenckim«, co nie jest twierdzeniem naukowym"*.
+
+**Czego ten wpis nie obejmował:** ConOps ortezy zawiera **dwie tezy, nie jedną**. Wymieniony prior art zabija wyłącznie **tezę 1** (sterowane sprzęgło i punkt zaczepienia) — co zresztą przyznaje sam ConOps we własnym rejestrze korekt, wpis 3. **Teza 2 — pomiar sprawności przeniesienia momentu przez interfejs orteza–kończyna — nie została zaudytowana ani razu**, mimo że jest twierdzeniem pomiarowym, czyli ma dokładnie ten kształt, który przy interfejsie uznaliśmy za jedyny odporny.
+
+**Sprawdzone 16 VIII 2026, Europe PMC.** Teza 2 nie jest martwa, ale pole jest **czynnie badane**, czego ConOps nie zakłada:
+- *Human-Interface Dynamics of Knee Exoskeletons*, ICORR 2025, PMID 40644288 — **kolano, 10 badanych**, pomiary quasi-statyczne i charakterystyka częstotliwościowa, wprost o tym, że podatny interfejs powoduje „inefficient power delivery to the user"
+- *Quantification of the Mechanical Properties in the Human-Exoskeleton Upper Arm Interface*, Sensors 2025, PMID 40807771 — **21 badanych**, pełny tensor sztywności interfejsu z liczbami
+
+**Czego nadal nie znalazłem** `[luka]`: jednej liczby „procent momentu docierający do stawu" dla ortezy kolanowej w klasie kosztowej konsumenckiej. Sformułowanie tezy 2 dosłownie pozostaje nieodnalezione.
+
+**Dlaczego to jest błąd wart zapisania:** zamknąłem kierunek projektowy jednym wierszem w tabeli, nie sprawdziwszy, czy dokument tego kierunku nie zawiera drugiego, niezależnego twierdzenia. **To jest ten sam wzorzec co K-051** — redukcja czegoś złożonego do jednego zdania, a potem operowanie tym zdaniem zamiast oryginałem. Tam była para „Cz i szczęka" sprowadzona do szczęki; tu para tez sprowadzona do jednej.
+
+**Poprawka:** pełna ocena obu ConOps i porównanie z interfejsem — `22_POROWNANIE.md`. Oba dokumenty źródłowe zarchiwizowane w `archiwum_poprzednie/`.
+
+**Reguła operacyjna, która z tego zostaje:** **zanim uznasz kierunek za zamknięty, przeczytaj jego dokument źródłowy, a nie własne streszczenie tego dokumentu.** Handbook jest streszczeniem i jako streszczenie gubi drugie twierdzenia.
