@@ -138,3 +138,45 @@ Napisałem: *„E1 wymaga generatora i przyrządu o szumie własnym poniżej mie
 | *to samo z nowym Cytonem (wariant A)* | *9 200–12 500 zł* |
 
 **Wariant zalecany jest tańszy niż moje pierwotne oszacowanie**, mimo że pierwotne oszacowanie zaniżało cenę OpenBCI o połowę. Powód: wypadł drogi oscyloskop, którego do mikrowoltów i tak nie da się użyć, a platforma schodzi na rynek wtórny.
+
+---
+
+## 6. Ganglion wobec Cytona — sprawdzone w dokumentacji producenta
+
+**Dopisane 16 VIII 2026 po pytaniu użytkownika, czy wybór Ganglionu „zmienia aż tak dużo".**
+
+`[fakt, dokumentacja OpenBCI odczytana 16 VIII 2026]`
+
+| | **Ganglion** | **Cyton** |
+|---|---|---|
+| kanały | **4** | **8** |
+| układ wejściowy | **MCP3912** + wzmacniacz pomiarowy AD8237 | **ADS1299** |
+| rozdzielczość | 0,1788 µV/bit (3 V / 2²⁴) | 0,298 µV/bit (5 V / 2²⁴) |
+| SNR podany przez producenta | nie podany na stronie specyfikacji | **121 dB** |
+| zasilanie | 3,3–12 V, wyłącznie bateryjne | 3–6 V, wyłącznie bateryjne |
+| wolne wejścia analogowe | A3–A6 **na module radiowym Simblee** | D12 (A6), D13 (A7) **na mikrokontrolerze PIC32**, w torze danych |
+| radio | Simblee BLE | RFduino BLE + klucz USB |
+
+### 6.1 Trzy różnice, które realnie ważą
+
+**1. Cztery kanały zamiast ośmiu — okrawa E2, ale go nie zabija.**
+Przy Ganglionie zostaje: odniesienie odległe na płatku ucha (pin REF) plus cztery elektrody. Sensowny podział: Oz, O1, kandydat na odniesienie ~2 cm, kandydat ~7 cm (wyrostek sutkowaty). Offline daje to **trzy punkty na krzywej odległości** (2, 7, 10 cm) zamiast czterech, plus pochodną O1−Oz wewnątrz obszaru czynnego. **Rdzeń twierdzenia T1 przeżywa.** Wypada punkt 4 cm nad karkiem i wypada kanał mięśniowy, czyli **cała kontrybucja warunkowa T3**.
+
+**2. Inny układ scalony — zero transferu do własnej płytki, i to jest największa strata.**
+Cyton jest zbudowany na **ADS1299 — dokładnie tym układzie, wokół którego projektujemy własny tor** (`15_PROJEKT.md` §2.2). Praca z Cytonem uczy konfiguracji rejestrów, obsługi SPI, obwodu sterowania prawą nogą i detekcji odłączenia elektrody — **wszystko przenosi się wprost na własną płytkę**. Ganglion stoi na MCP3912, układzie z zupełnie innej rodziny. `[wniosek]` Przy Ganglionie kupujemy przyrząd, ale nie kupujemy nauki, a nauka projektowania toru na ADS1299 jest jedną z dwóch rzeczy stojących między nami a działającą płytką v1.
+
+**3. Zapis momentu zapłonu bodźca — u Cytona w torze danych, u Ganglionu `[luka]`.**
+`14_REANALIZA.md` §6B ustaliło, że **brak znacznika zapłonu bodźca uniemożliwia TRCA i nie da się tego naprawić po fakcie**. Cyton ma wolne wejścia analogowe na PIC32, czyli na tym samym mikrokontrolerze, który buduje ramkę danych, i producent utrzymuje osobną stronę dokumentacji o wyzwalaniu zewnętrznym. Ganglion ma wolne wejścia **na module radiowym Simblee**; `[luka]` **nie ustaliłem, czy trafiają do strumienia próbek zsynchronizowane z EEG**. Jeżeli nie — fotodiodę trzeba obsłużyć osobnym układem, a wtedy wraca problem synchronizacji dwóch urządzeń.
+
+### 6.2 Rozstrzygnięcie, i jest inne niż wybór użytkownika
+
+**Ganglion nie mieści się w podanym budżecie 2 000 zł.** 624,99 USD to przy kursie 3,7–4,1 zł/USD **2 300–2 560 zł za samą płytkę**, a z wysyłką ze Stanów, cłem i VAT realnie **3 000–3 400 zł**.
+
+**Używany Cyton za ~300 EUR to około 1 300–1 600 zł — mieści się w 2 000 zł z zapasem i jest urządzeniem lepszym pod każdym z trzech punktów wyżej.**
+
+`[wniosek]` **Ograniczenie budżetowe użytkownika wskazuje na używanego Cytona, a nie na nowy Ganglion.** Nowy Ganglion jest jednocześnie droższy i słabszy od tego, co budżet dopuszcza na rynku wtórnym.
+
+**Kolejność działań:**
+1. **wrzesień 2026: szukać używanego Cytona** — eBay, OLX, fora OpenBCI, grupy uczelniane. Warunki odbioru w §3.1
+2. **jeżeli do 30 IX nic sensownego** — wtedy dopiero Ganglion, świadomie przyjmując utratę T3, jednego punktu krzywej i całej nauki ADS1299
+3. **nowy Cyton za 6 000–6 800 zł — nie.** Trzykrotność budżetu za to samo, co używany
