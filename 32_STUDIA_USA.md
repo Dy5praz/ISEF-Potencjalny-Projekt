@@ -229,7 +229,33 @@ Czyli: elektronika analogowa, przetwarzanie sygnału, inżynieria biomedyczna, i
 
 Czyli: **uczelnia amerykańska z pomocą jest tańsza niż europejska**, a europejska jest pięciokrotnie tańsza niż amerykańska bez pomocy. Europa nie jest planem awaryjnym na wypadek braku pieniędzy — jest planem awaryjnym na wypadek **braku przyjęcia**, i pod tym kątem ma sens: TU Delft to jeden z najmocniejszych programów aerospace w Europie, przy sicie rekrutacyjnym nieporównanie łagodniejszym niż amerykańskie.
 
-`[luka]` Nie sprawdzałem: terminów rekrutacji w Europie wobec kalendarza amerykańskiego, wymagań językowych, uznawalności polskiej matury, ani tego, czy TU Delft stosuje numerus fixus na aerospace. Pozycja otwarta.
+### 2.8.4 Czym rekrutuje Europa — zastrzeżenie użytkownika, potwierdzone
+
+**Uwaga użytkownika z 17 VIII 2026:** *„Europejskie uczelnie z tego co kojarzę niezbyt sobie cenią osiągnięcia typu ISEF. Bardziej ich interesuje egzamin."* **Sprawdzone. Trafna, i to mocniej, niż była postawiona.**
+
+**TU Delft, aerospace engineering.** `[fakt]` Kierunek objęty **numerus fixus — 440 miejsc** na rok 2026/2027, rekrutacja przez „decentrale selectie". Procedura: faza dopasowania, a potem **dwa testy — Academic Aptitude Assessment** (test dotyczący sytuacji studenckich) **i Selection Exam**, egzamin online pod nadzorem, w całości wielokrotnego wyboru, z matematyki, fizyki i wstępu do lotnictwa. `[fakt]` Wyniki przeliczane są na **jeden wynik selekcyjny i numer w rankingu**. `[fakt]` Termin rejestracji: **15 stycznia**. Wymagania wstępne: matematyka i fizyka na poziomie odpowiadającym holenderskiemu VWO (wiskunde B, natuurkunde) plus TOEFL iBT ≥ 90 albo IELTS ≥ 6,5.
+
+**W całej tej procedurze nie ma miejsca na projekt.** Nie ma CV, nie ma listu motywacyjnego, nie ma portfolio. Jest egzamin i ranking.
+
+**ETH Zurych.** `[fakt]` Polska matura jest uznawana jako porównywalna, **ale nie daje wstępu bezpośredniego**. Wymagany jest **egzamin wstępny ETH** — w wersji skróconej, jeżeli kandydat ma matematykę i fizykę na poziomie rozszerzonym, w pełnej (5–6 przedmiotów), jeżeli któregoś brakuje. `[fakt]` **Egzamin jest po niemiecku i wymagana jest znajomość terminologii przedmiotowej w tym języku**, plus osobny certyfikat z niemieckiego. `[fakt]` Kto musi zdawać egzamin, wchodzi na studia **rok później**.
+
+`[luka]` TU Monachium: procedura Eignungsfeststellungsverfahren, `[wniosek]` również oparta na ocenach, a studia licencjackie inżynierskie prowadzone są tam po niemiecku — **bariera językowa jest tam głównym kosztem, nie czesne**.
+
+`[wniosek]` **Wartość tego projektu jest asymetryczna i trzeba to zapisać wprost:**
+
+| Gdzie | Na co przelicza się projekt |
+|---|---|
+| **USA, rekrutacja holistyczna** | na **przyjęcie** — eseje, rubryka „Honors", rozmowa |
+| **USA, stypendia za osiągnięcia** (USC, Vanderbilt, BU, CWRU) | na **pieniądze**, bo dorobek jest wprost kryterium |
+| **Europa kontynentalna** (NL, CH, DE) | **na nic formalnie.** Liczy się matura, egzamin selekcyjny i język |
+| **Wielka Brytania** | `[luka]` tam list motywacyjny i rozmowa projekt widzą — ale czesne dla obcokrajowca po brexicie jest rzędu 40 tys. GBP rocznie, czyli **gorzej niż USA z pomocą** |
+
+**Skutek praktyczny, dwa punkty:**
+
+1. **Zasada pierwszeństwa z sekcji 4 tego pliku umacnia się.** Przy kolizji o czas **projekt ustępuje maturze i SAT** — bo matura jest jedyną walutą w wariancie europejskim, a SAT w amerykańskim. Projekt nie ma waluty w żadnym z nich osobno; ma ją tylko w amerykańskim, i tam jako dodatek.
+2. **Zdanie „sito europejskie jest łagodniejsze" wymaga poprawki.** Jest łagodniejsze **dla kogoś z bardzo dobrą maturą z matematyki i fizyki** i praktycznie nieprzepuszczalne dla kogoś, kto ma świetny projekt i przeciętny egzamin. To jest inne sito, nie słabsze. Wpisane jako **K-067**.
+
+`[luka]` Nadal nie sprawdzone: dokładna równoważność polskiej matury rozszerzonej z holenderskim VWO wiskunde B i natuurkunde (tabele Nuffic), procedura TUM, oraz czy podwyżka czesnego w ETH obejmuje obywatela UE po polskiej maturze.
 
 ---
 

@@ -873,3 +873,19 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Co jest w regulaminie:** `[fakt]` regulamin mówi wyłącznie o **zaświadczeniu** wydanym wg rozporządzenia MENiS z 29 I 2002 (Dz.U. 2020 poz. 1036) oraz o tytule „Młodego Innowatora". Konkretne ulgi rekrutacyjne ustalają **uchwały senatów poszczególnych uczelni** i nie zostały sprawdzone.
 
 **Poprawka:** pozycja oznaczona `[luka]` w `33_KONKURSY_ROZBIEGOWE.md` sekcja 4.2. Przy celu „studia w USA" i tak drugorzędna — argumentem za olimpiadą jest tytuł krajowy i wymuszony termin, nie polskie punkty rekrutacyjne.
+
+---
+
+### K-067 — nazwałem sito europejskie „łagodniejszym", nie sprawdziwszy, czym ono rekrutuje
+
+**Co było źle:** w sekcji 2.8.3 pliku `32` napisałem, że TU Delft ma „sito rekrutacyjne nieporównanie łagodniejsze niż amerykańskie", i zbudowałem na tym rekomendację Europy jako planu awaryjnego. Zdanie było postawione na wskaźniku przyjęć, bez sprawdzenia **kryteriów**.
+
+**Kto to złapał:** użytkownik, słowami „europejskie uczelnie z tego co kojarzę niezbyt sobie cenią osiągnięcia typu ISEF. Bardziej ich interesuje egzamin".
+
+**Co jest:** `[fakt]` TU Delft prowadzi na aerospace **numerus fixus (440 miejsc)** i selekcję złożoną z **dwóch testów** — Academic Aptitude Assessment i Selection Exam (online, pod nadzorem, wyłącznie wielokrotny wybór, z matematyki, fizyki i wstępu do lotnictwa) — przeliczanych na jeden wynik i numer w rankingu. **W procedurze nie ma CV, listu motywacyjnego ani portfolio.** `[fakt]` ETH Zurych wymaga od polskiej matury **egzaminu wstępnego po niemiecku** plus certyfikatu językowego, a zdający wchodzi rok później.
+
+**Na czym polegał błąd:** porównywałem dwa sita po jednej liczbie (odsetek przyjęć), zamiast po tym, **co każde z nich mierzy**. Amerykańskie mierzy między innymi dorobek; europejskie mierzy egzamin. Dla kandydata z mocnym projektem i przeciętnym wynikiem egzaminu sito europejskie jest **trudniejsze**, nie łatwiejsze. Ta sama klasa błędu co K-060 i K-064: **filtr z jednego konkursu przeniesiony na drugi bez sprawdzenia kryteriów.** Trzeci raz.
+
+**Poprawka merytoryczna, ważniejsza od samego sprostowania:** wartość tego projektu jest **asymetryczna geograficznie** — w USA przelicza się na przyjęcie, w stypendiach za osiągnięcia na pieniądze, w Europie kontynentalnej **na nic formalnie**. To wzmacnia zasadę pierwszeństwa z sekcji 4 pliku `32`: przy kolizji o czas **projekt ustępuje maturze i SAT**, bo matura jest jedyną walutą w wariancie europejskim.
+
+**Reguła do zapamiętania:** zanim nazwę jakiekolwiek sito łatwiejszym, mam sprawdzić, **co ono punktuje**, a nie ilu przepuszcza.
