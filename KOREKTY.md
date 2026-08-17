@@ -757,3 +757,53 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Poprawka:** **obiekty demonstracyjne kupowane, nigdy budowane.** Żarówka i gniazdko sterowane bezprzewodowo, poniżej 200 zł, zero godzin warsztatu.
 
 **Efekt uboczny, korzystny:** `[wniosek]` kupiony, rozpoznawalny przedmiot jest **lepszym dowodem uczciwości** niż zbudowany. Przy własnej makiecie pierwsze pytanie brzmi „co jest w środku"; przy żarówce ze sklepu nie pada.
+
+---
+
+# SESJA 17 VIII 2026 — analiza stawki finałowej Explory 2026
+
+### K-057 — liczby lejka Explory były zaniżone w mianowniku
+
+**Co było źle:** wszystkie moje oszacowania stały na „~300 zgłoszeń". `[fakt]` Oficjalna informacja prasowa FZT z 1 VI 2026: **377 projektów zgłoszonych**, ponad 130 w półfinale, **20 w finale plus 1 z plebiscytu**.
+
+**Skutek:** przejście zgłoszenie → półfinał to **~34%, nie 44%**. Pierwsze sito jest ostrzejsze, niż zakładałem.
+
+---
+
+### K-058 — podałem błędny skład obszaru „Poza kategoriami"
+
+**Co było źle:** `13_PODNIESIENIE_SZANS.md` wymieniał tam nanokompozyt, szczepionkę przeciw Salmonelli i fagi T7. **Wszystkie trzy są na liście rezerwowej.**
+
+**Prawidłowy skład:** BioShield, ReakcjON, kwercetyna, **Kolano Pneumatyczne, SADE**.
+
+**Dlaczego to ma znaczenie merytoryczne, a nie tylko porządkowe:** poprawka **potwierdza** ustalenie, które bez niej wisiało w powietrzu — najlepiej oprzyrządowany plakat całej stawki (nanokompozyt: SEM, XRD, TGA, hipertermia magnetyczna, słupki błędu) jest na rezerwie, a plakat z jednym renderem CAD i ankietą szkolną (Kolano Pneumatyczne) jest finalistą **w tym samym obszarze**.
+
+---
+
+### K-059 — nagrody SDG są niższe i jest ich mniej, niż zakładały wszystkie pliki
+
+**Co było źle:** handbook i ściągawka podawały **3 × 7 500 zł** i rozstrzygały rozbieżność „regulamin 7500 vs ABC 5000" na korzyść regulaminu.
+
+**Co jest:** `[fakt]` informacja prasowa z 1 VI 2026 — **3 × 5 000 zł**, w obszarach Człowiek i Społeczeństwo, Klimat i Środowisko, Gospodarka i Bezpieczeństwo.
+
+**Rzecz istotniejsza od kwoty:** **obszar „Poza kategoriami" nie ma nagrody SDG.** Wybór tego obszaru oznacza utratę prawa do niej w ogóle — czego żaden wcześniejszy plik nie uwzględniał przy analizie wyboru obszaru.
+
+---
+
+### K-060 — zabiłem kandydata, który wszedł do finału Explory
+
+**Co było źle:** odrzuciłem kamerę akustyczną do wykrywania nieszczelności argumentem „zostaje tylko »taniej«, Fluke ma opublikowaną metodę kwantyfikacji".
+
+**Co się okazało:** `[fakt]` **ALP — Acoustic Leak Positioning**, Julia Biały (solo), ZSME Tarnów: czujniki MEMS na rurze, FFT, przetwarzanie na brzegu, **91% skuteczności klasyfikacji**, autorskie oprogramowanie CAD. **Finalista Explory 2026**, 23 punkty w mojej skali, szóste miejsce na 21.
+
+**Na czym polegał błąd:** zastosowałem filtr skalibrowany pod arkusz ISEF do decyzji, która rozstrzyga się na Explory. To dwa różne sita o różnych kryteriach i **filtr z jednego nie przenosi się na drugie**.
+
+---
+
+### K-061 — zawyżałem własne oszacowanie noty finałowej
+
+**Co było źle:** oceniałem projekt użytkownika po zmianach na **26–29 punktów na 30**.
+
+**Po zobaczeniu stawki:** górny koniec to **25 punktów** (kwantowe wspomaganie fotowoltaiki, BIO-VOLT). Zrównanie się z nimi jest realne, wyraźne pobicie nie.
+
+**Poprawka: 25–27 z treningiem prezentacyjnym, 24–26 bez.** Skutek dla `P(Nagroda Główna | finał)`: z 18% na **~15–19%**.
