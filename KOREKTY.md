@@ -723,3 +723,37 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Znaczenie:** MIT jest finansowo **najłatwiejszą**, a nie najtrudniejszą z amerykańskich opcji. Większość uczelni z górnej półki jest wobec obcokrajowców need-aware, czyli tam brak środków realnie obniża szanse przyjęcia.
 
 **Reguła operacyjna, która z tego zostaje:** sprawdzać przesłanki celu nadrzędnego, nie tylko przesłanki zadania bieżącego. To jest ten sam wzorzec co K-048 — odkładanie taniego sprawdzenia o dużej stawce.
+
+---
+
+### K-054 — pisałem w liczbie mnogiej o projekcie, który ma jednego autora
+
+**Co było źle:** w całej sesji używałem form „my", „nasz", „zaciągnąłem nas". Projekt jest **indywidualny i jego autorem jest użytkownik**; rola modelu jest doradcza.
+
+**Dlaczego to nie jest kwestia stylu:** `[fakt]` Regulamin Explory, Załącznik nr 1, opiera standardy etyczne na Kodeksie Etyki Pracownika Naukowego PAN; reguły ISEF wymagają, żeby praca była własna, a udział osób trzecich jawnie deklarowany. Liczba mnoga w materiałach idących do jury **zaciemnia autorstwo**, a to jest kategoria, w której obie imprezy dyskwalifikują.
+
+**Poprawka:** liczba pojedyncza w dokumentacji projektu i we wszystkich materiałach zgłoszeniowych. Wpisane do `30_POWROT_DO_INTERFEJSU.md` sekcja 6a.1 jako reguła.
+
+---
+
+### K-055 — zaprojektowałem demonstrację, która wchodziła wprost na ścieżkę zakazaną w sekcji 9.2 handbooka
+
+**Co było źle:** zaproponowałem makietę przyłóżkową, w której urządzenie **wypowiada syntetyczną mową całe zdania** wybrane jednym wskazaniem. To jest ten sam rejestr co projekt referencyjny ENBM074 (2026): rozstrzyganie intencji z małego zbioru w zastosowaniu komunikacyjnym.
+
+**Kto to złapał:** użytkownik, słowami „oj powoli nas ciągnie to w kierunku projektu Kharade".
+
+**Co jest gorsze od samego błędu:** `08_KONKURENCJA_ISEF.md` sekcja 2.3 **przewidywała ten dryf co do słowa** — „»sterowanie dyskretne z ośmioma komendami« a »rozstrzyganie intencji z ośmiu możliwości« to jest ta sama rzecz opisana dwoma językami". Ostrzeżenie było zapisane, przeczytane w tej samej sesji i mimo to złamane.
+
+**Poprawka:** mowa syntetyczna wypada. Zostaje sterowanie fizycznymi przedmiotami (decyzja C1). Metryka: **dokładność i przepustowość w bitach, nigdy słowa na minutę** — to jest jedyna linia trzymająca granicę.
+
+**Ustalenie przy okazji, z abstraktu:** słowo „paradygmat" w tytule tamtej pracy dotyczy **poziomu zadania, nie poziomu sygnału**. `[luka]` Jakiego paradygmatu sygnałowego użyto, abstrakt nie podaje i nie ustaliłem tego w sieci. `[wniosek]` Warunek kontrolny opisany jako „conventional speller" i baseline 3 wpm wskazują, że warstwa detekcji była standardowa i dobrze znana.
+
+---
+
+### K-056 — projektowałem demonstrację wymagającą budowania rekwizytów
+
+**Co było źle:** makieta przyłóżkowa oznaczała godziny warsztatu, które nie idą w interfejs. Użytkownik postawił warunek, żeby interfejs przyszedł na półfinał **w całości, a nie jako prototyp** — a wtedy każda godzina włożona w rekwizyt działa przeciw temu warunkowi.
+
+**Poprawka:** **obiekty demonstracyjne kupowane, nigdy budowane.** Żarówka i gniazdko sterowane bezprzewodowo, poniżej 200 zł, zero godzin warsztatu.
+
+**Efekt uboczny, korzystny:** `[wniosek]` kupiony, rozpoznawalny przedmiot jest **lepszym dowodem uczciwości** niż zbudowany. Przy własnej makiecie pierwsze pytanie brzmi „co jest w środku"; przy żarówce ze sklepu nie pada.

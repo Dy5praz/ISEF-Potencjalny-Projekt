@@ -103,6 +103,42 @@ Reszta dorobku etapu 1 — przemiał literatury, trzy przejścia audytu, `ISEF_H
 
 ---
 
+## 6a. Poprawki z 17 VIII 2026, wieczór — obowiązujące
+
+### 6a.1 Liczba pojedyncza. Projekt jest autorstwa użytkownika
+
+**Zakaz pisania „my", „nasz", „zrobiliśmy" w dokumentacji projektu i we wszystkich materiałach.** Projekt jest indywidualny i jego autorem jest użytkownik. Rola modelu jest doradcza i taka ma być nazywana.
+
+`[fakt]` To nie jest kwestia stylu. Regulamin Explory (Załącznik nr 1, standardy etyczne wg Kodeksu Etyki Pracownika Naukowego PAN) oraz reguły ISEF wymagają, żeby praca była własna, a udział osób trzecich jawnie deklarowany. Liczba mnoga w materiałach idących do jury zaciemnia autorstwo.
+
+### 6a.2 Mowa syntetyczna wypada z demonstracji
+
+**Powód: kolizja z projektem referencyjnym ENBM074 (2026).** Makieta, w której urządzenie wypowiada zdania wybrane jednym wskazaniem, jest tym samym rejestrem co „rozstrzyganie intencji zamiast literowania" — czyli ścieżką zakazaną w `08_KONKURENCJA_ISEF.md` sekcja 2.3 i w sekcji 9.2 handbooka.
+
+| Wypada | Zostaje |
+|---|---|
+| mowa syntetyczna wypowiadająca zdania | sterowanie fizycznymi przedmiotami |
+| metryka w słowach na minutę | **dokładność i przepustowość w bitach** |
+| rejestr komunikacyjny | rejestr sterowania (decyzja C1) |
+
+**Linia graniczna, której pilnujemy przez cały projekt:** produktem jest **sprzęt i pomiar tego, ile kosztuje wygoda**. W chwili, gdy metryką stają się słowa na minutę, projekt staje się wariantem cudzej pracy.
+
+### 6a.3 Obiekty demonstracyjne kupowane, nigdy budowane
+
+**Reguła: do półfinału nie powstaje nic, co nie jest interfejsem.** Każda godzina warsztatu włożona w rekwizyt jest godziną zabraną urządzeniu, a oceniane jest urządzenie.
+
+Zestaw demonstracyjny: żarówka sterowana bezprzewodowo (~50 zł), gniazdko sterowane bezprzewodowo z lampką lub wentylatorem (~60 zł), opcjonalnie brzęczyk przywoławczy (~30 zł). **Poniżej 200 zł, zero godzin warsztatu.**
+
+`[wniosek]` **Kupione przedmioty są też lepszym dowodem uczciwości niż zbudowane.** Przy własnoręcznej makiecie pierwsze pytanie brzmi „co jest w środku". Przy zwykłej żarówce ze sklepu nie pada.
+
+### 6a.4 Poprzeczka „w całości, nie prototyp"
+
+Decyzja użytkownika: interfejs ma być na półfinał gotowy w całości, nie w wersji prototypowej.
+
+`[wniosek]` To jest poprzeczka **wyżej** niż wcześniejsze oszacowanie „urządzenie działa i ma pomiary do maja 2027" (~70%). Reguła 6a.3 jest głównym mechanizmem ochrony tej poprzeczki. Do przeliczenia przy budowie harmonogramu.
+
+---
+
 ## 7. Pozycje otwarte
 
 | # | Pozycja | Termin |
