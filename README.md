@@ -1,4 +1,14 @@
-# ISEF — aktywne łożysko magnetyczne z estymacją położenia bez czujników
+# ISEF — interfejs neuralny, sterowanie intencją
+
+**STAN NA 17 VIII 2026, wieczór: kierunek bieżący to interfejs neuralny.**
+**Czytaj `30_POWROT_DO_INTERFEJSU.md` jako pierwszy plik.**
+
+> **Pliki `20`–`24` opisują aktywne łożysko magnetyczne — kierunek ZAMKNIĘTY, odrzucony przez użytkownika.**
+> Nie czytać ich jako projektu bieżącego. Przenośne są z nich tylko struktura planu pomiarowego (`22`) i drabinka zejść (`23`).
+
+**Twarde znalezisko kalendarzowe:** aplikacje na studia w USA składa się jesienią 2028, decyzje w marcu 2029 — czyli **ISEF 2029 jest po decyzjach i nie wchodzi do aplikacji**. Rekrutacyjnie liczy się wyłącznie **ISEF 2028**, przez Explory 2027.
+
+---
 
 Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 
