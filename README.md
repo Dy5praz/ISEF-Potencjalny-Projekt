@@ -83,6 +83,7 @@ Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → 
 |---|---|---|
 | R1 | rozstrzygnąć **aerospace vs elektronika** jako kierunek — wpływa na listę uczelni | do 2028 |
 | R1a | **Caltech i Stanford dopisane 17 VIII 2026** (`32` sekcja 2.6). Stanford ma aerospace na licencjacie, Caltech nie. Oba **need-aware wobec obcokrajowców** | ustalone |
+| R1b | **Lista rozszerzona o dwie kategorie** (`32` sekcja 2.8). Aerospace z pieniędzmi: **MIT, Princeton, Notre Dame**. Pod tematykę projektu: **Brown** (BrainGate, need-blind). Plus ścieżka stypendiów za osiągnięcia i opcja europejska | ustalone |
 | R2 | CMU: need-blind czy need-aware wobec obcokrajowców | jesień 2027 |
 | R3 | Georgia Tech: czy wybór kierunku jest wiążący przy aplikacji | jesień 2027 |
 | R4 | czy CMU ma aerospace na licencjacie | jesień 2027 |

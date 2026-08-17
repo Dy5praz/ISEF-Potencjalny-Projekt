@@ -151,6 +151,88 @@ Praktycznie: **przy typowym polskim dochodzie MIT i Caltech nie biorą czesnego,
 
 ---
 
+## 2.8 Rozszerzona lista uczelni — dopisana 17 VIII 2026
+
+Dwie kategorie, o które prosił użytkownik: **I — aerospace i kierunki pokrewne**, **II — pod tematykę tego projektu** (elektronika, przetwarzanie sygnału, inżynieria biomedyczna, neurotechnologia).
+
+**Filtr nadrzędny, ten sam dla obu kategorii:** obcokrajowiec potrzebujący pomocy finansowej. Uczelnia bez pomocy dla obcokrajowców jest na tej liście pozycją teoretyczną, niezależnie od jakości programu.
+
+### 2.8.0 Trzy poziomy polityki finansowej — słownik
+
+| Poziom | Co znaczy | Konsekwencja |
+|---|---|---|
+| **need-blind + pełna potrzeba** | wniosek o pomoc **nie wpływa** na decyzję o przyjęciu, a po przyjęciu uczelnia pokrywa całą wyliczoną potrzebę | **jedyny poziom bez ukrytego kosztu** |
+| **need-aware + pełna potrzeba** | wniosek o pomoc **jest czynnikiem** w decyzji, ale po przyjęciu potrzeba jest pokryta | płaci się szansą przyjęcia, nie pieniędzmi |
+| **stypendia za osiągnięcia** | pomoc nie zależy od dochodu, tylko od dorobku; osobny wniosek, osobny konkurs | **tu dorobek ISEF pracuje najmocniej** |
+
+`[fakt]` Uczelni **need-blind wobec obcokrajowców jest w USA mniej niż dziesięć**: Harvard, Yale, Princeton, MIT, Dartmouth, Amherst, Bowdoin, Washington and Lee, **Brown** (od rocznika 2029) i **Notre Dame** (od rocznika 2029). Wszystkie pokrywają pełną potrzebę.
+
+---
+
+### 2.8.1 Kategoria I — aerospace i kierunki pokrewne
+
+| Uczelnia | Kierunek na licencjacie | Polityka wobec obcokrajowców | Uwaga |
+|---|---|---|---|
+| **MIT** | `[fakt]` AeroAstro (Course 16) | **need-blind + pełna potrzeba** | pozycja niezmieniona: najtrudniejszy rekrutacyjnie, najłatwiejszy finansowo |
+| **Princeton** | `[fakt]` Wydział **Mechanical and Aerospace Engineering** daje trzy osobne dyplomy B.S.E., w tym **Aerospace Engineering** | `[fakt]` **need-blind + pełna potrzeba, granty zamiast pożyczek.** Jedna z niecałych dziesięciu uczelni, które nie limitują pomocy dla obcokrajowców | **największe znalezisko tej listy.** Ta sama polityka finansowa co MIT, osobny dyplom z aerospace. `[fakt]` **Żadnych stypendiów za osiągnięcia — wyłącznie potrzeba** |
+| **Notre Dame** | `[fakt]` **B.S. in Aerospace Engineering**, akredytacja ABET, osobny wydział Aerospace and Mechanical Engineering | `[fakt]` **need-blind od rocznika 2029 + pełna potrzeba, bez pożyczek** | `[fakt]` wskaźnik przyjęć ~9%, obcokrajowcy 8% rocznika — **najłagodniejsze sito z całej grupy need-blind** |
+| **Stanford** | `[fakt]` B.S. Aeronautics and Astronautics | need-aware + pełna potrzeba | sekcja 2.6 |
+| **Caltech** | `[fakt]` **brak** — aerospace tylko jako minor | need-aware + pełna potrzeba | sekcja 2.6 |
+| **Georgia Tech** | czołowy program w USA | **brak pomocy** | pozycja teoretyczna |
+| **USC** | `[fakt]` **Astronautical Engineering** jako osobny kierunek — rzadkość | `[fakt]` **stypendium Trustee: pełne czesne, ~100 osób rocznie, obcokrajowcy się kwalifikują** | ścieżka „za osiągnięcia", nie „za potrzebę" |
+| **Purdue, Michigan, UIUC, Texas A&M, Virginia Tech** | czołowe programy aerospace | `[luka]` **niesprawdzone imiennie**, ale to uczelnie publiczne, a dla Georgia Tech potwierdzono brak pomocy dla obcokrajowców | `[wniosek]` traktować jak Georgia Tech do czasu sprawdzenia |
+| **Cornell** | `[luka]` aerospace jako specjalizacja przy mechanice, nie sprawdzone | need-aware + pełna potrzeba | do domknięcia |
+
+`[wniosek]` **Lista aerospace, w której pieniądze i kierunek spinają się jednocześnie, ma trzy pozycje: MIT, Princeton, Notre Dame.** Stanford czwarty, z kosztem w postaci need-aware. Reszta to albo brak kierunku, albo brak pieniędzy.
+
+---
+
+### 2.8.2 Kategoria II — pod tematykę tego projektu
+
+Czyli: elektronika analogowa, przetwarzanie sygnału, inżynieria biomedyczna, interfejsy mózg–komputer.
+
+| Uczelnia | Dlaczego pasuje tematycznie | Polityka wobec obcokrajowców |
+|---|---|---|
+| **Brown** | `[fakt]` **Carney Institute for Brain Science i program BrainGate** — jeden z najważniejszych ośrodków interfejsów mózg–komputer na świecie, ponad 200 osób kadry z 20 jednostek. Inżynieria biomedyczna na miejscu | `[fakt]` **need-blind od rocznika 2029 + pełna potrzeba** |
+| **MIT** | EECS i bioinżynieria; sygnał, elektronika i neurotechnologia w jednym miejscu | **need-blind + pełna potrzeba** |
+| **Harvard, Yale, Dartmouth** | `[luka]` programy niesprawdzone imiennie; wszystkie mają inżynierię biomedyczną albo ogólną | **need-blind + pełna potrzeba** |
+| **Johns Hopkins** | `[wniosek]` najsilniejsza inżynieria biomedyczna w USA, z osobną ścieżką neuroinżynieryjną | `[fakt]` **need-aware, pomoc dla obcokrajowców ograniczona**, ale 100% potrzeby po przyjęciu |
+| **Duke** | inżynieria biomedyczna w czołówce | `[fakt]` need-aware + 100% potrzeby |
+| **Northwestern** | inżynieria biomedyczna i neuroinżynieria | `[fakt]` need-aware + 100% potrzeby |
+| **Rice** | elektronika i bioinżynieria, mała uczelnia o profilu projektowym | `[fakt]` need-aware + 100% potrzeby, granty zamiast pożyczek |
+| **Carnegie Mellon** | elektronika, przetwarzanie sygnału, neuronauka | need-aware; `[luka]` z sekcji 2.1 nadal otwarta |
+| **Olin** | Electrical and Computer Engineering; profil projektowy pasuje najlepiej z całej listy | 10 000 USD dla każdego + potrzeba |
+| **Vanderbilt, Boston University, Case Western** | przyzwoita inżynieria biomedyczna, **ale to ścieżka stypendialna, nie potrzebowa** | `[fakt]` pełne czesne za osiągnięcia, obcokrajowcy się kwalifikują: **Cornelius Vanderbilt**, **BU Trustee** (~20 osób rocznie), **CWRU University Scholarship** |
+| **Georgia Tech** | inżynieria biomedyczna w ścisłej czołówce | **brak pomocy** |
+
+`[wniosek]` **Brown jest w kategorii II tym, czym Princeton w kategorii I:** najlepsza polityka finansowa, jaka istnieje, połączona z ośrodkiem robiącym dokładnie to, o czym jest ten projekt. Jeżeli lista ma się rozszerzyć o jedną pozycję, to o tę.
+
+`[wniosek]` **Ścieżka stypendiów za osiągnięcia jest osobnym mechanizmem i to w niej dorobek ISEF waży najwięcej.** Przy uczelniach need-blind projekt konkuruje z całym dorobkiem kandydata o miejsce; przy stypendiach Trustee, Cornelius i podobnych **dorobek jest wprost kryterium przyznania pieniędzy**. To jest jedyne miejsce w całej rekrutacji, gdzie finał ISEF przekłada się na kwotę, a nie na wrażenie.
+
+---
+
+### 2.8.3 Europa — opcja nieobecna we wszystkich wcześniejszych plikach
+
+`[fakt]` Kursy NBP z 17 VIII 2026: 1 EUR = 4,3075 zł, 1 CHF = 4,5903 zł.
+
+| Uczelnia | Kierunek | Czesne dla obywatela Polski | W złotówkach |
+|---|---|---|---|
+| **TU Delft** | aerospace engineering, licencjat po angielsku | `[fakt]` **2 694 EUR/rok** (stawka ustawowa dla UE/EOG; spoza UE 19 906 EUR) | **~11 600 zł/rok** |
+| **ETH Zurych** | inżynieria mechaniczna, elektrotechnika | `[fakt]` 730 CHF/semestr; `[fakt]` od jesieni 2025 **2 190 CHF/semestr dla studentów „międzynarodowych"**. `[luka]` **nie ustaliłem, czy Polak po polskiej maturze wpada w podwyżkę** | **~6 700 zł** albo **~20 100 zł/rok** |
+| **TU Monachium** | inżynieria | `[fakt]` **obywatele UE bez czesnego**, opłata semestralna rzędu 100–200 EUR | **~1 000–2 000 zł/rok** |
+
+`[wniosek]` **Porównanie, które porządkuje całą decyzję:**
+
+1. **USA z pomocą** — przy dochodzie poniżej ~371 tys. zł na MIT, w Princeton, Brown czy Notre Dame koszt bliski **zeru**, łącznie z mieszkaniem i wyżywieniem
+2. **Europa** — czesne symboliczne, ale utrzymanie w Delfcie albo Zurychu wychodzi rzędu **55–75 tys. zł rocznie** i płaci je rodzina
+3. **USA bez pomocy** — **330–385 tys. zł rocznie**
+
+Czyli: **uczelnia amerykańska z pomocą jest tańsza niż europejska**, a europejska jest pięciokrotnie tańsza niż amerykańska bez pomocy. Europa nie jest planem awaryjnym na wypadek braku pieniędzy — jest planem awaryjnym na wypadek **braku przyjęcia**, i pod tym kątem ma sens: TU Delft to jeden z najmocniejszych programów aerospace w Europie, przy sicie rekrutacyjnym nieporównanie łagodniejszym niż amerykańskie.
+
+`[luka]` Nie sprawdzałem: terminów rekrutacji w Europie wobec kalendarza amerykańskiego, wymagań językowych, uznawalności polskiej matury, ani tego, czy TU Delft stosuje numerus fixus na aerospace. Pozycja otwarta.
+
+---
+
 ## 3. Jaki wynik ISEF jest potrzebny
 
 `[wniosek]` **Nie ma progu.** Żaden wynik nie jest ani warunkiem, ani gwarancją. Skala:
@@ -233,6 +315,9 @@ Projekt to jeden z sześciu elementów i nie największy.
 | 10 | decyzja świadoma: **czy wnioskować o pomoc finansową na uczelniach need-aware** (Caltech, Stanford, CMU) — rezygnacja jest nieodwracalna na cztery lata | jesień 2028, przygotować wcześniej | otwarte |
 | 11 | sprawdzić wymagania programowe **B.S. in Aeronautics and Astronautics** na Stanfordzie (przedmioty wstępne, akredytacja ABET) | jesień 2027 | otwarte |
 | 12 | zweryfikować wskaźniki przyjęć Caltechu i Stanforda w oficjalnym Common Data Set, nie w opracowaniach firm doradczych | jesień 2027 | otwarte, liczby z sekcji 2.6 mają jedno źródło pośrednie |
+| 13 | sprawdzić imiennie politykę pomocy dla obcokrajowców na **Purdue, Michigan, UIUC, Cornell** — sekcja 2.8.1 zostawia to jako `[luka]` | jesień 2027 | otwarte |
+| 14 | rozstrzygnąć, czy **Europa (TU Delft, ETH, TUM)** wchodzi na listę jako ścieżka równoległa; jeżeli tak — terminy, numerus fixus, wymagania językowe | do 2028 | otwarte, sekcja 2.8.3 |
+| 15 | zebrać terminy i wymogi **stypendiów za osiągnięcia** otwartych dla obcokrajowców (USC Trustee, Cornelius Vanderbilt, BU Trustee, CWRU) — mają osobne, wcześniejsze terminy niż zwykła aplikacja | wiosna 2028 | otwarte, jedyna ścieżka, w której ISEF przelicza się na kwotę |
 
 ---
 
