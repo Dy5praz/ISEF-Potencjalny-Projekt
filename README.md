@@ -1,88 +1,100 @@
 # ISEF — interfejs neuralny, sterowanie intencją
 
-**STAN NA 17 VIII 2026, wieczór: kierunek bieżący to interfejs neuralny.**
-**Czytaj `30_POWROT_DO_INTERFEJSU.md` jako pierwszy plik.**
+**Stan na 17 sierpnia 2026, wieczór.** Dokumentacja żyje tutaj, nie w wątkach rozmowy.
+
+---
+
+## Czytaj w tej kolejności
+
+| # | Plik | Po co |
+|---|---|---|
+| 1 | **`30_POWROT_DO_INTERFEJSU.md`** | **projekt bieżący** — czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a |
+| 2 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
+| 3 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
+| 4 | `KOREKTY.md` | rejestr błędów **K-001…K-061**. Dopisuj każdy nowy |
+| 5 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
+| 6 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
 
 > **Pliki `20`–`24` opisują aktywne łożysko magnetyczne — kierunek ZAMKNIĘTY, odrzucony przez użytkownika.**
-> Nie czytać ich jako projektu bieżącego. Przenośne są z nich tylko struktura planu pomiarowego (`22`) i drabinka zejść (`23`).
-
-**Twarde znalezisko kalendarzowe:** aplikacje na studia w USA składa się jesienią 2028, decyzje w marcu 2029 — czyli **ISEF 2029 jest po decyzjach i nie wchodzi do aplikacji**. Rekrutacyjnie liczy się wyłącznie **ISEF 2028**, przez Explory 2027.
+> Przenośne są z nich wyłącznie struktura planu pomiarowego (`22`) i drabinka zejść (`23`).
 
 ---
 
-Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
+## Trzy rzeczy, bez których nowa sesja zacznie od złego miejsca
 
-**Cel:** Explory 2027 **i** 2028 → reprezentacja Polski na Regeneron ISEF (2028 i/lub 2029).
-**Cel nadrzędny użytkownika:** studia w USA. ISEF jest drogą, nie celem samym w sobie.
+**1. Projekt jest indywidualny. Autorem jest użytkownik, model jest doradcą.**
+Zakaz liczby mnogiej („my", „nasz", „zrobiliśmy") w dokumentacji i materiałach zgłoszeniowych. `[fakt]` Regulamin Explory (Załącznik nr 1) i reguły ISEF wymagają pracy własnej i jawnego deklarowania udziału osób trzecich. K-054.
+
+**2. Rekrutacyjnie liczy się wyłącznie ISEF 2028.**
+Aplikacje na studia w USA składa się jesienią 2028, decyzje w marcu 2029. **ISEF 2029 jest po decyzjach.** Harmonogram wymaga przeliczenia pod jeden cykl — `32_STUDIA_USA.md` sekcja 1.
+
+**3. Metryka to bity, nigdy słowa na minutę.**
+To jedyny mechaniczny strażnik granicy z projektem referencyjnym ENBM074 (2026). W chwili, gdy w materiałach pojawi się „słów na minutę", projekt staje się wariantem cudzej pracy. K-055.
 
 ---
 
-## STAN: etap 2 otwarty, projekt wybrany — 17 sierpnia 2026
+## Projekt bieżący, w jednym akapicie
 
-**Kierunek „nieinwazyjny interfejs neuralny" zamknięty decyzją użytkownika.** Pliki `00`–`13` zostają: przemiał literatury, trzy przejścia audytu i cała metodyka są dorobkiem, a `12_AUDYT.md` pozostaje wzorcem postępowania dla nowego projektu.
+Nieinwazyjny interfejs sterowany bodźcem wzrokowym, w zwartej formie noszonej. **Twierdzenie: ile kosztuje wygoda** — o ile spada dokładność i przepustowość, gdy urządzenie robi się na tyle małe i wygodne, żeby dało się je nosić. Punkt odniesienia wewnętrzny: ten sam układ w wersji pełnowymiarowej oraz kupiony OpenBCI Cyton.
+
+**Demonstracja:** bodziec przeniesiony z twarzy na cele w otoczeniu, jedno wykrycie = jedna pełna intencja, wykonanie przez sterowanie **kupionymi** przedmiotami (żarówka, gniazdko — poniżej 200 zł, zero godzin warsztatu). Bez mowy syntetycznej.
+
+**Obszar Explory:** Człowiek i Społeczeństwo, historia o dostępności. `[fakt]` Uwaga: obszar „Poza kategoriami" **nie ma nagrody SDG** — K-059.
+
+---
+
+## Szanse — stan po analizie stawki
+
+`[domysł]`, błąd rzędu ×1,5 w każdą stronę.
+
+| Cel | Wartość |
+|---|---|
+| finał Explory | ~50% |
+| reprezentacja na ISEF | ~22% |
+| **Nagroda Główna Explory** | ~9–10% |
+| jakakolwiek nagroda na ISEF | ~8% |
+| **wartość dla aplikacji na studia, niezależna od wyniku** | **~100%, jeżeli projekt powstanie** |
+
+Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → ponad 130 półfinał → 20 finał + 1 z plebiscytu → 3 na ISEF.**
+
+---
+
+## Zadania otwarte — komplet
 
 ### Projekt
 
-> **Aktywne łożysko magnetyczne — wirnik trzymany w powietrzu polem magnetycznym, bez kontaktu — a następnie pomiar tego, ile dokładnie się traci, kiedy usunie się z niego czujniki położenia i zastąpi je samą cewką wykonawczą.**
-
-| Rok | Pytanie | Konkursy |
+| # | Zadanie | Termin |
 |---|---|---|
-| **1** (2026/27) | Jaką charakterystykę da się osiągnąć i zmierzyć na samodzielnie zbudowanym AMB z własnymi czujnikami na PCB? | Explory 2027, OITwEiM, ISEF 2028 |
-| **2** (2027/29) | Ile kosztuje usunięcie czujników i **który** z czterech opisanych w literaturze mechanizmów dominuje? | Explory 2028, ISEF 2029 (Form 7) |
+| P1 | **audyt adwersaryjny nowej wersji projektu**, trzy przejścia, metodą z `12_AUDYT.md` | **najbliższa sesja** |
+| P2 | **przeliczyć harmonogram pod jeden cykl** (Explory 2027 → ISEF 2028) | przed budową |
+| P3 | sprawdzić dorobek grupy Kołodziej M., Majkowski A. od stycznia 2026 (PubMed, imiennie) | faza 0, IX 2026 |
+| P4 | zamknąć zdanie z twierdzeniem i metrykę — jedno zdanie, jedna jednostka | przed budową |
+| P5 | kupić **oryginalnego** OpenBCI Cyton, nie klon. Klony DeepBCI z eBaya to chińskie podróbki, ~213–332 USD, z udokumentowanymi problemami | jesień 2026 |
+| P6 | przejrzeć **filmy półfinałowe** Explory 2026 — użytkownik prosił o przypominanie | gdy internet pozwoli |
+| P7 | dokument **go/no-go** — co musiałoby być prawdą, żeby projekt był wart zachodu | po audycie |
 
-**Twierdzenie** — pomiarowe, z punktem odniesienia wewnętrznym, więc nieunieważnialne cudzą publikacją:
+### Rekrutacja — pełna lista w `32_STUDIA_USA.md` sekcja 7
 
-> Na jednym stanowisku self-sensing kosztuje X µm szumu położenia, Y N/mm sztywności i Z dB zapasu wzmocnienia względem tego samego stanowiska z czujnikami na PCB; dominującym ogranicznikiem jest [zmierzone].
+| # | Zadanie | Termin |
+|---|---|---|
+| R1 | rozstrzygnąć **aerospace vs elektronika** jako kierunek — wpływa na listę uczelni | do 2028 |
+| R2 | CMU: need-blind czy need-aware wobec obcokrajowców | jesień 2027 |
+| R3 | Georgia Tech: czy wybór kierunku jest wiążący przy aplikacji | jesień 2027 |
+| R4 | czy CMU ma aerospace na licencjacie | jesień 2027 |
+| R5 | realna waga statusu finalisty ISEF — dane uczelni, **nie blogi** | jesień 2027 |
+| R6 | terminarz SAT/TOEFL | jesień 2027 |
+| R7 | ustawić rekomendacje w szkole | wiosna 2028 |
+| R8 | pytanie do OKE o termin dodatkowy matury (dotyczy tylko ISEF 2029) | jesień 2028 |
 
-**Parametry:** dwa lata, ~890 h (10 h/tydz. w roku 1, potem malejąco), ~9 900 zł z 15 000 budżetu, kategoria ISEF **EBED**, Explory **SDG 9 / Gospodarka i Bezpieczeństwo**.
+### Trening prezentacyjny — plan w `31_ANALIZA_STAWKI_2026.md` sekcja 7
 
-### Struktura etapu 2
-
-| Plik | Zawartość |
+| Kiedy | Runda |
 |---|---|
-| **`20_PROJEKT.md`** | **czym jest projekt, twierdzenie, dlaczego to, kategorie — czytaj to pierwsze** |
-| `21_PLAN_BUDOWY.md` | fazy, kalendarz z terminami, budżet z pozycjami, plan zużycia zasobów zewnętrznych |
-| `22_PLAN_POMIAROWY.md` | co mierzone, ile prób, budżet niepewności, eksperymenty rozdzielające mechanizm |
-| `23_RYZYKA.md` | drabinka zejść (5 szczebli), ryzyka techniczne, konkursowe, harmonogramowe, bezpieczeństwo |
-| `24_ODRZUCONE_KANDYDATY.md` | sześciu kandydatów zabitych przy wyborze, z powodami i źródłami |
+| IX 2027, po kampanii pomiarowej | diagnostyczna |
+| IX–X 2027 | adwersaryjna, intensywna, trzy poziomy głębokości |
+| III–V 2028 | to samo po angielsku pod ISEF |
 
-### Trzy rzeczy, które ten projekt zdejmuje z poprzedniego planu
-
-1. **Human Participants w całości** — zero badanych, zero formularzy, zero komisji IRB przy szkole. Najcięższa pozycja formalna poprzedniego planu znika.
-2. **Nazwany konkurent z terminem** — nie istnieje, bo porównanie jest wewnętrzne.
-3. **Scenariusz „nie ma nic"** — dno drabinki zejść (własny czujnik na PCB, skalibrowany i scharakteryzowany) jest osiągalne do stycznia 2027 i samo w sobie jest kompletnym projektem.
-
-**Doszło jedno ryzyko:** wirujący element. Obsługa w `23_RYZYKA.md` sekcja 5.
-
----
-
-## ETAP 1 — zamknięty 15 sierpnia 2026, dorobek zachowany
-
-Zamknięty po **trzech przejściach audytu adwersaryjnego** (`12_AUDYT.md`). Przeszukane kanały: PubMed, arXiv, Crossref, baza patentów, bazy abstraktów ISEF, regulaminy obu konkursów. **Korekty K-001…K-050.**
-
-**Co z etapu 1 przenosi się do nowego projektu i jest tam używane:**
-
-- **kształt twierdzenia, który przeżył audyt** — pomiarowe, nie o pierwszeństwie, z punktem odniesienia wewnętrznym. Nowy projekt jest zbudowany dokładnie w tym kształcie
-- **rzemiosło eksperymentalne skopiowane z ENBM074 (2026)** — warunek kontrolny na tym samym sprzęcie, randomizacja i kontrbalansowanie, replikacja, poprawka na wielokrotne porównania, test mechanizmu. Sekcja 9.2 handbooka zakazuje kopiowania tamtego **rozwiązania**; nie zakazuje kopiowania rzemiosła
-- **liczby o lejku i o stawce** — `11_OCENA_SZANS.md`, `13_PODNIESIENIE_SZANS.md`: struktura TOP 5 na obszar, plebiscyt „Bilet na Finał" (próg 904 głosy), EBED 49 projektów vs ENBM 98, wideo półfinałowe jako jedyny nośnik demonstracji w najwęższym miejscu lejka
-- **punkt kalibracyjny ENBM079 (2026)** — domowe EEG, 52% trafności przy zadaniu dwuklasowym, trzecia nagroda. Próg wejścia do nagród ISEF jest niski
-- **obserwacja o stawce Explory** — żaden z 21 finalistów 2026 nie łączy zbudowanego sprzętu z rygorem pomiarowym. To jest luka pozycyjna i nowy projekt trafia w nią wprost
-
-**Pliki etapu 1:** `HANDBOOK.md`, `00_STRESZCZENIE.md`, `00_PYTANIA_I_LUKI.md`, `01`–`13`, `ISEF_HUMAN_PARTICIPANTS.md`, `ISEF_ARKUSZE_OCENY.md`, `ZRODLA.md`, `DECYZJE.md`, `PRZEKAZANIE.md`.
-
-**Nieaktualne dla nowego kierunku:** `09_UMIEJSCOWIENIE.md`, `10_PROJEKT_DLA_LAIKA.md`, `DECYZJE.md` (dotyczyły interfejsu). `11` i `13` zachowują wartość w częściach o lejku, kategoriach i konkursach — nie w częściach o twierdzeniu.
-
----
-
-## Otwarte pozycje, żadna nie blokuje startu
-
-| # | Pozycja | Termin |
-|---|---|---|
-| 1 | policzyć kategorię **ETSD** w bazie abstraktów (ma podkategorię Control Theory) — decyzja o kategorii ISEF dopiero po liczbach | przed zgłoszeniem do ISEF |
-| 2 | sprawdzić, czy istnieje praca zestawiająca **oba estymatory na jednym stanowisku** — nie zmienia projektu, zmienia opis wkładu | faza 0, IX 2026 |
-| 3 | sprawdzić w *International Rules*, czy **wirujące elementy** mają osobny wymóg na stoisku ISEF | jesień 2027 |
-| 4 | pytanie do OKE o **termin dodatkowy matury** kolidującej z ISEF 2029 | jesień 2028 |
-| 5 | terminarz **SAT/TOEFL** wobec kalendarza projektu | jesień 2027 |
+`[fakt]` Waga: półfinał Explory 10 z 40, finał Explory część z 10 z 30, **ISEF Interview 25 ze 100 — największa pojedyncza pozycja arkusza.**
 
 ---
 
@@ -94,4 +106,10 @@ Każda liczba, na której cokolwiek się opiera: 2–3 niezależne źródła. Je
 
 Hierarchia przy sprzeczności: dokument regulaminowy > publikacja recenzowana > preprint > materiał prasowy > blog/forum.
 
-**Zakaz słowa „pierwszy" w materiałach zgłoszeniowych obowiązuje dalej** (K-044).
+**Zakaz słowa „pierwszy" w materiałach zgłoszeniowych** (K-044). **Liczba pojedyncza w całej dokumentacji** (K-054).
+
+---
+
+## Uwaga o gałęziach
+
+Praca z 17 VIII 2026 powstała na gałęzi `claude/isef-engineering-project-pjunzg` i **nie była widoczna z `main`**, przez co nowa sesja zaczęła bez kompletu. Gałęzie zostały zsynchronizowane. **Przy każdym zamknięciu sesji sprawdzić, czy `main` zawiera bieżący stan.**

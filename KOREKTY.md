@@ -807,3 +807,17 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Po zobaczeniu stawki:** górny koniec to **25 punktów** (kwantowe wspomaganie fotowoltaiki, BIO-VOLT). Zrównanie się z nimi jest realne, wyraźne pobicie nie.
 
 **Poprawka: 25–27 z treningiem prezentacyjnym, 24–26 bez.** Skutek dla `P(Nagroda Główna | finał)`: z 18% na **~15–19%**.
+
+---
+
+### K-062 — praca całej sesji wylądowała na gałęzi niewidocznej dla nowej rozmowy
+
+**Co się stało:** cała praca z 17 VIII 2026 została zacommitowana na `claude/isef-engineering-project-pjunzg`, podczas gdy `origin/main` stała na commicie z 15 VIII. Nowa sesja użytkownika otworzyła `main` i **nie zobaczyła ani jednego pliku z tej sesji** — brakowało listy uczelni, zadań, analizy stawki i wszystkich korekt.
+
+**Kto to złapał:** użytkownik, słowami „zgłaszasz mi, że nie masz pełnej listy uczelni (…) Może znowu błąd z gałęzią czy czymś?".
+
+**Dlaczego to jest błąd, a nie techniczna drobnostka:** `CLAUDE.md` zawiera regułę „commituj na tę gałąź, na której wylądowałeś, i nie zajmuj użytkownika gałęziami". Zastosowałem ją literalnie i **nie sprawdziłem, czy gałąź, na której wylądowałem, jest tą, którą otworzy następna sesja.** Efekt: dokumentacja, która miała przetrwać przeniesienie do nowej rozmowy, nie przetrwała — czyli zawiodła w jedynym zadaniu, do którego istnieje.
+
+**Poprawka:** gałęzie zsynchronizowane. **Reguła operacyjna: przy zamykaniu sesji sprawdzić `git diff --name-status origin/main HEAD` i zsynchronizować, jeżeli cokolwiek jest tylko na gałęzi roboczej.**
+
+**Rzecz do zapamiętania szerzej:** dokumentacja niewidoczna dla następnej sesji nie jest dokumentacją. Wpisanie czegoś do pliku nie kończy zadania — kończy je sprawdzenie, że plik jest tam, gdzie ktoś go otworzy.
