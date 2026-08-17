@@ -1,113 +1,78 @@
-# ISEF — nieinwazyjny interfejs neuralny
+# ISEF — aktywne łożysko magnetyczne z estymacją położenia bez czujników
 
 Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 
-**Cel:** Explory 2027 → reprezentacja Polski na Regeneron ISEF, maj 2028.
+**Cel:** Explory 2027 **i** 2028 → reprezentacja Polski na Regeneron ISEF (2028 i/lub 2029).
+**Cel nadrzędny użytkownika:** studia w USA. ISEF jest drogą, nie celem samym w sobie.
 
 ---
 
-## ETAP 1 ZAMKNIĘTY — 15 sierpnia 2026
+## STAN: etap 2 otwarty, projekt wybrany — 17 sierpnia 2026
 
-> Zamknięty po **trzech przejściach audytu adwersaryjnego** (`12_AUDYT.md`). Przeszukane kanały: PubMed, arXiv, Crossref, baza patentów, bazy abstraktów ISEF, regulaminy obu konkursów. **Dwadzieścia osiem korekt, K-020…K-047.**
->
-> **Etap 2 zaczyna się w nowej rozmowie.** Punkt startowy: `PRZEKAZANIE.md`, potem `12_AUDYT.md` sekcja 14 i `DECYZJE.md`.
+**Kierunek „nieinwazyjny interfejs neuralny" zamknięty decyzją użytkownika.** Pliki `00`–`13` zostają: przemiał literatury, trzy przejścia audytu i cała metodyka są dorobkiem, a `12_AUDYT.md` pozostaje wzorcem postępowania dla nowego projektu.
 
-### Stan po weryfikacji w oryginałach
+### Projekt
 
-| Etap | Status |
-|---|---|
-| Sekcja 14 handbooka — drugie czytanie, luki i pytania | **zrobione** → `00_PYTANIA_I_LUKI.md` |
-| Odpowiedzi użytkownika, rundy 1 i 2 | **zebrane** → `00_PYTANIA_I_LUKI.md` sekcje 4b i 4c |
-| **Etap 1 — przemiał literatury** | **ZAMKNIĘTY** → `00_STRESZCZENIE.md` |
-| Etap 2 — opracowanie projektu | **gotowy do startu**, czeka na cztery decyzje użytkownika |
+> **Aktywne łożysko magnetyczne — wirnik trzymany w powietrzu polem magnetycznym, bez kontaktu — a następnie pomiar tego, ile dokładnie się traci, kiedy usunie się z niego czujniki położenia i zastąpi je samą cewką wykonawczą.**
 
-### Co się zmieniło względem stanu porannego
-
-Sesja poranna wykonała etap 1 **bez dostępu do źródeł** — żadna praca nie została otwarta, każda liczba miała znacznik `[wniosek, streszczenie]`. Ta sesja miała dostęp i **odczytała w oryginale 12 prac naukowych oraz 7 dokumentów regulaminowych i konkursowych**.
-
-Wyszło z tego **szesnaście korekt**, `KOREKTY.md` K-020…K-035.
-
-**Trzy zmieniają decyzje projektowe, nie tylko zapis:**
-
-- **K-026** — oś projektu dotyczy artefaktu **szczękowego**, nie pary „szczęka i oko". Kappel 2017 w oryginale: przy uchu **mrugnięcie w ogóle nie psuje SNR**. Układ się upraszcza
-- **K-027** — publiczny zbiór ear-EEG pod zadania sterowania **istnieje** (24 osoby, ERP i SSVEP, z EOG i pomiarem ruchu). Twierdziłem, że nie istnieje. Można pracować nad dekodowaniem, zanim powstanie sprzęt
-- **K-028** — pułap SSVEP z ucha jest **o rząd wielkości wyżej**, niż podawałem. Nature Communications 2023: speller 40-celowy online bez kalibracji z kanału słuchowego. Ograniczeniem był kontakt elektrody, czyli warsztat użytkownika. **Rekomendacja C2 z porannej wersji stała na tej błędnej liczbie i została wycofana**
-
-**Wskaźnik, który warto znać:** z dwunastu prac odczytanych w oryginale **cztery miały istotny błąd** w opisie ze streszczenia. Jedna trzecia. Przy przeglądzie literatury to nie jest szum — to unieważnia wynik.
-
----
-
-## Struktura
-
-| Plik | Zawartość | Status |
+| Rok | Pytanie | Konkursy |
 |---|---|---|
-| `HANDBOOK.md` | kontekst i zlecenie | źródło, **pięć wstawek „POPRAWKA"** |
-| **`00_STRESZCZENIE.md`** | **co z etapu 1 wynika — czytaj to pierwsze** | gotowy, wersja 3 |
-| `00_PYTANIA_I_LUKI.md` | luki, pytania, odpowiedzi użytkownika, lista zadań 4d | gotowy |
-| `01_HISTORIA.md` | rozwój technologii, z datami | gotowy, linia ear-EEG zweryfikowana |
-| `02_MECHANIZMY.md` | mechanizm fizyczny, po polsku, terminy z definicjami | gotowy, **niezweryfikowany źródłowo** |
-| `03_SCIANY_FIZYCZNE.md` | fizyczne vs technologiczne; pomiar szumu bez oscyloskopu | gotowy, jedna ściana wycofana |
-| `04_LUKI_ZAPISANE.md` | future work; **przegląd systematyczny osi projektu** | gotowy |
-| `05_RYNEK.md` | baseline komercyjny; materiały; **OpenBCI jako punkt odniesienia** | gotowy |
-| `06_TABELA_PARAMETROW.md` | metryka porównawcza, kolumna „n", kolumna „skąd ta liczba" | gotowy |
-| `07_DEKODOWANIE.md` | paradygmaty, metody, zbiory danych, metryka „słów na minutę" | gotowy |
-| `08_KONKURENCJA_ISEF.md` | **abstrakt ENBM074, liczby konkurencji, alternatywy konkursowe** | gotowy |
-| `09_UMIEJSCOWIENIE.md` | **gdzie ma być interfejs — decyzja otwarta** | czeka na użytkownika |
-| **`ISEF_HUMAN_PARTICIPANTS.md`** | badania z udziałem ludzi, terminarz wsteczny | **gotowy, z oryginału regulaminu** |
-| **`ISEF_ARKUSZE_OCENY.md`** | **nowy** — oba arkusze oceny, kategorie, abstrakt, zasady AI | gotowy |
-| `ZRODLA.md` | bibliografia; skala z nowym stopniem **AA** = odczytane | gotowy |
-| `KOREKTY.md` | rejestr błędów, K-001…K-035 | prowadzony |
+| **1** (2026/27) | Jaką charakterystykę da się osiągnąć i zmierzyć na samodzielnie zbudowanym AMB z własnymi czujnikami na PCB? | Explory 2027, OITwEiM, ISEF 2028 |
+| **2** (2027/29) | Ile kosztuje usunięcie czujników i **który** z czterech opisanych w literaturze mechanizmów dominuje? | Explory 2028, ISEF 2029 (Form 7) |
 
----
+**Twierdzenie** — pomiarowe, z punktem odniesienia wewnętrznym, więc nieunieważnialne cudzą publikacją:
 
-## Ustalenia kierunkowe — stan po weryfikacji
+> Na jednym stanowisku self-sensing kosztuje X µm szumu położenia, Y N/mm sztywności i Z dB zapasu wzmocnienia względem tego samego stanowiska z czujnikami na PCB; dominującym ogranicznikiem jest [zmierzone].
 
-Zmiany względem stanu porannego zaznaczone **pogrubieniem**.
+**Parametry:** dwa lata, ~890 h (10 h/tydz. w roku 1, potem malejąco), ~9 900 zł z 15 000 budżetu, kategoria ISEF **EBED**, Explory **SDG 9 / Gospodarka i Bezpieczeństwo**.
 
-- **zdolność:** sterowanie, nie komunikacja. Odczyt dyskretny, zachowanie sterowanego obiektu ciągłe. Bez zmian (uzasadnienie skorygowane w K-014)
-- **kalendarz: potwierdzony CYTATEM Z REGULAMINU.** Explory §8 pkt 7c — wyjazd na ISEF „w maju kolejnego roku". Finał X 2027 → ISEF V 2028. **Pozycja zamknięta ostatecznie**
-- **reguła 12 miesięcy: przeliczona.** Okno I 2027 – V 2028. Reguły „18 miesięcy" w regulaminie nie ma. **Kampanię pod ISEF zaczynać w maju 2027. K-023**
-- **formalności ISEF: alarm był fałszywy.** Badanie na sobie zwolnione; osobnej kategorii ryzyka dla urządzeń elektrycznych nie ma. **Doszła jedna realna pozycja: komisję IRB trzeba powołać przy szkole. K-022**
-- **opiekun naukowy:** magister wystarcza jako Adult Sponsor i Direct Supervisor. **Qualified Scientist nie wymaga doktoratu. K-020**
-- **oś projektu: zawężona do artefaktu szczękowego.** Mrugnięcie przy uchu nie przeszkadza. **K-026**
-- **pułap formy dousznej: znacznie wyżej, niż podawałem. K-028.** Wariant twierdzenia przepustowościowego **wraca do gry**
-- **rekomendacja C2: WYCOFANA.** Stała na błędnej liczbie. Decyzja wraca do użytkownika
-- **konkurencja: policzona.** Explory — 1 projekt EEG na 133 zgłoszenia, zero w finałach. ISEF — 22 projekty EEG w 2026 wobec 8 w 2024. **K-033, K-034**
-- **kod projektu referencyjnego ENBM074 (2026) prawidłowy**, abstrakt odczytany, **nagroda to drugie miejsce**, liczby 65/3 wpm potwierdzone. **K-025**
-- **żywica ISO 10993: dostępna.** Liqcreate Bio-Med Clear, zwykłe drukarki MSLA, polskie sklepy, ~456 zł/0,5 kg. **Luka zamknięta. K-035**
-- **El-Robo-Mech:** bez zmian, ale **znaleziono lepszych zamienników** — OITwEiM i EUCYS
-- **umiejscowienie: DECYZJA OTWARTA**, K-019. Argument za potylicą **osłabł** po K-028
-- badani, czas, budżet, sprzęt pomiarowy: bez zmian
-
----
-
-## Decyzje — stan po 15 VIII wieczorem
-
-| # | Decyzja | Status |
-|---|---|---|
-| 1 | C2 — w czym „lepsze od komercyjnych" | **otwarta**, zawężona do wariantów 2 i 3. Propozycja: zapisać oba z góry, wybrać główne po pierwszych wynikach. `DECYZJE.md` |
-| 2 | umiejscowienie | **ZAMKNIĘTA: moduł zwarty na potylicy**, bez łuku i bez drugiego miejsca. Weryfikacja pokazała, że dwa miejsca elektrod **pogarszają** SNR dla SSVEP. K-036 |
-| 3 | skala gabarytu | **zatwierdzona**, z granicą twardą: żadnej konstrukcji zbliżającej się do opaski przechylonej na tył głowy |
-| 4 | E1 — kalendarz | **przyjęty** |
-| E3 | skąd liczby 65 i 3 wpm | **zamknięte** — z abstraktu projektu referencyjnego, prawdziwe |
-| formalności / IRB | | **zdjęte z listy ryzyk** decyzją użytkownika |
-
-## Finał etapu 1
+### Struktura etapu 2
 
 | Plik | Zawartość |
 |---|---|
-| **`10_PROJEKT_DLA_LAIKA.md`** | czym jest projekt bez żargonu; **co realnie umie i czego nie umie**; odpowiedź na „a czemu nie kamerka" |
-| **`11_OCENA_SZANS.md`** | **ocena szans Explory i ISEF z liczbami**, w trzech wymiarach: prawdopodobieństwo, sterowalność, koszt porażki |
+| **`20_PROJEKT.md`** | **czym jest projekt, twierdzenie, dlaczego to, kategorie — czytaj to pierwsze** |
+| `21_PLAN_BUDOWY.md` | fazy, kalendarz z terminami, budżet z pozycjami, plan zużycia zasobów zewnętrznych |
+| `22_PLAN_POMIAROWY.md` | co mierzone, ile prób, budżet niepewności, eksperymenty rozdzielające mechanizm |
+| `23_RYZYKA.md` | drabinka zejść (5 szczebli), ryzyka techniczne, konkursowe, harmonogramowe, bezpieczeństwo |
+| `24_ODRZUCONE_KANDYDATY.md` | sześciu kandydatów zabitych przy wyborze, z powodami i źródłami |
 
-**Skrót werdyktu:** cel z handbooka (miejsce w kategorii na ISEF) ma prawdopodobieństwo rzędu **1%**; wyjazd na ISEF ~6%; jakikolwiek wymierny sukces konkursowy ~50%. Liczby są niskie, ale wąskie gardło leży tam, gdzie masz największy wpływ, a każda ścieżka porażki zostawia umiejętność albo wpis do dorobku. Pełne uzasadnienie w `11`.
+### Trzy rzeczy, które ten projekt zdejmuje z poprzedniego planu
 
-## Trzy rzeczy do zrobienia poza komputerem, jesień 2026
+1. **Human Participants w całości** — zero badanych, zero formularzy, zero komisji IRB przy szkole. Najcięższa pozycja formalna poprzedniego planu znika.
+2. **Nazwany konkurent z terminem** — nie istnieje, bo porównanie jest wewnętrzne.
+3. **Scenariusz „nie ma nic"** — dno drabinki zejść (własny czujnik na PCB, skalibrowany i scharakteryzowany) jest osiągalne do stycznia 2027 i samo w sobie jest kompletnym projektem.
 
-Wynikają z tej sesji i żadnej z nich nie da się załatwić po mojej stronie:
+**Doszło jedno ryzyko:** wirujący element. Obsługa w `23_RYZYKA.md` sekcja 5.
 
-1. **rozmowa z dyrekcją szkoły** — czy da się powołać komisję IRB w składzie: nauczyciel (inny niż opiekun projektu), dyrektor lub wicedyrektor, pielęgniarka szkolna lub psycholog. To najdłuższy proces w całym harmonogramie formalnym
-2. **mail do FZT** (`konkurs@fzt.org.pl`) — czy organizator prowadzi SRC pełniące funkcję IRB dla polskich uczestników ISEF. Jedno pytanie, może skasować punkt 1
-3. **pisemna zgoda opiekuna szkolnego** na rolę Adult Sponsor i Direct Supervisor — tanie, bez terminu, zdejmuje ryzyko
+---
+
+## ETAP 1 — zamknięty 15 sierpnia 2026, dorobek zachowany
+
+Zamknięty po **trzech przejściach audytu adwersaryjnego** (`12_AUDYT.md`). Przeszukane kanały: PubMed, arXiv, Crossref, baza patentów, bazy abstraktów ISEF, regulaminy obu konkursów. **Korekty K-001…K-050.**
+
+**Co z etapu 1 przenosi się do nowego projektu i jest tam używane:**
+
+- **kształt twierdzenia, który przeżył audyt** — pomiarowe, nie o pierwszeństwie, z punktem odniesienia wewnętrznym. Nowy projekt jest zbudowany dokładnie w tym kształcie
+- **rzemiosło eksperymentalne skopiowane z ENBM074 (2026)** — warunek kontrolny na tym samym sprzęcie, randomizacja i kontrbalansowanie, replikacja, poprawka na wielokrotne porównania, test mechanizmu. Sekcja 9.2 handbooka zakazuje kopiowania tamtego **rozwiązania**; nie zakazuje kopiowania rzemiosła
+- **liczby o lejku i o stawce** — `11_OCENA_SZANS.md`, `13_PODNIESIENIE_SZANS.md`: struktura TOP 5 na obszar, plebiscyt „Bilet na Finał" (próg 904 głosy), EBED 49 projektów vs ENBM 98, wideo półfinałowe jako jedyny nośnik demonstracji w najwęższym miejscu lejka
+- **punkt kalibracyjny ENBM079 (2026)** — domowe EEG, 52% trafności przy zadaniu dwuklasowym, trzecia nagroda. Próg wejścia do nagród ISEF jest niski
+- **obserwacja o stawce Explory** — żaden z 21 finalistów 2026 nie łączy zbudowanego sprzętu z rygorem pomiarowym. To jest luka pozycyjna i nowy projekt trafia w nią wprost
+
+**Pliki etapu 1:** `HANDBOOK.md`, `00_STRESZCZENIE.md`, `00_PYTANIA_I_LUKI.md`, `01`–`13`, `ISEF_HUMAN_PARTICIPANTS.md`, `ISEF_ARKUSZE_OCENY.md`, `ZRODLA.md`, `DECYZJE.md`, `PRZEKAZANIE.md`.
+
+**Nieaktualne dla nowego kierunku:** `09_UMIEJSCOWIENIE.md`, `10_PROJEKT_DLA_LAIKA.md`, `DECYZJE.md` (dotyczyły interfejsu). `11` i `13` zachowują wartość w częściach o lejku, kategoriach i konkursach — nie w częściach o twierdzeniu.
+
+---
+
+## Otwarte pozycje, żadna nie blokuje startu
+
+| # | Pozycja | Termin |
+|---|---|---|
+| 1 | policzyć kategorię **ETSD** w bazie abstraktów (ma podkategorię Control Theory) — decyzja o kategorii ISEF dopiero po liczbach | przed zgłoszeniem do ISEF |
+| 2 | sprawdzić, czy istnieje praca zestawiająca **oba estymatory na jednym stanowisku** — nie zmienia projektu, zmienia opis wkładu | faza 0, IX 2026 |
+| 3 | sprawdzić w *International Rules*, czy **wirujące elementy** mają osobny wymóg na stoisku ISEF | jesień 2027 |
+| 4 | pytanie do OKE o **termin dodatkowy matury** kolidującej z ISEF 2029 | jesień 2028 |
+| 5 | terminarz **SAT/TOEFL** wobec kalendarza projektu | jesień 2027 |
 
 ---
 
@@ -115,10 +80,8 @@ Wynikają z tej sesji i żadnej z nich nie da się załatwić po mojej stronie:
 
 Znaczniki pewności przy każdym stwierdzeniu: `[fakt]` `[wniosek]` `[domysł]` `[luka]`.
 
-Znacznik złożony **`[wniosek, streszczenie]`** oznacza twierdzenie oparte na streszczeniu wyszukiwarki, bez otwarcia źródła. **Po tej sesji zniknął z większości liczb w plikach 01, 03, 04, 06, 07, 08** — tam, gdzie został, jest to zaznaczone przy twierdzeniu.
-
-W `ZRODLA.md` doszedł stopień **AA** — pozycja odczytana bezpośrednio u wydawcy albo w PubMed.
-
-Każda liczba, na której cokolwiek się opiera: 2–3 niezależne źródła. Jedno źródło — oznaczone przy twierdzeniu, nie w przypisie. **Zgodność trzech streszczeń nie jest weryfikacją** — patrz K-030.
+Każda liczba, na której cokolwiek się opiera: 2–3 niezależne źródła. Jedno źródło — oznaczone przy twierdzeniu, nie w przypisie. **Zgodność trzech streszczeń nie jest weryfikacją** (K-030).
 
 Hierarchia przy sprzeczności: dokument regulaminowy > publikacja recenzowana > preprint > materiał prasowy > blog/forum.
+
+**Zakaz słowa „pierwszy" w materiałach zgłoszeniowych obowiązuje dalej** (K-044).

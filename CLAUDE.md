@@ -4,39 +4,31 @@ Użytkownik: Julek. **Odpowiadaj po polsku.**
 
 ## Co czytać, w tej kolejności
 
-1. **`HANDBOOK.md`** — jedyne źródło kontekstu. Zasady współpracy, cel, kalendarz, ściągawka Explory i ISEF, historia odrzuconych kierunków, rejestr wcześniejszych błędów, opis zlecenia. **Przeczytaj w całości, zanim cokolwiek zrobisz.**
-2. **`00_PYTANIA_I_LUKI.md`** — luki i sprzeczności znalezione w handbooku, odpowiedzi użytkownika z dwóch rund pytań, oraz **lista 12 zadań weryfikacyjnych na etap 1 z priorytetami** (sekcja 4d).
-3. **`KOREKTY.md`** — rejestr błędów. Dopisuj każdy nowy.
-4. **`README.md`** — stan prac i struktura docelowa.
+1. **`README.md`** — stan bieżący i mapa plików. Najkrótsza droga do tego, co się dzieje teraz.
+2. **`20_PROJEKT.md`** — **projekt bieżący.** Czym jest, twierdzenie, dlaczego to, kategorie. Potem `21_PLAN_BUDOWY.md`, `22_PLAN_POMIAROWY.md`, `23_RYZYKA.md`.
+3. **`HANDBOOK.md`** — zasady współpracy, cel, kalendarz, ściągawka Explory i ISEF, historia odrzuconych kierunków, rejestr wcześniejszych błędów. **Sekcje 1–8 i 12–13 obowiązują nadal. Sekcje 9–11 dotyczą zamkniętego kierunku neuralnego** — czytaj je jako historię, nie jako zlecenie.
+4. **`KOREKTY.md`** — rejestr błędów, K-001…K-053. Dopisuj każdy nowy.
+5. **`12_AUDYT.md`** — wzorzec audytu adwersaryjnego. Metoda zostaje w mocy, treść dotyczy zamkniętego kierunku.
 
 ## Zadanie bieżące
 
-**Etap 1 ZAMKNIĘTY 15 VIII 2026 wieczorem.** Wszystkie źródła odczytane w oryginale, szesnaście korekt w `KOREKTY.md` (K-020…K-035). Trzy pozycje startowe rozstrzygnięte:
-1. finał Explory X 2027 → ISEF V 2028 — **potwierdzone cytatem z regulaminu**, §8 pkt 7c
-2. badanie na sobie **zwolnione** z uprzedniej zgody komisji; osobnej kategorii ryzyka dla urządzeń elektrycznych **nie ma**; Qualified Scientist **nie wymaga doktoratu**
-3. oś projektu: wersja ogólna zajęta od 1983, analogowa dla artefaktów ruchowych od 2019. **Twierdzenie musi być pomiarowe, nie o pierwszeństwie**
+**ZMIANA KIERUNKU 17 VIII 2026.** Kierunek „nieinwazyjny interfejs neuralny" **zamknięty decyzją użytkownika**. Pliki `00`–`13` zostają jako dorobek i wzorzec metody — nie jako opis bieżącego projektu.
 
-**Wszystkie cztery decyzje użytkownika ZAPADŁY** — `DECYZJE.md`:
-1. **C2: wariant 3 — przepustowość.** Metryka główna: dokładność i ITR w bit/min. Punkt odniesienia: Xing 2018, 92,35 bit/min
-2. **umiejscowienie: moduł zwarty na potylicy**, bez łuku, bez zausznika, bez drugiego miejsca elektrod (K-036)
-3. **skala gabarytu zatwierdzona.** Granica twarda: nic zbliżonego do opaski przechylonej na tył głowy. Rozstaw elektrod do zmierzenia, nie do założenia
-4. **kalendarz przyjęty.** Kampania pomiarowa pod ISEF startuje **maj 2027** (K-023, potwierdzone na trzech rocznikach w K-046)
+**Etap 2 otwarty. Projekt wybrany: aktywne łożysko magnetyczne z estymacją położenia bez czujników.** Zacznij od `20_PROJEKT.md`, potem `21`–`24`.
 
-**Etap 1 ZAMKNIĘTY po trzech przejściach audytu adwersaryjnego** — `12_AUDYT.md`. Korekty K-020…K-047.
+Twierdzenie: **na jednym stanowisku self-sensing kosztuje X µm szumu położenia, Y N/mm sztywności i Z dB zapasu wzmocnienia względem tego samego stanowiska z czujnikami na PCB; dominującym ogranicznikiem jest [zmierzone].** Punkt odniesienia wewnętrzny — nieunieważnialny cudzą publikacją.
 
-**Oś projektu, jedyna, która przeżyła audyt:** analogowa kompensacja **artefaktu szczękowego** z dedykowanego kanału referencyjnego, **przed wzmocnieniem**, w zwartym module potylicznym. Punkt odniesienia zewnętrzny: Kołodziej i in., *Sensors* 2026 — ta sama idea **cyfrowo**, +9 pp. **Nigdy nie używaj słowa „pierwszy"** w materiałach zgłoszeniowych (K-044).
-
-**Etap 2: opracowanie projektu.** Zaczyna się w nowej rozmowie. Zacznij od `PRZEKAZANIE.md`, potem `12_AUDYT.md` sekcja 14 i `DECYZJE.md`.
+Parametry: **dwa lata**, ~890 h, ~9 900 zł z limitu 15 000, kategoria ISEF **EBED**, Explory **SDG 9 / Gospodarka i Bezpieczeństwo**. Rok 1 — zbuduj i scharakteryzuj. Rok 2 — usuń czujniki i zmierz koszt (ISEF Form 7).
 
 ## Ustalenia wiążące, nie do podważania bez nowego argumentu
 
-- kierunek: **nieinwazyjny interfejs neuralny**. **Umiejscowienie: DECYZJA OTWARTA** — forma zauszna była założeniem, nie wymaganiem. Rzeczywiste wymaganie: niewidoczne albo nierozpoznawalne jako sprzęt, zero hełmów. Porównanie miejsc i cztery pytania: `09_UMIEJSCOWIENIE.md`, błąd opisany w `KOREKTY.md` K-019
-- zdolność: **sterowanie, nie komunikacja**
-- **odczyt dyskretny, zachowanie sterowanego obiektu ciągłe** — odczyt ciągły wymusza elektrody nad korą ruchową, czyli hełm, co łamie twarde wymaganie
-- sEMG/EOG: dopuszczone jako **kanał odniesienia do usuwania zakłóceń**, nie jako źródło sterowania. **Doprecyzowanie po K-026: chodzi o EMG szczęki. Mrugnięcie przy uchu nie psuje sygnału i nie wymaga kompensacji**
-- projekt referencyjny ENBM074: **dowód istnienia, nie wzorzec.** Nie proponuj wariantów tamtego rozwiązania, nie ustawiaj tamtego wyniku jako progu. Patrz sekcja 9.2 handbooka
-- badani: najpierw sam autor; grupa dopiero po zgodzie komisji ISEF
-- programowanie dopuszczone jako oś projektu, ale nie rozdmuchuj go ponad to, czego wymaga twierdzenie
+- **twierdzenie ma być pomiarowe, z punktem odniesienia wewnętrznym.** To jedyny kształt, który przeżył trzy przejścia audytu etapu 1, i jedyny, którego cudza publikacja nie unieważnia. Trzy poprzednie kierunki zginęły dokładnie na tym
+- **nie filtruj kandydatów po nowości.** Arkusz inżynierski ISEF nie ma kryterium nowości; Explory §7 pkt 2a dopuszcza „innowacyjny **i/lub** wnosi dodatkową wartość". Filtr to: wykonalność, demonstracja, głębokość pomiaru, obsada kategorii, podział na dwa pytania. Błąd opisany w `KOREKTY.md` K-051, sześciu zabitych kandydatów w `24_ODRZUCONE_KANDYDATY.md`
+- **nigdy nie używaj słowa „pierwszy"** w materiałach zgłoszeniowych (K-044)
+- **rzemiosło eksperymentalne z ENBM074 (2026) kopiujemy świadomie** — warunek kontrolny na tym samym sprzęcie, randomizacja i kontrbalansowanie, replikacja, poprawka na wielokrotne porównania, test mechanizmu. Sekcja 9.2 handbooka zakazuje kopiowania tamtego **rozwiązania**, nie rzemiosła
+- **projekt indywidualny.** Decyzja użytkownika z sekcji 1 handbooka, nie ruszać
+- **zero badanych ludzi.** Cała procedura Human Participants, komisja IRB przy szkole i formularze 4/5 są w tym projekcie bezprzedmiotowe
+- **drabinka zejść jest napisana z góry** (`23_RYZYKA.md` sekcja 1). Zejście o szczebel wymaga wpisu do `KOREKTY.md` z powodem liczbowym i wskazaniem, co poświęcone. Bez wpisu zejście się nie liczy
 
 ## Zasady, których łamanie kosztowało miesiące
 
@@ -50,7 +42,7 @@ Pełna lista w sekcjach 2.1 i 2.2 handbooka. Skrót:
 - **bez emotek**
 - zwroty zakazane: „Świetne pytanie", „Masz całkowitą rację", „To ma głęboki sens", „Absolutnie", „Zdecydowanie"
 - **dokumentacja żyje w plikach.** Jeżeli ustalenie z handbooka okaże się błędne — popraw handbook, nie tylko odpowiedź, i dopisz wpis do `KOREKTY.md`
-- użytkownik jest licealistą drugiej klasy. Zna fizykę i matematykę szkolną, nie zna terminologii neurofizjologicznej. **Każdy termin użyty pierwszy raz dostaje wyjaśnienie**
+- użytkownik jest licealistą drugiej klasy. Zna fizykę i matematykę szkolną, nie zna terminologii specjalistycznej — w tym projekcie dotyczy to teorii sterowania i elektroniki analogowej. **Każdy termin użyty pierwszy raz dostaje wyjaśnienie**
 
 ## Uwagi praktyczne
 

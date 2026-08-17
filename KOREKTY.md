@@ -685,3 +685,41 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Dane trzymające poniżej 60%:** reprezentacja na ISEF 2026 to **dwa projekty biologiczne i jeden materiałowy, zero elektroniki** — sygnał, że siła inżynierska nie przekłada się wprost na wybór do reprezentacji.
 
 **Podniesione z 25% na 40%.** Pełne przeliczenie: `13_PODNIESIENIE_SZANS.md` sekcja 8.
+
+---
+
+# SESJA 17 VIII 2026 — zmiana kierunku projektu
+
+### K-051 — szukałem nieobsadzonego problemu zamiast nieobsadzonego pomiaru
+
+**Co było źle:** przy wyborze nowego projektu przez sześciu kolejnych kandydatów stosowałem filtr „czy ten problem jest już zajęty". Sześć razy odpowiedź brzmiała „tak" — bo **problemy ważne ekonomicznie są z definicji zajęte**, ważność ekonomiczna przyciąga finansowanie. Kandydat nr 3 (fototermiczna identyfikacja czarnych tworzyw) padł, bo Fraunhofer IZFP opublikował to samo w marcu 2026 i trzy dni przed sesją wszedł z tym w próby przemysłowe.
+
+**Dlaczego to błąd, a nie pech:** filtr był niezgodny z wnioskiem z własnego audytu etapu 1. Kształt, który tam przeżył trzy przejścia, brzmiał: **znany problem + znane rozwiązanie + konkretna wariacja, której efektu nikt nie zmierzył, porównywana wewnętrznie.** Arkusz inżynierski ISEF nie ma kryterium nowości względem literatury, a regulamin Explory §7 pkt 2a dopuszcza alternatywę „innowacyjny **i/lub** wnosi dodatkową wartość".
+
+**Poprawka:** kryterium wyboru to wykonalność, demonstracja, głębokość pomiaru, obsada kategorii i podział na dwa pytania — **nie nowość**. Pełny rejestr sześciu odrzuconych: `24_ODRZUCONE_KANDYDATY.md`.
+
+---
+
+### K-052 — teza „jeden strzał" była mocniejsza, niż pozwalają fakty
+
+**Co było źle:** sekcja 3 handbooka twierdzi, że cykl 2027→2028 jest jedyny użyteczny, bo następny koliduje z maturą. Cała strategia stała na tym zdaniu.
+
+**Co sprawdzone:** `[fakt]` matura obowiązkowa (polski, matematyka, język obcy) wypada **4–6 maja**; rozszerzenia są rozłożone od 7 do 21 maja. ISEF odbywa się konsekwentnie **9–16 maja** (2025: 10–16 V Columbus; 2026: 9–15 V Phoenix).
+
+**Czyli: matura obowiązkowa nie koliduje z ISEF.** Kolidują wyłącznie te rozszerzenia, które wypadną w tygodniu ISEF-u. Do tego istnieje **termin dodatkowy w czerwcu**, przyznawany przez dyrektora OKE na udokumentowany wniosek.
+
+**Czego to nie znosi** `[luka]`: przepis mówi o przyczynach **losowych lub zdrowotnych**, a zaplanowany wyjazd trudno tak nazwać. **Nie zakładam, że termin dodatkowy zostanie przyznany** — to jest pytanie do OKE, do zadania jesienią 2028, nie w kwietniu 2029.
+
+**Skutek:** cykl dwuletni (dwa podejścia do Explory: 2027 i 2028) jest wykonalny, a nie wykluczony. `[fakt]` Explory nie ma reguły 12 miesięcy, a formularz wprost pyta o zgłoszenie w poprzednich edycjach. ISEF obsługuje kontynuację formularzem 7, wymagając, żeby rok kolejny był „new and different" i pokazywał „significant progress"; samo powtórzenie badania z większą próbą jest **zakazane**.
+
+---
+
+### K-053 — nie sprawdziłem najtańszej rzeczy o największej stawce dla celu nadrzędnego
+
+**Co było źle:** cel nadrzędny użytkownika to studia w USA. Przez całą pracę nad projektem ani razu nie sprawdziłem, ile takie studia kosztują i czy są finansowo osiągalne — a to jest przesłanka, na której stoi sens całego przedsięwzięcia.
+
+**Co sprawdzone:** `[fakt]` **MIT prowadzi rekrutację need-blind i pokrywa 100% udokumentowanej potrzeby finansowej także dla obcokrajowców** — jest jedną z dziewięciu uczelni w USA, które robią jedno i drugie. Od roku akademickiego 2025/26 studenci z rodzin o dochodzie **poniżej 200 000 USD rocznie studiują bez czesnego**.
+
+**Znaczenie:** MIT jest finansowo **najłatwiejszą**, a nie najtrudniejszą z amerykańskich opcji. Większość uczelni z górnej półki jest wobec obcokrajowców need-aware, czyli tam brak środków realnie obniża szanse przyjęcia.
+
+**Reguła operacyjna, która z tego zostaje:** sprawdzać przesłanki celu nadrzędnego, nie tylko przesłanki zadania bieżącego. To jest ten sam wzorzec co K-048 — odkładanie taniego sprawdzenia o dużej stawce.
