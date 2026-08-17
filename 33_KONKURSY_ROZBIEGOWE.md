@@ -207,13 +207,47 @@ To jest najmocniejsza rzecz, jaką dało się z tych danych wyciągnąć. Trzy p
 
 ---
 
-## 8. Zadania otwarte z tego pliku
+## 8. Decyzja użytkownika z 17 VIII 2026 — olimpiada przesunięta, El-Robo-Mech zostaje
+
+**Decyzja:** OITwEiM **nie w edycji 2026/2027, tylko w 2027/2028**. El-Robo-Mech zostaje w planie, z możliwym drugim startem wiosną 2028, przed ISEF-em.
+
+`[fakt, od użytkownika]` **Politechnika Białostocka jest 10–15 minut spacerem od jego szkoły.** To zeruje jedyny realny koszt El-Robo-Mech, którym był dojazd, i czyni z tego konkursu najtańszy trening prezentacyjny w całym kalendarzu.
+
+### 8.1 Czy przesunięcie olimpiady coś kosztuje — sprawdzone
+
+| Pytanie | Odpowiedź |
+|---|---|
+| czy tytuł zdąży do aplikacji na studia? | **tak.** Wyniki edycji 2027/2028 ogłaszane do **15 V 2028**, aplikacje składane **jesienią 2028** |
+| czy koliduje z ISEF 2028? | `[wniosek]` **nie fizycznie** — finał olimpiady jest zaoczny, wideo wgrywa się ~27 III 2028, ISEF wypada 9–16 V 2028. Koliduje czasowo z przygotowaniem do ISEF, ale w marcu 2028 urządzenie jest już gotowe, więc jest to przepakowanie dokumentacji, nie budowa |
+| czy koliduje z maturą? | **nie.** Matura maj 2029 |
+| co się zyskuje | praca w wersji dojrzałej zamiast prototypowej, brak zderzenia z terminem zgłoszeń Explory (28 II 2027) i z budową; wyższa szansa na tytuł laureata |
+| co się traci | jeden rok opcji. **Nic poza tym** |
+
+`[wniosek]` **Przesunięcie jest ruchem poprawnym, nie odpuszczeniem.** Wersja z lutego 2027 wymagałaby pełnej pracy pisemnej po polsku w tym samym miesiącu co zgłoszenie do Explory, przy urządzeniu w budowie. Wersja z lutego 2028 opisuje rzecz skończoną i zmierzoną.
+
+**Cena decyzji jest jedna i trzeba ją zapisać:** termin rejestracji Komitetu Szkolnego przesuwa się na **31 X 2027** i wtedy będzie równie łatwo go przegapić.
+
+### 8.2 Czy sukces w innym konkursie pomaga na Explory
+
+`[wniosek]` **Praktycznie nie, i intuicja użytkownika jest trafna.** Arkusze Explory oceniają doskonałość merytoryczną i wykonanie, praktyczną stosowalność i oddziaływanie społeczne — **żadna rubryka nie punktuje dorobku konkursowego**. Jedyny kanał to wiarygodność w rozmowie i to jest efekt drugorzędny.
+
+**Odwrotna zależność jest za to realna:** stawka Explory i stawka El-Robo-Mech oraz olimpiady **przenikają się** (Stacja SKA, ALP, SafeView — sekcja 3). Startując w tamtych konkursach, ogląda się z bliska tych samych konkurentów rok wcześniej.
+
+### 8.3 El-Robo-Mech dwa razy
+
+`[wniosek]` Plan: **edycja XII (finał ~IV 2027)** jako pierwszy dry-run po zbudowaniu urządzenia, **edycja XIII (finał ~IV 2028)** jako ostatnia próba generalna **trzy–cztery tygodnie przed ISEF-em** (ISEF 2028: 9–16 V). Drugi start jest tani — ta sama praca, dziesięć minut spacerem — a wypada dokładnie w oknie, w którym trening prezentacyjny ma wchodzić po angielsku (`31` sekcja 7, runda III–V 2028).
+
+`[luka]` Do sprawdzenia w regulaminie XII edycji: czy laureat poprzedniej edycji może startować ponownie i czy z tą samą, rozwiniętą pracą.
+
+---
+
+## 9. Zadania otwarte z tego pliku
 
 | # | Zadanie | Termin | Dlaczego |
 |---|---|---|---|
-| **K1** | **zapytać w szkole, czy istnieje Komitet Szkolny OITwEiM; jeżeli nie — poprosić dyrektora o wskazanie szkoły, która prowadzi eliminacje** (regulamin § 5 pkt 5 nakłada na dyrektora ten obowiązek) | **do 31 X 2026** | bez tego olimpiada odpada bezgłośnie |
+| **K1** | **zapytać w szkole o Komitet Szkolny OITwEiM; jeżeli go nie ma — poprosić dyrektora o wskazanie szkoły prowadzącej eliminacje** (regulamin § 5 pkt 5 nakłada na dyrektora ten obowiązek) | **do 31 X 2027** (przesunięte decyzją z sekcji 8) | bez tego olimpiada odpada bezgłośnie |
 | K2 | ustalić opiekuna merytorycznego — nauczyciel wystawia opinię wymaganą regulaminem | jesień 2026 | wymóg formalny etapu okręgowego |
-| K3 | sprawdzić ogłoszenie edycji XII El-Robo-Mech i jej regulamin | X–XI 2026 | terminy XII edycji |
+| K3 | sprawdzić ogłoszenie edycji XII El-Robo-Mech i jej regulamin, w tym **czy można startować dwa razy** | X–XI 2026 | terminy XII edycji, plan dwóch startów |
 | K4 | ustalić realne przywileje laureata/finalisty OITwEiM (uchwały rekrutacyjne uczelni) | kiedykolwiek, niski priorytet | pozycja opisana jako `[luka]` w sekcji 4.2 |
 | K5 | wpisać 27 III 2027 jako twardy termin działającego prototypu przy przeliczaniu harmonogramu | razem z P2 | przesuwa poprzeczkę 6a.4 o sześć tygodni |
 | K6 | zapytać organizatorów Explory, czy równoległy start w innych konkursach jest dopuszczalny | przed 28 II 2027 | `08` sekcja 4.1 zostawia to jako `[wniosek]`, nie `[fakt]` |

@@ -101,6 +101,56 @@ Kolejność bezpieczeństwa finansowego, po aktualizacji:
 
 ---
 
+## 2.7 Progi dochodowe w złotówkach — stan na 17 VIII 2026
+
+`[fakt]` Przelicznik: **kurs średni NBP z 17 VIII 2026, tabela 158/A/NBP/2026: 1 USD = 3,7137 zł.** Wszystkie kwoty poniżej są przy tym kursie i zmienią się razem z nim — przy 4,20 zł progi rosną o ~13%.
+
+### 2.7.1 Maksymalny dochód rodziny, przy którym uczelnia nie bierze pieniędzy
+
+| Uczelnia | **Bez czesnego, jeżeli dochód poniżej** | **Zero wkładu rodziny (czesne + mieszkanie + wyżywienie), jeżeli dochód poniżej** |
+|---|---|---|
+| **MIT** | **743 000 zł** (200 000 USD) | **371 000 zł** (100 000 USD) |
+| **Caltech** | **743 000 zł** (200 000 USD) | **371 000 zł** (100 000 USD), pakiet bez pożyczek |
+| **Stanford** | **557 000 zł** (150 000 USD) | **371 000 zł** (100 000 USD) |
+| **Carnegie Mellon** | `[luka]` progu nie publikuje — deklaruje pokrycie pełnej udokumentowanej potrzeby | `[luka]` |
+| **Olin** | `[luka]` progu nie publikuje; **37 000 zł/rok (10 000 USD) dostaje każdy przyjęty** niezależnie od dochodu, reszta wg potrzeby | `[luka]` |
+| **Georgia Tech** | **progu nie ma, bo nie ma pomocy** dla obcokrajowców | — |
+
+`[fakt]` Wszystkie progi mają dopisek **„with typical assets"** — czyli liczy się majątek, nie sam dochód. Drugie mieszkanie, firma, gospodarstwo, znaczne oszczędności podnoszą oczekiwany wkład niezależnie od tego, po której stronie progu leży dochód.
+
+`[wniosek]` Progi opisują **sposób liczenia pomocy po przyjęciu**, nie prawdopodobieństwo przyjęcia. Na Caltechu, Stanfordzie i CMU wniosek o pomoc jest jednocześnie czynnikiem w decyzji rekrutacyjnej (sekcja 2.6).
+
+### 2.7.2 Ile kosztuje rok bez pomocy — cena katalogowa
+
+| Uczelnia | Rok akademicki | W złotówkach |
+|---|---|---|
+| **Caltech** 2026/27 | 93 225 USD kosztów bezpośrednich, **98 622 USD** pełnego kosztu (+ ubezpieczenie zdrowotne ~5 049 USD) | **~366 000 zł**, z ubezpieczeniem ~385 000 zł |
+| **Olin** 2026/27 | 97 088 USD, minus 10 000 USD dla każdego przyjętego | **~323 000 zł** po odjęciu stypendium |
+| **Carnegie Mellon** 2026/27 | **93 614 USD** | **~348 000 zł** |
+| **MIT** 2026/27 | **92 760 USD** | **~344 000 zł** |
+| **Stanford** 2026/27 | 67 731 USD czesnego + 22 944 USD mieszkania i wyżywienia = **90 675 USD** | **~337 000 zł** |
+| **Georgia Tech** | ~200–240 tys. USD za cztery lata (`32` sekcja 2.1) | **~186–223 000 zł rocznie** |
+
+**Cztery lata pełnej ceny: rzędu 1,3–1,4 mln zł.**
+
+### 2.7.3 Wniosek, który jest ważniejszy od tabel
+
+`[wniosek]` **Dla polskiej rodziny próg dochodowy prawie nigdy nie jest tym, co ogranicza.** Żeby przekroczyć próg 200 000 USD, gospodarstwo domowe musiałoby mieć **ponad 62 000 zł brutto miesięcznie**. Żeby przekroczyć próg 100 000 USD, czyli granicę „zero wkładu" — **ponad 31 000 zł brutto miesięcznie**.
+
+Praktycznie: **przy typowym polskim dochodzie MIT i Caltech nie biorą czesnego, a jeżeli dochód mieści się poniżej ~371 tys. zł rocznie, MIT nie bierze nic.**
+
+**Co realnie ogranicza, w kolejności:**
+
+1. **Przyjęcie.** 1–3% i to jest cała gra
+2. **Need-aware.** Na Caltechu, Stanfordzie i CMU wniosek o pomoc obniża szansę przyjęcia. Na MIT nie obniża — to jest cała różnica między nimi
+3. **Majątek, nie dochód.** Formularz CSS Profile pyta o wartość nieruchomości, oszczędności, firmę i o oboje rodziców, także rozwiedzionych. `[luka]` **Nie sprawdzałem, jak poszczególne uczelnie traktują wartość mieszkania rodzinnego** — to jest pozycja do zamknięcia przed jesienią 2028, bo potrafi przesunąć wynik o kilkadziesiąt tysięcy złotych rocznie
+4. **Koszty poza rachunkiem uczelni:** przelot, wiza, ubezpieczenie zdrowotne (na Caltechu ~19 000 zł rocznie, dla obcokrajowców zwykle obowiązkowe), wydatki osobiste. Pomoc finansowa zwykle pokrywa część z nich, ale nie wszystkie
+5. **Dowód wypłacalności do wizy studenckiej (I-20)** — wymagany nawet wtedy, gdy pomoc pokrywa całość
+
+`[fakt]` Wszystkie kwoty przeliczane są przez uczelnię z dochodu podanego w formularzu; **kurs walutowy jest realnym ryzykiem po stronie rodziny**, bo próg jest w dolarach, a dochód w złotych.
+
+---
+
 ## 3. Jaki wynik ISEF jest potrzebny
 
 `[wniosek]` **Nie ma progu.** Żaden wynik nie jest ani warunkiem, ani gwarancją. Skala:

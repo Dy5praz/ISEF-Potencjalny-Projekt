@@ -73,9 +73,9 @@ Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → 
 | P5 | kupić **oryginalnego** OpenBCI Cyton, nie klon. Klony DeepBCI z eBaya to chińskie podróbki, ~213–332 USD, z udokumentowanymi problemami | jesień 2026 |
 | P6 | przejrzeć **filmy półfinałowe** Explory 2026 — użytkownik prosił o przypominanie | gdy internet pozwoli |
 | P7 | dokument **go/no-go** — co musiałoby być prawdą, żeby projekt był wart zachodu | po audycie |
-| **P8** | **zapytać w szkole o Komitet Szkolny olimpiady OITwEiM** — bez rejestracji do 31 X 2026 olimpiada odpada. `33` sekcja 8 | **do 31 X 2026** |
-| P9 | sprawdzić ogłoszenie edycji XII El-Robo-Mech | X–XI 2026 |
-| P10 | wpisać **27 III 2027** (wideo z prototypem, OITwEiM) jako twardy termin — sześć tygodni przed dotychczasową poprzeczką | razem z P2 |
+| P8 | **zapytać w szkole o Komitet Szkolny olimpiady OITwEiM** — bez rejestracji olimpiada odpada. Decyzją użytkownika start przesunięty na edycję 2027/28. `33` sekcja 8 | **do 31 X 2027** |
+| P9 | sprawdzić ogłoszenie edycji XII El-Robo-Mech, w tym czy można startować dwa razy | X–XI 2026 |
+| P10 | El-Robo-Mech **dwa starty**: IV 2027 (pierwszy dry-run) i IV 2028 (próba generalna przed ISEF) | wpisane |
 
 ### Rekrutacja — pełna lista w `32_STUDIA_USA.md` sekcja 7
 
