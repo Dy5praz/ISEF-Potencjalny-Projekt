@@ -11,9 +11,10 @@
 | 1 | **`30_POWROT_DO_INTERFEJSU.md`** | **projekt bieżący** — czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a |
 | 2 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
 | 3 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
-| 4 | `KOREKTY.md` | rejestr błędów **K-001…K-061**. Dopisuj każdy nowy |
-| 5 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
-| 6 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
+| 4 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy edycji 2026/27, szanse, **termin 31 X 2026** |
+| 5 | `KOREKTY.md` | rejestr błędów **K-001…K-066**. Dopisuj każdy nowy |
+| 6 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
+| 7 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
 
 > **Pliki `20`–`24` opisują aktywne łożysko magnetyczne — kierunek ZAMKNIĘTY, odrzucony przez użytkownika.**
 > Przenośne są z nich wyłącznie struktura planu pomiarowego (`22`) i drabinka zejść (`23`).
@@ -72,12 +73,16 @@ Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → 
 | P5 | kupić **oryginalnego** OpenBCI Cyton, nie klon. Klony DeepBCI z eBaya to chińskie podróbki, ~213–332 USD, z udokumentowanymi problemami | jesień 2026 |
 | P6 | przejrzeć **filmy półfinałowe** Explory 2026 — użytkownik prosił o przypominanie | gdy internet pozwoli |
 | P7 | dokument **go/no-go** — co musiałoby być prawdą, żeby projekt był wart zachodu | po audycie |
+| **P8** | **zapytać w szkole o Komitet Szkolny olimpiady OITwEiM** — bez rejestracji do 31 X 2026 olimpiada odpada. `33` sekcja 8 | **do 31 X 2026** |
+| P9 | sprawdzić ogłoszenie edycji XII El-Robo-Mech | X–XI 2026 |
+| P10 | wpisać **27 III 2027** (wideo z prototypem, OITwEiM) jako twardy termin — sześć tygodni przed dotychczasową poprzeczką | razem z P2 |
 
 ### Rekrutacja — pełna lista w `32_STUDIA_USA.md` sekcja 7
 
 | # | Zadanie | Termin |
 |---|---|---|
 | R1 | rozstrzygnąć **aerospace vs elektronika** jako kierunek — wpływa na listę uczelni | do 2028 |
+| R1a | **Caltech i Stanford dopisane 17 VIII 2026** (`32` sekcja 2.6). Stanford ma aerospace na licencjacie, Caltech nie. Oba **need-aware wobec obcokrajowców** | ustalone |
 | R2 | CMU: need-blind czy need-aware wobec obcokrajowców | jesień 2027 |
 | R3 | Georgia Tech: czy wybór kierunku jest wiążący przy aplikacji | jesień 2027 |
 | R4 | czy CMU ma aerospace na licencjacie | jesień 2027 |

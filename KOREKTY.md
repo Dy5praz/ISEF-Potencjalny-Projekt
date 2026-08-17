@@ -821,3 +821,55 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Poprawka:** gałęzie zsynchronizowane. **Reguła operacyjna: przy zamykaniu sesji sprawdzić `git diff --name-status origin/main HEAD` i zsynchronizować, jeżeli cokolwiek jest tylko na gałęzi roboczej.**
 
 **Rzecz do zapamiętania szerzej:** dokumentacja niewidoczna dla następnej sesji nie jest dokumentacją. Wpisanie czegoś do pliku nie kończy zadania — kończy je sprawdzenie, że plik jest tam, gdzie ktoś go otworzy.
+
+---
+
+## 2026-08-17, noc
+
+### K-063 — terminy OITwEiM w plikach są z wygasłej edycji, a nowa ma etap, o którym nikt nie wiedział
+
+**Co było źle:** `08_KONKURENCJA_ISEF.md` sekcja 4.1, `13_PODNIESIENIE_SZANS.md` i `21_PLAN_BUDOWY.md` opisywały olimpiadę jednym terminem — „prace i wideo do ~20 IV". To był termin **edycji 2025/2026** i on nie obowiązuje.
+
+**Co jest:** `[fakt]` regulamin edycji **2026/2027** jest opublikowany (PZSWiR, lipiec 2026) i ma inny kalendarz: **rejestracja Komitetu Szkolnego do 31 X 2026**, wyniki etapu szkolnego do 9 I 2027, prace do okręgu do 27 II 2027, wyniki okręgu do 13 III 2027, **praca i wideo z prototypem do 27 III 2027**, wyniki finału do 15 V 2027.
+
+**Dlaczego to jest błąd kosztowny, a nie porządkowy:** bez zarejestrowanego Komitetu Szkolnego uczeń **nie startuje w ogóle**, a termin rejestracji wypada **dwa i pół miesiąca od dziś**. Plan zakładał zajęcie się olimpiadą wiosną 2027 — przy takim planie olimpiada odpadłaby bezgłośnie jesienią 2026, a dowiedzielibyśmy się o tym w kwietniu.
+
+**Poprawka druga, mniejsza:** `08` pisał „konkurs ogólnopolski, **indywidualny**". Regulamin dopuszcza **zespoły 2–3-osobowe**, także międzyszkolne. Dla tego projektu bez znaczenia (jest indywidualny), ale opis konkurencji był fałszywy: w finale 2026 zdecydowana większość prac to zespoły.
+
+**Skutek dla harmonogramu:** termin działającego prototypu przesuwa się z maja 2027 (półfinał Explory) na **27 III 2027**, czyli o sześć tygodni w lewo. Do wpisania przy przeliczaniu planu pod jeden cykl.
+
+**Gdzie to teraz mieszka:** `33_KONKURSY_ROZBIEGOWE.md` sekcje 2 i 5.
+
+---
+
+### K-064 — przenosiłem noty ze skali Explory na konkursy, które oceniają czym innym
+
+**Co było źle:** w rozmowie o El-Robo-Mech operowałem notami z `31_ANALIZA_STAWKI_2026.md` tak, jakby były miarą ogólnej jakości projektu.
+
+**Co się okazało:** `[fakt]` **Stacja SKA** — u mnie 22 punkty i **dziesiąte miejsce na 21** w skali Explory — **wygrała El-Robo-Mech 2026** (I miejsce ex aequo) i zdobyła **II miejsce w OITwEiM**. `[fakt]` **ALP** (u mnie 23 pkt) — **III miejsce w OITwEiM**.
+
+**Na czym polegał błąd:** ten sam co K-060, tylko w drugą stronę. Explory ocenia oddziaływanie społeczne i zrozumiałość dla laika; El-Robo-Mech i OITwEiM oceniają kompletność wykonania, wartość użytkową, nakład pracy i — w olimpiadzie — nowość i estetykę dokumentacji. **Skala z jednego sita nie mierzy drugiego.**
+
+**Konsekwencja, która działa na korzyść projektu:** jury El-Robo-Mech to czterech pracowników naukowych politechniki i dwóch inżynierów z przemysłu. Tam własny tor analogowy i budżet niepewności czytają się bez tłumaczenia — czyli **te dwa konkursy stoją bliżej arkusza ISEF niż Explory**.
+
+---
+
+### K-065 — El-Robo-Mech nazywany „lekką akredytacją" — nie jest żadną
+
+**Co było źle:** rozważanie konkursu w kategorii „lekka akredytacja". K-016 mówił to już jakościowo; teraz są liczby.
+
+**Liczby edycji XI:** `[fakt]` ponad 20 zgłoszeń → **15 prac w finale** → **14 prac nagrodzonych, 34 laureatów**. Przejście do finału ~75%, nagroda dla ~93% finalistów.
+
+**Poprawka:** El-Robo-Mech nie odróżnia. Jego wartość to **dry-run przed jury technicznym i wymuszony termin** — i ta wartość jest realna. Wartość akredytacyjna: zero, w szczególności zerowa wobec celu „studia w USA", bo nagrodą jest indeks jednej polskiej uczelni.
+
+**Odróżnienie od olimpiady:** OITwEiM przy ~63 pracach na finale przyznaje **10 tytułów laureata w kraju**. To jest odróżnienie realne i to jest jedyna pozycja z tej trójki, która czyta się w amerykańskiej rubryce „Honors".
+
+---
+
+### K-066 — „przywileje rekrutacyjne laureata OITwEiM" pisane bez sprawdzenia
+
+**Co było źle:** `08` sekcja 4.1, `11_OCENA_SZANS.md` i `13` uzasadniały wybór olimpiady zdaniem o „przywilejach rekrutacyjnych", traktując je jak fakt.
+
+**Co jest w regulaminie:** `[fakt]` regulamin mówi wyłącznie o **zaświadczeniu** wydanym wg rozporządzenia MENiS z 29 I 2002 (Dz.U. 2020 poz. 1036) oraz o tytule „Młodego Innowatora". Konkretne ulgi rekrutacyjne ustalają **uchwały senatów poszczególnych uczelni** i nie zostały sprawdzone.
+
+**Poprawka:** pozycja oznaczona `[luka]` w `33_KONKURSY_ROZBIEGOWE.md` sekcja 4.2. Przy celu „studia w USA" i tak drugorzędna — argumentem za olimpiadą jest tytuł krajowy i wymuszony termin, nie polskie punkty rekrutacyjne.

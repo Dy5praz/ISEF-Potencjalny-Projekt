@@ -199,6 +199,8 @@ To są **przeciwstawne optymalizacje w jednym miejscu**: pokaz na stoisku wygryw
 
 ## 4. ZADANIE 4d NR 9 — El-Robo-Mech. Ustalenia potwierdzone
 
+> **AKTUALIZACJA 17 VIII 2026 — ta sekcja jest nieaktualna w częściach dotyczących terminów i uprawnień.** Regulamin OITwEiM **2026/2027** jest opublikowany i ma inny kalendarz (rejestracja Komitetu Szkolnego **do 31 X 2026**, wideo z prototypem do 27 III 2027), olimpiada dopuszcza zespoły 2–3-osobowe, a „przywileje rekrutacyjne" nie zostały potwierdzone. Wyniki obu konkursów za 2026 i pełna analiza szans: **`33_KONKURSY_ROZBIEGOWE.md`**. Korekty **K-063, K-065, K-066**.
+
 **[fakt] Edycja XI (2025/2026), potwierdzone na stronach Politechniki Białostockiej:**
 
 | Element | Wartość |

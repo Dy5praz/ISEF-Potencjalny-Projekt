@@ -22,7 +22,7 @@ Użytkownik zaczyna **drugą klasę we wrześniu 2026**, matura **maj 2029**, st
 
 ## 2. Uczelnie — stan wiedzy zweryfikowany
 
-Użytkownik wymienił: **Olin College, Georgia Tech, coś z Carnegie w nazwie (CMU)**. MIT jako marzenie uznane przez niego za nierealne.
+Użytkownik wymienił: **Olin College, Georgia Tech, coś z Carnegie w nazwie (CMU)**. MIT jako marzenie uznane przez niego za nierealne. **17 VIII 2026 dopisał Caltech i Stanford — sekcja 2.6.**
 
 ### 2.1 Tabela porównawcza
 
@@ -56,6 +56,8 @@ Koncentracje w ramach ogólnego Engineering: Computing (E:C), Bioengineering (E:
 
 Georgia Tech to jeden z czołowych programów aerospace w USA i naturalny cel merytoryczny — pozostaje teoretyczny bez gotowości rodziny na pełną cenę.
 
+**Poprawka po dopisaniu Stanforda (sekcja 2.6):** MIT nie jest już jedyną uczelnią łączącą aerospace na licencjacie z rekrutacją ślepą na kierunek. **Stanford ma jedno i drugie** i wchodzi na drugie miejsce listy aerospace, za MIT wyłącznie z powodu pomocy finansowej.
+
 ### 2.5 Czy interfejs neuralny „przechodzi" na aerospace
 
 `[wniosek]` Temat projektu waży mniej, niż się wydaje — **komisje czytają, co kandydat potrafi, nie co go interesowało w drugiej klasie.** Zbudowany tor analogowy, własny czujnik, kampania pomiarowa z warunkiem kontrolnym i budżetem niepewności to kompetencje, które aerospace czyta bez problemu — przyrządy pomiarowe i systemy sterowania są rdzeniem tej dziedziny.
@@ -63,6 +65,39 @@ Georgia Tech to jeden z czołowych programów aerospace w USA i naturalny cel me
 **Zastrzeżenie:** przy CMU, gdzie program wybiera się w aplikacji, rozjazd między projektem a kierunkiem jest widoczny i wymaga jednego zdania wyjaśnienia w eseju. Przy MIT nie ma tego problemu w ogóle.
 
 **To nie jest argument za zmianą projektu.** Projekt zmieniano w tej sesji sześć razy; informacja służy decyzji o uczelniach.
+
+---
+
+## 2.6 Caltech i Stanford — dopisane 17 VIII 2026 na życzenie użytkownika
+
+Sprawdzone w źródłach pierwotnych: strony rekrutacji i pomocy finansowej obu uczelni, katalog Caltechu, biuletyn Stanforda, Common Data Set.
+
+### 2.6.1 Tabela
+
+| | **Caltech** | **Stanford** |
+|---|---|---|
+| **rekrutacja na kierunek** | `[fakt]` **ślepa na kierunek** — „option" (odpowiednik kierunku) wybiera się **na koniec pierwszego roku** | `[fakt]` **ślepa na kierunek** — deklaruje się zainteresowanie, nie aplikuje do programu |
+| **aerospace na licencjacie** | `[fakt]` **NIE.** Aerospace istnieje jako **minor** (uzupełnienie kierunku) i jako **option doktorancko-magisterski** w GALCIT. Najbliższy kierunek to Mechanical Engineering | `[fakt]` **TAK — B.S. in Aeronautics and Astronautics**, program licencjacki otwarty jesienią 2017 |
+| **pomoc dla obcokrajowców** | `[fakt]` **need-aware.** Dosłownie: *„We are need-aware for international students because the total amount of financial aid funds for international students is limited"* oraz *„This limitation may result in financial need being a factor in the Institute's admissions decisions for international applicants"* | `[fakt]` **need-aware.** Dosłownie: *„your request for financial aid will be a factor in our admission evaluation"*; *„financial aid resources are limited for international citizens"* |
+| **czy pokrywa pełną potrzebę po przyjęciu** | `[fakt]` tak — *„committed to meeting the full demonstrated financial need of all admitted students"* | `[fakt]` tak, **bez pożyczek**, niezależnie od obywatelstwa |
+| **progi dochodowe** | `[fakt]` dochód < **100 000 USD** — pakiet bez pożyczek pokrywający czesne, opłaty, mieszkanie i wyżywienie; < **200 000 USD** — pokryte czesne | `[fakt]` dochód < **100 000 USD** — bez czesnego, akademika i wyżywienia; **100–150 tys.** — bez czesnego (rok 2025/26) |
+| **pułapka proceduralna** | `[fakt]` **o pomoc trzeba wystąpić razem z aplikacją.** Kto nie wystąpił albo dostał odmowę na pierwszym roku, **nie ma prawa do pomocy przez całe studia** | `[fakt]` **to samo:** kto zadeklarował, że nie będzie wnioskował, **nie może wnioskować przez cztery lata** |
+| **skala** | `[fakt]` ~990 studentów licencjatu **w całej uczelni**; klasa 2030: **428 przyjętych**, 43 stany, 23 kraje. `[domysł, źródła wtórne]` wskaźnik przyjęć ~3,5% | `[fakt, jedno źródło — opracowanie CDS 2025/26]` **57 326 zgłoszeń, 2 067 ofert, 3,8%**. `[fakt]` obcokrajowcy to **12,7%** rocznika 2029 |
+| **testy** | `[fakt]` SAT albo ACT **wymagany** ponownie; **wymagany egzamin z angielskiego** dla obcokrajowców (TOEFL, IELTS albo Duolingo) | `[fakt]` SAT albo ACT **wymagany** od rocznika aplikującego jesienią 2025; `[fakt]` **egzamin z angielskiego nie jest wymagany** |
+
+`[fakt, jedno źródło — odczyt z Common Data Set Caltechu, tabela H6]` Instytucjonalną pomoc finansową dostało **63 studentów zagranicznych** ze średnią **~82 700 USD**. To jest miara tego, co znaczy „ograniczona pula": przy ~990 studentach licencjatu mówimy o kilkudziesięciu osobach na całej uczelni.
+
+### 2.6.2 Co te dwie uczelnie zmieniają, a czego nie zmieniają
+
+**Nie zmieniają reguły finansowej.** `[wniosek]` **MIT pozostaje jedyną uczelnią z całej szóstki, która jest need-blind wobec obcokrajowców i pokrywa pełną potrzebę.** Caltech i Stanford są need-aware — czyli **sam wniosek o pomoc obniża szansę przyjęcia**, i jest to zapisane wprost, nie domniemane. Dopisanie ich do listy nie rozwiązuje problemu pieniędzy, tylko dokłada dwie loterie.
+
+Kolejność bezpieczeństwa finansowego, po aktualizacji:
+
+**MIT** (need-blind, pełna potrzeba) → **Olin** (10 000 USD dla każdego + pełna potrzeba) → **Stanford ≈ Caltech ≈ CMU** (need-aware, ale pełna potrzeba po przyjęciu) → **Georgia Tech** (brak pomocy dla obcokrajowców).
+
+**Zmieniają obraz aerospace.** `[wniosek]` Stanford jest **jedyną uczelnią poza MIT**, która daje jednocześnie: aerospace na licencjacie, rekrutację ślepą na kierunek i pełne pokrycie potrzeby po przyjęciu. Przy celu aerospace to jest druga pozycja listy. **Caltech przy celu aerospace jest najsłabszy z całej szóstki** — kierunku nie ma, jest minor przy mechanice; ma sens dopiero wtedy, gdy cel przesunie się w stronę fizyki i badań, gdzie Caltech jest bezkonkurencyjny.
+
+**Uwaga o skali Caltechu:** `[wniosek]` 428 przyjętych na cały rocznik, w tym obcokrajowcy z 23 krajów, przy need-aware i puli rzędu kilkudziesięciu stypendiów — to jest najostrzejsze sito z całej szóstki i najmniej przewidywalne. Nie jest to powód, żeby nie aplikować; jest to powód, żeby nie budować wokół Caltechu żadnej decyzji.
 
 ---
 
@@ -109,8 +144,12 @@ Projekt to jeden z sześciu elementów i nie największy.
 | **Carnegie Mellon** | rząd kilku procent | finansowo wykonalne |
 | **Georgia Tech** | rekrutacyjnie porównywalnie | **bez pieniędzy teoretyczne** |
 | **MIT** | 1,5–3% | **finansowo najłatwiejszy z całej czwórki** |
+| **Stanford** | **~1,5–3%**, przy wniosku o pomoc bliżej dolnego końca | aerospace na licencjacie + rekrutacja ślepa na kierunek; need-aware |
+| **Caltech** | **~1–2%** | najostrzejsze sito, brak aerospace na licencjacie, need-aware przy puli rzędu kilkudziesięciu stypendiów |
 
 **Reguła, którą trzeba zapamiętać:** nie odrzucać MIT z powodu pieniędzy. Akurat pieniądze są tam najmniejszym problemem — patrz `KOREKTY.md` K-053.
+
+**Reguła druga, po dopisaniu Caltechu i Stanforda:** przy uczelniach need-aware **wniosek o pomoc jest częścią decyzji rekrutacyjnej**, a rezygnacja z wniosku jest nieodwracalna na cztery lata. To jest decyzja do podjęcia świadomie jesienią 2028, nie odruchowo przy wypełnianiu formularza.
 
 ---
 
@@ -141,6 +180,9 @@ Projekt to jeden z sześciu elementów i nie największy.
 | 7 | ustawić w szkole **rekomendacje** (2 nauczycieli + wychowawca) | wiosna 2028 | otwarte |
 | 8 | pytanie do **OKE o termin dodatkowy** matury | jesień 2028 | otwarte, dotyczy tylko ISEF 2029 |
 | 9 | **rozstrzygnąć aerospace vs elektronika/mechatronika** jako kierunek docelowy — decyzja użytkownika, wpływa na listę uczelni | do 2028 | **otwarte, wpływa na wszystko powyżej** |
+| 10 | decyzja świadoma: **czy wnioskować o pomoc finansową na uczelniach need-aware** (Caltech, Stanford, CMU) — rezygnacja jest nieodwracalna na cztery lata | jesień 2028, przygotować wcześniej | otwarte |
+| 11 | sprawdzić wymagania programowe **B.S. in Aeronautics and Astronautics** na Stanfordzie (przedmioty wstępne, akredytacja ABET) | jesień 2027 | otwarte |
+| 12 | zweryfikować wskaźniki przyjęć Caltechu i Stanforda w oficjalnym Common Data Set, nie w opracowaniach firm doradczych | jesień 2027 | otwarte, liczby z sekcji 2.6 mają jedno źródło pośrednie |
 
 ---
 
