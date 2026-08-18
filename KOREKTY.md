@@ -921,3 +921,162 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Poprawka:** `CLAUDE.md` przepisany w częściach: kolejność czytania, zadanie bieżące, twierdzenie, parametry, reguła o badanych ludziach. Zakres rejestru podniesiony do K-069.
 
 **Reguła szersza, trzeci raz w tym rejestrze po K-062 i po dzisiejszej synchronizacji `main`:** przy zmianie kierunku projektu **najpierw poprawia się pliki wejściowe** — `CLAUDE.md` i `README.md` — a dopiero potem pisze nowe. Plik z opisem nowego kierunku nie unieważnia starego zlecenia w pliku wejściowym; robi to tylko edycja pliku wejściowego.
+
+
+---
+
+## 2026-08-16 — wpisy odzyskane z gałęzi `claude/etap-2-v9dtnt`, przenumerowane
+
+**Skąd się tu wzięły:** sześć korekt powstało 16 VIII 2026 na gałęzi, która nigdy nie trafiła do `main`. Ta sama numeracja K-054…K-059 została w międzyczasie użyta na drugiej gałęzi dla innych treści, więc te wpisy dostają numery **K-070…K-075**. Ich oryginalne numery są podane przy tytułach. Szczegóły rozjazdu: **K-076**.
+
+### K-070 (na gałęzi etap-2 numerowana jako K-054) — trzykrotnie odesłałem użytkownika na GitHuba zamiast dostarczyć pliki do rozmowy
+
+**Co było źle:** przez cały etap 2 dostarczałem wyniki pracy przez commit i push, a w rozmowie pisałem „wypchnięte", „szczegóły w `14_REANALIZA.md`", „zobacz w repozytorium". **Użytkownik pisze z telefonu.** Żeby przeczytać cokolwiek, musiał wychodzić z rozmowy do przeglądarki, wchodzić na GitHuba, znajdować gałąź i otwierać plik markdown na ekranie telefonu.
+
+**Reguła istniała od początku i była w `CLAUDE.md`:** *„użytkownik często pisze z telefonu — nie zlecaj mu czynności wymagających przełączania się między aplikacjami, jeżeli da się je wykonać po twojej stronie"*. Miałem narzędzie do wysyłania plików do rozmowy i go nie użyłem ani razu.
+
+**Użytkownik zgłaszał to trzykrotnie**, zanim zareagowałem.
+
+**Dlaczego to jest błąd tej samej klasy co błędy merytoryczne, a nie drobiazg organizacyjny:** cała praca etapu 2 jest bezwartościowa, jeżeli nie dociera do osoby, która ma na jej podstawie decydować. **Myliłem zapisanie pracy z jej dostarczeniem** — dokładnie tak, jak wcześniej myliłem „opis realizacji się nie spina" z „projekt odpada" (`HANDBOOK.md` §8 punkt 7). To jest to samo mylenie dwóch różnych obiektów.
+
+**Poprawka:** nowa sekcja w `CLAUDE.md` — **„Dostarczanie plików — zasada twarda"**, umieszczona **nad** uwagami praktycznymi, żeby nie dało się jej przeoczyć. Treść: każdy powstały albo istotnie zmieniony plik trafia do rozmowy w tej samej wiadomości, w której o nim piszę; commit i push to archiwizacja, nie dostarczenie; odesłanie do repozytorium po treść jest zakazane.
+
+---
+
+### K-071 (na gałęzi etap-2 numerowana jako K-055) — zaniżyłem cenę platformy odniesienia o połowę
+
+**Co było źle:** w `15_PROJEKT.md` §3.1 wpisałem „OpenBCI Cyton, 8 kanałów — ~2 500–3 500 zł", z adnotacją `[domysł]` i „cena katalogowa ~$500".
+
+**Stan faktyczny, katalog sklepu producenta odczytany 16 VIII 2026:** **Cyton Biosensing Board, 8 kanałów — 1 249,00 USD.** Nie 500 USD. Ganglion (4 kanały) — 624,99 USD. Sam klucz USB jako część zamienna — 249,00 USD.
+
+Po przeliczeniu i doliczeniu wysyłki ze Stanów, cła i VAT: **6 000–6 800 zł**, wobec moich 2 500–3 500 zł.
+
+**Kto to wyłapał:** użytkownik, sprawdzając stronę producenta. Podał 4 700 zł za samą płytkę i miał rację.
+
+**Dlaczego to jest błąd, a nie nieaktualna cena:** oznaczyłem tę liczbę `[domysł]`, ale **napisałem obok konkretną wartość „~$500" tak, jakby pochodziła ze źródła.** Znacznik pewności nie usprawiedliwia podania wymyślonej liczby — miałem sprawdzić albo napisać, że nie wiem. Sklep OpenBCI wystawia pełny katalog w formacie maszynowym pod adresem `/products.json` i odczytanie go zajęło jedno zapytanie.
+
+**Konsekwencja merytoryczna, większa niż sama cena:** przy 6 000–6 800 zł platforma przestaje być „pozycją do przyjęcia" i staje się największym wydatkiem projektu. To wymusiło rozbiór, po co ona naprawdę jest — i wyszło, że z trzech funkcji, które jej przypisałem, **jedna jest pozorna**: „baseline komercyjny" nie działa, bo OpenBCI nie jest produktem konsumenckim, tylko płytką badawczą. **Wycofuję ten argument z `13_PODNIESIENIE_SZANS.md` §6.**
+
+**Poprawka i rekomendacja:** `20_ZAKUPY.md` — pięć wariantów z cenami, rekomendacja to **używany Cyton do 1 600 zł**, z Ganglionem jako awaryjnym i z listą kontrolną do zakupu z drugiej ręki.
+
+---
+
+### K-072 (na gałęzi etap-2 numerowana jako K-056) — postawiłem błędne wymaganie wobec sprzętu pomiarowego i przez to zawyżyłem ryzyko R3
+
+**Co było źle:** w `16_PLAN_EKSPERYMENTALNY.md` §2 napisałem, że E1 *„wymaga generatora i przyrządu o szumie własnym poniżej mierzonego"*, a w `17_RYZYKA.md` wyceniłem brak takiego przyrządu na **50% prawdopodobieństwa i średni koszt**.
+
+**Dlaczego to nieprawda:** szum wejściowy toru EEG mierzy się **samym torem** — zwiera się wejście przez rezystor i liczy RMS z próbek własnego przetwornika 24-bitowego. Dokładnie tak zrobili autorzy arXiv 2601.01772, uzyskując 0,08 µV RMS. **Oscyloskop hobbystyczny ma szum własny rzędu setek mikrowoltów**, czyli około tysiąc razy większy od mierzonej wielkości, i do tego zadania nie nadaje się w ogóle — niezależnie od ceny.
+
+**Właściwe sformułowanie:** przyrząd zewnętrzny jest potrzebny **jako źródło znanego sygnału**, nie jako miernik. Mierzy zawsze nasz tor. Z tego wynika zupełnie inna lista zakupowa:
+
+| Pomiar | Czego naprawdę wymaga |
+|---|---|
+| szum wejściowy, dryf | **nic zewnętrznego** |
+| CMRR | generator — **jego własny szum jest sygnałem wspólnym i tłumi się razem z nim**, więc nie musi być drogi |
+| kalibracja skali amplitudy | **dzielnik precyzyjny, rezystory 0,1%, 30–80 zł — jedyne miejsce, gdzie dokładność jest krytyczna** |
+| jitter, CMRR powyżej ~100 dB | źródło lepsze niż tani DDS — zasób „brat", luty 2027 |
+
+**Dlaczego to jest błąd wart zapisania:** użytkownik postawił słuszną zasadę („nie ma miejsca na błąd, bo za słabo mierzy") i moje sformułowanie kierowało tę zasadę **na najdroższy i najmniej użyteczny zakup w całym projekcie**. Dokładność w tym projekcie powstaje w przetworniku na własnej płytce i w dzielniku za kilkadziesiąt złotych, a nie w oscyloskopie za kilka tysięcy.
+
+**Poprawka:** wstawka w `16_PLAN_EKSPERYMENTALNY.md` §2, przeliczenie R3 z 50% na 20% i z kosztu średniego na niski, pełna lista zakupowa w `20_ZAKUPY.md` §4.
+
+---
+
+### K-073 (na gałęzi etap-2 numerowana jako K-057) — akt zgonu ortezy w handbooku dotyczył tylko połowy projektu
+
+**Co było źle:** `HANDBOOK.md` §7 zamyka ortezę kolanową jednym wierszem: prior art na sprzęgło-sprężynę, wersję magnetoreologiczną, zmienny punkt zazębienia i Ottobock C-Brace, z konkluzją *„z twierdzenia o nowości zostało tylko »przy koszcie konsumenckim«, co nie jest twierdzeniem naukowym"*.
+
+**Czego ten wpis nie obejmował:** ConOps ortezy zawiera **dwie tezy, nie jedną**. Wymieniony prior art zabija wyłącznie **tezę 1** (sterowane sprzęgło i punkt zaczepienia) — co zresztą przyznaje sam ConOps we własnym rejestrze korekt, wpis 3. **Teza 2 — pomiar sprawności przeniesienia momentu przez interfejs orteza–kończyna — nie została zaudytowana ani razu**, mimo że jest twierdzeniem pomiarowym, czyli ma dokładnie ten kształt, który przy interfejsie uznaliśmy za jedyny odporny.
+
+**Sprawdzone 16 VIII 2026, Europe PMC.** Teza 2 nie jest martwa, ale pole jest **czynnie badane**, czego ConOps nie zakłada:
+- *Human-Interface Dynamics of Knee Exoskeletons*, ICORR 2025, PMID 40644288 — **kolano, 10 badanych**, pomiary quasi-statyczne i charakterystyka częstotliwościowa, wprost o tym, że podatny interfejs powoduje „inefficient power delivery to the user"
+- *Quantification of the Mechanical Properties in the Human-Exoskeleton Upper Arm Interface*, Sensors 2025, PMID 40807771 — **21 badanych**, pełny tensor sztywności interfejsu z liczbami
+
+**Czego nadal nie znalazłem** `[luka]`: jednej liczby „procent momentu docierający do stawu" dla ortezy kolanowej w klasie kosztowej konsumenckiej. Sformułowanie tezy 2 dosłownie pozostaje nieodnalezione.
+
+**Dlaczego to jest błąd wart zapisania:** zamknąłem kierunek projektowy jednym wierszem w tabeli, nie sprawdziwszy, czy dokument tego kierunku nie zawiera drugiego, niezależnego twierdzenia. **To jest ten sam wzorzec co K-051** — redukcja czegoś złożonego do jednego zdania, a potem operowanie tym zdaniem zamiast oryginałem. Tam była para „Cz i szczęka" sprowadzona do szczęki; tu para tez sprowadzona do jednej.
+
+**Poprawka:** pełna ocena obu ConOps i porównanie z interfejsem — `22_POROWNANIE.md`. Oba dokumenty źródłowe zarchiwizowane w `archiwum_poprzednie/`.
+
+**Reguła operacyjna, która z tego zostaje:** **zanim uznasz kierunek za zamknięty, przeczytaj jego dokument źródłowy, a nie własne streszczenie tego dokumentu.** Handbook jest streszczeniem i jako streszczenie gubi drugie twierdzenia.
+
+---
+
+### K-074 (na gałęzi etap-2 numerowana jako K-058) — twierdziłem, że oś jest niezajęta w pięciu bazach; jest badana od 2005 roku
+
+**Co było źle:** w `14_REANALIZA.md` §11 i `21_ODPOWIEDZI.md` §1.4 zapisałem, że nowa oś projektu — zależność przepustowości SSVEP od położenia elektrody odniesienia — **nie jest zajęta w PubMed, Crossref, arXiv, Google Patents ani Europe PMC**, i wyceniłem ryzyko przeoczenia na **10–15%**.
+
+**Stan faktyczny, OpenAIRE, 16 VIII 2026 wieczorem:**
+
+| Rok | Praca |
+|---|---|
+| 2005 | *Lead selection for SSVEP-based brain-computer interface* |
+| **2010** | ***A comparison of monopolar and bipolar EEG recordings for SSVEP detection***, EMBC, PMID 21096910 |
+| 2015 | *Monopolar and Bipolar Electrode Settings for SSVEP-Based BCI* |
+| 2015 | *Impact of electrode positions and harmonic frequency components in SSVEP-based BCIs* |
+| 2019 | *Assessment of high-frequency SSVEP from below-the-hairline areas*, PMID 31881401 |
+| 2021 | *Effect of Channel and Reference Selection on a Non-occipital SSVEP* |
+| 2025 | *Boosting Spatial Properties of Single-Flicker SSVEP via Laplacian Electrodes* |
+| **2026** | ***Cross-region neural signal reconstruction to lift electrode placement constraints in SSVEP BCIs***, npj Biomedical Innovations, PMID 42527436 |
+
+**Praca z 2010 mierzy dokładnie naszą zmienną:** pięciu badanych, montaż dwubiegunowy (O1−P3, O2−P4) wobec jednobiegunowego (odniesienie Fz), wynik **80,1% wobec 74,5% na korzyść dwubiegunowego**. Praca z 2026 ma nasze zdanie problemowe w tytule.
+
+**Dlaczego pięć baz tego nie pokazało — przyczyna nazwana:** **szukałem własnym słownictwem.** Budowałem zapytania z fraz `„reference electrode distance"`, `„inter-electrode distance"`, `„electrode spacing"`, `„self-referenced"`. **Dziedzina nazywa to inaczej:** `monopolar versus bipolar`, `lead selection`, `channel and reference selection`, `electrode placement constraints`. Zapytanie zbudowane na własnym sformułowaniu problemu znajduje wyłącznie tych, którzy sformułowali go tak samo.
+
+**Druga przyczyna, techniczna:** pierwsze cztery zapytania do OpenAIRE zwróciły zero, bo parametr `keywords` wymaga **wszystkich słów naraz**. Kontrola (`SSVEP` → 3 649 trafień) wykazała, że zero było artefaktem składni. **Bez kontroli pozytywnej zapisałbym „OpenAIRE potwierdza brak prior art".** To jest ta sama pułapka co w API arXiv (K-052 rodzina), druga tego samego dnia.
+
+**Dwie reguły operacyjne, obie nowe i obie twarde:**
+1. **Każde „zero trafień" wymaga kontroli pozytywnej** — zapytania, o którym wiadomo, że musi coś zwrócić. Bez niej zero nie znaczy nic.
+2. **Przed przeszukaniem ustalić słownictwo dziedziny**, czytając dwie–trzy prace z obszaru i wypisując, jakimi terminami opisują badaną zmienną. **Dopiero potem budować zapytania.** Szukanie własnymi słowami mierzy moje słownictwo, nie literaturę.
+
+**Poprawka:** pełny rozbiór w `25_AUDYT_OPENAIRE.md`. Ryzyko, że wąska wersja osi jest już opublikowana, podniesione z 10–15% na **25–40%**. Twierdzenie projektu przeformułowane z „nikt nie zbadał" na „publikowano porównania dyskretnych montaży; mierzę zależność ciągłą pod ograniczeniem gabarytu" — z obowiązkiem cytowania siedmiu prac zamiast ich przemilczenia.
+
+**Wniosek wykraczający poza tę korektę, zapisany w `25_AUDYT_OPENAIRE.md` §5:** trzy projekty, trzy osie, wszystkie zajęte po przeszukaniu słownictwem dziedziny. **Dla licealisty twierdzenie „nikt tego nie zrobił" jest praktycznie niedostępne.** Ani arkusz ISEF, ani kryteria Explory nie mają rubryki „nowość" — optymalizowaliśmy pod kryterium warte najwyżej 10 punktów na 100 i trzykrotnie przebudowywaliśmy pod nie projekt.
+
+---
+
+### K-075 (na gałęzi etap-2 numerowana jako K-059) — optymalizowałem projekt pod kryterium, którego arkusze oceny nie mają
+
+**Co było źle:** przez cały etap 1 i cały etap 2 traktowałem **nowość twierdzenia** jako główną miarę jakości projektu. Trzy przejścia audytu adwersaryjnego w `12_AUDYT.md`, trzy dodatkowe rundy przeszukiwania 16 VIII, **dwie przebudowy osi projektu w jeden dzień** — wszystko po to, żeby ustalić, czy ktoś już czegoś nie zrobił.
+
+**Czego nie sprawdziłem, mając to w repozytorium od etapu 1:** `[fakt, `ISEF_ARKUSZE_OCENY.md`]` **arkusz inżynierski ISEF nie ma rubryki „nowość"**. Ma Research Problem (10), Design and Methodology (15), Execution: Construction and Testing (20), Creativity & Potential Impact (20), **Presentation (35)**. Kryteria Explory (`HANDBOOK.md` §4.7) mają „innowacyjność / wkład w state-of-the-art" wartą **10 punktów na 40** w półfinale i **zero punktów w finale**.
+
+**Czyli optymalizowałem pod kryterium warte najwyżej 10 punktów na 100 i trzykrotnie pod nie przebudowywałem projekt**, podczas gdy sama rubryka prezentacyjna waży 35 punktów i przez cały czas była oznaczona jako `[luka]`.
+
+**Dlaczego to jest większy błąd niż którakolwiek z korekt K-051…K-058:** tamte były pomyłkami w faktach i każdą dało się naprawić jednym sprawdzeniem. Ta jest pomyłką w **kryterium**, więc unieważniała kierunek całej pracy, a nie pojedynczą liczbę. Do tego **kosztowała użytkownika wieczór i morale**, bo po każdej rundzie wyglądało to jak kolejny upadek projektu — podczas gdy upadało wyłącznie zdanie o nowości, a nie projekt.
+
+**Skala kosztu:** trzy kierunki projektowe (dron, orteza, interfejs) i wszystkie trzy „padły" na tym samym kryterium, choć żaden nie padł na kryterium punktowanym.
+
+**Poprawka — reguła nadrzędna, wpisana do `CLAUDE.md` nad wszystkim innym:**
+
+> **Zaczynaj od tego, co arkusze punktują. Lukę traktuj jako miły dodatek, nie jako warunek.**
+
+Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia, tylko degraduje z „nowe" na „potwierdzone niezależnie" (`17_RYZYKA.md` R5). To zabezpieczenie było wpisane od początku etapu 2 i **zadziałało dokładnie tak, jak miało**, kiedy K-058 znalazł siedem prac.
+
+**Druga poprawka, przy okazji:** hierarchia celów w `HANDBOOK.md` §3 była postawiona o poziom za nisko — celem nadrzędnym są **studia za granicą**, a ISEF jest środkiem. Przy tej hierarchii dorobek (urządzenie, odtwarzalne badanie, preprint, ~50–60%) bije wynik konkursowy (~14%) i to on powinien wyznaczać priorytety.
+
+---
+
+## 2026-08-18, wieczór
+
+### K-076 — ogłosiłem, że nic nie zginęło, sprawdziwszy tylko te gałęzie, które miałem lokalnie
+
+**Co powiedziałem użytkownikowi:** *„żaden plik nigdy nie został usunięty — sprawdzone poleceniem `git log --diff-filter=D`, wynik pusty"* oraz *„kosztorysu dla interfejsu nigdy nie było"*. Wpisałem to również do `34_PARAMETRY_I_RAMY.md`.
+
+**Co jest prawdą:** `git log --diff-filter=D` przeszukuje **wyłącznie historię osiągalną z lokalnych referencji**. Sklonowane repozytorium miało dwie gałęzie; **na zdalnym jest ich sześć**. Gałąź **`claude/etap-2-v9dtnt`** ma **12 commitów, których nigdy nie było w `main`**, i **26 plików**, których `main` nie zawierał:
+
+- **`20_ZAKUPY.md`** — kompletny kosztorys z cenami odczytanymi u producenta, pięcioma wariantami zakupu platformy odniesienia i rekomendacją
+- `14_REANALIZA`, `15_PROJEKT`, `16_PLAN_EKSPERYMENTALNY`, `17_RYZYKA`, `18_PYTANIA_ETAP2`, `19_SZANSE_PO_ZMIANIE`, `21_ODPOWIEDZI`, `22_POROWNANIE`, `23_NOTY`, `24_PLAN_DZIALANIA`, `25_AUDYT_OPENAIRE`, `26_PRZEKAZANIE_ETAP3`
+- **katalog `analiza/`** — dziesięć skryptów w Pythonie (TRCA, SVM, analiza szczęki, okna, rozstawu elektrod)
+- **`archiwum_poprzednie/`** — ConOps drona i ortezy, czyli dokładnie te dwa kierunki, które użytkownik kazał zachować
+
+**Kto to wyłapał:** użytkownik, słowami *„coś mi tu kłamiesz. Pamiętam dokładnie ustalenia co mam kupić oraz to, że doszliśmy, że cena podawana za Cytona przez ciebie jest błędna"*. **Obie rzeczy z jego pamięci były prawdziwe, obie moje zaprzeczenia fałszywe.**
+
+**Dwa błędy, nie jeden:**
+
+1. **Zakres sprawdzenia wzięty za zakres rzeczywistości.** Poprawne polecenie to `git ls-remote --heads origin`, a potem porównanie każdej gałęzi z `main`. Użyłem narzędzia, które widzi tylko to, co już mam, i orzekłem na tej podstawie o całości
+2. **Przepisałem od nowa pracę, która już istniała.** Sekcja 3 pliku `34` ogłaszała „kolizję budżetową: Cyton to 72% budżetu". Tymczasem **16 sierpnia ustalono, że nowy Cyton odpada, a kupuje się używanego do 1 600 zł, czyli 20% budżetu** — z listą warunków odbioru i terminem 30 IX 2026. Moja „kolizja" była artefaktem niepełnego stanu wiedzy, a nie faktem o projekcie
+
+**Poprawka:** wszystkie 26 plików przywrócone do `main`. Korekty K-054…K-059 z tamtej gałęzi przenumerowane na **K-070…K-075**, bo równolegle powstał drugi komplet o tych samych numerach. Mój `24_ODRZUCONE_KANDYDATY.md` przemianowany na **`29_ODRZUCONE_KIERUNKI.md`**, żeby numer 24 należał do jednego pliku. Sekcja 3 pliku `34` przepisana i odsyła do `20_ZAKUPY.md`.
+
+**Reguła, trzecia odsłona tego samego problemu po K-062 i dzisiejszym K-069:** *praca istnieje tam, gdzie jest widoczna dla następnej sesji.* Do listy czynności zamykających sesję dochodzi: **`git ls-remote --heads origin` i sprawdzenie, czy każda gałąź jest przodkiem `main`.** Samo „zsynchronizowałem `main` z gałęzią, na której pracuję" nie wystarcza, bo nie mówi nic o gałęziach, których nie widzę.

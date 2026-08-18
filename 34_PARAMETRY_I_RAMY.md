@@ -38,39 +38,31 @@
 
 ---
 
-## 3. Budżet 8 000 zł — kolizja, którą trzeba rozstrzygnąć przed zakupami
+## 3. Budżet 8 000 zł wobec platformy odniesienia — sprawa BYŁA już rozstrzygnięta
 
-`[fakt]` **OpenBCI Cyton kosztuje 1 249 USD** (zestaw: płytka, dongle USB, akumulator, etui; **elektrody nie są w zestawie**). Producent podaje, że do Europy dochodzi **cło i VAT rzędu 25%**.
+**Korekta z 18 VIII 2026 wieczorem, po odzyskaniu gałęzi `claude/etap-2-v9dtnt` (K-076).** Pierwsza wersja tej sekcji ogłaszała „kolizję budżetową", której nie ma — bo decyzja zakupowa zapadła **16 sierpnia** i jest zapisana w **`20_ZAKUPY.md`**. Poniżej stan faktyczny, przepisany z tamtego pliku.
 
-`[wniosek]` Po przeliczeniu przy kursie 3,7137 zł/USD: **~4 640 zł za samą płytkę, ~5 800 zł z cłem i podatkiem**, bez elektrod i bez przesyłki.
+`[fakt, katalog producenta odczytany 16 VIII 2026]` Ceny OpenBCI: **Cyton 8 kanałów — 1 249 USD**, Cyton + Daisy 16 kanałów — 2 499 USD, **Ganglion 4 kanały — 624,99 USD**, sam klucz USB — 249 USD, czepek Ultracortex — 1 399,99 USD.
 
-> **To jest 58–72% całego budżetu na jeden kupiony przyrząd odniesienia.**
+`[wniosek]` Nowy Cyton to **6 000–6 800 zł** z wysyłką, cłem i VAT — i **to jest wariant odrzucony**, nie zalecany.
 
-Pozycja P5 z README („kupić **oryginalnego** Cytona, nie klon") i decyzja o budżecie 8 000 zł **nie spinają się razem**. Trzy wyjścia, wszystkie do rozstrzygnięcia w audycie:
+**Decyzja obowiązująca, z `20_ZAKUPY.md` sekcja 3.1:**
 
-| Wyjście | Co daje | Co kosztuje |
-|---|---|---|
-| **A. Cyton wypada z projektu** | budżet wraca do 8 000 zł na budowę | traci się **zewnętrzny** punkt odniesienia; twierdzenie „ile kosztuje wygoda" **stoi nadal**, bo jego rdzeniem jest porównanie **wersji noszonej z pełnowymiarową**, obie własne (`30` sekcja 1) |
-| **B. Cyton wypożyczony** | pełne porównanie bez wydatku | zależność od osoby trzeciej, `[luka]` nie wiadomo od kogo — uczelnia, koło naukowe, PB jest 15 minut od szkoły |
-| **C. budżet podniesiony** | wszystko zostaje | decyzja finansowa użytkownika, poza moim zasięgiem |
+> **Kupić używanego Cytona, budżet do 1 600 zł, poszukiwania do 30 IX 2026. Jeżeli do tego terminu nie ma dobrej oferty — kupić nowego Ganglion (~3 000–3 400 zł), nie nowego Cytona.**
 
-`[wniosek]` **Wyjście A jest domyślne i wcale nie jest złe.** Punkt odniesienia wewnętrzny (ten sam tor, dwie postacie mechaniczne) jest mocniejszy metodologicznie niż porównanie z kupionym sprzętem, bo eliminuje różnice układu scalonego, filtrów i oprogramowania. Cyton był dodatkiem uwiarygadniającym, nie osią twierdzenia.
+Lista warunków, które musi spełnić oferta używana (płytka **z kluczem USB**, czytelne oznaczenia ADS1299 i PIC32, sprzedawca z prawem zwrotu, zasilanie bateryjne, kwadransowy test odbiorczy przez zwarcie wejść i pomiar szumu RMS) — w `20_ZAKUPY.md`. Płytki z AliExpress odradzone: przyrząd odniesienia jest jedynym miejscem, gdzie nie wolno mieć wątpliwości co do autentyczności układu scalonego.
 
-**Zgrubny podział 8 000 zł przy wyjściu A** — `[domysł]`, do zastąpienia prawdziwym kosztorysem po audycie:
+`[wniosek]` **Przy 1 600 zł platforma odniesienia zjada 20% budżetu 8 000 zł, nie 72%.** Kolizji nie ma; jest termin — **30 IX 2026** — i to jest jedyna pilna pozycja zakupowa w całym projekcie.
 
-| Pozycja | Rząd wielkości |
-|---|---|
-| dwie–trzy iteracje płytek PCB z montażem | 1 500–2 500 zł |
-| układy scalone toru analogowego, elementy bierne, złącza | 800–1 200 zł |
-| elektrody suche i materiały na nie | 500–900 zł |
-| drukarka MSLA + żywica biozgodna (`05_RYNEK.md` sekcja 5.4: Liqcreate Bio-Med Clear ~456 zł/0,5 kg) | 1 200–1 800 zł |
-| zestaw demonstracyjny — żarówka i gniazdko sterowane (`30` sekcja 6a.3) | do 200 zł |
-| pojazd demonstracyjny i czujniki odległości do warstwy autonomii | 400–800 zł |
-| zapas na błędy, przesyłki, drugie podejście | **1 000–1 500 zł** |
+**Do czego ta platforma naprawdę służy** (`20_ZAKUPY.md` sekcja 2, trzy funkcje, dwie prawdziwe):
 
-**Reguła: zapas nie jest opcjonalny.** Przy pierwszym projekcie PCB druga iteracja jest normą, nie porażką.
+1. **test R1 — czy SSVEP działa u autora w ogóle**, jeszcze zanim istnieje własna płytka. Krytyczne, termin X 2026
+2. **ubezpieczenie**, gdyby własny tor analogowy nie zadziałał
+3. ~~„baseline komercyjny" do twierdzenia~~ — **wycofane już 16 VIII**: OpenBCI to płytka badawczo-hobbystyczna bez obudowy i elektrod, więc porównanie z nią nie jest porównaniem z rynkiem
 
----
+`[wniosek]` Punkt 3 był tym, co wcześniej wpisano do README jako „punkt odniesienia: kupiony OpenBCI Cyton". **Twierdzenie „ile kosztuje wygoda" stoi na porównaniu wewnętrznym — wersja noszona wobec pełnowymiarowej, ten sam tor.** Cyton jest narzędziem kontrolnym i ubezpieczeniem, nie osią.
+
+**Reszta budżetu** — pełne rozbicie jest w `15_PROJEKT.md` sekcja 3 i `20_ZAKUPY.md` sekcja 5, tam gdzie powstało 16 VIII. Suma bez nowego Cytona mieściła się w przedziale **5 700–8 800 zł**, czyli decyzja o 8 000 zł jest z nim spójna, ale **bez zapasu na trzecią iterację płytki**. To jest pozycja do przeliczenia w audycie razem z harmonogramem.
 
 ## 4. Kategoria EBED — co z niej wynika operacyjnie
 

@@ -13,11 +13,24 @@
 | 3 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
 | 4 | **`34_PARAMETRY_I_RAMY.md`** | **budżet 8 000 zł, 10 h/tydzień, kategoria EBED, drabinka zejść, plan pomiarowy** |
 | 5 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
-| 6 | `KOREKTY.md` | rejestr błędów **K-001…K-069**. Dopisuj każdy nowy |
+| 6 | `KOREKTY.md` | rejestr błędów **K-001…K-076**. Dopisuj każdy nowy |
 | 7 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
 | 8 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
 
-> **Pliki `20`–`23` (aktywne łożysko magnetyczne) usunięte 18 VIII 2026** na życzenie użytkownika. Wszystko przenośne — drabinka zejść i struktura planu pomiarowego — jest w **`34_PARAMETRY_I_RAMY.md`**. Rejestr odrzuconych kierunków, skrócony do jednej linijki na kandydata: `24_ODRZUCONE_KANDYDATY.md`. Usunięte pliki są w historii gita.
+**Pliki odzyskane 18 VIII 2026 z gałęzi `claude/etap-2-v9dtnt` (K-076)** — dorobek etapu 2 dla interfejsu, którego `main` nigdy nie widziała:
+
+| Plik | Co zawiera |
+|---|---|
+| **`20_ZAKUPY.md`** | **kosztorys i decyzje zakupowe**: ceny OpenBCI u producenta, pięć wariantów platformy odniesienia, rekomendacja używanego Cytona do 1 600 zł, warunki odbioru |
+| `15_PROJEKT.md`, `16_PLAN_EKSPERYMENTALNY.md`, `17_RYZYKA.md` | projekt, plan eksperymentalny i ryzyka w wersji interfejsowej |
+| `14_REANALIZA.md`, `19_SZANSE_PO_ZMIANIE.md`, `22_POROWNANIE.md`, `23_NOTY.md` | reanaliza osi, przeliczone szanse, porównania, noty |
+| `18_PYTANIA_ETAP2.md`, `21_ODPOWIEDZI.md`, `24_PLAN_DZIALANIA.md`, `25_AUDYT_OPENAIRE.md`, `26_PRZEKAZANIE_ETAP3.md` | pytania, odpowiedzi, plan działania, audyt w OpenAIRE, przekazanie |
+| **`analiza/`** | **dziesięć skryptów w Pythonie** — TRCA, SVM, analiza szczęki, okna, rozstaw elektrod |
+| `archiwum_poprzednie/` | ConOps **drona** i **ortezy** |
+
+`[luka]` Te pliki powstały **przed** zamknięciem i ponownym otwarciem kierunku interfejsowego. **Ich zgodność z ustaleniami z 17–18 VIII nie została sprawdzona linijka po linijce** — to jest pierwsza rzecz do zrobienia w audycie.
+
+> **Pliki `20`–`23` (aktywne łożysko magnetyczne) usunięte 18 VIII 2026** na życzenie użytkownika. Wszystko przenośne — drabinka zejść i struktura planu pomiarowego — jest w **`34_PARAMETRY_I_RAMY.md`**. Rejestr odrzuconych kierunków, skrócony do jednej linijki na kandydata: `29_ODRZUCONE_KIERUNKI.md`. Usunięte pliki są w historii gita.
 
 ---
 
@@ -36,7 +49,7 @@ To jedyny mechaniczny strażnik granicy z projektem referencyjnym ENBM074 (2026)
 
 ## Projekt bieżący, w jednym akapicie
 
-Nieinwazyjny interfejs sterowany bodźcem wzrokowym, w zwartej formie noszonej. **Twierdzenie: ile kosztuje wygoda** — o ile spada dokładność i przepustowość, gdy urządzenie robi się na tyle małe i wygodne, żeby dało się je nosić. Punkt odniesienia wewnętrzny: ten sam układ w wersji pełnowymiarowej. **Kupiony OpenBCI Cyton był drugim punktem odniesienia i prawdopodobnie wypada z projektu — nie mieści się w budżecie 8 000 zł (`34` sekcja 3).**
+Nieinwazyjny interfejs sterowany bodźcem wzrokowym, w zwartej formie noszonej. **Twierdzenie: ile kosztuje wygoda** — o ile spada dokładność i przepustowość, gdy urządzenie robi się na tyle małe i wygodne, żeby dało się je nosić. Punkt odniesienia wewnętrzny: ten sam układ w wersji pełnowymiarowej. Kupiony OpenBCI służy jako **narzędzie kontrolne i ubezpieczenie**, nie jako oś twierdzenia — rola „baseline komercyjny" została wycofana już 16 VIII (`20_ZAKUPY.md` sekcja 2).
 
 **Demonstracja:** bodziec przeniesiony z twarzy na cele w otoczeniu, jedno wykrycie = jedna pełna intencja, wykonanie przez sterowanie **kupionymi** przedmiotami (żarówka, gniazdko — poniżej 200 zł, zero godzin warsztatu). Bez mowy syntetycznej.
 
@@ -70,7 +83,7 @@ Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → 
 | P2 | **przeliczyć harmonogram pod jeden cykl** (Explory 2027 → ISEF 2028) | przed budową |
 | P3 | sprawdzić dorobek grupy Kołodziej M., Majkowski A. od stycznia 2026 (PubMed, imiennie) | faza 0, IX 2026 |
 | P4 | zamknąć zdanie z twierdzeniem i metrykę — jedno zdanie, jedna jednostka | przed budową |
-| P5 | **rozstrzygnąć sprawę OpenBCI.** `[fakt]` Cyton kosztuje 1 249 USD, z cłem ~5 800 zł, czyli **72% budżetu 8 000 zł**. Trzy wyjścia w `34` sekcja 3; rekomendacja: **odpuścić, punkt odniesienia zostaje wewnętrzny**. Klonów nie kupować w żadnym wariancie | **w audycie** |
+| P5 | **szukać UŻYWANEGO Cytona, budżet do 1 600 zł** — decyzja z `20_ZAKUPY.md` sekcja 3.1, odzyskana 18 VIII (K-076). Wymagania odbioru w tamtym pliku. Jeżeli do terminu nie ma oferty — nowy Ganglion, nie nowy Cyton. Bez AliExpress | **do 30 IX 2026** |
 | P6 | przejrzeć **filmy półfinałowe** Explory 2026 — użytkownik prosił o przypominanie | gdy internet pozwoli |
 | P7 | dokument **go/no-go** — co musiałoby być prawdą, żeby projekt był wart zachodu | po audycie |
 | P8 | **zapytać w szkole o Komitet Szkolny olimpiady OITwEiM** — bez rejestracji olimpiada odpada. Decyzją użytkownika start przesunięty na edycję 2027/28. `33` sekcja 8 | **do 31 X 2027** |
