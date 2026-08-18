@@ -1296,3 +1296,33 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 | K-057 | **K-073** |
 | K-058 | **K-074** |
 | K-059 | **K-075** |
+
+---
+
+### K-092 — werdykt „twierdzenie martwe" postawiłem na abstrakcie, mając pełny tekst za jednym zapytaniem
+
+**Co było.** `35_AUDYT_2026_08_18.md` §2.1, napisane rano 18 VIII: praca **Li i in. 2025 (PMID 40566767)** ogłoszona jako zabijająca twierdzenie „ile kosztuje wygoda", z opisem *„zmniejszyli **skrzynkę**, trzymając odniesienie w miejscu standardowym"*. Podstawa: **abstrakt**, cztery zdania.
+
+**Co jest, po odczytaniu pełnego tekstu chińskiego (PMC12236208) tego samego dnia po południu:**
+
+`[fakt, cytat z oryginału]` *„配置8通道电极帽记录枕叶脑电图（POz、PO3、PO4、PO5、PO6、Oz、O1和O2），**参考电极和接地电极放置于前额**"* oraz *„头戴部分（采集器、电极帽）重量为 **121 g**"*.
+
+Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **na czole**, elektrody **mokre**, 121 g na głowie. **Skrzynki nie zmniejszali w żadnym sensie istotnym dla tego projektu.** Ich jedyną zmienną niezależną jest **czas i staranność przygotowania**: *„要求所有实验准备操作（…）在3 min内完成，**不调整电极阻抗**"*. Warunkiem kontrolnym jest **cudzy publiczny zbiór Benchmark**, 27 innych osób — nie ich własny układ w drugiej konfiguracji.
+
+**Kierunek werdyktu się utrzymał** — hasło „ile kosztuje wygoda" ma opublikowaną odpowiedź i nie nadaje się na zdanie twierdzenia. **Ale uzasadnienie było nieostre na tyle, że mogło pójść w drugą stronę**, a dystans między tamtą pracą a tym projektem jest **większy**, niż zapisałem.
+
+**Reguła, i jest ostrzejsza niż dotychczasowe.** `12_AUDYT.md` dopuszczał znacznik `[fakt, abstrakt odczytany]` jako podstawę ustaleń. **Odtąd: praca, która jest kandydatem na zabójcę twierdzenia projektu, wymaga pełnego tekstu, a nie abstraktu.** Abstrakt wystarcza do odnotowania pozycji w stanie wiedzy; **nie wystarcza do orzeczenia, że coś jest zajęte.** Koszt sprawdzenia wynosił jedno zapytanie do PMC. To jest ten sam wzorzec co **K-090** (znacznik „pełny tekst odczytany" bez odczytania pełnego tekstu), tylko odwrócony: tam znacznik był zawyżony, tu wniosek był zbudowany na znaczniku, który uczciwie mówił „abstrakt".
+
+**Rozbiór: `36_ROZBIOR_LI2025_I_PRZESZUKANIE.md` §1 i §6.**
+
+---
+
+### K-093 — trzecie wystąpienie tej samej pułapki: „zero trafień" z parsera, nie z literatury
+
+**Co było.** Przy przeszukiwaniu chińskiej bazy **CQVIP** — jedynego dostępnego obejścia zablokowanej CNKI — pierwsza wersja parsera wyciągała tytuły selektorem `class="title"` i zwracała **zero trafień na każde zapytanie**, w tym na `SSVEP 参考电极`. Wyglądało to na potwierdzenie, że chińska literatura nie zajmuje osi.
+
+**Co to wykryło.** Kontrola pozytywna: zapytanie `SSVEP` samo dało zero, a zapytanie `脑机接口` („interfejs mózg-komputer") **też dało zero**. Baza, która nie zna nazwy własnej dziedziny, nie istnieje — więc zero pochodziło od parsera. Po przejściu na selektor abstraktów `class="abstr"`: `SSVEP` daje **20 abstraktów na stronę**, kontrola przechodzi, i wychodzą dwie realne pozycje (SSVEP zauszny, elektroda laplasjanowa o małym rozstawie).
+
+**To jest trzecie wystąpienie tego samego wzorca w tym projekcie:** arXiv (składnia cudzysłowów, `14` §11.1), OpenAIRE (`keywords` wymaga wszystkich słów, `25` §2), CQVIP (selektor tytułu). **Za każdym razem zero było artefaktem narzędzia, nie stanem literatury.**
+
+**Reguła, wzmocniona do postaci mechanicznej:** **kontrola pozytywna wykonuje się PRZED zapytaniem właściwym, nie po nim**, i musi być zapytaniem o nazwę dziedziny w języku bazy. Bez zaliczonej kontroli **żadnego wyniku „zero" nie wolno zapisać do dokumentacji.** Trzy wystąpienia w dwa dni znaczą, że to nie jest przypadek, tylko domyślne zachowanie narzędzi.

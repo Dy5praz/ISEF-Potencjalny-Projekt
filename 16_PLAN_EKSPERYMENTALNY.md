@@ -82,6 +82,8 @@ Dlaczego to jest ważne, a nie kosmetyczne: sesje różnią się impedancją kon
 
 **Warunek kontrolny, którego nie wolno pominąć:** montaż zwarty musi zostać **na końcu zmierzony fizycznie**, na rzeczywistym module z odniesieniem wewnątrz, nie tylko wyprowadzony odejmowaniem. Wyprowadzenie offline zakłada, że tor jest liniowy i że nie ma nasycenia — a jednym z argumentów za kompensacją analogową jest właśnie to, że nasycenie istnieje. **Zgodność pomiaru fizycznego z wyprowadzeniem offline jest osobnym, raportowanym wynikiem.**
 
+> **UZUPEŁNIENIE 18 VIII 2026 — P15a, `36_ROZBIOR_LI2025_I_PRZESZUKANIE.md` §2.2.** Porównanie prowadzi się **wobec dwóch baz naraz, nie jednej**: (1) montaż wielokanałowy z odniesieniem odległym — górna granica; (2) **pojedynczy kanał z odniesieniem odległym — dolna granica**. Powód: `[fakt]` Li i in. 2025 (PMID 40566767) zmierzyli, że montaż dwubiegunowy POz−Oz **bije** pojedynczy kanał Oz z odniesieniem na czole (**68,25% wobec 37,65%** przy oknie 3 s), podczas gdy reanaliza Kołodzieja pokazuje, że dwubiegunowy **przegrywa** z montażem trzykanałowym z odniesieniem odległym (48,8–64,0% wobec 73,3%). **Obie liczby są prawdziwe i dotyczą różnych porównań.** Bez drugiej bazy własny wynik da się przedstawić jako sprzeczny z opublikowaną pracą, choć sprzeczny nie będzie. Koszt: zero — obie bazy wyprowadza się offline z tej samej rejestracji (`15_PROJEKT.md` §2.1).
+
 ### 3.2 Zmienne
 
 | | |

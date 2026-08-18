@@ -119,6 +119,8 @@ Projekty z szerzej rozumianej neurobiologii w finale 2026, dla uczciwości obraz
 
 ### 3.2 ISEF — pole jest obsadzone i rośnie
 
+> **UZUPEŁNIENIE 18 VIII 2026 — `36_ROZBIOR_LI2025_I_PRZESZUKANIE.md` §5.** Liczby poniżej są prawdziwe **dla EEG w ogóle** i mylące dla tego projektu. Baza abstraktów przeszukana bezpośrednio formularzem, trzynaście roczników 2014–2026: `[fakt]` **`SSVEP` — 5 trafień**, `steady-state visual evoked` — 3, `occipital` — 6, `EEG electrode` — 2, **`ADS1299` — 0**. Wszystkie pięć projektów SSVEP to **zastosowania** (sterowanie muzyką, uwierzytelnianie, egzoszkielet, ocena starzenia poznawczego); **żaden nie dotyczy toru pomiarowego ani geometrii elektrod, i nikt w trzynastu latach nie zbudował własnego wzmacniacza EEG.** `[wniosek]` Projekty EEG na ISEF to w przeważającej większości **klasyfikacja danych**, nie budowa przyrządu. **W rubryce, w której gra ten projekt — przyrząd i jego metrologia — konkurencji na ISEF praktycznie nie ma.**
+
 **[fakt] Źródło:** baza abstraktów Society for Science, przeszukanie po słowie kluczowym, rocznik po roczniku, wszystkie abstrakty (nie tylko nagrodzone).
 
 Liczba projektów zawierających „EEG":
