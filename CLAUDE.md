@@ -5,20 +5,23 @@ Użytkownik: Julek. **Odpowiadaj po polsku.**
 ## Co czytać, w tej kolejności
 
 1. **`README.md`** — stan bieżący i mapa plików. Najkrótsza droga do tego, co się dzieje teraz.
-2. **`20_PROJEKT.md`** — **projekt bieżący.** Czym jest, twierdzenie, dlaczego to, kategorie. Potem `21_PLAN_BUDOWY.md`, `22_PLAN_POMIAROWY.md`, `23_RYZYKA.md`.
-3. **`HANDBOOK.md`** — zasady współpracy, cel, kalendarz, ściągawka Explory i ISEF, historia odrzuconych kierunków, rejestr wcześniejszych błędów. **Sekcje 1–8 i 12–13 obowiązują nadal. Sekcje 9–11 dotyczą zamkniętego kierunku neuralnego** — czytaj je jako historię, nie jako zlecenie.
-4. **`KOREKTY.md`** — rejestr błędów, K-001…K-053. Dopisuj każdy nowy.
+2. **`30_POWROT_DO_INTERFEJSU.md`** — **projekt bieżący.** Czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a. Potem `32_STUDIA_USA.md` (cel nadrzędny: uczelnie, SAT, egzamin z angielskiego), `31_ANALIZA_STAWKI_2026.md` (konkurencja), `33_KONKURSY_ROZBIEGOWE.md` (El-Robo-Mech, olimpiada).
+   **Pliki `20`–`24` opisują aktywne łożysko magnetyczne — kierunek ZAMKNIĘTY.** Przenośne są z nich tylko struktura planu pomiarowego (`22`) i drabinka zejść (`23`).
+3. **`HANDBOOK.md`** — zasady współpracy, cel, kalendarz, ściągawka Explory i ISEF, historia odrzuconych kierunków. **Sekcje 1–8 i 12–13 obowiązują nadal. Sekcje 9–11 dotyczą interfejsu neuralnego i po powrocie do tego kierunku są znowu materiałem roboczym, nie samą historią.**
+4. **`KOREKTY.md`** — rejestr błędów, K-001…K-069. Dopisuj każdy nowy.
 5. **`12_AUDYT.md`** — wzorzec audytu adwersaryjnego. Metoda zostaje w mocy, treść dotyczy zamkniętego kierunku.
 
 ## Zadanie bieżące
 
-**ZMIANA KIERUNKU 17 VIII 2026.** Kierunek „nieinwazyjny interfejs neuralny" **zamknięty decyzją użytkownika**. Pliki `00`–`13` zostają jako dorobek i wzorzec metody — nie jako opis bieżącego projektu.
+**Stan na 18 sierpnia 2026.** Kierunek bieżący to **nieinwazyjny interfejs neuralny sterowany bodźcem wzrokowym, w zwartej formie noszonej** — powrót decyzją użytkownika z 17 VIII 2026. Opis w `30_POWROT_DO_INTERFEJSU.md`, **ten plik zastępuje `20`–`24`**.
 
-**Etap 2 otwarty. Projekt wybrany: aktywne łożysko magnetyczne z estymacją położenia bez czujników.** Zacznij od `20_PROJEKT.md`, potem `21`–`24`.
+**Najbliższe zadanie: audyt adwersaryjny nowej wersji projektu, trzy przejścia, metodą z `12_AUDYT.md`** (pozycja P1 w README).
 
-Twierdzenie: **na jednym stanowisku self-sensing kosztuje X µm szumu położenia, Y N/mm sztywności i Z dB zapasu wzmocnienia względem tego samego stanowiska z czujnikami na PCB; dominującym ogranicznikiem jest [zmierzone].** Punkt odniesienia wewnętrzny — nieunieważnialny cudzą publikacją.
+Twierdzenie: **ile kosztuje wygoda** — o ile spada dokładność i przepustowość, gdy urządzenie robi się na tyle małe i wygodne, żeby dało się je nosić. Punkt odniesienia wewnętrzny: ten sam układ w wersji pełnowymiarowej oraz kupiony OpenBCI Cyton. **Metryka w bitach, nigdy słowa na minutę** (K-055).
 
-Parametry: **dwa lata**, ~890 h, ~9 900 zł z limitu 15 000, kategoria ISEF **EBED**, Explory **SDG 9 / Gospodarka i Bezpieczeństwo**. Rok 1 — zbuduj i scharakteryzuj. Rok 2 — usuń czujniki i zmierz koszt (ISEF Form 7).
+Parametry: `[luka]` **liczba godzin i budżet wymagają przeliczenia** — wartości „~890 h, ~9 900 zł" pochodzą z zamkniętego kierunku łożyskowego i nie zostały potwierdzone dla interfejsu. Obszar Explory: **Człowiek i Społeczeństwo**. Kategoria ISEF: **ENBM czy EBED — pozycja otwarta**, rozbiór w `ISEF_ARKUSZE_OCENY.md` sekcja 4.1.
+
+**Kalendarz rekrutacyjny jest nadrzędny nad konkursowym:** aplikacje na studia w USA idą jesienią 2028, więc **liczy się ISEF 2028, czyli ścieżka przez Explory 2027**. ISEF 2029 wypada po decyzjach rekrutacyjnych. Harmonogram wymaga przeliczenia pod jeden cykl (P2).
 
 ## Ustalenia wiążące, nie do podważania bez nowego argumentu
 
@@ -27,8 +30,8 @@ Parametry: **dwa lata**, ~890 h, ~9 900 zł z limitu 15 000, kategoria ISEF **EB
 - **nigdy nie używaj słowa „pierwszy"** w materiałach zgłoszeniowych (K-044)
 - **rzemiosło eksperymentalne z ENBM074 (2026) kopiujemy świadomie** — warunek kontrolny na tym samym sprzęcie, randomizacja i kontrbalansowanie, replikacja, poprawka na wielokrotne porównania, test mechanizmu. Sekcja 9.2 handbooka zakazuje kopiowania tamtego **rozwiązania**, nie rzemiosła
 - **projekt indywidualny.** Decyzja użytkownika z sekcji 1 handbooka, nie ruszać
-- **zero badanych ludzi.** Cała procedura Human Participants, komisja IRB przy szkole i formularze 4/5 są w tym projekcie bezprzedmiotowe
-- **drabinka zejść jest napisana z góry** (`23_RYZYKA.md` sekcja 1). Zejście o szczebel wymaga wpisu do `KOREKTY.md` z powodem liczbowym i wskazaniem, co poświęcone. Bez wpisu zejście się nie liczy
+- **badani ludzie WCHODZĄ w grę i procedura Human Participants obowiązuje.** Interfejs zbiera sygnał z człowieka, więc `ISEF_HUMAN_PARTICIPANTS.md` jest dokumentem czynnym, nie archiwalnym: Adult Sponsor, Direct Supervisor, formularze, kwestia komisji IRB przy szkole i pytanie do FZT o SRC. **Zdanie „zero badanych ludzi" pochodziło z zamkniętego kierunku łożyskowego i było błędem — K-069**
+- **drabinka zejść jest napisana z góry** (`23_RYZYKA.md` sekcja 1 — struktura przenośna, treść dotyczy zamkniętego kierunku). Zejście o szczebel wymaga wpisu do `KOREKTY.md` z powodem liczbowym i wskazaniem, co poświęcone. Bez wpisu zejście się nie liczy
 
 ## Zasady, których łamanie kosztowało miesiące
 

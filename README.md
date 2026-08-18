@@ -12,7 +12,7 @@
 | 2 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
 | 3 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
 | 4 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
-| 5 | `KOREKTY.md` | rejestr błędów **K-001…K-068**. Dopisuj każdy nowy |
+| 5 | `KOREKTY.md` | rejestr błędów **K-001…K-069**. Dopisuj każdy nowy |
 | 6 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
 | 7 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
 
@@ -113,6 +113,18 @@ Każda liczba, na której cokolwiek się opiera: 2–3 niezależne źródła. Je
 Hierarchia przy sprzeczności: dokument regulaminowy > publikacja recenzowana > preprint > materiał prasowy > blog/forum.
 
 **Zakaz słowa „pierwszy" w materiałach zgłoszeniowych** (K-044). **Liczba pojedyncza w całej dokumentacji** (K-054).
+
+---
+
+## Punkt wejścia dla następnej sesji
+
+**Audyt adwersaryjny projektu z `30_POWROT_DO_INTERFEJSU.md`, trzy przejścia, metodą z `12_AUDYT.md`** — pozycja P1. Wszystko inne z tej sesji jest zamknięte i zapisane; nic nie czeka na dokończenie.
+
+**Trzy pytania do rozstrzygnięcia przez użytkownika, żadne nie blokuje startu audytu:**
+
+1. **budżet i godziny dla interfejsu** — wartości „~890 h, ~9 900 zł" pochodzą z zamkniętego kierunku łożyskowego i nigdy nie zostały przeliczone (K-069)
+2. **kategoria ISEF: ENBM czy EBED** — pozycja otwarta od etapu 1, rozbiór w `ISEF_ARKUSZE_OCENY.md` sekcja 4.1
+3. **czy poprzeczka „gotowy w całości, nie prototyp" (`30` sekcja 6a.4) obowiązuje po przeliczeniu harmonogramu pod jeden cykl** — audyt będzie ją testował
 
 ---
 

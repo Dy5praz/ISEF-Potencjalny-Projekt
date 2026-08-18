@@ -901,3 +901,23 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Poprawka:** liczba **wykreślona**, nie oznaczona. Zastąpiona jedynymi twardymi danymi, jakie istnieją — sekcja C7 Common Data Set, odczytana z oryginalnego PDF-u Caltechu (2024/2025): **extracurricular activities „Important", talent/ability „Considered"**, przy „Very Important" dla trudności programu, wyników testów, esejów, rekomendacji i oceny charakteru.
 
 **Reguła:** liczby, której nie da się doprowadzić do źródła pierwotnego, nie zostawia się w dokumentacji z ostrzeżeniem. Się ją usuwa i zapisuje, dlaczego.
+
+---
+
+## 2026-08-18
+
+### K-069 — plik czytany przez każdą nową sesję jako pierwszy opisywał zamknięty kierunek
+
+**Co było źle:** `CLAUDE.md` — dokument, który każda nowa rozmowa wczytuje przed czymkolwiek innym — w sekcji „Zadanie bieżące" twierdził: *„Kierunek »nieinwazyjny interfejs neuralny« zamknięty decyzją użytkownika. (…) Projekt wybrany: aktywne łożysko magnetyczne z estymacją położenia bez czujników. Zacznij od `20_PROJEKT.md`"*. **Stan faktyczny jest odwrotny od 17 VIII 2026:** łożysko jest zamknięte, interfejs wrócił (`30_POWROT_DO_INTERFEJSU.md`).
+
+**Jak blisko było skutku:** następna rozmowa miała zacząć **audyt adwersaryjny projektu**. Przy tym zapisie audyt objąłby **łożysko magnetyczne** — projekt porzucony — i trzy przejścia poszłyby w całości na marne, zanim ktokolwiek zauważyłby rozjazd.
+
+**Trzy pomniejsze błędy w tym samym pliku, wszystkie odziedziczone po łożysku:**
+
+1. **„zero badanych ludzi. Cała procedura Human Participants (…) bezprzedmiotowa"** — **najgroźniejszy z całej trójki.** Interfejs zbiera sygnał z człowieka, więc `ISEF_HUMAN_PARTICIPANTS.md` jest dokumentem czynnym: Adult Sponsor, Direct Supervisor, formularze, kwestia komisji IRB przy szkole, pytanie do FZT o SRC. Reguła w tej postaci prowadziła prosto do dyskwalifikacji na technikalium
+2. **„~890 h, ~9 900 zł, kategoria EBED, Explory SDG 9 / Gospodarka i Bezpieczeństwo"** — parametry łożyska. Dla interfejsu obszar to **Człowiek i Społeczeństwo** (`30` sekcja 4.3), kategoria ISEF jest **pozycją otwartą**, a godziny i budżet nie zostały przeliczone. Oznaczone jako `[luka]`
+3. kolejność czytania prowadziła do `20`–`24` zamiast do `30`–`33`
+
+**Poprawka:** `CLAUDE.md` przepisany w częściach: kolejność czytania, zadanie bieżące, twierdzenie, parametry, reguła o badanych ludziach. Zakres rejestru podniesiony do K-069.
+
+**Reguła szersza, trzeci raz w tym rejestrze po K-062 i po dzisiejszej synchronizacji `main`:** przy zmianie kierunku projektu **najpierw poprawia się pliki wejściowe** — `CLAUDE.md` i `README.md` — a dopiero potem pisze nowe. Plik z opisem nowego kierunku nie unieważnia starego zlecenia w pliku wejściowym; robi to tylko edycja pliku wejściowego.
