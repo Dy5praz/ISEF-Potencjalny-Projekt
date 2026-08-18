@@ -1080,3 +1080,17 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 **Poprawka:** wszystkie 26 plików przywrócone do `main`. Korekty K-054…K-059 z tamtej gałęzi przenumerowane na **K-070…K-075**, bo równolegle powstał drugi komplet o tych samych numerach. Mój `24_ODRZUCONE_KANDYDATY.md` przemianowany na **`29_ODRZUCONE_KIERUNKI.md`**, żeby numer 24 należał do jednego pliku. Sekcja 3 pliku `34` przepisana i odsyła do `20_ZAKUPY.md`.
 
 **Reguła, trzecia odsłona tego samego problemu po K-062 i dzisiejszym K-069:** *praca istnieje tam, gdzie jest widoczna dla następnej sesji.* Do listy czynności zamykających sesję dochodzi: **`git ls-remote --heads origin` i sprawdzenie, czy każda gałąź jest przodkiem `main`.** Samo „zsynchronizowałem `main` z gałęzią, na której pracuję" nie wystarcza, bo nie mówi nic o gałęziach, których nie widzę.
+
+### K-076a — uzupełnienie: rozjazd dotyczył też plików wspólnych, nie tylko brakujących
+
+**Co doszło po pierwszym odzysku:** przywrócenie 26 brakujących plików nie zamykało sprawy. Siedem plików istniejących **po obu stronach** miało różne treści, a w trzech z nich gałąź `etap-2` zawierała rzeczy, których `main` nigdy nie widziała:
+
+| Plik | Czego brakowało w `main` |
+|---|---|
+| **`DECYZJE.md`** | **decyzje 5 i 6 użytkownika z 16 VIII 2026** — wybór wariantu C jako osi projektu (rozstrzygany pomiarem, nie założeniem) oraz zgoda na wyprowadzenie elektrody odniesienia za ucho, wraz z zamknięciem sprawy kanału szczękowego na niekorzyść pierwotnej analizy (sufit +0,6 pp, p = 0,166) |
+| `HANDBOOK.md` | poprawka o **hierarchii celów**: celem nadrzędnym są studia, ISEF jest środkiem — z liczbami (~14% na wyjazd, ~50–60% na dorobek) |
+| `PRZEKAZANIE.md` | ostrzeżenie, że opisana tam oś projektu **upadła pierwszego dnia etapu 2** |
+
+**Wszystkie trzy wciągnięte do `main` 18 VIII 2026.** Decyzje użytkownika są tą kategorią treści, której zgubienie kosztuje najwięcej — bo model, który ich nie widzi, zaczyna je podważać od nowa.
+
+**Reguła, uzupełnienie do K-076:** przy rozjeździe gałęzi nie wystarczy porównać **listy plików**. Trzeba porównać **treść plików wspólnych** — `git diff <galaz> main -- <plik>` — bo najcenniejsze rzeczy dopisuje się do plików, które już istnieją.

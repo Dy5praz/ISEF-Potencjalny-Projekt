@@ -1,5 +1,14 @@
 # PRZEKAZANIE — start etapu 2
 
+> ## ⚠ PLIK CZĘŚCIOWO NIEAKTUALNY — 16 VIII 2026
+>
+> **Oś projektu opisana w tym pliku (analogowa kompensacja artefaktu szczękowego) upadła pierwszego dnia etapu 2.** Zbiór danych Kołodzieja okazał się publiczny; reanaliza pokazała, że przyrost +9 pp należy w całości do **Cz**, a kanał szczękowy dokłada 0,3 pp. `KOREKTY.md` **K-051**, **K-052**, **K-053**.
+>
+> **Aktualny stan: `14_REANALIZA.md` → `15_PROJEKT.md` → `16_PLAN_EKSPERYMENTALNY.md` → `17_RYZYKA.md` → `18_PYTANIA_ETAP2.md`.**
+>
+> **Co w tym pliku dalej obowiązuje:** sekcja 3 poza wierszem o osi naukowej, sekcja 5 (wzorce błędów) i sekcja 6 (środowisko). **Sekcje 4.1 i 4.2 są wykonane** — patrz niżej.
+
+
 **Data:** 15 sierpnia 2026, po zamknięciu etapu 1
 **Po co ten plik:** etap 1 jest zamknięty. Ten plik mówi nowej sesji, co zastaje, czego nie wolno podważać, i od czego zacząć etap 2.
 
