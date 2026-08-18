@@ -324,6 +324,54 @@ Projekt to jeden z sześciu elementów i nie największy.
 
 **Zasada pierwszeństwa przy kolizji:** SAT i oceny **nie mają zamiennika** w rekrutacji do USA, a projekt ma. Przy konflikcie o czas **projekt ustępuje**.
 
+### 4.1 SAT — jaki wynik, jak trudny, ile podejść. Sprawdzone 17 VIII 2026
+
+#### Struktura egzaminu
+
+`[fakt]` SAT jest od 2023 roku **cyfrowy**, zdawany w aplikacji Bluebook w ośrodku egzaminacyjnym. Dwie części, każda punktowana **200–800**, razem **400–1600**:
+
+| Część | Pytania | Czas | Na pytanie |
+|---|---|---|---|
+| Reading and Writing | 54 | 64 min (2 moduły po 32) | ~71 s |
+| **Math** | **44** | **70 min (2 moduły po 35)** | **~95 s** |
+
+`[fakt]` Egzamin jest **adaptacyjny modułowo**: pierwszy moduł jest ten sam dla wszystkich, a wynik z niego decyduje, czy drugi moduł będzie trudniejszy czy łatwiejszy. Dostęp do najwyższych wyników prowadzi wyłącznie przez trudniejszy drugi moduł.
+
+`[fakt]` Zakres matematyki: **algebra ~35%, „advanced math" czyli funkcje i równania kwadratowe ~35%, dane i statystyka ~15%, geometria i trygonometria ~15%.** `[fakt]` **Kalkulator Desmos jest wbudowany i dostępny przy każdym zadaniu matematycznym** — nie ma części bez kalkulatora.
+
+#### Porównanie z maturą rozszerzoną — intuicja użytkownika potwierdzona
+
+`[wniosek]` **Materiał SAT jest węższy niż matury rozszerzonej.** Nie ma rachunku różniczkowego, ciągów w zakresie maturalnym, stereometrii z dowodem ani zadań na dowodzenie w ogóle. Prawie wszystko jest zamknięte albo z krótką odpowiedzią liczbową, a Desmos rozwiązuje układy i rysuje wykresy za zdającego.
+
+`[wniosek]` **Trudność siedzi gdzie indziej: w tempie i w bezbłędności.** Na maturze rozszerzonej jest 180 minut na kilkanaście zadań, w tym czas na powrót do zadania. Na SAT jest **95 sekund na zadanie średnio**, a próg, który interesuje uczelnie z tej listy, oznacza **zero do dwóch błędów w całej części matematycznej**.
+
+**Konsekwencja praktyczna, ważna dla harmonogramu:** dla kogoś, kto ogarnia maturę rozszerzoną z matematyki, przygotowanie do SAT Math **nie jest nauką nowego materiału, tylko treningiem tempa i formatu**. To jest inny rodzaj kosztu — godziny na arkusze na czas, nie miesiące na teorię. Część językowa (Reading and Writing) jest dla polskiego kandydata trudniejsza niż matematyczna i to ona wymaga realnej nauki.
+
+#### Jaki wynik jest „tym wyższym"
+
+| Uczelnia | Zakres 25–75 percentyla | Źródło |
+|---|---|---|
+| **MIT**, rocznik 2029 | **Math 780–800**, Reading and Writing **740–780** | `[fakt]` statystyki rekrutacyjne MIT |
+| Princeton, Stanford, Brown | `[domysł, źródła wtórne]` łącznie ~1500–1580, matematyka ~770–800 | do potwierdzenia w CDS |
+| **Caltech** | `[luka]` **nie publikuje** — do rocznika 2025 nie brał wyników w ogóle, rubryki SAT w jego Common Data Set 2024/25 są puste. Wymóg wrócił od rekrutacji na jesień 2026 | — |
+| Notre Dame, Olin, ścieżka stypendialna | `[domysł]` ~1420–1540 wystarcza | — |
+
+`[fakt]` **Caltech od cyklu 2026/27 pokazuje komisji wyniki sekcji w „koszykach" (przedziałach), a nie jako liczby, i w ogóle nie rozpatruje wyniku łącznego.**
+
+`[wniosek]` **Cel operacyjny: matematyka 780+, łącznie 1500+.** Przy górnej półce listy wynik poniżej ~1450 zaczyna działać przeciwko kandydatowi, bo mediana matematyki wynosi tam 800 — czyli **wynik z matematyki nie wyróżnia, on tylko nie może zawieść.** Wyróżnia część językowa i cała reszta aplikacji.
+
+#### Powtarzanie
+
+`[fakt]` **Liczba podejść nie jest ograniczona.** W roku 2026/27 jest **osiem terminów**, tych samych dla USA i dla zdających za granicą: **22 VIII, 12 IX, 3 X, 7 XI, 5 XII 2026 oraz 6 III, 1 V, 5 VI 2027**. Rejestracja zamyka się ~2 tygodnie przed terminem.
+
+`[fakt]` **MIT stosuje superscore** — *„If you take the same test multiple times, we primarily consider the highest score achieved in each section"*. Czyli: matematyka z jednego terminu i część językowa z innego składają się na wynik brany pod uwagę. `[fakt]` MIT **nie wymaga oficjalnego przesyłania wyników** — zgłasza się je samodzielnie w formularzu.
+
+`[fakt]` Koszty: rejestracja **68 USD**, zmiana ośrodka 34 USD, dodatkowe raporty 15 USD za sztukę (pierwsze cztery bezpłatne, jeżeli zamówione w ciągu 9 dni od egzaminu). `[luka]` Opłaty regionalnej dla zdających poza USA nie udało się odczytać ze strony College Board — do sprawdzenia przy rejestracji.
+
+`[wniosek]` **Plan realistyczny: dwa do trzech podejść**, pierwsze wiosną 2028, ostatnie użyteczne **wrzesień albo październik 2028**, bo aplikacje idą jesienią 2028. Superscore sprawia, że kolejne podejścia mają sens nawet przy poprawie jednej sekcji.
+
+`[wniosek]` **Jedna kolizja do zapamiętania:** majowy termin SAT wypada zwykle w pierwszą sobotę maja, a ISEF 2028 przypada 9–16 maja. Terminy majowe 2028 omijać — brać marzec i czerwiec.
+
 ---
 
 ## 5. Oszacowanie szans rekrutacyjnych
