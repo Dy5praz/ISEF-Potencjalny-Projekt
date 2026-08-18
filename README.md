@@ -1,6 +1,6 @@
 # ISEF — interfejs neuralny, sterowanie intencją
 
-**Stan na 17 sierpnia 2026, wieczór.** Dokumentacja żyje tutaj, nie w wątkach rozmowy.
+**Stan na 18 sierpnia 2026.** Dokumentacja żyje tutaj, nie w wątkach rozmowy.
 
 ---
 
@@ -11,13 +11,13 @@
 | 1 | **`30_POWROT_DO_INTERFEJSU.md`** | **projekt bieżący** — czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a |
 | 2 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
 | 3 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
-| 4 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
-| 5 | `KOREKTY.md` | rejestr błędów **K-001…K-069**. Dopisuj każdy nowy |
-| 6 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
-| 7 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
+| 4 | **`34_PARAMETRY_I_RAMY.md`** | **budżet 8 000 zł, 10 h/tydzień, kategoria EBED, drabinka zejść, plan pomiarowy** |
+| 5 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
+| 6 | `KOREKTY.md` | rejestr błędów **K-001…K-069**. Dopisuj każdy nowy |
+| 7 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
+| 8 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
 
-> **Pliki `20`–`24` opisują aktywne łożysko magnetyczne — kierunek ZAMKNIĘTY, odrzucony przez użytkownika.**
-> Przenośne są z nich wyłącznie struktura planu pomiarowego (`22`) i drabinka zejść (`23`).
+> **Pliki `20`–`23` (aktywne łożysko magnetyczne) usunięte 18 VIII 2026** na życzenie użytkownika. Wszystko przenośne — drabinka zejść i struktura planu pomiarowego — jest w **`34_PARAMETRY_I_RAMY.md`**. Rejestr odrzuconych kierunków, skrócony do jednej linijki na kandydata: `24_ODRZUCONE_KANDYDATY.md`. Usunięte pliki są w historii gita.
 
 ---
 
@@ -36,7 +36,7 @@ To jedyny mechaniczny strażnik granicy z projektem referencyjnym ENBM074 (2026)
 
 ## Projekt bieżący, w jednym akapicie
 
-Nieinwazyjny interfejs sterowany bodźcem wzrokowym, w zwartej formie noszonej. **Twierdzenie: ile kosztuje wygoda** — o ile spada dokładność i przepustowość, gdy urządzenie robi się na tyle małe i wygodne, żeby dało się je nosić. Punkt odniesienia wewnętrzny: ten sam układ w wersji pełnowymiarowej oraz kupiony OpenBCI Cyton.
+Nieinwazyjny interfejs sterowany bodźcem wzrokowym, w zwartej formie noszonej. **Twierdzenie: ile kosztuje wygoda** — o ile spada dokładność i przepustowość, gdy urządzenie robi się na tyle małe i wygodne, żeby dało się je nosić. Punkt odniesienia wewnętrzny: ten sam układ w wersji pełnowymiarowej. **Kupiony OpenBCI Cyton był drugim punktem odniesienia i prawdopodobnie wypada z projektu — nie mieści się w budżecie 8 000 zł (`34` sekcja 3).**
 
 **Demonstracja:** bodziec przeniesiony z twarzy na cele w otoczeniu, jedno wykrycie = jedna pełna intencja, wykonanie przez sterowanie **kupionymi** przedmiotami (żarówka, gniazdko — poniżej 200 zł, zero godzin warsztatu). Bez mowy syntetycznej.
 
@@ -70,7 +70,7 @@ Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → 
 | P2 | **przeliczyć harmonogram pod jeden cykl** (Explory 2027 → ISEF 2028) | przed budową |
 | P3 | sprawdzić dorobek grupy Kołodziej M., Majkowski A. od stycznia 2026 (PubMed, imiennie) | faza 0, IX 2026 |
 | P4 | zamknąć zdanie z twierdzeniem i metrykę — jedno zdanie, jedna jednostka | przed budową |
-| P5 | kupić **oryginalnego** OpenBCI Cyton, nie klon. Klony DeepBCI z eBaya to chińskie podróbki, ~213–332 USD, z udokumentowanymi problemami | jesień 2026 |
+| P5 | **rozstrzygnąć sprawę OpenBCI.** `[fakt]` Cyton kosztuje 1 249 USD, z cłem ~5 800 zł, czyli **72% budżetu 8 000 zł**. Trzy wyjścia w `34` sekcja 3; rekomendacja: **odpuścić, punkt odniesienia zostaje wewnętrzny**. Klonów nie kupować w żadnym wariancie | **w audycie** |
 | P6 | przejrzeć **filmy półfinałowe** Explory 2026 — użytkownik prosił o przypominanie | gdy internet pozwoli |
 | P7 | dokument **go/no-go** — co musiałoby być prawdą, żeby projekt był wart zachodu | po audycie |
 | P8 | **zapytać w szkole o Komitet Szkolny olimpiady OITwEiM** — bez rejestracji olimpiada odpada. Decyzją użytkownika start przesunięty na edycję 2027/28. `33` sekcja 8 | **do 31 X 2027** |
@@ -118,13 +118,13 @@ Hierarchia przy sprzeczności: dokument regulaminowy > publikacja recenzowana > 
 
 ## Punkt wejścia dla następnej sesji
 
-**Audyt adwersaryjny projektu z `30_POWROT_DO_INTERFEJSU.md`, trzy przejścia, metodą z `12_AUDYT.md`** — pozycja P1. Wszystko inne z tej sesji jest zamknięte i zapisane; nic nie czeka na dokończenie.
+**Audyt adwersaryjny projektu z `30_POWROT_DO_INTERFEJSU.md`, trzy przejścia, metodą z `12_AUDYT.md`** — pozycja P1. Parametry, w których audyt ma się poruszać, są w `34_PARAMETRY_I_RAMY.md` i są **wiążące**: 8 000 zł, 10 h/tydzień, EBED, poprzeczka „gotowy w całości".
 
-**Trzy pytania do rozstrzygnięcia przez użytkownika, żadne nie blokuje startu audytu:**
+**Trzy rzeczy, które audyt ma rozbić w pierwszej kolejności:**
 
-1. **budżet i godziny dla interfejsu** — wartości „~890 h, ~9 900 zł" pochodzą z zamkniętego kierunku łożyskowego i nigdy nie zostały przeliczone (K-069)
-2. **kategoria ISEF: ENBM czy EBED** — pozycja otwarta od etapu 1, rozbiór w `ISEF_ARKUSZE_OCENY.md` sekcja 4.1
-3. **czy poprzeczka „gotowy w całości, nie prototyp" (`30` sekcja 6a.4) obowiązuje po przeliczeniu harmonogramu pod jeden cykl** — audyt będzie ją testował
+1. **Kolizja budżetowa z OpenBCI** — 5 800 zł z 8 000 zł na jeden kupiony przyrząd. Czy twierdzenie „ile kosztuje wygoda" stoi bez zewnętrznego punktu odniesienia (`34` sekcja 3)
+2. **Poprzeczka „gotowy w całości" wobec ~230 h do zgłoszenia** przy pierwszym w życiu projekcie PCB (`34` sekcje 2 i 5)
+3. **Drabinka zejść** — czy szczeble B–E rzeczywiście zostawiają projekt konkursowy, czy to myślenie życzeniowe (`34` sekcja 6)
 
 ---
 

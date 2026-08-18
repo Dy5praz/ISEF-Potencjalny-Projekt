@@ -178,7 +178,7 @@ To jest najmocniejsza rzecz, jaką dało się z tych danych wyciągnąć. Trzy p
 | **27 III 2027** | praca + **wideo z działającym prototypem** | OITwEiM |
 | ~25 III 2027 `[domysł]` | zgłoszenie | El-Robo-Mech XII |
 | ~IV 2027 `[domysł]` | finał, prezentacja na żywo | El-Robo-Mech XII |
-| **30 IV 2027** | wideo półfinałowe gotowe (`23_RYZYKA.md` H3) | Explory |
+| **30 IV 2027** | wideo półfinałowe gotowe (ryzyko H3, przeniesione do `34_PARAMETRY_I_RAMY.md`) | Explory |
 | 5 V – 30 VI 2027 | półfinał online, 4–5 dni | Explory |
 
 `[wniosek]` Kolizji nie ma — jest **kaskada**, i układa się dobrze. Etap szkolny OITwEiM to sama koncepcja (styczeń), etap okręgowy to dokumentacja (luty), finał to wideo z prototypem (marzec), El-Robo-Mech to obrona na żywo (kwiecień), Explory to wideo półfinałowe (maj). **Każdy artefakt jest używany dwa razy.**

@@ -193,3 +193,20 @@ Rozbiór formalności: `ISEF_HUMAN_PARTICIPANTS.md`.
 **Paradygmat** (SSVEP kontra słuchowy kontra wyobrażenie ruchu) — należy do etapu 2 i zależy od decyzji 1 i 2. Stan przesłanek: SSVEP wygląda najlepiej i po K-028 wygląda znacznie lepiej niż rano; paradygmaty słuchowe są podważone pomiarem na 19 osobach (N1-P2 nie wychodzi w konfiguracji dousznej); wyobrażenie ruchu z ucha jest `[luka]` — praca o rytmie mu badała **ruch rzeczywisty, nie wyobrażony**.
 
 **Kategoria ISEF** (ENBM kontra EBED) — do etapu 2, wymaga sprawdzenia liczby zgłoszeń w obu kategoriach, bo nagród jest proporcjonalnie do zgłoszeń. Sygnał: w ENBM 2026 startowało kilka projektów EEG naraz; EBED ma podkategorie **Sensors** i **Signal Processing**, gdzie ten sam układ ocenia juror od elektroniki, a nie od medycyny. Rozbiór: `ISEF_ARKUSZE_OCENY.md` sekcja 4.1.
+
+---
+
+# Decyzje z 18 sierpnia 2026 — parametry projektu domknięte
+
+Cztery pozycje, które od etapu 1 wisiały jako `[luka]` albo były odziedziczone po zamkniętym kierunku łożyskowym. **Wszystkie rozstrzygnięte przez użytkownika, wszystkie wiążące.**
+
+| # | Pozycja | Rozstrzygnięcie | Skutek |
+|---|---|---|---|
+| **1** | **budżet** | **8 000 zł** | wymusza rozstrzygnięcie sprawy OpenBCI — `34` sekcja 3 |
+| **2** | **czas** | **10 h/tydzień** | ~270 h do zgłoszenia Explory, ~380 h do półfinału, ~900 h do ISEF 2028; po odjęciu przerw realnie ~230 h i ~330 h |
+| **3** | **kategoria ISEF** | **EBED**, nie ENBM | sędzia elektronik, nie lekarz; **urządzenia nie opisujemy jako medycznego** |
+| **4** | **poprzeczka wykonania** | **gotowy w całości, nie prototyp** — potwierdzone jako cel | reguła 6a.3 (nic poza interfejsem do półfinału) jest głównym mechanizmem obrony tej poprzeczki |
+
+**Uzasadnienie kategorii, słowami użytkownika:** EBED jest łatwiejsza w obsadzie, a projekt nie jest sprzedawany jako urządzenie medyczne, więc ENBM byłoby trudniejsze.
+
+**Konsekwencja, której nikt nie zamawiał, a która wyszła przy liczeniu:** `[fakt]` OpenBCI Cyton kosztuje **1 249 USD**, a producent podaje cło i VAT rzędu 25% dla Europy — czyli **~5 800 zł, 72% budżetu**. Pozycja P5 („kupić oryginalnego Cytona") i decyzja 1 nie spinają się razem. Trzy wyjścia w `34_PARAMETRY_I_RAMY.md` sekcja 3, rekomendacja: **Cyton wypada, punkt odniesienia zostaje wewnętrzny** — co jest zresztą mocniejsze metodologicznie.

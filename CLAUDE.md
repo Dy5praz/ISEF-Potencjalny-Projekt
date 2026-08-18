@@ -6,7 +6,7 @@ Użytkownik: Julek. **Odpowiadaj po polsku.**
 
 1. **`README.md`** — stan bieżący i mapa plików. Najkrótsza droga do tego, co się dzieje teraz.
 2. **`30_POWROT_DO_INTERFEJSU.md`** — **projekt bieżący.** Czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a. Potem `32_STUDIA_USA.md` (cel nadrzędny: uczelnie, SAT, egzamin z angielskiego), `31_ANALIZA_STAWKI_2026.md` (konkurencja), `33_KONKURSY_ROZBIEGOWE.md` (El-Robo-Mech, olimpiada).
-   **Pliki `20`–`24` opisują aktywne łożysko magnetyczne — kierunek ZAMKNIĘTY.** Przenośne są z nich tylko struktura planu pomiarowego (`22`) i drabinka zejść (`23`).
+   **Pliki `20`–`23` (łożysko magnetyczne) usunięte 18 VIII 2026** — wszystko przenośne jest w **`34_PARAMETRY_I_RAMY.md`** (budżet, godziny, kategoria, drabinka zejść, plan pomiarowy), a rejestr odrzuconych kierunków w `24_ODRZUCONE_KANDYDATY.md`. **`34` czytaj zaraz po `30`.**
 3. **`HANDBOOK.md`** — zasady współpracy, cel, kalendarz, ściągawka Explory i ISEF, historia odrzuconych kierunków. **Sekcje 1–8 i 12–13 obowiązują nadal. Sekcje 9–11 dotyczą interfejsu neuralnego i po powrocie do tego kierunku są znowu materiałem roboczym, nie samą historią.**
 4. **`KOREKTY.md`** — rejestr błędów, K-001…K-069. Dopisuj każdy nowy.
 5. **`12_AUDYT.md`** — wzorzec audytu adwersaryjnego. Metoda zostaje w mocy, treść dotyczy zamkniętego kierunku.
@@ -19,7 +19,7 @@ Użytkownik: Julek. **Odpowiadaj po polsku.**
 
 Twierdzenie: **ile kosztuje wygoda** — o ile spada dokładność i przepustowość, gdy urządzenie robi się na tyle małe i wygodne, żeby dało się je nosić. Punkt odniesienia wewnętrzny: ten sam układ w wersji pełnowymiarowej oraz kupiony OpenBCI Cyton. **Metryka w bitach, nigdy słowa na minutę** (K-055).
 
-Parametry: `[luka]` **liczba godzin i budżet wymagają przeliczenia** — wartości „~890 h, ~9 900 zł" pochodzą z zamkniętego kierunku łożyskowego i nie zostały potwierdzone dla interfejsu. Obszar Explory: **Człowiek i Społeczeństwo**. Kategoria ISEF: **ENBM czy EBED — pozycja otwarta**, rozbiór w `ISEF_ARKUSZE_OCENY.md` sekcja 4.1.
+Parametry, **ustalone 18 VIII 2026 i wiążące**: **budżet 8 000 zł**, **10 godzin tygodniowo**, kategoria ISEF **EBED**, obszar Explory **Człowiek i Społeczeństwo**, poprzeczka **gotowy w całości, nie prototyp**. Rozbiór i konsekwencje: `34_PARAMETRY_I_RAMY.md`. **Kolizja do rozstrzygnięcia w audycie: kupno OpenBCI Cyton kosztuje ~5 800 zł z cłem, czyli 72% budżetu — `34` sekcja 3.**
 
 **Kalendarz rekrutacyjny jest nadrzędny nad konkursowym:** aplikacje na studia w USA idą jesienią 2028, więc **liczy się ISEF 2028, czyli ścieżka przez Explory 2027**. ISEF 2029 wypada po decyzjach rekrutacyjnych. Harmonogram wymaga przeliczenia pod jeden cykl (P2).
 
@@ -31,7 +31,7 @@ Parametry: `[luka]` **liczba godzin i budżet wymagają przeliczenia** — warto
 - **rzemiosło eksperymentalne z ENBM074 (2026) kopiujemy świadomie** — warunek kontrolny na tym samym sprzęcie, randomizacja i kontrbalansowanie, replikacja, poprawka na wielokrotne porównania, test mechanizmu. Sekcja 9.2 handbooka zakazuje kopiowania tamtego **rozwiązania**, nie rzemiosła
 - **projekt indywidualny.** Decyzja użytkownika z sekcji 1 handbooka, nie ruszać
 - **badani ludzie WCHODZĄ w grę i procedura Human Participants obowiązuje.** Interfejs zbiera sygnał z człowieka, więc `ISEF_HUMAN_PARTICIPANTS.md` jest dokumentem czynnym, nie archiwalnym: Adult Sponsor, Direct Supervisor, formularze, kwestia komisji IRB przy szkole i pytanie do FZT o SRC. **Zdanie „zero badanych ludzi" pochodziło z zamkniętego kierunku łożyskowego i było błędem — K-069**
-- **drabinka zejść jest napisana z góry** (`23_RYZYKA.md` sekcja 1 — struktura przenośna, treść dotyczy zamkniętego kierunku). Zejście o szczebel wymaga wpisu do `KOREKTY.md` z powodem liczbowym i wskazaniem, co poświęcone. Bez wpisu zejście się nie liczy
+- **drabinka zejść jest napisana z góry** (`34_PARAMETRY_I_RAMY.md` sekcja 6). Zejście o szczebel wymaga wpisu do `KOREKTY.md` z powodem liczbowym i wskazaniem, co poświęcone. Bez wpisu zejście się nie liczy
 
 ## Zasady, których łamanie kosztowało miesiące
 

@@ -16,7 +16,7 @@ Użytkownik zaczyna **drugą klasę we wrześniu 2026**, matura **maj 2029**, st
 > ## ISEF 2029 (maj 2029) jest PO decyzjach rekrutacyjnych i NIE WCHODZI do aplikacji.
 > ## Jedynym ISEF-em, który liczy się dla celu nadrzędnego, jest MAJ 2028 — czyli ścieżka przez Explory 2027.
 
-**Konsekwencja:** logika planu dwuletniego (`21_PLAN_BUDOWY.md`) obowiązuje dla wartości konkursowej i naukowej, ale **nie rekrutacyjnej**. Pod rekrutację liczy się jeden strzał, ten wcześniejszy. Harmonogram trzeba przeliczyć pod jeden cykl — pozycja otwarta nr 1.
+**Konsekwencja:** logika planu dwuletniego obowiązuje dla wartości konkursowej i naukowej, ale **nie rekrutacyjnej**. Pod rekrutację liczy się jeden strzał, ten wcześniejszy. Harmonogram trzeba przeliczyć pod jeden cykl — pozycja otwarta nr 1.
 
 ---
 

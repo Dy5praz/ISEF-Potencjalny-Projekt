@@ -99,7 +99,7 @@ Obserwacja o tych plakatach, nie prawo.
 ### 4.4 Wzorce rzemiosła w stawce, warte skopiowania
 
 - **TRI-AXIS** — najlepiej zaprojektowany eksperyment w całej stawce: warunek kontrolny **z albuminą** (kontrola samej kapsułki, nie tylko braku substancji), losowy przydział, 30 osobników na grupę, cztery niezależne pomiary mechanizmu, trzy wykresy. Autorka solo
-- **Sorgo** — jedyny plakat raportujący **wyniki negatywne** obok pozytywnych („nie wykazano istotnego wpływu"). Dokładnie to, co zapisano w `22_PLAN_POMIAROWY.md` sekcja 6
+- **Sorgo** — jedyny plakat raportujący **wyniki negatywne** obok pozytywnych („nie wykazano istotnego wpływu"). Dokładnie to, co zapisano w `34_PARAMETRY_I_RAMY.md` sekcja 7, punkt 6
 - **MAPPER** — „sześć startów, sześć podiów" bije każdą tabelę. Odpowiednik dla użytkownika: OITwEiM
 - **Stacja SKA** — 9 punktów za oddziaływanie wyłącznie dzięki temu, że zaczyna od powodzi w Głuchołazach i rozmów z mieszkańcami
 

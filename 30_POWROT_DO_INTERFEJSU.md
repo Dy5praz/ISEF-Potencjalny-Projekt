@@ -27,7 +27,7 @@
 > **ISEF 2029 (maj 2029) jest PO decyzjach rekrutacyjnych i nie wchodzi do aplikacji.**
 > **Jedyny ISEF, który liczy się dla celu nadrzędnego, to maj 2028 — czyli ścieżka przez Explory 2027.**
 
-To unieważnia logikę planu dwuletniego opisaną w `21_PLAN_BUDOWY.md`. Pod rekrutację liczy się jeden strzał, ten wcześniejszy. Rok drugi zachowuje wartość konkursową i naukową, ale **nie rekrutacyjną**.
+To unieważnia logikę planu dwuletniego opisaną w usuniętym `21_PLAN_BUDOWY.md` (parametry bieżące: `34_PARAMETRY_I_RAMY.md`). Pod rekrutację liczy się jeden strzał, ten wcześniejszy. Rok drugi zachowuje wartość konkursową i naukową, ale **nie rekrutacyjną**.
 
 ---
 
