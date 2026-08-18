@@ -387,6 +387,45 @@ Projekt to jeden z sześciu elementów i nie największy.
 
 `[fakt]` W części lokalizacji poza USA College Board stosuje **system biometryczny z rozpoznawaniem twarzy**, porównujący zdjęcie z dokumentu z obrazem z egzaminu.
 
+### 4.2 Egzamin z angielskiego — kto go potrzebuje i jaki poziom. Sprawdzone 17 VIII 2026
+
+#### Kto w ogóle musi
+
+| Uczelnia | Wymóg |
+|---|---|
+| **Caltech** | `[fakt]` **wymagany od wszystkich obcokrajowców**, chyba że angielski jest językiem ojczystym **albo głównym językiem nauczania w szkole średniej** |
+| **MIT** | `[fakt]` **silnie rekomendowany** dla osób, które używają angielskiego krócej niż 5 lat albo nie mówią nim w domu ani w szkole |
+| **Stanford** | `[fakt]` **nie wymaga żadnego egzaminu z angielskiego** |
+| **TU Delft** | `[fakt]` wymaga: TOEFL iBT ≥ 90 albo IELTS ≥ 6,5 (stara skala) |
+| Princeton, Brown, Notre Dame, CMU | `[luka]` niesprawdzone imiennie |
+
+`[wniosek]` Przy polskim liceum ogólnokształcącym **zwolnienie nie przysługuje** — egzamin będzie potrzebny wszędzie poza Stanfordem.
+
+#### Zmiana, o której trzeba wiedzieć: TOEFL ma od 2026 nową skalę
+
+`[fakt]` **Od 21 stycznia 2026 TOEFL iBT punktuje w skali 1–6 co pół stopnia, zamiast 0–120.** Wynik ogólny to średnia z czterech części (czytanie, słuchanie, mówienie, pisanie), zaokrąglana do połowy stopnia. `[fakt]` **Skala jest wprost przypisana do CEFR: 5,0 w danej części oznacza poziom C1.** `[fakt]` W okresie przejściowym 2026–2028 raport pokazuje równolegle nową skalę, starą 0–120 i poziom CEFR. Wyniki przychodzą w 72 godziny.
+
+**Ponieważ użytkownik będzie zdawał w 2028, obowiązuje go skala nowa.**
+
+#### Wymagane progi — liczby z uczelni
+
+| Egzamin | **MIT** (minimum / rekomendowane) | **Caltech** (minimum) |
+|---|---|---|
+| TOEFL, nowa skala | **5 / 5,5** | **5 ogólnie i 5 w każdej części** |
+| TOEFL, stara skala | 90 / 100 | 100 ogólnie i 25 w każdej części |
+| IELTS | **7 / 7,5** | **7 ogólnie i 7 w każdej części** |
+| Duolingo English Test | **120 / 125** | **130 i 130 w każdej części** |
+| PTE Academic | 65 / 70 | — |
+| Cambridge C1/C2 | 185 / 190 | — |
+
+`[wniosek]` **Poziom docelowy to C1, a rekomendowany górny C1.** Nie jest to poziom native'a i nie o to chodzi — chodzi o zdolność słuchania wykładu akademickiego i pisania na czas.
+
+`[wniosek]` **Konstrukcja progu Caltechu jest ważniejsza od samej liczby:** wymaga 5 (czyli C1) **w każdej z czterech części osobno**. Rządzi więc umiejętność najsłabsza. U polskiego kandydata po maturze rozszerzonej jest to zwykle **mówienie** — bo na TOEFL mówi się do mikrofonu, do nagrania, z limitem czasu na odpowiedź, czego polska szkoła nie ćwiczy w ogóle.
+
+`[wniosek]` Punkt odniesienia: matura rozszerzona z angielskiego plasuje się w okolicach **B2, górne wyniki przy C1**. Czyli **dystans do pokonania jest niewielki i dotyczy formatu, nie języka** — podobnie jak przy SAT Math, tylko po drugiej stronie: tam brakowało tempa, tu brakuje ćwiczenia mówienia i pisania akademickiego pod stoper.
+
+`[luka]` Nie sprawdzone: koszt egzaminu w Polsce, ośrodki, oraz okres ważności wyniku (tradycyjnie dwa lata — jeżeli to się potwierdzi, **egzamin zdawać nie wcześniej niż w 2027**, żeby był ważny przy aplikacjach z jesieni 2028 i przy rekrutacji do marca 2029).
+
 ---
 
 ## 5. Oszacowanie szans rekrutacyjnych

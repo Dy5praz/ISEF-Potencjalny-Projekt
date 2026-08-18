@@ -88,7 +88,7 @@ Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → 
 | R3 | Georgia Tech: czy wybór kierunku jest wiążący przy aplikacji | jesień 2027 |
 | R4 | czy CMU ma aerospace na licencjacie | jesień 2027 |
 | ~~R5~~ | **ZAMKNIĘTE 17 VIII 2026.** Liczb o „3–4× wyższych szansach" nie da się doprowadzić do źródła — wykreślone (K-068). Twarde dane to CDS sekcja C7: u Caltechu dorobek pozalekcyjny w drugim stopniu wagi, poniżej ocen, testów, esejów i rekomendacji. `32` sekcja 3.1 | zrobione |
-| R6 | terminarz SAT/TOEFL | **częściowo zamknięte:** struktura, progi, terminy 2026/27 i powtarzanie w `32` sekcji 4.1. Zostaje ułożenie własnego terminarza pod aplikacje z jesieni 2028 |
+| R6 | terminarz SAT/TOEFL | **częściowo zamknięte:** struktura, progi, terminy 2026/27 i powtarzanie w `32` sekcji 4.1. Zostaje ułożenie własnego terminarza pod aplikacje z jesieni 2028. Egzamin z angielskiego: progi i nowa skala TOEFL w sekcji 4.2 |
 | R7 | ustawić rekomendacje w szkole | wiosna 2028 |
 | R8 | pytanie do OKE o termin dodatkowy matury (dotyczy tylko ISEF 2029) | jesień 2028 |
 
