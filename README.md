@@ -8,14 +8,15 @@
 
 | # | Plik | Po co |
 |---|---|---|
-| 1 | **`30_POWROT_DO_INTERFEJSU.md`** | **projekt bieżący** — czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a |
-| 2 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
-| 3 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
-| 4 | **`34_PARAMETRY_I_RAMY.md`** | **budżet 8 000 zł, 10 h/tydzień, kategoria EBED, drabinka zejść, plan pomiarowy** |
-| 5 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
-| 6 | `KOREKTY.md` | rejestr błędów **K-001…K-076**. Dopisuj każdy nowy |
-| 7 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
-| 8 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
+| **1** | **`35_AUDYT_2026_08_18.md`** | **NAJNOWSZY AUDYT, trzy przejścia, 18 VIII 2026.** Co zabija twierdzenie w brzmieniu ogólnym, co przeżyło, brzmienie obowiązujące, osiem sprzeczności między plikami, drabinka zejść rozbita, **pewność 92%** |
+| 2 | **`30_POWROT_DO_INTERFEJSU.md`** | **projekt bieżący** — czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a |
+| 3 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
+| 4 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
+| 5 | **`34_PARAMETRY_I_RAMY.md`** | **budżet 8 000 zł, 10 h/tydzień, kategoria EBED, drabinka zejść, plan pomiarowy** |
+| 6 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
+| 7 | `KOREKTY.md` | rejestr błędów **K-001…K-091**. Dopisuj każdy nowy. **Uwaga: odsyłacze K-051…K-059 w plikach odzyskanych z gałęzi `etap-2` zostały przemapowane 18 VIII 2026 — mapowanie przy K-089** |
+| 8 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
+| 9 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
 
 **Pliki odzyskane 18 VIII 2026 z gałęzi `claude/etap-2-v9dtnt` (K-076)** — dorobek etapu 2 dla interfejsu, którego `main` nigdy nie widziała:
 
@@ -28,7 +29,7 @@
 | **`analiza/`** | **dziesięć skryptów w Pythonie** — TRCA, SVM, analiza szczęki, okna, rozstaw elektrod |
 | `archiwum_poprzednie/` | ConOps **drona** i **ortezy** |
 
-`[luka]` Te pliki powstały **przed** zamknięciem i ponownym otwarciem kierunku interfejsowego. **Ich zgodność z ustaleniami z 17–18 VIII nie została sprawdzona linijka po linijce** — to jest pierwsza rzecz do zrobienia w audycie.
+**ZGODNOŚĆ SPRAWDZONA 18 VIII 2026 w audycie `35_AUDYT_2026_08_18.md` przejście 1.** Znalezionych i poprawionych **osiem sprzeczności** (K-078…K-087), w tym: dwa równoległe brzmienia twierdzenia, kolizja numeracji korekt w dziewięciu plikach, obszar Explory wpisany w liście zadań wbrew decyzji z `30`, sprawa Cytona rozstrzygnięta dwa razy w przeciwne strony, cena Cytona zaniżona o połowę w `15` §3.1.
 
 > **Pliki `20`–`23` (aktywne łożysko magnetyczne) usunięte 18 VIII 2026** na życzenie użytkownika. Wszystko przenośne — drabinka zejść i struktura planu pomiarowego — jest w **`34_PARAMETRY_I_RAMY.md`**. Rejestr odrzuconych kierunków, skrócony do jednej linijki na kandydata: `29_ODRZUCONE_KIERUNKI.md`. Usunięte pliki są w historii gita.
 
@@ -49,9 +50,13 @@ To jedyny mechaniczny strażnik granicy z projektem referencyjnym ENBM074 (2026)
 
 ## Projekt bieżący, w jednym akapicie
 
-Nieinwazyjny interfejs sterowany bodźcem wzrokowym, w zwartej formie noszonej. **Twierdzenie: ile kosztuje wygoda** — o ile spada dokładność i przepustowość, gdy urządzenie robi się na tyle małe i wygodne, żeby dało się je nosić. Punkt odniesienia wewnętrzny: ten sam układ w wersji pełnowymiarowej. Kupiony OpenBCI służy jako **narzędzie kontrolne i ubezpieczenie**, nie jako oś twierdzenia — rola „baseline komercyjny" została wycofana już 16 VIII (`20_ZAKUPY.md` sekcja 2).
+Nieinwazyjny interfejs sterowany bodźcem wzrokowym, w zwartej formie noszonej. **Twierdzenie, brzmienie obowiązujące od 18 VIII 2026** (audyt `35_AUDYT_2026_08_18.md` §4.2; poprzednie „ile kosztuje wygoda" **ma opublikowaną odpowiedź** — K-077):
 
-**Demonstracja:** bodziec przeniesiony z twarzy na cele w otoczeniu, jedno wykrycie = jedna pełna intencja, wykonanie przez sterowanie **kupionymi** przedmiotami (żarówka, gniazdko — poniżej 200 zł, zero godzin warsztatu). Bez mowy syntetycznej.
+> **Mierzę, o ile spada dokładność i przepustowość interfejsu SSVEP, gdy elektroda odniesienia musi zmieścić się w module noszonym na potylicy zamiast leżeć w miejscu standardowym, i wyznaczam najmniejszą odległość odniesienia od kory wzrokowej, przy której przepustowość jeszcze się nie załamuje — na jednym własnym torze analogowym, tą samą osobą, tym samym paradygmatem.**
+
+Punkt odniesienia wewnętrzny: ten sam tor analogowy, dwa położenia elektrody odniesienia. Kupiony OpenBCI służy jako **narzędzie kontrolne i ubezpieczenie**, nie jako oś twierdzenia — rola „baseline komercyjny" została wycofana już 16 VIII (`20_ZAKUPY.md` sekcja 2).
+
+**Demonstracja:** bodziec przeniesiony z twarzy na cele w otoczeniu, jedno wykrycie = jedna pełna intencja, wykonanie przez sterowanie **kupionymi** przedmiotami (żarówka, gniazdko — poniżej 200 zł, zero godzin warsztatu). Bez mowy syntetycznej. **Bez pojazdu i bez warstwy autonomii** — `30` §4.2 i §5 zostały zawężone przez regułę 6a.3 z tego samego pliku (K-083).
 
 **Obszar Explory:** Człowiek i Społeczeństwo, historia o dostępności. `[fakt]` Uwaga: obszar „Poza kategoriami" **nie ma nagrody SDG** — K-059.
 
@@ -79,10 +84,14 @@ Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → 
 
 | # | Zadanie | Termin |
 |---|---|---|
-| P1 | **audyt adwersaryjny nowej wersji projektu**, trzy przejścia, metodą z `12_AUDYT.md` | **najbliższa sesja** |
+| ~~P1~~ | ~~audyt adwersaryjny, trzy przejścia~~ — **ZROBIONY 18 VIII 2026, `35_AUDYT_2026_08_18.md`.** Wynik: twierdzenie w brzmieniu ogólnym zabite (K-077), wersja wąska przeżyła, pewność **92%** | zrobione |
+| **P11** | **reanaliza zbioru Zhu i in. 2021 — 102 osoby, PMID 33578754, publiczny.** Powtórzyć analizę montaży z `14` §5 na próbie ośmiokrotnie większej niż Kołodziej. Kod z `analiza/` już działa, koszt zero złotych | **IX 2026** |
+| **P12** | **sekcja o stanie wiedzy** z sześcioma pracami z `35` §2 — pod §7 pkt 2d regulaminu Explory, który daje **10 pkt na 40 za znajomość dotychczasowych badań** | przed zgłoszeniem |
+| **P13** | **przećwiczyć odpowiedź na zarzut „to wynika z fizyki objętościowego przewodzenia"** (`35` §2.7) | trening IX 2027 |
+| **P14** | **trzecie pytanie do FZT:** czy badanie, w którym autor jest jedynym badanym własnego urządzenia, organizator klasyfikuje jako zwolnione z IRB (`35` §1.9, K-085) | jesień 2026 |
 | P2 | **przeliczyć harmonogram pod jeden cykl** (Explory 2027 → ISEF 2028) | przed budową |
-| P3 | sprawdzić dorobek grupy Kołodziej M., Majkowski A. od stycznia 2026 (PubMed, imiennie) | faza 0, IX 2026 |
-| P4 | zamknąć zdanie z twierdzeniem i metrykę — jedno zdanie, jedna jednostka | przed budową |
+| P3 | sprawdzić dorobek grupy Kołodziej M., Majkowski A. — **sprawdzone 18 VIII 2026 imiennie w PubMed: zero nowych prac po `Sensors` 26(3):917.** Powtarzać co dwa miesiące | X 2026 |
+| ~~P4~~ | ~~zamknąć zdanie z twierdzeniem i metrykę~~ — **ZAMKNIĘTE 18 VIII 2026, `35` §4.2.** Brzmienie przeniesione do `30`, `34`, `README` i `CLAUDE.md`; metryka bez zmian (dokładność + ITR Wolpawa, z jawnymi N, P, t) | zrobione |
 | P5 | **szukać UŻYWANEGO Cytona, budżet do 1 600 zł** — decyzja z `20_ZAKUPY.md` sekcja 3.1, odzyskana 18 VIII (K-076). Wymagania odbioru w tamtym pliku. Jeżeli do terminu nie ma oferty — nowy Ganglion, nie nowy Cyton. Bez AliExpress | **do 30 IX 2026** |
 | P6 | przejrzeć **filmy półfinałowe** Explory 2026 — użytkownik prosił o przypominanie | gdy internet pozwoli |
 | P7 | dokument **go/no-go** — co musiałoby być prawdą, żeby projekt był wart zachodu | po audycie |
@@ -131,9 +140,17 @@ Hierarchia przy sprzeczności: dokument regulaminowy > publikacja recenzowana > 
 
 ## Punkt wejścia dla następnej sesji
 
-**Audyt adwersaryjny projektu z `30_POWROT_DO_INTERFEJSU.md`, trzy przejścia, metodą z `12_AUDYT.md`** — pozycja P1. Parametry, w których audyt ma się poruszać, są w `34_PARAMETRY_I_RAMY.md` i są **wiążące**: 8 000 zł, 10 h/tydzień, EBED, poprzeczka „gotowy w całości".
+**Audyt wykonany 18 VIII 2026 — `35_AUDYT_2026_08_18.md`. Nowa sesja zaczyna od niego, nie od `30`.**
 
-**Trzy rzeczy, które audyt ma rozbić w pierwszej kolejności:**
+Trzy rzeczy do zrobienia w kolejności: **P11** (reanaliza zbioru 102-osobowego, darmowa, przed jakimkolwiek zakupem), **P5** (używany Cyton do 30 IX), **P12** (sekcja o stanie wiedzy). Pozycja P4 („zamknąć zdanie z twierdzeniem") **zamknięta w `35` §4.2** i przeniesiona do `30`, `34`, `README` i `CLAUDE.md`. Parametry, w których audyt ma się poruszać, są w `34_PARAMETRY_I_RAMY.md` i są **wiążące**: 8 000 zł, 10 h/tydzień, EBED, poprzeczka „gotowy w całości".
+
+**Trzy rzeczy, które audyt miał rozbić — rozbite 18 VIII 2026, odpowiedzi w `35_AUDYT_2026_08_18.md`:**
+
+1. **Kolizja budżetowa z OpenBCI — nie ma jej.** Wariant zalecany to 4 500–7 300 zł wobec 8 000 zł, z rezerwą 30% w środku (`35` §3.1)
+2. **Poprzeczka „gotowy w całości" wobec ~230 h — przeszacowana.** Szansa na szczebel A w terminie: **35–50%**, nie ~70% (`35` §3.2)
+3. **Drabinka zejść — nie jest życzeniowa w szczeblach B i C, jest w opisie D i E jako równoważnych.** Rzeczywisty próg leży między C a D; terminy dopisane do `34` §6 (`35` §3.3)
+
+~~Trzy rzeczy, które audyt ma rozbić w pierwszej kolejności:~~
 
 1. **Kolizja budżetowa z OpenBCI** — 5 800 zł z 8 000 zł na jeden kupiony przyrząd. Czy twierdzenie „ile kosztuje wygoda" stoi bez zewnętrznego punktu odniesienia (`34` sekcja 3)
 2. **Poprzeczka „gotowy w całości" wobec ~230 h do zgłoszenia** przy pierwszym w życiu projekcie PCB (`34` sekcje 2 i 5)

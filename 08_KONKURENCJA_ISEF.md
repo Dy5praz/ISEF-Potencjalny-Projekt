@@ -32,7 +32,9 @@ Potwierdzenie krzyżowe z bieżącej strony organizatora: edycja 2026 (finał 21
 
 **[fakt] Ważne zastrzeżenie z §11 pkt 2:** „Terminy podane w Regulaminie to **terminy instrukcyjne** Organizatora." I rzeczywiście — w edycji 2026 rekrutację przedłużono do **15 marca 2026**, mimo regulaminowego 28 lutego. Planować pod 28 II, ale nie panikować przy poślizgu.
 
-**[fakt] Nagrody, z §8 — handbook zweryfikowany co do złotówki:** Nagroda Główna 15 000 zł, trzy Nagrody Zrównoważonego Rozwoju po 7 500 zł, Nagrody Specjalne Partnerów 3 000 zł. Rozbieżność „ABC mówi 5000" rozstrzygnięta na korzyść regulaminu, dokładnie jak zakładał handbook. Pula łączna podawana obecnie przez organizatora to **200 000 zł**, nie ~150 000 jak w handbooku.
+**[fakt] Nagrody, z §8.** Nagroda Główna 15 000 zł, Nagrody Specjalne Partnerów 3 000 zł.
+
+> **POPRAWKA 18 VIII 2026 — K-080.** Stało tu, że Nagrody Zrównoważonego Rozwoju wynoszą **7 500 zł** i że rozbieżność rozstrzygnięto na korzyść regulaminu. **To jest odwrócone.** `[fakt, `Regulamin-Konkursu-Explory.pdf` pobrany ze strony organizatora i odczytany 18 VIII 2026, §8 pkt 4b]` brzmienie regulaminu to *„Nagrody Zrównoważonego Rozwoju – trzy kwoty **do 5 000 złotych** każda"*. Regulamin mówi **5 000 zł**. `31_ANALIZA_STAWKI_2026.md` §1 poprawił liczbę 17 VIII, ale nie poprawił ani tego pliku, ani handbooka. Pula łączna podawana obecnie przez organizatora to **200 000 zł**, nie ~150 000 jak w handbooku.
 
 **[fakt] Data Kwalifikacji, §3:** edycja 2026 — urodzeni w/po **1 stycznia 2005**; „Data Kwalifikacji ulega zmianie (przesunięciu o rok) w każdej kolejnej edycji". Dla edycji 2027 daje to **1 I 2006**. Rozumowanie z K-002 potwierdzone w oryginale.
 

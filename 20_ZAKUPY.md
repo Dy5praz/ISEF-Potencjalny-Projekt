@@ -23,7 +23,7 @@
 
 **Twoja liczba się zgadza.** 1 249 USD to przy kursie 3,7–4,1 zł/USD `[luka — kursu nie sprawdzałem]` około **4 600–5 100 zł**, a z wysyłką ze Stanów, cłem i VAT realnie **6 000–6 800 zł**.
 
-### 1.1 Korekta mojego oszacowania — K-055
+### 1.1 Korekta mojego oszacowania — K-071
 
 W `15_PROJEKT.md` §3.1 wpisałem „platforma odniesienia ~2 800–4 000 zł". **To było zaniżone o połowę** i oparte na pamięci ceny sprzed lat, a nie na sprawdzeniu. Twoje pytanie wyłapało błąd, którego sam bym nie zauważył do momentu zakupu.
 
@@ -80,7 +80,7 @@ Uzasadnienie: wartość tej platformy leży w tym, że jest **zaufanym punktem o
 
 ## 4. Sprzęt pomiarowy — i tu mam do skorygowania własne rozumowanie
 
-### 4.1 Błąd w `16_PLAN_EKSPERYMENTALNY.md` §2 — K-056
+### 4.1 Błąd w `16_PLAN_EKSPERYMENTALNY.md` §2 — K-072
 
 Napisałem: *„E1 wymaga generatora i przyrządu o szumie własnym poniżej mierzonego"*. **To jest nieprawda dla najważniejszego pomiaru E1.**
 

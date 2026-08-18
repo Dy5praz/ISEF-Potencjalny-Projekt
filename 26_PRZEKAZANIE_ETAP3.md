@@ -32,7 +32,7 @@
 
 ## 3. Zasada nadrzędna: od arkuszy, nie od luki
 
-**K-059, największy błąd całej dotychczasowej pracy.**
+**K-075, największy błąd całej dotychczasowej pracy.**
 
 `[fakt]` Arkusz inżynierski ISEF: Research Problem 10, Design and Methodology 15, Execution 20, Creativity & Potential Impact 20, **Presentation 35**. **Rubryki „nowość" nie ma.** Explory: innowacyjność 10 pkt na 40 w półfinale, **zero w finale**.
 
@@ -54,14 +54,14 @@ Interfejs SSVEP w zwartym module potylicznym. **Oś: zależność przepustowośc
 
 ## 5. Czego nie wolno powtórzyć — wzorce błędów z 16 VIII
 
-Dziewięć korekt jednego dnia, K-051…K-059. Wzorce, nie pojedyncze pomyłki:
+Dziewięć korekt jednego dnia, K-089…K-075. Wzorce, nie pojedyncze pomyłki:
 
-1. **Redukcja czegoś złożonego do jednego zdania, a potem operowanie tym zdaniem zamiast oryginałem.** Dwa razy: „Cz i szczęka" → sama szczęka (K-051); dwie tezy ortezy → jedna (K-057)
-2. **Znacznik `[fakt, pełny tekst odczytany]` bez odczytania pełnego tekstu** (K-052). Zbiór danych był publiczny i podany w tej samej pracy
-3. **Podanie wymyślonej liczby pod znacznikiem `[domysł]`** (K-055). Znacznik pewności nie usprawiedliwia zmyślenia — cena OpenBCI była do odczytania jednym zapytaniem
-4. **„Zero trafień" bez kontroli pozytywnej** (K-058). Złapane dwa razy jednego dnia: arXiv i OpenAIRE. Bez kontroli zero jest artefaktem składni, nie wynikiem
-5. **Przeszukiwanie własnym słownictwem zamiast słownictwem dziedziny** (K-058). Dziedzina mówi „monopolar versus bipolar", „lead selection"; ja pytałem o „reference electrode distance"
-6. **Optymalizowanie pod kryterium, którego nie ma w arkuszu** (K-059)
+1. **Redukcja czegoś złożonego do jednego zdania, a potem operowanie tym zdaniem zamiast oryginałem.** Dwa razy: „Cz i szczęka" → sama szczęka (K-089); dwie tezy ortezy → jedna (K-073)
+2. **Znacznik `[fakt, pełny tekst odczytany]` bez odczytania pełnego tekstu** (K-090). Zbiór danych był publiczny i podany w tej samej pracy
+3. **Podanie wymyślonej liczby pod znacznikiem `[domysł]`** (K-071). Znacznik pewności nie usprawiedliwia zmyślenia — cena OpenBCI była do odczytania jednym zapytaniem
+4. **„Zero trafień" bez kontroli pozytywnej** (K-074). Złapane dwa razy jednego dnia: arXiv i OpenAIRE. Bez kontroli zero jest artefaktem składni, nie wynikiem
+5. **Przeszukiwanie własnym słownictwem zamiast słownictwem dziedziny** (K-074). Dziedzina mówi „monopolar versus bipolar", „lead selection"; ja pytałem o „reference electrode distance"
+6. **Optymalizowanie pod kryterium, którego nie ma w arkuszu** (K-075)
 
 **Reguła operacyjna wynikająca z 1 i 2: zanim uznasz kierunek za zamknięty, przeczytaj jego dokument źródłowy, a nie własne streszczenie.**
 
@@ -95,4 +95,4 @@ Dziewięć korekt jednego dnia, K-051…K-059. Wzorce, nie pojedyncze pomyłki:
 
 ## 8. Zasada dostarczania — złamana trzykrotnie, teraz twarda
 
-**Użytkownik pracuje z telefonu.** Każdy powstały albo istotnie zmieniony plik **trafia do rozmowy narzędziem do wysyłania plików**, w tej samej wiadomości, w której o nim piszesz. **Commit i push to archiwizacja, nie dostarczenie.** Odsyłanie do repozytorium po treść jest zakazane (K-054, `CLAUDE.md`).
+**Użytkownik pracuje z telefonu.** Każdy powstały albo istotnie zmieniony plik **trafia do rozmowy narzędziem do wysyłania plików**, w tej samej wiadomości, w której o nim piszesz. **Commit i push to archiwizacja, nie dostarczenie.** Odsyłanie do repozytorium po treść jest zakazane (K-070, `CLAUDE.md`).

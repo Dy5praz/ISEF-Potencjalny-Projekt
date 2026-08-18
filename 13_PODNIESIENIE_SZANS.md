@@ -47,7 +47,9 @@ To jest największa pojedyncza zmiana w całym planie i jedyna, która nie koszt
 | **Gospodarka i Bezpieczeństwo** | ALP, ExoCrete, AgricUp, VVVEBA, **MAPPER** | **najsłabszy technicznie poza MAPPER-em** |
 | Poza kategoriami | BioShield, kwercetyna, SADE, nanokompozyt, szczepionka, fagi T7 | bio z mentorami |
 
-**Rekomendacja: SDG 9 — „Innowacyjność, przemysł, infrastruktura", obszar Gospodarka i Bezpieczeństwo.**
+> **REKOMENDACJA WYCOFANA 17 VIII 2026, adnotacja 18 VIII — K-081.** `30_POWROT_DO_INTERFEJSU.md` §4.3 wycofuje ucieczkę do obszaru Gospodarka i Bezpieczeństwo wprost: przy wersji projektu z działającą demonstracją właściwy jest obszar **Człowiek i Społeczeństwo**. **Obowiązuje `30` §4.3, `CLAUDE.md` i `README.md`, nie ten akapit.** `[fakt, regulamin §8 pkt 4]` Nagrodę SDG mają trzy obszary — Człowiek i Społeczeństwo, Klimat i Środowisko, Gospodarka i Bezpieczeństwo — więc spór dotyczył wyłącznie gęstości konkurencji, nie prawa do nagrody.
+
+~~Rekomendacja: SDG 9, obszar Gospodarka i Bezpieczeństwo.~~
 
 Naturalnym odruchem jest SDG 3 albo 10 (zdrowie, nierówności) i obszar Człowiek i Społeczeństwo — bo interfejs dla osób z niepełnosprawnością ruchową pasuje tam idealnie. **I dlatego właśnie tam nie warto iść:** to jest obszar, do którego trafiają wszystkie projekty medyczne i biologiczne z opieką profesorską, czyli najgęstszy i najlepiej obsadzony.
 
@@ -80,6 +82,8 @@ To jest **druga, niezależna droga przez to samo wąskie gardło**, zależna od 
 ---
 
 ## 5. Dźwignia nr 5: druga mierzona kontrybucja
+
+> **ODPOWIEDŹ CZĘŚCIOWA ISTNIEJE OD 16 VIII 2026, adnotacja 18 VIII — K-086.** `14_REANALIZA.md` §5 zmierzył to na cudzych surowych danych: **O1−Oz przy ~3,5 cm daje 48,8%** wobec **73,3%** dla trzech kanałów z odniesieniem odległym. Odpowiedź brzmi **nie** — gęste próbkowanie małego obszaru nie zastępuje rzadkiego próbkowania dużego, bo różnicowanie dwóch elektrod nad korą wzrokową kasuje sam SSVEP. Akapit poniżej opisuje stan wiedzy sprzed tego pomiaru.
 
 `[fakt]` Przeszukanie czterech baz nie znalazło odpowiedzi na pytanie: **czy gęste próbkowanie małego obszaru zastępuje rzadkie próbkowanie dużego w potylicznym SSVEP.** Xing 2018 używał rozstawu ~10 cm (PO5…PO6); nikt nie sprawdził, co się dzieje przy 2–3 cm.
 

@@ -357,7 +357,7 @@ To jest ta sama liczba o zupełnie innej jakości. Ocena szans wystawiona na nie
 | **kwalifikacja do półfinału** | 133 z ~300 → 44% | ~85% | **~85%** |
 | **awans do finału** | 21 ze 133 → 16% | ~45% jeśli sprzęt działa w V 2027, ~20% jeśli nie | **~32%** |
 | **reprezentacja Polski na ISEF** | 3 z 21 → 14% | ~25% | **~8%** |
-| **Nagroda Zrównoważonego Rozwoju** (3 × 7 500 zł) | 3 z 21 → 14% | ~17% | **~5,5%** |
+| **Nagroda Zrównoważonego Rozwoju** (3 × do 5 000 zł — **poprawione 18 VIII 2026, K-080**; było 7 500 zł) | 3 z 21 → 14% | ~17% | **~5,5%** |
 | **Nagroda Specjalna Partnera** (3 000 zł) | kilka na 21 | ~25% | **~8%** |
 | **Nagroda Publiczności** | 1 z 21 → 5% | ~12% | **~4%** |
 | **Nagroda Główna** (15 000 zł) | 1 z 21 → 5% | ~10% | **~3%** |

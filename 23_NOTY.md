@@ -43,7 +43,7 @@ To jest realne wąskie gardło lejka: 133 projekty → 21 finalistów, czyli **1
 
 **Tu interfejs wygrywa i wygrywa konkretnym dokumentem.** Kryterium czwarte — znajomość dotychczasowych badań — to jest dokładnie `14_REANALIZA.md`. Nie streszczenie cudzej pracy, tylko **odtworzenie jej wyniku z surowych danych i wykazanie, że powszechna interpretacja tego wyniku jest błędna**. `[wniosek]` Na poziomie licealnym to jest rzadkie na tyle, że powinno pójść w górny koniec skali.
 
-**Innowacyjność po dzisiejszym audycie:** interfejs 7–8 (pole niezajęte w pięciu bazach, ale twierdzenie skromne), orteza 6–7 (teza 1 martwa, teza 2 w polu czynnie badanym — K-057), dron 5–6 (twierdzenie o integracji, najsłabszy rodzaj).
+**Innowacyjność po dzisiejszym audycie:** interfejs 7–8 (pole niezajęte w pięciu bazach, ale twierdzenie skromne), orteza 6–7 (teza 1 martwa, teza 2 w polu czynnie badanym — K-073), dron 5–6 (twierdzenie o integracji, najsłabszy rodzaj).
 
 **Prezentacja to `[luka]` u wszystkich trzech w tym samym stopniu** — półfinał jest online, liczy się wideo i plakat, a Twoja umiejętność prezentacyjna jest niesprawdzona. Rozrzut 5–8 na tym jednym kryterium to **3 punkty na 40**, czyli więcej niż różnica między projektami w kryterium innowacyjności.
 

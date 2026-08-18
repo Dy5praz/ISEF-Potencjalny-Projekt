@@ -62,7 +62,7 @@ Zapisuję **dwa** twierdzenia. Oba będą raportowane niezależnie od wyniku. G�
 
 **Punkt krytyczny:** krzywa CMRR wobec niedopasowania impedancji jest **jedynym pomiarem E1, który wchodzi bezpośrednio do twierdzenia**. Elektrody suche na owłosionej potylicy mają różne impedancje, a to jest miejsce, w którym — wg pomiaru cudzego zespołu — układ się wywraca. Krzywa mówi, jaką tolerancję impedancji musi zapewnić konstrukcja elektrody.
 
-> **POPRAWKA, 16 VIII 2026 — K-056.** Pierwotnie stało tu: *„E1 wymaga generatora i przyrządu o szumie własnym poniżej mierzonego"*. **To nieprawda dla najważniejszego pomiaru E1.** Szum wejściowy mierzy się **samym torem** — zwarte wejście, RMS z próbek własnego przetwornika 24-bitowego; oscyloskop hobbystyczny ma szum własny tysiąc razy większy od mierzonej wielkości i do tego zadania się nie nadaje. **Przyrząd zewnętrzny jest potrzebny jako ŹRÓDŁO znanego sygnału, nie jako miernik.**
+> **POPRAWKA, 16 VIII 2026 — K-072.** Pierwotnie stało tu: *„E1 wymaga generatora i przyrządu o szumie własnym poniżej mierzonego"*. **To nieprawda dla najważniejszego pomiaru E1.** Szum wejściowy mierzy się **samym torem** — zwarte wejście, RMS z próbek własnego przetwornika 24-bitowego; oscyloskop hobbystyczny ma szum własny tysiąc razy większy od mierzonej wielkości i do tego zadania się nie nadaje. **Przyrząd zewnętrzny jest potrzebny jako ŹRÓDŁO znanego sygnału, nie jako miernik.**
 >
 > **Co z tego realnie trzeba kupić:** dzielnik precyzyjny do samodzielnego zlutowania (rezystory 0,1%, **30–80 zł — jedyne miejsce, gdzie dokładność jest krytyczna**) oraz generator funkcyjny ze średniej półki (250–600 zł; jego własny szum przy pomiarze CMRR jest sygnałem wspólnym i tłumi się razem z nim). Rozbiór: **`20_ZAKUPY.md` §4**.
 >

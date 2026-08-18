@@ -60,9 +60,17 @@ Lista warunków, które musi spełnić oferta używana (płytka **z kluczem USB*
 2. **ubezpieczenie**, gdyby własny tor analogowy nie zadziałał
 3. ~~„baseline komercyjny" do twierdzenia~~ — **wycofane już 16 VIII**: OpenBCI to płytka badawczo-hobbystyczna bez obudowy i elektrod, więc porównanie z nią nie jest porównaniem z rynkiem
 
-`[wniosek]` Punkt 3 był tym, co wcześniej wpisano do README jako „punkt odniesienia: kupiony OpenBCI Cyton". **Twierdzenie „ile kosztuje wygoda" stoi na porównaniu wewnętrznym — wersja noszona wobec pełnowymiarowej, ten sam tor.** Cyton jest narzędziem kontrolnym i ubezpieczeniem, nie osią.
+`[wniosek]` Punkt 3 był tym, co wcześniej wpisano do README jako „punkt odniesienia: kupiony OpenBCI Cyton". **Twierdzenie stoi na porównaniu wewnętrznym — ten sam tor analogowy, dwa położenia elektrody odniesienia.** Cyton jest narzędziem kontrolnym i ubezpieczeniem, nie osią.
 
-**Reszta budżetu** — pełne rozbicie jest w `15_PROJEKT.md` sekcja 3 i `20_ZAKUPY.md` sekcja 5, tam gdzie powstało 16 VIII. Suma bez nowego Cytona mieściła się w przedziale **5 700–8 800 zł**, czyli decyzja o 8 000 zł jest z nim spójna, ale **bez zapasu na trzecią iterację płytki**. To jest pozycja do przeliczenia w audycie razem z harmonogramem.
+> **BRZMIENIE TWIERDZENIA ZMIENIONE 18 VIII 2026 — K-077, K-078** (`35_AUDYT_2026_08_18.md` §2.1 i §4.2). Sformułowanie **„ile kosztuje wygoda"** w wersji ogólnej **ma opublikowaną odpowiedź i brzmi ona „statystycznie nic"**: `[fakt]` **Li X. i in., *Sheng Wu Yi Xue Gong Cheng Xue Za Zhi* 42(3):464–472, 2025, PMID 40566767** — noszalny interfejs SSVEP, 10 badanych, 40 celów, dokładność **94,10%**, ITR **115,25 bit/min**, *„**no significant difference** compared to the dataset collected under the laboratory condition"*. Do tego **Cardoso i in., ICORR 2022, PMID 36176154** mierzą kompromis wygoda/dokładność na czterech postaciach urządzenia. **Brzmienie obowiązujące od 18 VIII 2026:**
+
+> **Mierzę, o ile spada dokładność i przepustowość interfejsu SSVEP, gdy elektroda odniesienia musi zmieścić się w module noszonym na potylicy zamiast leżeć w miejscu standardowym, i wyznaczam najmniejszą odległość odniesienia od kory wzrokowej, przy której przepustowość jeszcze się nie załamuje — na jednym własnym torze analogowym, tą samą osobą, tym samym paradygmatem.**
+
+Różnica jest zasadnicza: praca chińska zmniejszyła **skrzynkę** przy odniesieniu w miejscu standardowym; projekt pyta o zmniejszenie **montażu**, a to `14_REANALIZA.md` §5 wycenia na **9,3–24,5 pp dokładności i 41% szczytowego ITR**. **Sprzęt, plan pomiarowy i budżet nie zmieniają się o jeden element.**
+
+**Reszta budżetu** — pełne rozbicie jest w `15_PROJEKT.md` sekcja 3 i `20_ZAKUPY.md` sekcja 5, tam gdzie powstało 16 VIII.
+
+> **PRZELICZONE W AUDYCIE 18 VIII 2026 (`35_AUDYT_2026_08_18.md` §3.1).** Zdanie „bez zapasu na trzecią iterację płytki" myliło dwie sumy. **5 700–8 800 zł** to suma z `15_PROJEKT.md` §3.3, liczona z Cytonem po cenie zaniżonej o połowę (K-084). **Suma obowiązująca to 4 500–7 300 zł** — `20_ZAKUPY.md` §5, wariant zalecany: używany Cyton, bez oscyloskopu, **z rezerwą 30% na drugą serię płytek już w środku**. Wobec budżetu 8 000 zł daje to **margines 700–3 500 zł**. **Budżet się spina, zapas jest** — pod warunkiem znalezienia używanego egzemplarza do 30 IX 2026. Przy nowym Ganglionie (3 000–3 400 zł) suma idzie do 6 000–9 000 zł i wtedy zapasu nie ma.
 
 ## 4. Kategoria EBED — co z niej wynika operacyjnie
 
@@ -102,7 +110,16 @@ Struktura przeniesiona z zamkniętego pliku `23_RYZYKA.md` sekcja 1; treść nap
 
 **Reguła schodzenia, bez zmian od etapu 1:** zejście o szczebel wymaga wpisu do `KOREKTY.md` z **datą, powodem liczbowym i wskazaniem, co zostało poświęcone**. Bez wpisu zejście się nie liczy.
 
-`[luka]` **Czego ta drabinka jeszcze nie ma:** terminu, do którego każdy szczebel musi być osiągnięty. To wchodzi razem z przeliczeniem harmonogramu pod jeden cykl (P2).
+**Terminy decyzji o zejściu — dopisane 18 VIII 2026 w audycie** (`35_AUDYT_2026_08_18.md` §3.3). Bez nich zejście następuje w maju 2027 pod presją, a nie zimą z decyzji:
+
+| Zejście | Termin decyzji | Wyzwalacz |
+|---|---|---|
+| **A → B** | **31 I 2027** | v1 nie działa — tabela wieloczynnikowa wypada z planu |
+| **B → C** | **31 III 2027** | komisja IRB nie istnieje — kampania jest jednoosobowa i tak zostaje opisana w zgłoszeniu |
+| **C → D** | **30 IV 2027** | druga wersja montażu niegotowa — do półfinału idzie jedna |
+| **D → E** | **31 VII 2027** | ostatni moment na przestawienie planu finałowego na metrologię toru |
+
+**Werdykt audytu o samej drabince** (`35` §3.3): szczeble **B i C nie są myśleniem życzeniowym** — twierdzenie stoi w obu, a **szczebel C jest realnie planem bazowym, nie zejściem**, bo `16_PLAN_EKSPERYMENTALNY.md` §3.3 planuje 1 920 prób na jedną osobę i efekt 9–24 pp jest wewnątrzosobniczo wykrywalny wielokrotnie. **Życzeniowy jest opis szczebli D i E jako równoważnych pozostałym:** rzeczywisty próg leży między C a D — powyżej niego projekt ma **wynik**, poniżej ma **tylko urządzenie**. `[fakt]` Szczebel E jest dokładnie tym, co opublikowano jako arXiv 2601.01772 (charakteryzacja platformy ESP32-S3 + ADS1299), więc jest poprawnym projektem inżynierskim i słabym projektem konkursowym.
 
 ---
 

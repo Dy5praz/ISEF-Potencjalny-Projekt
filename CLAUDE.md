@@ -15,9 +15,15 @@ Użytkownik: Julek. **Odpowiadaj po polsku.**
 
 **Stan na 18 sierpnia 2026.** Kierunek bieżący to **nieinwazyjny interfejs neuralny sterowany bodźcem wzrokowym, w zwartej formie noszonej** — powrót decyzją użytkownika z 17 VIII 2026. Opis w `30_POWROT_DO_INTERFEJSU.md`, **ten plik zastępuje `20`–`24`**.
 
-**Najbliższe zadanie: audyt adwersaryjny nowej wersji projektu, trzy przejścia, metodą z `12_AUDYT.md`** (pozycja P1 w README).
+**Audyt adwersaryjny wykonany 18 VIII 2026 — `35_AUDYT_2026_08_18.md`. To jest plik do przeczytania zaraz po `30` i `34`.** Wynik: twierdzenie w brzmieniu ogólnym („ile kosztuje wygoda") **zabite przez pracę chińskojęzyczną PMID 40566767** (K-077); wersja wąska przeżyła przeszukanie siedmiu baz. Pewność audytu: **92%**. Osiem sprzeczności między plikami znalezionych i poprawionych (K-077…K-091).
 
-Twierdzenie: **ile kosztuje wygoda** — o ile spada dokładność i przepustowość, gdy urządzenie robi się na tyle małe i wygodne, żeby dało się je nosić. Punkt odniesienia wewnętrzny: ten sam układ w wersji pełnowymiarowej oraz kupiony OpenBCI Cyton. **Metryka w bitach, nigdy słowa na minutę** (K-055).
+**Najbliższe zadanie: P11 — reanaliza publicznego zbioru Zhu i in. 2021 (102 osoby, PMID 33578754)**, powtórzenie analizy montaży z `14` §5 na próbie ośmiokrotnie większej. Kod z `analiza/` już działa, koszt zero złotych.
+
+Twierdzenie, **brzmienie obowiązujące od 18 VIII 2026** (`35_AUDYT_2026_08_18.md` §4.2 — poprzednie „ile kosztuje wygoda" ma opublikowaną odpowiedź, K-077):
+
+> **Mierzę, o ile spada dokładność i przepustowość interfejsu SSVEP, gdy elektroda odniesienia musi zmieścić się w module noszonym na potylicy zamiast leżeć w miejscu standardowym, i wyznaczam najmniejszą odległość odniesienia od kory wzrokowej, przy której przepustowość jeszcze się nie załamuje — na jednym własnym torze analogowym, tą samą osobą, tym samym paradygmatem.**
+
+Punkt odniesienia wewnętrzny: **ten sam tor analogowy, dwa położenia elektrody odniesienia.** Kupiony OpenBCI to narzędzie kontrolne i ubezpieczenie, **nie punkt odniesienia twierdzenia** (K-071). **Metryka w bitach, nigdy słowa na minutę** (K-055).
 
 Parametry, **ustalone 18 VIII 2026 i wiążące**: **budżet 8 000 zł**, **10 godzin tygodniowo**, kategoria ISEF **EBED**, obszar Explory **Człowiek i Społeczeństwo**, poprzeczka **gotowy w całości, nie prototyp**. Rozbiór i konsekwencje: `34_PARAMETRY_I_RAMY.md`. **Zakupy: `20_ZAKUPY.md` — używany Cyton do 1 600 zł, termin poszukiwań 30 IX 2026.**
 

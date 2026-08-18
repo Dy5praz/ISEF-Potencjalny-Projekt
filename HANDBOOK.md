@@ -148,7 +148,7 @@ Bez kompletu tych trzech nie masz prawa napisać, że coś odpada. Niewykonalno�
 
 *Źródła: Regulamin Konkursu Explory (dokument prawnie wiążący), Regulamin Szkolnych Explory, ABC Konkursu Explory, Vademecum Uczestnika (starsze, część treści może dotyczyć nieaktualnej struktury etapów), Podsumowanie GEW 2025, shotx.explory.pl, zrzuty oficjalnej listy finalistów i jury 2026.*
 
-**Hierarchia źródeł przy sprzeczności:** Regulamin > informacje prasowe > ABC/broszury > Vademecum i archiwalia. Przykład rozbieżności: nagrody SDG — regulamin 7500 zł, ABC błędnie 5000 zł. Ufaj regulaminowi.
+**Hierarchia źródeł przy sprzeczności:** Regulamin > informacje prasowe > ABC/broszury > Vademecum i archiwalia. Przykład rozbieżności: nagrody SDG. **POPRAWKA 18 VIII 2026 — K-080:** przykład był tu wpisany odwrotnie. `[fakt, regulamin §8 pkt 4b odczytany 18 VIII 2026]` **Regulamin mówi „trzy kwoty do 5 000 złotych każda"** — czyli 5 000 zł, a nie 7 500 zł. Zasada „ufaj regulaminowi" obowiązuje bez zmian; ilustrujący ją przykład był błędny przez trzy dni i po poprawce jest lepszą ilustracją tej samej zasady.
 
 ### 4.1 Organizacja
 - Organizator: Fundacja Zaawansowanych Technologii, ul. Nowy Świat 60/9, 00-357 Warszawa. KRS 0000379454, NIP 1182059688
@@ -219,7 +219,7 @@ Gala Finałowa to osobne wydarzenie, nie sesja oceny.
 
 ### 4.9 Nagrody
 - **Nagroda Główna:** 15 000 zł (ORLEN S.A.)
-- **Nagrody Zrównoważonego Rozwoju:** 3 × 7 500 zł (Człowiek i Społeczeństwo / Klimat i Środowisko / Gospodarka i Bezpieczeństwo)
+- **Nagrody Zrównoważonego Rozwoju:** **3 × do 5 000 zł** (Człowiek i Społeczeństwo / Klimat i Środowisko / Gospodarka i Bezpieczeństwo) — **poprawione 18 VIII 2026, K-080.** Stało tu 3 × 7 500 zł. `[fakt, regulamin §8 pkt 4b odczytany w oryginale]` **Obszar „Poza kategoriami" nie ma nagrody SDG** (K-059)
 - **Reprezentacja Polski na ISEF:** tygodniowy wyjazd, pełne koszty. Liczba miejsc zmienna (2025: 3 projekty / 4 osoby)
 - **Nagrody Specjalne Partnerów:** 3 000 zł
 - **Nagroda Publiczności:** osobne głosowanie internautów, zwycięzca bywa inny niż laureaci jurorscy

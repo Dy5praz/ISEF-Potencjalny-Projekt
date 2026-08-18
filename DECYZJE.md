@@ -6,7 +6,7 @@
 
 ## Decyzja 5 — oś projektu po reanalizie: **wariant C**
 
-**Kontekst:** `14_REANALIZA.md` wykazała, że przyrost +9 pp należy do Cz, a nie do kanału szczękowego (K-051).
+**Kontekst:** `14_REANALIZA.md` wykazała, że przyrost +9 pp należy do Cz, a nie do kanału szczękowego (K-089).
 
 **Rozstrzygnięcie użytkownika, 16 VIII 2026, cytat:** *„Zgoda, wybieram C. Faktyczny nacisk wyjdzie wraz z pomiarami."*
 
@@ -23,7 +23,7 @@
 
 **Rozstrzygnięcie użytkownika, 16 VIII 2026, cytat:** *„No niech będzie. Chociaż sprawdź, czy odejmowanie »szumu« szczęki daje rzeczywiście tak dużo, aby opierać na tym wręcz jedną z osi projektu."*
 
-**Zgoda przyjęta:** jeden cienki przewód od modułu potylicznego do elektrody odniesienia na wyrostku sutkowatym mieści się w granicy gabarytu. Podstawa: tabela z decyzji 3 dopuszcza wprost *„cienki przewód lub łuk między modułami, przy głowie"*; K-036 odrzucał **drugie miejsce elektrod aktywnych**, nie pojedyncze odniesienie (K-053).
+**Zgoda przyjęta:** jeden cienki przewód od modułu potylicznego do elektrody odniesienia na wyrostku sutkowatym mieści się w granicy gabarytu. Podstawa: tabela z decyzji 3 dopuszcza wprost *„cienki przewód lub łuk między modułami, przy głowie"*; K-036 odrzucał **drugie miejsce elektrod aktywnych**, nie pojedyncze odniesienie (K-091).
 
 **Skutek:** zakres pomiarowy E2 obejmuje pełne 2–10 cm, a nie tylko 2–4 cm.
 
@@ -248,5 +248,7 @@ Cztery pozycje, które od etapu 1 wisiały jako `[luka]` albo były odziedziczon
 | **4** | **poprzeczka wykonania** | **gotowy w całości, nie prototyp** — potwierdzone jako cel | reguła 6a.3 (nic poza interfejsem do półfinału) jest głównym mechanizmem obrony tej poprzeczki |
 
 **Uzasadnienie kategorii, słowami użytkownika:** EBED jest łatwiejsza w obsadzie, a projekt nie jest sprzedawany jako urządzenie medyczne, więc ENBM byłoby trudniejsze.
+
+> **POPRAWKA 18 VIII 2026 wieczorem — K-082.** Akapit poniżej liczy **nowego** Cytona i na tej podstawie każe go wykreślić. Decyzja obowiązująca jest inna i zapadła 16 VIII w `20_ZAKUPY.md` §3.1, a `34_PARAMETRY_I_RAMY.md` §3 ją potwierdza: **kupić używanego Cytona, budżet do 1 600 zł, termin poszukiwań 30 IX 2026; przy braku oferty — nowy Ganglion, nie nowy Cyton.** Przy 1 600 zł platforma zjada 20% budżetu, nie 72%, i **kolizji budżetowej nie ma.** Akapit poniżej zostaje jako zapis rozumowania, które było oparte na cenie nowego egzemplarza.
 
 **Konsekwencja, której nikt nie zamawiał, a która wyszła przy liczeniu:** `[fakt]` OpenBCI Cyton kosztuje **1 249 USD**, a producent podaje cło i VAT rzędu 25% dla Europy — czyli **~5 800 zł, 72% budżetu**. Pozycja P5 („kupić oryginalnego Cytona") i decyzja 1 nie spinają się razem. Trzy wyjścia w `34_PARAMETRY_I_RAMY.md` sekcja 3, rekomendacja: **Cyton wypada, punkt odniesienia zostaje wewnętrzny** — co jest zresztą mocniejsze metodologicznie.

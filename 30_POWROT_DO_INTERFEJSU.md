@@ -69,6 +69,8 @@ Niezawodność zostaje na poziomie 90–95%, bo mechanizm detekcji jest ten sam.
 
 ### 4.2 Jedno wykrycie = jedna pełna intencja
 
+> **ZAWĘŻENIE 18 VIII 2026 — K-083.** Ta sekcja i §5 opisują **pojazd z warstwą autonomii** wyceniony na „kilkadziesiąt godzin". **Reguła 6a.3 z tego samego pliku, dopisana kilka godzin później, tego zabrania:** do półfinału nie powstaje nic, co nie jest interfejsem. **Obowiązuje 6a.3.** Demonstracją jest wskazanie celu w otoczeniu i przełączenie **kupionego** przedmiotu; pojazd i warstwa autonomii wypadają, razem z pozycją 3 z §7. Uzasadnienie merytoryczne, nie tylko harmonogramowe: `[fakt]` sterowanie dzielone w interfejsach SSVEP jest klasą opisaną od 2016 roku (PMID 27528864, 31825869, 37498753, 42055968), a sterowanie sprzętem domowym bodźcem SSVEP od 2014 (PMID 25764705) — godziny włożone w autonomię nie kupują punktu nowości ani punktu wykonania, a odbierają je urządzeniu, które jest oceniane. Mechanizm opisany niżej pozostaje w mocy jako **argument**, przestaje być **zadaniem konstrukcyjnym**.
+
 Zamiast dwudziestu komend kierunkowych — **jedno wskazanie celu**, a pojazd dojeżdża sam, omijając przeszkody.
 
 To jest ta sama dźwignia, którą wykorzystał projekt referencyjny ENBM074 (2026): **nie porzucił paradygmatu, zmienił znaczenie jednego wykrycia.** Warstwa sygnałowa jest ograniczona fizyką; warstwa definicji zadania nie jest ograniczona niczym. To jedyne miejsce w tym problemie, gdzie da się uzyskać efekt wielokrotny zamiast procentowego.
@@ -97,7 +99,13 @@ Uczciwe zastosowanie: **komunikacja i sterowanie dla osób, które nie mogą mó
 
 ## 6. Co przeżywa bez zmian po stronie ISEF
 
-Twierdzenie **„ile kosztuje nas wygoda"** stoi w całości. Zyskuje nawet jednostkę lepszą niż surowa dokładność: **informacja przypadająca na jedno wskazanie**, która jest mierzalna i ma znaczenie dla użytkownika końcowego.
+> **BRZMIENIE ZMIENIONE 18 VIII 2026 — K-077, K-078.** Zdanie „ile kosztuje nas wygoda" w wersji ogólnej **ma opublikowaną odpowiedź**: `[fakt]` **Li X. i in., PMID 40566767, 2025, po chińsku** — noszalny interfejs SSVEP, 40 celów, 94,10%, ITR 115,25 bit/min, *„no significant difference"* wobec zbioru zebranego w warunkach laboratoryjnych. **Brzmienie obowiązujące:**
+
+> **Mierzę, o ile spada dokładność i przepustowość interfejsu SSVEP, gdy elektroda odniesienia musi zmieścić się w module noszonym na potylicy zamiast leżeć w miejscu standardowym, i wyznaczam najmniejszą odległość odniesienia od kory wzrokowej, przy której przepustowość jeszcze się nie załamuje — na jednym własnym torze analogowym, tą samą osobą, tym samym paradygmatem.**
+
+Rozbiór: `35_AUDYT_2026_08_18.md` §2.1 i §4.2. **Sprzęt, plan pomiarowy, budżet i demonstracja nie zmieniają się.**
+
+~~Twierdzenie „ile kosztuje nas wygoda" stoi w całości.~~ Twierdzenie w brzmieniu powyżej stoi w całości. Zyskuje nawet jednostkę lepszą niż surowa dokładność: **informacja przypadająca na jedno wskazanie**, która jest mierzalna i ma znaczenie dla użytkownika końcowego.
 
 Reszta dorobku etapu 1 — przemiał literatury, trzy przejścia audytu, `ISEF_HUMAN_PARTICIPANTS.md`, arkusze oceny — obowiązuje bez zmian.
 

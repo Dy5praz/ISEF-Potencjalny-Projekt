@@ -1094,3 +1094,205 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 **Wszystkie trzy wciągnięte do `main` 18 VIII 2026.** Decyzje użytkownika są tą kategorią treści, której zgubienie kosztuje najwięcej — bo model, który ich nie widzi, zaczyna je podważać od nowa.
 
 **Reguła, uzupełnienie do K-076:** przy rozjeździe gałęzi nie wystarczy porównać **listy plików**. Trzeba porównać **treść plików wspólnych** — `git diff <galaz> main -- <plik>` — bo najcenniejsze rzeczy dopisuje się do plików, które już istnieją.
+
+## 2026-08-18, audyt adwersaryjny (plik `35_AUDYT_2026_08_18.md`)
+
+### K-077 — przez pięć przeszukań ani razu nie zajrzałem do literatury chińskiej, a to tam leżał wynik zabijający twierdzenie
+
+**Co było.** `12_AUDYT.md`, `14_REANALIZA.md` §11, `25_AUDYT_OPENAIRE.md` — pięć rund przeszukania prior art, siedem baz łącznie. **Żadna z nich nie objęła literatury chińskojęzycznej ani japońskiej.** `17_RYZYKA.md` R8 wymieniał „literaturę nieanglojęzyczną" jako `[luka]` i zostawiał ją jako pozycję otwartą.
+
+**Co jest.** `[fakt]` **Li X., Cao X., Wang J., Zhu W., Huang Y., Wan F., Hu Y., *Sheng Wu Yi Xue Gong Cheng Xue Za Zhi* 42(3):464–472, 25 VI 2025, PMID 40566767** — noszalny interfejs SSVEP, 10 badanych, 40 celów, dokładność **94,10%**, ITR **115,25 bit/min** przy 8 kanałach i **98,49 bit/min** przy 4, *„**no significant difference** compared to the dataset collected under the laboratory condition"*. Artykuł po chińsku, indeksowany w PubMed od dnia publikacji.
+
+**Czyli: twierdzenie „ile kosztuje wygoda" ma opublikowaną odpowiedź i brzmi ona „statystycznie nic".** Znalezione jednym zapytaniem `SSVEP AND chi[LA]`, którego nikt wcześniej nie wykonał.
+
+**Reguła, która z tego zostaje.** Do listy baz z `PRZEKAZANIE.md` §5 dochodzą na stałe: **PubMed z filtrem języka (`chi[LA]`, `jpn[LA]`), J-STAGE i CiNii**. Zapytanie w języku dziedziny nie wystarcza, jeżeli pomija się języki, w których dziedzina publikuje — a SSVEP jest dziedziną chińską i japońską w stopniu, którego angielski indeks nie oddaje. **Każde „nie znalazłem" bez sprawdzenia tych trzech baz jest odtąd niepełne.**
+
+---
+
+### K-078 — twierdzenie projektu istniało w dwóch niezgodnych wersjach w plikach oznaczonych jako obowiązujące
+
+**Co było.** `14_REANALIZA.md` §7.2, `15_PROJEKT.md` §1.1, `16_PLAN_EKSPERYMENTALNY.md` §1 i `DECYZJE.md` decyzja 5 opisują oś jako **przepustowość w funkcji odległości elektrody odniesienia**. `30_POWROT_DO_INTERFEJSU.md` §6, `34_PARAMETRY_I_RAMY.md`, `README.md` i `CLAUDE.md` opisują ją jako **„ile kosztuje wygoda"**. Plik `30` powstał dzień po `14` i **ani razu się do niego nie odwołuje**.
+
+**Dlaczego to nie była kwestia stylu.** Wersja szeroka jest zajęta (K-077), wąska nie. Przez dobę projekt miał w plikach bieżących zdanie, które cudza praca unieważnia, i zdanie, którego nie unieważnia — bez żadnej informacji, które obowiązuje.
+
+**Poprawka.** Zdanie ujednolicone, brzmienie w `35_AUDYT_2026_08_18.md` §4.2, przeniesione do `30`, `34`, `README.md` i `CLAUDE.md`.
+
+**Reguła.** Przy zmianie kierunku plik-następca ma **wymienić z nazwy plik, którego twierdzenie zastępuje albo doprecyzowuje**. Bez tego zdania powstaje dwutorowość, której nie widać z żadnego pojedynczego pliku.
+
+---
+
+### K-079 — przenumerowałem korekty w rejestrze i nie przenumerowałem odsyłaczy w dziewięciu plikach
+
+**Co było.** Przy odzyskiwaniu gałęzi `claude/etap-2-v9dtnt` (K-076) wpisy K-054…K-059 z tamtej gałęzi dostały numery **K-070…K-075**, bo `main` miała już własny komplet. Przenumerowany został **wyłącznie `KOREKTY.md`**.
+
+**Skutek.** `14`, `16`, `17`, `18`, `20`, `23`, `24`, `25` i `26` odsyłały do numerów, pod którymi w rejestrze siedzą dziś zupełnie inne błędy — na przykład `20_ZAKUPY.md` §1.1 („zaniżyłem cenę platformy") wskazywał na K-055, czyli na wpis o demonstracji wchodzącej na ścieżkę zakazaną.
+
+**Poprawka.** Wszystkie odsyłacze w tych plikach poprawione. Pełne mapowanie — łącznie z trzema wpisami, które w ogóle nie zostały odzyskane — jest przy **K-089…K-091** na końcu tego rejestru.
+
+**Reguła.** **Przenumerowanie wpisu w rejestrze jest niekompletne, dopóki nie przejdzie się `grep`em po odsyłaczach.** Rejestr błędów, który odsyła do cudzych błędów, jest gorszy niż brak rejestru, bo wygląda na sprawdzony.
+
+---
+
+### K-080 — błąd był już zapisany w rejestrze jako K-059, a mimo to przetrwał w trzech plikach
+
+**Co było.** `HANDBOOK.md`, hierarchia źródeł: *„Przykład rozbieżności: nagrody SDG — regulamin 7500 zł, ABC błędnie 5000 zł. **Ufaj regulaminowi**."* To samo w `08_KONKURENCJA_ISEF.md` §1.1, z adnotacją „handbook zweryfikowany co do złotówki".
+
+**Co jest.** `[fakt, `Regulamin-Konkursu-Explory.pdf` pobrany ze strony organizatora i odczytany 18 VIII 2026]` §8 pkt 4: *„a) Nagroda Główna – jedna kwota w wysokości **15 000 złotych**. b) Nagrody Zrównoważonego Rozwoju – trzy kwoty **do 5 000 złotych** każda."*
+
+**Regulamin mówi 5 000.**
+
+**Najgorsze w tym jest to, że błąd był już zapisany.** **K-059** (17 VIII 2026) nosi tytuł *„nagrody SDG są niższe i jest ich mniej, niż zakładały wszystkie pliki"* i mówi wprost: *„handbook i ściągawka podawały 3 × 7 500 zł"*. **Wpis do rejestru powstał, poprawka w plikach — nie.** Liczba 7 500 zł przetrwała w `HANDBOOK.md` (dwa miejsca), `08_KONKURENCJA_ISEF.md` i `11_OCENA_SZANS.md`.
+
+**To jest naruszenie zasady, którą `CLAUDE.md` stawia jako jedną z podstawowych:** *„dokumentacja żyje w plikach. Jeżeli ustalenie z handbooka okaże się błędne — **popraw handbook**, nie tylko odpowiedź, i dopisz wpis do `KOREKTY.md`"*. Zrobiona została druga połowa, nie pierwsza.
+
+**Reguła operacyjna, która z tego zostaje:** **wpis do `KOREKTY.md` nie jest zamknięty, dopóki `grep` po poprawianej liczbie albo frazie nie zwróci samych miejsc poprawionych.** Rejestr błędów bez poprawki w plikach jest inwentarzem, nie naprawą.
+
+**Poprawka.** Liczby poprawione w `HANDBOOK.md` i `08_KONKURENCJA_ISEF.md`.
+
+---
+
+### K-081 — dwa pliki kierowały do obszaru Explory, z którego `30` wycofał się wprost, a jeden robił to jako niewykonana pozycja listy zadań
+
+**Co było.** `13_PODNIESIENIE_SZANS.md` §2: *„Rekomendacja: SDG 9, obszar Gospodarka i Bezpieczeństwo"*. `24_PLAN_DZIALANIA.md`, pozycja nieodhaczona: *„Wskazanie SDG 9 i obszaru Gospodarka i Bezpieczeństwo w formularzu · JT"*.
+
+**Co jest.** `30_POWROT_DO_INTERFEJSU.md` §4.3: *„**Wycofuję wcześniejszą rekomendację** ucieczki do obszaru Gospodarka i Bezpieczeństwo"*; obszar bieżący to **Człowiek i Społeczeństwo**, tak samo w `CLAUDE.md` i `README.md`.
+
+**Dlaczego to była jedyna sprzeczność z ceną.** Obszar i cel SDG mają **własne pole w formularzu zgłoszeniowym**, a lista zadań kazała wpisać tam wartość odwołaną.
+
+**Poprawka.** Adnotacja w `13` §2, pozycja w `24` poprawiona.
+
+---
+
+### K-082 — sprawę Cytona rozstrzygnąłem dwa razy tego samego dnia, w przeciwne strony, i zostawiłem obie wersje
+
+**Co było.** `DECYZJE.md`, blok z 18 VIII: *„~5 800 zł, 72% budżetu. (…) rekomendacja: **Cyton wypada**"*. `34_PARAMETRY_I_RAMY.md` §3, ten sam dzień wieczorem: *„»kolizja budżetowa«, **której nie ma** (…) **kupić używanego Cytona, budżet do 1 600 zł**"*.
+
+**Skąd rozjazd.** Pierwsza wersja liczyła Cytona nowego, druga używanego — po odzyskaniu `20_ZAKUPY.md`, gdzie decyzja zapadła 16 VIII. `34` ma rację, ale `DECYZJE.md` jest plikiem, do którego się wraca po rozstrzygnięcia.
+
+**Poprawka.** Adnotacja w `DECYZJE.md` odsyłająca do `34` §3 i `20_ZAKUPY.md` §3.1.
+
+---
+
+### K-083 — plik `30` w jednej sekcji każe zbudować warstwę autonomii pojazdu, a w drugiej zabrania budować cokolwiek poza interfejsem
+
+**Co było.** `30` §4.2 i §5: warstwa autonomii — czujniki odległości, omijanie przeszkód, dojazd do punktu — wyceniona na *„kilkadziesiąt godzin, do wpisania w harmonogram"*; §7 pozycja 3 każe ją zaplanować jako osobny podprojekt. `30` §6a.3, ten sam plik, kilka godzin później: *„**do półfinału nie powstaje nic, co nie jest interfejsem**"*, demonstracja to kupiona żarówka i gniazdko, **zero godzin warsztatu**.
+
+**Rozstrzygnięcie.** Obowiązuje 6a.3, bo jest późniejsza — i ma dziś dodatkowe uzasadnienie merytoryczne: `[fakt]` sterowanie dzielone w interfejsach SSVEP jest klasą opisaną od 2016 roku (PMID 27528864, 31825869, 37498753, 42055968), więc godziny włożone w autonomię **nie kupują ani punktu nowości, ani punktu wykonania**, a odbierają je urządzeniu, które jest oceniane.
+
+**Poprawka.** Adnotacja przy `30` §4.2, §5 i §7 pkt 3.
+
+---
+
+### K-084 — `15_PROJEKT.md` §3.1 nadal nosi cenę zaniżoną o połowę i argument wycofany dwa dni wcześniej
+
+**Co było.** Tabela kosztorysowa: *„OpenBCI Cyton — **~2 500–3 500 zł**"* oraz *„Cyton daje też **baseline komercyjny** wymagany przez `13_PODNIESIENIE_SZANS.md` §6"*.
+
+**Co jest.** Obie pozycje wycofane 16 VIII w `20_ZAKUPY.md` §1.1 i §2 (korekta **K-071**): cena katalogowa to **1 249 USD**, czyli 6 000–6 800 zł za nowy egzemplarz, a rola „baseline komercyjny" nie działa, bo OpenBCI nie jest produktem konsumenckim.
+
+**Dlaczego to groźne.** Kto zaplanuje budżet na tabeli z `15` §3.1, **powtórzy dokładnie ten błąd, który K-071 opisuje** — a plik `15` jest wymieniony w `34` §3 jako miejsce, gdzie leży pełne rozbicie budżetu.
+
+**Poprawka.** Adnotacja przy tabeli.
+
+---
+
+### K-085 — reguła ISEF „badania, w których badaczem jest badany" nigdy nie została w tym projekcie rozpatrzona
+
+**Co było.** `ISEF_HUMAN_PARTICIPANTS.md` §1 opiera całe rozstrzygnięcie na cytacie ze zwolnienia i kończy tabelą, w której wiersz *„porównuję dwie geometrie elektrod na sobie"* dostaje **„tak, zwolniony"** ze znacznikiem `[wniosek]`.
+
+**Czego tam nie ma.** `[fakt, `societyforscience.org/isef/international-rules/human-participants/`, odczytane 18 VIII 2026]` Lista przykładów badań z udziałem ludzi zawiera pozycję *„**Studies in which the researcher is the subject of the research**"*, a zaraz po niej stoi: *„All human participant studies must be reviewed and approved by an IRB **prior to experimentation**."* Zwolnienie brzmi węziej — dotyczy *„Invention, Prototype, (…) Engineering/Design Project or Consumer Product **Testing**"*.
+
+**Czyli: zwolnienie obejmuje testowanie własnego wynalazku, nie badanie, w którym badaczem i badanym jest ta sama osoba.** Kampania E2 daje się opisać na oba sposoby i **od opisu zależy, czy wymaga komisji IRB przed pierwszym pomiarem**.
+
+**Poprawka, trzy części.** (1) Wiersz tabeli w §1.1 dostaje adnotację, że opiera się na sformułowaniu planu badawczego, a nie jest bezwarunkowy. (2) Research Plan opisuje E2 jako **testowanie konstrukcji w wielu konfiguracjach** — bo tak jest i tak brzmi zwolnienie, a rubryka `Execution` premiuje dokładnie to sformułowanie. (3) Pytanie do FZT rozszerzone o trzecie zdanie (pozycja P14).
+
+**Przy okazji potwierdzone:** *„Risk Assessment Form 3 is required for **all projects** that involve human participant testing of any project involving student-designed inventions"* — bez zastrzeżenia o zwolnieniu. Ostrożna interpretacja z §5 tamtego pliku była trafna, a strona regulaminowa formułuje ją **mocniej**, niż plik zakładał.
+
+---
+
+### K-086 — `13_PODNIESIENIE_SZANS.md` §5 stawia jako pytanie otwarte coś, co `14_REANALIZA.md` zmierzył
+
+**Co było.** `13` §5: *„nikt nie sprawdził, co się dzieje przy 2–3 cm"*, pytanie zapisane jako druga kontrybucja projektu.
+
+**Co jest.** `14` §5, na cudzych surowych danych: **O1−Oz przy ~3,5 cm daje 48,8%** wobec 73,3% dla trzech kanałów z odniesieniem odległym. Odpowiedź częściowa istnieje i brzmi „nie". Sam plik `14` to zauważa, ale `13` nie został poprawiony i przez dwa dni zapraszał do szukania odpowiedzi, którą już mamy.
+
+**Poprawka.** Adnotacja przy `13` §5.
+
+---
+
+### K-087 — pracę recenzowaną z 2020 roku opisałem jako preprint z 2025
+
+**Co było.** `14_REANALIZA.md` §11.1: *„In-Ear Electrode EEG for Practical SSVEP BCI", **arXiv 2509.15449, 18 IX 2025** — (…) **preprint bez recenzji** na bardzo małej próbie"*.
+
+**Co jest.** `[fakt]` Identyfikator i data zdeponowania są prawidłowe — sprawdzone w API arXiv. **Ale praca o tym samym tytule ukazała się w czasopiśmie *Technologies* w 2020 roku** (Crossref). Wpis na arXiv jest zdeponowaniem pięć lat po publikacji.
+
+**Skutek.** Wniosek się nie zmienia (praca dotyczy elektrody czynnej, nie odniesienia, i osi nie zajmuje), ale **zmienia się jej waga**: to jest praca recenzowana i pięć lat starsza, a nie świeży preprint. Zdanie „pojawił się po zamknięciu etapu 1" jest nieprawdziwe.
+
+**Reguła.** **Data zdeponowania na arXiv nie jest datą pracy.** Przy każdej pozycji z arXiv sprawdzać w Crossref, czy nie ma wersji czasopiśmiennej — jednym zapytaniem po tytule.
+
+---
+
+### K-088 — powód niedostępności OpenAlex nazwałem błędnie, i to zmienia plan obejścia
+
+**Co było.** `25_AUDYT_OPENAIRE.md` §1: *„To jest **limit nałożony na adres tego środowiska**, nie brak dostępu do treści. Nie da się tego obejść inaczej niż z innej sieci."*
+
+**Co jest.** `[fakt, odpowiedź API odczytana 18 VIII 2026]` OpenAlex zwraca: *„Insufficient budget. This request costs $0.001 but you only have $0 remaining. Resets at midnight UTC. Need more? Add funds at openalex.org/pricing"*.
+
+**To nie jest limit adresu, tylko wyczerpany darmowy budżet w modelu płatnym.** Różnica jest praktyczna: obejściem nie jest inna sieć, tylko **klucz albo doładowanie konta** — albo odczekanie do północy UTC. Semantic Scholar (HTTP 429) też oferuje klucz dla wyższych limitów.
+
+**Skutek operacyjny.** Dwie bazy, które projekt trzykrotnie odnotował jako trwale niedostępne, są dostępne za darmo po założeniu klucza. Wpisane jako pozycja do zrobienia przy następnym przeszukaniu prior art.
+
+---
+
+### K-089…K-091 — trzy korekty z gałęzi `etap-2` nigdy nie zostały odzyskane; odtwarzam je z treści plików, które się do nich odwołują
+
+**Co było.** K-076 odzyskał **sześć** korekt z gałęzi `claude/etap-2-v9dtnt` (numerowanych tam K-054…K-059, przenumerowanych na K-070…K-075). `26_PRZEKAZANIE_ETAP3.md` mówi jednak wprost: *„**Dziewięć korekt jednego dnia, K-051…K-059**"*. **Trzech pierwszych nikt nie odzyskał**, a osiem plików nadal się do nich odwołuje.
+
+**Odtwarzam je z treści, które przetrwały** — z `14_REANALIZA.md` §3, `26_PRZEKAZANIE_ETAP3.md` §wzorce i `DECYZJE.md` decyzja 6. `[wniosek]` Odtworzenie jest wierne co do treści błędu; oryginalne brzmienie wpisów zginęło.
+
+---
+
+#### K-089 (na gałęzi etap-2 numerowana jako K-051) — zredukowałem „Cz i szczęka" do samej szczęki i zbudowałem na tym oś projektu
+
+**Co było źle.** W `12_AUDYT.md` §1.3 zapisałem, że u Kołodzieja i in. *„które kanały pomocnicze działały najlepiej: **Cz i szczęka**"* — zrównując je jednym zdaniem. Cała późniejsza dokumentacja przeniosła z tego zdania **samą szczękę** i zrobiła z niej oś projektu: „kompensacja artefaktu szczękowego w torze analogowym".
+
+**Co było naprawdę.** `[fakt, reanaliza surowych danych, `14_REANALIZA.md` §2, odtworzona niezależnie 18 VIII 2026]` \|β\|: **Cz 0,416** wobec **szczęka 0,132**. Zysk dokładności: Cz sam **+4,7 pp** (FBCCA) i **+8,2 pp** (SVM/LOSO); **szczęka sama +0,2 pp i +0,3 pp**. Ponad Cz szczęka dokłada **+0,4 pp**. Autorzy nigdzie nie twierdzili, że zysk pochodzi od szczęki — nazwali Cz *„dominant role"*. **Błąd był w moim streszczeniu, nie w ich pracy.**
+
+**Reguła.** Wzorzec: **redukcja czegoś złożonego do jednego zdania, a potem operowanie tym zdaniem zamiast oryginałem.** Zdanie „A i B działały najlepiej" nie jest podstawą do pracy nad samym B.
+
+---
+
+#### K-090 (na gałęzi etap-2 numerowana jako K-052) — postawiłem znacznik `[fakt, pełny tekst odczytany]` nie odczytawszy pełnego tekstu
+
+**Co było źle.** `12_AUDYT.md` §1.3 nosi znacznik **`[fakt, pełny tekst odczytany]`** przy omówieniu pracy Kołodzieja i in.
+
+**Co przeoczyłem.** Pełny tekst (PMC12899023) zawiera zdanie: *„The recorded EEG signals are **publicly available** in the database (…) github.com/kolodzima/EEG_artefact_SSVEP_EMG_EOG"*. **Zbiór danych, na którym stała cała oś projektu, był publiczny i podany w tej samej pracy** — a odkryto to dopiero dzień później.
+
+**Reguła.** Znacznik `[fakt, pełny tekst odczytany]` wolno postawić wtedy i tylko wtedy, gdy pełny tekst został odczytany **w całości, łącznie z sekcją o dostępności danych**. Sekcja „Data Availability" jest pierwszą rzeczą do sprawdzenia przy każdej pracy, na której cokolwiek ma stać.
+
+---
+
+#### K-091 (na gałęzi etap-2 numerowana jako K-053) — czytałem własną decyzję szerzej, niż brzmiała, i przez to niepotrzebnie odcinałem sobie zakres pomiarowy
+
+**Co było źle.** K-036 odrzucił zausznik i zapisano to jako „żadnej elektrody poza modułem potylicznym". Z tego wyprowadzono, że elektroda odniesienia **musi** leżeć wewnątrz modułu, co zawężało zakres E2 do 2–4 cm.
+
+**Co K-036 mówił naprawdę.** Odrzucone było **drugie miejsce elektrod czynnych**, a nie pojedyncze wyprowadzenie odniesienia. Tabela gabarytowa z decyzji 3 dopuszcza wprost *„cienki przewód lub łuk między modułami, przy głowie"*.
+
+**Skutek poprawki.** Zakres E2 obejmuje pełne **2–10 cm** (moduł, kark, wyrostek sutkowaty, płatek ucha) — czyli tyle, ile trzeba, żeby w ogóle znaleźć próg. Decyzja 6 użytkownika z 16 VIII 2026.
+
+**Reguła.** Przy powoływaniu się na własną wcześniejszą decyzję **cytować jej brzmienie, nie pamięć o niej**. Rozszerzanie zakazu ponad literę zapisu kosztuje tu połowę zakresu pomiarowego głównego eksperymentu.
+
+---
+
+**Mapowanie odsyłaczy — obowiązujące, do stosowania przy każdym pliku odzyskanym z `claude/etap-2-v9dtnt`:**
+
+| Numer na gałęzi etap-2 | Numer obowiązujący |
+|---|---|
+| K-051 | **K-089** |
+| K-052 | **K-090** |
+| K-053 | **K-091** |
+| K-054 | **K-070** |
+| K-055 | **K-071** |
+| K-056 | **K-072** |
+| K-057 | **K-073** |
+| K-058 | **K-074** |
+| K-059 | **K-075** |

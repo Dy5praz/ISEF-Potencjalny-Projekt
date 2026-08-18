@@ -12,9 +12,13 @@
 
 > **W nisko‑kanałowym interfejsie SSVEP przepustowość spada monotonicznie wraz ze skracaniem odległości elektrody odniesienia od aktywnej okolicy potylicznej; mierzę tę zależność na własnym torze analogowym i wyznaczam najmniejszą odległość, przy której układ zachowuje przepustowość montażu z odniesieniem odległym — czyli najmniejszy gabaryt, przy którym urządzenie noszalne jeszcze działa.**
 
-**Punkt odniesienia, podwójny i wewnętrzny** (zgodnie z `13_PODNIESIENIE_SZANS.md` §6):
+> **UZGODNIONE 18 VIII 2026 — K-078.** Zdanie powyżej i zdanie „ile kosztuje wygoda" z `30`/`34`/README **opisywały to samo, ale żaden plik tego nie mówił**, przez co projekt przez dobę miał w plikach bieżących dwa twierdzenia. **Obowiązuje brzmienie ujednolicone** (`35_AUDYT_2026_08_18.md` §4.2):
+
+> **Mierzę, o ile spada dokładność i przepustowość interfejsu SSVEP, gdy elektroda odniesienia musi zmieścić się w module noszonym na potylicy zamiast leżeć w miejscu standardowym, i wyznaczam najmniejszą odległość odniesienia od kory wzrokowej, przy której przepustowość jeszcze się nie załamuje — na jednym własnym torze analogowym, tą samą osobą, tym samym paradygmatem.**
+
+**Punkt odniesienia, podwójny i wewnętrzny** (~~`13_PODNIESIENIE_SZANS.md` §6~~ — punkt 2 wycofany 16 VIII, K-071):
 1. **ten sam tor analogowy z odniesieniem na płatku ucha** — górna granica, montaż literaturowy
-2. **OpenBCI Cyton, kupiony, ten sam paradygmat i ta sama osoba** — dowód, że własny sprzęt ma sens
+2. ~~**OpenBCI Cyton, kupiony** — dowód, że własny sprzęt ma sens~~ **Wycofane 16 VIII 2026 (K-071).** Cyton to narzędzie kontrolne i ubezpieczenie, nie punkt odniesienia twierdzenia (`20_ZAKUPY.md` §2)
 
 **Punkt odniesienia zewnętrzny:** reanaliza danych Kołodziej i in. 2026 (`14_REANALIZA.md` §5) — na cudzych surowych danych zejście do montażu różnicowego wewnątrz potylicy kosztuje **9,3 pp** (trzy pochodne) do **24,5 pp** (jedna pochodna). Ta liczba jest **przewidywaniem, które własny pomiar potwierdzi albo obali**, i to jest właściwa rola zewnętrznego punktu odniesienia.
 
@@ -101,12 +105,12 @@ Moduł na potylicy, plus zestaw punktów odniesienia o rosnącej odległości. W
 
 | Pozycja | Ilość | Koszt orientacyjny | Skąd liczba |
 |---|---|---|---|
-| OpenBCI Cyton, 8 kanałów | 1 | **~2 500–3 500 zł** | `[domysł]` rząd z `05_RYNEK.md`; cena katalogowa ~$500 plus cło i VAT |
+| OpenBCI Cyton, 8 kanałów | 1 | **1 300–1 600 zł używany / 6 000–6 800 zł nowy** | **POPRAWKA 18 VIII 2026 — K-084.** `[fakt]` Cena katalogowa to **1 249 USD**, nie ~500 USD. Liczba w tej tabeli była zaniżona o połowę; poprawiono ją 16 VIII w `20_ZAKUPY.md` §1.1 (K-071), ale tutaj przetrwała. **Obowiązuje `20_ZAKUPY.md` §3.1: używany Cyton do 1 600 zł, termin 30 IX 2026** |
 | elektrody kubkowe Ag/AgCl z żelem + pasta | komplet | ~150–300 zł | `[domysł]` |
 | panel LED + sterownik + fotodioda | 1 | ~120–250 zł | `[domysł]` |
-| **razem etap A** | | **~2 800–4 000 zł** | |
+| **razem etap A** | | ~~**~2 800–4 000 zł**~~ **→ 1 750–2 450 zł** (używany Cyton) | **K-084.** Przeliczone 18 VIII 2026 wobec ceny rzeczywistej; wariant obowiązujący i pełne rozbicie: `20_ZAKUPY.md` §5 |
 
-**Po co kupować, skoro celem jest własny sprzęt:** żeby **oddzielić błędy toru od błędów metody**. Bez działającego punktu odniesienia pierwsza nieudana rejestracja jest nierozstrzygalna — nie wiadomo, czy zawiódł wzmacniacz, elektrody, bodziec, czy klasyfikator. Cyton daje też baseline komercyjny wymagany przez `13_PODNIESIENIE_SZANS.md` §6.
+**Po co kupować, skoro celem jest własny sprzęt:** żeby **oddzielić błędy toru od błędów metody**. Bez działającego punktu odniesienia pierwsza nieudana rejestracja jest nierozstrzygalna — nie wiadomo, czy zawiódł wzmacniacz, elektrody, bodziec, czy klasyfikator. ~~Cyton daje też baseline komercyjny wymagany przez `13_PODNIESIENIE_SZANS.md` §6.~~ **Zdanie wycofane 16 VIII 2026 (K-071), adnotacja 18 VIII (K-084):** OpenBCI nie jest produktem konsumenckim, więc porównanie z nim nie jest porównaniem z rynkiem. Cyton pełni dwie role — test R1 i ubezpieczenie — i żadna nie jest rolą w twierdzeniu. Rozbiór: `20_ZAKUPY.md` §2.
 
 ### 3.2 Etap C — własny tor analogowy, wiosna 2027
 
@@ -125,10 +129,10 @@ Moduł na potylicy, plus zestaw punktów odniesienia o rosnącej odległości. W
 
 | | Kwota |
 |---|---|
-| etap A | 2 800–4 000 zł |
+| etap A | ~~2 800–4 000 zł~~ **1 750–2 450 zł** (K-084) |
 | etap C | 1 600–2 800 zł |
 | **rezerwa 30%** (druga seria PCB po błędzie — patrz §5.2) | 1 300–2 000 zł |
-| **całość** | **5 700–8 800 zł** |
+| **całość** | ~~**5 700–8 800 zł**~~ **4 500–7 300 zł** — suma obowiązująca z `20_ZAKUPY.md` §5, wobec budżetu **8 000 zł** (K-084, `35_AUDYT_2026_08_18.md` §3.1) |
 
 **Odniesienie do tego, co użytkownik uznał za wyobrażalne:** 15 000 zł przy projekcie drona (`00_PYTANIA_I_LUKI.md` B1, wyraźnie **nie jako limit**). Projekt mieści się w połowie tamtej kwoty.
 

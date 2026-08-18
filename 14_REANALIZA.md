@@ -97,7 +97,7 @@ Trzy niezależne przesłanki, że rola Cz to **odniesienie i tłumienie składow
 
 `[wniosek, trzy przesłanki]` Zysk +9 pp Kołodzieja to w przeważającej części **efekt referencyjny**, a nie kompensacja artefaktu mięśniowego.
 
-**Uwaga, żeby nie przesadzić z korektą** (reguła operacyjna z `PRZEKAZANIE.md` §5): praca Kołodzieja **nie jest błędna**. Autorzy nigdzie nie twierdzą, że zysk pochodzi od szczęki — piszą, że Cz był w optymalnym zestawie u 12/12 osób i nazywają go „dominant role". **Błąd był po naszej stronie**: w `12_AUDYT.md` §1.3 zapisałem „które kanały pomocnicze działały najlepiej: **Cz i szczęka**", zrównując je, a potem cała reszta dokumentacji przeniosła z tego zdania samą szczękę. To jest korekta K-051.
+**Uwaga, żeby nie przesadzić z korektą** (reguła operacyjna z `PRZEKAZANIE.md` §5): praca Kołodzieja **nie jest błędna**. Autorzy nigdzie nie twierdzą, że zysk pochodzi od szczęki — piszą, że Cz był w optymalnym zestawie u 12/12 osób i nazywają go „dominant role". **Błąd był po naszej stronie**: w `12_AUDYT.md` §1.3 zapisałem „które kanały pomocnicze działały najlepiej: **Cz i szczęka**", zrównując je, a potem cała reszta dokumentacji przeniosła z tego zdania samą szczękę. To jest korekta K-089.
 
 ---
 
@@ -409,6 +409,8 @@ Reguła z `PRZEKAZANIE.md` §5.1: **każda zmiana osi wymaga powtórzenia przesz
 | `all:SSVEP` (kontrola) | 96 |
 | `all:SSVEP AND all:reference` | 6, żadna o elektrodzie odniesienia |
 | `abs:SSVEP AND abs:wearable` | 5 |
+
+> **POPRAWKA 18 VIII 2026 — K-087.** Pozycja opisana niżej jako „preprint bez recenzji", który „pojawił się po zamknięciu etapu 1", ma w Crossref **wersję czasopiśmienną w *Technologies* z 2020 roku pod tym samym tytułem**. Wpis na arXiv jest zdeponowaniem pięć lat po publikacji. Praca jest **recenzowana i pięć lat starsza**, niż zapisano. Wniosek się nie zmienia — dotyczy elektrody czynnej, nie odniesienia, i osi nie zajmuje.
 
 **Jedna pozycja warta zapisania, znaleziona przy okazji:** *„In-Ear Electrode EEG for Practical SSVEP BCI"*, **arXiv 2509.15449, 18 IX 2025** — elektroda douszna wobec potylicznej, cztery częstotliwości, **pięciu badanych**, wniosek: wykonalne. To jest preprint bez recenzji na bardzo małej próbie, dotyczy **położenia elektrody czynnej**, nie odniesienia, i **nie zajmuje nowej osi**. Zapisuję, bo dotyczy formy urządzenia i bo pojawił się po zamknięciu etapu 1.
 

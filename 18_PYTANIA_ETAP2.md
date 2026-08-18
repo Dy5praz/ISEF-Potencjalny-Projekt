@@ -9,7 +9,7 @@
 
 **Co się stało:** zbiór danych, na którym stoi oś projektu, okazał się publiczny. Pobrałem go i policzyłem. **Przyrost +9 pp, wokół którego zbudowaliśmy twierdzenie, pochodzi od elektrody Cz na czubku głowy, a nie od kanału szczękowego.** Szczęka dokłada około **0,3 punktu procentowego**. Sprawdzone dwoma niezależnymi klasyfikatorami, po odtworzeniu tabeli autorów co do trzeciego miejsca po przecinku.
 
-Rozbiór: `14_REANALIZA.md`. Rejestr błędu: `KOREKTY.md` K-051.
+Rozbiór: `14_REANALIZA.md`. Rejestr błędu: `KOREKTY.md` K-089.
 
 **Trzy warianty:**
 
@@ -70,7 +70,7 @@ W etapie 1 świadomie nie ustaliłeś budżetu: *„najpierw opracowanie, potem 
 
 | | Kwota |
 |---|---|
-| platforma odniesienia (OpenBCI, elektrody, stymulator), jesień 2026 | 2 800–4 000 zł |
+| platforma odniesienia (OpenBCI, elektrody, stymulator), jesień 2026 | ~~2 800–4 000 zł~~ **1 750–2 450 zł** — K-084, cena poprawiona w `20_ZAKUPY.md` §1.1 |
 | własny tor analogowy (ADS1299, PCB, obudowa, elektrody), wiosna 2027 | 1 600–2 800 zł |
 | rezerwa 30% na drugą serię płytek | 1 300–2 000 zł |
 | **razem** | **5 700–8 800 zł** |

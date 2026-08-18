@@ -16,6 +16,8 @@
 | scholar.archive.org | „Rate limit reached" |
 | Scilit | HTTP 403 |
 
+> **POPRAWKA 18 VIII 2026 — K-088.** Powód niedostępności OpenAlex nazwałem tu błędnie. `[fakt, odpowiedź API odczytana 18 VIII 2026]` OpenAlex zwraca: *„Insufficient budget. This request costs $0.001 but you only have $0 remaining. Resets at midnight UTC. Need more? Add funds at openalex.org/pricing"* — czyli **wyczerpany darmowy budżet w modelu płatnym, nie limit adresu**. Obejściem nie jest inna sieć, tylko **klucz API albo odczekanie do północy UTC**; Semantic Scholar (HTTP 429) też wydaje klucze. **Obie bazy są dostępne za darmo po założeniu klucza** — do zrobienia przy następnym przeszukaniu prior art.
+
 `[fakt]` **To jest limit nałożony na adres tego środowiska, nie brak dostępu do treści.** Nie da się tego obejść inaczej niż z innej sieci — i **nie zamierzam próbować obejść limitu podszywaniem się**, bo to jest ta sama kategoria co fałszowanie danych.
 
 **Obszedłem inaczej: przez indeksy, które pokrywają ten sam korpus i puszczają.**
@@ -115,8 +117,8 @@ Rozwiązują to **inaczej niż my** — siecią neuronową rekonstruującą sygn
 **Trzy projekty. Trzy osie. Wszystkie trzy okazały się zajęte, gdy przeszukać je słownictwem dziedziny.**
 
 - **dron**: „integracja i benchmark" — sam ConOps przyznaje, że elementy istnieją osobno
-- **orteza**: teza 1 zajęta (przyznane), teza 2 w polu czynnie badanym (ICORR 2025, Sensors 2025 — K-057)
-- **interfejs**: oś szczękowa martwa (K-051), oś odległości odniesienia badana od 2005 (ten plik)
+- **orteza**: teza 1 zajęta (przyznane), teza 2 w polu czynnie badanym (ICORR 2025, Sensors 2025 — K-073)
+- **interfejs**: oś szczękowa martwa (K-089), oś odległości odniesienia badana od 2005 (ten plik)
 
 `[wniosek]` **To nie jest pech ani seria złych wyborów. Tak wygląda literatura, kiedy się ją naprawdę przeszuka.** Dla licealisty twierdzenie „nikt tego nie zrobił" jest praktycznie niedostępne — nie dlatego, że pomysły są słabe, tylko dlatego, że dziedzina ma dwadzieścia lat i tysiące zespołów.
 

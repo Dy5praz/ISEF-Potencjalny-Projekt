@@ -12,7 +12,7 @@
 
 **Studia za granicą, najpewniej w Stanach. Explory i ISEF są środkiem, nie celem.** Dorobek (urządzenie + odtwarzalne badanie + preprint) ma ~50–60% i leży pod kontrolą autora; wyjazd na ISEF ~14% i zależy od jury. **Priorytet ustawiać pod dorobek.** ISEF maj 2028 wypada przed aplikacjami jesienią 2028, więc oba zdążą.
 
-**Zasada pracy: zaczynaj od tego, co punktują arkusze oceny, nie od polowania na lukę** (K-059).
+**Zasada pracy: zaczynaj od tego, co punktują arkusze oceny, nie od polowania na lukę** (K-075).
 
 ---
 
@@ -24,8 +24,8 @@
 - [x] ~~Test kanału szczękowego na żądanie użytkownika~~ — **16 VIII** · AI
 - [x] ~~Decyzje 5 i 6 (oś: wariant C; przewód odniesienia za ucho: zgoda)~~ — **16 VIII** · JT
 - [x] ~~Ocena ConOps drona i ortezy, porównanie, noty~~ — **16 VIII** · AI
-- [x] ~~Audyt w bazach wcześniej niedostępnych; oś zajęta od 2005; K-058~~ — **16 VIII** · AI
-- [x] ~~Zmiana hierarchii celów i zasady „od arkuszy"; K-059~~ — **16 VIII** · JT + AI
+- [x] ~~Audyt w bazach wcześniej niedostępnych; oś zajęta od 2005; K-074~~ — **16 VIII** · AI
+- [x] ~~Zmiana hierarchii celów i zasady „od arkuszy"; K-075~~ — **16 VIII** · JT + AI
 - [ ] **Przeczytać `14_REANALIZA.md` w całości** — reszta dokumentów z niego wynika · JT
 
 ---
@@ -91,7 +91,7 @@
 - [ ] **E1 — charakterystyka toru bez człowieka**: szum RMS, dryf, pasmo, wzmocnienie, kalibracja skali dzielnikiem · JT
 - [ ] **Zasób „brat"** — pożyczenie przyrządów na jitter i CMRR powyżej 100 dB. **Zaplanowany właśnie na teraz, nie wcześniej** · JT
 - [ ] **[!] 28 II 2027 — ZGŁOSZENIE DO EXPLORY.** Projekt nie musi być ukończony · JT
-- [ ] Wskazanie SDG 9 i obszaru Gospodarka i Bezpieczeństwo w formularzu · JT
+- [ ] **Wskazanie obszaru Człowiek i Społeczeństwo w formularzu** (cel SDG: 3 albo 10) · JT — **poprawione 18 VIII 2026, K-081.** Stało tu „SDG 9 i obszar Gospodarka i Bezpieczeństwo"; rekomendacja wycofana w `30` §4.3
 
 ---
 
@@ -164,11 +164,11 @@
 - [x] ~~R8: prior art w Crossref i arXiv~~ — **niezajęte, 16 VIII.** Zostaje baza patentów
 - [x] ~~Czy kanał szczękowy uzasadnia oś~~ — **nie, sufit +0,6 pp, p = 0,166**
 - [x] ~~Czy TRCA zmienia obraz~~ — **niewykonalne na cudzym zbiorze, faza niezsynchronizowana**
-- [x] ~~Ile kosztuje OpenBCI~~ — **1 249 USD za Cyton, K-055**
-- [x] ~~Jaki oscyloskop do pomiaru mikrowoltów~~ — **żaden, K-056.** Mierzy własny przetwornik
+- [x] ~~Ile kosztuje OpenBCI~~ — **1 249 USD za Cyton, K-071**
+- [x] ~~Jaki oscyloskop do pomiaru mikrowoltów~~ — **żaden, K-072.** Mierzy własny przetwornik
 - [x] ~~Czy orteza i dron są lepsze~~ — **`22_POROWNANIE.md`, `23_NOTY.md`**
-- [x] ~~Czy oś trzyma się w bazach, które blokowały~~ — **nie; badana od 2005, K-058**
-- [x] ~~Czy zaczynać od luki, czy od arkuszy~~ — **od arkuszy, decyzja użytkownika 16 VIII, K-059**
+- [x] ~~Czy oś trzyma się w bazach, które blokowały~~ — **nie; badana od 2005, K-074**
+- [x] ~~Czy zaczynać od luki, czy od arkuszy~~ — **od arkuszy, decyzja użytkownika 16 VIII, K-075**
 
 ---
 

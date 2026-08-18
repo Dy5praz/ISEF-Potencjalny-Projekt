@@ -13,12 +13,12 @@ Każde ryzyko oceniam w trzech wymiarach wymaganych przez `HANDBOOK.md` §2.2: *
 |---|---|---|---|---|---|
 | **R1** | słaba odpowiedź SSVEP u autora | **20–30%** | niska | **bardzo wysoki** | **X 2026, przesiew E0 — 20 min** |
 | **R2** | własny tor analogowy nie osiąga użytecznego szumu | 40% | wysoka | średni | II 2027 |
-| **R3** | brak sprzętu pomiarowego do charakterystyki toru | **20%** | średnia | **niski** | **przeszacowane, K-056** |
+| **R3** | brak sprzętu pomiarowego do charakterystyki toru | **20%** | średnia | **niski** | **przeszacowane, K-072** |
 | **R4** | efekt odległości odniesienia < 3 pp — T1 upada | **25%** | zerowa | wysoki | XI 2026 (na cudzych danych: już częściowo znany) |
 | **R5** | ktoś publikuje tę samą oś przed nami | 10–20% | zerowa | **niski** | ciągle |
 | **R6** | komisja IRB przy szkole nie powstaje | 30% | średnia | niski | XII 2026 |
 | **R7** | poślizg: druga wersja płytki wypada po V 2027 | 35% | wysoka | wysoki | III 2027 |
-| **R8** | ~~nowa oś zajęta w bazach nieprzeszukanych~~ → **oś JEST zajęta w wersji szerokiej** | **ziściło się** | — | średni | **ZAMKNIĘTE 16 VIII: K-058** |
+| **R8** | ~~nowa oś zajęta w bazach nieprzeszukanych~~ → **oś JEST zajęta w wersji szerokiej** | **ziściło się** | — | średni | **ZAMKNIĘTE 16 VIII: K-074** |
 | **R9** | moduł nie mieści się w granicy gabarytu | 25% | wysoka | średni | I 2027 |
 | **R10** | brak opiekuna z tytułem / Qualified Scientist | 20% `[luka]` | średnia | **bardzo wysoki** | XI 2026 |
 | **R11** | ~~użytkownik odrzuca zmianę osi~~ | — | — | — | **ZAMKNIĘTE 16 VIII: wariant C** |
@@ -57,7 +57,7 @@ Cały plan jednoosobowy do maja 2027 stoi na założeniu, że autor nie jest tak
 
 ## R3 — brak sprzętu pomiarowego do E1
 
-**Ryzyko przeszacowane — obniżam z 50% na 20%, K-056.** Użytkownik odpowiedział na B3: ma **regulowaną stację lutowniczą i multimetr**. Ważniejsze jest jednak to, że moje sformułowanie wymagania było błędne.
+**Ryzyko przeszacowane — obniżam z 50% na 20%, K-072.** Użytkownik odpowiedział na B3: ma **regulowaną stację lutowniczą i multimetr**. Ważniejsze jest jednak to, że moje sformułowanie wymagania było błędne.
 
 `[fakt]` Szum wejściowy toru mierzy się **samym torem**, nie przyrządem zewnętrznym — zwarte wejście, RMS z próbek przetwornika 24-bitowego. Oscyloskop hobbystyczny ma szum własny rzędu setek mikrowoltów, czyli **tysiąc razy większy** od mierzonej wielkości, i do tego pomiaru jest bezużyteczny. Przyrząd zewnętrzny jest potrzebny **jako źródło znanego sygnału**.
 
@@ -119,13 +119,15 @@ Użytkownik zgłosił, że z formalnościami nie będzie problemu, i pozycja zes
 
 ## R8 — nowa oś zajęta w bazach, których nie przeszukałem
 
-> **ZISCIŁO SIĘ, 16 VIII 2026 wieczorem — K-058.** OpenAIRE (baza, której limit wcześniej mnie blokował, obeszta przez inny indeks) pokazała **siedem prac o doborze montażu i odniesienia dla SSVEP, od 2005 roku**, w tym pomiar dokładnie naszej zmiennej (EMBC 2010: dwubiegunowy 80,1% wobec jednobiegunowego 74,5%) i pracę z 2026 z naszym zdaniem problemowym w tytule. **Przyczyna przeoczenia: szukałem własnym słownictwem, nie słownictwem dziedziny.** Ryzyko podniesione z 10–15% na **25–40%** dla wąskiej wersji osi. Rozbiór: `25_AUDYT_OPENAIRE.md`.
+> **ZISCIŁO SIĘ, 16 VIII 2026 wieczorem — K-074.** OpenAIRE (baza, której limit wcześniej mnie blokował, obeszta przez inny indeks) pokazała **siedem prac o doborze montażu i odniesienia dla SSVEP, od 2005 roku**, w tym pomiar dokładnie naszej zmiennej (EMBC 2010: dwubiegunowy 80,1% wobec jednobiegunowego 74,5%) i pracę z 2026 z naszym zdaniem problemowym w tytule. **Przyczyna przeoczenia: szukałem własnym słownictwem, nie słownictwem dziedziny.** Ryzyko podniesione z 10–15% na **25–40%** dla wąskiej wersji osi. Rozbiór: `25_AUDYT_OPENAIRE.md`.
 
 **Historia pozycji — zamknięte w trzech czwartych tego samego dnia.** Pierwotnie dla nowej osi miałem tylko PubMed — czyli dokładnie ten błąd, który `PRZEKAZANIE.md` §5 wymienia jako **wzorzec numer 1**: zmiana konfiguracji projektu bez powtórzenia audytu prior art. Zamiast zapisać go jako zadanie na później, domknąłem go od razu.
 
 **Stan po 16 VIII 2026** (`14_REANALIZA.md` §11): **PubMed, Crossref i arXiv przeszukane — nowa oś niezajęta.** Znaleziona jedna nowa pozycja o formie urządzenia (arXiv 2509.15449, elektroda douszna dla SSVEP, pięciu badanych), która osi nie zajmuje.
 
-`[luka]` **Nieprzeszukana zostaje baza patentów** dla nowej osi, oraz literatura nieanglojęzyczna.
+> **ZAMKNIĘTE 18 VIII 2026, `35_AUDYT_2026_08_18.md` §2.8 i §2.1.** **Patenty przeszukane** (Google Patents, pięć zapytań): żaden patent nie zajmuje pomiaru — patenty chronią konstrukcje, a te są chronione gęsto (InteraXon, Neurable, Mybrain, Brainpatch, Meta, Cognixion, Georgia Tech, UPenn). **Skutek: nie wolno opisać modułu jako wynalazku.** **Literatura nieanglojęzyczna przeszukana po raz pierwszy** — i tam leżał wynik zabijający szeroką wersję twierdzenia: **Li X. i in., PMID 40566767, 2025, po chińsku** — noszalny interfejs SSVEP, 94,10% przy 40 celach, ITR 115,25 bit/min, *„no significant difference"* wobec warunków laboratoryjnych. **K-077.**
+
+~~`[luka]` **Nieprzeszukana zostaje baza patentów** dla nowej osi, oraz literatura nieanglojęzyczna.~~
 
 **Plan awaryjny:** patenty do sprawdzenia przed jakimkolwiek zakupem, czyli przed X 2026. Jeżeli oś okaże się zajęta, wraca pytanie o oś — ale **sprzęt z `15_PROJEKT.md` się nie zmienia**, więc koszt jest w dokumentacji, nie w pieniądzach.
 
