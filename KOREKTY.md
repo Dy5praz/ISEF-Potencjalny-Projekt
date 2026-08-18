@@ -889,3 +889,15 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 **Poprawka merytoryczna, ważniejsza od samego sprostowania:** wartość tego projektu jest **asymetryczna geograficznie** — w USA przelicza się na przyjęcie, w stypendiach za osiągnięcia na pieniądze, w Europie kontynentalnej **na nic formalnie**. To wzmacnia zasadę pierwszeństwa z sekcji 4 pliku `32`: przy kolizji o czas **projekt ustępuje maturze i SAT**, bo matura jest jedyną walutą w wariancie europejskim.
 
 **Reguła do zapamiętania:** zanim nazwę jakiekolwiek sito łatwiejszym, mam sprawdzić, **co ono punktuje**, a nie ilu przepuszcza.
+
+---
+
+### K-068 — liczba „3–4× wyższy wskaźnik przyjęć" nie istnieje jako dana i wychodzi z dokumentacji
+
+**Co było źle:** `32_STUDIA_USA.md` sekcja 3 nosiła od 17 VIII zapis `[domysł, źródło słabe]` o tym, że finaliści ISEF mają 3–4× wyższy wskaźnik przyjęć, a laureaci 5–6×, z adnotacją „do zweryfikowania". **Zostawienie liczby w pliku z etykietą „słabe źródło" jest półśrodkiem** — po kilku tygodniach etykieta blednie, a liczba zostaje.
+
+**Co ustalono przy zamykaniu pozycji R5:** `[fakt]` twierdzenie występuje wyłącznie w materiałach firm doradztwa rekrutacyjnego, bez wskazania źródła pierwotnego. Society for Science publikuje fact sheety ISEF i wyróżnienia absolwentów — **nie publikuje statystyk rekrutacyjnych**. Żadna uczelnia nie podaje wskaźnika przyjęć w rozbiciu na osiągnięcia kandydatów. To samo dotyczy krążącej liczby „23% przyjętych na MIT startowało w konkursach naukowych".
+
+**Poprawka:** liczba **wykreślona**, nie oznaczona. Zastąpiona jedynymi twardymi danymi, jakie istnieją — sekcja C7 Common Data Set, odczytana z oryginalnego PDF-u Caltechu (2024/2025): **extracurricular activities „Important", talent/ability „Considered"**, przy „Very Important" dla trudności programu, wyników testów, esejów, rekomendacji i oceny charakteru.
+
+**Reguła:** liczby, której nie da się doprowadzić do źródła pierwotnego, nie zostawia się w dokumentacji z ostrzeżeniem. Się ją usuwa i zapisuje, dlaczego.

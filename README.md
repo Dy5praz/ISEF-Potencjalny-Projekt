@@ -12,7 +12,7 @@
 | 2 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
 | 3 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
 | 4 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
-| 5 | `KOREKTY.md` | rejestr błędów **K-001…K-067**. Dopisuj każdy nowy |
+| 5 | `KOREKTY.md` | rejestr błędów **K-001…K-068**. Dopisuj każdy nowy |
 | 6 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
 | 7 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
 
@@ -87,7 +87,7 @@ Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → 
 | R2 | CMU: need-blind czy need-aware wobec obcokrajowców | jesień 2027 |
 | R3 | Georgia Tech: czy wybór kierunku jest wiążący przy aplikacji | jesień 2027 |
 | R4 | czy CMU ma aerospace na licencjacie | jesień 2027 |
-| R5 | realna waga statusu finalisty ISEF — dane uczelni, **nie blogi** | jesień 2027 |
+| ~~R5~~ | **ZAMKNIĘTE 17 VIII 2026.** Liczb o „3–4× wyższych szansach" nie da się doprowadzić do źródła — wykreślone (K-068). Twarde dane to CDS sekcja C7: u Caltechu dorobek pozalekcyjny w drugim stopniu wagi, poniżej ocen, testów, esejów i rekomendacji. `32` sekcja 3.1 | zrobione |
 | R6 | terminarz SAT/TOEFL | jesień 2027 |
 | R7 | ustawić rekomendacje w szkole | wiosna 2028 |
 | R8 | pytanie do OKE o termin dodatkowy matury (dotyczy tylko ISEF 2029) | jesień 2028 |

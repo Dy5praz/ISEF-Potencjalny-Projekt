@@ -271,7 +271,41 @@ Czyli: **uczelnia amerykańska z pomocą jest tańsza niż europejska**, a europ
 
 `[wniosek]` **Dla tej czwórki różnica między finalistą a czwartą nagrodą jest mniejsza, niż się wydaje.** Znacznie większą różnicę robi umiejętność opowiedzenia o projekcie i pokazania, że jest własny.
 
-`[domysł, źródło słabe — blogi rekrutacyjne, nie dane uczelni]` Krąży liczba „finaliści ISEF mają 3–4× wyższy wskaźnik przyjęć, laureaci 5–6×". **Nie opierać na tym niczego.** Do zweryfikowania na danych uczelni albo Society for Science — pozycja otwarta.
+### 3.1 Waga statusu finalisty ISEF — pozycja R5 SPRAWDZONA, 17 VIII 2026
+
+**Zlecenie brzmiało: zweryfikować na danych uczelni, nie na blogach. Zrobione. Wynik jest w dwóch częściach i pierwsza jest negatywna.**
+
+**Część 1: liczby, które krążą, są niesprawdzalne.**
+
+`[fakt]` Twierdzenia „finaliści ISEF mają 3–4× wyższy wskaźnik przyjęć, laureaci kategorii 5–6×" oraz „23% przyjętych na MIT startowało w konkursach naukowych, w tym 8% finalistów ISEF" **występują wyłącznie w materiałach firm doradztwa rekrutacyjnego i nie mają wskazanego źródła pierwotnego.** Przeszukane: strony Society for Science (fact sheety ISEF, raporty roczne, sekcja o absolwentach) — **publikują wyróżnienia absolwentów, nie statystyki rekrutacyjne**. Żadna uczelnia nie publikuje wskaźnika przyjęć w rozbiciu na osiągnięcia kandydatów.
+
+**Wniosek operacyjny: tę liczbę wykreślić z rozumowania na stałe.** Nie da się jej zweryfikować, więc nie wolno na niej niczego opierać — również w drugą stronę, jako argumentu, że ISEF nie działa.
+
+**Część 2: jedyne twarde dane, jakie istnieją, to Common Data Set, sekcja C7.**
+
+CDS to standardowy formularz, który uczelnie publikują same. Sekcja C7 podaje **wagę każdego czynnika rekrutacyjnego w czterech stopniach**: Very Important, Important, Considered, Not Considered.
+
+`[fakt]` Odczytane **z oryginalnego pliku PDF Caltechu (Common Data Set 2024–2025, maj 2025)**, tabela C7:
+
+| Czynnik | Waga u Caltechu |
+|---|---|
+| Rigor of secondary school record (trudność programu w liceum) | **Very Important** |
+| Standardized test scores | **Very Important** |
+| Application Essay | **Very Important** |
+| Recommendations | **Very Important** |
+| Character/personal qualities | **Very Important** |
+| Academic GPA | Important |
+| Class rank | Important |
+| **Extracurricular activities** | **Important** — drugi stopień |
+| **Talent/ability** | **Considered** — trzeci stopień |
+| Volunteer work, work experience, first generation, geographical residence | Considered |
+| Interview, alumni relation, state residency, religious affiliation, level of interest | Not Considered |
+
+`[wniosek]` **We własnej publikacji Caltechu projekt siedzi w drugim stopniu wagi, a „talent/zdolności" w trzecim — poniżej ocen, wyników testów, esejów, rekomendacji i oceny charakteru.** To jest dokładnie odwrotna hierarchia niż ta, którą sugerują materiały doradcze.
+
+`[luka]` Nie udało mi się odczytać C7 dla MIT, Princeton i Brown — strony ich biur badań instytucjonalnych są zablokowane dla automatu albo renderowane po stronie klienta. Wyszukiwarka zwraca streszczenie, jakoby Princeton oznaczał „extracurricular activities" jako **Very Important**, ale **nie potwierdziłem tego w dokumencie źródłowym i nie traktuję jako faktu.** Pozycja do domknięcia ręcznie: pliki CDS tych trzech uczelni, sekcja C7.
+
+**Czego ten wynik nie mówi:** że projekt nie ma znaczenia. C7 mierzy wagę **kategorii**, nie tego, co dana rzecz robi z resztą aplikacji. Projekt zasila trzy pozycje z górnego stopnia jednocześnie: **esej, rekomendacje i ocenę charakteru** — bo o czymś trzeba pisać i ktoś musi mieć o czym napisać rekomendację. To jest realny mechanizm i jest zgodny z tym, co C7 pokazuje. Nieprawdziwa jest tylko wersja, w której sam wpis „ISEF finalist" mnoży szanse przez cztery.
 
 ---
 
@@ -309,6 +343,50 @@ Projekt to jeden z sześciu elementów i nie największy.
 
 **Reguła druga, po dopisaniu Caltechu i Stanforda:** przy uczelniach need-aware **wniosek o pomoc jest częścią decyzji rekrutacyjnej**, a rezygnacja z wniosku jest nieodwracalna na cztery lata. To jest decyzja do podjęcia świadomie jesienią 2028, nie odruchowo przy wypełnianiu formularza.
 
+**Przeliczenie zbiorcze, z listą rozszerzoną i z czułością na SAT i oceny: sekcja 5.1 poniżej.**
+
+### 5.1 Czy ten cel jest realny — odpowiedź wprost, 17 VIII 2026
+
+Pytanie użytkownika: *„czy mogę liczyć na studia w Stanach, czy to bardziej możliwe, ale lepiej się nie nakręcać".*
+
+**Odpowiedź: realne, ale nie jako plan z jednym wynikiem. Jako portfel.**
+
+`[domysł]`, błąd rzędu ×1,5 w każdą stronę. Założenie: projekt dowieziony, przyzwoity SAT, dobre oceny, obcokrajowiec wnioskujący o pomoc, bez powiązań rodzinnych z uczelnią.
+
+| Uczelnia | Szansa na przyjęcie z pokryciem kosztów |
+|---|---|
+| MIT | 2–3% |
+| Princeton | 1,5–2,5% |
+| Brown | 2–3% |
+| Stanford | 1,5–3% |
+| Caltech | 1–2% |
+| Carnegie Mellon | 3–5% |
+| **Notre Dame** | **5–8%** |
+| **Olin** | **8–12%** |
+| ścieżka stypendialna (CWRU, BU, USC, Vanderbilt) — przyjęcie łatwiejsze, ale pełne czesne rzadkie | 3–8% na komplet „przyjęcie + pieniądze" |
+
+**Przy ośmiu–dziesięciu dobrze dobranych zgłoszeniach: `[domysł]` ~25–35% na co najmniej jedną ofertę, którą da się sfinansować.**
+
+**Czułość tej liczby — to jest najważniejsza część odpowiedzi:**
+
+| Co się zmienia | Dokąd idzie liczba |
+|---|---|
+| słaby SAT albo słabe oceny | **spada do 5–10%.** Żaden projekt tego nie odrabia |
+| SAT w górnym przedziale, mocne eseje | **rośnie do 40–50%** |
+| lista złożona z samych uczelni z pierwszej piątki tabeli | **spada do ~10%**, bo to osiem loterii o tym samym rozkładzie |
+| dopisanie Notre Dame, Olin i ścieżki stypendialnej | **największy pojedynczy przyrost w całym zestawieniu** |
+
+`[wniosek]` **Konstrukcja listy uczelni daje więcej niż jakiekolwiek dodatkowe osiągnięcie konkursowe.** Różnica między listą źle a dobrze złożoną to kilkanaście punktów procentowych; różnica między finalistą ISEF a laureatem — pojedyncze punkty.
+
+**Czego ta liczba nie zawiera i zawierać nie może:** wyniku ISEF. `[domysł]` Prawdopodobieństwo, że użytkownik w ogóle pojedzie na ISEF, wynosi ~22% (`31` sekcja 8). **Plan rekrutacyjny nie może być na tym oparty** — i nie jest, bo urządzenie, dziennik pracy i materiał na esej powstają niezależnie od tego, czy jury Explory wybierze ten projekt do trójki.
+
+**Zdanie, które jest uczciwym podsumowaniem:**
+
+> Prawdopodobieństwo **konkretnej wymarzonej uczelni** jest niskie i tak zostanie — to jest 1–3% i żadna praca tego nie zmieni w 30%.
+> Prawdopodobieństwo **jakiegoś dobrego zakończenia** — amerykańska uczelnia z pokryciem kosztów, mocny program europejski albo najlepszy polski kierunek z zagranicznym magisterium — jest **wysokie**, pod warunkiem że lista jest zbudowana pod finanse, a matura i SAT nie ucierpią.
+
+**Nakręcać się warto na proces, nie na nazwę uczelni.** Wersja „dostanę się do MIT albo porażka" jest statystycznie gwarantowanym rozczarowaniem przy każdym poziomie pracy. Wersja „zbuduję urządzenie, zdam dobrze maturę i SAT, złożę dziesięć przemyślanych zgłoszeń" ma około jednej trzeciej szans na wynik amerykański i bardzo wysoką na wynik dobry.
+
 ---
 
 ## 6. Matura wobec ISEF — kolizja jest częściowa, nie całkowita
@@ -333,7 +411,7 @@ Projekt to jeden z sześciu elementów i nie największy.
 | 2 | ustalić, czy **CMU jest need-blind czy need-aware** wobec obcokrajowców | jesień 2027 | otwarte |
 | 3 | ustalić, czy **Georgia Tech wiąże wybór kierunku** przy aplikacji | jesień 2027 | otwarte |
 | 4 | sprawdzić, czy **CMU ma aerospace** na poziomie licencjackim | jesień 2027 | otwarte |
-| 5 | zweryfikować **realną wagę statusu finalisty ISEF** w rekrutacji — dane uczelni albo Society for Science, **nie blogi** | jesień 2027 | otwarte |
+| 5 | zweryfikować **realną wagę statusu finalisty ISEF** w rekrutacji — dane uczelni albo Society for Science, **nie blogi** | zrobione 17 VIII 2026 | **ZAMKNIĘTE, sekcja 3.1.** Liczby z blogów niesprawdzalne i wykreślone; twarde dane to CDS C7. Zostaje `[luka]`: odczytać C7 dla MIT, Princeton, Brown |
 | 6 | **terminarz SAT/TOEFL** wobec kalendarza projektu | jesień 2027 | otwarte |
 | 7 | ustawić w szkole **rekomendacje** (2 nauczycieli + wychowawca) | wiosna 2028 | otwarte |
 | 8 | pytanie do **OKE o termin dodatkowy** matury | jesień 2028 | otwarte, dotyczy tylko ISEF 2029 |
