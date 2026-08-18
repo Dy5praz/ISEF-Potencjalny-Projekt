@@ -372,6 +372,21 @@ Projekt to jeden z sześciu elementów i nie największy.
 
 `[wniosek]` **Jedna kolizja do zapamiętania:** majowy termin SAT wypada zwykle w pierwszą sobotę maja, a ISEF 2028 przypada 9–16 maja. Terminy majowe 2028 omijać — brać marzec i czerwiec.
 
+#### Czy SAT zdaje się w Polsce — tak, wyjazd do USA nie jest potrzebny
+
+`[fakt]` SAT jest egzaminem prowadzonym w ośrodkach na całym świecie; College Board podaje, że wyniki przyjmuje ponad 4 000 uczelni w USA i w 65 innych krajach. `[fakt]` **Poza USA egzamin jest w wersji cyfrowej (Bluebook) od dawna — wersji papierowej tam nie ma.** Rejestracja idzie przez to samo konto College Board co w USA, bez osobnego portalu.
+
+`[domysł, źródło wtórne]` Ośrodki w Polsce to **Warszawa (American School of Warsaw) i Kraków**. Wyszukiwarki ośrodków College Board nie dało się odczytać automatem — jest renderowana po stronie klienta (`PRZEKAZANIE.md` sekcja 5, znany problem). **Do sprawdzenia ręcznie przy zakładaniu konta**, razem z liczbą wolnych miejsc.
+
+`[domysł, źródło wtórne]` Koszt dla zdającego poza USA: **~111 USD**, czyli zweryfikowana opłata bazowa 68 USD plus opłata regionalna. To ~412 zł po kursie z 17 VIII 2026.
+
+**Dwie rzeczy do sprawdzenia przy rejestracji, obie mogą zaskoczyć:**
+
+1. `[luka]` **Dostępność terminów.** Główna strona terminów College Board mówi, że kalendarz 2026/27 „dotyczy wszystkich uczniów — z USA i międzynarodowych". Starsza strona międzynarodowa tego samego wydawcy pisze, że „w większości lat oferujemy SAT w marcu, maju, sierpniu, październiku i grudniu". **Sprzeczność w obrębie jednego wydawcy — rozstrzygać wyszukiwarką ośrodków**, bo i tak decyduje to, czy konkretny ośrodek otwiera się na dany termin. Przy dwóch ośrodkach w kraju miejsca kończą się szybko: rejestrować się od razu po otwarciu.
+2. `[fakt]` **Dokument tożsamości.** Zasada College Board: *„If you travel to another country to test, you must use a valid passport as your ID"*. `[wniosek]` Zdając we własnym kraju, dowód osobisty ze zdjęciem i imieniem w alfabecie łacińskim powinien wystarczyć — Polski nie ma na liście krajów z wyjątkami — **ale paszport jest wyborem bez ryzyka i tak go trzeba mieć na wyjazd na ISEF.**
+
+`[fakt]` W części lokalizacji poza USA College Board stosuje **system biometryczny z rozpoznawaniem twarzy**, porównujący zdjęcie z dokumentu z obrazem z egzaminu.
+
 ---
 
 ## 5. Oszacowanie szans rekrutacyjnych
