@@ -3,6 +3,8 @@
 **Data:** 15 sierpnia 2026, po zamknięciu etapu 1
 **Zlecenie użytkownika:** *„całkowita weryfikacja etapu 1 (…) chcę mieć absolutną pewność, że to co robimy nie zostało już zrobione i faktycznie nasza teza o innowacyjności nie upadnie (…) sprawdź czy nasze założenia i oczekiwania są realne, aby nie padło to jak z dronem."*
 
+> **UZUPEŁNIENIE METODY, 21 VIII 2026.** Do wzorca audytu dochodzi **procedura sprawdzania tożsamości projektu** — `37_PROCEDURA_TOZSAMOSCI_I_ROZBIORY.md` §3. Powód: dwa razy ogłosiłem twierdzenie za martwe na podstawie **zbieżności tematu**, nie zbieżności eksperymentu (K-089, K-092). **Zanim cokolwiek zostanie nazwane zajętym, siedem pytań z pełnego tekstu i werdykt jednym z trzech słów: tożsamy, sąsiedni, niezwiązany.** Wszystkie pięć prac, które w tym projekcie zabiły jakąś oś, po zastosowaniu procedury okazały się **sąsiednie** — `37` część II.
+
 **Metoda: audyt adwersaryjny.** Próbowałem ten projekt zabić, nie obronić. Każde twierdzenie traktowałem jako hipotezę do obalenia, a nie do potwierdzenia.
 
 **Wynik w jednym zdaniu: trzy z czterech kandydujących twierdzeń projektu są martwe, czwarte żyje i jest opisane w literaturze jako luka — ale ma nazwanego konkurenta z terminem.**

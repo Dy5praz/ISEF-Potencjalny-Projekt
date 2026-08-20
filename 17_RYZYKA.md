@@ -84,6 +84,8 @@ Cały plan jednoosobowy do maja 2027 stoi na założeniu, że autor nie jest tak
 
 ## R5 — ktoś publikuje pierwszy
 
+> **OBNIŻONE 21 VIII 2026 z 10–20% na 5–10% — `37_PROCEDURA_TOZSAMOSCI_I_ROZBIORY.md` §6 i §9.** Podstawa nie jest już oszacowaniem profilu grupy, tylko pomiarem: `[fakt, graf cytowań Semantic Scholar]` praca Kołodziej i in. 2026 ma **po siedmiu miesiącach jedno cytowanie**, i jest nim koreański speller (PMID 41978050), nie kontynuacja sprzętowa. Do tego zero nowych prac obu autorów w PubMed (sprawdzone imiennie). **Mocniejsza przesłanka ogólna:** dwie jedyne prace, które kiedykolwiek porównały montaże dla SSVEP — **Wu i Su 2014 (16 cytowań w dwanaście lat)** i **Diez i in. 2010 (23 cytowania w szesnaście lat)** — **nie mają ani jednej kontynuacji w stronę geometrii montażu**. Pole otwarto dwa razy i dwa razy nikt nie wszedł.
+
 Ocena z `12_AUDYT.md` §10 pozostaje: grupa z Politechniki Warszawskiej to **zespół przetwarzania sygnałów, bez dorobku sprzętowego**, więc ryzyko, że sami wykonają wersję sprzętową, to **10–20%**.
 
 **Dla nowej osi ryzyko jest jeszcze niższe** `[wniosek]`: pytanie o odległość odniesienia jest pytaniem konstrukcyjnym, nie algorytmicznym, i nie leży w ich profilu ani w profilu żadnego nazwanego aktora, którego znam.

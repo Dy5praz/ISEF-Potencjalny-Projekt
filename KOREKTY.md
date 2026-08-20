@@ -1326,3 +1326,48 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 **To jest trzecie wystąpienie tego samego wzorca w tym projekcie:** arXiv (składnia cudzysłowów, `14` §11.1), OpenAIRE (`keywords` wymaga wszystkich słów, `25` §2), CQVIP (selektor tytułu). **Za każdym razem zero było artefaktem narzędzia, nie stanem literatury.**
 
 **Reguła, wzmocniona do postaci mechanicznej:** **kontrola pozytywna wykonuje się PRZED zapytaniem właściwym, nie po nim**, i musi być zapytaniem o nazwę dziedziny w języku bazy. Bez zaliczonej kontroli **żadnego wyniku „zero" nie wolno zapisać do dokumentacji.** Trzy wystąpienia w dwa dni znaczą, że to nie jest przypadek, tylko domyślne zachowanie narzędzi.
+
+---
+
+## 2026-08-21
+
+### K-094 — cztery prace, które zabiły osie tego projektu, znałem wyłącznie z abstraktów
+
+**Co było.** `12_AUDYT.md` §1 uśmiercił trzy twierdzenia projektu, powołując się na prace Imperial College 2022, PNAS 2025 i Politechniki Warszawskiej 2026. `25_AUDYT_OPENAIRE.md` §3.2 dołożył pracę z *npj Biomedical Innovations* 2026 jako tę, która ma „nasze zdanie problemowe w tytule". **Z czterech tylko jedna — Kołodziej i in. — została kiedykolwiek przeczytana w całości** (i to dopiero w `14_REANALIZA.md`, dzień później, przez pobranie ich danych).
+
+**Co jest, po zastosowaniu procedury tożsamości do wszystkich pięciu:**
+
+| Praca | Co zakładałem | Co jest naprawdę |
+|---|---|---|
+| Imperial College 2022 | konkurent, „tani interfejs z wysokim ITR" | `[fakt, abstrakt preprintu]` **urządzenie edukacyjno-popularyzatorskie do masowego rozdawania**, bez warunku kontrolnego i bez zmiennej porównawczej |
+| PNAS 2025 | zajęta „elektroda sucha przez włosy" | `[fakt, pełny tekst]` praca **materiałowo-wytwórcza**; tor **kupiony**; **odniesienie nieruchome na Pz**; **dwa cele**; ITR nie podane |
+| Politechnika Warszawska 2026 | „nazwany konkurent z terminem", ryzyko najwyższe | rozebrana pomiarem; `[fakt]` po siedmiu miesiącach **jedno cytowanie**, niezwiązane |
+| Arpaia 2023 | wspierała tezę „tanie noszalne jest zrobione" | `[fakt]` praca **integracyjna** z gotowych elementów, bez własnego sprzętu; **1 cytowanie** |
+| Yan i in. 2026 (npj) | „nasze zdanie problemowe w cudzym tytule" | `[fakt, pełny tekst]` ograniczenie **medyczne** (pacjent leżący, ubytek kości potylicznej), nie gabarytowe; **rezygnują z potylicy** i odtwarzają ją siecią |
+
+**Werdykt dla wszystkich pięciu: SĄSIEDNI, żadna tożsama.** Rozbiór: `37_PROCEDURA_TOZSAMOSCI_I_ROZBIORY.md` część II.
+
+**Czego to nie zmienia i trzeba to powiedzieć wprost:** **trzy uśmiercone twierdzenia pozostają uśmiercone.** Imperial College naprawdę zrobił tani interfejs o wysokim ITR, PNAS naprawdę zrobił elektrodę suchą przez włosy. **Błąd nie polegał na tym, że uznałem je za zajęte — polegał na tym, że nie wyjąłem z nich niczego.** Każda z pięciu miała w środku liczbę, punkt widełek albo cytat, których projekt potrzebował, a które leżały nieodczytane przez tydzień.
+
+**Reguła, i jest nowa:** **praca uznana za „sąsiednią" ma obowiązkowy wyciąg trzech rzeczy** — liczby do widełek, odpowiedzi na pytanie jurora „czemu nie robisz tego, co oni", i zdania do sekcji o stanie wiedzy. `[fakt]` Regulamin Explory §7 pkt 2d płaci za to **10 punktów na 40**, czyli tyle samo, ile za innowacyjność. **Praca, która zabiła oś, jest materiałem punktowanym, a nie stratą.**
+
+---
+
+### K-095 — „nie da się przeszukać OpenAlex i Semantic Scholar" było nieprawdą; zablokowane jest tylko wyszukiwanie
+
+**Co było.** `25_AUDYT_OPENAIRE.md` §1 i `35_AUDYT_2026_08_18.md` §5 wymieniały OpenAlex i Semantic Scholar jako **niedostępne**, z konsekwencją zapisaną w pewności audytu. `36` §4 powtórzył to w tabeli.
+
+**Co jest.** `[fakt, sprawdzone 21 VIII 2026]` Zablokowany jest **wyłącznie punkt końcowy wyszukiwania**:
+
+| Punkt końcowy | Wynik |
+|---|---|
+| `api.openalex.org/works?search=` / `?filter=` | **429**, „Insufficient budget" |
+| **`api.openalex.org/works/doi:<DOI>`, `/works/pmid:<PMID>`** | **200** |
+| `api.semanticscholar.org/graph/v1/paper/search` | **429** |
+| **`…/paper/PMID:<PMID>/citations`, `/references`** | **200** |
+
+**Czyli graf cytowań był dostępny przez cały czas.** Trzy rundy przeszukania prior art odbyły się bez niego.
+
+**Dlaczego to jest błąd o dużej stawce, a nie techniczny drobiazg:** przeszukiwanie po słowach kluczowych zawiodło w tym projekcie **trzy razy** i zawsze z tego samego powodu — własne słownictwo zamiast słownictwa dziedziny (K-074, K-093). **Graf cytowań tej wady nie ma.** Pierwszy test dał od razu wynik, którego trzy rundy zapytań nie dały: **Wu i Su 2014 ma 16 cytowań w dwanaście lat, Diez i in. 2010 ma 23 w szesnaście, i ani jedno nie dotyczy geometrii montażu.**
+
+**Reguła:** **„baza niedostępna" wymaga sprawdzenia punkt końcowy po punkcie końcowym, nie jednego zapytania.** Limit nałożony na wyszukiwanie nie znaczy, że rekordy i relacje są zamknięte. Do zestawu z `PRZEKAZANIE.md` §5 wchodzi **przeszukiwanie po cytowaniach jako osobny kanał**, równorzędny z zapytaniami słownikowymi.

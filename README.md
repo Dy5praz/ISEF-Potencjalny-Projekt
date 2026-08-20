@@ -10,14 +10,15 @@
 |---|---|---|
 | **1** | **`35_AUDYT_2026_08_18.md`** | **NAJNOWSZY AUDYT, trzy przejścia, 18 VIII 2026.** Co zabija twierdzenie w brzmieniu ogólnym, co przeżyło, brzmienie obowiązujące, osiem sprzeczności między plikami, drabinka zejść rozbita, **pewność 92%** |
 | **2** | **`36_ROZBIOR_LI2025_I_PRZESZUKANIE.md`** | **rozbiór pracy, która miała zabić projekt** — pełny tekst chiński, czym się różni, widełki z pięciu opublikowanych punktów, przeszukanie 29 baz, **konkurencja ISEF sprawdzona u źródła**, pewność **94%** |
-| 3 | **`30_POWROT_DO_INTERFEJSU.md`** | **projekt bieżący** — czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a |
-| 4 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
-| 5 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
-| 6 | **`34_PARAMETRY_I_RAMY.md`** | **budżet 8 000 zł, 10 h/tydzień, kategoria EBED, drabinka zejść, plan pomiarowy** |
-| 7 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
-| 8 | `KOREKTY.md` | rejestr błędów **K-001…K-093**. Dopisuj każdy nowy. **Uwaga: odsyłacze K-051…K-059 w plikach odzyskanych z gałęzi `etap-2` zostały przemapowane 18 VIII 2026 — mapowanie przy K-089** |
-| 9 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
-| 10 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
+| **3** | **`37_PROCEDURA_TOZSAMOSCI_I_ROZBIORY.md`** | **procedura: czy cudza praca jest tym samym projektem, czy tylko tym samym pytaniem** — siedem pytań; rozbiór pięciu prac, które zabiły osie (wszystkie **sąsiednie**, nie tożsame); przeszukiwanie po grafie cytowań; **instrukcja po klucze API** |
+| 4 | **`30_POWROT_DO_INTERFEJSU.md`** | **projekt bieżący** — czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a |
+| 5 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
+| 6 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
+| 7 | **`34_PARAMETRY_I_RAMY.md`** | **budżet 8 000 zł, 10 h/tydzień, kategoria EBED, drabinka zejść, plan pomiarowy** |
+| 8 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
+| 9 | `KOREKTY.md` | rejestr błędów **K-001…K-095**. Dopisuj każdy nowy. **Uwaga: odsyłacze K-051…K-059 w plikach odzyskanych z gałęzi `etap-2` zostały przemapowane 18 VIII 2026 — mapowanie przy K-089** |
+| 10 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
+| 11 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
 
 **Pliki odzyskane 18 VIII 2026 z gałęzi `claude/etap-2-v9dtnt` (K-076)** — dorobek etapu 2 dla interfejsu, którego `main` nigdy nie widziała:
 
@@ -89,6 +90,10 @@ Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → 
 | **P11** | **reanaliza zbioru Zhu i in. 2021 — 102 osoby, PMID 33578754, publiczny.** Powtórzyć analizę montaży z `14` §5 na próbie ośmiokrotnie większej niż Kołodziej. Kod z `analiza/` już działa, koszt zero złotych | **IX 2026** |
 | **P12** | **sekcja o stanie wiedzy** z sześcioma pracami z `35` §2 — pod §7 pkt 2d regulaminu Explory, który daje **10 pkt na 40 za znajomość dotychczasowych badań** | przed zgłoszeniem |
 | **P13** | **przećwiczyć odpowiedź na zarzut „to wynika z fizyki objętościowego przewodzenia"** (`35` §2.7) | trening IX 2027 |
+| **P16a** | **klucz API do Semantic Scholar** — `semanticscholar.org/product/api`, przycisk „Request an API key", trzy pola, darmowy. **Jedyna pozycja z `37` §13, którą warto robić** — odblokowuje wyszukiwanie pełnotekstowe w największym indeksie · JT | gdy będzie chwila |
+| **P19** | **procedura tożsamości** (`37` §3) obowiązuje przed każdym „to jest zajęte" | od zaraz |
+| **P20** | **kontrola grafu cytowań co pół roku** na Wu/Su 2014 i Diez 2010 — nowe cytowanie o montażu jest sygnałem wczesnym | co pół roku |
+| **P21** | trzy gotowe odpowiedzi dla jurora do banku pytań: DSTF-Net, urządzenie za £20, dokładność bez podanego N (`37` §7, §8, §11) | trening IX 2027 |
 | **P14** | **trzecie pytanie do FZT:** czy badanie, w którym autor jest jedynym badanym własnego urządzenia, organizator klasyfikuje jako zwolnione z IRB (`35` §1.9, K-085) | jesień 2026 |
 | P2 | **przeliczyć harmonogram pod jeden cykl** (Explory 2027 → ISEF 2028) | przed budową |
 | P3 | sprawdzić dorobek grupy Kołodziej M., Majkowski A. — **sprawdzone 18 VIII 2026 imiennie w PubMed: zero nowych prac po `Sensors` 26(3):917.** Powtarzać co dwa miesiące | X 2026 |
