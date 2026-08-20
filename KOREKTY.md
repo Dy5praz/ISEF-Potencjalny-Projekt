@@ -1401,3 +1401,31 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 **Przyczyna jest znana i zapisana gdzie indziej:** Kołodziej użył 7/8/9 Hz, więc harmoniczne wypadają na 14–18 Hz, a `15_PROJEKT.md` §2.4 odrzucił to pasmo z powodu rytmu alfa. **Ten test potwierdził tamtą decyzję z zupełnie innej strony.**
 
 **Reguła:** **wynik „brak różnicy" wymaga sprawdzenia, czy mierzona wielkość w ogóle występuje w warunku odniesienia.** To jest ten sam wzorzec co kontrola pozytywna przy „zero trafień" (K-093), tylko przeniesiony z przeszukiwania na pomiar. Bez tej kontroli „brak efektu" jest artefaktem zbioru, nie wynikiem.
+
+---
+
+### K-098 — trzy dni pisałem, że baza jest niedostępna, nie spróbowawszy ponownie
+
+**Co było.** `25_AUDYT_OPENAIRE.md` §1, `35_AUDYT_2026_08_18.md` §5, `36` §4 i `37` §13 — cztery pliki zapisywały **Semantic Scholar jako niedostępny**, na podstawie HTTP 429. `37` §13.1 postawił nawet wniosek o klucz API jako **jedyną pozycję wartą zrobienia** i przypisał jej odblokowanie wyszukiwania.
+
+**Co jest.** `[fakt]` Użytkownik zacytował dokumentację: *„Most Semantic Scholar endpoints are **available to the public without authentication**, but they are rate-limited (…) Requests may also be **further throttled during periods of heavy use**"*. **Ponowna próba przeszła za pierwszym razem, HTTP 200, 2 620 trafień.**
+
+**Czyli 429 oznaczało chwilowe dławienie, nie brak uprawnień** — a ja odczytałem je jako trwałą blokadę i **zapisałem to do dokumentacji cztery razy, przez trzy dni, nie ponowiwszy próby ani razu.** Pozycja P16a była wnioskiem o klucz do bazy, która działała bez klucza.
+
+**Dlaczego to nie jest ten sam błąd co K-095.** K-095 dotyczył **nierozróżnienia punktów końcowych** (wyszukiwanie zablokowane, rekordy nie). Ten błąd jest prostszy i głupszy: **kod odpowiedzi HTTP 429 z definicji znaczy „spróbuj później", a ja potraktowałem go jak 403.**
+
+**Reguła:** **429 wymaga ponowienia po dłuższym czasie, zanim trafi do dokumentacji jako blokada.** Odróżniać trwale: **403/401** — brak uprawnień, zapisać jako blokadę; **429** — dławienie, ponowić **następnego dnia** i dopiero wtedy zapisywać; **000 albo błąd TLS** — nieosiągalne, zapisać. Do tabeli obejść w `37` §14 dopisany rozdział na te trzy klasy.
+
+---
+
+### K-099 — plan elektrod odziedziczył ograniczenie cudzego zbioru danych jako założenie o świecie
+
+**Co było.** `15_PROJEKT.md` §2.3 wymieniał cztery kandydatury na elektrodę odniesienia: 2 cm poniżej Oz, 4 cm poniżej Oz nad karkiem, wyrostek sutkowaty, płatek ucha. **Wszystkie cztery skierowane w dół albo w bok. Ani jedna w górę.** `16_PLAN_EKSPERYMENTALNY.md` §3.2 zapisywał zmienną główną jako **samą odległość**, bez kierunku.
+
+**Skąd się to wzięło.** `[fakt]` Zbiór Kołodzieja zawiera wyłącznie **O1, Oz i O2**, a te trzy punkty leżą w układzie 10–20 **na jednej linii poprzecznej** ~10% powyżej inionu. **W tamtych danych nie istnieje ani jedna para pionowa.** Reanaliza z `14` §5 mogła więc zmierzyć wyłącznie pary poziome i skośne — i wszystkie wypadły źle (−18 do −24 pp). **Plan elektrod został zbudowany na tym wyniku i przyjął „montaż zwarty jest zły" jako własność świata, choć była to własność zbioru.**
+
+**Co to ujawniło.** `[fakt]` Li i in. 2025 mieli **POz**, czyli punkt bezpośrednio powyżej Oz, i ich para **POz−Oz** dała przy 40 celach dokładność 68,25%, co przeliczone daje `[wniosek]` **~46 bit/min** — **2,6 raza więcej niż najlepszy opublikowany układ zauszny** i mniej więcej tyle, co pełny czepek żelowy przy ośmiu celach. Para na wyrostkach sutkowatych u Cardoso 2022, przy tej samej zwartości, daje **2,5 bit/min**. **Osiemnastokrotna różnica wewnątrz kategorii „montaż zwarty".**
+
+**Poprawka.** Wejście 4 przeniesione z „2 cm poniżej Oz" na **POz, ~3,5 cm powyżej Oz**; wejście 5 na „2 cm poniżej Oz" jako **warunek porównawczy dla kierunku**. Zmienna główna w `16` §3.2 staje się **dwuwymiarowa: odległość oraz kierunek**. Koszt: zero — ta sama liczba wejść, ta sama płytka, te same sesje. Przy okazji **obniża R12**, bo POz leży powyżej inionu, poza zasięgiem mięśnia karku i tylnego dołu czaszki.
+
+**Reguła, i jest ogólniejsza niż ten przypadek:** **przy budowaniu planu pomiarowego na podstawie reanalizy cudzych danych wypisać, czego w tamtym zbiorze NIE BYŁO** — i sprawdzić, czy brakująca rzecz nie jest przypadkiem zmienną. `14_REANALIZA.md` §9 wymienia dziewięć ograniczeń reanalizy i **żadne z nich nie brzmi „zbiór nie zawiera par pionowych"**. Brakujące wymiary zbioru są niewidoczne w wynikach — trzeba je wypisać z układu elektrod, zanim się na nich cokolwiek zbuduje.

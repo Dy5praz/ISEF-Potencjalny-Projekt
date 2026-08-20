@@ -60,6 +60,8 @@ Dlaczego to jest ważne i dlaczego nie jest obejściem: gdyby każdą odległoś
 
 ### 2.3 Rozkład elektrod — osiem wejść, po co każde
 
+> **POPRAWKA 21 VIII 2026 — P26.** Pierwotna tabela miała **wszystkie cztery kandydatury na odniesienie skierowane w dół albo w bok**, ani jednej w górę. `[wniosek]` Dziura odziedziczona po zbiorze Kołodzieja: **O1, Oz i O2 leżą w układzie 10–20 na jednej linii poprzecznej**, więc w tamtych danych nie istnieje ani jedna para pionowa — reanaliza mogła zmierzyć wyłącznie pary poziome i wszystkie wypadły źle. **Li i in. 2025 mieli POz i ich para pionowa wypadła nieporównanie lepiej.** Rozbiór: `39_KIERUNEK_NIE_TYLKO_ODLEGLOSC.md` §2.
+
 Moduł na potylicy, plus zestaw punktów odniesienia o rosnącej odległości. Wszystkie mierzone **jednocześnie** wobec odniesienia najdalszego.
 
 | Wejście | Położenie | Rola |
@@ -67,10 +69,10 @@ Moduł na potylicy, plus zestaw punktów odniesienia o rosnącej odległości. W
 | 1 | Oz (guzowatość potyliczna, ~2 cm powyżej inionu) | aktywna, główna |
 | 2 | O1 | aktywna |
 | 3 | O2 | aktywna |
-| 4 | ~2 cm poniżej Oz, w obrębie modułu | **kandydat na odniesienie zwarte** |
-| 5 | ~4 cm poniżej Oz, poniżej inionu, nad mięśniem karku | kandydat na odniesienie, **wnosi EMG karku** |
+| **4** | **POz — ~3,5 cm POWYŻEJ Oz, na południku środkowym** | **kandydat na odniesienie zwarte, kierunek W GÓRĘ.** Zmienione 21 VIII 2026 (P26, `39_KIERUNEK_NIE_TYLKO_ODLEGLOSC.md`). Powód: u Li i in. 2025 para POz−Oz dała **~46 bit/min przy 40 celach**, a okolica powyżej inionu jest **poza zasięgiem karku i móżdżku** (R12) |
+| **5** | **~2 cm poniżej Oz, w obrębie modułu** | **kandydat na odniesienie zwarte, kierunek W DÓŁ** — warunek porównawczy dla kierunku, przy zbliżonej odległości. Bez schodzenia poniżej inionu |
 | 6 | wyrostek sutkowaty (za uchem), cienkim przewodem | kandydat na odniesienie „krótki wyprowadzony" — **dopuszczony decyzją 6** |
-| 7 | nad mięśniem karku, blisko wejścia 5 | **kanał mięśniowy** — kontrybucja druga, warunkowa. **Nie na szczęce** — patrz niżej |
+| 7 | nad mięśniem karku, **poniżej inionu** | **kanał mięśniowy oraz kontrola R12** — mierzy, czym skażona jest okolica podpotyliczna (EMG karku, ECeG). **Kanał mięśniowy** — kontrybucja druga, warunkowa. **Nie na szczęce** — patrz niżej |
 | 8 | płatek ucha | **odniesienie literaturowe, górna granica** |
 | DRL | kark, poza obszarem pomiarowym | sterowanie prawą nogą, tłumienie 50 Hz |
 

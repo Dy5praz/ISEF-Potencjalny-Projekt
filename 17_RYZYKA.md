@@ -182,6 +182,8 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 
 **Dlaczego to nie zabija twierdzenia:** brzmi ono *„wyznaczam najmniejszą odległość, przy której przepustowość się nie załamuje"*. Jeżeli ta odległość wypadnie **powyżej inionu albo za uchem — to jest wynik, nie porażka.** Traci się gabaryt, nie pomiar.
 
+**Poprawka planu z 21 VIII 2026 (P26) obniża to ryzyko, zanim się ziści:** kandydat na odniesienie zwarte przeniesiony z „2 cm poniżej Oz" na **POz, ~3,5 cm POWYŻEJ Oz** — czyli **powyżej inionu, poza zasięgiem mięśnia karku i tylnego dołu czaszki**. Wariant w dół zostaje jako **warunek porównawczy**, a nie jako podstawowy. `39_KIERUNEK_NIE_TYLKO_ODLEGLOSC.md` §3.
+
 **Plan awaryjny — już istnieje:** decyzja 6 (`DECYZJE.md`) dopuszcza wyprowadzenie odniesienia cienkim przewodem na wyrostek sutkowaty. Zmienia się jedno położenie elektrody i jedno zdanie o gabarycie.
 
 **Test rozdzielający, koszt zerowy (P23):** raportować SNR **osobno dla f₀ i 2f₀** przy każdym położeniu odniesienia. Strata rosnąca z harmoniczną wskazuje na zanieczyszczenie odniesienia; strata niezależna od częstotliwości — na gładkie pole. `[luka]` Na danych Kołodzieja testu **nie da się wykonać** — przy bodźcach 7/8/9 Hz drugiej harmonicznej praktycznie nie ma (SNR −0,04 do +0,16 dB we wszystkich montażach). Zestaw 8,0–17,8 Hz z `16` §3.2 daje harmoniczne w paśmie 16–35,6 Hz i test umożliwia.

@@ -88,7 +88,7 @@ Dlaczego to jest ważne, a nie kosmetyczne: sesje różnią się impedancją kon
 
 | | |
 |---|---|
-| **niezależna główna** | odległość elektrody odniesienia od Oz: **~2, ~4, ~7, ~10 cm** (kolejno: wewnątrz modułu, poniżej inionu nad karkiem, wyrostek sutkowaty, płatek ucha) |
+| **niezależna główna, DWUWYMIAROWA** | **odległość** odniesienia od Oz: **~2, ~3,5, ~7, ~10 cm** — **oraz KIERUNEK: w górę (POz) wobec w dół (podpotyliczny), przy zbliżonej odległości.** Zmienione 21 VIII 2026 (P27, `39_KIERUNEK_NIE_TYLKO_ODLEGLOSC.md`). `[wniosek]` Para **POz** i **„2 cm poniżej Oz"** to warunek kontrolny w najczystszej postaci, jaką ten projekt ma: zbliżona odległość, przeciwny kierunek, ta sama sesja, te same próbki, ten sam tor — różnica jest **czystym efektem kierunku** |
 | **niezależna druga** | długość okna decyzyjnego **t = 0,5 / 1 / 2 / 3 / 4 s** — wyprowadzana z tych samych zapisów |
 | **niezależna trzecia** | liczba i rozstaw elektrod aktywnych: 1, 2, 3 kanały; rozstaw ~2 i ~4 cm (E3) |
 | **zależne** | dokładność klasyfikacji, **ITR wg Wolpawa**, SNR w paśmie bodźca, impedancja kontaktu przed i po sesji |
