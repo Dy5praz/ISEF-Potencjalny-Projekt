@@ -21,6 +21,7 @@ Każde ryzyko oceniam w trzech wymiarach wymaganych przez `HANDBOOK.md` §2.2: *
 | **R8** | ~~nowa oś zajęta w bazach nieprzeszukanych~~ → **oś JEST zajęta w wersji szerokiej** | **ziściło się** | — | średni | **ZAMKNIĘTE 16 VIII: K-074** |
 | **R9** | moduł nie mieści się w granicy gabarytu | 25% | wysoka | średni | I 2027 |
 | **R10** | brak opiekuna z tytułem / Qualified Scientist | 20% `[luka]` | średnia | **bardzo wysoki** | XI 2026 |
+| **R12** | **elektroda odniesienia w module siedzi nad móżdżkiem i mięśniem karku** | `[domysł]` **40–60%** | średnia | **niski dla twierdzenia, średni dla gabarytu** | pierwsza własna sesja, wiosna 2027 |
 | **R11** | ~~użytkownik odrzuca zmianę osi~~ | — | — | — | **ZAMKNIĘTE 16 VIII: wariant C** |
 
 ---
@@ -166,6 +167,24 @@ Użytkownik zażądał przy tym sprawdzenia, czy kanał szczękowy w ogóle daje
 **Ryzyko rezydualne, które z tego zostaje i jest realne** `[wniosek]`: wariant C oznacza, że **do pierwszych własnych pomiarów projekt nie ma jednego zdania twierdzenia**. Do zgłoszenia Explory (28 II 2027) zdanie musi istnieć. Pierwsze pomiary w torze A planowane są na **X 2026**, czyli z czteromiesięcznym zapasem — ale jeżeli tor A się opóźni, zgłoszenie pisze się na osi wybranej bez pomiaru, czyli dokładnie tak, jak nie chcemy.
 
 **Plan awaryjny:** jeżeli do **31 XII 2026** nie ma własnych pomiarów, oś wybieramy **wariantem A** (odległość odniesienia) na podstawie samej reanalizy i zapisujemy, że wybór był bez własnego pomiaru. Reanaliza jest do tego wystarczającą podstawą — efekt 9–24 pp wobec 0,6 pp nie jest bliskim rozstrzygnięciem.
+
+---
+
+## R12 — okolica podpotyliczna nie jest elektrycznie cicha
+
+**Dopisane 21 VIII 2026 po pytaniu użytkownika „dlaczego nikt tego nie tyka". Rozbiór: `38_DLACZEGO_NIKT_TEGO_NIE_MIERZY.md`.**
+
+Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda odniesienia modułu:
+
+1. `[fakt, PMID 12948787]` **mięśnie karku** — Goncharova i in. 2003: *„EMG contamination is greatest at the **periphery of the scalp** near the active muscles"*, a widmo EMG ma *„peaks in the **beta** frequency range that resemble EEG beta peaks"*
+2. `[fakt, PMID 29886131]` **móżdżek** — Todd, Govender, Colebatch 2018: elektrody nad tylnym dołem czaszki (CB1/CB2, ~5% poniżej PO9/PO10) rejestrują ECeG, a *„**visual stimulation (…) was effective in increasing the high-frequency power in CB electrodes, including in beta (14–30 Hz)** and gamma"*. **Odniesienie może samo nieść sygnał reagujący na bodziec, w paśmie drugich harmonicznych SSVEP**
+3. `[fakt, pomiar własny]` **gładkie pole SSVEP** — `14_REANALIZA.md` §5, plus nowa liczba: montaż zwarty kosztuje **2,7–3,6 dB SNR** w prążku bodźca (`analiza/harmoniczne.py`)
+
+**Dlaczego to nie zabija twierdzenia:** brzmi ono *„wyznaczam najmniejszą odległość, przy której przepustowość się nie załamuje"*. Jeżeli ta odległość wypadnie **powyżej inionu albo za uchem — to jest wynik, nie porażka.** Traci się gabaryt, nie pomiar.
+
+**Plan awaryjny — już istnieje:** decyzja 6 (`DECYZJE.md`) dopuszcza wyprowadzenie odniesienia cienkim przewodem na wyrostek sutkowaty. Zmienia się jedno położenie elektrody i jedno zdanie o gabarycie.
+
+**Test rozdzielający, koszt zerowy (P23):** raportować SNR **osobno dla f₀ i 2f₀** przy każdym położeniu odniesienia. Strata rosnąca z harmoniczną wskazuje na zanieczyszczenie odniesienia; strata niezależna od częstotliwości — na gładkie pole. `[luka]` Na danych Kołodzieja testu **nie da się wykonać** — przy bodźcach 7/8/9 Hz drugiej harmonicznej praktycznie nie ma (SNR −0,04 do +0,16 dB we wszystkich montażach). Zestaw 8,0–17,8 Hz z `16` §3.2 daje harmoniczne w paśmie 16–35,6 Hz i test umożliwia.
 
 ---
 

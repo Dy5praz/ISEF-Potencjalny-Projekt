@@ -1371,3 +1371,33 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 **Dlaczego to jest błąd o dużej stawce, a nie techniczny drobiazg:** przeszukiwanie po słowach kluczowych zawiodło w tym projekcie **trzy razy** i zawsze z tego samego powodu — własne słownictwo zamiast słownictwa dziedziny (K-074, K-093). **Graf cytowań tej wady nie ma.** Pierwszy test dał od razu wynik, którego trzy rundy zapytań nie dały: **Wu i Su 2014 ma 16 cytowań w dwanaście lat, Diez i in. 2010 ma 23 w szesnaście, i ani jedno nie dotyczy geometrii montażu.**
 
 **Reguła:** **„baza niedostępna" wymaga sprawdzenia punkt końcowy po punkcie końcowym, nie jednego zapytania.** Limit nałożony na wyszukiwanie nie znaczy, że rekordy i relacje są zamknięte. Do zestawu z `PRZEKAZANIE.md` §5 wchodzi **przeszukiwanie po cytowaniach jako osobny kanał**, równorzędny z zapytaniami słownikowymi.
+
+---
+
+### K-096 — trzy audyty sprawdzały, CZY ktoś to zmierzył, i żaden nie sprawdził, DLACZEGO nie
+
+**Co było.** `12_AUDYT.md`, `35_AUDYT_2026_08_18.md` i `36_ROZBIOR_LI2025_I_PRZESZUKANIE.md` przeszukały łącznie 29 baz, żeby ustalić, czy oś projektu jest zajęta. Za każdym razem wynik brzmiał „niezajęta" i za każdym razem **traktowałem to jako dobrą wiadomość bez zastrzeżeń.**
+
+**Czego nie zrobiłem.** Nie zadałem pytania, które zadał użytkownik: *„skoro ledwo kto to tyka, to musi być jakiś powód"*. **Puste pole ma trzy możliwe wyjaśnienia — luka, ślepa uliczka, albo odpowiedź znana skądinąd — a ja przez trzy audyty zakładałem pierwsze, nie sprawdziwszy pozostałych dwóch.**
+
+**Co wyszło po sprawdzeniu.** Wyjaśnienie to **luka**, i jest udokumentowane: `[fakt, PMID 31037477]` dziedzina rozwiązuje problem odniesienia **obliczeniowo** (REST, średnia po elektrodach, połączone sutkowate), a wszystkie te przekształcenia **wymagają wielu elektrod**; przy dwóch kanałach nie działają i pytanie o fizyczne umiejscowienie wraca. `[fakt, PMID 17946448]` Choi i in. napisali wprost w 2006: *„most conventional studies do not much consider about the location of the reference electrode"*.
+
+**Ale sprawdzenie wyprodukowało też złą wiadomość, której trzy audyty nie znalazły:** `[fakt, PMID 29886131]` okolica podpotyliczna rejestruje aktywność móżdżku, a **bodziec wzrokowy podnosi tam moc w paśmie beta (14–30 Hz)** — czyli w paśmie drugich harmonicznych SSVEP. Elektroda odniesienia w module może **sama nieść sygnał reagujący na bodziec**. Nowe ryzyko **R12**.
+
+**Reguła, i jest to trzecie pytanie audytu obok dwóch dotychczasowych:** przy każdym „pole niezajęte" zadać **„dlaczego niezajęte"** i wybrać jedną z trzech odpowiedzi — **luka / ślepa uliczka / odpowiedź znana skądinąd** — z cytatem. **Samo „nie znalazłem" nie jest wynikiem, dopóki nie wiadomo, czego nie znaleźli inni i dlaczego przestali szukać.**
+
+---
+
+### K-097 — test, który miał rozstrzygnąć mechanizm, jest ograniczony podłogą i mówię to, zanim ktoś to policzy za mnie
+
+**Co zrobiłem.** Żeby rozdzielić dwa mechanizmy straty montażu zwartego — gładkie pole SSVEP wobec zanieczyszczenia odniesienia sygnałem móżdżkowym — policzyłem SNR w prążku bodźca i drugiej harmonicznej na danych Kołodzieja (`analiza/harmoniczne.py`).
+
+**Co wyszło.** Przy podstawowej: montaż zwarty traci **2,7–3,6 dB**. Przy drugiej harmonicznej: **0,01 do 0,16 dB**, czyli nic.
+
+**Wniosek, który się narzuca i jest fałszywy:** „harmoniczne nie tracą, więc mechanizm móżdżkowy nie działa".
+
+**Dlaczego jest fałszywy.** `[fakt]` SNR przy 2f₀ wynosi **−0,04 do +0,16 dB we wszystkich montażach naraz, łącznie z odniesieniem odległym.** Drugiej harmonicznej **w tym zbiorze praktycznie nie ma**. Nie można stracić czegoś, czego nie było — test jest **ograniczony podłogą i nie rozstrzyga**.
+
+**Przyczyna jest znana i zapisana gdzie indziej:** Kołodziej użył 7/8/9 Hz, więc harmoniczne wypadają na 14–18 Hz, a `15_PROJEKT.md` §2.4 odrzucił to pasmo z powodu rytmu alfa. **Ten test potwierdził tamtą decyzję z zupełnie innej strony.**
+
+**Reguła:** **wynik „brak różnicy" wymaga sprawdzenia, czy mierzona wielkość w ogóle występuje w warunku odniesienia.** To jest ten sam wzorzec co kontrola pozytywna przy „zero trafień" (K-093), tylko przeniesiony z przeszukiwania na pomiar. Bez tej kontroli „brak efektu" jest artefaktem zbioru, nie wynikiem.
