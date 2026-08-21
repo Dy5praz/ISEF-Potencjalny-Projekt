@@ -1,176 +1,93 @@
-# ISEF — interfejs neuralny, sterowanie intencją
+# Interfejs SSVEP w module noszonym — dokumentacja projektu
 
-**Stan na 18 sierpnia 2026.** Dokumentacja żyje tutaj, nie w wątkach rozmowy.
+**Stan na 21 sierpnia 2026.** Projekt indywidualny, autor: Julek. Cel: Explory 2027 → **ISEF 2028**.
+
+---
+
+## Projekt w trzech zdaniach
+
+> **Buduję interfejs, który odczytuje z tyłu głowy, na co patrzysz, i zamienia to na komendę — dla ludzi, którzy nie mogą mówić ani się ruszać.**
+>
+> **Żeby taki przyrząd dało się nosić, musi być mały, a wtedy obie elektrody siedzą obok siebie i mogą skasować sygnał, który mają mierzyć.**
+>
+> **Mierzę, jak blisko mogą usiąść, zanim to się stanie — i z której strony — czego nikt dotąd nie zmierzył.**
 
 ---
 
 ## Czytaj w tej kolejności
 
+### Dla kogoś, kto wchodzi w projekt pierwszy raz
+
 | # | Plik | Po co |
 |---|---|---|
-| **1** | **`35_AUDYT_2026_08_18.md`** | **NAJNOWSZY AUDYT, trzy przejścia, 18 VIII 2026.** Co zabija twierdzenie w brzmieniu ogólnym, co przeżyło, brzmienie obowiązujące, osiem sprzeczności między plikami, drabinka zejść rozbita, **pewność 92%** |
-| **2** | **`36_ROZBIOR_LI2025_I_PRZESZUKANIE.md`** | **rozbiór pracy, która miała zabić projekt** — pełny tekst chiński, czym się różni, widełki z pięciu opublikowanych punktów, przeszukanie 29 baz, **konkurencja ISEF sprawdzona u źródła**, pewność **94%** |
-| **3** | **`37_PROCEDURA_TOZSAMOSCI_I_ROZBIORY.md`** | **procedura: czy cudza praca jest tym samym projektem, czy tylko tym samym pytaniem** — siedem pytań; rozbiór pięciu prac, które zabiły osie (wszystkie **sąsiednie**, nie tożsame); przeszukiwanie po grafie cytowań; **instrukcja po klucze API** |
-| **4** | **`38_DLACZEGO_NIKT_TEGO_NIE_MIERZY.md`** | **dlaczego pole jest puste** — bo dziedzina rozwiązuje problem odniesienia obliczeniowo, a to wymaga wielu elektrod. Plus **zła wiadomość: okolica podpotyliczna ma trzech mieszkańców**, jeden reaguje na bodziec wzrokowy. Nowe ryzyko R12 |
-| **5** | **`39_KIERUNEK_NIE_TYLKO_ODLEGLOSC.md`** | **urządzenie nie musi być pudełkiem.** Wszystko opublikowane przeliczone na bit/min; para pionowa POz−Oz daje **~46 bit/min przy 40 celach**, para sutkowata 2,5. Dziura w planie elektrod i poprawka za zero złotych |
-| **6** | **`40_GABARYT_MECHANIZM_I_DOMKNIECIE.md`** | **co naprawdę ma 4×8 cm** (obudowa to pudełko zapałek, para Oz–POz mieści się na jej spodzie); **mechanizm falowy** — hipoteza kierunku dostaje wzór; **domknięcie przeglądu, 97%** |
-| 7 | **`30_POWROT_DO_INTERFEJSU.md`** | **projekt bieżący** — czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a |
-| 8 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
-| 9 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
-| 10 | **`34_PARAMETRY_I_RAMY.md`** | **budżet 8 000 zł, 10 h/tydzień, kategoria EBED, drabinka zejść, plan pomiarowy** |
-| 11 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
-| 12 | `KOREKTY.md` | rejestr błędów **K-001…K-101**. Dopisuj każdy nowy. **Uwaga: odsyłacze K-051…K-059 w plikach odzyskanych z gałęzi `etap-2` zostały przemapowane 18 VIII 2026 — mapowanie przy K-089** |
-| 13 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
-| 14 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
+| **1** | **`01_PROJEKT_DLA_LAIKA.md`** | czym to jest, bez żargonu. **Zacznij tutaj, niezależnie od tego, kim jesteś** |
+| **2** | **`02_TWIERDZENIE.md`** | zdanie obowiązujące, metryka, granice, **trzy gotowe odpowiedzi dla jurora** |
+| **3** | **`11_EWOLUCJA.md`** | jak projekt doszedł do tego kształtu: cztery zabite twierdzenia, kto je zabił, jakie decyzje zapadły |
 
-**Pliki odzyskane 18 VIII 2026 z gałęzi `claude/etap-2-v9dtnt` (K-076)** — dorobek etapu 2 dla interfejsu, którego `main` nigdy nie widziała:
+### Dla pracy nad projektem
 
-| Plik | Co zawiera |
+| Plik | Zawiera |
 |---|---|
-| **`20_ZAKUPY.md`** | **kosztorys i decyzje zakupowe**: ceny OpenBCI u producenta, pięć wariantów platformy odniesienia, rekomendacja używanego Cytona do 1 600 zł, warunki odbioru |
-| `15_PROJEKT.md`, `16_PLAN_EKSPERYMENTALNY.md`, `17_RYZYKA.md` | projekt, plan eksperymentalny i ryzyka w wersji interfejsowej |
-| `14_REANALIZA.md`, `19_SZANSE_PO_ZMIANIE.md`, `22_POROWNANIE.md`, `23_NOTY.md` | reanaliza osi, przeliczone szanse, porównania, noty |
-| `18_PYTANIA_ETAP2.md`, `21_ODPOWIEDZI.md`, `24_PLAN_DZIALANIA.md`, `25_AUDYT_OPENAIRE.md`, `26_PRZEKAZANIE_ETAP3.md` | pytania, odpowiedzi, plan działania, audyt w OpenAIRE, przekazanie |
-| **`analiza/`** | **dziesięć skryptów w Pythonie** — TRCA, SVM, analiza szczęki, okna, rozstaw elektrod |
-| `archiwum_poprzednie/` | ConOps **drona** i **ortezy** |
-
-**ZGODNOŚĆ SPRAWDZONA 18 VIII 2026 w audycie `35_AUDYT_2026_08_18.md` przejście 1.** Znalezionych i poprawionych **osiem sprzeczności** (K-078…K-087), w tym: dwa równoległe brzmienia twierdzenia, kolizja numeracji korekt w dziewięciu plikach, obszar Explory wpisany w liście zadań wbrew decyzji z `30`, sprawa Cytona rozstrzygnięta dwa razy w przeciwne strony, cena Cytona zaniżona o połowę w `15` §3.1.
-
-> **Pliki `20`–`23` (aktywne łożysko magnetyczne) usunięte 18 VIII 2026** na życzenie użytkownika. Wszystko przenośne — drabinka zejść i struktura planu pomiarowego — jest w **`34_PARAMETRY_I_RAMY.md`**. Rejestr odrzuconych kierunków, skrócony do jednej linijki na kandydata: `29_ODRZUCONE_KIERUNKI.md`. Usunięte pliki są w historii gita.
-
----
-
-## Trzy rzeczy, bez których nowa sesja zacznie od złego miejsca
-
-**1. Projekt jest indywidualny. Autorem jest użytkownik, model jest doradcą.**
-Zakaz liczby mnogiej („my", „nasz", „zrobiliśmy") w dokumentacji i materiałach zgłoszeniowych. `[fakt]` Regulamin Explory (Załącznik nr 1) i reguły ISEF wymagają pracy własnej i jawnego deklarowania udziału osób trzecich. K-054.
-
-**2. Rekrutacyjnie liczy się wyłącznie ISEF 2028.**
-Aplikacje na studia w USA składa się jesienią 2028, decyzje w marcu 2029. **ISEF 2029 jest po decyzjach.** Harmonogram wymaga przeliczenia pod jeden cykl — `32_STUDIA_USA.md` sekcja 1.
-
-**3. Metryka to bity, nigdy słowa na minutę.**
-To jedyny mechaniczny strażnik granicy z projektem referencyjnym ENBM074 (2026). W chwili, gdy w materiałach pojawi się „słów na minutę", projekt staje się wariantem cudzej pracy. K-055.
+| **`03_SPRZET.md`** | tor sygnałowy, rozkład ośmiu elektrod, stymulator, bezpieczeństwo, **zakupy i budżet** |
+| **`04_PLAN_POMIAROWY.md`** | rejestracja twierdzeń z góry, eksperymenty E0–E5, częstotliwości, liczba prób |
+| **`05_STAN_WIEDZY.md`** | **wszystko opublikowane przeliczone na bit/min**, sześć prac do cytowania, mechanizm falowy, dlaczego pole jest puste |
+| **`06_RYZYKA.md`** | dwanaście ryzyk z planami awaryjnymi, **drabinka zejść z terminami** |
+| **`07_HARMONOGRAM.md`** | kamienie milowe od dziś do ISEF 2028, lista zadań |
+| **`08_KONKURSY.md`** | Explory i ISEF: regulaminy, kryteria, arkusze oceny, stawka, trening prezentacyjny |
+| **`09_FORMALNOSCI.md`** | Human Participants, komisja IRB, formularze, reguła dwunastu miesięcy |
+| **`10_STUDIA_USA.md`** | cel nadrzędny: uczelnie, kalendarz rekrutacyjny, SAT i egzamin z angielskiego |
+| **`12_REANALIZA.md`** | **jedyny własny pomiar, jaki projekt dotąd ma** — reanaliza cudzych danych, odtworzona dwukrotnie |
+| **`METODA.md`** | jak się w tym projekcie sprawdza literaturę: procedura tożsamości, trzy kanały przeszukania, stan dostępu do baz |
+| **`KOREKTY.md`** | rejestr błędów, **K-001…K-101**. Dopisuj każdy nowy |
+| **`analiza/`** | jedenaście skryptów w Pythonie — FBCCA, TRCA, SVM, montaże, okna, harmoniczne |
+| **`archiwum/`** | 42 pliki poprzednich wersji. **Nic nie zostało usunięte** |
 
 ---
 
-## Projekt bieżący, w jednym akapicie
+## Stan bieżący
 
-Nieinwazyjny interfejs sterowany bodźcem wzrokowym, w zwartej formie noszonej. **Twierdzenie, brzmienie obowiązujące od 18 VIII 2026** (audyt `35_AUDYT_2026_08_18.md` §4.2; poprzednie „ile kosztuje wygoda" **ma opublikowaną odpowiedź** — K-077):
+**Twierdzenie** — pełne brzmienie w `02_TWIERDZENIE.md`:
 
-> **Mierzę, o ile spada dokładność i przepustowość interfejsu SSVEP, gdy elektroda odniesienia musi zmieścić się w module noszonym na potylicy zamiast leżeć w miejscu standardowym, i wyznaczam najmniejszą odległość odniesienia od kory wzrokowej, przy której przepustowość jeszcze się nie załamuje — na jednym własnym torze analogowym, tą samą osobą, tym samym paradygmatem.**
+> Mierzę, o ile spada dokładność i przepustowość interfejsu SSVEP, gdy elektroda odniesienia musi zmieścić się w module noszonym na potylicy zamiast leżeć w miejscu standardowym, i wyznaczam najmniejszą odległość, przy której przepustowość jeszcze się nie załamuje.
 
-Punkt odniesienia wewnętrzny: ten sam tor analogowy, dwa położenia elektrody odniesienia. Kupiony OpenBCI służy jako **narzędzie kontrolne i ubezpieczenie**, nie jako oś twierdzenia — rola „baseline komercyjny" została wycofana już 16 VIII (`20_ZAKUPY.md` sekcja 2).
+**Parametry, wiążące:** budżet **8 000 zł** · **10 h/tydzień** · kategoria ISEF **EBED** · obszar Explory **Człowiek i Społeczeństwo** · poprzeczka **„gotowy w całości, nie prototyp"**.
 
-**Demonstracja:** bodziec przeniesiony z twarzy na cele w otoczeniu, jedno wykrycie = jedna pełna intencja, wykonanie przez sterowanie **kupionymi** przedmiotami (żarówka, gniazdko — poniżej 200 zł, zero godzin warsztatu). Bez mowy syntetycznej. **Bez pojazdu i bez warstwy autonomii** — `30` §4.2 i §5 zostały zawężone przez regułę 6a.3 z tego samego pliku (K-083).
+**Metryka:** dokładność i **ITR w bitach**, zawsze z podaniem N, P i t. **Nigdy słowa na minutę.**
 
-**Obszar Explory:** Człowiek i Społeczeństwo, historia o dostępności. `[fakt]` Uwaga: obszar „Poza kategoriami" **nie ma nagrody SDG** — K-059.
+**Pewność, że przegląd literatury jest domknięty: 97%.** Rozbiór — `05_STAN_WIEDZY.md` §9.
 
----
-
-## Szanse — stan po analizie stawki
-
-`[domysł]`, błąd rzędu ×1,5 w każdą stronę.
-
-| Cel | Wartość |
+| Cel | Szansa |
 |---|---|
 | finał Explory | ~50% |
 | reprezentacja na ISEF | ~22% |
-| **Nagroda Główna Explory** | ~9–10% |
-| jakakolwiek nagroda na ISEF | ~8% |
+| Nagroda Główna Explory | ~9–10% |
 | **wartość dla aplikacji na studia, niezależna od wyniku** | **~100%, jeżeli projekt powstanie** |
-
-Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → ponad 130 półfinał → 20 finał + 1 z plebiscytu → 3 na ISEF.**
 
 ---
 
-## Zadania otwarte — komplet
-
-### Projekt
+## Co jest teraz do zrobienia
 
 | # | Zadanie | Termin |
 |---|---|---|
-| ~~P1~~ | ~~audyt adwersaryjny, trzy przejścia~~ — **ZROBIONY 18 VIII 2026, `35_AUDYT_2026_08_18.md`.** Wynik: twierdzenie w brzmieniu ogólnym zabite (K-077), wersja wąska przeżyła, pewność **92%** | zrobione |
-| **P11** | **reanaliza zbioru Zhu i in. 2021 — 102 osoby, PMID 33578754, publiczny.** Powtórzyć analizę montaży z `14` §5 na próbie ośmiokrotnie większej niż Kołodziej. Kod z `analiza/` już działa, koszt zero złotych | **IX 2026** |
-| **P12** | **sekcja o stanie wiedzy** z sześcioma pracami z `35` §2 — pod §7 pkt 2d regulaminu Explory, który daje **10 pkt na 40 za znajomość dotychczasowych badań** | przed zgłoszeniem |
-| **P13** | **przećwiczyć odpowiedź na zarzut „to wynika z fizyki objętościowego przewodzenia"** (`35` §2.7) | trening IX 2027 |
-| **P28a** | **[!] PYTANIE DO CIEBIE, węższe:** czy dopuszczasz **dwa cienkie przewody w bok, do O1 i O2** — takie same jak ten na wyrostek sutkowaty z decyzji 6? Para Oz–POz mieści się w obudowie, więc granica gabarytu nie jest już problemem (`40` §3) · JT | **do rozstrzygnięcia** |
-| **P31** | **przewidywanie zapisane z góry**: krzywa `\|2·sin(πd/λ)\|`, λ = 15–20 cm, plus zależność od pasma — do rejestracji twierdzeń w `16` §1 | przed pomiarem |
-| **P29** | tabela przeliczeniowa z `39` §1 (wszystko opublikowane w bit/min) — gotowy materiał na `Research Problem` i na plakat | z P12 |
-| **P23** | **raportować SNR osobno dla f₀ i 2f₀** przy każdym położeniu odniesienia — test rozdzielający mechanizm móżdżkowy od gładkiego pola (`38` §5.2). Koszt: jedna kolumna | do planu pomiarowego |
-| **P25** | do stanu wiedzy: cytaty **Choi 2006** i **Yao 2019** — uzasadnienie luki cudzą ręką (`38` §1–2) | z P12 |
-| **P19** | **procedura tożsamości** (`37` §3) obowiązuje przed każdym „to jest zajęte" | od zaraz |
-| **P20** | **kontrola grafu cytowań co pół roku** na Wu/Su 2014 i Diez 2010 — nowe cytowanie o montażu jest sygnałem wczesnym | co pół roku |
-| **P21** | trzy gotowe odpowiedzi dla jurora do banku pytań: DSTF-Net, urządzenie za £20, dokładność bez podanego N (`37` §7, §8, §11) | trening IX 2027 |
-| **P14** | **trzecie pytanie do FZT:** czy badanie, w którym autor jest jedynym badanym własnego urządzenia, organizator klasyfikuje jako zwolnione z IRB (`35` §1.9, K-085) | jesień 2026 |
-| P2 | **przeliczyć harmonogram pod jeden cykl** (Explory 2027 → ISEF 2028) | przed budową |
-| P3 | sprawdzić dorobek grupy Kołodziej M., Majkowski A. — **sprawdzone 18 VIII 2026 imiennie w PubMed: zero nowych prac po `Sensors` 26(3):917.** Powtarzać co dwa miesiące | X 2026 |
-| ~~P4~~ | ~~zamknąć zdanie z twierdzeniem i metrykę~~ — **ZAMKNIĘTE 18 VIII 2026, `35` §4.2.** Brzmienie przeniesione do `30`, `34`, `README` i `CLAUDE.md`; metryka bez zmian (dokładność + ITR Wolpawa, z jawnymi N, P, t) | zrobione |
-| P5 | **szukać UŻYWANEGO Cytona, budżet do 1 600 zł** — decyzja z `20_ZAKUPY.md` sekcja 3.1, odzyskana 18 VIII (K-076). Wymagania odbioru w tamtym pliku. Jeżeli do terminu nie ma oferty — nowy Ganglion, nie nowy Cyton. Bez AliExpress | **do 30 IX 2026** |
-| P6 | przejrzeć **filmy półfinałowe** Explory 2026 — użytkownik prosił o przypominanie | gdy internet pozwoli |
-| P7 | dokument **go/no-go** — co musiałoby być prawdą, żeby projekt był wart zachodu | po audycie |
-| P8 | **zapytać w szkole o Komitet Szkolny olimpiady OITwEiM** — bez rejestracji olimpiada odpada. Decyzją użytkownika start przesunięty na edycję 2027/28. `33` sekcja 8 | **do 31 X 2027** |
-| P9 | sprawdzić ogłoszenie edycji XII El-Robo-Mech, w tym czy można startować dwa razy | X–XI 2026 |
-| P10 | El-Robo-Mech **dwa starty**: IV 2027 (pierwszy dry-run) i IV 2028 (próba generalna przed ISEF) | wpisane |
+| **P28a** | **[!] pytanie do autora:** czy dopuszczasz dwa cienkie przewody w bok, do O1 i O2 — takie same jak ten na wyrostek sutkowaty | **czeka** |
+| **P5** | **szukać UŻYWANEGO Cytona, do 1 600 zł.** Warunki odbioru w `03_SPRZET.md` §7.1. Bez oferty do terminu — nowy Ganglion, nie nowy Cyton | **do 30 IX 2026** |
+| **P11** | **reanaliza zbioru Zhu i in. 2021** (102 osoby, PMID 33578754, publiczny) — kod z `analiza/` już działa, koszt zero złotych | IX 2026 |
+| **P14** | trzy pytania do FZT jednym mailem: SRC jako IRB · łączenie z EUCYS · **czy badanie na sobie jest zwolnione** | jesień 2026 |
+| **E0** | **przesiew: czy SSVEP działa u autora.** ~20 minut na kupionej platformie. **Najważniejszy punkt w całym planie** | **X 2026** |
+| **P20** | kontrola grafu cytowań co pół roku (Wu i Su 2014, Diez 2010) | co pół roku |
 
-### Rekrutacja — pełna lista w `32_STUDIA_USA.md` sekcja 7
-
-| # | Zadanie | Termin |
-|---|---|---|
-| R1 | rozstrzygnąć **aerospace vs elektronika** jako kierunek — wpływa na listę uczelni | do 2028 |
-| R1a | **Caltech i Stanford dopisane 17 VIII 2026** (`32` sekcja 2.6). Stanford ma aerospace na licencjacie, Caltech nie. Oba **need-aware wobec obcokrajowców** | ustalone |
-| R1b | **Lista rozszerzona o dwie kategorie** (`32` sekcja 2.8). Aerospace z pieniędzmi: **MIT, Princeton, Notre Dame**. Pod tematykę projektu: **Brown** (BrainGate, need-blind). Plus ścieżka stypendiów za osiągnięcia i opcja europejska | ustalone |
-| R2 | CMU: need-blind czy need-aware wobec obcokrajowców | jesień 2027 |
-| R3 | Georgia Tech: czy wybór kierunku jest wiążący przy aplikacji | jesień 2027 |
-| R4 | czy CMU ma aerospace na licencjacie | jesień 2027 |
-| ~~R5~~ | **ZAMKNIĘTE 17 VIII 2026.** Liczb o „3–4× wyższych szansach" nie da się doprowadzić do źródła — wykreślone (K-068). Twarde dane to CDS sekcja C7: u Caltechu dorobek pozalekcyjny w drugim stopniu wagi, poniżej ocen, testów, esejów i rekomendacji. `32` sekcja 3.1 | zrobione |
-| R6 | terminarz SAT/TOEFL | **częściowo zamknięte:** struktura, progi, terminy 2026/27 i powtarzanie w `32` sekcji 4.1. Zostaje ułożenie własnego terminarza pod aplikacje z jesieni 2028. Egzamin z angielskiego: progi i nowa skala TOEFL w sekcji 4.2 |
-| R7 | ustawić rekomendacje w szkole | wiosna 2028 |
-| R8 | pytanie do OKE o termin dodatkowy matury (dotyczy tylko ISEF 2029) | jesień 2028 |
-
-### Trening prezentacyjny — plan w `31_ANALIZA_STAWKI_2026.md` sekcja 7
-
-| Kiedy | Runda |
-|---|---|
-| IX 2027, po kampanii pomiarowej | diagnostyczna |
-| IX–X 2027 | adwersaryjna, intensywna, trzy poziomy głębokości |
-| III–V 2028 | to samo po angielsku pod ISEF |
-
-`[fakt]` Waga: półfinał Explory 10 z 40, finał Explory część z 10 z 30, **ISEF Interview 25 ze 100 — największa pojedyncza pozycja arkusza.**
+Pełna lista: `07_HARMONOGRAM.md`.
 
 ---
 
 ## Zasady obowiązujące w każdym pliku
 
-Znaczniki pewności przy każdym stwierdzeniu: `[fakt]` `[wniosek]` `[domysł]` `[luka]`.
+**Znaczniki pewności przy każdym stwierdzeniu:** `[fakt]` `[wniosek]` `[domysł]` `[luka]`.
 
-Każda liczba, na której cokolwiek się opiera: 2–3 niezależne źródła. Jedno źródło — oznaczone przy twierdzeniu, nie w przypisie. **Zgodność trzech streszczeń nie jest weryfikacją** (K-030).
+**Każda liczba, na której cokolwiek stoi: 2–3 niezależne źródła.** Jedno źródło — oznaczone przy twierdzeniu, nie w przypisie.
 
-Hierarchia przy sprzeczności: dokument regulaminowy > publikacja recenzowana > preprint > materiał prasowy > blog/forum.
+**Liczba pojedyncza w całej dokumentacji.** Projekt jest indywidualny, autorem jest Julek, rola modelu jest doradcza.
 
-**Zakaz słowa „pierwszy" w materiałach zgłoszeniowych** (K-044). **Liczba pojedyncza w całej dokumentacji** (K-054).
+**Zakaz słowa „pierwszy" w materiałach zgłoszeniowych.** Twierdzenie jest pomiarowe, nie o pierwszeństwie.
 
----
-
-## Punkt wejścia dla następnej sesji
-
-**Audyt wykonany 18 VIII 2026 — `35_AUDYT_2026_08_18.md`. Nowa sesja zaczyna od niego, nie od `30`.**
-
-Trzy rzeczy do zrobienia w kolejności: **P11** (reanaliza zbioru 102-osobowego, darmowa, przed jakimkolwiek zakupem), **P5** (używany Cyton do 30 IX), **P12** (sekcja o stanie wiedzy). Pozycja P4 („zamknąć zdanie z twierdzeniem") **zamknięta w `35` §4.2** i przeniesiona do `30`, `34`, `README` i `CLAUDE.md`. Parametry, w których audyt ma się poruszać, są w `34_PARAMETRY_I_RAMY.md` i są **wiążące**: 8 000 zł, 10 h/tydzień, EBED, poprzeczka „gotowy w całości".
-
-**Trzy rzeczy, które audyt miał rozbić — rozbite 18 VIII 2026, odpowiedzi w `35_AUDYT_2026_08_18.md`:**
-
-1. **Kolizja budżetowa z OpenBCI — nie ma jej.** Wariant zalecany to 4 500–7 300 zł wobec 8 000 zł, z rezerwą 30% w środku (`35` §3.1)
-2. **Poprzeczka „gotowy w całości" wobec ~230 h — przeszacowana.** Szansa na szczebel A w terminie: **35–50%**, nie ~70% (`35` §3.2)
-3. **Drabinka zejść — nie jest życzeniowa w szczeblach B i C, jest w opisie D i E jako równoważnych.** Rzeczywisty próg leży między C a D; terminy dopisane do `34` §6 (`35` §3.3)
-
-~~Trzy rzeczy, które audyt ma rozbić w pierwszej kolejności:~~
-
-1. **Kolizja budżetowa z OpenBCI** — 5 800 zł z 8 000 zł na jeden kupiony przyrząd. Czy twierdzenie „ile kosztuje wygoda" stoi bez zewnętrznego punktu odniesienia (`34` sekcja 3)
-2. **Poprzeczka „gotowy w całości" wobec ~230 h do zgłoszenia** przy pierwszym w życiu projekcie PCB (`34` sekcje 2 i 5)
-3. **Drabinka zejść** — czy szczeble B–E rzeczywiście zostawiają projekt konkursowy, czy to myślenie życzeniowe (`34` sekcja 6)
-
----
-
-## Uwaga o gałęziach
-
-Praca z 17 VIII 2026 powstała na gałęzi `claude/isef-engineering-project-pjunzg` i **nie była widoczna z `main`**, przez co nowa sesja zaczęła bez kompletu. Gałęzie zostały zsynchronizowane. **Przy każdym zamknięciu sesji sprawdzić, czy `main` zawiera bieżący stan.**
+**Zdanie o luce ma jedną dopuszczalną postać i nie wolno go skracać:** *nie ma tego w dziewięciu bazach naukowych, trzech niezależnych grafach cytowań, sekcjach metod 178 prac i trzynastu rocznikach abstraktów ISEF.*

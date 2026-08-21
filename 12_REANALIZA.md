@@ -1,7 +1,10 @@
-# 14 — Reanaliza danych Kołodziej i in. 2026
+# 12 — Reanaliza danych Kołodziej i in. 2026
 
-**Data:** 16 sierpnia 2026, pierwszy dzień etapu 2
-**Status: to jest najważniejszy plik etapu 2. Zmienia oś projektu.**
+**Stan na 21 sierpnia 2026.** **To jest jedyny własny pomiar, jaki projekt dotąd ma.**
+
+`[fakt]` Zbiór jest publiczny (CC BY). Pipeline autorów odtworzony od zera, **ich tabela współczynników zreprodukowana co do trzeciego miejsca po przecinku**, wynik główny odtworzony w granicy jednego punktu procentowego. Liczby poniżej **przeliczono dwukrotnie, w dwóch niezależnych sesjach**, tym samym kodem na tych samych danych. Kod: `analiza/`.
+
+**Co z tego pliku obowiązuje dziś:** liczby. **Czego nie:** wnioski o osi projektu — twierdzenie zmieniło się od tego czasu dwukrotnie, aktualne jest w `02_TWIERDZENIE.md`, a historia w `11_EWOLUCJA.md`.
 
 ---
 
@@ -83,7 +86,7 @@ Dwa niezależne tory klasyfikacji. Baza porównania: te same 3240 okien, trzy ce
 
 `[fakt, dwa niezależne klasyfikatory, dane autorów]` **Cały mierzalny zysk pochodzi z Cz. Kanał szczękowy dokłada ponad samo Cz +0,4 pp — tyle samo w obu torach. Kanał karkowy nie dokłada nic albo szkodzi.**
 
-To jest dokładnie ta liczba, której `PRZEKAZANIE.md` sekcja 4.2 kazała szukać jako **pierwszej rzeczy do wyciągnięcia z pełnego tekstu**: rozbicie udziału kanału szczękowego wobec karkowego. Odpowiedź: **szczęka 0,132, kark 0,097 w \|β\|, ale oba nieistotne wobec Cz = 0,416, i oba nieistotne w dokładności klasyfikacji.**
+To jest dokładnie ta liczba, której `METODA.md` sekcja 4.2 kazała szukać jako **pierwszej rzeczy do wyciągnięcia z pełnego tekstu**: rozbicie udziału kanału szczękowego wobec karkowego. Odpowiedź: **szczęka 0,132, kark 0,097 w \|β\|, ale oba nieistotne wobec Cz = 0,416, i oba nieistotne w dokładności klasyfikacji.**
 
 ---
 
@@ -97,7 +100,7 @@ Trzy niezależne przesłanki, że rola Cz to **odniesienie i tłumienie składow
 
 `[wniosek, trzy przesłanki]` Zysk +9 pp Kołodzieja to w przeważającej części **efekt referencyjny**, a nie kompensacja artefaktu mięśniowego.
 
-**Uwaga, żeby nie przesadzić z korektą** (reguła operacyjna z `PRZEKAZANIE.md` §5): praca Kołodzieja **nie jest błędna**. Autorzy nigdzie nie twierdzą, że zysk pochodzi od szczęki — piszą, że Cz był w optymalnym zestawie u 12/12 osób i nazywają go „dominant role". **Błąd był po naszej stronie**: w `12_AUDYT.md` §1.3 zapisałem „które kanały pomocnicze działały najlepiej: **Cz i szczęka**", zrównując je, a potem cała reszta dokumentacji przeniosła z tego zdania samą szczękę. To jest korekta K-089.
+**Uwaga, żeby nie przesadzić z korektą** (reguła operacyjna z `METODA.md` §5): praca Kołodzieja **nie jest błędna**. Autorzy nigdzie nie twierdzą, że zysk pochodzi od szczęki — piszą, że Cz był w optymalnym zestawie u 12/12 osób i nazywają go „dominant role". **Błąd był po naszej stronie**: w `METODA.md` §1.3 zapisałem „które kanały pomocnicze działały najlepiej: **Cz i szczęka**", zrównując je, a potem cała reszta dokumentacji przeniosła z tego zdania samą szczękę. To jest korekta K-089.
 
 ---
 
@@ -121,7 +124,9 @@ Trzy niezależne przesłanki, że rola Cz to **odniesienie i tłumienie składow
 
 To jest pomiar, którego nikt nie zamawiał, a który przesądza o konstrukcji.
 
-**Pytanie:** moduł zwarty na potylicy nie ma dokąd wyprowadzić elektrody odniesienia — z decyzji 2 (`DECYZJE.md`, K-036) wynika brak łuku, brak zausznika, brak drugiego miejsca elektrod. **Odniesienie musi więc leżeć wewnątrz modułu**, czyli pomiar jest różnicowy między dwiema elektrodami nad korą wzrokową. Ile to kosztuje?
+> **Uwaga z 21 VIII 2026:** przesłanka poniżej jest **nieaktualna**. Decyzja 6 z 16 VIII dopuściła wyprowadzenie odniesienia cienkim przewodem na wyrostek sutkowaty, a poprawka z 21 VIII przesunęła głównego kandydata na **POz, powyżej Oz**. Zakres pomiarowy obejmuje dziś **2–10 cm w dwóch kierunkach**, nie tylko wnętrze modułu. **Liczby poniżej obowiązują bez zmian** — zmienił się tylko powód, dla którego się je liczy. Stan bieżący: `03_SPRZET.md` §2.
+
+**Pytanie:** moduł zwarty na potylicy nie ma dokąd wyprowadzić elektrody odniesienia — z decyzji 2 (`11_EWOLUCJA.md`, K-036) wynika brak łuku, brak zausznika, brak drugiego miejsca elektrod. **Odniesienie musi więc leżeć wewnątrz modułu**, czyli pomiar jest różnicowy między dwiema elektrodami nad korą wzrokową. Ile to kosztuje?
 
 FBCCA, te same dane, te same okna:
 
@@ -139,7 +144,7 @@ Poziom losowy: 33,3%.
 
 `[wniosek]` **Każde różnicowanie zamknięte wewnątrz obszaru potylicznego niszczy sygnał, a nie tylko zakłócenie.** Mechanizm jest oczywisty po fakcie i jest fizyką, nie techniką: **SSVEP jest polem rozległym i gładkim nad potylicą**, więc dwie elektrody odległe o kilka centymetrów widzą prawie ten sam potencjał wywołany. Odejmowanie kasuje go razem z artefaktem.
 
-**To bezpośrednio unieważnia jedno z założeń zapisanych w `13_PODNIESIENIE_SZANS.md` sekcja 5** („gęste próbkowanie małego obszaru zastępuje rzadkie próbkowanie dużego" — pytanie zostawione jako druga kontrybucja projektu). Odpowiedź częściowa już jest i brzmi **nie**, przy tej geometrii i tym zbiorze.
+**To bezpośrednio unieważnia jedno z założeń zapisanych w `archiwum/13_PODNIESIENIE_SZANS.md` sekcja 5** („gęste próbkowanie małego obszaru zastępuje rzadkie próbkowanie dużego" — pytanie zostawione jako druga kontrybucja projektu). Odpowiedź częściowa już jest i brzmi **nie**, przy tej geometrii i tym zbiorze.
 
 **Czego ten pomiar NIE mówi, i to jest istotne:** nie mówi, ile wynosi koszt przy odniesieniu wyprowadzonym **poza obszar aktywny, ale nadal blisko** — na wyrostek sutkowaty za uchem, na kark poniżej guzowatości potylicznej, na płatek ucha. W tym zbiorze nie ma takiego kanału. **To jest luka, którą może zamknąć wyłącznie pomiar na własnym sprzęcie** — i dlatego staje się osią projektu (sekcja 7).
 
@@ -184,7 +189,7 @@ Kompensacja regresyjna zastosowana **przed** wyznaczeniem różnic, potem FBCCA:
 
 `[fakt]` **Hipoteza obalona.** W montażu różnicowym żaden kanał pomocniczy nie pomaga; wszystkie szkodzą. Interpretacja `[wniosek]`: różnicowanie i regresja usuwają **to samo** — składową wspólną. Po różnicowaniu nie ma już czego odejmować, a regresja zaczyna zjadać sygnał użyteczny.
 
-**To zamyka oś projektu w wersji z `PRZEKAZANIE.md`.** Nie „osłabia" — zamyka. Kompensacja artefaktu mięśniowego, analogowa czy cyfrowa, nie ma zmierzonego zapasu do odzyskania w konfiguracji, którą wybraliśmy.
+**To zamyka oś projektu w wersji z `METODA.md`.** Nie „osłabia" — zamyka. Kompensacja artefaktu mięśniowego, analogowa czy cyfrowa, nie ma zmierzonego zapasu do odzyskania w konfiguracji, którą wybraliśmy.
 
 ---
 
@@ -334,7 +339,7 @@ Efekt do wykrycia: **9–24 pp**, czyli 20–60× większy niż ten, który prze
 
 ### 7.3 Pomiar, który przeżywa tę zmianę
 
-**Przeżywa w komplecie, bo to jest ten sam pomiar.** Stanowisko z decyzji C2 mierzy dokładność i ITR wg wzoru Wolpawa — zmienia się tylko to, co jest na osi poziomej wykresu: zamiast „kompensacja włączona / wyłączona" jest „położenie elektrody odniesienia". Płytka i tak miała obsłużyć kilka rozstawów (`DECYZJE.md`, pozycja 3). **Sprzęt nie zmienia się ani o jeden element.**
+**Przeżywa w komplecie, bo to jest ten sam pomiar.** Stanowisko z decyzji C2 mierzy dokładność i ITR wg wzoru Wolpawa — zmienia się tylko to, co jest na osi poziomej wykresu: zamiast „kompensacja włączona / wyłączona" jest „położenie elektrody odniesienia". Płytka i tak miała obsłużyć kilka rozstawów (`11_EWOLUCJA.md`, pozycja 3). **Sprzęt nie zmienia się ani o jeden element.**
 
 Dodatkowo przeżywa **zewnętrzny punkt odniesienia**, i jest mocniejszy niż poprzedni: nie cudza liczba z abstraktu, tylko **własna reanaliza cudzych surowych danych**, odtworzona co do trzeciego miejsca po przecinku, na zbiorze CC-BY, z kodem w repozytorium.
 
@@ -345,7 +350,7 @@ Dodatkowo przeżywa **zewnętrzny punkt odniesienia**, i jest mocniejszy niż po
 1. **Nie wolno napisać, że praca Kołodzieja jest błędna.** Nie jest. Ich wynik odtworzyłem z dokładnością do 1 pp. Błędna była **nasza interpretacja ich wyniku**.
 2. **Nie wolno oprzeć twierdzenia na tym, że „Cz to tylko referencja".** To jest `[wniosek]` z trzech przesłanek, nie `[fakt]`. Do materiałów zgłoszeniowych wchodzi w formie warunkowej albo wcale.
 3. **Nie wolno wyrzucić kanału mięśniowego ze sprzętu.** Kosztuje jedno wejście różnicowe i jedno gniazdo. Zostaje jako **kontrybucja druga, warunkowa** — mierzona przy odniesieniu wyprowadzonym na kark, gdzie elektroda odniesienia sama siedzi na mięśniu i sama wnosi EMG. To jest jedyna konfiguracja, w której kompensacja mięśniowa ma jeszcze zmierzony sens, i **w tym zbiorze nie da się jej sprawdzić** `[luka]`.
-4. **Nie wolno zgłosić samej tej reanalizy jako projektu.** To jest praca na cudzych danych, bez własnego sprzętu — dokładnie ten profil, przed którym ostrzega `HANDBOOK.md` §9.4 („projekt czysto dekodujący stawia użytkownika na tym samym polu co każdy uczestnik z doświadczeniem w uczeniu maszynowym"). Reanaliza jest **uzasadnieniem** projektu i materiałem na rubrykę `Research Problem`, nie projektem.
+4. **Nie wolno zgłosić samej tej reanalizy jako projektu.** To jest praca na cudzych danych, bez własnego sprzętu — dokładnie ten profil, przed którym ostrzega `METODA.md` §9.4 („projekt czysto dekodujący stawia użytkownika na tym samym polu co każdy uczestnik z doświadczeniem w uczeniu maszynowym"). Reanaliza jest **uzasadnieniem** projektu i materiałem na rubrykę `Research Problem`, nie projektem.
 
 ---
 
@@ -382,7 +387,7 @@ Dodatkowo przeżywa **zewnętrzny punkt odniesienia**, i jest mocniejszy niż po
 
 ## 11. Prior art dla nowej osi — sprawdzony, zanim cokolwiek napisałem
 
-Reguła z `PRZEKAZANIE.md` §5.1: **każda zmiana osi wymaga powtórzenia przeszukania.** Powtórzone, PubMed E-utilities, 16 VIII 2026:
+Reguła z `METODA.md` §5.1: **każda zmiana osi wymaga powtórzenia przeszukania.** Powtórzone, PubMed E-utilities, 16 VIII 2026:
 
 | Zapytanie | Trafień |
 |---|---|
@@ -416,7 +421,7 @@ Reguła z `PRZEKAZANIE.md` §5.1: **każda zmiana osi wymaga powtórzenia przesz
 
 ### 11.2 Werdykt
 
-`[wniosek]` Nowa oś **nie jest zajęta w PubMed, Crossref ani arXiv**. Zgodnie z zamknięciem `12_AUDYT.md` §14 to nie jest dowód nieistnienia — to opis tego, gdzie szukałem. **Pozostaje nieprzeszukana baza patentów dla nowej osi** `[luka]`; to jest jedyna otwarta pozycja i wpisana jest jako R8 w `17_RYZYKA.md`.
+`[wniosek]` Nowa oś **nie jest zajęta w PubMed, Crossref ani arXiv**. Zgodnie z zamknięciem `METODA.md` §14 to nie jest dowód nieistnienia — to opis tego, gdzie szukałem. **Pozostaje nieprzeszukana baza patentów dla nowej osi** `[luka]`; to jest jedyna otwarta pozycja i wpisana jest jako R8 w `06_RYZYKA.md`.
 
 ---
 

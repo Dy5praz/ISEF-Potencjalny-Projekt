@@ -1,9 +1,6 @@
-# 32 — Studia w USA. Cel nadrzędny, uczelnie, kalendarz, zadania
+# 10 — Studia w USA. Cel nadrzędny
 
-**Data:** 17 sierpnia 2026
-**Status:** ścieżka rekrutacyjna. **To jest cel nadrzędny użytkownika — ISEF jest do niego drogą, nie celem samym w sobie.**
-
-Ten plik istnieje osobno, bo w poprzednich sesjach ścieżka rekrutacyjna ginęła między dokumentami o projekcie i trzeba ją było odtwarzać z rozmowy.
+**Stan na 21 sierpnia 2026.** **To jest cel nadrzędny — Explory i ISEF są do niego drogą, nie celem samym w sobie.**
 
 ---
 
@@ -376,7 +373,7 @@ Projekt to jeden z sześciu elementów i nie największy.
 
 `[fakt]` SAT jest egzaminem prowadzonym w ośrodkach na całym świecie; College Board podaje, że wyniki przyjmuje ponad 4 000 uczelni w USA i w 65 innych krajach. `[fakt]` **Poza USA egzamin jest w wersji cyfrowej (Bluebook) od dawna — wersji papierowej tam nie ma.** Rejestracja idzie przez to samo konto College Board co w USA, bez osobnego portalu.
 
-`[domysł, źródło wtórne]` Ośrodki w Polsce to **Warszawa (American School of Warsaw) i Kraków**. Wyszukiwarki ośrodków College Board nie dało się odczytać automatem — jest renderowana po stronie klienta (`PRZEKAZANIE.md` sekcja 5, znany problem). **Do sprawdzenia ręcznie przy zakładaniu konta**, razem z liczbą wolnych miejsc.
+`[domysł, źródło wtórne]` Ośrodki w Polsce to **Warszawa (American School of Warsaw) i Kraków**. Wyszukiwarki ośrodków College Board nie dało się odczytać automatem — jest renderowana po stronie klienta (`METODA.md` sekcja 5, znany problem). **Do sprawdzenia ręcznie przy zakładaniu konta**, razem z liczbą wolnych miejsc.
 
 `[domysł, źródło wtórne]` Koszt dla zdającego poza USA: **~111 USD**, czyli zweryfikowana opłata bazowa 68 USD plus opłata regionalna. To ~412 zł po kursie z 17 VIII 2026.
 
@@ -531,7 +528,7 @@ Pytanie użytkownika: *„czy mogę liczyć na studia w Stanach, czy to bardziej
 
 `[wniosek]` **Tak — ale nie z powodu tabeli prawdopodobieństw konkursowych.**
 
-Liczby konkursowe (`31_ANALIZA_STAWKI_2026.md` sekcja 8): finał Explory ~50%, reprezentacja ~22%, Nagroda Główna ~9–10%, jakakolwiek nagroda ISEF ~8%.
+Liczby konkursowe (`08_KONKURSY.md` sekcja 8): finał Explory ~50%, reprezentacja ~22%, Nagroda Główna ~9–10%, jakakolwiek nagroda ISEF ~8%.
 
 **Gdyby projekt był wart tylko tego, byłby złym interesem** — 890 godzin za kilkuprocentową szansę.
 

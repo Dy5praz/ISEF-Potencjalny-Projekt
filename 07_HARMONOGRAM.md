@@ -1,10 +1,8 @@
-# 24 — Plan działania krok po kroku
+# 07 — Harmonogram i zadania
 
-**Założony:** 16 sierpnia 2026
+**Stan na 21 sierpnia 2026.**
+
 **Zasada prowadzenia:** pozycja zrobiona zostaje **przekreślona**, nie usunięta, i dostaje datę. Nic z tej listy nie znika — dzięki temu widać, ile już zrobiono, i można wrócić do tego, co odpadło i dlaczego.
-
-**Legenda:** `[ ]` do zrobienia · `[x]` zrobione · `[~]` w toku · `[!]` blokuje inne pozycje
-**Kto:** **JT** — użytkownik · **AI** — do zrobienia w sesji
 
 ---
 
@@ -26,7 +24,7 @@
 - [x] ~~Ocena ConOps drona i ortezy, porównanie, noty~~ — **16 VIII** · AI
 - [x] ~~Audyt w bazach wcześniej niedostępnych; oś zajęta od 2005; K-074~~ — **16 VIII** · AI
 - [x] ~~Zmiana hierarchii celów i zasady „od arkuszy"; K-075~~ — **16 VIII** · JT + AI
-- [ ] **Przeczytać `14_REANALIZA.md` w całości** — reszta dokumentów z niego wynika · JT
+- [ ] **Przeczytać `12_REANALIZA.md` w całości** — reszta dokumentów z niego wynika · JT
 
 ---
 
@@ -64,14 +62,14 @@
   - [ ] alfa spoczynkowa: 2 min oczy zamknięte + 2 min otwarte
   - [ ] flash-VEP: ~200 pojedynczych błysków, uśrednienie
   - [ ] krótka próba SSVEP: 3 cele, 60 prób
-- [ ] **Rozstrzygnięcie R1 wpisane do `17_RYZYKA.md` z datą i liczbami** · AI
+- [ ] **Rozstrzygnięcie R1 wpisane do `06_RYZYKA.md` z datą i liczbami** · AI
   - próg: poniżej **50%** przy trzech celach **oraz** niska amplituda flash-VEP → uruchamiamy plan awaryjny
 - [ ] **Pierwsze własne zapisy z potylicy**, odtworzenie liczby z literatury · JT
 
 ### Rozwidlenie po E0
 
 - [ ] **jeśli E0 dobre** → dalej interfejsem, kamień milowy 3
-- [ ] **jeśli E0 złe** → decyzja: badanie kogoś innego (wymaga IRB, patrz kamień 1) albo **przejście na ortezę** (`22_POROWNANIE.md` §4.2, `23_NOTY.md` §3.2) · JT
+- [ ] **jeśli E0 złe** → decyzja: badanie kogoś innego (wymaga IRB, patrz kamień 1) albo **przejście na ortezę** (`archiwum/22_POROWNANIE.md` §4.2, `archiwum/23_NOTY.md` §3.2) · JT
 
 ---
 
@@ -126,7 +124,7 @@
 - [ ] Plakat wg zasad z ConOps ortezy §10B: **bez wykresów**, zdjęcia, plansza „pokolenia urządzenia", jedna–dwie liczby wyniku · JT
 - [ ] Wykresy i tabele **do segregatora na stoisku**, na pytania jurora · JT
 - [ ] **Plebiscyt „Bilet na Finał"** — materiał gotowy **pierwszego dnia głosowania**. Próg w 2026: 904 głosy · JT
-- [ ] **Ćwiczenie prezentacji.** `23_NOTY.md` §4.1: to jest wyżej punktowana inwestycja niż druga wersja płytki · JT
+- [ ] **Ćwiczenie prezentacji.** `archiwum/23_NOTY.md` §4.1: to jest wyżej punktowana inwestycja niż druga wersja płytki · JT
 
 ---
 
@@ -134,7 +132,7 @@
 
 - [ ] Kampania dokończona, dane kompletne · JT
 - [ ] Grupa badanych po powołaniu komisji IRB, 10–15 osób · JT
-- [~] **Preprint z reanalizy** — **WSTRZYMANY decyzją użytkownika 16 VIII 2026.** Oznaczony jako **pierwsza pozycja do podjęcia przy powrocie w nowej rozmowie** (`26_PRZEKAZANIE_ETAP3.md` §1). Materiał gotowy w ~80% · JT + AI
+- [~] **Preprint z reanalizy** — **WSTRZYMANY decyzją użytkownika 16 VIII 2026.** Oznaczony jako **pierwsza pozycja do podjęcia przy powrocie w nowej rozmowie** (`METODA.md` §1). Materiał gotowy w ~80% · JT + AI
 - [ ] **20–23 X 2027 — FINAŁ EXPLORY, GDYNIA** · JT
 
 ---
@@ -142,7 +140,7 @@
 ## Kamień milowy 9 — listopad 2027 – maj 2028: ISEF
 
 - [ ] Dokumentacja ISEF: Form 4 i pokrewne, Research Plan · JT
-- [ ] Wybór kategorii: **EBED**, podkategoria Circuits albo Signal Processing (`13_PODNIESIENIE_SZANS.md` §1) · JT
+- [ ] Wybór kategorii: **EBED**, podkategoria Circuits albo Signal Processing (`archiwum/13_PODNIESIENIE_SZANS.md` §1) · JT
 - [ ] Abstrakt, limit 250 słów, **bez słowa „pierwszy"** (K-044) · JT + AI
 - [ ] **Prezentacja po angielsku — 35 punktów na 100** · JT
 - [ ] **maj 2028 — ISEF** · JT
@@ -166,7 +164,7 @@
 - [x] ~~Czy TRCA zmienia obraz~~ — **niewykonalne na cudzym zbiorze, faza niezsynchronizowana**
 - [x] ~~Ile kosztuje OpenBCI~~ — **1 249 USD za Cyton, K-071**
 - [x] ~~Jaki oscyloskop do pomiaru mikrowoltów~~ — **żaden, K-072.** Mierzy własny przetwornik
-- [x] ~~Czy orteza i dron są lepsze~~ — **`22_POROWNANIE.md`, `23_NOTY.md`**
+- [x] ~~Czy orteza i dron są lepsze~~ — **`archiwum/22_POROWNANIE.md`, `archiwum/23_NOTY.md`**
 - [x] ~~Czy oś trzyma się w bazach, które blokowały~~ — **nie; badana od 2005, K-074**
 - [x] ~~Czy zaczynać od luki, czy od arkuszy~~ — **od arkuszy, decyzja użytkownika 16 VIII, K-075**
 
@@ -176,8 +174,8 @@
 
 | Kiedy | Co | Gdzie opisane |
 |---|---|---|
-| **X 2026** | E0 wypada źle → zmiana projektu albo zależność od IRB | `22_POROWNANIE.md` §4.2 |
+| **X 2026** | E0 wypada źle → zmiana projektu albo zależność od IRB | `archiwum/22_POROWNANIE.md` §4.2 |
 | **II–IV 2027** | płytka v1 i v2 nie osiągają użytecznego szumu → pomiary na sprzęcie kupionym | R2 |
 | **XI 2026** | własny pomiar rozmija się z przewidywaniem 9–24 pp → twierdzenie odwraca znak | R4 |
 
-**Żadna z nich nie kończy projektu.** Każda ma zapisany plan awaryjny w `17_RYZYKA.md`.
+**Żadna z nich nie kończy projektu.** Każda ma zapisany plan awaryjny w `06_RYZYKA.md`.

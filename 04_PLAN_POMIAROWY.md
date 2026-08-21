@@ -1,9 +1,8 @@
-# 16 — Plan eksperymentalny
+# 04 — Plan pomiarowy
 
-**Data:** 16 sierpnia 2026
-**Podstawa:** `HANDBOOK.md` §11 punkt 3 — *„co mierzone, ile prób, jakie zakresy zmiennych, jaka niepewność"*. `PRZEKAZANIE.md` §4 nazywa to największym blokiem pracy etapu 2.
+**Stan na 21 sierpnia 2026.** Co mierzone, ile prób, jakie zakresy zmiennych, jaka niepewność.
 
-**Zasada nadrzędna tego pliku:** wszystko poniżej ma być **zapisane przed pierwszym pomiarem i raportowane w całości**, także to, co wyjdzie źle. Wybieranie po fakcie metryki, która wypadła najlepiej, jest wymienione w Załączniku nr 1 regulaminu Explory jako naruszenie standardów etycznych (`DECYZJE.md`).
+**Zasada nadrzędna:** wszystko poniżej ma być **zapisane przed pierwszym pomiarem i raportowane w całości**, także to, co wyjdzie źle. `[fakt]` Wybieranie po fakcie metryki, która wypadła najlepiej, jest wymienione w Załączniku nr 1 regulaminu Explory jako naruszenie standardów etycznych.
 
 ---
 
@@ -15,11 +14,11 @@ Zapisuję **dwa** twierdzenia. Oba będą raportowane niezależnie od wyniku. G�
 |---|---|---|
 | treść | przepustowość SSVEP zależy monotonicznie od odległości elektrody odniesienia od aktywnej okolicy potylicznej; istnieje odległość progowa, poniżej której przepustowość gwałtownie spada | montaż wewnątrz modułu ma krótszy czas założenia i mniejszy dryf jakości sygnału w ciągu dnia niż montaż z odniesieniem odległym |
 | metryka | dokładność, ITR (Wolpaw), z jawnymi N, P, t | czas montażu, dryf impedancji i SNR w ciągu dnia, odsetek sesji bez rekalibracji |
-| przewidywanie z góry | spadek **9–24 pp** przy zejściu z odniesienia odległego do zwartego (`14_REANALIZA.md` §5) | brak przewidywania ilościowego `[luka]` — pole nieraportowane |
+| przewidywanie z góry | spadek **9–24 pp** przy zejściu z odniesienia odległego do zwartego (`12_REANALIZA.md` §5) | brak przewidywania ilościowego `[luka]` — pole nieraportowane |
 | co obala | brak monotoniczności albo spadek < 3 pp na całym zakresie | brak różnicy w czasie montażu |
-| ograniczenie formalne | brak | **nie wolno wiązać z wyspaniem ani zmęczeniem** — to jest zmienna ludzka i łamie zwolnienie ISEF dla badania na sobie (`DECYZJE.md`, `ISEF_HUMAN_PARTICIPANTS.md` §1.1) |
+| ograniczenie formalne | brak | **nie wolno wiązać z wyspaniem ani zmęczeniem** — to jest zmienna ludzka i łamie zwolnienie ISEF dla badania na sobie (`11_EWOLUCJA.md`, `09_FORMALNOSCI.md` §1.1) |
 
-**Twierdzenie warunkowe T3** (kontrybucja druga, uruchamiane tylko jeśli E4 pokaże efekt): kompensacja EMG karku z dedykowanego kanału poprawia przepustowość **wtedy i tylko wtedy**, gdy elektroda odniesienia leży nad mięśniem — czyli w konfiguracji wymuszonej przez gabaryt. **W danych publicznych nie da się tego sprawdzić** (`14_REANALIZA.md` §8 pkt 3).
+**Twierdzenie warunkowe T3** (kontrybucja druga, uruchamiane tylko jeśli E4 pokaże efekt): kompensacja EMG karku z dedykowanego kanału poprawia przepustowość **wtedy i tylko wtedy**, gdy elektroda odniesienia leży nad mięśniem — czyli w konfiguracji wymuszonej przez gabaryt. **W danych publicznych nie da się tego sprawdzić** (`12_REANALIZA.md` §8 pkt 3).
 
 > **Zawężenie T3 po teście z §6A pliku `14`, 16 VIII 2026.** Kanał **szczękowy** wypadł z projektu — jego sufit to +0,6 pp nawet w oknach najbardziej skażonych i przy regresorach nieliniowych, przy p = 0,166. **T3 dotyczy wyłącznie EMG karku w konfiguracji z odniesieniem nad mięśniem** i tylko dlatego przeżywa, że tej konfiguracji cudze dane nie zawierają. **Przewidywanie z góry dla T3 brzmi: efektu nie będzie.** Zapisuję to teraz, żeby wynik negatywny był wynikiem, a nie porażką.
 
@@ -27,7 +26,45 @@ Zapisuję **dwa** twierdzenia. Oba będą raportowane niezależnie od wyniku. G�
 
 ---
 
-## 1A. Eksperyment E0 — przesiew, PIERWSZY POMIAR W CAŁYM PROJEKCIE
+---
+
+## 1B. Przewidywanie ilościowe zapisane z góry
+
+**Dopisane 21 VIII 2026.** To jest rejestracja twierdzenia w mocniejszej postaci niż „spodziewam się spadku": **krzywa z wzorem i parametrem wziętym z cudzych pomiarów.**
+
+`[wniosek, wyprowadzenie z opublikowanych długości fali — NIE pomiar]` Pole SSVEP ma strukturę falową: fale biegnące o **λ > 15–20 cm**, propagujące się **potylica → przedczołowie**, czyli wzdłuż osi Oz–POz (Srinivasan i in. 2006, PMID 16544207, 110 elektrod; Thorpe i in. 2007, PMID 17671957). Dla pary elektrod odległej o `d` **wzdłuż osi propagacji** amplituda różnicy wynosi:
+
+> **`|2 · sin(π·d/λ)|`** względem amplitudy pojedynczej elektrody
+
+| d | λ = 15 cm | λ = 20 cm |
+|---|---|---|
+| 2,0 cm | 0,81 | 0,62 |
+| **3,5 cm (Oz–POz)** | **1,34** | **1,04** |
+| 7,0 cm | 1,99 | 1,78 |
+
+**Trzy przewidywania, wszystkie do sprawdzenia tym planem:**
+
+1. **strata zależy od `d/λ`, nie od samego `d`** — więc **musi zmieniać się z częstotliwością bodźca**. Zestaw 8,0–17,8 Hz przechodzi przez trzy różne reżimy falowe
+2. **optimum odległości przy `d ≈ λ/2`** (7–10 cm, poza modułem); przy 3,5 cm jest się na ~70% maksimum, przy 2 cm na ~40%
+3. **kierunek daje efekt większy niż odległość** — para 3,5 cm wzdłuż osi bije parę 7 cm w poprzek
+
+`[luka]` Model jednofalowy jest **najprostszym możliwym**, nie kompletnym — nie obejmuje źródeł lokalnych, rozmycia przez czaszkę ani zanieczyszczeń z R12.
+
+## 1C. Test rozdzielający mechanizmy — koszt jedna kolumna
+
+**Raportować SNR osobno dla częstotliwości podstawowej f₀ i dla drugiej harmonicznej 2f₀, przy każdym położeniu odniesienia.**
+
+Dwa mechanizmy dają różne przewidywania:
+
+- **gładkie pole** kasuje podstawową i harmoniczne podobnie → strata **niezależna od częstotliwości**
+- **zanieczyszczenie odniesienia sygnałem z móżdżku** (R12) siedzi w paśmie beta → strata **wyraźnie większa dla drugiej harmonicznej**
+
+`[luka]` **Na danych Kołodzieja testu wykonać się nie da** — przy bodźcach 7/8/9 Hz drugiej harmonicznej praktycznie nie ma (SNR −0,04 do +0,16 dB we wszystkich montażach). Zestaw 8,0–17,8 Hz daje harmoniczne w paśmie **16,0–35,6 Hz** i test umożliwia.
+
+`[fakt, pomiar własny, `analiza/harmoniczne.py`]` Co już wiadomo: **montaż zwarty kosztuje 2,7–3,6 dB SNR w prążku bodźca.**
+
+
+## 1D. Eksperyment E0 — przesiew, PIERWSZY POMIAR W CAŁYM PROJEKCIE
 
 **Dodany 16 VIII 2026 po pytaniu użytkownika, czy da się rozpoznać ryzyko R1 łatwiej niż pełną kampanią. Da się.**
 
@@ -64,7 +101,7 @@ Zapisuję **dwa** twierdzenia. Oba będą raportowane niezależnie od wyniku. G�
 
 > **POPRAWKA, 16 VIII 2026 — K-072.** Pierwotnie stało tu: *„E1 wymaga generatora i przyrządu o szumie własnym poniżej mierzonego"*. **To nieprawda dla najważniejszego pomiaru E1.** Szum wejściowy mierzy się **samym torem** — zwarte wejście, RMS z próbek własnego przetwornika 24-bitowego; oscyloskop hobbystyczny ma szum własny tysiąc razy większy od mierzonej wielkości i do tego zadania się nie nadaje. **Przyrząd zewnętrzny jest potrzebny jako ŹRÓDŁO znanego sygnału, nie jako miernik.**
 >
-> **Co z tego realnie trzeba kupić:** dzielnik precyzyjny do samodzielnego zlutowania (rezystory 0,1%, **30–80 zł — jedyne miejsce, gdzie dokładność jest krytyczna**) oraz generator funkcyjny ze średniej półki (250–600 zł; jego własny szum przy pomiarze CMRR jest sygnałem wspólnym i tłumi się razem z nim). Rozbiór: **`20_ZAKUPY.md` §4**.
+> **Co z tego realnie trzeba kupić:** dzielnik precyzyjny do samodzielnego zlutowania (rezystory 0,1%, **30–80 zł — jedyne miejsce, gdzie dokładność jest krytyczna**) oraz generator funkcyjny ze średniej półki (250–600 zł; jego własny szum przy pomiarze CMRR jest sygnałem wspólnym i tłumi się razem z nim). Rozbiór: **`03_SPRZET.md` §4**.
 >
 > `[luka]` Bez pożyczonego sprzętu nie da się zmierzyć **jitteru próbkowania** ani potwierdzić CMRR powyżej ~100 dB. To jest właściwe zastosowanie zasobu „brat", luty 2027, na gotową płytkę v1. Do tego czasu obie liczby podajemy jako katalogowe, z jawnym zaznaczeniem.
 
@@ -76,19 +113,19 @@ Zapisuję **dwa** twierdzenia. Oba będą raportowane niezależnie od wyniku. G�
 
 **Wszystkie warunki są rejestrowane jednocześnie, w jednej sesji, i wyprowadzane odejmowaniem po fakcie.**
 
-Osiem elektrod (`15_PROJEKT.md` §2.3) rejestruje się wobec wspólnego odniesienia na płatku ucha. Montaże o krótszym odniesieniu powstają offline jako różnice kanałów. **Jedna sesja daje pełny zestaw warunków na tych samych próbkach.**
+Osiem elektrod (`03_SPRZET.md` §2.3) rejestruje się wobec wspólnego odniesienia na płatku ucha. Montaże o krótszym odniesieniu powstają offline jako różnice kanałów. **Jedna sesja daje pełny zestaw warunków na tych samych próbkach.**
 
 Dlaczego to jest ważne, a nie kosmetyczne: sesje różnią się impedancją kontaktu, oświetleniem i stanem badanego. Gdyby każdy montaż mierzyć osobno, różnica między sesjami byłaby większa niż mierzony efekt i wynik byłby bezwartościowy. **To jest ta sama konstrukcja, która pozwoliła policzyć §5 pliku `14` na cudzych danych, i tam zadziałała.**
 
 **Warunek kontrolny, którego nie wolno pominąć:** montaż zwarty musi zostać **na końcu zmierzony fizycznie**, na rzeczywistym module z odniesieniem wewnątrz, nie tylko wyprowadzony odejmowaniem. Wyprowadzenie offline zakłada, że tor jest liniowy i że nie ma nasycenia — a jednym z argumentów za kompensacją analogową jest właśnie to, że nasycenie istnieje. **Zgodność pomiaru fizycznego z wyprowadzeniem offline jest osobnym, raportowanym wynikiem.**
 
-> **UZUPEŁNIENIE 18 VIII 2026 — P15a, `36_ROZBIOR_LI2025_I_PRZESZUKANIE.md` §2.2.** Porównanie prowadzi się **wobec dwóch baz naraz, nie jednej**: (1) montaż wielokanałowy z odniesieniem odległym — górna granica; (2) **pojedynczy kanał z odniesieniem odległym — dolna granica**. Powód: `[fakt]` Li i in. 2025 (PMID 40566767) zmierzyli, że montaż dwubiegunowy POz−Oz **bije** pojedynczy kanał Oz z odniesieniem na czole (**68,25% wobec 37,65%** przy oknie 3 s), podczas gdy reanaliza Kołodzieja pokazuje, że dwubiegunowy **przegrywa** z montażem trzykanałowym z odniesieniem odległym (48,8–64,0% wobec 73,3%). **Obie liczby są prawdziwe i dotyczą różnych porównań.** Bez drugiej bazy własny wynik da się przedstawić jako sprzeczny z opublikowaną pracą, choć sprzeczny nie będzie. Koszt: zero — obie bazy wyprowadza się offline z tej samej rejestracji (`15_PROJEKT.md` §2.1).
+> **UZUPEŁNIENIE 18 VIII 2026 — P15a, `05_STAN_WIEDZY.md` §2.2.** Porównanie prowadzi się **wobec dwóch baz naraz, nie jednej**: (1) montaż wielokanałowy z odniesieniem odległym — górna granica; (2) **pojedynczy kanał z odniesieniem odległym — dolna granica**. Powód: `[fakt]` Li i in. 2025 (PMID 40566767) zmierzyli, że montaż dwubiegunowy POz−Oz **bije** pojedynczy kanał Oz z odniesieniem na czole (**68,25% wobec 37,65%** przy oknie 3 s), podczas gdy reanaliza Kołodzieja pokazuje, że dwubiegunowy **przegrywa** z montażem trzykanałowym z odniesieniem odległym (48,8–64,0% wobec 73,3%). **Obie liczby są prawdziwe i dotyczą różnych porównań.** Bez drugiej bazy własny wynik da się przedstawić jako sprzeczny z opublikowaną pracą, choć sprzeczny nie będzie. Koszt: zero — obie bazy wyprowadza się offline z tej samej rejestracji (`03_SPRZET.md` §2.1).
 
 ### 3.2 Zmienne
 
 | | |
 |---|---|
-| **niezależna główna, DWUWYMIAROWA** | **odległość** odniesienia od Oz: **~2, ~3,5, ~7, ~10 cm** — **oraz KIERUNEK: w górę (POz) wobec w dół (podpotyliczny), przy zbliżonej odległości.** Zmienione 21 VIII 2026 (P27, `39_KIERUNEK_NIE_TYLKO_ODLEGLOSC.md`). `[wniosek]` Para **POz** i **„2 cm poniżej Oz"** to warunek kontrolny w najczystszej postaci, jaką ten projekt ma: zbliżona odległość, przeciwny kierunek, ta sama sesja, te same próbki, ten sam tor — różnica jest **czystym efektem kierunku** |
+| **niezależna główna, DWUWYMIAROWA** | **odległość** odniesienia od Oz: **~2, ~3,5, ~7, ~10 cm** — **oraz KIERUNEK: w górę (POz) wobec w dół (podpotyliczny), przy zbliżonej odległości.** Zmienione 21 VIII 2026 (P27, `05_STAN_WIEDZY.md`). `[wniosek]` Para **POz** i **„2 cm poniżej Oz"** to warunek kontrolny w najczystszej postaci, jaką ten projekt ma: zbliżona odległość, przeciwny kierunek, ta sama sesja, te same próbki, ten sam tor — różnica jest **czystym efektem kierunku** |
 | **niezależna druga** | długość okna decyzyjnego **t = 0,5 / 1 / 2 / 3 / 4 s** — wyprowadzana z tych samych zapisów |
 | **niezależna trzecia** | liczba i rozstaw elektrod aktywnych: 1, 2, 3 kanały; rozstaw ~2 i ~4 cm (E3) |
 | **zależne** | dokładność klasyfikacji, **ITR wg Wolpawa**, SNR w paśmie bodźca, impedancja kontaktu przed i po sesji |
@@ -127,7 +164,7 @@ Dlaczego to jest ważne, a nie kosmetyczne: sesje różnią się impedancją kon
 
 **Przyjmuję 240 prób na sesję.** Pokrywa efekt 9 pp z zapasem przy każdym realistycznym odsetku niezgodności i połowicznie pokrywa 5 pp.
 
-**Długość okna decyzyjnego — wybrana pomiarem, nie odczuciem.** Na danych Kołodzieja policzyłem dokładność i ITR dla okien 0,5–5 s (`14_REANALIZA.md` §5.1). **ITR ma wyraźne maksimum przy oknie 1 s** (28,9 bit/min przy trzech celach) i spada dla okien dłuższych, mimo że dokładność dalej rośnie. Dodatkowo: **strata montażu zwartego maleje z długością okna** (9,3 pp przy 1 s → 4,2 pp przy 5 s), więc długość okna jest **zmienną, która wchodzi w interakcję z badanym efektem** i musi być analizowana, a nie ustalona raz.
+**Długość okna decyzyjnego — wybrana pomiarem, nie odczuciem.** Na danych Kołodzieja policzyłem dokładność i ITR dla okien 0,5–5 s (`12_REANALIZA.md` §5.1). **ITR ma wyraźne maksimum przy oknie 1 s** (28,9 bit/min przy trzech celach) i spada dla okien dłuższych, mimo że dokładność dalej rośnie. Dodatkowo: **strata montażu zwartego maleje z długością okna** (9,3 pp przy 1 s → 4,2 pp przy 5 s), więc długość okna jest **zmienną, która wchodzi w interakcję z badanym efektem** i musi być analizowana, a nie ustalona raz.
 
 **Decyzja:** rejestrujemy epoki **2 s**, a okna 0,5 / 1 / 1,5 / 2 s wyprowadzamy z nich offline. Główna liczba raportowana przy oknie, które maksymalizuje ITR — **z podaniem całej krzywej**, nie samego maksimum.
 
@@ -145,7 +182,7 @@ Dlaczego to jest ważne, a nie kosmetyczne: sesje różnią się impedancją kon
 
 `[fakt, wzór]` ITR Wolpaw: `B = log₂N + P·log₂P + (1−P)·log₂((1−P)/(N−1))`, ITR = B · 60/t.
 
-**Konwencja `t`, deklarowana raz i niezmienna** (zakaz z `06_TABELA_PARAMETROW.md` §0 pkt 2): `t` = **czas stymulacji plus przerwa**, czyli 3,5 s przy oknie 2 s. Podawane będą obie liczby: ITR „przy oknie" i ITR „przy pełnym cyklu". **Nigdy jedna bez drugiej.**
+**Konwencja `t`, deklarowana raz i niezmienna** (zakaz z `archiwum/06_TABELA_PARAMETROW.md` §0 pkt 2): `t` = **czas stymulacji plus przerwa**, czyli 3,5 s przy oknie 2 s. Podawane będą obie liczby: ITR „przy oknie" i ITR „przy pełnym cyklu". **Nigdy jedna bez drugiej.**
 
 Niepewność dokładności: przedział Wilsona. Niepewność ITR: **propagacja przez wzór z krańców przedziału P**, plus bootstrap 10 000 losowań po próbach.
 
@@ -171,13 +208,13 @@ Skala niepewności przy N = 8, t = 2 s, P = 0,85:
 | 8 | 1 s | 76,6 | 118,1 | 154,4 |
 | 12 | 1 s | 100,0 | 147,4 | 187,5 |
 
-Kalibracja oczekiwań z `12_AUDYT.md` §3: **dolna półka w recenzowanej literaturze to 70% przy trzech celach** (Kołodziej, zespół uczelniany). **Nie zakładaj, że pierwsze uruchomienie da górną półkę.** Pierwsza własna sesja, która da 60% przy ośmiu celach, jest sukcesem, nie porażką.
+Kalibracja oczekiwań z `METODA.md` §3: **dolna półka w recenzowanej literaturze to 70% przy trzech celach** (Kołodziej, zespół uczelniany). **Nie zakładaj, że pierwsze uruchomienie da górną półkę.** Pierwsza własna sesja, która da 60% przy ośmiu celach, jest sukcesem, nie porażką.
 
 ---
 
 ## 4. Eksperyment E3 — rozstaw elektrod aktywnych
 
-Druga mierzona kontrybucja z `13_PODNIESIENIE_SZANS.md` §5, **zmieniona po reanalizie**: pytanie „czy gęste próbkowanie małego obszaru zastępuje rzadkie próbkowanie dużego" dostało już częściową odpowiedź na cudzych danych i brzmi ona **nie** (`14_REANALIZA.md` §5).
+Druga mierzona kontrybucja z `archiwum/13_PODNIESIENIE_SZANS.md` §5, **zmieniona po reanalizie**: pytanie „czy gęste próbkowanie małego obszaru zastępuje rzadkie próbkowanie dużego" dostało już częściową odpowiedź na cudzych danych i brzmi ona **nie** (`12_REANALIZA.md` §5).
 
 **Co zostaje do zmierzenia:** czy strata jest funkcją **rozstawu elektrod aktywnych**, czy wyłącznie **odległości odniesienia**. Reanaliza tych dwóch nie rozdziela, bo w tamtym zbiorze były tylko trzy elektrody potyliczne.
 
@@ -243,7 +280,7 @@ Schodzi do tabeli towarzyszącej, ale **jest mierzony**, bo kosztuje tylko dyscy
 2. **Kod analizy w repozytorium, wersjonowany.** Pipeline z `analiza/` jest zalążkiem i jest już zwalidowany wobec publikacji
 3. **Dobór hiperparametrów klasyfikatora wyłącznie na sesjach 1–2**, potem zamrożony. Sesje 3–8 to zbiór testowy i nie wolno go dotknąć przed zamrożeniem
 4. **Wszystkie warunki raportowane**, także te, które wypadły źle. Lista warunków jest w tym pliku i jest datowana
-5. **Dziennik postępu budowy z wersjonowanymi zdjęciami** — `HANDBOOK.md` §4.13 wskazuje to jako normę dokumentacyjną silnych wpisów inżynierskich w Explory, i jest to tańsze niż tabele pomiarowe na plakacie
+5. **Dziennik postępu budowy z wersjonowanymi zdjęciami** — `METODA.md` §4.13 wskazuje to jako normę dokumentacyjną silnych wpisów inżynierskich w Explory, i jest to tańsze niż tabele pomiarowe na plakacie
 
 ---
 
@@ -254,5 +291,5 @@ Schodzi do tabeli towarzyszącej, ale **jest mierzony**, bo kosztuje tylko dyscy
 1. **Sprzęt pomiarowy do E1 nieustalony** — bez niego charakterystyka toru będzie niepełna (R3)
 2. **Nie ma planu na wypadek, gdyby SSVEP u autora był słaby.** Rozrzut międzyosobniczy w danych Kołodzieja to 40–96% dokładności bazowej; **S08 miał 40%**. Jeżeli autor okaże się takim przypadkiem, cały plan jednoosobowy się sypie. **Pierwszy pomiar w torze A, jesienią 2026, jest testem tego ryzyka i musi być wykonany zanim powstanie płytka** — wpisane jako R1
 3. **TRCA i metody z uczeniem wewnątrzosobniczym nieprzetestowane** — mogą zmienić obraz z `14`
-4. **Crossref i arXiv nieprzeszukane dla nowej osi** — tylko PubMed (`14_REANALIZA.md` §11)
-5. **Nie ma pomiaru widoczności urządzenia.** Test na stoisku „gdzie ono jest" jest **ankietą opinii publicznej o wynalazku i wymaga uprzedniej zgody komisji IRB** (`DECYZJE.md` decyzja 3). Albo procedura zgody, albo pomysł odpada — nie wolno tego zrobić spontanicznie
+4. **Crossref i arXiv nieprzeszukane dla nowej osi** — tylko PubMed (`12_REANALIZA.md` §11)
+5. **Nie ma pomiaru widoczności urządzenia.** Test na stoisku „gdzie ono jest" jest **ankietą opinii publicznej o wynalazku i wymaga uprzedniej zgody komisji IRB** (`11_EWOLUCJA.md` decyzja 3). Albo procedura zgody, albo pomysł odpada — nie wolno tego zrobić spontanicznie

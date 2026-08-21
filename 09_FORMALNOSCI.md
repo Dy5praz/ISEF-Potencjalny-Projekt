@@ -1,6 +1,8 @@
-# ISEF — badania z udziałem ludzi
+# 09 — Formalności ISEF: badania z udziałem ludzi
 
-**Zadanie 4d nr 2 oraz pozycja 1 z sekcji 3 `PRZEKAZANIE.md`.** Handbook, sekcja 5.5: „najbardziej prawdopodobna przyczyna dyskwalifikacji na technikalium w całym projekcie".
+**Stan na 21 sierpnia 2026.** Regulamin odczytany w oryginale: *International Rules for Pre-College Science Research*, rocznik **2026–2027**, 46 stron, plus strony `societyforscience.org`.
+
+`[luka]` **To jest rocznik prowadzący do ISEF 2027, nie 2028.** Regulamin rocznika 2027–2028 ukaże się ~połowa 2027. Struktura reguł jest stabilna między latami `[wniosek]`, ale **daty i numery formularzy trzeba sprawdzić ponownie po publikacji.** To jedyna pozycja, która w tym pliku pozostaje otwarta.
 
 ---
 
@@ -18,7 +20,7 @@ Poprzednia wersja tego pliku była zbudowana ze streszczeń wyszukiwarki. **Trzy
 
 ## 1. Badanie na sobie — ZWOLNIONE, i znam dokładny warunek
 
-To była pozycja `[luka]` nr 2 z sekcji 4c/B5 `00_PYTANIA_I_LUKI.md` i pozycja 7 z listy zamkniętej poprzedniej wersji.
+To była pozycja `[luka]` nr 2 z sekcji 4c/B5 `archiwum/00_PYTANIA_I_LUKI.md` i pozycja 7 z listy zamkniętej poprzedniej wersji.
 
 **[fakt, cytat z oryginału]** Sekcja *EXEMPT STUDIES (DO NOT REQUIRE IRB PRE-APPROVAL OR HUMAN PARTICIPANTS PAPERWORK)*, pozycja 1:
 
@@ -43,9 +45,9 @@ Poprzednia wersja tego pliku znała tylko warunek „brak ryzyka" i wokół nieg
 
 > **UZUPEŁNIENIE 18 VIII 2026 — K-085. Reguła, której ten plik nie rozpatrzył.** `[fakt, strona regulaminowa odczytana 18 VIII 2026]` Lista przykładów badań z udziałem ludzi zawiera pozycję *„**Studies in which the researcher is the subject of the research**"*, a zaraz po niej stoi *„All human participant studies must be reviewed and approved by an IRB **prior to experimentation**."* Zwolnienie cytowane wyżej brzmi węziej — dotyczy *„Invention, Prototype, (…) Engineering/Design Project or Consumer Product **Testing**"*. `[wniosek]` **Zwolnienie obejmuje testowanie własnego wynalazku, nie badanie, w którym badaczem i badanym jest ta sama osoba.** Kampania E2 daje się opisać na oba sposoby, więc **kwalifikacja zależy od sformułowania planu badawczego**, a nie jest bezwarunkowa. Trzy skutki: (1) wiersze tabeli powyżej ze znacznikiem `[wniosek]` pozostają wnioskami, a nie faktami; (2) **Research Plan opisuje E2 jako testowanie konstrukcji w wielu konfiguracjach elektrod** — bo tak jest, tak brzmi zwolnienie, i tak brzmi rubryka `Execution` (*„tested in multiple conditions/trials"*); (3) pytanie do FZT rozszerzone o trzecie zdanie — czy organizator klasyfikuje taki projekt jako zwolniony (pozycja P14).
 
-**[wniosek] Konsekwencja projektowa, konkretna:** eksperyment ze `09_UMIEJSCOWIENIE.md` sekcja 5b — jeden tor analogowy, dwie wiązki elektrodowe, porównanie geometrii — **mieści się w zwolnieniu, dopóki badanym jestem tylko ja**. To jest dobra wiadomość: najważniejsza kampania pomiarowa projektu nie wymaga formalności.
+**[wniosek] Konsekwencja projektowa, konkretna:** eksperyment ze `archiwum/09_UMIEJSCOWIENIE.md` sekcja 5b — jeden tor analogowy, dwie wiązki elektrodowe, porównanie geometrii — **mieści się w zwolnieniu, dopóki badanym jestem tylko ja**. To jest dobra wiadomość: najważniejsza kampania pomiarowa projektu nie wymaga formalności.
 
-**[wniosek] Konsekwencja, która psuje jeden pomysł:** metryka „stabilność w ciągu dnia" z wariantu 2 twierdzenia (`00_STRESZCZENIE.md` sekcja 1.2) ociera się o zmienną ludzką. Mierzenie dryfu jakości sygnału w czasie noszenia — bezpieczne. Mierzenie, jak wynik zależy od wyspania badanego — **nie**. Granicę trzeba trzymać świadomie przy projektowaniu planu eksperymentalnego.
+**[wniosek] Konsekwencja, która psuje jeden pomysł:** metryka „stabilność w ciągu dnia" z wariantu 2 twierdzenia (`archiwum/00_STRESZCZENIE.md` sekcja 1.2) ociera się o zmienną ludzką. Mierzenie dryfu jakości sygnału w czasie noszenia — bezpieczne. Mierzenie, jak wynik zależy od wyspania badanego — **nie**. Granicę trzeba trzymać świadomie przy projektowaniu planu eksperymentalnego.
 
 ### 1.2 Pułapka, której nie było w poprzedniej wersji
 
@@ -53,7 +55,7 @@ Poprzednia wersja tego pliku znała tylko warunek „brak ryzyka" i wokół nieg
 
 > „IRB review and pre-approval is required when the student-designed invention, prototype, application, etc. is tested by human participants other than the student researcher(s) … **This includes surveys conducted regarding potential use or opinions of the invention or consumer product by the general public.**"
 
-Skala widoczności z `06_TABELA_PARAMETROW.md` sekcja 4 zawiera propozycję: *„zdjęcie osoby w urządzeniu, pytanie do widza »gdzie ono jest«"* jako pomiar zamieniający kolumnę opiniową w liczbę. **To jest ankieta opinii publicznej o wynalazku i wymaga uprzedniej zgody IRB.** Nie wolno tego zrobić spontanicznie na stoisku.
+Skala widoczności z `archiwum/06_TABELA_PARAMETROW.md` sekcja 4 zawiera propozycję: *„zdjęcie osoby w urządzeniu, pytanie do widza »gdzie ono jest«"* jako pomiar zamieniający kolumnę opiniową w liczbę. **To jest ankieta opinii publicznej o wynalazku i wymaga uprzedniej zgody IRB.** Nie wolno tego zrobić spontanicznie na stoisku.
 
 Wyjątek zapisany w tej samej regule: *„This is not intended to apply to receiving professional feedback from experts in the field of study prior to experimentation"* — konsultacja z bratem albo z opiekunem naukowym nie jest badaniem.
 
@@ -109,7 +111,7 @@ Sekcja 12 handbooka, bez zmian i nienegocjowalna: zasilanie bateryjne albo izola
 | **Qualified Scientist (QS)** | „Earned a doctoral/professional degree in a scientific discipline related to student's area of research **AND/OR** Individual with **extensive experience and expertise** in the student's area of research" | zatwierdza plan badawczy **przed** startem, nadzór, Formularz 2B |
 | **Direct Supervisor (DS)** | „**Does not need an advanced degree**"; musi znać projekt i przyjąć potrzebne szkolenie; „May also serve as the Adult Sponsor" | bezpośredni nadzór nad eksperymentem, Formularz 3 |
 
-**Poprawka nr 1 (K-020):** poprzednia wersja podawała, że Qualified Scientist **wymaga doktoratu**. To nieprawda — regulamin dopuszcza alternatywę „rozległe doświadczenie i wiedza ekspercka" i łączy oba warunki spójnikiem `AND/OR`. **Brat kończący studia inżynierskie i pracujący w firmie produkującej precyzyjną elektronikę jest realnym kandydatem na QS w części sprzętowej** `[wniosek]` — o ile ktoś zechce to poświadczyć. To zmienia ocenę ryzyka formalnego z sekcji 3 `00_PYTANIA_I_LUKI.md` z wysokiego na średnie.
+**Poprawka nr 1 (K-020):** poprzednia wersja podawała, że Qualified Scientist **wymaga doktoratu**. To nieprawda — regulamin dopuszcza alternatywę „rozległe doświadczenie i wiedza ekspercka" i łączy oba warunki spójnikiem `AND/OR`. **Brat kończący studia inżynierskie i pracujący w firmie produkującej precyzyjną elektronikę jest realnym kandydatem na QS w części sprzętowej** `[wniosek]` — o ile ktoś zechce to poświadczyć. To zmienia ocenę ryzyka formalnego z sekcji 3 `archiwum/00_PYTANIA_I_LUKI.md` z wysokiego na średnie.
 
 **Poprawka nr 2 (K-021):** rola nazywa się **Direct Supervisor**, nie „Designated Supervisor", i **nie jest wyznaczana przez Qualified Scientist** jako jego przedłużenie w ogólności. DS jest wymagany w szczególności wtedy, gdy QS mieszka gdzie indziej („May live elsewhere and not be local to the student, in which case, a Direct Supervisor must be appointed"). DS nie potrzebuje żadnego stopnia i **może być tą samą osobą co Adult Sponsor**.
 
@@ -183,7 +185,7 @@ To zmienia ostrzeżenie z K-006 i trzeba je postawić na nowo:
 
 **Ale blok ma dwanaście miesięcy, a od kwietnia 2027 do maja 2028 jest trzynaście.** Czyli: albo blok biegnie ~V 2027 – V 2028 i wtedy pomiary z kwietnia 2027 wypadają poza nim, albo blok biegnie I–XII 2027 i wtedy nic po grudniu 2027 się nie liczy.
 
-**[wniosek] Rozstrzygnięcie praktyczne:** formalną kampanię pomiarową pod ISEF prowadzić od **maja 2027**. Wszystko wcześniejsze — cały rok szkolny 2026/2027, nauka PCB, prototypy, pomiary rozpoznawcze — traktować jako **prace rozwojowe przed kampanią**, nie jako dane do ISEF. Materiał na El-Robo-Mech i na półfinał Explory może pochodzić z tego wcześniejszego okresu bez żadnego problemu, bo tamte konkursy reguły 12 miesięcy nie mają (`HANDBOOK.md` sekcja 4.13, potwierdzone w regulaminie Explory — nie ma tam żadnego ograniczenia czasowego).
+**[wniosek] Rozstrzygnięcie praktyczne:** formalną kampanię pomiarową pod ISEF prowadzić od **maja 2027**. Wszystko wcześniejsze — cały rok szkolny 2026/2027, nauka PCB, prototypy, pomiary rozpoznawcze — traktować jako **prace rozwojowe przed kampanią**, nie jako dane do ISEF. Materiał na El-Robo-Mech i na półfinał Explory może pochodzić z tego wcześniejszego okresu bez żadnego problemu, bo tamte konkursy reguły 12 miesięcy nie mają (`METODA.md` sekcja 4.13, potwierdzone w regulaminie Explory — nie ma tam żadnego ograniczenia czasowego).
 
 To jest **łagodniejsze** niż ostrzeżenie z K-006: nie „wszystko trzeba będzie powtórzyć", tylko „kampania pod ISEF ma swój własny start i jest nim maj 2027".
 

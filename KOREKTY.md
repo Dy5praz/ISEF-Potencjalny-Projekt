@@ -106,7 +106,7 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 
 **Kto zażądał sprawdzenia:** użytkownik, wprost, powołując się na wcześniejsze wpadki z rzekomą innowacyjnością.
 
-**ROZSTRZYGNIĘCIE, 15 VIII 2026 (etap 1):** typ trafny co do kierunku, **zbyt optymistyczny co do szerokości szczeliny**. Wersja ogólna zajęta od 1983 (Gratton, Coles, Donchin). Dodatkowo — czego typ nie przewidywał — **realizacja analogowa też jest zajęta**, na poziomie układów scalonych, dla artefaktów ruchowych. Nie znalazłem kompensacji analogowej EMG/EOG z kanału referencyjnego w urządzeniu przyusznym, ale przeszukanie jednym kanałem nie jest dowodem nieistnienia. Pełny rozbiór: `04_LUKI_ZAPISANE.md` sekcja 2. Konsekwencja: **twierdzenie projektu nie może brzmieć „pierwszy raz", musi brzmieć jako pomiar.**
+**ROZSTRZYGNIĘCIE, 15 VIII 2026 (etap 1):** typ trafny co do kierunku, **zbyt optymistyczny co do szerokości szczeliny**. Wersja ogólna zajęta od 1983 (Gratton, Coles, Donchin). Dodatkowo — czego typ nie przewidywał — **realizacja analogowa też jest zajęta**, na poziomie układów scalonych, dla artefaktów ruchowych. Nie znalazłem kompensacji analogowej EMG/EOG z kanału referencyjnego w urządzeniu przyusznym, ale przeszukanie jednym kanałem nie jest dowodem nieistnienia. Pełny rozbiór: `archiwum/04_LUKI_ZAPISANE.md` sekcja 2. Konsekwencja: **twierdzenie projektu nie może brzmieć „pierwszy raz", musi brzmieć jako pomiar.**
 
 ---
 
@@ -150,7 +150,7 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 
 **Potwierdzenie krzyżowe:** skład reprezentacji na ISEF 2026 (Pająk; Sułek; Truszczyńska i Duszyńska) to **3 projekty i 4 osoby** — dokładnie liczba podana niezależnie w sekcji 4.9 handbooka.
 
-**Konsekwencja:** teza „jeden strzał" stoi, kolizja z maturą 2029 nie występuje. **Alternatywa z punktu 1.4 `00_PYTANIA_I_LUKI.md` odpada.**
+**Konsekwencja:** teza „jeden strzał" stoi, kolizja z maturą 2029 nie występuje. **Alternatywa z punktu 1.4 `archiwum/00_PYTANIA_I_LUKI.md` odpada.**
 
 **Co zostaje:** cytat z regulaminu edycji 2027. Powyższe pochodzi ze stron organizatora, nie z dokumentu regulaminowego.
 
@@ -160,7 +160,7 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 
 ### K-014 — mój argument „odczyt ciągły wymusza hełm" był za mocny
 
-**Co było źle:** w sekcji 4c `00_PYTANIA_I_LUKI.md` napisałem, że amplituda rytmów sensomotorycznych przy uchu „spada prawdopodobnie do okolic szumu własnego wzmacniacza", i **uczyniłem z tego główny argument** za odczytem dyskretnym.
+**Co było źle:** w sekcji 4c `archiwum/00_PYTANIA_I_LUKI.md` napisałem, że amplituda rytmów sensomotorycznych przy uchu „spada prawdopodobnie do okolic szumu własnego wzmacniacza", i **uczyniłem z tego główny argument** za odczytem dyskretnym.
 
 **Poprawka:** istnieje praca *„Detection of motor-related mu rhythm desynchronization by ear EEG"* (PLOS One 2025) o tym, że desynchronizacja mu **jest wykrywalna z ucha**. Ear-EEG opisywane jest jako porównywalne ze skalpowym dla źródeł blisko ucha.
 
@@ -198,7 +198,7 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 
 **Skutek dla kalendarza:** termin kwiecień 2027 zostaje, ale jako **samonarzucony**, nie jako wymóg strategiczny — więc można go przesunąć bez straty, gdyby kolidował z sensowną kolejnością prac.
 
-**Pozycja otwarta:** alternatywne konkursy dające realną walidację zewnętrzną — nieprzeszukane, kierunki w `08_KONKURENCJA_ISEF.md` sekcja 4.1.
+**Pozycja otwarta:** alternatywne konkursy dające realną walidację zewnętrzną — nieprzeszukane, kierunki w `08_KONKURSY.md` sekcja 4.1.
 
 **Kto wyłapał:** Claude Code, etap 1.
 
@@ -206,7 +206,7 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 
 ### K-017 — rola sEMG/EOG jako źródła sterowania jest zajęta
 
-**Czego dotyczy:** roli 1 z sekcji 4b/C3 `00_PYTANIA_I_LUKI.md` — sEMG/EOG jako źródło sterowania, „odłożone, nie odrzucone".
+**Czego dotyczy:** roli 1 z sekcji 4b/C3 `archiwum/00_PYTANIA_I_LUKI.md` — sEMG/EOG jako źródło sterowania, „odłożone, nie odrzucone".
 
 **Ustalenie:** **ID.EARS**, CHI 2025, DOI 10.1145/3706598.3714185. Urządzenie na jedno ucho, elektrody suche, pięć gestów w czasie rzeczywistym (mrugnięcie, wink lewy, wink prawy, zaciśnięcie zębów, żucie), **>90% dokładności**. Autorzy formułują to jako świadome odwrócenie konwencji: EMG i EOG jako sygnał zamiast szumu.
 
@@ -228,7 +228,7 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 
 **Co pogarsza sprawę:** wyszukiwarka podała wprost, że `ENBM074` w edycji 2026 to praca o interfejsach nieinwazyjnych. **Nadpisałem poprawną informację ze źródła własnym błędnym wnioskiem** — czyli zrobiłem coś gorszego niż brak weryfikacji.
 
-**Poprawka:** kod `ENBM074` jest **prawidłowy dla edycji 2026**. K-012 wycofana. Handbook i `08_KONKURENCJA_ISEF.md` przywrócone.
+**Poprawka:** kod `ENBM074` jest **prawidłowy dla edycji 2026**. K-012 wycofana. Handbook i `08_KONKURSY.md` przywrócone.
 
 **Reguła operacyjna, która z tego zostaje:** kody projektów ISEF cytować **wyłącznie z rocznikiem** — `ENBM074 (2026)`. Kod bez rocznika jest niejednoznaczny i to jest jedyna prawdziwa treść, jaka wyszła z całej tej pomyłki.
 
@@ -246,7 +246,7 @@ Format wpisu: data | źródło błędu | co było źle | poprawka | kto wyłapa�
 
 **Dodatkowa obserwacja, która wyszła dopiero przy rozbiorze:** rzecz schowana pod włosami z tyłu głowy ma widoczność **stopnia 0**, czyli **lepszą niż aparat słuchowy** (stopień 1). Wymaganie „zero hełmów" nie tylko nie wyklucza potylicy — potylica może je spełniać lepiej.
 
-**Poprawka:** decyzja o umiejscowieniu **otwarta**, analiza w `09_UMIEJSCOWIENIE.md`, cztery pytania postawione użytkownikowi. Wpis w `CLAUDE.md` o formie zausznej traci status ustalenia wiążącego do czasu rozstrzygnięcia.
+**Poprawka:** decyzja o umiejscowieniu **otwarta**, analiza w `archiwum/09_UMIEJSCOWIENIE.md`, cztery pytania postawione użytkownikowi. Wpis w `CLAUDE.md` o formie zausznej traci status ustalenia wiążącego do czasu rozstrzygnięcia.
 
 **Ustalenie, które przeżywa:** wykluczenie elektrod nad korą ruchową (C3/Cz/C4) — te wymagają czapki przy każdym scenariuszu.
 
@@ -262,11 +262,11 @@ Wszystkie poniższe wpisy powstały przez **otwarcie źródła**, nie przez stre
 
 ### K-020 — Qualified Scientist NIE wymaga doktoratu
 
-**Co było źle:** `ISEF_HUMAN_PARTICIPANTS.md` sekcja 2 podawała próg „stopień doktora w dziedzinie badań" jako definicję Qualified Scientist i wyprowadzała z tego, że opiekun-magister go nie spełnia, a użytkownik „musi zorganizować doktora".
+**Co było źle:** `09_FORMALNOSCI.md` sekcja 2 podawała próg „stopień doktora w dziedzinie badań" jako definicję Qualified Scientist i wyprowadzała z tego, że opiekun-magister go nie spełnia, a użytkownik „musi zorganizować doktora".
 
 **Poprawka, cytat z oryginału** (*International Rules 2026–2027*, sekcja *Roles & Responsibilities*): „Earned a doctoral/professional degree in a scientific discipline related to student's area of research **AND/OR** Individual with **extensive experience and expertise** in the student's area of research".
 
-**Konsekwencja:** próg jest alternatywą, nie koniunkcją. Brat pracujący w firmie produkującej precyzyjną elektronikę mieści się w drugim członie `[wniosek]`. Ryzyko formalne z sekcji 3 `00_PYTANIA_I_LUKI.md` schodzi z wysokiego na średnie.
+**Konsekwencja:** próg jest alternatywą, nie koniunkcją. Brat pracujący w firmie produkującej precyzyjną elektronikę mieści się w drugim członie `[wniosek]`. Ryzyko formalne z sekcji 3 `archiwum/00_PYTANIA_I_LUKI.md` schodzi z wysokiego na średnie.
 
 **Kto wyłapał:** Claude Code, sesja druga, przy odczytaniu oryginału.
 
@@ -284,7 +284,7 @@ Wszystkie poniższe wpisy powstały przez **otwarcie źródła**, nie przez stre
 
 ### K-022 — nie wiedziałem, że IRB trzeba POWOŁAĆ, a nie znaleźć
 
-**Co było źle:** cała poprzednia wersja `ISEF_HUMAN_PARTICIPANTS.md` traktowała „zgodę komisji" jak procedurę u instytucji zewnętrznej, którą się uruchamia. Nigdzie nie pytałem, kto tę komisję stanowi.
+**Co było źle:** cała poprzednia wersja `09_FORMALNOSCI.md` traktowała „zgodę komisji" jak procedurę u instytucji zewnętrznej, którą się uruchamia. Nigdzie nie pytałem, kto tę komisję stanowi.
 
 **Poprawka:** dla projektu prowadzonego w szkole i w domu IRB **musi zostać powołane przy szkole**, a jego skład jest w regulaminie określony co do zawodu: edukator (inny niż Adult Sponsor), dyrektor lub wicedyrektor, oraz **pracownik medyczny lub ochrony zdrowia psychicznego** (dopuszczeni m.in.: pielęgniarka, psycholog, licencjonowany pracownik socjalny). Do tego zakaz konfliktu interesów: opiekun projektu ani krewny nie mogą w niej zasiadać.
 
@@ -312,11 +312,11 @@ Reguła jest zakotwiczona w kalendarzu, nie w odstępie od imprezy. **Liczby osi
 
 ### K-024 — Presentation to 35 pkt, ale plakat to tylko 10 z nich
 
-**Co było źle:** `08_KONKURENCJA_ISEF.md` sekcja 5 wyciągała wniosek „Presentation to 35 ze 100 punktów — więcej niż wykonanie i więcej niż kreatywność" i wiązała to z ustaleniem o dziennikach postępu i plakatach.
+**Co było źle:** `08_KONKURSY.md` sekcja 5 wyciągała wniosek „Presentation to 35 ze 100 punktów — więcej niż wykonanie i więcej niż kreatywność" i wiązała to z ustaleniem o dziennikach postępu i plakatach.
 
 **Poprawka:** sekcja V dzieli się na **Poster 10 pkt** i **Interview 25 pkt**. Plakat jest wart mniej niż metodologia i dwa razy mniej niż wykonanie.
 
-**Wniosek zmieniony:** to nie plakat jest niedoszacowany, tylko **rozmowa z jurorem**, i jest to najwyżej punktowana pojedyncza pozycja w całym arkuszu. Trening polega na opowiadaniu o projekcie ludziom, nie na projektowaniu grafiki. Pełny rozbiór: `ISEF_ARKUSZE_OCENY.md`.
+**Wniosek zmieniony:** to nie plakat jest niedoszacowany, tylko **rozmowa z jurorem**, i jest to najwyżej punktowana pojedyncza pozycja w całym arkuszu. Trening polega na opowiadaniu o projekcie ludziom, nie na projektowaniu grafiki. Pełny rozbiór: `08_KONKURSY.md`.
 
 ---
 
@@ -326,13 +326,13 @@ Reguła jest zakotwiczona w kalendarzu, nie w odstępie od imprezy. **Liczby osi
 
 **Poprawka, z bazy abstraktów Society for Science:** ENBM074 (2026), Kharade, Ameya, Nashua High School South, NH — **Second Award of $2,400** w kategorii Biomedical Engineering. Pierwsze miejsca w ENBM 2026 (po 6 000 USD) zdobyły ENBM062 i ENBM075T, projekty o zupełnie innej tematyce.
 
-**Co przy okazji zostało zamknięte:** pełny abstrakt odczytany. **Liczby 65 i 3 wpm są prawdziwe i pochodzą wprost z abstraktu** — K-004 rozstrzygnięty na korzyść handbooka, znacznik `[domysł]` zdjęty. Pełny tekst i rozbiór: `08_KONKURENCJA_ISEF.md` sekcja 2.
+**Co przy okazji zostało zamknięte:** pełny abstrakt odczytany. **Liczby 65 i 3 wpm są prawdziwe i pochodzą wprost z abstraktu** — K-004 rozstrzygnięty na korzyść handbooka, znacznik `[domysł]` zdjęty. Pełny tekst i rozbiór: `08_KONKURSY.md` sekcja 2.
 
 ---
 
 ### K-026 — mrugnięcie NIE jest problemem przy uchu. Oś projektu wymaga przeformułowania
 
-**Czego dotyczy:** kandydata na oś projektu — analogowej kompensacji artefaktów **mięśniowo-ocznych** przy uchu (rola 2 z sekcji 4b/C3 `00_PYTANIA_I_LUKI.md`).
+**Czego dotyczy:** kandydata na oś projektu — analogowej kompensacji artefaktów **mięśniowo-ocznych** przy uchu (rola 2 z sekcji 4b/C3 `archiwum/00_PYTANIA_I_LUKI.md`).
 
 **Co było źle:** przez cały etap 1 pisałem „EMG szczęki **i** EOG" jako jedną parę zakłóceń do skompensowania, powołując się na Kappel 2017 jako przesłankę dla obu.
 
@@ -352,13 +352,13 @@ I wprost we wnioskach: „ear-EEG was **more prone to jaw related artifacts and 
 
 **Dlaczego to ma znaczenie praktyczne:** upraszcza układ. Detektor mrugnięcia, który wg `04` sekcja 4 mieliśmy wziąć z ID.EARS jako gotową cegiełkę, **nie jest do tego potrzebny**. Potrzebny jest detektor zaciśnięcia szczęki. To jest mniej pracy, nie więcej.
 
-**Dlaczego to jest ten sam błąd co poprzednio:** postawiłem mocne twierdzenie o dwóch zakłóceniach, mając w ręku streszczenie, które mówiło tylko o jednym. Wzorzec z sekcji 5 `PRZEKAZANIE.md`, czwarta odsłona.
+**Dlaczego to jest ten sam błąd co poprzednio:** postawiłem mocne twierdzenie o dwóch zakłóceniach, mając w ręku streszczenie, które mówiło tylko o jednym. Wzorzec z sekcji 5 `METODA.md`, czwarta odsłona.
 
 ---
 
 ### K-027 — publiczny zbiór ear-EEG do zadań sterowania ISTNIEJE
 
-**Co było źle:** `04_LUKI_ZAPISANE.md` sekcja 5 i `07_DEKODOWANIE.md` sekcja 7 twierdziły: „**nie znalazłem publicznego zbioru ear-EEG pod zadania sterowania**. Istniejące dotyczą snu i uwagi słuchowej", i budowały na tym propozycję, żeby opublikowanie własnego zbioru uczynić elementem wkładu projektu.
+**Co było źle:** `archiwum/04_LUKI_ZAPISANE.md` sekcja 5 i `archiwum/07_DEKODOWANIE.md` sekcja 7 twierdziły: „**nie znalazłem publicznego zbioru ear-EEG pod zadania sterowania**. Istniejące dotyczą snu i uwagi słuchowej", i budowały na tym propozycję, żeby opublikowanie własnego zbioru uczynić elementem wkładu projektu.
 
 **Poprawka:** Lee, Shin, Lee, Lee, *„Mobile BCI dataset of scalp- and ear-EEGs with ERP and SSVEP paradigms while standing, walking, and running"*, **Scientific Data 8:315 (2021)**, DOI 10.1038/s41597-021-01094-4, PMID 34930915. Zawartość: **24 osoby, 32-kanałowy EEG skalpowy + 14-kanałowy ear-EEG + 4-kanałowy EOG + 9-kanałowe IMU**, dwa paradygmaty BCI (ERP i SSVEP), cztery prędkości ruchu: stanie, wolny marsz, szybki marsz, lekki bieg (0 / 0,8 / 1,6 / 2,0 m/s).
 
@@ -373,14 +373,14 @@ I wprost we wnioskach: „ear-EEG was **more prone to jaw related artifacts and 
 
 ### K-028 — SSVEP z ucha osiąga znacznie więcej, niż podawałem. Nature Communications 2023
 
-**Co było źle:** liczba „SSVEP z ucha to 6–17 bit/min" była powtarzana w `06`, `07`, `09` i `00_STRESZCZENIE.md` jako pułap formy dousznej, i na niej stała teza o „5–15× stracie względem potylicy" oraz cała rekomendacja C2 na wariant 2 (metryka użytkowa zamiast przepustowościowej).
+**Co było źle:** liczba „SSVEP z ucha to 6–17 bit/min" była powtarzana w `06`, `07`, `09` i `archiwum/00_STRESZCZENIE.md` jako pułap formy dousznej, i na niej stała teza o „5–15× stracie względem potylicy" oraz cała rekomendacja C2 na wariant 2 (metryka użytkowa zamiast przepustowościowej).
 
 **Poprawka:** Wang Z., Shi N. i in., *„Conformal in-ear bioelectronics for visual and auditory brain-computer interfaces"*, **Nature Communications 14:4213 (2023)**, DOI 10.1038/s41467-023-39814-6, PMID 37452047. Urządzenie **SpiralE** — elektroda douszna rozwijająca się spiralnie wzdłuż przewodu słuchowego pod wpływem pobudzenia elektrotermicznego, dla zapewnienia kontaktu konformalnego. Wyniki wg abstraktu: **95% dokładności offline w klasyfikacji SSVEP z 9 celami** oraz **udane pisanie fraz w 40-celowym spellerze SSVEP online bez kalibracji**; do tego 84% dokładności klasyfikacji mowy naturalnej w warunkach cocktail party.
 
 **Skala pomyłki:** 40-celowy speller online bez kalibracji to przepustowość o rząd wielkości wyższa niż 16,6 bit/min, na którym opierałem cały wniosek. Liczby 6–17 bit/min pochodziły z prac **2015 i 2022** i opisywały stan techniki sprzed ośmiu i trzech lat, a ja podawałem je jako ograniczenie formy.
 
 **Co się przez to zmienia:**
-- teza „w przepustowości z ucha nie da się wygrać" — **obalona co do formy dousznej jako takiej**, nie tylko osłabiona jak w `00_STRESZCZENIE.md` sekcja 1.2
+- teza „w przepustowości z ucha nie da się wygrać" — **obalona co do formy dousznej jako takiej**, nie tylko osłabiona jak w `archiwum/00_STRESZCZENIE.md` sekcja 1.2
 - rekomendacja C2 na wariant 2 (metryka użytkowa) **wymaga przeliczenia od nowa**, bo była uzasadniona liczbą, która okazała się nieaktualna
 - **czynnikiem decydującym okazał się kontakt elektrody z kanałem słuchowym**, nie odległość od kory wzrokowej. To jest warstwa 1 i 2 z sekcji 9.4 handbooka, czyli **warsztat użytkownika** — mechanika, materiały, dopasowanie kształtu
 - jednocześnie: elektroda z aktuacją elektrotermiczną, wykonana na Tsinghua i opublikowana w Nature Communications, jest **poważną konkurencją w tej samej niszy**. Pole nie jest puste i nie jest amatorskie
@@ -391,7 +391,7 @@ I wprost we wnioskach: „ear-EEG was **more prone to jaw related artifacts and 
 
 ### K-029 — praca o analogowym usuwaniu artefaktów: zły rok, zła klasa urządzenia
 
-**Co było źle:** `04_LUKI_ZAPISANE.md` sekcja 2.1 opisywała stan techniki jako „**8-kanałowy IC EEG ambulatoryjny** z wewnątrzkanałową, w pełni analogową ekstrakcją i usuwaniem artefaktów ruchowych; CMRR >115 dB przy 50/60 Hz", z datą „publikacja ~2023 `[wniosek, streszczenie, jedno źródło]`".
+**Co było źle:** `archiwum/04_LUKI_ZAPISANE.md` sekcja 2.1 opisywała stan techniki jako „**8-kanałowy IC EEG ambulatoryjny** z wewnątrzkanałową, w pełni analogową ekstrakcją i usuwaniem artefaktów ruchowych; CMRR >115 dB przy 50/60 Hz", z datą „publikacja ~2023 `[wniosek, streszczenie, jedno źródło]`".
 
 **Poprawka:** Dabbaghian, Yousefi, Fatmi, Shafia, Kassiri, *„A 9.2-g Fully-Flexible Wireless Ambulatory EEG Monitoring and Diagnostics Headband With Analog Motion Artifact Detection and Compensation"*, **IEEE Trans Biomed Circuits Syst 13(6):1141–1151 (2019)**, PMID 31443050.
 
@@ -405,7 +405,7 @@ Trzy rzeczy były przekręcone: rok (**2019**, nie ~2023), klasa urządzenia (**
 
 ### K-030 — CMRR układu ADS1299 to −110 dB, nie −120 dB
 
-**Co było źle:** `06_TABELA_PARAMETROW.md` sekcja 2 podawała „CMRR ADS1299: −120 dB" ze statusem „parametr katalogowy, trzy niezależne opisy — najpewniejsza liczba w tym pliku".
+**Co było źle:** `archiwum/06_TABELA_PARAMETROW.md` sekcja 2 podawała „CMRR ADS1299: −120 dB" ze statusem „parametr katalogowy, trzy niezależne opisy — najpewniejsza liczba w tym pliku".
 
 **Poprawka, ze strony producenta (Texas Instruments):** CMRR **−110 dB**. Szum wejściowy **1 µV p-p przy paśmie 70 Hz** — ta liczba jest potwierdzona i pozostaje bez zmian. Rozdzielczość 24 bity, wzmocnienie programowane 1–24, 250 SPS – 16 kSPS.
 
@@ -437,7 +437,7 @@ Trzy rzeczy były przekręcone: rok (**2019**, nie ~2023), klasa urządzenia (**
 
 ### K-033 — konkurencja EEG na ISEF rośnie szybko, i mam na to liczby
 
-**Czego dotyczy:** sekcji 6 `08_KONKURENCJA_ISEF.md`, gdzie ryzyko konkurencyjne na ISEF było oznaczone jako „realne i udokumentowane" na podstawie jednego projektu.
+**Czego dotyczy:** sekcji 6 `08_KONKURSY.md`, gdzie ryzyko konkurencyjne na ISEF było oznaczone jako „realne i udokumentowane" na podstawie jednego projektu.
 
 **Ustalenie:** przeszukanie bazy abstraktów Society for Science, słowo kluczowe „EEG", rocznik po roczniku:
 
@@ -465,7 +465,7 @@ Dla frazy „brain-computer interface": 0 do 5 rocznie, w 2026 — **5**.
 
 ### K-035 — żywica z certyfikatem ISO 10993 jest dostępna dla amatora. Luka zamknięta
 
-**Czego dotyczy:** `05_RYNEK.md` sekcja 5.3, `[luka]` blokująca decyzję zakupową od rundy drugiej: „nie ustaliłem, czy istnieje żywica z certyfikatem ISO 10993-5/-10 dostępna dla osoby prywatnej w Polsce, w rozsądnej cenie, do zwykłej drukarki MSLA".
+**Czego dotyczy:** `archiwum/05_RYNEK.md` sekcja 5.3, `[luka]` blokująca decyzję zakupową od rundy drugiej: „nie ustaliłem, czy istnieje żywica z certyfikatem ISO 10993-5/-10 dostępna dla osoby prywatnej w Polsce, w rozsądnej cenie, do zwykłej drukarki MSLA".
 
 **Odpowiedź: tak, istnieje.** **Liqcreate Bio-Med Clear** — deklarowana zgodność z ISO 10993-5 (cytotoksyczność), ISO 10993-10 (uczulenie) i ISO 10993-23 (podrażnienie), przeznaczona dla **zwykłych desktopowych drukarek MSLA/LCD/DLP** wymienionych z nazwy: Phrozen, Elegoo, Creality3D, Anycubic. Dostępna w polskich sklepach (2B3D, 3DUV), rząd ceny **456 zł za 0,5 kg**.
 
@@ -479,7 +479,7 @@ Dla frazy „brain-computer interface": 0 do 5 rocznie, w 2026 — **5**.
 
 ### K-036 — „większy rozstaw elektrod to większy zysk i jest on fizyczny" jest NIEPRAWDĄ dla SSVEP
 
-**Co było źle:** `09_UMIEJSCOWIENIE.md` sekcja 5b, tabela porównawcza wariantu zwartego i rozłożonego. Wpisałem tam, że przy wariancie rozłożonym „amplituda różnicowa **duża. To jest główny zysk i on jest fizyczny**", a przy zwartym — „mała, bo bliskie punkty na skalpie mają podobny potencjał". Z tego wyprowadziłem, że wariant rozłożony (potylica ↔ wyrostek sutkowaty) ma przewagę sygnałową nad modułem zwartym.
+**Co było źle:** `archiwum/09_UMIEJSCOWIENIE.md` sekcja 5b, tabela porównawcza wariantu zwartego i rozłożonego. Wpisałem tam, że przy wariancie rozłożonym „amplituda różnicowa **duża. To jest główny zysk i on jest fizyczny**", a przy zwartym — „mała, bo bliskie punkty na skalpie mają podobny potencjał". Z tego wyprowadziłem, że wariant rozłożony (potylica ↔ wyrostek sutkowaty) ma przewagę sygnałową nad modułem zwartym.
 
 **Dlaczego to nie wynika:** pomyliłem **amplitudę** z **stosunkiem sygnału do szumu**. Większy rozstaw rzeczywiście daje większą amplitudę różnicową — ale referencja położona daleko zbiera też **nieskorelowany szum i zakłócenia**, których referencja bliska nie zbiera, bo one są dla obu elektrod wspólne i odejmują się. O klasyfikacji decyduje SNR, nie amplituda.
 
@@ -503,7 +503,7 @@ Wariant rozłożony z łukiem przez tył głowy do zausznika **nie ma przewagi s
 
 ### K-037 — licencje trzech kluczowych zbiorów danych: sprawdzone, wszystkie CC-BY 4.0
 
-**Czego dotyczy:** `[luka]` postawionej w `07_DEKODOWANIE.md` sekcja 7 i `04` sekcja 5.1 — „licencji nie sprawdziłem dla żadnego zbioru, przed użyciem czegokolwiek licencja musi być sprawdzona".
+**Czego dotyczy:** `[luka]` postawionej w `archiwum/07_DEKODOWANIE.md` sekcja 7 i `04` sekcja 5.1 — „licencji nie sprawdziłem dla żadnego zbioru, przed użyciem czegokolwiek licencja musi być sprawdzona".
 
 **Sprawdzone bezpośrednio na stronach PMC:**
 
@@ -539,9 +539,9 @@ Projekt zmierza do modułu potylicznego z **elektrodami suchymi**, paradygmat **
 
 ### K-039 — „cztery komendy na minutę" to była moja pomyłka, i to ona popchnęła decyzję użytkownika
 
-**Co było źle:** `10_PROJEKT_DLA_LAIKA.md` sekcja 4.1. Napisałem najpierw poprawnie — „wybrać jedną komendę z kilku, patrząc na nią, **mniej więcej co 1–4 sekundy**" — a trzy akapity niżej: „**cztery komendy na minutę** to nie jest szybkie pisanie. To jest tempo pilota do telewizora". **Te dwa zdania sobie przeczą.** Komenda co 1–4 s to **15–60 komend na minutę**, nie cztery.
+**Co było źle:** `01_PROJEKT_DLA_LAIKA.md` sekcja 4.1. Napisałem najpierw poprawnie — „wybrać jedną komendę z kilku, patrząc na nią, **mniej więcej co 1–4 sekundy**" — a trzy akapity niżej: „**cztery komendy na minutę** to nie jest szybkie pisanie. To jest tempo pilota do telewizora". **Te dwa zdania sobie przeczą.** Komenda co 1–4 s to **15–60 komend na minutę**, nie cztery.
 
-**Skąd wzięła się ta pomyłka:** z sekcji 4c `00_PYTANIA_I_LUKI.md`, gdzie napisałem „**cztery komendy** co ~2 s wystarczają do gładkiego ruchu". Tam „cztery komendy" oznaczało **rozmiar alfabetu** — lewo, prawo, jazda, stop. Zamieniłem rozmiar alfabetu na tempo.
+**Skąd wzięła się ta pomyłka:** z sekcji 4c `archiwum/00_PYTANIA_I_LUKI.md`, gdzie napisałem „**cztery komendy** co ~2 s wystarczają do gładkiego ruchu". Tam „cztery komendy" oznaczało **rozmiar alfabetu** — lewo, prawo, jazda, stop. Zamieniłem rozmiar alfabetu na tempo.
 
 **Liczby poprawne, z pracy odczytanej w oryginale:** Xing i in., *Scientific Reports* 8:14708 (2018), PMID 30279463 — **12 celów, elektrody suche typu pazurkowego, okno 1-sekundowe, 93,2% trafności, ITR 92,35 bit/min**, jedenastu badanych. To odpowiada **rzędowi 30–40 wyborów na minutę**.
 
@@ -573,7 +573,7 @@ Projekt zmierza do modułu potylicznego z **elektrodami suchymi**, paradygmat **
 
 ### K-042 — przeniosłem oś projektu z ucha na potylicę wbrew własnemu zapisowi
 
-**Co było źle:** `09_UMIEJSCOWIENIE.md` sekcja 4 mówi wprost: *„Przeniesienie na potylicę nie unieważnia projektu, ale **wymaga wyprowadzenia osi od nowa** — nie da się jej przenieść mechanicznie, bo problem szczęki tam nie dominuje."* Po decyzji o potylicy (K-036) **przeniosłem oś mechanicznie** i wpisałem „kompensacja artefaktu szczękowego" do `DECYZJE.md` jako wkład własny, nie sprawdzając, czy przesłanka Kappela (mierzona dla ucha) obowiązuje na potylicy.
+**Co było źle:** `archiwum/09_UMIEJSCOWIENIE.md` sekcja 4 mówi wprost: *„Przeniesienie na potylicę nie unieważnia projektu, ale **wymaga wyprowadzenia osi od nowa** — nie da się jej przenieść mechanicznie, bo problem szczęki tam nie dominuje."* Po decyzji o potylicy (K-036) **przeniosłem oś mechanicznie** i wpisałem „kompensacja artefaktu szczękowego" do `11_EWOLUCJA.md` jako wkład własny, nie sprawdzając, czy przesłanka Kappela (mierzona dla ucha) obowiązuje na potylicy.
 
 **Jak się to skończyło:** przeniesienie okazało się **przypadkowo trafne** — Kołodziej i in. 2026 mierzyli na O1/O2/Oz i ustalili, że kanał szczękowy jest jednym z dwóch najskuteczniejszych kanałów pomocniczych. Ale trafność wyszła z cudzej pracy, nie z mojego rozumowania, i gdyby wyszło inaczej, oś projektu byłaby zbudowana na przesłance z innego miejsca na głowie.
 
@@ -581,7 +581,7 @@ Projekt zmierza do modułu potylicznego z **elektrodami suchymi**, paradygmat **
 
 ---
 
-### K-043 — trzy kandydujące twierdzenia projektu są zajęte. Pełny rozbiór: `12_AUDYT.md`
+### K-043 — trzy kandydujące twierdzenia projektu są zajęte. Pełny rozbiór: `METODA.md`
 
 **1. „Tani interfejs SSVEP o wysokim ITR"** — Teversham i in., Imperial College, EMBC 2022, PMID 36086083: **~£20, ESP32, 95,56% dokładności, ITR 102 bit/min**. Więcej niż Xing 2018 przy ułamku kosztu.
 
@@ -589,7 +589,7 @@ Projekt zmierza do modułu potylicznego z **elektrodami suchymi**, paradygmat **
 
 **3. „Kanał pomocniczy do usuwania artefaktów z potylicznego SSVEP"** — **Kołodziej, Majkowski, Wiszniewski, Politechnika Warszawska, *Sensors* 26(3):917, 31 I 2026**, PMID 41682433: O1/O2/Oz plus kanały pomocnicze (Cz, Fp1, HEOG, kark, policzek, **szczęka**), regresja liniowa, 12 osób, **+9,1 pp (SVM) i +9,9 pp (CNN)**; najskuteczniejsze kanały to **Cz i szczęka**.
 
-**Co przeżyło:** redukcja artefaktu **na etapie akwizycji** — wskazana jako przyszła praca przez samych autorów pozycji 3, cytat w `12_AUDYT.md` sekcja 2.1. Przeszukanie pod analogową kompensację w torze: **zero trafień**.
+**Co przeżyło:** redukcja artefaktu **na etapie akwizycji** — wskazana jako przyszła praca przez samych autorów pozycji 3, cytat w `METODA.md` sekcja 2.1. Przeszukanie pod analogową kompensację w torze: **zero trafień**.
 
 ---
 
@@ -646,7 +646,7 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 ### K-048 — nie policzyłem wielkości kategorii ISEF, a to była największa dźwignia projektu
 
-**Co było źle:** w `ISEF_ARKUSZE_OCENY.md` sekcji 4.1 i w `08` sekcji 6 zapisałem „rozważyć kategorię EBED zamiast ENBM" i **odłożyłem to do etapu 2 jako rzecz wymagającą sprawdzenia liczby zgłoszeń**. Sprawdzenie zajęło jedno zapytanie do bazy abstraktów.
+**Co było źle:** w `08_KONKURSY.md` sekcji 4.1 i w `08` sekcji 6 zapisałem „rozważyć kategorię EBED zamiast ENBM" i **odłożyłem to do etapu 2 jako rzecz wymagającą sprawdzenia liczby zgłoszeń**. Sprawdzenie zajęło jedno zapytanie do bazy abstraktów.
 
 **Liczby, rocznik 2026:**
 
@@ -666,7 +666,7 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 ### K-049 — ustawiłem projektowi punkt odniesienia, którego nie da się osiągnąć
 
-**Co było źle:** w `DECYZJE.md` wpisałem jako punkt odniesienia dla wariantu przepustowościowego **Xing 2018, 92,35 bit/min**.
+**Co było źle:** w `11_EWOLUCJA.md` wpisałem jako punkt odniesienia dla wariantu przepustowościowego **Xing 2018, 92,35 bit/min**.
 
 **Dlaczego to błąd taktyczny:** Xing to Instytut Półprzewodników Chińskiej Akademii Nauk z własną technologią elektrod pazurkowych, a Imperial College osiąga 102 bit/min. **Ustawianie tej poprzeczki gwarantuje przegraną w porównaniu, którego żaden regulamin nie wymaga.**
 
@@ -684,7 +684,7 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 **Dane trzymające poniżej 60%:** reprezentacja na ISEF 2026 to **dwa projekty biologiczne i jeden materiałowy, zero elektroniki** — sygnał, że siła inżynierska nie przekłada się wprost na wybór do reprezentacji.
 
-**Podniesione z 25% na 40%.** Pełne przeliczenie: `13_PODNIESIENIE_SZANS.md` sekcja 8.
+**Podniesione z 25% na 40%.** Pełne przeliczenie: `archiwum/13_PODNIESIENIE_SZANS.md` sekcja 8.
 
 ---
 
@@ -732,7 +732,7 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 **Dlaczego to nie jest kwestia stylu:** `[fakt]` Regulamin Explory, Załącznik nr 1, opiera standardy etyczne na Kodeksie Etyki Pracownika Naukowego PAN; reguły ISEF wymagają, żeby praca była własna, a udział osób trzecich jawnie deklarowany. Liczba mnoga w materiałach idących do jury **zaciemnia autorstwo**, a to jest kategoria, w której obie imprezy dyskwalifikują.
 
-**Poprawka:** liczba pojedyncza w dokumentacji projektu i we wszystkich materiałach zgłoszeniowych. Wpisane do `30_POWROT_DO_INTERFEJSU.md` sekcja 6a.1 jako reguła.
+**Poprawka:** liczba pojedyncza w dokumentacji projektu i we wszystkich materiałach zgłoszeniowych. Wpisane do `02_TWIERDZENIE.md` sekcja 6a.1 jako reguła.
 
 ---
 
@@ -742,7 +742,7 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 **Kto to złapał:** użytkownik, słowami „oj powoli nas ciągnie to w kierunku projektu Kharade".
 
-**Co jest gorsze od samego błędu:** `08_KONKURENCJA_ISEF.md` sekcja 2.3 **przewidywała ten dryf co do słowa** — „»sterowanie dyskretne z ośmioma komendami« a »rozstrzyganie intencji z ośmiu możliwości« to jest ta sama rzecz opisana dwoma językami". Ostrzeżenie było zapisane, przeczytane w tej samej sesji i mimo to złamane.
+**Co jest gorsze od samego błędu:** `08_KONKURSY.md` sekcja 2.3 **przewidywała ten dryf co do słowa** — „»sterowanie dyskretne z ośmioma komendami« a »rozstrzyganie intencji z ośmiu możliwości« to jest ta sama rzecz opisana dwoma językami". Ostrzeżenie było zapisane, przeczytane w tej samej sesji i mimo to złamane.
 
 **Poprawka:** mowa syntetyczna wypada. Zostaje sterowanie fizycznymi przedmiotami (decyzja C1). Metryka: **dokładność i przepustowość w bitach, nigdy słowa na minutę** — to jest jedyna linia trzymająca granicę.
 
@@ -772,7 +772,7 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 ### K-058 — podałem błędny skład obszaru „Poza kategoriami"
 
-**Co było źle:** `13_PODNIESIENIE_SZANS.md` wymieniał tam nanokompozyt, szczepionkę przeciw Salmonelli i fagi T7. **Wszystkie trzy są na liście rezerwowej.**
+**Co było źle:** `archiwum/13_PODNIESIENIE_SZANS.md` wymieniał tam nanokompozyt, szczepionkę przeciw Salmonelli i fagi T7. **Wszystkie trzy są na liście rezerwowej.**
 
 **Prawidłowy skład:** BioShield, ReakcjON, kwercetyna, **Kolano Pneumatyczne, SADE**.
 
@@ -828,7 +828,7 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 ### K-063 — terminy OITwEiM w plikach są z wygasłej edycji, a nowa ma etap, o którym nikt nie wiedział
 
-**Co było źle:** `08_KONKURENCJA_ISEF.md` sekcja 4.1, `13_PODNIESIENIE_SZANS.md` i `21_PLAN_BUDOWY.md` opisywały olimpiadę jednym terminem — „prace i wideo do ~20 IV". To był termin **edycji 2025/2026** i on nie obowiązuje.
+**Co było źle:** `08_KONKURSY.md` sekcja 4.1, `archiwum/13_PODNIESIENIE_SZANS.md` i `21_PLAN_BUDOWY.md` opisywały olimpiadę jednym terminem — „prace i wideo do ~20 IV". To był termin **edycji 2025/2026** i on nie obowiązuje.
 
 **Co jest:** `[fakt]` regulamin edycji **2026/2027** jest opublikowany (PZSWiR, lipiec 2026) i ma inny kalendarz: **rejestracja Komitetu Szkolnego do 31 X 2026**, wyniki etapu szkolnego do 9 I 2027, prace do okręgu do 27 II 2027, wyniki okręgu do 13 III 2027, **praca i wideo z prototypem do 27 III 2027**, wyniki finału do 15 V 2027.
 
@@ -838,13 +838,13 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 **Skutek dla harmonogramu:** termin działającego prototypu przesuwa się z maja 2027 (półfinał Explory) na **27 III 2027**, czyli o sześć tygodni w lewo. Do wpisania przy przeliczaniu planu pod jeden cykl.
 
-**Gdzie to teraz mieszka:** `33_KONKURSY_ROZBIEGOWE.md` sekcje 2 i 5.
+**Gdzie to teraz mieszka:** `archiwum/33_KONKURSY_ROZBIEGOWE.md` sekcje 2 i 5.
 
 ---
 
 ### K-064 — przenosiłem noty ze skali Explory na konkursy, które oceniają czym innym
 
-**Co było źle:** w rozmowie o El-Robo-Mech operowałem notami z `31_ANALIZA_STAWKI_2026.md` tak, jakby były miarą ogólnej jakości projektu.
+**Co było źle:** w rozmowie o El-Robo-Mech operowałem notami z `08_KONKURSY.md` tak, jakby były miarą ogólnej jakości projektu.
 
 **Co się okazało:** `[fakt]` **Stacja SKA** — u mnie 22 punkty i **dziesiąte miejsce na 21** w skali Explory — **wygrała El-Robo-Mech 2026** (I miejsce ex aequo) i zdobyła **II miejsce w OITwEiM**. `[fakt]` **ALP** (u mnie 23 pkt) — **III miejsce w OITwEiM**.
 
@@ -868,11 +868,11 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 ### K-066 — „przywileje rekrutacyjne laureata OITwEiM" pisane bez sprawdzenia
 
-**Co było źle:** `08` sekcja 4.1, `11_OCENA_SZANS.md` i `13` uzasadniały wybór olimpiady zdaniem o „przywilejach rekrutacyjnych", traktując je jak fakt.
+**Co było źle:** `08` sekcja 4.1, `archiwum/11_OCENA_SZANS.md` i `13` uzasadniały wybór olimpiady zdaniem o „przywilejach rekrutacyjnych", traktując je jak fakt.
 
 **Co jest w regulaminie:** `[fakt]` regulamin mówi wyłącznie o **zaświadczeniu** wydanym wg rozporządzenia MENiS z 29 I 2002 (Dz.U. 2020 poz. 1036) oraz o tytule „Młodego Innowatora". Konkretne ulgi rekrutacyjne ustalają **uchwały senatów poszczególnych uczelni** i nie zostały sprawdzone.
 
-**Poprawka:** pozycja oznaczona `[luka]` w `33_KONKURSY_ROZBIEGOWE.md` sekcja 4.2. Przy celu „studia w USA" i tak drugorzędna — argumentem za olimpiadą jest tytuł krajowy i wymuszony termin, nie polskie punkty rekrutacyjne.
+**Poprawka:** pozycja oznaczona `[luka]` w `archiwum/33_KONKURSY_ROZBIEGOWE.md` sekcja 4.2. Przy celu „studia w USA" i tak drugorzędna — argumentem za olimpiadą jest tytuł krajowy i wymuszony termin, nie polskie punkty rekrutacyjne.
 
 ---
 
@@ -894,7 +894,7 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 ### K-068 — liczba „3–4× wyższy wskaźnik przyjęć" nie istnieje jako dana i wychodzi z dokumentacji
 
-**Co było źle:** `32_STUDIA_USA.md` sekcja 3 nosiła od 17 VIII zapis `[domysł, źródło słabe]` o tym, że finaliści ISEF mają 3–4× wyższy wskaźnik przyjęć, a laureaci 5–6×, z adnotacją „do zweryfikowania". **Zostawienie liczby w pliku z etykietą „słabe źródło" jest półśrodkiem** — po kilku tygodniach etykieta blednie, a liczba zostaje.
+**Co było źle:** `10_STUDIA_USA.md` sekcja 3 nosiła od 17 VIII zapis `[domysł, źródło słabe]` o tym, że finaliści ISEF mają 3–4× wyższy wskaźnik przyjęć, a laureaci 5–6×, z adnotacją „do zweryfikowania". **Zostawienie liczby w pliku z etykietą „słabe źródło" jest półśrodkiem** — po kilku tygodniach etykieta blednie, a liczba zostaje.
 
 **Co ustalono przy zamykaniu pozycji R5:** `[fakt]` twierdzenie występuje wyłącznie w materiałach firm doradztwa rekrutacyjnego, bez wskazania źródła pierwotnego. Society for Science publikuje fact sheety ISEF i wyróżnienia absolwentów — **nie publikuje statystyk rekrutacyjnych**. Żadna uczelnia nie podaje wskaźnika przyjęć w rozbiciu na osiągnięcia kandydatów. To samo dotyczy krążącej liczby „23% przyjętych na MIT startowało w konkursach naukowych".
 
@@ -908,13 +908,13 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 ### K-069 — plik czytany przez każdą nową sesję jako pierwszy opisywał zamknięty kierunek
 
-**Co było źle:** `CLAUDE.md` — dokument, który każda nowa rozmowa wczytuje przed czymkolwiek innym — w sekcji „Zadanie bieżące" twierdził: *„Kierunek »nieinwazyjny interfejs neuralny« zamknięty decyzją użytkownika. (…) Projekt wybrany: aktywne łożysko magnetyczne z estymacją położenia bez czujników. Zacznij od `20_PROJEKT.md`"*. **Stan faktyczny jest odwrotny od 17 VIII 2026:** łożysko jest zamknięte, interfejs wrócił (`30_POWROT_DO_INTERFEJSU.md`).
+**Co było źle:** `CLAUDE.md` — dokument, który każda nowa rozmowa wczytuje przed czymkolwiek innym — w sekcji „Zadanie bieżące" twierdził: *„Kierunek »nieinwazyjny interfejs neuralny« zamknięty decyzją użytkownika. (…) Projekt wybrany: aktywne łożysko magnetyczne z estymacją położenia bez czujników. Zacznij od `20_PROJEKT.md`"*. **Stan faktyczny jest odwrotny od 17 VIII 2026:** łożysko jest zamknięte, interfejs wrócił (`02_TWIERDZENIE.md`).
 
 **Jak blisko było skutku:** następna rozmowa miała zacząć **audyt adwersaryjny projektu**. Przy tym zapisie audyt objąłby **łożysko magnetyczne** — projekt porzucony — i trzy przejścia poszłyby w całości na marne, zanim ktokolwiek zauważyłby rozjazd.
 
 **Trzy pomniejsze błędy w tym samym pliku, wszystkie odziedziczone po łożysku:**
 
-1. **„zero badanych ludzi. Cała procedura Human Participants (…) bezprzedmiotowa"** — **najgroźniejszy z całej trójki.** Interfejs zbiera sygnał z człowieka, więc `ISEF_HUMAN_PARTICIPANTS.md` jest dokumentem czynnym: Adult Sponsor, Direct Supervisor, formularze, kwestia komisji IRB przy szkole, pytanie do FZT o SRC. Reguła w tej postaci prowadziła prosto do dyskwalifikacji na technikalium
+1. **„zero badanych ludzi. Cała procedura Human Participants (…) bezprzedmiotowa"** — **najgroźniejszy z całej trójki.** Interfejs zbiera sygnał z człowieka, więc `09_FORMALNOSCI.md` jest dokumentem czynnym: Adult Sponsor, Direct Supervisor, formularze, kwestia komisji IRB przy szkole, pytanie do FZT o SRC. Reguła w tej postaci prowadziła prosto do dyskwalifikacji na technikalium
 2. **„~890 h, ~9 900 zł, kategoria EBED, Explory SDG 9 / Gospodarka i Bezpieczeństwo"** — parametry łożyska. Dla interfejsu obszar to **Człowiek i Społeczeństwo** (`30` sekcja 4.3), kategoria ISEF jest **pozycją otwartą**, a godziny i budżet nie zostały przeliczone. Oznaczone jako `[luka]`
 3. kolejność czytania prowadziła do `20`–`24` zamiast do `30`–`33`
 
@@ -931,13 +931,13 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 ### K-070 (na gałęzi etap-2 numerowana jako K-054) — trzykrotnie odesłałem użytkownika na GitHuba zamiast dostarczyć pliki do rozmowy
 
-**Co było źle:** przez cały etap 2 dostarczałem wyniki pracy przez commit i push, a w rozmowie pisałem „wypchnięte", „szczegóły w `14_REANALIZA.md`", „zobacz w repozytorium". **Użytkownik pisze z telefonu.** Żeby przeczytać cokolwiek, musiał wychodzić z rozmowy do przeglądarki, wchodzić na GitHuba, znajdować gałąź i otwierać plik markdown na ekranie telefonu.
+**Co było źle:** przez cały etap 2 dostarczałem wyniki pracy przez commit i push, a w rozmowie pisałem „wypchnięte", „szczegóły w `12_REANALIZA.md`", „zobacz w repozytorium". **Użytkownik pisze z telefonu.** Żeby przeczytać cokolwiek, musiał wychodzić z rozmowy do przeglądarki, wchodzić na GitHuba, znajdować gałąź i otwierać plik markdown na ekranie telefonu.
 
 **Reguła istniała od początku i była w `CLAUDE.md`:** *„użytkownik często pisze z telefonu — nie zlecaj mu czynności wymagających przełączania się między aplikacjami, jeżeli da się je wykonać po twojej stronie"*. Miałem narzędzie do wysyłania plików do rozmowy i go nie użyłem ani razu.
 
 **Użytkownik zgłaszał to trzykrotnie**, zanim zareagowałem.
 
-**Dlaczego to jest błąd tej samej klasy co błędy merytoryczne, a nie drobiazg organizacyjny:** cała praca etapu 2 jest bezwartościowa, jeżeli nie dociera do osoby, która ma na jej podstawie decydować. **Myliłem zapisanie pracy z jej dostarczeniem** — dokładnie tak, jak wcześniej myliłem „opis realizacji się nie spina" z „projekt odpada" (`HANDBOOK.md` §8 punkt 7). To jest to samo mylenie dwóch różnych obiektów.
+**Dlaczego to jest błąd tej samej klasy co błędy merytoryczne, a nie drobiazg organizacyjny:** cała praca etapu 2 jest bezwartościowa, jeżeli nie dociera do osoby, która ma na jej podstawie decydować. **Myliłem zapisanie pracy z jej dostarczeniem** — dokładnie tak, jak wcześniej myliłem „opis realizacji się nie spina" z „projekt odpada" (`METODA.md` §8 punkt 7). To jest to samo mylenie dwóch różnych obiektów.
 
 **Poprawka:** nowa sekcja w `CLAUDE.md` — **„Dostarczanie plików — zasada twarda"**, umieszczona **nad** uwagami praktycznymi, żeby nie dało się jej przeoczyć. Treść: każdy powstały albo istotnie zmieniony plik trafia do rozmowy w tej samej wiadomości, w której o nim piszę; commit i push to archiwizacja, nie dostarczenie; odesłanie do repozytorium po treść jest zakazane.
 
@@ -945,7 +945,7 @@ Trzy wyjścia: zrezygnować z Cz i przyjąć mniejszy zysk (ile — nieznane); z
 
 ### K-071 (na gałęzi etap-2 numerowana jako K-055) — zaniżyłem cenę platformy odniesienia o połowę
 
-**Co było źle:** w `15_PROJEKT.md` §3.1 wpisałem „OpenBCI Cyton, 8 kanałów — ~2 500–3 500 zł", z adnotacją `[domysł]` i „cena katalogowa ~$500".
+**Co było źle:** w `03_SPRZET.md` §3.1 wpisałem „OpenBCI Cyton, 8 kanałów — ~2 500–3 500 zł", z adnotacją `[domysł]` i „cena katalogowa ~$500".
 
 **Stan faktyczny, katalog sklepu producenta odczytany 16 VIII 2026:** **Cyton Biosensing Board, 8 kanałów — 1 249,00 USD.** Nie 500 USD. Ganglion (4 kanały) — 624,99 USD. Sam klucz USB jako część zamienna — 249,00 USD.
 
@@ -955,15 +955,15 @@ Po przeliczeniu i doliczeniu wysyłki ze Stanów, cła i VAT: **6 000–6 800 z�
 
 **Dlaczego to jest błąd, a nie nieaktualna cena:** oznaczyłem tę liczbę `[domysł]`, ale **napisałem obok konkretną wartość „~$500" tak, jakby pochodziła ze źródła.** Znacznik pewności nie usprawiedliwia podania wymyślonej liczby — miałem sprawdzić albo napisać, że nie wiem. Sklep OpenBCI wystawia pełny katalog w formacie maszynowym pod adresem `/products.json` i odczytanie go zajęło jedno zapytanie.
 
-**Konsekwencja merytoryczna, większa niż sama cena:** przy 6 000–6 800 zł platforma przestaje być „pozycją do przyjęcia" i staje się największym wydatkiem projektu. To wymusiło rozbiór, po co ona naprawdę jest — i wyszło, że z trzech funkcji, które jej przypisałem, **jedna jest pozorna**: „baseline komercyjny" nie działa, bo OpenBCI nie jest produktem konsumenckim, tylko płytką badawczą. **Wycofuję ten argument z `13_PODNIESIENIE_SZANS.md` §6.**
+**Konsekwencja merytoryczna, większa niż sama cena:** przy 6 000–6 800 zł platforma przestaje być „pozycją do przyjęcia" i staje się największym wydatkiem projektu. To wymusiło rozbiór, po co ona naprawdę jest — i wyszło, że z trzech funkcji, które jej przypisałem, **jedna jest pozorna**: „baseline komercyjny" nie działa, bo OpenBCI nie jest produktem konsumenckim, tylko płytką badawczą. **Wycofuję ten argument z `archiwum/13_PODNIESIENIE_SZANS.md` §6.**
 
-**Poprawka i rekomendacja:** `20_ZAKUPY.md` — pięć wariantów z cenami, rekomendacja to **używany Cyton do 1 600 zł**, z Ganglionem jako awaryjnym i z listą kontrolną do zakupu z drugiej ręki.
+**Poprawka i rekomendacja:** `03_SPRZET.md` — pięć wariantów z cenami, rekomendacja to **używany Cyton do 1 600 zł**, z Ganglionem jako awaryjnym i z listą kontrolną do zakupu z drugiej ręki.
 
 ---
 
 ### K-072 (na gałęzi etap-2 numerowana jako K-056) — postawiłem błędne wymaganie wobec sprzętu pomiarowego i przez to zawyżyłem ryzyko R3
 
-**Co było źle:** w `16_PLAN_EKSPERYMENTALNY.md` §2 napisałem, że E1 *„wymaga generatora i przyrządu o szumie własnym poniżej mierzonego"*, a w `17_RYZYKA.md` wyceniłem brak takiego przyrządu na **50% prawdopodobieństwa i średni koszt**.
+**Co było źle:** w `04_PLAN_POMIAROWY.md` §2 napisałem, że E1 *„wymaga generatora i przyrządu o szumie własnym poniżej mierzonego"*, a w `06_RYZYKA.md` wyceniłem brak takiego przyrządu na **50% prawdopodobieństwa i średni koszt**.
 
 **Dlaczego to nieprawda:** szum wejściowy toru EEG mierzy się **samym torem** — zwiera się wejście przez rezystor i liczy RMS z próbek własnego przetwornika 24-bitowego. Dokładnie tak zrobili autorzy arXiv 2601.01772, uzyskując 0,08 µV RMS. **Oscyloskop hobbystyczny ma szum własny rzędu setek mikrowoltów**, czyli około tysiąc razy większy od mierzonej wielkości, i do tego zadania nie nadaje się w ogóle — niezależnie od ceny.
 
@@ -978,13 +978,13 @@ Po przeliczeniu i doliczeniu wysyłki ze Stanów, cła i VAT: **6 000–6 800 z�
 
 **Dlaczego to jest błąd wart zapisania:** użytkownik postawił słuszną zasadę („nie ma miejsca na błąd, bo za słabo mierzy") i moje sformułowanie kierowało tę zasadę **na najdroższy i najmniej użyteczny zakup w całym projekcie**. Dokładność w tym projekcie powstaje w przetworniku na własnej płytce i w dzielniku za kilkadziesiąt złotych, a nie w oscyloskopie za kilka tysięcy.
 
-**Poprawka:** wstawka w `16_PLAN_EKSPERYMENTALNY.md` §2, przeliczenie R3 z 50% na 20% i z kosztu średniego na niski, pełna lista zakupowa w `20_ZAKUPY.md` §4.
+**Poprawka:** wstawka w `04_PLAN_POMIAROWY.md` §2, przeliczenie R3 z 50% na 20% i z kosztu średniego na niski, pełna lista zakupowa w `03_SPRZET.md` §4.
 
 ---
 
 ### K-073 (na gałęzi etap-2 numerowana jako K-057) — akt zgonu ortezy w handbooku dotyczył tylko połowy projektu
 
-**Co było źle:** `HANDBOOK.md` §7 zamyka ortezę kolanową jednym wierszem: prior art na sprzęgło-sprężynę, wersję magnetoreologiczną, zmienny punkt zazębienia i Ottobock C-Brace, z konkluzją *„z twierdzenia o nowości zostało tylko »przy koszcie konsumenckim«, co nie jest twierdzeniem naukowym"*.
+**Co było źle:** `METODA.md` §7 zamyka ortezę kolanową jednym wierszem: prior art na sprzęgło-sprężynę, wersję magnetoreologiczną, zmienny punkt zazębienia i Ottobock C-Brace, z konkluzją *„z twierdzenia o nowości zostało tylko »przy koszcie konsumenckim«, co nie jest twierdzeniem naukowym"*.
 
 **Czego ten wpis nie obejmował:** ConOps ortezy zawiera **dwie tezy, nie jedną**. Wymieniony prior art zabija wyłącznie **tezę 1** (sterowane sprzęgło i punkt zaczepienia) — co zresztą przyznaje sam ConOps we własnym rejestrze korekt, wpis 3. **Teza 2 — pomiar sprawności przeniesienia momentu przez interfejs orteza–kończyna — nie została zaudytowana ani razu**, mimo że jest twierdzeniem pomiarowym, czyli ma dokładnie ten kształt, który przy interfejsie uznaliśmy za jedyny odporny.
 
@@ -996,7 +996,7 @@ Po przeliczeniu i doliczeniu wysyłki ze Stanów, cła i VAT: **6 000–6 800 z�
 
 **Dlaczego to jest błąd wart zapisania:** zamknąłem kierunek projektowy jednym wierszem w tabeli, nie sprawdziwszy, czy dokument tego kierunku nie zawiera drugiego, niezależnego twierdzenia. **To jest ten sam wzorzec co K-051** — redukcja czegoś złożonego do jednego zdania, a potem operowanie tym zdaniem zamiast oryginałem. Tam była para „Cz i szczęka" sprowadzona do szczęki; tu para tez sprowadzona do jednej.
 
-**Poprawka:** pełna ocena obu ConOps i porównanie z interfejsem — `22_POROWNANIE.md`. Oba dokumenty źródłowe zarchiwizowane w `archiwum_poprzednie/`.
+**Poprawka:** pełna ocena obu ConOps i porównanie z interfejsem — `archiwum/22_POROWNANIE.md`. Oba dokumenty źródłowe zarchiwizowane w `archiwum_poprzednie/`.
 
 **Reguła operacyjna, która z tego zostaje:** **zanim uznasz kierunek za zamknięty, przeczytaj jego dokument źródłowy, a nie własne streszczenie tego dokumentu.** Handbook jest streszczeniem i jako streszczenie gubi drugie twierdzenia.
 
@@ -1004,7 +1004,7 @@ Po przeliczeniu i doliczeniu wysyłki ze Stanów, cła i VAT: **6 000–6 800 z�
 
 ### K-074 (na gałęzi etap-2 numerowana jako K-058) — twierdziłem, że oś jest niezajęta w pięciu bazach; jest badana od 2005 roku
 
-**Co było źle:** w `14_REANALIZA.md` §11 i `21_ODPOWIEDZI.md` §1.4 zapisałem, że nowa oś projektu — zależność przepustowości SSVEP od położenia elektrody odniesienia — **nie jest zajęta w PubMed, Crossref, arXiv, Google Patents ani Europe PMC**, i wyceniłem ryzyko przeoczenia na **10–15%**.
+**Co było źle:** w `12_REANALIZA.md` §11 i `archiwum/21_ODPOWIEDZI.md` §1.4 zapisałem, że nowa oś projektu — zależność przepustowości SSVEP od położenia elektrody odniesienia — **nie jest zajęta w PubMed, Crossref, arXiv, Google Patents ani Europe PMC**, i wyceniłem ryzyko przeoczenia na **10–15%**.
 
 **Stan faktyczny, OpenAIRE, 16 VIII 2026 wieczorem:**
 
@@ -1029,17 +1029,17 @@ Po przeliczeniu i doliczeniu wysyłki ze Stanów, cła i VAT: **6 000–6 800 z�
 1. **Każde „zero trafień" wymaga kontroli pozytywnej** — zapytania, o którym wiadomo, że musi coś zwrócić. Bez niej zero nie znaczy nic.
 2. **Przed przeszukaniem ustalić słownictwo dziedziny**, czytając dwie–trzy prace z obszaru i wypisując, jakimi terminami opisują badaną zmienną. **Dopiero potem budować zapytania.** Szukanie własnymi słowami mierzy moje słownictwo, nie literaturę.
 
-**Poprawka:** pełny rozbiór w `25_AUDYT_OPENAIRE.md`. Ryzyko, że wąska wersja osi jest już opublikowana, podniesione z 10–15% na **25–40%**. Twierdzenie projektu przeformułowane z „nikt nie zbadał" na „publikowano porównania dyskretnych montaży; mierzę zależność ciągłą pod ograniczeniem gabarytu" — z obowiązkiem cytowania siedmiu prac zamiast ich przemilczenia.
+**Poprawka:** pełny rozbiór w `METODA.md`. Ryzyko, że wąska wersja osi jest już opublikowana, podniesione z 10–15% na **25–40%**. Twierdzenie projektu przeformułowane z „nikt nie zbadał" na „publikowano porównania dyskretnych montaży; mierzę zależność ciągłą pod ograniczeniem gabarytu" — z obowiązkiem cytowania siedmiu prac zamiast ich przemilczenia.
 
-**Wniosek wykraczający poza tę korektę, zapisany w `25_AUDYT_OPENAIRE.md` §5:** trzy projekty, trzy osie, wszystkie zajęte po przeszukaniu słownictwem dziedziny. **Dla licealisty twierdzenie „nikt tego nie zrobił" jest praktycznie niedostępne.** Ani arkusz ISEF, ani kryteria Explory nie mają rubryki „nowość" — optymalizowaliśmy pod kryterium warte najwyżej 10 punktów na 100 i trzykrotnie przebudowywaliśmy pod nie projekt.
+**Wniosek wykraczający poza tę korektę, zapisany w `METODA.md` §5:** trzy projekty, trzy osie, wszystkie zajęte po przeszukaniu słownictwem dziedziny. **Dla licealisty twierdzenie „nikt tego nie zrobił" jest praktycznie niedostępne.** Ani arkusz ISEF, ani kryteria Explory nie mają rubryki „nowość" — optymalizowaliśmy pod kryterium warte najwyżej 10 punktów na 100 i trzykrotnie przebudowywaliśmy pod nie projekt.
 
 ---
 
 ### K-075 (na gałęzi etap-2 numerowana jako K-059) — optymalizowałem projekt pod kryterium, którego arkusze oceny nie mają
 
-**Co było źle:** przez cały etap 1 i cały etap 2 traktowałem **nowość twierdzenia** jako główną miarę jakości projektu. Trzy przejścia audytu adwersaryjnego w `12_AUDYT.md`, trzy dodatkowe rundy przeszukiwania 16 VIII, **dwie przebudowy osi projektu w jeden dzień** — wszystko po to, żeby ustalić, czy ktoś już czegoś nie zrobił.
+**Co było źle:** przez cały etap 1 i cały etap 2 traktowałem **nowość twierdzenia** jako główną miarę jakości projektu. Trzy przejścia audytu adwersaryjnego w `METODA.md`, trzy dodatkowe rundy przeszukiwania 16 VIII, **dwie przebudowy osi projektu w jeden dzień** — wszystko po to, żeby ustalić, czy ktoś już czegoś nie zrobił.
 
-**Czego nie sprawdziłem, mając to w repozytorium od etapu 1:** `[fakt, `ISEF_ARKUSZE_OCENY.md`]` **arkusz inżynierski ISEF nie ma rubryki „nowość"**. Ma Research Problem (10), Design and Methodology (15), Execution: Construction and Testing (20), Creativity & Potential Impact (20), **Presentation (35)**. Kryteria Explory (`HANDBOOK.md` §4.7) mają „innowacyjność / wkład w state-of-the-art" wartą **10 punktów na 40** w półfinale i **zero punktów w finale**.
+**Czego nie sprawdziłem, mając to w repozytorium od etapu 1:** `[fakt, `08_KONKURSY.md`]` **arkusz inżynierski ISEF nie ma rubryki „nowość"**. Ma Research Problem (10), Design and Methodology (15), Execution: Construction and Testing (20), Creativity & Potential Impact (20), **Presentation (35)**. Kryteria Explory (`METODA.md` §4.7) mają „innowacyjność / wkład w state-of-the-art" wartą **10 punktów na 40** w półfinale i **zero punktów w finale**.
 
 **Czyli optymalizowałem pod kryterium warte najwyżej 10 punktów na 100 i trzykrotnie pod nie przebudowywałem projekt**, podczas gdy sama rubryka prezentacyjna waży 35 punktów i przez cały czas była oznaczona jako `[luka]`.
 
@@ -1051,9 +1051,9 @@ Po przeliczeniu i doliczeniu wysyłki ze Stanów, cła i VAT: **6 000–6 800 z�
 
 > **Zaczynaj od tego, co arkusze punktują. Lukę traktuj jako miły dodatek, nie jako warunek.**
 
-Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia, tylko degraduje z „nowe" na „potwierdzone niezależnie" (`17_RYZYKA.md` R5). To zabezpieczenie było wpisane od początku etapu 2 i **zadziałało dokładnie tak, jak miało**, kiedy K-058 znalazł siedem prac.
+Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia, tylko degraduje z „nowe" na „potwierdzone niezależnie" (`06_RYZYKA.md` R5). To zabezpieczenie było wpisane od początku etapu 2 i **zadziałało dokładnie tak, jak miało**, kiedy K-058 znalazł siedem prac.
 
-**Druga poprawka, przy okazji:** hierarchia celów w `HANDBOOK.md` §3 była postawiona o poziom za nisko — celem nadrzędnym są **studia za granicą**, a ISEF jest środkiem. Przy tej hierarchii dorobek (urządzenie, odtwarzalne badanie, preprint, ~50–60%) bije wynik konkursowy (~14%) i to on powinien wyznaczać priorytety.
+**Druga poprawka, przy okazji:** hierarchia celów w `METODA.md` §3 była postawiona o poziom za nisko — celem nadrzędnym są **studia za granicą**, a ISEF jest środkiem. Przy tej hierarchii dorobek (urządzenie, odtwarzalne badanie, preprint, ~50–60%) bije wynik konkursowy (~14%) i to on powinien wyznaczać priorytety.
 
 ---
 
@@ -1061,11 +1061,11 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 ### K-076 — ogłosiłem, że nic nie zginęło, sprawdziwszy tylko te gałęzie, które miałem lokalnie
 
-**Co powiedziałem użytkownikowi:** *„żaden plik nigdy nie został usunięty — sprawdzone poleceniem `git log --diff-filter=D`, wynik pusty"* oraz *„kosztorysu dla interfejsu nigdy nie było"*. Wpisałem to również do `34_PARAMETRY_I_RAMY.md`.
+**Co powiedziałem użytkownikowi:** *„żaden plik nigdy nie został usunięty — sprawdzone poleceniem `git log --diff-filter=D`, wynik pusty"* oraz *„kosztorysu dla interfejsu nigdy nie było"*. Wpisałem to również do `03_SPRZET.md`.
 
 **Co jest prawdą:** `git log --diff-filter=D` przeszukuje **wyłącznie historię osiągalną z lokalnych referencji**. Sklonowane repozytorium miało dwie gałęzie; **na zdalnym jest ich sześć**. Gałąź **`claude/etap-2-v9dtnt`** ma **12 commitów, których nigdy nie było w `main`**, i **26 plików**, których `main` nie zawierał:
 
-- **`20_ZAKUPY.md`** — kompletny kosztorys z cenami odczytanymi u producenta, pięcioma wariantami zakupu platformy odniesienia i rekomendacją
+- **`03_SPRZET.md`** — kompletny kosztorys z cenami odczytanymi u producenta, pięcioma wariantami zakupu platformy odniesienia i rekomendacją
 - `14_REANALIZA`, `15_PROJEKT`, `16_PLAN_EKSPERYMENTALNY`, `17_RYZYKA`, `18_PYTANIA_ETAP2`, `19_SZANSE_PO_ZMIANIE`, `21_ODPOWIEDZI`, `22_POROWNANIE`, `23_NOTY`, `24_PLAN_DZIALANIA`, `25_AUDYT_OPENAIRE`, `26_PRZEKAZANIE_ETAP3`
 - **katalog `analiza/`** — dziesięć skryptów w Pythonie (TRCA, SVM, analiza szczęki, okna, rozstawu elektrod)
 - **`archiwum_poprzednie/`** — ConOps drona i ortezy, czyli dokładnie te dwa kierunki, które użytkownik kazał zachować
@@ -1077,7 +1077,7 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 1. **Zakres sprawdzenia wzięty za zakres rzeczywistości.** Poprawne polecenie to `git ls-remote --heads origin`, a potem porównanie każdej gałęzi z `main`. Użyłem narzędzia, które widzi tylko to, co już mam, i orzekłem na tej podstawie o całości
 2. **Przepisałem od nowa pracę, która już istniała.** Sekcja 3 pliku `34` ogłaszała „kolizję budżetową: Cyton to 72% budżetu". Tymczasem **16 sierpnia ustalono, że nowy Cyton odpada, a kupuje się używanego do 1 600 zł, czyli 20% budżetu** — z listą warunków odbioru i terminem 30 IX 2026. Moja „kolizja" była artefaktem niepełnego stanu wiedzy, a nie faktem o projekcie
 
-**Poprawka:** wszystkie 26 plików przywrócone do `main`. Korekty K-054…K-059 z tamtej gałęzi przenumerowane na **K-070…K-075**, bo równolegle powstał drugi komplet o tych samych numerach. Mój `24_ODRZUCONE_KANDYDATY.md` przemianowany na **`29_ODRZUCONE_KIERUNKI.md`**, żeby numer 24 należał do jednego pliku. Sekcja 3 pliku `34` przepisana i odsyła do `20_ZAKUPY.md`.
+**Poprawka:** wszystkie 26 plików przywrócone do `main`. Korekty K-054…K-059 z tamtej gałęzi przenumerowane na **K-070…K-075**, bo równolegle powstał drugi komplet o tych samych numerach. Mój `24_ODRZUCONE_KANDYDATY.md` przemianowany na **`11_EWOLUCJA.md`**, żeby numer 24 należał do jednego pliku. Sekcja 3 pliku `34` przepisana i odsyła do `03_SPRZET.md`.
 
 **Reguła, trzecia odsłona tego samego problemu po K-062 i dzisiejszym K-069:** *praca istnieje tam, gdzie jest widoczna dla następnej sesji.* Do listy czynności zamykających sesję dochodzi: **`git ls-remote --heads origin` i sprawdzenie, czy każda gałąź jest przodkiem `main`.** Samo „zsynchronizowałem `main` z gałęzią, na której pracuję" nie wystarcza, bo nie mówi nic o gałęziach, których nie widzę.
 
@@ -1087,35 +1087,35 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 | Plik | Czego brakowało w `main` |
 |---|---|
-| **`DECYZJE.md`** | **decyzje 5 i 6 użytkownika z 16 VIII 2026** — wybór wariantu C jako osi projektu (rozstrzygany pomiarem, nie założeniem) oraz zgoda na wyprowadzenie elektrody odniesienia za ucho, wraz z zamknięciem sprawy kanału szczękowego na niekorzyść pierwotnej analizy (sufit +0,6 pp, p = 0,166) |
-| `HANDBOOK.md` | poprawka o **hierarchii celów**: celem nadrzędnym są studia, ISEF jest środkiem — z liczbami (~14% na wyjazd, ~50–60% na dorobek) |
-| `PRZEKAZANIE.md` | ostrzeżenie, że opisana tam oś projektu **upadła pierwszego dnia etapu 2** |
+| **`11_EWOLUCJA.md`** | **decyzje 5 i 6 użytkownika z 16 VIII 2026** — wybór wariantu C jako osi projektu (rozstrzygany pomiarem, nie założeniem) oraz zgoda na wyprowadzenie elektrody odniesienia za ucho, wraz z zamknięciem sprawy kanału szczękowego na niekorzyść pierwotnej analizy (sufit +0,6 pp, p = 0,166) |
+| `METODA.md` | poprawka o **hierarchii celów**: celem nadrzędnym są studia, ISEF jest środkiem — z liczbami (~14% na wyjazd, ~50–60% na dorobek) |
+| `METODA.md` | ostrzeżenie, że opisana tam oś projektu **upadła pierwszego dnia etapu 2** |
 
 **Wszystkie trzy wciągnięte do `main` 18 VIII 2026.** Decyzje użytkownika są tą kategorią treści, której zgubienie kosztuje najwięcej — bo model, który ich nie widzi, zaczyna je podważać od nowa.
 
 **Reguła, uzupełnienie do K-076:** przy rozjeździe gałęzi nie wystarczy porównać **listy plików**. Trzeba porównać **treść plików wspólnych** — `git diff <galaz> main -- <plik>` — bo najcenniejsze rzeczy dopisuje się do plików, które już istnieją.
 
-## 2026-08-18, audyt adwersaryjny (plik `35_AUDYT_2026_08_18.md`)
+## 2026-08-18, audyt adwersaryjny (plik `05_STAN_WIEDZY.md`)
 
 ### K-077 — przez pięć przeszukań ani razu nie zajrzałem do literatury chińskiej, a to tam leżał wynik zabijający twierdzenie
 
-**Co było.** `12_AUDYT.md`, `14_REANALIZA.md` §11, `25_AUDYT_OPENAIRE.md` — pięć rund przeszukania prior art, siedem baz łącznie. **Żadna z nich nie objęła literatury chińskojęzycznej ani japońskiej.** `17_RYZYKA.md` R8 wymieniał „literaturę nieanglojęzyczną" jako `[luka]` i zostawiał ją jako pozycję otwartą.
+**Co było.** `METODA.md`, `12_REANALIZA.md` §11, `METODA.md` — pięć rund przeszukania prior art, siedem baz łącznie. **Żadna z nich nie objęła literatury chińskojęzycznej ani japońskiej.** `06_RYZYKA.md` R8 wymieniał „literaturę nieanglojęzyczną" jako `[luka]` i zostawiał ją jako pozycję otwartą.
 
 **Co jest.** `[fakt]` **Li X., Cao X., Wang J., Zhu W., Huang Y., Wan F., Hu Y., *Sheng Wu Yi Xue Gong Cheng Xue Za Zhi* 42(3):464–472, 25 VI 2025, PMID 40566767** — noszalny interfejs SSVEP, 10 badanych, 40 celów, dokładność **94,10%**, ITR **115,25 bit/min** przy 8 kanałach i **98,49 bit/min** przy 4, *„**no significant difference** compared to the dataset collected under the laboratory condition"*. Artykuł po chińsku, indeksowany w PubMed od dnia publikacji.
 
 **Czyli: twierdzenie „ile kosztuje wygoda" ma opublikowaną odpowiedź i brzmi ona „statystycznie nic".** Znalezione jednym zapytaniem `SSVEP AND chi[LA]`, którego nikt wcześniej nie wykonał.
 
-**Reguła, która z tego zostaje.** Do listy baz z `PRZEKAZANIE.md` §5 dochodzą na stałe: **PubMed z filtrem języka (`chi[LA]`, `jpn[LA]`), J-STAGE i CiNii**. Zapytanie w języku dziedziny nie wystarcza, jeżeli pomija się języki, w których dziedzina publikuje — a SSVEP jest dziedziną chińską i japońską w stopniu, którego angielski indeks nie oddaje. **Każde „nie znalazłem" bez sprawdzenia tych trzech baz jest odtąd niepełne.**
+**Reguła, która z tego zostaje.** Do listy baz z `METODA.md` §5 dochodzą na stałe: **PubMed z filtrem języka (`chi[LA]`, `jpn[LA]`), J-STAGE i CiNii**. Zapytanie w języku dziedziny nie wystarcza, jeżeli pomija się języki, w których dziedzina publikuje — a SSVEP jest dziedziną chińską i japońską w stopniu, którego angielski indeks nie oddaje. **Każde „nie znalazłem" bez sprawdzenia tych trzech baz jest odtąd niepełne.**
 
 ---
 
 ### K-078 — twierdzenie projektu istniało w dwóch niezgodnych wersjach w plikach oznaczonych jako obowiązujące
 
-**Co było.** `14_REANALIZA.md` §7.2, `15_PROJEKT.md` §1.1, `16_PLAN_EKSPERYMENTALNY.md` §1 i `DECYZJE.md` decyzja 5 opisują oś jako **przepustowość w funkcji odległości elektrody odniesienia**. `30_POWROT_DO_INTERFEJSU.md` §6, `34_PARAMETRY_I_RAMY.md`, `README.md` i `CLAUDE.md` opisują ją jako **„ile kosztuje wygoda"**. Plik `30` powstał dzień po `14` i **ani razu się do niego nie odwołuje**.
+**Co było.** `12_REANALIZA.md` §7.2, `03_SPRZET.md` §1.1, `04_PLAN_POMIAROWY.md` §1 i `11_EWOLUCJA.md` decyzja 5 opisują oś jako **przepustowość w funkcji odległości elektrody odniesienia**. `02_TWIERDZENIE.md` §6, `03_SPRZET.md`, `README.md` i `CLAUDE.md` opisują ją jako **„ile kosztuje wygoda"**. Plik `30` powstał dzień po `14` i **ani razu się do niego nie odwołuje**.
 
 **Dlaczego to nie była kwestia stylu.** Wersja szeroka jest zajęta (K-077), wąska nie. Przez dobę projekt miał w plikach bieżących zdanie, które cudza praca unieważnia, i zdanie, którego nie unieważnia — bez żadnej informacji, które obowiązuje.
 
-**Poprawka.** Zdanie ujednolicone, brzmienie w `35_AUDYT_2026_08_18.md` §4.2, przeniesione do `30`, `34`, `README.md` i `CLAUDE.md`.
+**Poprawka.** Zdanie ujednolicone, brzmienie w `05_STAN_WIEDZY.md` §4.2, przeniesione do `30`, `34`, `README.md` i `CLAUDE.md`.
 
 **Reguła.** Przy zmianie kierunku plik-następca ma **wymienić z nazwy plik, którego twierdzenie zastępuje albo doprecyzowuje**. Bez tego zdania powstaje dwutorowość, której nie widać z żadnego pojedynczego pliku.
 
@@ -1125,7 +1125,7 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 **Co było.** Przy odzyskiwaniu gałęzi `claude/etap-2-v9dtnt` (K-076) wpisy K-054…K-059 z tamtej gałęzi dostały numery **K-070…K-075**, bo `main` miała już własny komplet. Przenumerowany został **wyłącznie `KOREKTY.md`**.
 
-**Skutek.** `14`, `16`, `17`, `18`, `20`, `23`, `24`, `25` i `26` odsyłały do numerów, pod którymi w rejestrze siedzą dziś zupełnie inne błędy — na przykład `20_ZAKUPY.md` §1.1 („zaniżyłem cenę platformy") wskazywał na K-055, czyli na wpis o demonstracji wchodzącej na ścieżkę zakazaną.
+**Skutek.** `14`, `16`, `17`, `18`, `20`, `23`, `24`, `25` i `26` odsyłały do numerów, pod którymi w rejestrze siedzą dziś zupełnie inne błędy — na przykład `03_SPRZET.md` §1.1 („zaniżyłem cenę platformy") wskazywał na K-055, czyli na wpis o demonstracji wchodzącej na ścieżkę zakazaną.
 
 **Poprawka.** Wszystkie odsyłacze w tych plikach poprawione. Pełne mapowanie — łącznie z trzema wpisami, które w ogóle nie zostały odzyskane — jest przy **K-089…K-091** na końcu tego rejestru.
 
@@ -1135,27 +1135,27 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 ### K-080 — błąd był już zapisany w rejestrze jako K-059, a mimo to przetrwał w trzech plikach
 
-**Co było.** `HANDBOOK.md`, hierarchia źródeł: *„Przykład rozbieżności: nagrody SDG — regulamin 7500 zł, ABC błędnie 5000 zł. **Ufaj regulaminowi**."* To samo w `08_KONKURENCJA_ISEF.md` §1.1, z adnotacją „handbook zweryfikowany co do złotówki".
+**Co było.** `METODA.md`, hierarchia źródeł: *„Przykład rozbieżności: nagrody SDG — regulamin 7500 zł, ABC błędnie 5000 zł. **Ufaj regulaminowi**."* To samo w `08_KONKURSY.md` §1.1, z adnotacją „handbook zweryfikowany co do złotówki".
 
 **Co jest.** `[fakt, `Regulamin-Konkursu-Explory.pdf` pobrany ze strony organizatora i odczytany 18 VIII 2026]` §8 pkt 4: *„a) Nagroda Główna – jedna kwota w wysokości **15 000 złotych**. b) Nagrody Zrównoważonego Rozwoju – trzy kwoty **do 5 000 złotych** każda."*
 
 **Regulamin mówi 5 000.**
 
-**Najgorsze w tym jest to, że błąd był już zapisany.** **K-059** (17 VIII 2026) nosi tytuł *„nagrody SDG są niższe i jest ich mniej, niż zakładały wszystkie pliki"* i mówi wprost: *„handbook i ściągawka podawały 3 × 7 500 zł"*. **Wpis do rejestru powstał, poprawka w plikach — nie.** Liczba 7 500 zł przetrwała w `HANDBOOK.md` (dwa miejsca), `08_KONKURENCJA_ISEF.md` i `11_OCENA_SZANS.md`.
+**Najgorsze w tym jest to, że błąd był już zapisany.** **K-059** (17 VIII 2026) nosi tytuł *„nagrody SDG są niższe i jest ich mniej, niż zakładały wszystkie pliki"* i mówi wprost: *„handbook i ściągawka podawały 3 × 7 500 zł"*. **Wpis do rejestru powstał, poprawka w plikach — nie.** Liczba 7 500 zł przetrwała w `METODA.md` (dwa miejsca), `08_KONKURSY.md` i `archiwum/11_OCENA_SZANS.md`.
 
 **To jest naruszenie zasady, którą `CLAUDE.md` stawia jako jedną z podstawowych:** *„dokumentacja żyje w plikach. Jeżeli ustalenie z handbooka okaże się błędne — **popraw handbook**, nie tylko odpowiedź, i dopisz wpis do `KOREKTY.md`"*. Zrobiona została druga połowa, nie pierwsza.
 
 **Reguła operacyjna, która z tego zostaje:** **wpis do `KOREKTY.md` nie jest zamknięty, dopóki `grep` po poprawianej liczbie albo frazie nie zwróci samych miejsc poprawionych.** Rejestr błędów bez poprawki w plikach jest inwentarzem, nie naprawą.
 
-**Poprawka.** Liczby poprawione w `HANDBOOK.md` i `08_KONKURENCJA_ISEF.md`.
+**Poprawka.** Liczby poprawione w `METODA.md` i `08_KONKURSY.md`.
 
 ---
 
 ### K-081 — dwa pliki kierowały do obszaru Explory, z którego `30` wycofał się wprost, a jeden robił to jako niewykonana pozycja listy zadań
 
-**Co było.** `13_PODNIESIENIE_SZANS.md` §2: *„Rekomendacja: SDG 9, obszar Gospodarka i Bezpieczeństwo"*. `24_PLAN_DZIALANIA.md`, pozycja nieodhaczona: *„Wskazanie SDG 9 i obszaru Gospodarka i Bezpieczeństwo w formularzu · JT"*.
+**Co było.** `archiwum/13_PODNIESIENIE_SZANS.md` §2: *„Rekomendacja: SDG 9, obszar Gospodarka i Bezpieczeństwo"*. `07_HARMONOGRAM.md`, pozycja nieodhaczona: *„Wskazanie SDG 9 i obszaru Gospodarka i Bezpieczeństwo w formularzu · JT"*.
 
-**Co jest.** `30_POWROT_DO_INTERFEJSU.md` §4.3: *„**Wycofuję wcześniejszą rekomendację** ucieczki do obszaru Gospodarka i Bezpieczeństwo"*; obszar bieżący to **Człowiek i Społeczeństwo**, tak samo w `CLAUDE.md` i `README.md`.
+**Co jest.** `02_TWIERDZENIE.md` §4.3: *„**Wycofuję wcześniejszą rekomendację** ucieczki do obszaru Gospodarka i Bezpieczeństwo"*; obszar bieżący to **Człowiek i Społeczeństwo**, tak samo w `CLAUDE.md` i `README.md`.
 
 **Dlaczego to była jedyna sprzeczność z ceną.** Obszar i cel SDG mają **własne pole w formularzu zgłoszeniowym**, a lista zadań kazała wpisać tam wartość odwołaną.
 
@@ -1165,11 +1165,11 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 ### K-082 — sprawę Cytona rozstrzygnąłem dwa razy tego samego dnia, w przeciwne strony, i zostawiłem obie wersje
 
-**Co było.** `DECYZJE.md`, blok z 18 VIII: *„~5 800 zł, 72% budżetu. (…) rekomendacja: **Cyton wypada**"*. `34_PARAMETRY_I_RAMY.md` §3, ten sam dzień wieczorem: *„»kolizja budżetowa«, **której nie ma** (…) **kupić używanego Cytona, budżet do 1 600 zł**"*.
+**Co było.** `11_EWOLUCJA.md`, blok z 18 VIII: *„~5 800 zł, 72% budżetu. (…) rekomendacja: **Cyton wypada**"*. `03_SPRZET.md` §3, ten sam dzień wieczorem: *„»kolizja budżetowa«, **której nie ma** (…) **kupić używanego Cytona, budżet do 1 600 zł**"*.
 
-**Skąd rozjazd.** Pierwsza wersja liczyła Cytona nowego, druga używanego — po odzyskaniu `20_ZAKUPY.md`, gdzie decyzja zapadła 16 VIII. `34` ma rację, ale `DECYZJE.md` jest plikiem, do którego się wraca po rozstrzygnięcia.
+**Skąd rozjazd.** Pierwsza wersja liczyła Cytona nowego, druga używanego — po odzyskaniu `03_SPRZET.md`, gdzie decyzja zapadła 16 VIII. `34` ma rację, ale `11_EWOLUCJA.md` jest plikiem, do którego się wraca po rozstrzygnięcia.
 
-**Poprawka.** Adnotacja w `DECYZJE.md` odsyłająca do `34` §3 i `20_ZAKUPY.md` §3.1.
+**Poprawka.** Adnotacja w `11_EWOLUCJA.md` odsyłająca do `34` §3 i `03_SPRZET.md` §3.1.
 
 ---
 
@@ -1183,11 +1183,11 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 ---
 
-### K-084 — `15_PROJEKT.md` §3.1 nadal nosi cenę zaniżoną o połowę i argument wycofany dwa dni wcześniej
+### K-084 — `03_SPRZET.md` §3.1 nadal nosi cenę zaniżoną o połowę i argument wycofany dwa dni wcześniej
 
-**Co było.** Tabela kosztorysowa: *„OpenBCI Cyton — **~2 500–3 500 zł**"* oraz *„Cyton daje też **baseline komercyjny** wymagany przez `13_PODNIESIENIE_SZANS.md` §6"*.
+**Co było.** Tabela kosztorysowa: *„OpenBCI Cyton — **~2 500–3 500 zł**"* oraz *„Cyton daje też **baseline komercyjny** wymagany przez `archiwum/13_PODNIESIENIE_SZANS.md` §6"*.
 
-**Co jest.** Obie pozycje wycofane 16 VIII w `20_ZAKUPY.md` §1.1 i §2 (korekta **K-071**): cena katalogowa to **1 249 USD**, czyli 6 000–6 800 zł za nowy egzemplarz, a rola „baseline komercyjny" nie działa, bo OpenBCI nie jest produktem konsumenckim.
+**Co jest.** Obie pozycje wycofane 16 VIII w `03_SPRZET.md` §1.1 i §2 (korekta **K-071**): cena katalogowa to **1 249 USD**, czyli 6 000–6 800 zł za nowy egzemplarz, a rola „baseline komercyjny" nie działa, bo OpenBCI nie jest produktem konsumenckim.
 
 **Dlaczego to groźne.** Kto zaplanuje budżet na tabeli z `15` §3.1, **powtórzy dokładnie ten błąd, który K-071 opisuje** — a plik `15` jest wymieniony w `34` §3 jako miejsce, gdzie leży pełne rozbicie budżetu.
 
@@ -1197,7 +1197,7 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 ### K-085 — reguła ISEF „badania, w których badaczem jest badany" nigdy nie została w tym projekcie rozpatrzona
 
-**Co było.** `ISEF_HUMAN_PARTICIPANTS.md` §1 opiera całe rozstrzygnięcie na cytacie ze zwolnienia i kończy tabelą, w której wiersz *„porównuję dwie geometrie elektrod na sobie"* dostaje **„tak, zwolniony"** ze znacznikiem `[wniosek]`.
+**Co było.** `09_FORMALNOSCI.md` §1 opiera całe rozstrzygnięcie na cytacie ze zwolnienia i kończy tabelą, w której wiersz *„porównuję dwie geometrie elektrod na sobie"* dostaje **„tak, zwolniony"** ze znacznikiem `[wniosek]`.
 
 **Czego tam nie ma.** `[fakt, `societyforscience.org/isef/international-rules/human-participants/`, odczytane 18 VIII 2026]` Lista przykładów badań z udziałem ludzi zawiera pozycję *„**Studies in which the researcher is the subject of the research**"*, a zaraz po niej stoi: *„All human participant studies must be reviewed and approved by an IRB **prior to experimentation**."* Zwolnienie brzmi węziej — dotyczy *„Invention, Prototype, (…) Engineering/Design Project or Consumer Product **Testing**"*.
 
@@ -1209,7 +1209,7 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 ---
 
-### K-086 — `13_PODNIESIENIE_SZANS.md` §5 stawia jako pytanie otwarte coś, co `14_REANALIZA.md` zmierzył
+### K-086 — `archiwum/13_PODNIESIENIE_SZANS.md` §5 stawia jako pytanie otwarte coś, co `12_REANALIZA.md` zmierzył
 
 **Co było.** `13` §5: *„nikt nie sprawdził, co się dzieje przy 2–3 cm"*, pytanie zapisane jako druga kontrybucja projektu.
 
@@ -1221,7 +1221,7 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 ### K-087 — pracę recenzowaną z 2020 roku opisałem jako preprint z 2025
 
-**Co było.** `14_REANALIZA.md` §11.1: *„In-Ear Electrode EEG for Practical SSVEP BCI", **arXiv 2509.15449, 18 IX 2025** — (…) **preprint bez recenzji** na bardzo małej próbie"*.
+**Co było.** `12_REANALIZA.md` §11.1: *„In-Ear Electrode EEG for Practical SSVEP BCI", **arXiv 2509.15449, 18 IX 2025** — (…) **preprint bez recenzji** na bardzo małej próbie"*.
 
 **Co jest.** `[fakt]` Identyfikator i data zdeponowania są prawidłowe — sprawdzone w API arXiv. **Ale praca o tym samym tytule ukazała się w czasopiśmie *Technologies* w 2020 roku** (Crossref). Wpis na arXiv jest zdeponowaniem pięć lat po publikacji.
 
@@ -1233,7 +1233,7 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 ### K-088 — powód niedostępności OpenAlex nazwałem błędnie, i to zmienia plan obejścia
 
-**Co było.** `25_AUDYT_OPENAIRE.md` §1: *„To jest **limit nałożony na adres tego środowiska**, nie brak dostępu do treści. Nie da się tego obejść inaczej niż z innej sieci."*
+**Co było.** `METODA.md` §1: *„To jest **limit nałożony na adres tego środowiska**, nie brak dostępu do treści. Nie da się tego obejść inaczej niż z innej sieci."*
 
 **Co jest.** `[fakt, odpowiedź API odczytana 18 VIII 2026]` OpenAlex zwraca: *„Insufficient budget. This request costs $0.001 but you only have $0 remaining. Resets at midnight UTC. Need more? Add funds at openalex.org/pricing"*.
 
@@ -1245,17 +1245,17 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 ### K-089…K-091 — trzy korekty z gałęzi `etap-2` nigdy nie zostały odzyskane; odtwarzam je z treści plików, które się do nich odwołują
 
-**Co było.** K-076 odzyskał **sześć** korekt z gałęzi `claude/etap-2-v9dtnt` (numerowanych tam K-054…K-059, przenumerowanych na K-070…K-075). `26_PRZEKAZANIE_ETAP3.md` mówi jednak wprost: *„**Dziewięć korekt jednego dnia, K-051…K-059**"*. **Trzech pierwszych nikt nie odzyskał**, a osiem plików nadal się do nich odwołuje.
+**Co było.** K-076 odzyskał **sześć** korekt z gałęzi `claude/etap-2-v9dtnt` (numerowanych tam K-054…K-059, przenumerowanych na K-070…K-075). `METODA.md` mówi jednak wprost: *„**Dziewięć korekt jednego dnia, K-051…K-059**"*. **Trzech pierwszych nikt nie odzyskał**, a osiem plików nadal się do nich odwołuje.
 
-**Odtwarzam je z treści, które przetrwały** — z `14_REANALIZA.md` §3, `26_PRZEKAZANIE_ETAP3.md` §wzorce i `DECYZJE.md` decyzja 6. `[wniosek]` Odtworzenie jest wierne co do treści błędu; oryginalne brzmienie wpisów zginęło.
+**Odtwarzam je z treści, które przetrwały** — z `12_REANALIZA.md` §3, `METODA.md` §wzorce i `11_EWOLUCJA.md` decyzja 6. `[wniosek]` Odtworzenie jest wierne co do treści błędu; oryginalne brzmienie wpisów zginęło.
 
 ---
 
 #### K-089 (na gałęzi etap-2 numerowana jako K-051) — zredukowałem „Cz i szczęka" do samej szczęki i zbudowałem na tym oś projektu
 
-**Co było źle.** W `12_AUDYT.md` §1.3 zapisałem, że u Kołodzieja i in. *„które kanały pomocnicze działały najlepiej: **Cz i szczęka**"* — zrównując je jednym zdaniem. Cała późniejsza dokumentacja przeniosła z tego zdania **samą szczękę** i zrobiła z niej oś projektu: „kompensacja artefaktu szczękowego w torze analogowym".
+**Co było źle.** W `METODA.md` §1.3 zapisałem, że u Kołodzieja i in. *„które kanały pomocnicze działały najlepiej: **Cz i szczęka**"* — zrównując je jednym zdaniem. Cała późniejsza dokumentacja przeniosła z tego zdania **samą szczękę** i zrobiła z niej oś projektu: „kompensacja artefaktu szczękowego w torze analogowym".
 
-**Co było naprawdę.** `[fakt, reanaliza surowych danych, `14_REANALIZA.md` §2, odtworzona niezależnie 18 VIII 2026]` \|β\|: **Cz 0,416** wobec **szczęka 0,132**. Zysk dokładności: Cz sam **+4,7 pp** (FBCCA) i **+8,2 pp** (SVM/LOSO); **szczęka sama +0,2 pp i +0,3 pp**. Ponad Cz szczęka dokłada **+0,4 pp**. Autorzy nigdzie nie twierdzili, że zysk pochodzi od szczęki — nazwali Cz *„dominant role"*. **Błąd był w moim streszczeniu, nie w ich pracy.**
+**Co było naprawdę.** `[fakt, reanaliza surowych danych, `12_REANALIZA.md` §2, odtworzona niezależnie 18 VIII 2026]` \|β\|: **Cz 0,416** wobec **szczęka 0,132**. Zysk dokładności: Cz sam **+4,7 pp** (FBCCA) i **+8,2 pp** (SVM/LOSO); **szczęka sama +0,2 pp i +0,3 pp**. Ponad Cz szczęka dokłada **+0,4 pp**. Autorzy nigdzie nie twierdzili, że zysk pochodzi od szczęki — nazwali Cz *„dominant role"*. **Błąd był w moim streszczeniu, nie w ich pracy.**
 
 **Reguła.** Wzorzec: **redukcja czegoś złożonego do jednego zdania, a potem operowanie tym zdaniem zamiast oryginałem.** Zdanie „A i B działały najlepiej" nie jest podstawą do pracy nad samym B.
 
@@ -1263,7 +1263,7 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 #### K-090 (na gałęzi etap-2 numerowana jako K-052) — postawiłem znacznik `[fakt, pełny tekst odczytany]` nie odczytawszy pełnego tekstu
 
-**Co było źle.** `12_AUDYT.md` §1.3 nosi znacznik **`[fakt, pełny tekst odczytany]`** przy omówieniu pracy Kołodzieja i in.
+**Co było źle.** `METODA.md` §1.3 nosi znacznik **`[fakt, pełny tekst odczytany]`** przy omówieniu pracy Kołodzieja i in.
 
 **Co przeoczyłem.** Pełny tekst (PMC12899023) zawiera zdanie: *„The recorded EEG signals are **publicly available** in the database (…) github.com/kolodzima/EEG_artefact_SSVEP_EMG_EOG"*. **Zbiór danych, na którym stała cała oś projektu, był publiczny i podany w tej samej pracy** — a odkryto to dopiero dzień później.
 
@@ -1301,7 +1301,7 @@ Twierdzenie ma być **pomiarowe** — wtedy cudza publikacja go nie unieważnia,
 
 ### K-092 — werdykt „twierdzenie martwe" postawiłem na abstrakcie, mając pełny tekst za jednym zapytaniem
 
-**Co było.** `35_AUDYT_2026_08_18.md` §2.1, napisane rano 18 VIII: praca **Li i in. 2025 (PMID 40566767)** ogłoszona jako zabijająca twierdzenie „ile kosztuje wygoda", z opisem *„zmniejszyli **skrzynkę**, trzymając odniesienie w miejscu standardowym"*. Podstawa: **abstrakt**, cztery zdania.
+**Co było.** `05_STAN_WIEDZY.md` §2.1, napisane rano 18 VIII: praca **Li i in. 2025 (PMID 40566767)** ogłoszona jako zabijająca twierdzenie „ile kosztuje wygoda", z opisem *„zmniejszyli **skrzynkę**, trzymając odniesienie w miejscu standardowym"*. Podstawa: **abstrakt**, cztery zdania.
 
 **Co jest, po odczytaniu pełnego tekstu chińskiego (PMC12236208) tego samego dnia po południu:**
 
@@ -1311,9 +1311,9 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 
 **Kierunek werdyktu się utrzymał** — hasło „ile kosztuje wygoda" ma opublikowaną odpowiedź i nie nadaje się na zdanie twierdzenia. **Ale uzasadnienie było nieostre na tyle, że mogło pójść w drugą stronę**, a dystans między tamtą pracą a tym projektem jest **większy**, niż zapisałem.
 
-**Reguła, i jest ostrzejsza niż dotychczasowe.** `12_AUDYT.md` dopuszczał znacznik `[fakt, abstrakt odczytany]` jako podstawę ustaleń. **Odtąd: praca, która jest kandydatem na zabójcę twierdzenia projektu, wymaga pełnego tekstu, a nie abstraktu.** Abstrakt wystarcza do odnotowania pozycji w stanie wiedzy; **nie wystarcza do orzeczenia, że coś jest zajęte.** Koszt sprawdzenia wynosił jedno zapytanie do PMC. To jest ten sam wzorzec co **K-090** (znacznik „pełny tekst odczytany" bez odczytania pełnego tekstu), tylko odwrócony: tam znacznik był zawyżony, tu wniosek był zbudowany na znaczniku, który uczciwie mówił „abstrakt".
+**Reguła, i jest ostrzejsza niż dotychczasowe.** `METODA.md` dopuszczał znacznik `[fakt, abstrakt odczytany]` jako podstawę ustaleń. **Odtąd: praca, która jest kandydatem na zabójcę twierdzenia projektu, wymaga pełnego tekstu, a nie abstraktu.** Abstrakt wystarcza do odnotowania pozycji w stanie wiedzy; **nie wystarcza do orzeczenia, że coś jest zajęte.** Koszt sprawdzenia wynosił jedno zapytanie do PMC. To jest ten sam wzorzec co **K-090** (znacznik „pełny tekst odczytany" bez odczytania pełnego tekstu), tylko odwrócony: tam znacznik był zawyżony, tu wniosek był zbudowany na znaczniku, który uczciwie mówił „abstrakt".
 
-**Rozbiór: `36_ROZBIOR_LI2025_I_PRZESZUKANIE.md` §1 i §6.**
+**Rozbiór: `05_STAN_WIEDZY.md` §1 i §6.**
 
 ---
 
@@ -1333,7 +1333,7 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 
 ### K-094 — cztery prace, które zabiły osie tego projektu, znałem wyłącznie z abstraktów
 
-**Co było.** `12_AUDYT.md` §1 uśmiercił trzy twierdzenia projektu, powołując się na prace Imperial College 2022, PNAS 2025 i Politechniki Warszawskiej 2026. `25_AUDYT_OPENAIRE.md` §3.2 dołożył pracę z *npj Biomedical Innovations* 2026 jako tę, która ma „nasze zdanie problemowe w tytule". **Z czterech tylko jedna — Kołodziej i in. — została kiedykolwiek przeczytana w całości** (i to dopiero w `14_REANALIZA.md`, dzień później, przez pobranie ich danych).
+**Co było.** `METODA.md` §1 uśmiercił trzy twierdzenia projektu, powołując się na prace Imperial College 2022, PNAS 2025 i Politechniki Warszawskiej 2026. `METODA.md` §3.2 dołożył pracę z *npj Biomedical Innovations* 2026 jako tę, która ma „nasze zdanie problemowe w tytule". **Z czterech tylko jedna — Kołodziej i in. — została kiedykolwiek przeczytana w całości** (i to dopiero w `12_REANALIZA.md`, dzień później, przez pobranie ich danych).
 
 **Co jest, po zastosowaniu procedury tożsamości do wszystkich pięciu:**
 
@@ -1345,7 +1345,7 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 | Arpaia 2023 | wspierała tezę „tanie noszalne jest zrobione" | `[fakt]` praca **integracyjna** z gotowych elementów, bez własnego sprzętu; **1 cytowanie** |
 | Yan i in. 2026 (npj) | „nasze zdanie problemowe w cudzym tytule" | `[fakt, pełny tekst]` ograniczenie **medyczne** (pacjent leżący, ubytek kości potylicznej), nie gabarytowe; **rezygnują z potylicy** i odtwarzają ją siecią |
 
-**Werdykt dla wszystkich pięciu: SĄSIEDNI, żadna tożsama.** Rozbiór: `37_PROCEDURA_TOZSAMOSCI_I_ROZBIORY.md` część II.
+**Werdykt dla wszystkich pięciu: SĄSIEDNI, żadna tożsama.** Rozbiór: `METODA.md` część II.
 
 **Czego to nie zmienia i trzeba to powiedzieć wprost:** **trzy uśmiercone twierdzenia pozostają uśmiercone.** Imperial College naprawdę zrobił tani interfejs o wysokim ITR, PNAS naprawdę zrobił elektrodę suchą przez włosy. **Błąd nie polegał na tym, że uznałem je za zajęte — polegał na tym, że nie wyjąłem z nich niczego.** Każda z pięciu miała w środku liczbę, punkt widełek albo cytat, których projekt potrzebował, a które leżały nieodczytane przez tydzień.
 
@@ -1355,7 +1355,7 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 
 ### K-095 — „nie da się przeszukać OpenAlex i Semantic Scholar" było nieprawdą; zablokowane jest tylko wyszukiwanie
 
-**Co było.** `25_AUDYT_OPENAIRE.md` §1 i `35_AUDYT_2026_08_18.md` §5 wymieniały OpenAlex i Semantic Scholar jako **niedostępne**, z konsekwencją zapisaną w pewności audytu. `36` §4 powtórzył to w tabeli.
+**Co było.** `METODA.md` §1 i `05_STAN_WIEDZY.md` §5 wymieniały OpenAlex i Semantic Scholar jako **niedostępne**, z konsekwencją zapisaną w pewności audytu. `36` §4 powtórzył to w tabeli.
 
 **Co jest.** `[fakt, sprawdzone 21 VIII 2026]` Zablokowany jest **wyłącznie punkt końcowy wyszukiwania**:
 
@@ -1370,13 +1370,13 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 
 **Dlaczego to jest błąd o dużej stawce, a nie techniczny drobiazg:** przeszukiwanie po słowach kluczowych zawiodło w tym projekcie **trzy razy** i zawsze z tego samego powodu — własne słownictwo zamiast słownictwa dziedziny (K-074, K-093). **Graf cytowań tej wady nie ma.** Pierwszy test dał od razu wynik, którego trzy rundy zapytań nie dały: **Wu i Su 2014 ma 16 cytowań w dwanaście lat, Diez i in. 2010 ma 23 w szesnaście, i ani jedno nie dotyczy geometrii montażu.**
 
-**Reguła:** **„baza niedostępna" wymaga sprawdzenia punkt końcowy po punkcie końcowym, nie jednego zapytania.** Limit nałożony na wyszukiwanie nie znaczy, że rekordy i relacje są zamknięte. Do zestawu z `PRZEKAZANIE.md` §5 wchodzi **przeszukiwanie po cytowaniach jako osobny kanał**, równorzędny z zapytaniami słownikowymi.
+**Reguła:** **„baza niedostępna" wymaga sprawdzenia punkt końcowy po punkcie końcowym, nie jednego zapytania.** Limit nałożony na wyszukiwanie nie znaczy, że rekordy i relacje są zamknięte. Do zestawu z `METODA.md` §5 wchodzi **przeszukiwanie po cytowaniach jako osobny kanał**, równorzędny z zapytaniami słownikowymi.
 
 ---
 
 ### K-096 — trzy audyty sprawdzały, CZY ktoś to zmierzył, i żaden nie sprawdził, DLACZEGO nie
 
-**Co było.** `12_AUDYT.md`, `35_AUDYT_2026_08_18.md` i `36_ROZBIOR_LI2025_I_PRZESZUKANIE.md` przeszukały łącznie 29 baz, żeby ustalić, czy oś projektu jest zajęta. Za każdym razem wynik brzmiał „niezajęta" i za każdym razem **traktowałem to jako dobrą wiadomość bez zastrzeżeń.**
+**Co było.** `METODA.md`, `05_STAN_WIEDZY.md` i `05_STAN_WIEDZY.md` przeszukały łącznie 29 baz, żeby ustalić, czy oś projektu jest zajęta. Za każdym razem wynik brzmiał „niezajęta" i za każdym razem **traktowałem to jako dobrą wiadomość bez zastrzeżeń.**
 
 **Czego nie zrobiłem.** Nie zadałem pytania, które zadał użytkownik: *„skoro ledwo kto to tyka, to musi być jakiś powód"*. **Puste pole ma trzy możliwe wyjaśnienia — luka, ślepa uliczka, albo odpowiedź znana skądinąd — a ja przez trzy audyty zakładałem pierwsze, nie sprawdziwszy pozostałych dwóch.**
 
@@ -1398,7 +1398,7 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 
 **Dlaczego jest fałszywy.** `[fakt]` SNR przy 2f₀ wynosi **−0,04 do +0,16 dB we wszystkich montażach naraz, łącznie z odniesieniem odległym.** Drugiej harmonicznej **w tym zbiorze praktycznie nie ma**. Nie można stracić czegoś, czego nie było — test jest **ograniczony podłogą i nie rozstrzyga**.
 
-**Przyczyna jest znana i zapisana gdzie indziej:** Kołodziej użył 7/8/9 Hz, więc harmoniczne wypadają na 14–18 Hz, a `15_PROJEKT.md` §2.4 odrzucił to pasmo z powodu rytmu alfa. **Ten test potwierdził tamtą decyzję z zupełnie innej strony.**
+**Przyczyna jest znana i zapisana gdzie indziej:** Kołodziej użył 7/8/9 Hz, więc harmoniczne wypadają na 14–18 Hz, a `03_SPRZET.md` §2.4 odrzucił to pasmo z powodu rytmu alfa. **Ten test potwierdził tamtą decyzję z zupełnie innej strony.**
 
 **Reguła:** **wynik „brak różnicy" wymaga sprawdzenia, czy mierzona wielkość w ogóle występuje w warunku odniesienia.** To jest ten sam wzorzec co kontrola pozytywna przy „zero trafień" (K-093), tylko przeniesiony z przeszukiwania na pomiar. Bez tej kontroli „brak efektu" jest artefaktem zbioru, nie wynikiem.
 
@@ -1406,7 +1406,7 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 
 ### K-098 — trzy dni pisałem, że baza jest niedostępna, nie spróbowawszy ponownie
 
-**Co było.** `25_AUDYT_OPENAIRE.md` §1, `35_AUDYT_2026_08_18.md` §5, `36` §4 i `37` §13 — cztery pliki zapisywały **Semantic Scholar jako niedostępny**, na podstawie HTTP 429. `37` §13.1 postawił nawet wniosek o klucz API jako **jedyną pozycję wartą zrobienia** i przypisał jej odblokowanie wyszukiwania.
+**Co było.** `METODA.md` §1, `05_STAN_WIEDZY.md` §5, `36` §4 i `37` §13 — cztery pliki zapisywały **Semantic Scholar jako niedostępny**, na podstawie HTTP 429. `37` §13.1 postawił nawet wniosek o klucz API jako **jedyną pozycję wartą zrobienia** i przypisał jej odblokowanie wyszukiwania.
 
 **Co jest.** `[fakt]` Użytkownik zacytował dokumentację: *„Most Semantic Scholar endpoints are **available to the public without authentication**, but they are rate-limited (…) Requests may also be **further throttled during periods of heavy use**"*. **Ponowna próba przeszła za pierwszym razem, HTTP 200, 2 620 trafień.**
 
@@ -1420,7 +1420,7 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 
 ### K-099 — plan elektrod odziedziczył ograniczenie cudzego zbioru danych jako założenie o świecie
 
-**Co było.** `15_PROJEKT.md` §2.3 wymieniał cztery kandydatury na elektrodę odniesienia: 2 cm poniżej Oz, 4 cm poniżej Oz nad karkiem, wyrostek sutkowaty, płatek ucha. **Wszystkie cztery skierowane w dół albo w bok. Ani jedna w górę.** `16_PLAN_EKSPERYMENTALNY.md` §3.2 zapisywał zmienną główną jako **samą odległość**, bez kierunku.
+**Co było.** `03_SPRZET.md` §2.3 wymieniał cztery kandydatury na elektrodę odniesienia: 2 cm poniżej Oz, 4 cm poniżej Oz nad karkiem, wyrostek sutkowaty, płatek ucha. **Wszystkie cztery skierowane w dół albo w bok. Ani jedna w górę.** `04_PLAN_POMIAROWY.md` §3.2 zapisywał zmienną główną jako **samą odległość**, bez kierunku.
 
 **Skąd się to wzięło.** `[fakt]` Zbiór Kołodzieja zawiera wyłącznie **O1, Oz i O2**, a te trzy punkty leżą w układzie 10–20 **na jednej linii poprzecznej** ~10% powyżej inionu. **W tamtych danych nie istnieje ani jedna para pionowa.** Reanaliza z `14` §5 mogła więc zmierzyć wyłącznie pary poziome i skośne — i wszystkie wypadły źle (−18 do −24 pp). **Plan elektrod został zbudowany na tym wyniku i przyjął „montaż zwarty jest zły" jako własność świata, choć była to własność zbioru.**
 
@@ -1428,13 +1428,13 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 
 **Poprawka.** Wejście 4 przeniesione z „2 cm poniżej Oz" na **POz, ~3,5 cm powyżej Oz**; wejście 5 na „2 cm poniżej Oz" jako **warunek porównawczy dla kierunku**. Zmienna główna w `16` §3.2 staje się **dwuwymiarowa: odległość oraz kierunek**. Koszt: zero — ta sama liczba wejść, ta sama płytka, te same sesje. Przy okazji **obniża R12**, bo POz leży powyżej inionu, poza zasięgiem mięśnia karku i tylnego dołu czaszki.
 
-**Reguła, i jest ogólniejsza niż ten przypadek:** **przy budowaniu planu pomiarowego na podstawie reanalizy cudzych danych wypisać, czego w tamtym zbiorze NIE BYŁO** — i sprawdzić, czy brakująca rzecz nie jest przypadkiem zmienną. `14_REANALIZA.md` §9 wymienia dziewięć ograniczeń reanalizy i **żadne z nich nie brzmi „zbiór nie zawiera par pionowych"**. Brakujące wymiary zbioru są niewidoczne w wynikach — trzeba je wypisać z układu elektrod, zanim się na nich cokolwiek zbuduje.
+**Reguła, i jest ogólniejsza niż ten przypadek:** **przy budowaniu planu pomiarowego na podstawie reanalizy cudzych danych wypisać, czego w tamtym zbiorze NIE BYŁO** — i sprawdzić, czy brakująca rzecz nie jest przypadkiem zmienną. `12_REANALIZA.md` §9 wymienia dziewięć ograniczeń reanalizy i **żadne z nich nie brzmi „zbiór nie zawiera par pionowych"**. Brakujące wymiary zbioru są niewidoczne w wynikach — trzeba je wypisać z układu elektrod, zanim się na nich cokolwiek zbuduje.
 
 ---
 
 ### K-100 — „naklejka wielkości karty płatniczej" opisywała rozpiętość elektrod jako bryłę urządzenia
 
-**Co było.** `39_KIERUNEK_NIE_TYLKO_ODLEGLOSC.md` §4: *„Urządzenie jest **naklejką wielkości karty płatniczej**, a nie pudełkiem"*, oraz pytanie P28 o to, czy moduł **4×8 cm** mieści się w granicy gabarytu.
+**Co było.** `05_STAN_WIEDZY.md` §4: *„Urządzenie jest **naklejką wielkości karty płatniczej**, a nie pudełkiem"*, oraz pytanie P28 o to, czy moduł **4×8 cm** mieści się w granicy gabarytu.
 
 **Co jest.** Użytkownik wyłapał: *„Te 4×8 to nie będzie sama płytka i elektronika? Tylko raczej elektrody w większości?"* **Ma rację.** 4×8 cm to **rozpiętość czterech punktów elektrodowych**, a nie obrys bryły. Elektroda kubkowa ma ~10 mm średnicy i poniżej 2 mm grubości; cztery takie punkty nie tworzą żadnej bryły — tworzą ją tylko przewody, a te chowa włos.
 
@@ -1444,7 +1444,7 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 
 **Dlaczego to był realny błąd, a nie przejęzyczenie:** sformułowanie „naklejka wielkości karty płatniczej" **opisywało wariant, który sam bym odrzucił** (jedna sztywna płyta 4×8 cm), i postawiło użytkownikowi pytanie o granicę gabarytu, na które **nie trzeba było odpowiadać**, bo krytyczna para mieści się w obudowie.
 
-**Reguła:** **przy podawaniu gabarytu rozdzielać rozpiętość elektrod od obrysu bryły.** To są dwie różne wielkości i tylko druga jest widoczna. Skala widoczności z `06_TABELA_PARAMETROW.md` §4 mierzy **widoczność**, nie powierzchnię zajętą przez punkty pomiarowe.
+**Reguła:** **przy podawaniu gabarytu rozdzielać rozpiętość elektrod od obrysu bryły.** To są dwie różne wielkości i tylko druga jest widoczna. Skala widoczności z `archiwum/06_TABELA_PARAMETROW.md` §4 mierzy **widoczność**, nie powierzchnię zajętą przez punkty pomiarowe.
 
 ---
 
@@ -1458,6 +1458,26 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 
 **Wynik po przeszukaniu metod:** **178 prac podaje w metodach i SSVEP, i elektrodę odniesienia. Ani jedna nie traktuje jej położenia jako zmiennej.** To jest najmocniejszy wynik negatywny całego przeglądu — pochodzi z przeszukania **tego miejsca w tekście, w którym ta informacja musi być zapisana**.
 
-**Znalezisko uboczne, ważniejsze od samego wyniku negatywnego:** zapytanie o `inter-electrode distance` w metodach wyciągnęło **Srinivasan, Bibi, Nunez 2006 (PMID 16544207)** i **Thorpe, Nunez, Srinivasan 2007 (PMID 17671957)** — dwie prace o **strukturze falowej pola SSVEP**, z długością fali i kierunkiem propagacji. **Dają mechanizm i wzór hipotezie kierunku**, która w `39` była domysłem z czterech rozrzuconych punktów. Rozbiór: `40_GABARYT_MECHANIZM_I_DOMKNIECIE.md` §4.
+**Znalezisko uboczne, ważniejsze od samego wyniku negatywnego:** zapytanie o `inter-electrode distance` w metodach wyciągnęło **Srinivasan, Bibi, Nunez 2006 (PMID 16544207)** i **Thorpe, Nunez, Srinivasan 2007 (PMID 17671957)** — dwie prace o **strukturze falowej pola SSVEP**, z długością fali i kierunkiem propagacji. **Dają mechanizm i wzór hipotezie kierunku**, która w `39` była domysłem z czterech rozrzuconych punktów. Rozbiór: `05_STAN_WIEDZY.md` §4.
 
 **Reguła:** **`METHODS:` i `BODY:` w Europe PMC wchodzą na stałe do zestawu.** Ogólniej: **zanim uzna się pole za puste, sprawdzić, w której sekcji pracy szukana informacja by się znalazła** — i przeszukać tę sekcję, a nie abstrakt.
+
+---
+
+### K-102 — dokumentacja urosła do stanu, w którym poprawki były ważniejsze od treści
+
+**Co było.** **49 plików, 1,08 MB.** Plik dla laika zaczynał się od twierdzenia, które umarło pięć dni wcześniej. Historia projektu leżała w kawałkach w `01_HISTORIA`, `12_AUDYT`, `25_AUDYT_OPENAIRE`, `29_ODRZUCONE_KIERUNKI`, `30_POWROT_DO_INTERFEJSU`, `DECYZJE` i pięciu plikach audytowych z lat 35–40 — a w każdym z nich **poprawki i adnotacje zajmowały więcej miejsca niż stan obowiązujący**. README urosło do spisu treści spisu treści. W plikach głównych zostały wzmianki o wariantach odrzuconych tygodnie wcześniej.
+
+**Diagnoza użytkownika, 21 VIII 2026:** *„dokumentacja jest nieczytelna. Za dużo tam informacji o poprzednich wersjach, za dużo nie zaktualizowanych rzeczy (np. wzmianki o module przy uchu, mimo że go odrzuciliśmy)."*
+
+**Co jest.** **16 plików w katalogu głównym, 402 KB.** Reszta w `archiwum/` z tablicą przekierowań (`archiwum/README.md`) — **nic nie usunięte**.
+
+**Zasada, która porządkuje nową strukturę i której wcześniej nie było:**
+
+> **Pliki główne opisują wyłącznie stan bieżący. Historia mieszka w jednym pliku — `11_EWOLUCJA.md`. Rejestr błędów w drugim — tym.**
+
+Dopóki historia była rozproszona po plikach roboczych, każdy z nich musiał nieść własną warstwę adnotacji „to już nieaktualne, obowiązuje tamto" — a takich warstw narosło po kilka na plik i **to one czyniły dokumentację nieczytelną, nie sama objętość.**
+
+**Nowe pliki powstałe z konsolidacji:** `01_PROJEKT_DLA_LAIKA` (przepisany pod twierdzenie bieżące) · `02_TWIERDZENIE` · `03_SPRZET` (z `15` i `20`) · `05_STAN_WIEDZY` (z pięciu plików audytowych) · `08_KONKURSY` (z czterech) · `11_EWOLUCJA` (z siedmiu) · `METODA` (z pięciu).
+
+**Reguła na przyszłość:** **nowe ustalenie idzie do pliku, którego dotyczy, i zastępuje treść — nie dopisuje się jako adnotacja pod starą.** Stara wersja ma jedno miejsce: `11_EWOLUCJA.md`, jeżeli była decyzją albo obalonym twierdzeniem, i `KOREKTY.md`, jeżeli była błędem. **Plik roboczy, który zaczyna nieść trzecią warstwę poprawek, jest do przepisania, nie do dopisania.**
