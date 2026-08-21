@@ -181,3 +181,26 @@
 **Wpis do `KOREKTY.md` nie jest zamknięty, dopóki `grep` po poprawianej liczbie albo frazie nie zwróci samych miejsc poprawionych.**
 
 `[fakt]` Nagrody SDG: błąd zapisano jako **K-059**, a liczba 7 500 zł przetrwała w trzech plikach jeszcze trzy dni. **Rejestr błędów bez poprawki w plikach jest inwentarzem, nie naprawą.**
+
+
+---
+
+## Rachunek zamknięty — czynność osobna od audytu literaturowego
+
+**Wpisane 21 VIII 2026 po K-105, K-106 i K-107.** Jedenaście znalezisk z ostatniej fazy audytu, **ani jedno niewymagające dostępu do literatury.** Wszystkie wymagały policzenia własnego opisu.
+
+**Audyt literaturowy sprawdza, czy ktoś zrobił to wcześniej. Rachunek zamknięty sprawdza, czy własny opis jest zgodny sam ze sobą.** Pierwsza czynność nie zastępuje drugiej i żadna liczba znaleziona przez drugą nie zostałaby znaleziona przez pierwszą.
+
+**Kiedy:** po każdej większej zmianie planu, oraz raz na jakiś czas bez powodu.
+
+**Co się liczy, w tej kolejności:**
+
+1. **sumy pieniędzy** — czy pozycje sumują się do podanej sumy, i czy procent rezerwy liczy się od tego, od czego według opisu ma się liczyć
+2. **sumy godzin** — czy praca zapisana w etapie mieści się w liczbie tygodni razy budżet tygodniowy; **osobno dla każdego etapu, bo godziny nie przenoszą się wstecz**
+3. **liczba porównań wobec mocy testu** — ile testów naprawdę przewiduje plan analizy, i czy liczba prób pokrywa je po poprawce
+4. **wskaźniki warunkowe wobec bazowych** — czy szacunek da się sprowadzić do wskaźnika bazowego jawnym łańcuchem
+5. **liczba pinów wobec liczby rzeczy do podłączenia** — i ogólniej: każdy zasób o skończonej liczbie sztuk wobec listy rzeczy, które go zużywają
+6. **każda wielkość zapisana w dwóch plikach** — czy w obu ma tę samą wartość
+7. **każde dwa odcinki, kąty albo udziały nazwane tym samym ułamkiem** — czy mają tę samą wartość liczbową
+
+**Dlaczego czytanie tego nie łapie:** czytanie sprawdza sens zdań. Liczba niezgodna z inną liczbą **czyta się bez zgrzytu**, bo każda z nich osobno jest sensowna. `03_SPRZET.md` był czytany wielokrotnie przez pięć dni i nie oddał ani jednego z ośmiu znalezisk K-106.

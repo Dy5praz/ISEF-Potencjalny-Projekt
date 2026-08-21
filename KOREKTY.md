@@ -1601,3 +1601,79 @@ Dopóki historia była rozproszona po plikach roboczych, każdy z nich musiał n
 > **Cztery z ośmiu znalezisk to liczby, które były poprawne osobno i niezgodne razem.** Audyt literaturowy ich nie łapie, bo nie dotyczą literatury. Łapie je **tylko przeliczenie własnego opisu: czy sumy się zgadzają, czy dwa odcinki nazwane tym samym ułamkiem mają tę samą długość, czy liczba pinów równa się liczbie rzeczy do podłączenia.**
 
 **Reguła:** **każdy opis sprzętu przechodzi raz na jakiś czas rachunek zamknięty** — policzyć styki, policzyć piny, policzyć złotówki, policzyć odległości z ich własnej definicji — **niezależnie od tego, ile razy był czytany.** Pięć dni audytu przeczytało `03_SPRZET.md` wielokrotnie i nie znalazło nic z tej ósemki, bo czytanie sprawdza sens zdań, a nie zgodność liczb.
+
+
+---
+
+### K-107 — rachunek zamknięty na trzech pozostałych frontach: statystyka, godziny, liczby konkursowe
+
+**Skąd.** Polecenie autora z 21 VIII 2026, po K-106: *„Wykonaj wszystkie 3."* Trzy fronty zaproponowane po tamtym wpisie, wszystkie tej samej klasy — **liczba wiążąca, której żaden plik nigdy nie skonfrontował z arytmetyką.**
+
+---
+
+#### 1. Brakowało poprawki na wielokrotne porównania
+
+**Co było.** `04_PLAN_POMIAROWY.md` §3.3 liczył moc przy **α = 0,05 dla jednego porównania** i na tej podstawie orzekał: *„przyjmuję 240 prób na sesję, pokrywa efekt 9 pp z zapasem"*. `CLAUDE.md` wymienia tymczasem **poprawkę na wielokrotne porównania** jako rzemiosło wiążące, kopiowane świadomie z ENBM074. **W żadnym pliku nie było ani słowa Bonferroni, Holm, FDR, ani deklaracji, ile tych porównań właściwie jest.**
+
+**Ile ich jest.** Cztery położenia odniesienia × dwie bazy porównania = 5 w rodzinie konfirmacyjnej. Do tego rozbiór po ośmiu częstotliwościach (**wymagany przez przewidywanie 1** z §1B — strata ma zależeć od `d/λ`, więc musi zmieniać się z częstotliwością), cztery długości okna, i dwa punkty z wiązek B i C dołożone tego samego dnia w K-106.
+
+**Co z tego wychodzi, po przeliczeniu** (McNemar, δ = 9 pp, ψ = 14%, moc 80%):
+
+| k | α na porównanie | wymagane próby |
+|---|---|---|
+| 1 (stan zapisany) | 0,05 | **136** |
+| **5 (rodzina główna)** | **0,010** | **202** |
+| 32 (rozbiór po częstotliwości) | 0,00156 | **277** |
+
+`[wniosek]` **Zdanie o 240 próbach zostaje prawdziwe — ale zapas skurczył się z 76% do 19%, i dopiero teraz jest sprawdzony, a nie założony.** Rodzina konfirmacyjna mieści się w sesji.
+
+**Rzecz, która się nie mieści, i którą trzeba było nazwać.** Rozbiór po częstotliwościach dzieli sesję na osiem części po **30 prób**. Nawet pula z ośmiu sesji daje **1920 / 8 = 240 na częstotliwość**, wobec **277 wymaganych**. **Brakuje 15%.** Dlatego rodzina po częstotliwościach jest od teraz **eksploracyjna**, liczona wyłącznie na puli, z **FDR q = 0,10**, i **nie wolno jej raportować jako potwierdzenia przewidywania 1** — najwyżej jako zgodność albo niezgodność kierunku. Podobnie efekt 5 pp: jedno porównanie wymaga **314 prób**, rodzina główna **467** — **wyłącznie z puli, nigdy z pojedynczej sesji.**
+
+**Pięć rodzin zadeklarowanych z góry** i wpisanych do `04_PLAN_POMIAROWY.md` §3.3a. `[fakt]` Dobór rodziny po obejrzeniu wyników jest w Załączniku nr 1 regulaminu Explory wymieniony jako naruszenie standardów etycznych — **ta sama pułapka co wybieranie metryki po fakcie**, i drugi raz w tym projekcie zamknięta deklaracją z wyprzedzeniem.
+
+`[wniosek]` **Koszt poprawki: zero złotych, zero godzin, zero sesji. Zmienia się nie plan, tylko to, co wolno powiedzieć o której liczbie.**
+
+---
+
+#### 2. Harmonogram nigdy nie spotkał się z „10 h/tydzień"
+
+**Co było.** `07_HARMONOGRAM.md`, 181 linii, dziewięć kamieni milowych, **zero wystąpień słowa „godzina"**. Jeden z czterech parametrów wiążących projektu **nie występował w pliku, który go wydaje.** Budżet pieniężny przeliczony do złotówki i z marginesem; **budżet czasowy nieprzeliczony w ogóle.**
+
+**Po przeliczeniu:** 44,7 tygodnia do 30 VI 2027 = **449 h dostępnych**, wobec **326–529 h szacowanej pracy, środek widełek 426 h**. `[wniosek]` **Suma się spina z 5% zapasem — i to jest liczba bez znaczenia**, bo godziny nie przenoszą się wstecz. Istotne jest, **gdzie** wypada nadmiar:
+
+| Etap | Dostępne | Szacunek | Bilans |
+|---|---|---|---|
+| X 2026 | 44 h | 17–25 h | **+19 do +27 — jedyny miesiąc z rezerwą** |
+| **XI–XII 2026** | 87 h | **80–135 h** | **PRZEKROCZONY** |
+| I–II 2027 | 86 h | 62–111 h | środek dokładnie na styk |
+| **V–VI 2027** | 87 h | **95–134 h** | **PRZEKROCZONY** |
+
+**Przekroczenie pierwsze — nauka projektowania PCB.** Droga od zera do płytki czterowarstwowej, mieszanej analogowo-cyfrowej, z ADS1299: `[domysł]` 35–60 h nauki plus 40–70 h na sam projekt. **Najgorzej oszacowana pozycja w planie, bo autor nie ma jej z czym porównać.** Poprawka: **nauka przeniesiona na wrzesień–październik 2026** — te dwa miesiące mają razem 33–49 h wolnego, nic nie trzeba kupować, nic nie koliduje z E0 (dwadzieścia minut pomiaru). W listopadzie–grudniu zostaje sam projekt płytki.
+
+**Przekroczenie drugie — maj–czerwiec 2027 niesie dwa kamienie milowe naraz**, i to najdroższe: kampanię pomiarową i **półfinał Explory, wąskie gardło całego lejka**. Poprawka: **materiał półfinałowy — wideo, plakat, kampania plebiscytowa — wykonany w marcu–kwietniu 2027, na urządzeniu v2 i pomiarach rozwojowych.** `[fakt]` **Wolno, bo półfinał Explory nie podlega regule 12 miesięcy** (`09_FORMALNOSCI.md` §6) — i ta możliwość leżała w dokumentacji od 18 VIII, **nieużyta, bo nikt nie policzył godzin i nie zobaczył, po co miałaby być potrzebna.** W maju zostaje dokrętka: 8–12 h zamiast 45–70.
+
+**Poprawka towarzysząca:** osiem sesji w ośmiu różnych dniach **nie znaczy ośmiu tygodni**. Sesje **co drugi dzień** dają komplet w **szesnaście dni** i spełniają wymóg zmienności międzysesyjnej tak samo. Czerwiec zostaje wolny.
+
+`[luka]` **Czego rachunek nie obejmuje:** tygodni, w których 10 h nie będzie — egzaminy, święta, choroba. `[domysł]` 6–8 takich tygodni w roku zjada 30–50 h, **czyli cały zapas.** Stąd: **obie poprawki kolejności są konieczne, a nie są zapasem na wypadek poślizgu.**
+
+---
+
+#### 3. Rachunek zamknięty na `05`, `08`, `10` — dwa znaleziska
+
+**a) Wiersz *PNAS* w tabeli przepustowości podawał inną wielkość niż pozostałe dwanaście.** Stało tam **„~17 (sufit)"**, gdy cała tabela podaje **przepustowość przy zmierzonej dokładności**. 16,9 bit/min to **kres górny dla dwóch celów** — 1 bit na wybór ÷ 3,55 s — osiągalny dopiero przy 100%. Przy ich rzeczywistych **96,4% wychodzi 13,1 bit/min**. `[wniosek]` Wniosek §1.1 pkt 3 nie tylko się utrzymuje, ale **wzmacnia: przewaga czterdziestu celów nad dwoma jest 3,5-krotna, nie 2,7-krotna.** Pozostałe **jedenaście przeliczeń Wolpawa sprawdzonych co do dziesiątej — wszystkie zgodne.**
+
+**b) Tabela szans konkursowych przekraczała własny zadeklarowany margines błędu i była niezgodna między czterema plikami.** Podawała **finał ~50%** i jednocześnie **ISEF ~22%**, przy wskaźniku bazowym **finał → ISEF = 3/21 = 14,3%**. Z 50% na finał wychodzi **~7% przy bazie** i **~14% przy szczodrym założeniu**, że projekt jest wyraźnie powyżej średniej finalisty. **Do 22% brakowało mnożnika 1,6 — a tabela deklarowała błąd „rzędu ×1,5 w każdą stronę".** To samo z Nagrodą Główną: 9–10% wobec wyprowadzalnych ~5%.
+
+`[fakt]` **A `07_HARMONOGRAM.md` niósł od 16 VIII liczbę poprawną — ~14% — podczas gdy `08`, `README.md` i `10_STUDIA_USA.md` niosły 22%. Cztery pliki, dwie liczby, żadnego wpisu o rozbieżności przez pięć dni audytu.**
+
+**Poprawka:** szacunki wyprowadzone **jawnym łańcuchem od wskaźników bazowych**, tak żeby dały się sprawdzić kartką: **finał ~50% · ISEF ~14% · Nagroda Główna ~5% · jakakolwiek nagroda ISEF ~4%.** Ujednolicone w czterech plikach.
+
+`[wniosek]` **Liczby spadły i to jest w porządku.** Projekt ma regułę zakazującą podawania dokładności bez N i zakazującą słowa „pierwszy"; **tabela szans zawyżona o mnożnik 1,6 jest tym samym gatunkiem uchybienia**, tyle że wycelowanym we własne oczekiwania, a nie w jurora.
+
+---
+
+**Wzorzec z trzech wpisów pod rząd — K-105, K-106, K-107:**
+
+> **Wszystko, co ten audyt znalazł w ostatniej fazie, to były liczby poprawne osobno i niezgodne razem albo nieskonfrontowane z niczym.** Ani jedno z jedenastu znalezisk nie wymagało dostępu do literatury. Wszystkie wymagały **policzenia własnego opisu.**
+
+**Reguła, wpisana do `METODA.md`:** **audyt literaturowy i rachunek zamknięty to dwie różne czynności i pierwsza nie zastępuje drugiej.** Rachunek zamknięty prowadzi się osobno, po każdej większej zmianie planu, i obejmuje: **sumy pieniędzy, sumy godzin, liczby porównań wobec mocy testu, wskaźniki warunkowe wobec bazowych, liczbę pinów wobec liczby rzeczy do podłączenia, i każdą wielkość zapisaną w dwóch plikach.**

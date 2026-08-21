@@ -477,7 +477,7 @@ Pytanie użytkownika: *„czy mogę liczyć na studia w Stanach, czy to bardziej
 
 `[wniosek]` **Konstrukcja listy uczelni daje więcej niż jakiekolwiek dodatkowe osiągnięcie konkursowe.** Różnica między listą źle a dobrze złożoną to kilkanaście punktów procentowych; różnica między finalistą ISEF a laureatem — pojedyncze punkty.
 
-**Czego ta liczba nie zawiera i zawierać nie może:** wyniku ISEF. `[domysł]` Prawdopodobieństwo, że użytkownik w ogóle pojedzie na ISEF, wynosi ~22% (`31` sekcja 8). **Plan rekrutacyjny nie może być na tym oparty** — i nie jest, bo urządzenie, dziennik pracy i materiał na esej powstają niezależnie od tego, czy jury Explory wybierze ten projekt do trójki.
+**Czego ta liczba nie zawiera i zawierać nie może:** wyniku ISEF. `[domysł]` Prawdopodobieństwo, że użytkownik w ogóle pojedzie na ISEF, wynosi **~14%** (`08_KONKURSY.md` §3, przeliczone 21 VIII 2026 — K-107). **Plan rekrutacyjny nie może być na tym oparty** — i nie jest, bo urządzenie, dziennik pracy i materiał na esej powstają niezależnie od tego, czy jury Explory wybierze ten projekt do trójki.
 
 **Zdanie, które jest uczciwym podsumowaniem:**
 
@@ -528,7 +528,7 @@ Pytanie użytkownika: *„czy mogę liczyć na studia w Stanach, czy to bardziej
 
 `[wniosek]` **Tak — ale nie z powodu tabeli prawdopodobieństw konkursowych.**
 
-Liczby konkursowe (`08_KONKURSY.md` sekcja 8): finał Explory ~50%, reprezentacja ~22%, Nagroda Główna ~9–10%, jakakolwiek nagroda ISEF ~8%.
+Liczby konkursowe (`08_KONKURSY.md` §3, przeliczone 21 VIII 2026): finał Explory ~50%, **reprezentacja ~14%**, **Nagroda Główna ~5%**, **jakakolwiek nagroda ISEF ~4%**.
 
 **Gdyby projekt był wart tylko tego, byłby złym interesem** — 890 godzin za kilkuprocentową szansę.
 

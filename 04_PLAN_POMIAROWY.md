@@ -166,6 +166,40 @@ Dlaczego to jest ważne, a nie kosmetyczne: sesje różnią się impedancją kon
 
 **Przyjmuję 240 prób na sesję.** Pokrywa efekt 9 pp z zapasem przy każdym realistycznym odsetku niezgodności i połowicznie pokrywa 5 pp.
 
+### 3.3a Rodziny porównań i poprawka — zadeklarowane PRZED pomiarem
+
+`[fakt]` **Tego rozdziału nie było, a `CLAUDE.md` wymienia poprawkę na wielokrotne porównania jako rzemiosło wiążące, kopiowane świadomie z ENBM074.** Rachunek mocy powyżej liczy przy **α = 0,05 dla jednego porównania**, podczas gdy plan przewiduje ich kilkadziesiąt. K-107.
+
+**Zasada:** rodziny deklaruje się teraz, na piśmie, wraz z liczbą porównań w każdej. **Dobór rodziny po obejrzeniu wyników jest w Załączniku nr 1 regulaminu Explory wymieniony jako naruszenie standardów etycznych** — ta sama pułapka co wybieranie metryki po fakcie (§8 `02_TWIERDZENIE.md`).
+
+| Rodzina | Co porównuje | k | Poprawka | Status |
+|---|---|---|---|---|
+| **R-A. Twierdzenie główne** | cztery położenia odniesienia wobec **dwóch baz** (wielokanałowej i jednokanałowej) | **5** | **Holm–Bonferroni**, α = 0,05 | **konfirmacyjna** |
+| **R-B. Kierunek** | POz wobec Iz, przy odległości równej co do konstrukcji | **1** | brak — jedna hipoteza, kierunkowa, zapisana z góry | **konfirmacyjna** |
+| **R-C. Rozbiór po częstotliwości** | strata przy każdej z ośmiu częstotliwości osobno (przewidywanie 1 z §1B) | **32** | **FDR Benjamini–Hochberg, q = 0,10** | **eksploracyjna** |
+| **R-D. Długość okna** | 0,5 / 1 / 1,5 / 2 s | — | **żadna: raportowana jako krzywa, nie jako test** | opisowa |
+| **R-E. Punkty z wiązek B i C** | ~1,75 cm i ~7 cm w górę, między sesjami | **2** | Holm w obrębie R-A po dołączeniu | **konfirmacyjna, szerszy przedział** |
+
+### 3.3b Co poprawka robi z liczbą prób
+
+`[fakt, przeliczone]` McNemar, efekt **9 pp**, odsetek par niezgodnych **14%**, moc 80%:
+
+| k porównań w rodzinie | α na porównanie | **wymagane próby** |
+|---|---|---|
+| 1 (stan zapisany wcześniej) | 0,05 | **136** |
+| 4 | 0,0125 | **193** |
+| **5 (rodzina R-A)** | **0,010** | **202** |
+| 8 | 0,00625 | 221 |
+| 32 (rodzina R-C) | 0,00156 | **277** |
+
+**Wniosek pierwszy — dobra wiadomość, i to jest powód, dla którego nic się nie zmienia w planie sesji.** Rodziny konfirmacyjne R-A i R-B potrzebują **202 prób**, a sesja daje **240**. **Zapas zostaje, choć skurczył się z 76% do 19%.** Zdanie *„240 pokrywa efekt 9 pp z zapasem"* zostaje prawdziwe — ale dopiero teraz jest sprawdzone, a nie założone.
+
+**Wniosek drugi — i tu jest realne ograniczenie.** `[fakt]` Rozbiór po częstotliwościach dzieli sesję na osiem części po **30 prób**. Przy 32 porównaniach potrzeba **277 prób na częstotliwość**, a **pula z ośmiu sesji daje 1920 / 8 = 240**. **Brakuje 15%.** Dlatego rodzina R-C jest **eksploracyjna, liczona wyłącznie na puli wszystkich ośmiu sesji, z FDR zamiast Holma**, i **nie wolno jej raportować jako potwierdzenia przewidywania 1** — najwyżej jako zgodność albo niezgodność kierunku.
+
+**Wniosek trzeci — efekt 5 pp.** `[fakt]` Przy δ = 5 pp i ψ = 10% jedno porównanie wymaga **314 prób**, a rodzina R-A **467**. **Sesja tego nie pokrywa; pula ośmiu sesji (1920) pokrywa z zapasem.** Stąd reguła: **efekty poniżej 9 pp raportuje się wyłącznie z puli, nigdy z pojedynczej sesji.**
+
+`[wniosek]` **Nic z tego nie zmienia liczby sesji ani liczby prób — zmienia to, co wolno powiedzieć o której liczbie.** Koszt poprawki wynosi zero złotych i zero godzin, a jej brak kosztowałby wiarygodność całego wyniku przy pierwszym jurorze, który zapyta o liczbę porównań.
+
 **Długość okna decyzyjnego — wybrana pomiarem, nie odczuciem.** Na danych Kołodzieja policzyłem dokładność i ITR dla okien 0,5–5 s (`12_REANALIZA.md` §5.1). **ITR ma wyraźne maksimum przy oknie 1 s** (28,9 bit/min przy trzech celach) i spada dla okien dłuższych, mimo że dokładność dalej rośnie. Dodatkowo: **strata montażu zwartego maleje z długością okna** (9,3 pp przy 1 s → 4,2 pp przy 5 s), więc długość okna jest **zmienną, która wchodzi w interakcję z badanym efektem** i musi być analizowana, a nie ustalona raz.
 
 **Decyzja:** rejestrujemy epoki **2 s**, a okna 0,5 / 1 / 1,5 / 2 s wyprowadzamy z nich offline. Główna liczba raportowana przy oknie, które maksymalizuje ITR — **z podaniem całej krzywej**, nie samego maksimum.

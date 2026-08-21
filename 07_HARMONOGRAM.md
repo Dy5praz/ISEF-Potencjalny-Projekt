@@ -8,9 +8,48 @@
 
 ## Cel nadrzędny — wpisany 16 VIII 2026
 
-**Studia za granicą, najpewniej w Stanach. Explory i ISEF są środkiem, nie celem.** Dorobek (urządzenie + odtwarzalne badanie + preprint) ma ~50–60% i leży pod kontrolą autora; wyjazd na ISEF ~14% i zależy od jury. **Priorytet ustawiać pod dorobek.** ISEF maj 2028 wypada przed aplikacjami jesienią 2028, więc oba zdążą.
+**Studia za granicą, najpewniej w Stanach. Explory i ISEF są środkiem, nie celem.** Dorobek (urządzenie + odtwarzalne badanie + preprint) ma ~50–60% i leży pod kontrolą autora; wyjazd na ISEF **~14%** i zależy od jury. **Ta liczba jest od 21 VIII 2026 zgodna z `08_KONKURSY.md` §3 — wcześniej tamten plik niósł 22%, K-107.** **Priorytet ustawiać pod dorobek.** ISEF maj 2028 wypada przed aplikacjami jesienią 2028, więc oba zdążą.
 
 **Zasada pracy: zaczynaj od tego, co punktują arkusze oceny, nie od polowania na lukę** (K-075).
+
+---
+
+## Budżet godzin — rachunek, którego ten plik nigdy nie zawierał
+
+`[fakt]` **Do 21 VIII 2026 słowa „godzina" nie było w tym pliku ani razu**, mimo że **10 h/tydzień** jest jednym z czterech parametrów wiążących projektu, obok 8 000 zł, kategorii EBED i poprzeczki „gotowy w całości". Budżet pieniężny był przeliczony do złotówki i miał margines. **Budżet czasowy nie był przeliczony wcale.** K-107.
+
+**Podstawa:** 10 h/tydzień, wyłącznie praca autora (pozycje oznaczone `AI` godzin nie zjadają).
+
+| Etap | Tygodnie | **Dostępne** | **Szacunek pracy** `[domysł]` | Bilans |
+|---|---|---|---|---|
+| KM0 — reszta VIII 2026 | 1,5 | 15 h | 3–5 h | **+10 do +12** |
+| KM1 — IX 2026 | 4,3 | 43 h | 21–37 h | +6 do +22 |
+| **KM2 — X 2026** | 4,4 | 44 h | 17–25 h | **+19 do +27 — jedyny miesiąc z realną rezerwą** |
+| **KM3 — XI–XII 2026** | 8,7 | 87 h | **80–135 h** | **od 0 do −48. PRZEKROCZONY** |
+| KM4 — I–II 2027 | 8,6 | 86 h | 62–111 h | +24 do −25, **środek widełek dokładnie na styk** |
+| KM5 — III–IV 2027 | 8,7 | 87 h | 48–82 h | +5 do +39 |
+| **KM6 + KM7 — V–VI 2027** | 8,7 | 87 h | **95–134 h** | **−8 do −47. PRZEKROCZONY** |
+| **Razem do 30 VI 2027** | **44,7** | **449 h** | **326–529 h, środek 426** | **mieści się tylko przy dolnej połowie widełek** |
+
+### Trzy wnioski, z których dwa wymagają zmiany kolejności
+
+**1. Suma się spina, ale suma nie jest tu miarą.** `[wniosek]` Środek widełek — 426 h wobec 449 dostępnych — daje 5% zapasu na dziesięć miesięcy pracy. To jest za mało, żeby cokolwiek znaczyło. **Ważniejsze jest to, że godziny nie przenoszą się wstecz:** nadmiar w listopadzie nie da się pokryć zapasem z października, jeżeli pracy nie przesunie się wcześniej.
+
+**2. Listopad–grudzień jest przekroczony przez jedną pozycję: naukę projektowania PCB.** `[domysł]` Droga od zera do płytki **czterowarstwowej, mieszanej analogowo-cyfrowej, z ADS1299** to 35–60 h na samą naukę i 40–70 h na projekt v1. To najgorzej oszacowana pozycja w całym planie, bo autor nie ma jej z czym porównać.
+
+> **Poprawka: naukę PCB przenieść na wrzesień i październik 2026.** Te dwa miesiące mają razem **33–49 h wolnego** — dokładnie tyle, ile blok nauki potrzebuje. **Nie wymaga niczego kupować, nie koliduje z E0** (E0 to 20 minut pomiaru), a przenosi ryzyko z miesiąca przeciążonego do dwóch miesięcy z zapasem. **W listopadzie–grudniu zostaje wtedy sam projekt płytki, czyli 40–70 h wobec 87 dostępnych.**
+
+**3. Maj–czerwiec 2027 niesie dwa kamienie milowe naraz, i to najdroższe.** KM6 to kampania pomiarowa (E2, E3, E5 plus analiza), KM7 to półfinał Explory — **wąskie gardło całego lejka, 16% przejścia**. Razem 95–134 h wobec 87 dostępnych, przy czym **wideo wymaga urządzenia, które działa**, więc wygląda na zależne od kampanii.
+
+> **Poprawka: materiał półfinałowy — wideo, plakat, kampanię plebiscytową — wykonać w marcu i kwietniu 2027, na urządzeniu v2 i na pomiarach rozwojowych.** `[fakt]` **Wolno**, bo **półfinał Explory nie podlega regule 12 miesięcy** (`09_FORMALNOSCI.md` §6, `08_KONKURSY.md` §4.3) — materiał może pochodzić sprzed maja 2027 bez żadnego problemu. W maju zostaje **dokrętka najlepszego ujęcia i podmiana liczb wyniku**, czyli 8–12 h zamiast 45–70.
+
+> **Poprawka towarzysząca: E2 upakować w pierwszej połowie maja.** Osiem sesji w ośmiu różnych dniach **nie znaczy ośmiu tygodni** — sesje co drugi dzień dają komplet w **szesnaście dni**, a wymóg „różnych dni" (zmienność międzysesyjna, twierdzenie T2) jest spełniony tak samo. Czerwiec zostaje wolny na półfinał.
+
+### Czego ten rachunek nie obejmuje
+
+`[luka]` **Tygodnie, w których 10 h nie będzie.** Sesje egzaminacyjne, święta, choroba. `[domysł]` Realistycznie **6–8 tygodni w roku** wypada poniżej połowy normy, co zjada **30–50 h** — czyli **cały zapas środka widełek.** Stąd wniosek praktyczny: **obie poprawki kolejności trzeba wykonać, a nie potraktować jako zapas na wypadek poślizgu.** Zapasu nie ma.
+
+`[luka]` Godzin nie obejmuje też **KM8 i KM9** (finał X 2027, dokumentacja ISEF, prezentacja po angielsku). Do przeliczenia po kampanii — dopiero wtedy będzie wiadomo, ile pracy zostaje.
 
 ---
 
@@ -48,6 +87,7 @@
 
 ### Praca merytoryczna
 
+- [ ] **[!] START NAUKI PROJEKTOWANIA PCB** — przeniesiona tutaj z XI–XII 2026, bo tamten etap jest przekroczony godzinowo, a wrzesień i październik mają razem 33–49 h wolnego. **Nic nie wymaga zakupu, nic nie koliduje z E0** · JT
 - [ ] **Baza patentów dla nowej osi** — ostatnia nieprzeszukana pozycja, R8 · AI
 - [ ] **Dziennik budowy założony od dnia pierwszego** — zdjęcia wersjonowane, także nieudanych · JT
 
@@ -65,6 +105,7 @@
 - [ ] **Rozstrzygnięcie R1 wpisane do `06_RYZYKA.md` z datą i liczbami** · AI
   - próg: poniżej **50%** przy trzech celach **oraz** niska amplituda flash-VEP → uruchamiamy plan awaryjny
 - [ ] **Pierwsze własne zapisy z potylicy**, odtworzenie liczby z literatury · JT
+- [ ] **Nauka PCB — ciąg dalszy, do zamknięcia bloku przed listopadem** · JT
 
 ### Rozwidlenie po E0
 
@@ -75,7 +116,7 @@
 
 ## Kamień milowy 3 — listopad–grudzień 2026: nauka PCB i tor B
 
-- [ ] **Nauka projektowania PCB — musi się skończyć przed startem budowy toru**, nie równolegle · JT
+- [ ] ~~Nauka projektowania PCB~~ — **PRZENIESIONA NA IX–X 2026** (budżet godzin, K-107). W tym etapie zostaje **sam projekt płytki v1** · JT
 - [ ] Pomiar toru kupionej platformy metodą z arXiv 2601.01772 (zwarte wejście, szum RMS) — tabela: nasz szum wobec 0,08 µV RMS · JT
 - [ ] Dokończenie toru B na danych publicznych: krzywa dokładność–czas, wybór okna decyzyjnego · AI
 - [ ] Projekt płytki v1, zamówienie · JT
@@ -96,6 +137,7 @@
 ## Kamień milowy 5 — marzec–kwiecień 2027: prototyp
 
 - [ ] Płytka v2 po błędach v1 — **wpisana w plan, nie doproszona** (R7) · JT
+- [ ] **[!] Wideo, plakat i materiał plebiscytowy — PRZENIESIONE TUTAJ z maja–czerwca** (K-107). Wolno, bo **półfinał Explory nie podlega regule 12 miesięcy** (`09_FORMALNOSCI.md` §6): materiał może pokazywać v2 i pomiary rozwojowe sprzed maja. W maju zostaje sama dokrętka i podmiana liczb · JT
 - [ ] Obudowa drukowana z żywicy ISO 10993, elektrody suche · JT
 - [ ] **Zwolnienie awaryjne i kontrola bezpieczeństwa**: zasilanie wyłącznie bateryjne, brak połączenia z siecią w czasie pomiaru · JT
 - [ ] El-Robo-Mech / OITwEiM — dry-run prezentacji · JT
@@ -107,7 +149,7 @@
 
 **Od tej daty liczy się okno 12 miesięcy (K-023, potwierdzone na trzech rocznikach w K-046).**
 
-- [ ] **E2 — pomiar główny**: odległość odniesienia 2 / 4 / 7 / 10 cm, 8 celów, 240 prób na sesję, 8 sesji w 8 różnych dniach · JT
+- [ ] **E2 — pomiar główny**: odległość odniesienia **3,5 / 4,5 / 7 / 10 cm, w dwóch kierunkach** (POz w górę, Iz w dół — K-106), 8 celów, 240 prób na sesję, **8 sesji co drugi dzień, komplet w 16 dni** · JT
 - [ ] **E3 — rozstaw elektrod czynnych** przy stałym odniesieniu · JT
 - [ ] **E5 — metryki użytkowe**: czas montażu, dryf w ciągu dnia, odsetek sesji bez rekalibracji. **Bez wyspania i zmęczenia** — to zmienna ludzka i łamie zwolnienie · JT
 - [ ] Kontrola: montaż zwarty zmierzony **fizycznie**, nie tylko wyprowadzony odejmowaniem · JT
@@ -118,10 +160,12 @@
 
 ## Kamień milowy 7 — maj–czerwiec 2027: półfinał Explory
 
-**Wąskie gardło całego lejka: 16% przejścia. Tu wygrywa się albo przegrywa całość.**
+**Wąskie gardło całego lejka: 16% przejścia z półfinału do finału. Tu wygrywa się albo przegrywa całość.**
 
-- [ ] **Wideo jako produkt pierwszej klasy, nie formalność.** Urządzenie na głowie i działający efekt **w pierwszych dziesięciu sekundach** · JT
-- [ ] Plakat wg zasad z ConOps ortezy §10B: **bez wykresów**, zdjęcia, plansza „pokolenia urządzenia", jedna–dwie liczby wyniku · JT
+> **Ten etap został ODCHUDZONY 21 VIII 2026 (K-107).** Produkcja materiału przeniesiona do KM5 (III–IV 2027), bo maj i czerwiec niosły razem 95–134 h pracy wobec 87 dostępnych. **Tutaj zostaje wyłącznie wykończenie na gotowym materiale.**
+
+- [ ] **Wideo — dokrętka najlepszego ujęcia i podmiana liczb wyniku** na materiale nakręconym w III–IV. Urządzenie na głowie i działający efekt **w pierwszych dziesięciu sekundach** · JT
+- [ ] Plakat — **podmiana liczb w gotowym układzie** z KM5. Zasady z ConOps ortezy §10B: **bez wykresów**, zdjęcia, plansza „pokolenia urządzenia", jedna–dwie liczby wyniku · JT
 - [ ] Wykresy i tabele **do segregatora na stoisku**, na pytania jurora · JT
 - [ ] **Plebiscyt „Bilet na Finał"** — materiał gotowy **pierwszego dnia głosowania**. Próg w 2026: 904 głosy · JT
 - [ ] **Ćwiczenie prezentacji.** `archiwum/23_NOTY.md` §4.1: to jest wyżej punktowana inwestycja niż druga wersja płytki · JT

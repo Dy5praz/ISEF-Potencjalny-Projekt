@@ -24,15 +24,17 @@ Dotąd liczby leżały w trzech postaciach — dokładność przy różnej liczb
 | Kołodziej 2026: 3 kanały, odniesienie na małżowinie, okno 1 s | 3 | 0,733 | 1,00 | **28,9** |
 | Li 2025: Oz sam, odniesienie na czole | 40 | 0,377 | 3,55 | **18,1\*** |
 | **Liang 2021: okolica zauszna, najlepszy paradygmat** | 12 | 0,842 | — | **17,8** (podane) |
-| PNAS 2025: mikroczujniki między włosami | **2** | 0,964 | 3,55 | **~17\*** (sufit) |
 | Kołodziej 2026: montaż zwarty różnicowy, okno 1 s | 3 | 0,640 | 1,00 | **16,9** |
+| PNAS 2025: mikroczujniki między włosami | **2** | 0,964 | 3,55 | **13,1\*** (sufit dla 2 celów: 16,9) |
 | **Cardoso 2022: para na wyrostkach sutkowatych** | 8 | 0,297 | 3,55 | **2,5\*** |
 
 ### 1.1 Trzy rzeczy, których nie widać w samych procentach
 
 1. **Rozstrzał wewnątrz kategorii „montaż zwarty" wynosi od 2,5 do 46,3 bit/min — osiemnastokrotność.** Kategoria nie ma jednej wartości.
 2. **Zwarta para pionowa bije wszystkie układy „wygodne"** — zauszny, sutkowaty, opaskę suchą.
-3. **„96,4%" z *PNAS* przy dwóch celach daje mniej informacji niż 68,25% przy czterdziestu.** To jest praktyczny powód zakazu podawania dokładności bez N.
+3. **„96,4%" z *PNAS* przy dwóch celach daje 13,1 bit/min — mniej informacji niż 68,25% przy czterdziestu, które dają 46,3.** To jest praktyczny powód zakazu podawania dokładności bez N.
+
+`[fakt]` **Poprawka z 21 VIII 2026, K-107.** Wiersz *PNAS* stał tu wcześniej jako **„~17 (sufit)"** i był **jedynym w tabeli, który podawał inną wielkość niż pozostałe dwanaście**: nie przepustowość przy zmierzonej dokładności, tylko **kres górny dla dwóch celów** (1 bit na wybór ÷ 3,55 s = 16,9 bit/min), osiągalny dopiero przy 100%. Przy ich rzeczywistych 96,4% wychodzi **13,1 bit/min**. Obie liczby są teraz w wierszu, opisane. **Różnica jest istotna dla wniosku 3: przewaga czterdziestu celów nad dwoma jest 3,5-krotna, nie 2,7-krotna.**
 
 ---
 

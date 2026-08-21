@@ -59,8 +59,8 @@
 | Cel | Szansa |
 |---|---|
 | finał Explory | ~50% |
-| reprezentacja na ISEF | ~22% |
-| Nagroda Główna Explory | ~9–10% |
+| reprezentacja na ISEF | **~14%** |
+| Nagroda Główna Explory | **~5%** |
 | **wartość dla aplikacji na studia, niezależna od wyniku** | **~100%, jeżeli projekt powstanie** |
 
 ---
@@ -74,6 +74,7 @@
 | **P14** | trzy pytania do FZT jednym mailem: SRC jako IRB · łączenie z EUCYS · **czy badanie na sobie jest zwolnione** | jesień 2026 |
 | **E0** | **przesiew: czy SSVEP działa u autora.** ~20 minut na kupionej platformie. **Najważniejszy punkt w całym planie** | **X 2026** |
 | **P20** | kontrola grafu cytowań co pół roku (Wu i Su 2014, Diez 2010) | co pół roku |
+| **P37** | **zacząć naukę projektowania PCB we wrześniu, nie w listopadzie.** XI–XII 2026 jest przekroczony godzinowo, IX–X mają 33–49 h wolnego (`07_HARMONOGRAM.md`, budżet godzin) | **IX 2026** |
 | **P34** | rozstrzygnąć przy projekcie płytki, czy DRL mieści się na spodzie obudowy, czy zostaje na przewodzie do karku (`03_SPRZET.md` §4.1) | I 2027 |
 | **P35** | **zmierzyć taśmą własny łuk nasion–inion** i wpisać własną liczbę zamiast „~3,5 cm" — pięć minut, zero złotych, a wszystkie odległości w projekcie przestają być średnią z literatury | **od ręki** |
 | **P36** | **[!] potwierdzić przeniesienie elektrody 5** z „2 cm poniżej Oz" na **Iz** (na inionie) — bez tego para kierunkowa miesza kierunek z odległością, K-106 | **czeka** |

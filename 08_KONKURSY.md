@@ -76,15 +76,33 @@ Projekty wykorzystujące szkodliwe substancje, zakładające **inwazyjne** badan
 
 `[fakt, §6 pkt 11]` **Druga droga do finału: Plebiscyt Internetowy „Bilet na Finał".** Zwycięzca wchodzi do finału. W 2026 wygrał projekt z **904 głosami** przy ~18 650 oddanych. **To jest realna, druga ścieżka przez najwęższe gardło i zależy od zupełnie innych czynników niż ocena jury.**
 
-`[domysł]`, błąd rzędu ×1,5 w każdą stronę:
+`[domysł]`, błąd rzędu ×1,5 w każdą stronę. **Przeliczone od nowa 21 VIII 2026 — poprzednia wersja tabeli była niezgodna z własnymi wskaźnikami bazowymi o więcej, niż wynosi ten margines. K-107.**
 
-| Cel | Szansa |
+**Wskaźniki bazowe z edycji 2026, do których każdy szacunek musi się dać sprowadzić:**
+
+| Przejście | Baza 2026 |
 |---|---|
-| finał Explory | **~50%** |
-| reprezentacja na ISEF | **~22%** |
-| Nagroda Główna Explory | ~9–10% |
-| jakakolwiek nagroda na ISEF | ~8% |
-| **wartość dla aplikacji na studia, niezależna od wyniku** | **~100%, jeżeli projekt powstanie** |
+| zgłoszenie → półfinał | 130 / 377 = **34,5%** |
+| półfinał → finał | 21 / 130 = **16,2%** |
+| finał → ISEF | 3 / 21 = **14,3%** |
+| finał → Nagroda Główna | 1 / 21 = **4,8%** |
+
+**Szacunek dla tego projektu — z jawnym łańcuchem, żeby dało się go sprawdzić:**
+
+| Krok | Szansa `[domysł]` | Skąd |
+|---|---|---|
+| półfinał | **~85%** | projekt z wideo, urządzeniem i liczbami; baza 34,5% dotyczy całej stawki, w tym zgłoszeń szczątkowych |
+| finał, **warunkowo** | ~55% | oszacowanie 24–26 pkt plasuje w grupie dziesięciu walczących (§3.1); baza 16,2% |
+| **finał, bezwarunkowo** | **~47%, w zaokrągleniu ~50%** | 0,85 × 0,55 |
+| ISEF, **warunkowo z finału** | ~28% | baza 14,3%, podniesiona dla projektu z górnej połowy stawki |
+| **reprezentacja na ISEF** | **~14%** | 0,47 × 0,28 |
+| **Nagroda Główna Explory** | **~5%** | 0,47 × ~10% (baza 4,8%, podniesiona) |
+| **jakakolwiek nagroda na ISEF** | **~4%** | 0,14 × ~27% (odsetek nagradzanych finalistów ISEF) |
+| **wartość dla aplikacji na studia, niezależna od wyniku** | **~100%, jeżeli projekt powstanie** | — |
+
+`[fakt]` **Co było źle.** Tabela podawała **ISEF ~22%** i **Nagrodę Główną ~9–10%** przy jednoczesnym **finale ~50%**. Z bazy 3/21 wynika, że przy 50% szansy na finał ISEF wychodzi **~7%** przy wskaźniku bazowym i **~14%** przy szczodrym założeniu, że projekt jest wyraźnie powyżej średniej finalisty. **Do 22% brakowało jeszcze mnożnika 1,6 — czyli tabela przekraczała własny zadeklarowany margines ×1,5.** Ta sama nieścisłość dotyczyła Nagrody Głównej (9–10% wobec wyprowadzalnych ~5%).
+
+`[fakt]` **I była wewnętrznie sprzeczna między plikami:** `07_HARMONOGRAM.md` w sekcji „Cel nadrzędny" niósł od 16 VIII **~14%** — liczbę poprawną — podczas gdy `08`, `README.md` i `10_STUDIA_USA.md` niosły 22%. **Cztery pliki, dwie liczby, żadnego wpisu o rozbieżności.**
 
 ### 3.1 Z kim się konkuruje — stawka finałowa 2026
 
