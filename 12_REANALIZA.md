@@ -332,7 +332,7 @@ Przenieść twierdzenie z **wielkości, która okazała się mała** (marginalny
 
 > **Nowa oś: ile przepustowości SSVEP przeżywa zejście z montażu z odległą elektrodą odniesienia do montażu mieszczącego się w module o zadanym gabarycie — i jak daleko od aktywnej okolicy potylicznej musi leżeć elektroda odniesienia, żeby różnicowanie nie kasowało potencjału wywołanego razem z zakłóceniem.**
 
-Zmienna niezależna: **odległość i położenie elektrody odniesienia**, od ~2 cm (wewnątrz modułu) do ~10 cm (wyrostek sutkowaty, płatek ucha, kark poniżej inionu).
+Zmienna niezależna: **odległość i położenie elektrody odniesienia**, od ~1,75 cm do ~10 cm (POz, Iz, kark poniżej inionu, wyrostek sutkowaty, płatek ucha). **Wartości odległości poprawione 21 VIII 2026 — K-106**; stan bieżący `03_SPRZET.md` §2.
 Zmienna zależna: **dokładność i ITR**, tym samym torem analogowym, tą samą osobą, tym samym paradygmatem.
 
 Efekt do wykrycia: **9–24 pp**, czyli 20–60× większy niż ten, który przed chwilą odpadł. Przy σ = 8 pp i pomiarze wewnątrzosobniczym powtarzanym **to jest wykrywalne na jednej osobie**, co jest zgodne ze zwolnieniem ISEF dla badania na sobie.

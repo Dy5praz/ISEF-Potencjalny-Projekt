@@ -184,7 +184,7 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 
 **Dlaczego to nie zabija twierdzenia:** brzmi ono *„wyznaczam najmniejszą odległość, przy której przepustowość się nie załamuje"*. Jeżeli ta odległość wypadnie **powyżej inionu albo za uchem — to jest wynik, nie porażka.** Traci się gabaryt, nie pomiar.
 
-**Poprawka planu z 21 VIII 2026 (P26) obniża to ryzyko, zanim się ziści:** kandydat na odniesienie zwarte przeniesiony z „2 cm poniżej Oz" na **POz, ~3,5 cm POWYŻEJ Oz** — czyli **powyżej inionu, poza zasięgiem mięśnia karku i tylnego dołu czaszki**. Wariant w dół zostaje jako **warunek porównawczy**, a nie jako podstawowy. `05_STAN_WIEDZY.md` §3.
+**Poprawka planu z 21 VIII 2026 (P26) obniża to ryzyko, zanim się ziści:** kandydat na odniesienie zwarte przeniesiony z okolicy podpotylicznej na **POz, ~3,5 cm POWYŻEJ Oz** — czyli **powyżej inionu, poza zasięgiem mięśnia karku i tylnego dołu czaszki**. Wariant w dół zostaje jako **warunek porównawczy**, a nie jako podstawowy. `05_STAN_WIEDZY.md` §3.
 
 **Plan awaryjny — już istnieje:** decyzja 6 (`11_EWOLUCJA.md`) dopuszcza wyprowadzenie odniesienia cienkim przewodem na wyrostek sutkowaty. Zmienia się jedno położenie elektrody i jedno zdanie o gabarycie.
 

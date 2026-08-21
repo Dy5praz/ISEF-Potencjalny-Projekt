@@ -1552,8 +1552,52 @@ Dopóki historia była rozproszona po plikach roboczych, każdy z nich musiał n
 | wyprowadzenia | **7** | **2** |
 | po co | cztery położenia odniesienia naraz, na tych samych próbkach | pokaz |
 
-**Rzecz, która przy okazji wypłynęła i była luką samą w sobie:** dokumentacja **nigdzie nie tłumaczyła, po co ośmiu elektrod trzeba naraz.** Powód jest metodyczny i jest właściwie całym trikiem tego projektu: ADS1299 mierzy wszystkie wejścia wobec jednego odniesienia sprzętowego, więc **każdy montaż wyprowadza się z tej samej rejestracji przez odejmowanie, offline**. Gdyby elektrodę odniesienia **przekładać** między warunkami, różnica wyniku niosłaby oprócz geometrii także zmęczenie, wyschnięcie żelu i inny poziom alfa — a efektu rzędu kilku punktów procentowych nikt by w tym nie zobaczył. Opis: `03_SPRZET.md` §2.1, wersja dla laika w `01_PROJEKT_DLA_LAIKA.md` §4.1.
+**Rzecz, która przy okazji wypłynęła i była luką samą w sobie:** dokumentacja **nigdzie nie tłumaczyła, po co ośmiu elektrod trzeba naraz.** Powód jest metodyczny i jest właściwie całym trikiem tego projektu: ADS1299 mierzy wszystkie wejścia wobec jednego odniesienia sprzętowego, więc **każdy montaż wyprowadza się z tej samej rejestracji przez odejmowanie, offline**. Gdyby elektrodę odniesienia **przekładać** między warunkami, różnica wyniku niosłaby oprócz geometrii także zmęczenie, wyschnięcie żelu i inny poziom alfa — a efektu rzędu kilku punktów procentowych nikt by w tym nie zobaczył. Opis: `03_SPRZET.md` §2.2, wersja dla laika w `01_PROJEKT_DLA_LAIKA.md` §4.1.
 
 **Skutek dodatni, którego nie było widać przed poprawką:** **redukcja z ośmiu elektrod do czterech jest wynikiem tego projektu, a nie ustępstwem.** Zdanie dla jurora zapisane w `03_SPRZET.md` §4.1.
 
 **Reguła:** **zdanie napisane jako odpowiedź na wąskie pytanie nie wchodzi do pliku w postaci ogólnej.** Jeżeli pomijasz część układu, bo akurat nie dotyczy pytania — napisz, że ją pomijasz, albo nie pisz „tylko" i „zostają".
+
+
+---
+
+### K-106 — przegląd całego opisu sprzętu pod kątem błędów klasy K-105. Osiem znalezisk, jedno poważne
+
+**Skąd.** Polecenie autora z 21 VIII 2026, bezpośrednio po K-105: *„Sprawdź jeszcze raz cały opis sprzętu pod kątem takich błędów."* Przejrzany `03_SPRZET.md` w całości, z liczeniem tego, co da się policzyć, i z konfrontacją każdej liczby z pozostałymi plikami.
+
+| # | Znalezisko | Waga |
+|---|---|---|
+| 1 | **para kontrolna kierunku nie była dopasowana odległością** — 3,5 cm w górę wobec 2 cm w dół, a mimo to opisana jako „zbliżona odległość, czysty efekt kierunku" | **poważne** |
+| 2 | **inion→Oz podane jako ~2 cm, Oz→POz jako ~3,5 cm** — a to ten sam krok 10% łuku nasion–inion | **poważne, źródło #1** |
+| 3 | kierunek w górę ma **jeden punkt odległości**, w dół cztery — progu w górę nie dało się wyznaczyć | **poważne** |
+| 4 | **fotodioda nie miała przydzielonego wejścia** na własnej płytce („wejście pomocnicze rejestratora" to Cyton) | średnie |
+| 5 | **rozliczenie pinów się nie zgadzało** — osiem elektrod i osiem wejść, choć płatek ucha zajmuje SRB1, nie wejście | średnie |
+| 6 | **Ganglion jako plan B** — cztery kanały nie unoszą siedmiokanałowego montażu; ubezpieczenie było opisane jako pełne | średnie |
+| 7 | „krok 1 Hz ma **cztery** kolizje" — są **dwie pary**, policzone kierunkowo dawały cztery | drobne |
+| 8 | „rezerwa **30% na drugą serię płytek**" — liczona w istocie jako 30% sumy wszystkich pozycji | drobne |
+
+---
+
+**Znalezisko 2 jest źródłem znaleziska 1 i jest najciekawsze, bo to błąd, który sam się maskował.**
+
+`[fakt]` W układzie 10–20 południk środkowy odmierza się w procentach łuku nasion–inion: **Oz leży 10% powyżej inionu, POz 20% powyżej inionu, Iz na inionie.** Krok Oz→POz i krok inion→Oz są więc **z definicji równe**. Dokumentacja podawała dla pierwszego **3,5 cm**, dla drugiego **2 cm** — dwie różne wartości tej samej wielkości, w tej samej tabeli, dwie linijki od siebie. `[wniosek]` Żadna kontrola liczbowa tego nie łapała, bo **każda z liczb z osobna wyglądała rozsądnie**; niezgodne były dopiero razem, i to tylko dla kogoś, kto pamięta, że oba odcinki to ten sam ułamek tego samego łuku.
+
+**Dlaczego to nie była pomyłka kosmetyczna.** Elektroda 5 — jedyny warunek porównawczy dla **kierunku** — stała 2 cm poniżej Oz, wobec POz 3,5 cm powyżej. **Różnica odległości wynosiła 75%**, czyli była tego samego rzędu co cały mierzony efekt. Kontrast „w górę wobec w dół" niósł zatem **kierunek zmieszany z odległością**, bez możliwości rozdzielenia — a `03_SPRZET.md` i `04_PLAN_POMIAROWY.md` **oba nazywały tę parę „warunkiem kontrolnym w najczystszej postaci, jaką ten projekt ma"**. `[wniosek]` To był **confound w miejscu opisanym jako wzorzec czystości**, i przeżył pięć dni audytu, bo audyt sprawdzał literaturę i wnioski, a nie arytmetykę własnego montażu.
+
+**Poprawka.** Elektroda 5 przeniesiona z „~2 cm poniżej Oz" na **Iz — nazwany punkt 10–10 leżący na inionie, czyli dokładnie jeden krok 10% poniżej Oz.** Symetria wobec POz jest wtedy **konstrukcyjna, nie statystyczna**: obie pozycje są punktami siatki, oddalonymi o ten sam ułamek tego samego łuku. **P36 — do potwierdzenia przez autora**, bo to zmiana położenia elektrody.
+
+**Rzecz, która przy okazji weszła do planu i której nie było: skąd wiadomo, że elektroda stoi tam, gdzie ma stać.** `[luka]` Dokumentacja **nigdy nie podawała dokładności odmierzania położeń** — mimo że zmienną niezależną projektu jest odległość, więc jest to dokładność zmiennej niezależnej. `[fakt]` **Fabregat-Sanjuan i in. 2023**, Brain Behav 13(10):e3187, **PMID 37534627**: błąd znakowania **1,7 mm taśmą wzdłuż linii nasion–inion**, **12,5 mm metodą przybliżoną**. Przy kroku 3,5 cm to **5% wobec 36% mierzonej wielkości**. Procedura wpisana do `03_SPRZET.md` §2.3: taśma w każdej sesji, punkty procentowo, fotografia z linijką, wynik podawany z ± 2 mm. **P35: zmierzyć własny łuk nasion–inion** — pięć minut, zero złotych, i wszystkie odległości w projekcie przestają być średnią z literatury.
+
+**Znalezisko 3 — nierówność między kierunkami.** Wewnątrz jednej sesji montaż daje **w dół cztery odległości** (3,5 · 4,5 · 7 · 10 cm) i **w górę jedną** (3,5 cm). Ponieważ kandydatem głównym jest kierunek w górę, zdanie z twierdzenia — *„wyznaczam najmniejszą odległość, przy której przepustowość jeszcze się nie załamuje"* — **było wykonalne w dół, a w górę nie.** Rozwiązanie kosztuje zero, bo już jest w projekcie: **wymienne wiązki elektrodowe** rotowane między ośmioma sesjami, z **kotwicami Oz / POz / płatek ucha w każdej wiązce**. Rozdział wewnątrzsesyjne–międzysesyjne opisany w `03_SPRZET.md` §4.3; **mieszanie obu w jednej tabeli bez oznaczenia byłoby błędem** i jest tam zakazane wprost.
+
+**Znaleziska 4 i 5 rozwiązują się nawzajem.** Płatek ucha idzie na **pin SRB1**, nie na wejście — więc wejść na elektrody potrzeba siedmiu, a **ósme jest wolne i dostaje fotodiodę**. Zysk uboczny większy niż samo domknięcie spisu: kanał 8 jest próbkowany **tym samym zegarem co elektrody**, więc znacznik zapłonu bodźca i sygnał EEG leżą w **tej samej próbce**. To jest dokładnie ta własność, której brak w zbiorze Kołodzieja **uniemożliwia tam użycie TRCA** (`03_SPRZET.md` §5).
+
+**Znalezisko 6.** Ganglion ma cztery kanały. Zmieści Oz, POz, Iz i wyrostek sutkowaty wobec płatka ucha — czyli **kontrast kierunku przeżywa**, ale wypadają O1, O2 i kanał karkowy, a z nimi **górna z dwóch baz porównania** wymaganych przez P15a. `[wniosek]` **Plan B nie jest równoważny, tylko węższy** — i to jest mocniejszy argument za używanym Cytonem do 30 IX niż różnica ceny.
+
+---
+
+**Wzorzec, który łączy K-105 i K-106, i który jest właściwym wnioskiem z obu:**
+
+> **Cztery z ośmiu znalezisk to liczby, które były poprawne osobno i niezgodne razem.** Audyt literaturowy ich nie łapie, bo nie dotyczą literatury. Łapie je **tylko przeliczenie własnego opisu: czy sumy się zgadzają, czy dwa odcinki nazwane tym samym ułamkiem mają tę samą długość, czy liczba pinów równa się liczbie rzeczy do podłączenia.**
+
+**Reguła:** **każdy opis sprzętu przechodzi raz na jakiś czas rachunek zamknięty** — policzyć styki, policzyć piny, policzyć złotówki, policzyć odległości z ich własnej definicji — **niezależnie od tego, ile razy był czytany.** Pięć dni audytu przeczytało `03_SPRZET.md` wielokrotnie i nie znalazło nic z tej ósemki, bo czytanie sprawdza sens zdań, a nie zgodność liczb.

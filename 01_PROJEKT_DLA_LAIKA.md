@@ -81,7 +81,7 @@ I teraz robi się ciekawie, bo **obie elektrody widzą wtedy prawie to samo**. O
 
 **Urządzenie gotowe:** jeden moduł z tyłu głowy, **wielkości pudełka zapałek** (~32 × 48 × 12 mm), postawiony pionowo. Dwie elektrody krytyczne są **na jego własnym spodzie**. Dwie dodatkowe idą w bok cienkimi przewodami przy skórze, po ~3,5 cm. **Cztery elektrody. Bez łuku przez głowę, bez opaski, bez kasku, bez czepka.**
 
-**Urządzenie w czasie pomiaru:** ten sam moduł, ale **osiem elektrod, nie cztery** — plus piąte, szóste i siódme wyprowadzenie na cienkich przewodach: za ucho, na płatek ucha, na kark i 2 cm poniżej modułu. **Wygląda wtedy jak aparatura, i ma tak wyglądać.**
+**Urządzenie w czasie pomiaru:** ten sam moduł, ale **osiem elektrod, nie cztery** — plus kolejne wyprowadzenia na cienkich przewodach: za ucho, na płatek ucha, na kark i na guzowatość potyliczną tuż pod modułem. **Wygląda wtedy jak aparatura, i ma tak wyglądać.**
 
 **Skąd ta różnica — i to jest sedno całego projektu.** Pytanie brzmi: *gdzie postawić elektrodę odniesienia*. Żeby porównać cztery jej położenia uczciwie, trzeba je zmierzyć **jednocześnie, u tej samej osoby, na tych samych próbkach**. Gdyby elektrodę **przekładać** — najpierw za ucho, potem na kark, potem obok modułu — to każdy pomiar byłby z innej chwili, a różnica wyniku niosłaby oprócz położenia elektrody także zmęczenie, wyschnięty żel i inny nastrój. **Efektu rzędu kilku punktów procentowych nikt by w tym nie zobaczył.**
 

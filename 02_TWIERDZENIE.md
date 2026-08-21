@@ -13,7 +13,7 @@
 | Wymiar | Zakres |
 |---|---|
 | **odległość** odniesienia od Oz | ~2, ~3,5, ~7, ~10 cm |
-| **kierunek** | **w górę (POz)** wobec **w dół (podpotyliczny)**, przy zbliżonej odległości |
+| **kierunek** | **w górę (POz)** wobec **w dół (Iz)** — **przy odległości równej co do konstrukcji:** po jednym kroku 10% łuku nasion–inion w każdą stronę (`03_SPRZET.md` §2.1) |
 
 **Zmienne zależne:** dokładność klasyfikacji, **ITR wg wzoru Wolpawa**, SNR w prążku bodźca **i osobno w prążku drugiej harmonicznej**, impedancja kontaktu.
 
@@ -45,14 +45,16 @@
 
 | d | λ = 15 cm | λ = 20 cm |
 |---|---|---|
-| 2,0 cm | 0,81 | 0,62 |
-| **3,5 cm (Oz–POz)** | **1,34** | **1,04** |
-| 7,0 cm | 1,99 | 1,78 |
+| 1,75 cm (wiązka B, w górę) | 0,72 | 0,54 |
+| **3,5 cm (Oz–POz w górę, Oz–Iz w dół)** | **1,34** | **1,04** |
+| 4,5 cm (kanał karkowy) | 1,62 | 1,30 |
+| 7,0 cm (wyrostek sutkowaty, Pz) | 1,99 | 1,78 |
+| 10,0 cm (płatek ucha) | 1,73 | 2,00 |
 
 **Trzy przewidywania, wszystkie testowalne planem, który już istnieje:**
 
 1. **strata zależy od `d/λ`, nie od samego `d`** — więc **musi zmieniać się z częstotliwością bodźca**. Zestaw 8,0–17,8 Hz przechodzi przez trzy różne reżimy falowe
-2. **istnieje optimum odległości przy `d ≈ λ/2`** (7–10 cm, poza modułem); przy 3,5 cm jest się na ~70% maksimum, przy 2 cm na ~40%
+2. **istnieje optimum odległości przy `d ≈ λ/2`** (7,5–10 cm, poza modułem); przy 3,5 cm jest się na **52–67% maksimum**, przy 1,75 cm na **27–36%**
 3. **kierunek daje efekt większy niż odległość** — para 3,5 cm wzdłuż osi bije parę 7 cm w poprzek
 
 `[luka]` **Czego ten model nie obejmuje:** źródeł lokalnych, rozmycia przez czaszkę, zanieczyszczeń z R12. Jest **najprostszym możliwym**, nie kompletnym. Wchodzi jako **przewidywanie**, nie jako opis.

@@ -38,14 +38,16 @@ Zapisuję **dwa** twierdzenia. Oba będą raportowane niezależnie od wyniku. G�
 
 | d | λ = 15 cm | λ = 20 cm |
 |---|---|---|
-| 2,0 cm | 0,81 | 0,62 |
-| **3,5 cm (Oz–POz)** | **1,34** | **1,04** |
-| 7,0 cm | 1,99 | 1,78 |
+| 1,75 cm (wiązka B, w górę) | 0,72 | 0,54 |
+| **3,5 cm (Oz–POz w górę, Oz–Iz w dół)** | **1,34** | **1,04** |
+| 4,5 cm (kanał karkowy) | 1,62 | 1,30 |
+| 7,0 cm (wyrostek sutkowaty, Pz) | 1,99 | 1,78 |
+| 10,0 cm (płatek ucha) | 1,73 | 2,00 |
 
 **Trzy przewidywania, wszystkie do sprawdzenia tym planem:**
 
 1. **strata zależy od `d/λ`, nie od samego `d`** — więc **musi zmieniać się z częstotliwością bodźca**. Zestaw 8,0–17,8 Hz przechodzi przez trzy różne reżimy falowe
-2. **optimum odległości przy `d ≈ λ/2`** (7–10 cm, poza modułem); przy 3,5 cm jest się na ~70% maksimum, przy 2 cm na ~40%
+2. **optimum odległości przy `d ≈ λ/2`** (7,5–10 cm, poza modułem); przy 3,5 cm jest się na **52–67% maksimum**, przy 1,75 cm na **27–36%**
 3. **kierunek daje efekt większy niż odległość** — para 3,5 cm wzdłuż osi bije parę 7 cm w poprzek
 
 `[luka]` Model jednofalowy jest **najprostszym możliwym**, nie kompletnym — nie obejmuje źródeł lokalnych, rozmycia przez czaszkę ani zanieczyszczeń z R12.
@@ -113,19 +115,19 @@ Dwa mechanizmy dają różne przewidywania:
 
 **Wszystkie warunki są rejestrowane jednocześnie, w jednej sesji, i wyprowadzane odejmowaniem po fakcie.**
 
-Osiem elektrod (`03_SPRZET.md` §2.3) rejestruje się wobec wspólnego odniesienia na płatku ucha. Montaże o krótszym odniesieniu powstają offline jako różnice kanałów. **Jedna sesja daje pełny zestaw warunków na tych samych próbkach.**
+Osiem elektrod (`03_SPRZET.md` §2.2) rejestruje się wobec wspólnego odniesienia na płatku ucha. Montaże o krótszym odniesieniu powstają offline jako różnice kanałów. **Jedna sesja daje pełny zestaw warunków na tych samych próbkach.**
 
 Dlaczego to jest ważne, a nie kosmetyczne: sesje różnią się impedancją kontaktu, oświetleniem i stanem badanego. Gdyby każdy montaż mierzyć osobno, różnica między sesjami byłaby większa niż mierzony efekt i wynik byłby bezwartościowy. **To jest ta sama konstrukcja, która pozwoliła policzyć §5 pliku `14` na cudzych danych, i tam zadziałała.**
 
 **Warunek kontrolny, którego nie wolno pominąć:** montaż zwarty musi zostać **na końcu zmierzony fizycznie**, na rzeczywistym module z odniesieniem wewnątrz, nie tylko wyprowadzony odejmowaniem. Wyprowadzenie offline zakłada, że tor jest liniowy i że nie ma nasycenia — a jednym z argumentów za kompensacją analogową jest właśnie to, że nasycenie istnieje. **Zgodność pomiaru fizycznego z wyprowadzeniem offline jest osobnym, raportowanym wynikiem.**
 
-> **UZUPEŁNIENIE 18 VIII 2026 — P15a, `05_STAN_WIEDZY.md` §2.2.** Porównanie prowadzi się **wobec dwóch baz naraz, nie jednej**: (1) montaż wielokanałowy z odniesieniem odległym — górna granica; (2) **pojedynczy kanał z odniesieniem odległym — dolna granica**. Powód: `[fakt]` Li i in. 2025 (PMID 40566767) zmierzyli, że montaż dwubiegunowy POz−Oz **bije** pojedynczy kanał Oz z odniesieniem na czole (**68,25% wobec 37,65%** przy oknie 3 s), podczas gdy reanaliza Kołodzieja pokazuje, że dwubiegunowy **przegrywa** z montażem trzykanałowym z odniesieniem odległym (48,8–64,0% wobec 73,3%). **Obie liczby są prawdziwe i dotyczą różnych porównań.** Bez drugiej bazy własny wynik da się przedstawić jako sprzeczny z opublikowaną pracą, choć sprzeczny nie będzie. Koszt: zero — obie bazy wyprowadza się offline z tej samej rejestracji (`03_SPRZET.md` §2.1).
+> **UZUPEŁNIENIE 18 VIII 2026 — P15a, `05_STAN_WIEDZY.md` §2.2.** Porównanie prowadzi się **wobec dwóch baz naraz, nie jednej**: (1) montaż wielokanałowy z odniesieniem odległym — górna granica; (2) **pojedynczy kanał z odniesieniem odległym — dolna granica**. Powód: `[fakt]` Li i in. 2025 (PMID 40566767) zmierzyli, że montaż dwubiegunowy POz−Oz **bije** pojedynczy kanał Oz z odniesieniem na czole (**68,25% wobec 37,65%** przy oknie 3 s), podczas gdy reanaliza Kołodzieja pokazuje, że dwubiegunowy **przegrywa** z montażem trzykanałowym z odniesieniem odległym (48,8–64,0% wobec 73,3%). **Obie liczby są prawdziwe i dotyczą różnych porównań.** Bez drugiej bazy własny wynik da się przedstawić jako sprzeczny z opublikowaną pracą, choć sprzeczny nie będzie. Koszt: zero — obie bazy wyprowadza się offline z tej samej rejestracji (`03_SPRZET.md` §2.2).
 
 ### 3.2 Zmienne
 
 | | |
 |---|---|
-| **niezależna główna, DWUWYMIAROWA** | **odległość** odniesienia od Oz: **~2, ~3,5, ~7, ~10 cm** — **oraz KIERUNEK: w górę (POz) wobec w dół (podpotyliczny), przy zbliżonej odległości.** Zmienione 21 VIII 2026 (P27, `05_STAN_WIEDZY.md`). `[wniosek]` Para **POz** i **„2 cm poniżej Oz"** to warunek kontrolny w najczystszej postaci, jaką ten projekt ma: zbliżona odległość, przeciwny kierunek, ta sama sesja, te same próbki, ten sam tor — różnica jest **czystym efektem kierunku** |
+| **niezależna główna, DWUWYMIAROWA** | **odległość** odniesienia od Oz: **~3,5 · ~4,5 · ~7 · ~10 cm** wewnątrz sesji, plus **~1,75 i ~7 cm w górę** z wiązek wymiennych między sesjami (`03_SPRZET.md` §4.3) — **oraz KIERUNEK: w górę (POz) wobec w dół (Iz).** Zmienione 21 VIII 2026 (P27), geometria poprawiona tego samego dnia (K-106). `[wniosek]` Para **POz** i **Iz** to warunek kontrolny w najczystszej postaci, jaką ten projekt ma: **odległość równa co do konstrukcji** — po jednym kroku 10% łuku nasion–inion w każdą stronę — przeciwny kierunek, ta sama sesja, te same próbki, ten sam tor. Różnica jest **czystym efektem kierunku**. **Poprzednia wersja stawiała elektrodę dolną 2 cm poniżej Oz wobec 3,5 cm w górę i mimo to nazywała to odległością zbliżoną — to był confound, nie kontrola** |
 | **niezależna druga** | długość okna decyzyjnego **t = 0,5 / 1 / 2 / 3 / 4 s** — wyprowadzana z tych samych zapisów |
 | **niezależna trzecia** | liczba i rozstaw elektrod aktywnych: 1, 2, 3 kanały; rozstaw ~2 i ~4 cm (E3) |
 | **zależne** | dokładność klasyfikacji, **ITR wg Wolpawa**, SNR w paśmie bodźca, impedancja kontaktu przed i po sesji |
@@ -226,7 +228,7 @@ Druga mierzona kontrybucja z `archiwum/13_PODNIESIENIE_SZANS.md` §5, **zmienion
 
 ## 5. Eksperyment E4 — kompensacja EMG karku, warunkowa i z przewidywaniem negatywnym
 
-**Uruchamiany tylko wtedy, gdy E2 pokaże, że użyteczne odniesienie leży nad mięśniem karku** (~4 cm poniżej Oz). Wtedy — i tylko wtedy — elektroda odniesienia sama wnosi EMG do każdego kanału, i kompensacja ma zmierzony sens.
+**Uruchamiany tylko wtedy, gdy E2 pokaże, że użyteczne odniesienie leży nad mięśniem karku** (~4,5 cm poniżej Oz, czyli poniżej inionu). Wtedy — i tylko wtedy — elektroda odniesienia sama wnosi EMG do każdego kanału, i kompensacja ma zmierzony sens.
 
 | Warunek | Co porównywane |
 |---|---|

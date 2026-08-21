@@ -75,6 +75,8 @@
 | **E0** | **przesiew: czy SSVEP działa u autora.** ~20 minut na kupionej platformie. **Najważniejszy punkt w całym planie** | **X 2026** |
 | **P20** | kontrola grafu cytowań co pół roku (Wu i Su 2014, Diez 2010) | co pół roku |
 | **P34** | rozstrzygnąć przy projekcie płytki, czy DRL mieści się na spodzie obudowy, czy zostaje na przewodzie do karku (`03_SPRZET.md` §4.1) | I 2027 |
+| **P35** | **zmierzyć taśmą własny łuk nasion–inion** i wpisać własną liczbę zamiast „~3,5 cm" — pięć minut, zero złotych, a wszystkie odległości w projekcie przestają być średnią z literatury | **od ręki** |
+| **P36** | **[!] potwierdzić przeniesienie elektrody 5** z „2 cm poniżej Oz" na **Iz** (na inionie) — bez tego para kierunkowa miesza kierunek z odległością, K-106 | **czeka** |
 
 **Zamknięte 21 VIII 2026:** **P28a** — autor dopuścił dwa cienkie przewody w bok do O1 i O2, gabaryt ~32×48×12 mm zostaje w mocy (`03_SPRZET.md` §2).
 
