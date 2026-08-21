@@ -1782,3 +1782,64 @@ Najprostszy wariant „na LED-ach" — jedna dwukolorowa dioda w jednym punkcie,
 ---
 
 **Reguła:** **zanim skreślisz opcję, sprawdź, czy zdanie, którym ją skreślasz, dotyczy tego, co ona ma robić.** „Kamerka ma czego szukać" jest prawdą o weryfikacji fiksacji i fałszem o odczycie wyboru. **Werdykt odrzucający wymaga tej samej staranności co werdykt tożsamości z `METODA.md` §2** — a dostał jedno zdanie napisane z rozpędu.
+
+---
+
+### K-110 — tabela szans jest warunkowa, a stoi w miejscu, gdzie czyta się bezwarunkową; i nikt nie policzył warunku
+
+**Skąd.** Pytanie autora z 21 VIII 2026, po zamknięciu audytu: *„jakie realnie dajesz szanse projektowi. We wszystkim, nie tylko konkursach. (…) warto?"* Werdykt: **`13_WERDYKT.md`**. Ten wpis rejestruje dwa błędy, które przy jego pisaniu wyszły.
+
+---
+
+#### 1. Wskaźnik warunkowy zapisany tam, gdzie czyta się bezwarunkowy
+
+**Co było.** `08_KONKURSY.md` §3 wyprowadza pierwsze ogniwo łańcucha — półfinał **~85%** — z uzasadnieniem *„projekt z wideo, urządzeniem i liczbami"*. `[fakt]` **To jest warunek, i cały łańcuch stoi na nim: finał ~50%, ISEF ~14%, Nagroda Główna ~5%.**
+
+`[fakt]` `README.md` niesie tę samą tabelę w rubryce zatytułowanej **„Szansa"**, bez warunku. Wiersz o wartości dla studiów ma dopisek *„jeżeli projekt powstanie"* — **a cztery wiersze nad nim, zależne od tego samego warunku równie mocno, nie mają go wcale.** Ten sam kształt w `07_HARMONOGRAM.md` i `10_STUDIA_USA.md` §8.
+
+**Dlaczego to nie jest czepianie się.** `[wniosek]` To jest **ten sam gatunek uchybienia co K-107 pkt 3b, siedem dni po nim**: wielkość policzona przy założeniu, którego nie widać w miejscu odczytu. Poprzednio pomyłka szła na korzyść oczekiwań o mnożnik **1,6**; ta idzie o **1,8**.
+
+**Poprawka.** Liczby bezwarunkowe, wyprowadzone w `13_WERDYKT.md` §2.2, wpisane do czterech plików obok warunkowych, nie zamiast nich:
+
+| Cel | Warunkowo (było) | **Bezwarunkowo** |
+|---|---|---|
+| finał Explory | ~50% | **~33%** |
+| reprezentacja na ISEF | ~14% | **~9%** |
+| Nagroda Główna Explory | ~5% | **~3%** |
+| jakakolwiek nagroda ISEF | ~4% | **~2%** |
+
+**Kontrola pierwsza:** finał bezwarunkowo 0,33 × 0,28 = **9,4%**, wobec 8,9% z drogi pierwszej. Zgodne.
+**Kontrola druga:** 3/377 = **0,8%** dla zgłoszenia losowego; projekt przy 9% siedzi **jedenaście razy powyżej bazy** — wiarygodne dla projektu tak przygotowanego.
+
+`[luka]` **Czego poprawka nie naprawia i trzeba to powiedzieć osobno:** najsłabszym ogniwem pozostaje *„finał warunkowo ~55%"*, stojące na samoocenie **24–26 pkt** wobec grupy walczącej 21–25 (`08` §3.1). Nikt z zewnątrz tego nie sprawdził. `[domysł]` Przy zawyżeniu tego jednego mnożnika o połowę **ISEF spada do 4–5%**. **Uczciwy przedział dla ISEF to 4–9%, a 14% jest sufitem.**
+
+---
+
+#### 2. Liczba, przez którą mnoży się wszystkie pozostałe, nigdy nie została wyprowadzona
+
+**Co było.** `[fakt]` `07_HARMONOGRAM.md` i `METODA.md` niosą od **16 VIII 2026**: *„Dorobek (…) ma **~50–60%** i leży pod kontrolą autora"* — **bez wyprowadzenia.** `[fakt]` Jednocześnie `10_STUDIA_USA.md` §8 wymienia w rubryce *„czego nie da się doprowadzić do wysokiej pewności"*: *„czy użytkownik dowiezie — **brak danych**"*.
+
+`[wniosek]` **Dwa pliki podają liczbę, trzeci mówi, że danych nie ma.** Do tego oszacowanie powstało 16 VIII, a **budżet godzin policzono 21 VIII (K-107)** — czyli liczba jest o pięć dni starsza od jedynego rachunku zdolnego ją potwierdzić.
+
+**Wyprowadzenie, trzy bramki** (pełne w `13_WERDYKT.md` §1.2): E0 **0,89** · kalendarz **0,80** dla rangi C+ i **0,35** dla własnego toru · nieporzucenie **0,80**.
+
+| Scenariusz | `[domysł]` |
+|---|---|
+| **ranga C lub wyżej** | **~55%** |
+| ranga D albo E | ~25% |
+| porzucone albo utknięte | ~20% |
+| wersja pełna A/B z własnym torem | **~25%** |
+
+`[wniosek]` **Liczba 50–60% z `07` obroniła się po rachunku — wychodzi ~55%.** To jest **jedyny przypadek w całym audycie, gdzie wielkość podana bez wyprowadzenia okazała się trafna.** Pozostałe siedem konfrontacji arytmetycznych (K-105…K-107) kończyło się poprawką.
+
+---
+
+#### 3. Znalezisko trzecie, przy okazji: bramka kalendarzowa jest wąska bardziej, niż wyglądała
+
+`[fakt, przeliczone z K-107]` 449 h dostępnych, minus `[domysł]` 30–50 h tygodni poniżej normy = **~409 h efektywnie**, wobec środka widełek **426 h**. `[wniosek]` **Plan mieści się w czasie wyłącznie przy trafieniu w dolną połowę własnych widełek — na pozycji (nauka PCB, 75–130 h), którą `07` sam opisuje jako „najgorzej oszacowaną w całym planie, bo autor nie ma jej z czym porównać".**
+
+**To nie jest nowa informacja — to jest ta sama informacja przeczytana jako prawdopodobieństwo, a nie jako bilans.** K-107 zamknął rachunek zdaniem *„suma się spina z 5% zapasem"*; **5% zapasu na dziesięć miesięcy to nie jest zapas, to jest rzut monetą** — i dopiero tak nazwane trafia do oceny szans.
+
+---
+
+**Reguła, wpisana do `METODA.md`:** **każda tabela prawdopodobieństw musi podawać warunek obok liczby, a warunek musi mieć własną liczbę.** Wskaźnik warunkowy bez wypisanego warunku jest tym samym uchybieniem co dokładność bez podanego N — i w tym projekcie jest zakazany z tego samego powodu.

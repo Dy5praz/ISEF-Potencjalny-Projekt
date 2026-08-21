@@ -204,3 +204,11 @@
 7. **każde dwa odcinki, kąty albo udziały nazwane tym samym ułamkiem** — czy mają tę samą wartość liczbową
 
 **Dlaczego czytanie tego nie łapie:** czytanie sprawdza sens zdań. Liczba niezgodna z inną liczbą **czyta się bez zgrzytu**, bo każda z nich osobno jest sensowna. `03_SPRZET.md` był czytany wielokrotnie przez pięć dni i nie oddał ani jednego z ośmiu znalezisk K-106.
+
+**Punkt ósmy, dopisany 21 VIII 2026 po K-110:**
+
+8. **każda tabela prawdopodobieństw wobec własnego warunku** — czy warunek stoi obok liczby, i czy warunek ma **własną liczbę**
+
+`[wniosek]` **Wskaźnik warunkowy bez wypisanego warunku jest tym samym uchybieniem co dokładność bez podanego N**, i jest zakazany z tego samego powodu: obie liczby czyta się wtedy jako coś, czym nie są. `08_KONKURSY.md` §3 wyprowadzał cały łańcuch od ogniwa *„półfinał ~85% — projekt z wideo, urządzeniem i liczbami"*, a `README.md` stawiał wynik w rubryce **„Szansa"**. Różnica wynosiła mnożnik **1,8**, i nie widział jej nikt przez pięć dni audytu, bo **każda liczba osobno była poprawna**.
+
+**Reguła praktyczna:** przy tabeli szans zawsze zadaj pytanie *„szansa pod warunkiem czego?"* — i jeżeli odpowiedź brzmi „że wszystko pójdzie zgodnie z planem", **policz, ile wynosi szansa na to.**

@@ -477,7 +477,7 @@ Pytanie użytkownika: *„czy mogę liczyć na studia w Stanach, czy to bardziej
 
 `[wniosek]` **Konstrukcja listy uczelni daje więcej niż jakiekolwiek dodatkowe osiągnięcie konkursowe.** Różnica między listą źle a dobrze złożoną to kilkanaście punktów procentowych; różnica między finalistą ISEF a laureatem — pojedyncze punkty.
 
-**Czego ta liczba nie zawiera i zawierać nie może:** wyniku ISEF. `[domysł]` Prawdopodobieństwo, że użytkownik w ogóle pojedzie na ISEF, wynosi **~14%** (`08_KONKURSY.md` §3, przeliczone 21 VIII 2026 — K-107). **Plan rekrutacyjny nie może być na tym oparty** — i nie jest, bo urządzenie, dziennik pracy i materiał na esej powstają niezależnie od tego, czy jury Explory wybierze ten projekt do trójki.
+**Czego ta liczba nie zawiera i zawierać nie może:** wyniku ISEF. `[domysł]` Prawdopodobieństwo, że użytkownik w ogóle pojedzie na ISEF, wynosi **~9% bezwarunkowo** — ~14% warunkowo, jeżeli projekt powstanie, przemnożone przez ~55% na powstanie (`08_KONKURSY.md` §3.0a, K-110). **Plan rekrutacyjny nie może być na tym oparty** — i nie jest, bo urządzenie, dziennik pracy i materiał na esej powstają niezależnie od tego, czy jury Explory wybierze ten projekt do trójki.
 
 **Zdanie, które jest uczciwym podsumowaniem:**
 
@@ -528,7 +528,7 @@ Pytanie użytkownika: *„czy mogę liczyć na studia w Stanach, czy to bardziej
 
 `[wniosek]` **Tak — ale nie z powodu tabeli prawdopodobieństw konkursowych.**
 
-Liczby konkursowe (`08_KONKURSY.md` §3, przeliczone 21 VIII 2026): finał Explory ~50%, **reprezentacja ~14%**, **Nagroda Główna ~5%**, **jakakolwiek nagroda ISEF ~4%**.
+Liczby konkursowe **bezwarunkowe** (`08_KONKURSY.md` §3.0a, K-110): finał Explory **~33%**, **reprezentacja ~9%** (uczciwie 4–9%), **Nagroda Główna ~3%**, **jakakolwiek nagroda ISEF ~2%**.
 
 **Gdyby projekt był wart tylko tego, byłby złym interesem** — 890 godzin za kilkuprocentową szansę.
 
@@ -543,7 +543,7 @@ Liczby konkursowe (`08_KONKURSY.md` §3, przeliczone 21 VIII 2026): finał Explo
 ### Czego nie da się doprowadzić do wysokiej pewności
 
 - **czy pomiar wyjdzie ciekawy** — jedyna zmienna decydująca o różnicy między czwartą nagrodą a pierwszą; znana dopiero latem 2027
-- **czy użytkownik dowiezie** — brak danych
+- ~~**czy użytkownik dowiezie** — brak danych~~ → **policzone 21 VIII 2026: ~55% na rangę C lub wyżej**, wyprowadzenie z trzech bramek w `13_WERDYKT.md` §1.2 (K-110). Nadal `[domysł]`, ale już z jawnym łańcuchem do podważenia
 - **jakikolwiek konkretny wynik konkursowy** — oszacowania mają błąd rzędu ×1,5 w każdą stronę
 
 **Pewność osiągalna dotyczy zdania: „to jest solidny plan, który zwraca się niezależnie od wyniku konkursowego".** Na zdanie „to wygra" nie da jej nikt.

@@ -38,7 +38,8 @@
 | **`10_STUDIA_USA.md`** | cel nadrzędny: uczelnie, kalendarz rekrutacyjny, SAT i egzamin z angielskiego |
 | **`12_REANALIZA.md`** | **jedyny własny pomiar, jaki projekt dotąd ma** — reanaliza cudzych danych, odtworzona dwukrotnie |
 | **`METODA.md`** | jak się w tym projekcie sprawdza literaturę: procedura tożsamości, trzy kanały przeszukania, stan dostępu do baz |
-| **`KOREKTY.md`** | rejestr błędów, **K-001…K-101**. Dopisuj każdy nowy |
+| **`13_WERDYKT.md`** | **czy w to grać: trzy bramki, liczby bezwarunkowe, warunki odwrócenia werdyktu.** Wydany 21 VIII 2026 |
+| **`KOREKTY.md`** | rejestr błędów, **K-001…K-110**. Dopisuj każdy nowy |
 | **`analiza/`** | jedenaście skryptów w Pythonie — FBCCA, TRCA, SVM, montaże, okna, harmoniczne |
 | **`archiwum/`** | 42 pliki poprzednich wersji. **Nic nie zostało usunięte** |
 
@@ -56,12 +57,16 @@
 
 **Pewność, że przegląd literatury jest domknięty: 97%.** Rozbiór — `05_STAN_WIEDZY.md` §10.
 
-| Cel | Szansa |
-|---|---|
-| finał Explory | ~50% |
-| reprezentacja na ISEF | **~14%** |
-| Nagroda Główna Explory | **~5%** |
-| **wartość dla aplikacji na studia, niezależna od wyniku** | **~100%, jeżeli projekt powstanie** |
+**Szansa, że projekt w ogóle powstanie w wersji z wynikiem (ranga C lub wyżej): `[domysł]` ~55%.** Wyprowadzenie z trzech bramek — `13_WERDYKT.md` §1.2. **Wszystkie liczby konkursowe poniżej mnożą się przez tę jedną.**
+
+| Cel | Warunkowo, jeżeli projekt powstanie | **Bezwarunkowo** |
+|---|---|---|
+| finał Explory | ~50% | **~33%** |
+| reprezentacja na ISEF | ~14% | **~9%** (uczciwy przedział **4–9%**) |
+| Nagroda Główna Explory | ~5% | **~3%** |
+| **wartość dla aplikacji na studia, niezależna od wyniku jury** | **~100%** | **~55–80%** |
+
+`[fakt, K-110]` **Kolumna warunkowa stała tu wcześniej sama, w rubryce „Szansa".** Cały łańcuch z `08_KONKURSY.md` §3 zaczyna się od „półfinał ~85%" z uzasadnieniem *„projekt z wideo, urządzeniem i liczbami"* — czyli jest warunkowy od pierwszego ogniwa. **Warunek podaje się teraz obok liczby, tak samo jak N obok dokładności.**
 
 ---
 

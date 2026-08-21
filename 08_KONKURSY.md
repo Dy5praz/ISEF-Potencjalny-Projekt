@@ -87,13 +87,15 @@ Projekty wykorzystujące szkodliwe substancje, zakładające **inwazyjne** badan
 | finał → ISEF | 3 / 21 = **14,3%** |
 | finał → Nagroda Główna | 1 / 21 = **4,8%** |
 
-**Szacunek dla tego projektu — z jawnym łańcuchem, żeby dało się go sprawdzić:**
+**Szacunek dla tego projektu — z jawnym łańcuchem, żeby dało się go sprawdzić.**
+
+> **UWAGA, K-110: cała poniższa tabela jest WARUNKOWA — obowiązuje, jeżeli projekt powstanie.** Warunek wchodzi pierwszym ogniwem („projekt z wideo, urządzeniem i liczbami") i dziedziczą go wszystkie następne. **Liczby bezwarunkowe: §3.0a poniżej.**
 
 | Krok | Szansa `[domysł]` | Skąd |
 |---|---|---|
 | półfinał | **~85%** | projekt z wideo, urządzeniem i liczbami; baza 34,5% dotyczy całej stawki, w tym zgłoszeń szczątkowych |
 | finał, **warunkowo** | ~55% | oszacowanie 24–26 pkt plasuje w grupie dziesięciu walczących (§3.1); baza 16,2% |
-| **finał, bezwarunkowo** | **~47%, w zaokrągleniu ~50%** | 0,85 × 0,55 |
+| **finał, łącznie z półfinałem** | **~47%, w zaokrągleniu ~50%** | 0,85 × 0,55 |
 | ISEF, **warunkowo z finału** | ~28% | baza 14,3%, podniesiona dla projektu z górnej połowy stawki |
 | **reprezentacja na ISEF** | **~14%** | 0,47 × 0,28 |
 | **Nagroda Główna Explory** | **~5%** | 0,47 × ~10% (baza 4,8%, podniesiona) |
@@ -103,6 +105,23 @@ Projekty wykorzystujące szkodliwe substancje, zakładające **inwazyjne** badan
 `[fakt]` **Co było źle.** Tabela podawała **ISEF ~22%** i **Nagrodę Główną ~9–10%** przy jednoczesnym **finale ~50%**. Z bazy 3/21 wynika, że przy 50% szansy na finał ISEF wychodzi **~7%** przy wskaźniku bazowym i **~14%** przy szczodrym założeniu, że projekt jest wyraźnie powyżej średniej finalisty. **Do 22% brakowało jeszcze mnożnika 1,6 — czyli tabela przekraczała własny zadeklarowany margines ×1,5.** Ta sama nieścisłość dotyczyła Nagrody Głównej (9–10% wobec wyprowadzalnych ~5%).
 
 `[fakt]` **I była wewnętrznie sprzeczna między plikami:** `07_HARMONOGRAM.md` w sekcji „Cel nadrzędny" niósł od 16 VIII **~14%** — liczbę poprawną — podczas gdy `08`, `README.md` i `10_STUDIA_USA.md` niosły 22%. **Cztery pliki, dwie liczby, żadnego wpisu o rozbieżności.**
+
+### 3.0a Cała powyższa tabela jest WARUNKOWA — K-110, 21 VIII 2026
+
+`[fakt]` Pierwsze ogniwo łańcucha, *„półfinał ~85%"*, jest uzasadnione zdaniem **„projekt z wideo, urządzeniem i liczbami"**. **To jest warunek, i dziedziczą go wszystkie ogniwa poniżej.**
+
+`[domysł]` Wyprowadzenie: **`13_WERDYKT.md` §1.2**. **P(projekt powstaje w wersji z wynikiem, ranga C lub wyżej) = ~55%** — iloczyn trzech bramek: E0 **0,89** · kalendarz **0,80** · nieporzucenie **0,80**.
+
+| Cel | Warunkowo | **Bezwarunkowo** |
+|---|---|---|
+| finał Explory | ~50% | **~33%** |
+| **reprezentacja na ISEF** | ~14% | **~9%** |
+| Nagroda Główna Explory | ~5% | **~3%** |
+| jakakolwiek nagroda ISEF | ~4% | **~2%** |
+
+**Kontrola:** 0,33 × 0,28 = **9,4%**, zgodne z 8,9% liczonym wprost. **Baza dla zgłoszenia losowego: 3/377 = 0,8%** — projekt siedzi jedenaście razy powyżej niej.
+
+`[luka]` **Najsłabsze ogniwo to nie żadna z tych liczb, tylko „finał warunkowo ~55%"** — stoi na samoocenie 24–26 pkt wobec grupy walczącej 21–25 (§3.1), której nikt z zewnątrz nie sprawdził. `[domysł]` Przy zawyżeniu tego mnożnika o połowę **ISEF spada do 4–5%. Uczciwy przedział: 4–9%, a 14% jest sufitem.**
 
 ### 3.1 Z kim się konkuruje — stawka finałowa 2026
 

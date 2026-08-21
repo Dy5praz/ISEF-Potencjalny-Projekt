@@ -8,7 +8,7 @@
 
 ## Cel nadrzędny — wpisany 16 VIII 2026
 
-**Studia za granicą, najpewniej w Stanach. Explory i ISEF są środkiem, nie celem.** Dorobek (urządzenie + odtwarzalne badanie + preprint) ma ~50–60% i leży pod kontrolą autora; wyjazd na ISEF **~14%** i zależy od jury. **Ta liczba jest od 21 VIII 2026 zgodna z `08_KONKURSY.md` §3 — wcześniej tamten plik niósł 22%, K-107.** **Priorytet ustawiać pod dorobek.** ISEF maj 2028 wypada przed aplikacjami jesienią 2028, więc oba zdążą.
+**Studia za granicą, najpewniej w Stanach. Explory i ISEF są środkiem, nie celem.** Dorobek (urządzenie + odtwarzalne badanie + preprint) ma **~55%** i leży pod kontrolą autora; wyjazd na ISEF **~9% bezwarunkowo** (~14% warunkowo, jeżeli projekt powstanie) i zależy od jury. **Dwie poprawki z 21 VIII 2026.** `[K-110]` Liczba **50–60%** stała tu od 16 VIII **bez wyprowadzenia**, a `10_STUDIA_USA.md` §8 mówił jednocześnie „brak danych”; wyprowadzona z trzech bramek — **obroniła się, wychodzi ~55%** (`13_WERDYKT.md` §1.2). `[K-107]` Liczba ISEF jest zgodna z `08_KONKURSY.md` §3 — wcześniej tamten plik niósł 22%; **od teraz podaje się ją w obu postaciach, warunkowej i bezwarunkowej (§3.0a).** **Priorytet ustawiać pod dorobek.** ISEF maj 2028 wypada przed aplikacjami jesienią 2028, więc oba zdążą.
 
 **Zasada pracy: zaczynaj od tego, co punktują arkusze oceny, nie od polowania na lukę** (K-075).
 
