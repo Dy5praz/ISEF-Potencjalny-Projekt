@@ -180,6 +180,34 @@ Skutek jest taki, że **każdy montaż wyprowadza się z tej samej rejestracji p
 - **transmisja bezprzewodowa w czasie pomiaru.** Kabel USB do laptopa zasilanego z sieci jest drogą powrotną prądu i jest **zakazany w czasie noszenia**
 - programowanie i ładowanie **wyłącznie przy zdjętym urządzeniu**, wpisane w procedurę
 
+### 6.1 Padaczka fotogenna — luka znaleziona 21 VIII 2026, K-116
+
+> **Do 21 VIII 2026 w całej dokumentacji nie było ani jednego wystąpienia słowa „padaczka".** Sekcja bezpieczeństwa opisywała wyłącznie bezpieczeństwo elektryczne — **w projekcie, którego istotą jest świecenie migającym światłem w oczy człowieka.**
+
+`[fakt, cztery źródła: Epilepsy Foundation working group PMID 16146439, przegląd Seizure 2017, International Guidelines for Photosensitive Epilepsy, przeglądy bezpieczeństwa SSVEP-BCI]`
+
+| | |
+|---|---|
+| częstość padaczki fotogennej | **~1 na 4 000** w populacji ogólnej; **3–5%** wśród osób z padaczką |
+| **pasmo najbardziej prowokacyjne** | **15–25 Hz, szczyt ~18 Hz** |
+| zakres w ogóle prowokacyjny | 3–60 Hz |
+| czynniki nasilające | jasność > 20 cd/m², duże pole widzenia, **wysoki kontrast**, kombinacja **czerwony/niebieski** |
+
+> `[fakt]` **Zestaw bodźców tego projektu to 8,0–17,8 Hz. Jego górny koniec leży dokładnie na szczycie pasma prowokacyjnego.**
+
+**Standardowe środki ostrożności w interfejsach SSVEP** `[fakt]`: przesiew użytkowników · unikanie 15–25 Hz · **mały bodziec zamiast dużego pola** · **obniżony kontrast** · **automatyczne wygaszanie, gdy użytkownik odwraca wzrok**.
+
+**Cztery skutki dla tego projektu, wszystkie wiążące:**
+
+1. **Autor jest badanym w większości sesji.** Wywiad przed E0: napady w przeszłości, padaczka w rodzinie, **migrena z aurą**, złe reakcje na stroboskopy i gry. **Przy którymkolwiek na „tak" — rozmowa z lekarzem przed pierwszym pomiarem.**
+2. **Pokaz na stoisku jest scenariuszem najgorszym**: nieznana osoba, nieznana historia medyczna, migotanie w paśmie prowokacyjnym. `[wniosek]` **Wariant „dla chętnych" wymaga pytania przesiewowego i ostrzeżenia przed włączeniem bodźca — niezależnie od procedury Human Participants**, która i tak go obejmuje (R13, `06_RYZYKA.md`).
+3. **Formalnie:** to jest treść do **Risk Assessment Form (3)** i do wniosku IRB. `[wniosek]` **Komisja o to zapyta, a brak odpowiedzi jest gorszy niż odpowiedź „ryzyko istnieje i tak je ograniczam".**
+4. **Napięcie projektowe, do rozstrzygnięcia, nie do zamiecenia** `[luka]`: zestaw 8,0–17,8 Hz **został dobrany pod pomiar**, żeby drugie harmoniczne wypadły w paśmie 16–35,6 Hz i umożliwiły test rozdzielający R12. **Przesunięcie zestawu w górę, poza 15–25 Hz, ten test psuje; przesunięcie w dół wpycha harmoniczne w pasmo alfa.** **Decyzja razem z wnioskiem do IRB, jesień 2026** — z opcją przycięcia samej góry zakresu.
+
+**Środki, które nic nie kosztują i wchodzą od razu:** bodziec **mały, nie na pełnym ekranie** · **kontrast obniżony do minimum wystarczającego** · **bez kombinacji czerwony/niebieski** · **przerwy między blokami** · **wygaszanie bodźca przy odwróceniu wzroku**.
+
+---
+
 `[fakt]` Reguły elektryczne ISEF dotyczą **stoiska**: próg 36 V na obwodach odsłoniętych, obudowa niepalna, widoczny wyłącznik, zakaz ogniw otwartych i pakietów powyżej 100 Wh. **Projekt spełnia to bez wysiłku** — pracuje na jednostkach woltów.
 
 ---

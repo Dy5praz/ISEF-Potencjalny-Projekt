@@ -40,7 +40,7 @@
 | **`METODA.md`** | jak się w tym projekcie sprawdza literaturę: procedura tożsamości, trzy kanały przeszukania, stan dostępu do baz |
 | **`14_PROTOKOL.md`** | **protokół wytrwania — co robić, gdy autor chce się wycofać.** Ustanowiony 21 VIII 2026 jego własnym poleceniem |
 | **`13_WERDYKT.md`** | **czy w to grać — rozstrzygnięcie w §0, cztery akapity.** Rachunek (bramki, liczby bezwarunkowe) w części drugiej |
-| **`KOREKTY.md`** | rejestr błędów, **K-001…K-115**. Dopisuj każdy nowy |
+| **`KOREKTY.md`** | rejestr błędów, **K-001…K-116**. Dopisuj każdy nowy |
 | **`analiza/`** | jedenaście skryptów w Pythonie — FBCCA, TRCA, SVM, montaże, okna, harmoniczne |
 | **`archiwum/`** | 42 pliki poprzednich wersji. **Nic nie zostało usunięte** |
 

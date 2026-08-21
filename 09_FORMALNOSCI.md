@@ -193,6 +193,14 @@ Alternatywa przewidziana regulaminem: „If necessary, the local or ISEF-affilia
 
 Dodatkowo dla badań z udziałem ludzi (czyli **nie** w naszym wariancie zwolnionym): Human Participants Form (4), zgody, kopie ankiet, Qualified Scientist Form (2B) gdy wymagany, Risk Assessment (3) gdy wymagany.
 
+> **UZUPEŁNIENIE 21 VIII 2026 — K-116. Risk Assessment Form (3) jest w tym projekcie potrzebny i powód nie jest elektryczny.**
+>
+> `[fakt]` **Padaczka fotogenna: ~1 na 4 000 osób, pasmo najbardziej prowokacyjne 15–25 Hz ze szczytem ~18 Hz. Zestaw bodźców tego projektu to 8,0–17,8 Hz — górnym końcem leży na tym szczycie.** Rozbiór i środki zaradcze: `03_SPRZET.md` §6.1.
+>
+> **Do wniosku IRB i do Form 3 wchodzą:** pytanie przesiewowe dla każdego badanego (napady w przeszłości · padaczka w rodzinie · **migrena z aurą** · złe reakcje na stroboskopy) · ograniczenie jasności, kontrastu i pola bodźca · przerwy między blokami · **wygaszanie bodźca przy odwróceniu wzroku** · procedura przerwania na żądanie badanego.
+>
+> `[wniosek]` **Dotyczy to również pokazu „dla chętnych" na stoisku i jest drugim, niezależnym powodem, dla którego nie wolno go uruchomić bez procedury** — pierwszym był R13 (u 39% osób montaż zredukowany przestaje działać).
+
 **Pozycja niejednoznaczna, zapisuję ją jako niejednoznaczną, a nie rozstrzygam:** reguła 8 sekcji *Documentation and Approval* mówi „Projects that involve the testing of any student-designed invention, prototypes or consumer product **requires Risk Assessment Form 3**", bez zastrzeżenia o zwolnieniu. Jednocześnie nagłówek sekcji *Exempt Studies* mówi, że projekty zwolnione nie wymagają „human participants paperwork". Formularz 3 jest formularzem oceny ryzyka, nie formularzem badań na ludziach. **[wniosek] Interpretacja bezpieczna: wypełnić Formularz 3 mimo zwolnienia.** Kosztuje jedną stronę papieru, a jego brak jest kategorią błędu, która dyskwalifikuje. Nie ma powodu oszczędzać tutaj.
 
 ---

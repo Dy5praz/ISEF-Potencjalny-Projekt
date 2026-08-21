@@ -15,7 +15,7 @@ Użytkownik: Julek. **Odpowiadaj po polsku.**
 5. **`METODA.md`** — jak się w tym projekcie sprawdza literaturę. **Obowiązuje bezwzględnie**
 6. **`13_WERDYKT.md`** — **czy w to grać. Rozstrzygnięcie jest w §0** i mieści się na jednej stronie. Rachunek w części drugiej — **nie jest werdyktem, tylko jego ramą**
 7. **`14_PROTOKOL.md`** — **protokół wytrwania. Obowiązuje w każdej sesji, bez przypominania**
-8. **`KOREKTY.md`** — rejestr błędów K-001…K-115. Dopisuj każdy nowy
+8. **`KOREKTY.md`** — rejestr błędów K-001…K-116. Dopisuj każdy nowy
 
 Reszta: `01` laik · `03` sprzęt i budżet · `04` plan pomiarowy · `06` ryzyka · `07` harmonogram · `08` konkursy · `09` formalności · `10` studia · `12` reanaliza.
 

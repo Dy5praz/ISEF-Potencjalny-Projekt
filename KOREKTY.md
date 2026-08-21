@@ -2123,3 +2123,39 @@ Dwie dopuszczalne drogi, wybór **raz, w lutym 2027 po E1**. Pomiar krzyżowy wo
 `[luka]` **Najsłabsze założenie i trzeba je nazwać: oceniam jego plakat wobec cudzych plakatów, nie widziawszy jego.** Do tego czołówka 2026 to projekt kwantowy — **premia za glamour tematu jest realna i działa przeciwko pomiarowi położenia elektrody.**
 
 **Reguła:** **przy każdym „to jest za słabe / za mało ciekawe" policz najpierw, ile kosztuje podniesienie tego, co już masz.** Sufit bywa tańszy do podniesienia niż fundament do przeniesienia — a tego rachunku nie robi się odruchowo.
+
+---
+
+### K-116 — projekt o świeceniu migającym światłem w oczy nie miał ani jednego słowa o padaczce fotogennej
+
+**Skąd.** Pytanie autora zadane **na marginesie**, 21 VIII 2026: *„nie da się tego jakoś sprawdzić bez sprzętu? Tego czy reaguję?"* Szukanie odpowiedzi zaprowadziło do literatury o stymulacji migotliwej — i tam do rzeczy, której w dokumentacji nie było.
+
+**Co było.** `[fakt]` `grep` po całej dokumentacji: **zero wystąpień słów „padaczka", „epilep", „fotoczuł", „napad".** `03_SPRZET.md` §6 nosi tytuł *„Bezpieczeństwo — warunek wstępny, nie pozycja na końcu"* i opisuje **wyłącznie bezpieczeństwo elektryczne**: zasilanie bateryjne, brak pętli przez sieć, progi napięciowe ISEF.
+
+`[wniosek]` **Projekt spełniał z zapasem reguły dotyczące jednostek woltów, a nie miał ani zdania o jedynym realnym zagrożeniu, jakie stwarza — o migotaniu.**
+
+**Liczby** `[fakt, cztery źródła: Epilepsy Foundation PMID 16146439, przegląd Seizure 2017, International Guidelines for Photosensitive Epilepsy, przeglądy bezpieczeństwa SSVEP-BCI]`:
+
+| | |
+|---|---|
+| częstość | **~1 na 4 000**; 3–5% wśród osób z padaczką |
+| **pasmo najbardziej prowokacyjne** | **15–25 Hz, szczyt ~18 Hz** |
+| nasilają | jasność, **duże pole widzenia**, wysoki kontrast, czerwony/niebieski |
+
+> `[fakt]` **Zestaw bodźców projektu: 8,0–17,8 Hz. Górny koniec leży na szczycie pasma prowokacyjnego.**
+
+**Skąd wziął się błąd.** `[wniosek]` **Zestaw częstotliwości był dobierany wyłącznie pod pomiar** — tak, żeby drugie harmoniczne wypadły w paśmie 16–35,6 Hz i umożliwiły test rozdzielający R12 (`06_RYZYKA.md`). **Kryterium było jedno i było metodyczne. Nikt nie zapytał, co ten zestaw robi z człowiekiem, który na niego patrzy** — mimo że tym człowiekiem jest przez większość sesji autor.
+
+**Ten sam wzorzec co K-105 i K-109: odpowiedź na wąsko postawione pytane („jakie częstotliwości dają mierzalne harmoniczne") zapisana jako rozstrzygnięcie ogólne („zestaw bodźców").**
+
+**Poprawki.** `03_SPRZET.md` **§6.1** — nowa sekcja z liczbami, wywiadem przesiewowym przed E0, środkami zaradczymi bezkosztowymi (mały bodziec, obniżony kontrast, bez czerwony/niebieski, przerwy, wygaszanie przy odwróceniu wzroku). `09_FORMALNOSCI.md` — **Risk Assessment Form (3) jest potrzebny i powód nie jest elektryczny**; pytanie przesiewowe wchodzi do wniosku IRB.
+
+`[luka]` **Napięcie projektowe zostaje otwarte, świadomie:** przesunięcie zestawu poza 15–25 Hz psuje test R12; przesunięcie w dół wpycha harmoniczne w pasmo alfa. **Decyzja razem z wnioskiem do IRB, jesień 2026, z opcją przycięcia samej góry zakresu.**
+
+`[wniosek]` **Drugi, niezależny powód, dla którego pokaz „dla chętnych" na stoisku nie może iść bez procedury.** Pierwszym był R13 — u 39% osób montaż zredukowany przestaje działać. **Teraz dochodzi nieznana historia medyczna widza wobec migotania w paśmie prowokacyjnym.**
+
+---
+
+**Reguła:** **przy każdym parametrze dobieranym pod pomiar zadaj drugie pytanie: co ten parametr robi człowiekowi, który jest po drugiej stronie przyrządu.** Zestaw częstotliwości, jasność bodźca, czas sesji, liczba powtórzeń — **każde z nich ma stronę metodyczną i stronę ludzką, a dokumentacja tego projektu liczyła dotąd tylko pierwszą.**
+
+**I druga, o tym, skąd to wyszło:** `[wniosek]` **pytanie autora zadane „na marginesie" znalazło poważniejszą lukę niż pięć dni audytu prowadzonego celowo.** Szósty raz w tym tygodniu. **Marginesy warto sprawdzać.**
