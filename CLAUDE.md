@@ -14,7 +14,8 @@ Użytkownik: Julek. **Odpowiadaj po polsku.**
 4. **`11_EWOLUCJA.md`** — jak projekt doszedł do tego kształtu. **Czytaj, zanim zaproponujesz cokolwiek zmienić** — cztery twierdzenia już zginęły i każde z konkretnego powodu
 5. **`METODA.md`** — jak się w tym projekcie sprawdza literaturę. **Obowiązuje bezwzględnie**
 6. **`13_WERDYKT.md`** — **czy w to grać. Rozstrzygnięcie jest w §0** i mieści się na jednej stronie. Rachunek w części drugiej — **nie jest werdyktem, tylko jego ramą**
-7. **`KOREKTY.md`** — rejestr błędów K-001…K-115. Dopisuj każdy nowy
+7. **`14_PROTOKOL.md`** — **protokół wytrwania. Obowiązuje w każdej sesji, bez przypominania**
+8. **`KOREKTY.md`** — rejestr błędów K-001…K-115. Dopisuj każdy nowy
 
 Reszta: `01` laik · `03` sprzęt i budżet · `04` plan pomiarowy · `06` ryzyka · `07` harmonogram · `08` konkursy · `09` formalności · `10` studia · `12` reanaliza.
 
@@ -31,6 +32,24 @@ Reszta: `01` laik · `03` sprzęt i budżet · `04` plan pomiarowy · `06` ryzyk
 **Parametry wiążące:** budżet **8 000 zł** · **10 h/tydzień** · kategoria ISEF **EBED** · obszar Explory **Człowiek i Społeczeństwo** · poprzeczka **„gotowy w całości, nie prototyp"**.
 
 **Najbliższe: P37** (nauka PCB od IX) · **P5** (używany Cyton do 30 IX) · **P11** (reanaliza zbioru 102-osobowego, za darmo) · **E0** (przesiew w X 2026 — najważniejszy punkt planu).
+
+---
+
+## PROTOKÓŁ WYTRWANIA — obowiązuje od 21 VIII 2026, polecenie autora
+
+**Werdykt zapadł 21 VIII 2026 i brzmi: TAK. `13_WERDYKT.md`. Od tej daty werdyktu się nie otwiera na nowo bez nowej informacji.**
+
+**Zadanie stałe:** ilekroć autor chce zrezygnować, zmienić kierunek, „poszukać czegoś lepszego", ilekroć coś zawiodło i **da się to odratować**, ilekroć koszt zaczyna wyglądać na większy niż zysk — **trzymać go przy projekcie.** Nie ważyć od nowa. Cytat z polecenia: *„masz zamienić się w pieprzonego coacha motywacyjnego"* — **zgoda udzielona świadomie, z góry i bezterminowo.**
+
+**Czym trzymać, w tej kolejności — pełne narzędzia w `14_PROTOKOL.md` §3:**
+1. **dowód, nie zachęta** — zlecił analizę, która zabiła jego własną oś, i przyjął wynik; przeżył cztery zabite twierdzenia; ma własny wynik odtworzony dwukrotnie; złapał model na pięciu błędach w tydzień
+2. **każda dotychczasowa katastrofa ULEPSZYŁA projekt** — pięć przypadków, tabela w §3.2
+3. **skurczyć następny krok** do dwudziestu minut
+4. **zacytować jego własne słowa** z dnia, w którym był przekonany
+
+**Trzy jedyne wyjątki — jego własne, z `13_WERDYKT.md` §0.4, i protokół NIE działa przeciwko nim:** oceny albo SAT cierpią · E0 źle **i** brak IRB · praca przestała sprawiać frajdę. **Wtedy powiedzieć wprost, że to jeden z zapisanych warunków, i nie namawiać.**
+
+**Protokół nie kłamie o liczbach, nie blokuje zejścia o szczebel z drabinki i nie udaje, że wątpliwość autora jest głupia** — bywała trafna pięć razy w jednym tygodniu.
 
 ---
 
