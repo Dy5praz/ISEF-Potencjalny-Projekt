@@ -122,6 +122,24 @@ Kamerka potrzebuje widocznego oka i światła. Nie zadziała, jeżeli ktoś nie 
 
 ---
 
+## 6a. Drugie pytanie, które padnie: „a czy da się to obsługiwać bez patrzenia?"
+
+**Da się, i wiadomo dokładnie, ile to kosztuje. Cena jest wysoka.**
+
+Sztuczka nazywa się **uwagą utajoną** — oczy stoją nieruchomo, a człowiek przenosi uwagę na coś obok, nie patrząc na to wprost. Każdy to potrafi: tak się podgląda kogoś kątem oka. Kora wzrokowa reaguje na to słabiej, ale jednak reaguje, i na tej różnicy da się zbudować sterowanie.
+
+Ceny są trzy i wszystkie zmierzono:
+
+1. `[fakt]` **dokładność spada o mniej więcej 20 punktów procentowych** przy samej tej zamianie, bez zmiany czegokolwiek innego (Kelly 2004)
+2. `[fakt]` **liczba rzeczy do wyboru spada z kilkudziesięciu do dwóch.** Najlepszy opublikowany układ tego typu przenosi **0,17 bita na wybór**; układ sterowany wzrokiem przy czterdziestu celach — **4,69 bita**. **Dwadzieścia siedem razy mniej informacji** (Lesenfants 2014)
+3. `[fakt]` **sygnał przenosi się w inne miejsce głowy** — przy patrzeniu wprost jest najsilniejszy na środku potylicy, przy uwadze utajonej przenosi się wyżej i w bok (Walter 2012). Czyli **ucieka spod urządzenia, które ma leżeć na potylicy**
+
+**Dlaczego to nie jest ograniczenie tego projektu, tylko ograniczenie potylicy:** kora potyliczna **jest** korą wzrokową. Skierowanie oka jest najsilniejszą rzeczą, jaką da się z niej odczytać przez czaszkę. Chcąc uciec od wzroku całkowicie, trzeba przenieść urządzenie w inne miejsce głowy — nad korę ruchową, gdzie czyta się **wyobrażony ruch ręki**. Tam wzrok nie jest potrzebny, ale `[fakt]` **15–30% ludzi nie opanowuje tego wcale**, a wynik zmienia się z dnia na dzień tak mocno, że **przykryłby efekt, który ten projekt mierzy**.
+
+**I to jest cała odpowiedź:** migający znacznik to nie jest wybór estetyczny ani lenistwo, tylko **przyrząd pomiarowy**. Projekt mierzy, gdzie postawić elektrodę odniesienia — a do tego potrzebny jest sygnał o znanej częstotliwości, żeby dało się powiedzieć „wynik spadł przez elektrodę", a nie „wynik spadł, bo dziś gorszy dzień". **Wynik o elektrodzie przenosi się potem na każde urządzenie potyliczne, niezależnie od tego, czym się je steruje.**
+
+---
+
 ## 7. Do czego to komu
 
 Uczciwe zastosowanie: **komunikacja i sterowanie dla osób, które nie mogą mówić ani się poruszać.** To nie jest naciągnięcie — to jest funkcja tej technologii i jej główne zastosowanie od trzydziestu lat.

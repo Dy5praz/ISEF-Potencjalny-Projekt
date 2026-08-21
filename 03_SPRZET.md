@@ -19,8 +19,8 @@ Dlaczego to nie jest obejście: gdyby każde położenie odniesienia mierzyć w 
 | Wejście | Położenie | Rola |
 |---|---|---|
 | 1 | **Oz** (~2 cm powyżej inionu) | aktywna, główna |
-| 2 | **O1** | aktywna |
-| 3 | **O2** | aktywna |
+| 2 | **O1** | aktywna, **na cienkim przewodzie ~3,5 cm w bok** |
+| 3 | **O2** | aktywna, **na cienkim przewodzie ~3,5 cm w bok** |
 | **4** | **POz — ~3,5 cm POWYŻEJ Oz, na południku środkowym** | **odniesienie zwarte, kierunek w górę.** Główny kandydat |
 | **5** | **~2 cm poniżej Oz, w obrębie modułu** | **odniesienie zwarte, kierunek w dół** — warunek porównawczy dla kierunku |
 | 6 | wyrostek sutkowaty, cienkim przewodem | odniesienie „krótkie wyprowadzone", ~7 cm |
@@ -31,6 +31,8 @@ Dlaczego to nie jest obejście: gdyby każde położenie odniesienia mierzyć w 
 **Para wejść 4 i 5 to warunek kontrolny w najczystszej postaci, jaką ten projekt ma:** zbliżona odległość, **przeciwny kierunek**, ta sama sesja, te same próbki, ten sam tor. Różnica jest **czystym efektem kierunku**.
 
 `[wniosek]` **Dlaczego kandydat główny poszedł w górę, a nie w dół** (zmiana z 21 VIII 2026): okolica podpotyliczna ma trzech mieszkańców — mięsień karku, móżdżek reagujący na bodziec wzrokowy w paśmie beta, i gładkie pole (`05_STAN_WIEDZY.md` §6). **POz leży powyżej inionu, poza zasięgiem dwóch pierwszych.** Do tego para POz−Oz jest jedyną, dla której istnieje opublikowany wynik: **~46 bit/min przy 40 celach**.
+
+**Rozstrzygnięcie z 21 VIII 2026 (P28a, zamknięte).** Autor dopuścił **dwa cienkie przewody w bok, do O1 i O2** — takie same jak przewód na wyrostek sutkowaty. `[wniosek]` Skutek: obudowa nie musi rozciągać się na boki, żeby objąć O1 i O2, więc **jedynym wymiarem, jaki musi zmieścić, jest pionowa para Oz–POz (~3,5 cm)** — a ta i tak siedzi na jej własnym spodzie (§4). **Gabaryt ~32×48×12 mm zostaje w mocy i nie ma już pozycji, która by go rozciągała.** Przewody boczne są jednocześnie warunkiem koniecznym wariantu C na płytce elastycznej.
 
 **Czego w tym rozkładzie NIE ma:** elektrody szczękowej. Usunięta po pomiarze — jej sufit to **+0,6 pp** nawet w oknach najbardziej skażonych artefaktem, przy p = 0,166. Wymagała elektrody na twarzy, czyli poza modułem. **Sprzęt się przez to upraszcza.**
 

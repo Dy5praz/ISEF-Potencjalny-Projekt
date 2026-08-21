@@ -29,7 +29,7 @@ Reszta: `01` laik · `03` sprzęt i budżet · `04` plan pomiarowy · `06` ryzyk
 
 **Parametry wiążące:** budżet **8 000 zł** · **10 h/tydzień** · kategoria ISEF **EBED** · obszar Explory **Człowiek i Społeczeństwo** · poprzeczka **„gotowy w całości, nie prototyp"**.
 
-**Najbliższe: P28a** (pytanie do użytkownika o dwa przewody do O1/O2) · **P5** (używany Cyton do 30 IX) · **P11** (reanaliza zbioru 102-osobowego, za darmo) · **E0** (przesiew w X 2026 — najważniejszy punkt planu).
+**Najbliższe: P5** (używany Cyton do 30 IX) · **P11** (reanaliza zbioru 102-osobowego, za darmo) · **E0** (przesiew w X 2026 — najważniejszy punkt planu).
 
 ---
 

@@ -54,7 +54,7 @@
 
 **Metryka:** dokładność i **ITR w bitach**, zawsze z podaniem N, P i t. **Nigdy słowa na minutę.**
 
-**Pewność, że przegląd literatury jest domknięty: 97%.** Rozbiór — `05_STAN_WIEDZY.md` §9.
+**Pewność, że przegląd literatury jest domknięty: 97%.** Rozbiór — `05_STAN_WIEDZY.md` §10.
 
 | Cel | Szansa |
 |---|---|
@@ -69,12 +69,13 @@
 
 | # | Zadanie | Termin |
 |---|---|---|
-| **P28a** | **[!] pytanie do autora:** czy dopuszczasz dwa cienkie przewody w bok, do O1 i O2 — takie same jak ten na wyrostek sutkowaty | **czeka** |
 | **P5** | **szukać UŻYWANEGO Cytona, do 1 600 zł.** Warunki odbioru w `03_SPRZET.md` §7.1. Bez oferty do terminu — nowy Ganglion, nie nowy Cyton | **do 30 IX 2026** |
 | **P11** | **reanaliza zbioru Zhu i in. 2021** (102 osoby, PMID 33578754, publiczny) — kod z `analiza/` już działa, koszt zero złotych | IX 2026 |
 | **P14** | trzy pytania do FZT jednym mailem: SRC jako IRB · łączenie z EUCYS · **czy badanie na sobie jest zwolnione** | jesień 2026 |
 | **E0** | **przesiew: czy SSVEP działa u autora.** ~20 minut na kupionej platformie. **Najważniejszy punkt w całym planie** | **X 2026** |
 | **P20** | kontrola grafu cytowań co pół roku (Wu i Su 2014, Diez 2010) | co pół roku |
+
+**Zamknięte 21 VIII 2026:** **P28a** — autor dopuścił dwa cienkie przewody w bok do O1 i O2, gabaryt ~32×48×12 mm zostaje w mocy (`03_SPRZET.md` §2).
 
 Pełna lista: `07_HARMONOGRAM.md`.
 

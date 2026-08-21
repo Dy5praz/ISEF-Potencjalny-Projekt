@@ -245,6 +245,18 @@ Stąd wzór: dla pary odległej o `d` wzdłuż osi propagacji amplituda różnic
 
 # CZĘŚĆ VI — CO Z TEGO ZOSTAŁO
 
+## 22a. Dwa rozstrzygnięcia z 21 sierpnia
+
+**Pierwsze — gabaryt domknięty.** Autor dopuścił **dwa cienkie przewody w bok, do O1 i O2** (P28a). Znaczenie tej zgody jest większe, niż wygląda: dopóki O1 i O2 musiały leżeć pod obudową, obudowa musiała mieć **~7 cm szerokości**, żeby je objąć — i to ona, a nie elektronika, wymuszała płaską płytę wielkości karty płatniczej z K-100. Po zgodzie **jedynym wymiarem, jaki obudowa musi zmieścić, jest pionowa para Oz–POz**, a ta ma 3,5 cm i siedzi na jej własnym spodzie. **Gabaryt ~32×48×12 mm przestał być życzeniem i stał się konsekwencją rozkładu elektrod.**
+
+**Drugie — pytanie o sterowanie wzrokiem.** Autor zapytał, czy migający znacznik jest realnym limitem interfejsu potylicznego, i czy da się go obejść zmianą miejsca, czy potrzeba już inwazyjnego. **Pytanie okazało się luką w dokumentacji, nie w projekcie** (K-104): koszt rezygnacji ze wzroku jest w literaturze zmierzony od 2004 roku, a w plikach nie było ani jednej liczby na ten temat — bo pole nazywa to **„independent BCI"**, a nie żadnym z terminów, których używały wcześniejsze przeszukania. **Czwarte z rzędu zero trafień wywołane własnym słownictwem.**
+
+Odpowiedź na samo pytanie brzmi: **tak, wzrok jest limitem tego miejsca na głowie, i nie, nie potrzeba do jego obejścia inwazyjnego — potrzeba innego miejsca na głowie, a to rozbija i moduł, i pomiar.** Rozbiór z liczbami: `05_STAN_WIEDZY.md` §7.
+
+**Przy okazji tego przeszukania wypłynęła siódma praca do cytowania** — **Fodor 2025, PMID 40563723** (K-103). Jedyna z siedmiu, której **jedynym celem było zmniejszenie montażu** — i która mimo to zostawiła odniesienie na Cz, na przewodzie. To jest pierwszy w tym projekcie **pozytywny** dowód istnienia luki: nie „nie znalazłem nikogo", tylko „widać, gdzie kończy się uwaga pola". Druga rzecz z tej samej pracy trafiła na listę ryzyk jako **R13**: montaż zredukowany **przestał działać całkowicie u 15 z 38 osób**, a średnia dokładność mimo to **wzrosła do 98%** — bo liczona jest tylko z tych, u których cokolwiek działało.
+
+---
+
 ## 23. Cmentarz twierdzeń
 
 | Twierdzenie | Co je zabiło | Kiedy |

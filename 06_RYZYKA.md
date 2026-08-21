@@ -21,6 +21,7 @@ Każde ryzyko w trzech wymiarach: **prawdopodobieństwo**, **sterowalność** (n
 | **R9** | moduł nie mieści się w granicy gabarytu | 25% | wysoka | średni | I 2027 |
 | **R10** | brak opiekuna z tytułem / Qualified Scientist | 20% `[luka]` | średnia | **bardzo wysoki** | XI 2026 |
 | **R12** | **elektroda odniesienia w module siedzi nad móżdżkiem i mięśniem karku** | `[domysł]` **40–60%** | średnia | **niski dla twierdzenia, średni dla gabarytu** | pierwsza własna sesja, wiosna 2027 |
+| **R13** | **montaż zredukowany przestaje działać u części osób całkowicie, nie stopniowo** | `[fakt]` **39% u Fodora 2025** | średnia | **wysoki dla demonstracji** | **X 2026, przesiew E0** |
 | **R11** | ~~użytkownik odrzuca zmianę osi~~ | — | — | — | **ZAMKNIĘTE 16 VIII: wariant C** |
 
 ---
@@ -186,6 +187,27 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 **Plan awaryjny — już istnieje:** decyzja 6 (`11_EWOLUCJA.md`) dopuszcza wyprowadzenie odniesienia cienkim przewodem na wyrostek sutkowaty. Zmienia się jedno położenie elektrody i jedno zdanie o gabarycie.
 
 **Test rozdzielający, koszt zerowy (P23):** raportować SNR **osobno dla f₀ i 2f₀** przy każdym położeniu odniesienia. Strata rosnąca z harmoniczną wskazuje na zanieczyszczenie odniesienia; strata niezależna od częstotliwości — na gładkie pole. `[luka]` Na danych Kołodzieja testu **nie da się wykonać** — przy bodźcach 7/8/9 Hz drugiej harmonicznej praktycznie nie ma (SNR −0,04 do +0,16 dB we wszystkich montażach). Zestaw 8,0–17,8 Hz z `16` §3.2 daje harmoniczne w paśmie 16–35,6 Hz i test umożliwia.
+
+---
+
+## R13 — montaż zredukowany bywa nie „gorszy", tylko niedziałający
+
+`[fakt]` **Fodor, Cantürk, Heisenberg, Volosyak 2025**, Brain Sci 15(6):549, **PMID 40563723**, 38 osób, badanie **online**, c-VEP, cztery cele. Redukcja z 16 elektrod do 6 (PO3, POz, PO4, O1, Oz, O2), odniesienie **cały czas na Cz**:
+
+| Warunek | Dokładność | ITR [bit/min] | **Dla ilu z 38 osób układ w ogóle działał** |
+|---|---|---|---|
+| 16 elektrod | 95,62 ± 8,31% | 49,33 ± 17,07 | **38** |
+| 6 elektrod, bez douczenia | 94,18 ± 8,00% | 37,79 ± 18,68 | **18** |
+| 6 elektrod, po douczeniu | 98,01 ± 3,21% | 48,39 ± 14,24 | **23** |
+
+`[wniosek]` **To jest najważniejsza liczba w tej tabeli i nie widać jej w średnich.** Średnia dokładność po douczeniu **wzrosła** do 98% — bo liczona jest tylko dla tych, u których układ jeszcze działał. **Piętnaście osób z trzydziestu ośmiu (39%) wypadło całkowicie.** Zmniejszanie montażu nie degraduje wyniku gładko; u części osób **przewraca klasyfikator**.
+
+**Skutek dla tego projektu, dwa:**
+
+1. **Dla twierdzenia — żaden.** Twierdzenie jest pomiarowe i mierzy jedną osobę, więc „u ilu procent działa" nie jest jego zmienną. Ale **odsetek zdatnych trzeba raportować** przy każdym warunku, tak jak robi to Liang 2021 (58,3% → 75%).
+2. **Dla demonstracji — duży.** `[domysł]` Jeżeli układ potrafi się przewrócić u 39% osób przy sześciu elektrodach i odniesieniu na Cz, to przy montażu zwartym **pokaz na losowym jurorze może nie zadziałać w ogóle**. **Konsekwencja planu: demonstracja na jurorze jest zakazana jako jedyna forma pokazu.** Pokaz obowiązkowy prowadzi się na autorze, a wariant „dla chętnych" wolno uruchamiać wyłącznie po pokazie właściwym i z zapowiedzią, że u części osób nie zadziała — co samo w sobie jest wynikiem do opowiedzenia.
+
+**Sterowalność:** średnia. Przesiew E0 (X 2026) mierzy to u autora. Wariant „dla chętnych" wymaga **osobnej zgody i procedury Human Participants** (`09_FORMALNOSCI.md`) — bez niej nie wolno go uruchomić nawet na stoisku.
 
 ---
 

@@ -146,7 +146,7 @@ Projekty wykorzystujące szkodliwe substancje, zakładające **inwazyjne** badan
 
 ### 4.3 Konkurencja na ISEF — sprawdzona u źródła
 
-Baza abstraktów, **trzynaście roczników**: `SSVEP` — **5 trafień**, `ADS1299` — **0**. Wszystkie pięć to zastosowania. **Nikt w trzynastu latach nie zbudował na ISEF własnego wzmacniacza EEG.** Rozbiór: `05_STAN_WIEDZY.md` §7.
+Baza abstraktów, **trzynaście roczników**: `SSVEP` — **5 trafień**, `ADS1299` — **0**. Wszystkie pięć to zastosowania. **Nikt w trzynastu latach nie zbudował na ISEF własnego wzmacniacza EEG.** Rozbiór: `05_STAN_WIEDZY.md` §8.
 
 ### 4.4 Projekt referencyjny — ENBM074 (2026)
 

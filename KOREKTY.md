@@ -1481,3 +1481,49 @@ Dopóki historia była rozproszona po plikach roboczych, każdy z nich musiał n
 **Nowe pliki powstałe z konsolidacji:** `01_PROJEKT_DLA_LAIKA` (przepisany pod twierdzenie bieżące) · `02_TWIERDZENIE` · `03_SPRZET` (z `15` i `20`) · `05_STAN_WIEDZY` (z pięciu plików audytowych) · `08_KONKURSY` (z czterech) · `11_EWOLUCJA` (z siedmiu) · `METODA` (z pięciu).
 
 **Reguła na przyszłość:** **nowe ustalenie idzie do pliku, którego dotyczy, i zastępuje treść — nie dopisuje się jako adnotacja pod starą.** Stara wersja ma jedno miejsce: `11_EWOLUCJA.md`, jeżeli była decyzją albo obalonym twierdzeniem, i `KOREKTY.md`, jeżeli była błędem. **Plik roboczy, który zaczyna nieść trzecią warstwę poprawek, jest do przepisania, nie do dopisania.**
+
+
+---
+
+### K-103 — praca najsilniej umotywowana zmniejszaniem montażu i tak nie ruszyła odniesienia; a jej średnie ukrywają 39% porażek
+
+**Skąd się wzięła.** Przeszukanie przy okazji pytania o sterowanie wzrokiem (21 VIII 2026), zapytanie `code modulated VEP BCI information transfer rate` w PubMed. **Nie znalazłoby jej żadne z zapytań o odniesienie** — bo praca dotyczy liczby elektrod, a nie odniesienia.
+
+**Praca.** **Fodor, Cantürk, Heisenberg, Volosyak 2025**, Brain Sci 15(6):549, **PMID 40563723**, PMC12190882, pełny tekst odczytany.
+
+**Procedura tożsamości (`METODA.md` §2), z pełnego tekstu — werdykt: SĄSIEDNI.**
+
+| Pytanie | Odpowiedź |
+|---|---|
+| paradygmat | **c-VEP**, nie SSVEP |
+| zmienna niezależna | **liczba elektrod czynnych, 16 → 6** |
+| położenie odniesienia | **Cz, nieruchome we wszystkich trzech warunkach**; masa AFz |
+| punkt odniesienia porównania | ten sam sprzęt, ci sami ludzie, ta sama sesja — **rzemiosło zgodne z tym, które ten projekt kopiuje** |
+| liczba osób | 38, badanie **online** |
+| gabaryt urządzenia | **nie jest zmienną** — g.USBamp, aparatura laboratoryjna |
+| co przenosi się na ten projekt | dwie rzeczy, obie ważne |
+
+**Rzecz pierwsza — wzmacnia lukę.** `[wniosek]` To jest **jedyna z siedmiu prac w `05_STAN_WIEDZY.md` §2, której jedynym celem było zmniejszenie montażu.** Uzasadnienie autorów jest dokładnie tym samym uzasadnieniem, które nosi ten projekt: *„increasing the number of EEG electrodes across the visual cortex enhances classification accuracy, it simultaneously reduces user comfort and increases setup complexity, duration, and hardware costs"*. **I mimo to odniesienie zostało na czubku głowy, na przewodzie.** Kiedy ktoś optymalizuje wygodę montażu i nie zauważa, że wciąż prowadzi przewód na Cz, to jest to mocniejszy dowód na istnienie luki niż jakikolwiek wynik negatywny z przeszukania — **bo to dowód pozytywny: widać, gdzie kończy się uwaga pola.**
+
+**Rzecz druga — ryzyko, którego nie było na liście.** `[fakt]` Układ **przestał działać całkowicie u 20 z 38 osób** bez douczenia i u **15 z 38 (39%) po douczeniu**. Średnia dokładność po douczeniu **wzrosła do 98,01%** — bo liczy się ją tylko dla tych, u których cokolwiek działało. **Redukcja montażu nie degraduje wyniku gładko; u części osób przewraca klasyfikator.** Wpisane jako **R13** (`06_RYZYKA.md`), ze skutkiem planistycznym: **demonstracja na losowym jurorze zakazana jako jedyna forma pokazu.**
+
+**Reguła, która z tego wychodzi:** **średnia dokładność liczona po osobach, u których układ zadziałał, jest miarą wybiórczą i trzeba przy niej zawsze podawać odsetek zdatnych.** Ten projekt raportuje odsetek zdatnych przy każdym warunku — tak jak Liang 2021 (58,3% → 75%), i **inaczej niż Fodor 2025, u którego trzeba tę liczbę wyłuskać z tekstu.**
+
+---
+
+### K-104 — zależność SSVEP od wzroku opisana dopiero po pytaniu autora, choć jest pierwszym pytaniem każdego jurora
+
+**Co było.** Dokumentacja nie zawierała **ani jednej liczby** o tym, ile kosztuje rezygnacja ze sterowania wzrokiem. Powód jest ten sam, który w tym projekcie zawiódł już trzy razy: **własne słownictwo.** Pole nazywa interfejs niezależny od wzroku terminem **„independent BCI"**, a nie „gaze-free" ani „bez sterowania wzrokiem" — więc żadne z wcześniejszych przeszukań go nie dotknęło (**czwarte wystąpienie pułapki słownikowej**, po K-074, K-093 i K-101).
+
+**Pytanie autora, 21 VIII 2026:** *„nie dałoby się obejść jakoś tego sterowania wzrokiem? (…) Czy to jest realnie nasz limit z interfejsem nieinwazyjnym na potylicy?"*
+
+**Co jest.** `05_STAN_WIEDZY.md` §7 — cztery drogi wyjścia z kosztem zmierzonym, plus §7.1 z przyczyną anatomiczną i §7.3 z rozstrzygnięciem, dlaczego to nie jest ograniczenie **tego** twierdzenia. Odpowiedź jurorowi: `02_TWIERDZENIE.md` §7, pytanie czwarte.
+
+**Trzy liczby, których wcześniej nie było w żadnym pliku:**
+- `[fakt]` **Kelly i in. 2004** (PMID 17271364): *„accuracy is found to be reduced by approximately 20% in the switch from overt to covert attention when no other specifications of the task are changed"*
+- `[fakt]` **Lesenfants i in. 2014** (PMID 24838215): interfejs *„truly independent of all neuromuscular functions"*, **dwie klasy**, online **74 ± 13%** u 24 osób zdrowych; **1 na 4 pacjentów z zespołem zamknięcia zdołał się porozumieć online**. Przeliczone wzorem Wolpawa: **0,173 bit na wybór** wobec **4,687 bita** u Li 2025 przy czterdziestu celach
+- `[fakt]` **Walter i in. 2012** (PMID 22579858): przy uwadze jawnej maksimum SSVEP wypada na **środkowych elektrodach potylicznych**, przy utajonej — na **przeciwstronnych ciemieniowo-potylicznych**
+
+**Wniosek, który przesądza sprawę dla tego urządzenia, a nie tylko dla paradygmatu:** `[wniosek]` uwaga utajona **przesuwa sygnał spod modułu**. Moduł zbudowany wokół Oz przestaje wtedy stać w najlepszym miejscu — więc droga „covert" nie tylko kosztuje 20 pp i schodzi do dwóch klas, ale **podważa sens umieszczania elektroniki na potylicy**, czyli samą przesłankę projektu.
+
+**Reguła:** **zanim uzna się jakieś ograniczenie za oczywiste i niewarte opisania, sprawdzić, jak pole je nazywa.** Ograniczenie oczywiste dla autora ma zwykle w literaturze własny termin, własny podrozdział i własne liczby — a juror zapyta o nie w pierwszej minucie.

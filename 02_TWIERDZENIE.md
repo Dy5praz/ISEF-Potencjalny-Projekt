@@ -71,7 +71,7 @@
 3. **efekt jest o dwa rzędy wielkości większy** niż ten, który odpadł: 9–24 pp zamiast 0,2 pp
 4. **uzasadnienie nie brzmi „nikt tego nie zrobił", tylko „trzy opublikowane wyniki są sprzeczne i nikt ich nie pogodził"** — a to jest odporne na znalezienie czwartej pracy
 
-## 7. Trzy odpowiedzi przygotowane na pytania jurora
+## 7. Cztery odpowiedzi przygotowane na pytania jurora
 
 **„Czemu nie robisz tego, co DSTF-Net?"** (Yan i in. 2026, rekonstrukcja sygnału potylicznego z czołowego siecią neuronową)
 > *Tamto rozwiązuje przypadek, w którym potylicy nie da się użyć w ogóle — pacjent leży, ma ubytek kości albo stabilizator. Wymaga sieci uczonej na parach sygnałów. Mój problem jest inny: potylica jest dostępna, tylko urządzenie musi być małe. Na to sieć nie odpowiada, bo pytanie brzmi, gdzie postawić elektrodę, a nie jak odtworzyć sygnał, którego nie ma.*
@@ -81,6 +81,11 @@
 
 **„Przecież to wynika z fizyki objętościowego przewodzenia."**
 > *Kierunek efektu owszem, wielkość nie. Różnica między −5 pp a −24 pp decyduje o tym, czy urządzenie w danym gabarycie ma sens, a fizyka jej nie podaje. Do tego dwie opublikowane prace dają dla tej samej operacji przeciwne znaki — Diez 2010 i Li 2025 mówią, że dwubiegunowy jest lepszy, moja reanaliza cudzych danych mówi, że gorszy. Skoro znaki są przeciwne, „to wynika z fizyki" przestaje być odpowiedzią.*
+
+**„Przecież to i tak trzeba obsługiwać wzrokiem — po co to komu?"**
+> *Kora potyliczna jest korą wzrokową, więc najsilniejsza modulacja dostępna nad nią nieinwazyjnie to skierowanie oka. Zmierzono, ile kosztuje rezygnacja z tego: przy uwadze utajonej dokładność spada o około 20 punktów procentowych (Kelly 2004), a najlepszy opublikowany układ niezależny od wzroku daje dwie klasy i 0,173 bita na wybór wobec 4,687 bita przy czterdziestu celach — dwudziestosiedmiokrotnie mniej (Lesenfants 2014). Do tego przy uwadze utajonej maksimum sygnału przenosi się z elektrod potylicznych na ciemieniowo-potyliczne przeciwstronne (Walter 2012), czyli spod modułu. Ale to nie jest ograniczenie mojego wyniku: SSVEP jest u mnie przyrządem pomiarowym, nie produktem. Mierzę geometrię elektrody odniesienia, a SSVEP wybrałem dlatego, że jako jedyny paradygmat daje sygnał o znanej częstotliwości, więc zmianę wyniku da się przypisać elektrodzie, a nie dyspozycji dnia. Wynik o geometrii przenosi się na każdy interfejs potyliczny, niezależnie od tego, czym się go steruje.*
+
+**Liczby i źródła: `05_STAN_WIEDZY.md` §7.**
 
 ## 8. Kryterium porażki, zapisane przed pomiarem
 

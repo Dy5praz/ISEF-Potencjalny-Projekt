@@ -36,7 +36,7 @@ Dotąd liczby leżały w trzech postaciach — dokładność przy różnej liczb
 
 ---
 
-## 2. Sześć prac, które trzeba znać i cytować
+## 2. Siedem prac, które trzeba znać i cytować
 
 Wszystkie przeszły **procedurę tożsamości** (`METODA.md` §2). **Werdykt dla wszystkich: sąsiedni — wspólne pytanie, inny eksperyment. Żadna nie jest tożsama.**
 
@@ -48,8 +48,12 @@ Wszystkie przeszły **procedurę tożsamości** (`METODA.md` §2). **Werdykt dla
 | **Kim H. i in. 2025**, PNAS 122(15), **PMID 40193612** | mikroczujniki między mieszkami włosowymi, impedancja 0,03 kΩ·cm⁻², 12 h noszenia, demonstracja AR | **Pz**, nieruchome | praca **materiałowo-wytwórcza**; tor kupiony; **dwa cele**; ITR nie podane. Elektroda jest problemem rozwiązanym i opatentowanym |
 | **Kołodziej, Majkowski, Wiszniewski 2026** (PW), Sensors 26(3):917, **PMID 41682433** | redukcja artefaktów kanałami pomocniczymi, 12 osób, 3 cele, +9,1 pp | **małżowina** | **dane publiczne, reanalizowane w tym projekcie od zera.** Zysk pochodzi z Cz, nie z kanału mięśniowego |
 | **Yan W. i in. 2026** (Xi'an Jiaotong), npj Biomedical Innovations, **PMID 42527436** | rekonstrukcja sygnału potylicznego z czołowego siecią DSTF-Net, 12 + 20 osób, 4 cele, poprawa do 33,47% | **Cz**, u pacjentów **wyrostki sutkowate** | ograniczenie **medyczne** (pacjent leżący, ubytek kości potylicznej), nie gabarytowe. **Rezygnują z potylicy** |
+| **Fodor, Cantürk, Heisenberg, Volosyak 2025** (Rhine-Waal), Brain Sci 15(6):549, **PMID 40563723** | c-VEP, **38 osób online**, redukcja montażu **16 → 6 elektrod** (PO3, POz, PO4, O1, Oz, O2), cztery cele; ITR 49,33 → 37,79 → **48,39 bit/min** po douczeniu | **Cz**, masa AFz — **nieruchome we wszystkich trzech warunkach** | zmienną jest **liczba elektrod czynnych**, nie położenie odniesienia. **Odniesienie zostało na czubku głowy, na przewodzie** — czyli praca najsilniej umotywowana wygodą montażu **i tak nie ruszyła tej elektrody** |
 
-`[wniosek]` **Wszystkie sześć trzymają odniesienie nieruchomo, w pięciu różnych miejscach poza modułem: czoło, Cz, Pz, małżowina, wyrostek sutkowaty. Żadna nie zeszła z odniesieniem do wnętrza obszaru potylicznego i nie zmierzyła, ile to kosztuje.**
+
+`[wniosek]` **Wszystkie siedem trzymają odniesienie nieruchomo, w pięciu różnych miejscach poza modułem: czoło, Cz, Pz, małżowina, wyrostek sutkowaty. Żadna nie zeszła z odniesieniem do wnętrza obszaru potylicznego i nie zmierzyła, ile to kosztuje.**
+
+`[fakt]` **Fodor 2025 jest z tych siedmiu najmocniejszym argumentem za istnieniem luki**, bo to jedyna praca, której **jedynym celem było zmniejszenie montażu** — i która mimo to zostawiła odniesienie na Cz. Rozbiór wg procedury tożsamości (`METODA.md` §2) w `KOREKTY.md` K-103. **Werdykt: sąsiedni.**
 
 ---
 
@@ -111,7 +115,34 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 
 ---
 
-## 7. Konkurencja na ISEF — sprawdzona u źródła
+## 7. Sterowanie wzrokiem — gdzie leży granica i ile kosztuje jej przekroczenie
+
+**Po co to tu jest:** to jest pytanie, które juror zada, i jedyne pytanie o paradygmat, na które trzeba mieć liczby, a nie zdanie.
+
+### 7.1 Dlaczego SSVEP z potylicy jest z natury sterowany wzrokiem
+
+`[fakt]` Kora potyliczna **jest** korą wzrokową, a jej mapa jest retinotopowa z powiększeniem korowym: dołek środkowy siatkówki zajmuje w niej udział nieproporcjonalnie duży wobec swojej powierzchni. `[fakt]` **Zhou, Hu, Yu, Li 2021** (PMID 34970111, 25 osób, mimośród 0,75°–13,90°): amplituda SSVEP **maleje monotonicznie z mimośrodem** bodźca względem punktu fiksacji. Skierowanie oka na bodziec jest więc **najsilniejszą modulacją, jaka jest w tym miejscu głowy dostępna nieinwazyjnie** — nie jest wyborem projektowym, tylko konsekwencją anatomii.
+
+### 7.2 Cztery drogi wyjścia i ich zmierzony koszt
+
+| Droga | Co zmienia | Zmierzony koszt | Werdykt dla tego projektu |
+|---|---|---|---|
+| **uwaga utajona** (covert attention) — oko nieruchome, uwaga przesunięta | usuwa zależność od ruchu oczu, **nie od wzroku** | **Kelly i in. 2004** (PMID 17271364): dokładność **spada o ~20 pp** przy samej zamianie jawnej na utajoną. **Lesenfants i in. 2014** (PMID 24838215, Liège): **2 klasy**, 24 osoby zdrowe, offline 85 ± 2%, **online 74 ± 13%**; **0,173 bit na wybór** wobec 4,687 bit u Li 2025 — **27-krotnie mniej informacji na wybór**, niezależnie od czasu okna | **realna, ale to inny wyrób.** Do zapisania jako wariant, nie do zbudowania |
+| **RIFT** — znakowanie częstotliwością niewidoczną (rapid invisible frequency tagging) | usuwa **widoczne migotanie**, projektor 1 440 Hz, migotanie 56 i 60 Hz | **Brickwedde i in. 2022** (PMID 36228894) | usuwa zarzut estetyczny, **nie usuwa zależności od wzroku.** Wymaga projektora 1 440 Hz — poza budżetem |
+| **zmiana miejsca na głowie** — wyobrażenie ruchu, słuch, dotyk | usuwa wzrok całkowicie | wyobrażenie ruchu: 70–85% przy dwóch klasach u osób wyszkolonych, **15–30% nie opanowuje tego wcale**; sygnał leży nad korą czuciowo-ruchową, nie nad potylicą | **rozbija i moduł, i pomiar.** Odrzucone — patrz §7.3 |
+| **inwazyjne** | usuwa wzrok, daje setki bitów na minutę | — | poza zakresem: kategoria ISEF, wiek autora, badani ludzie |
+
+`[fakt]` **Walter, Quigley, Andersen, Mueller 2012** (PMID 22579858) dokłada rzecz, która przesądza sprawę dla **tego** urządzenia: przy uwadze jawnej największa amplituda SSVEP wypada **na środkowych elektrodach potylicznych**, przy utajonej — **na przeciwstronnych ciemieniowo-potylicznych**. `[wniosek]` **Przejście na uwagę utajoną przesuwa sygnał spod modułu.** Moduł zbudowany wokół Oz przestaje wtedy stać w najlepszym miejscu — czyli droga „covert" nie tylko kosztuje 20 pp, ale **podważa sens umieszczenia elektroniki na potylicy.**
+
+### 7.3 Dlaczego to nie jest ograniczenie tego projektu
+
+`[wniosek]` **SSVEP jest w tym projekcie przyrządem pomiarowym, nie produktem.** Twierdzenie (`02_TWIERDZENIE.md`) dotyczy **geometrii elektrody odniesienia**; SSVEP został wybrany, bo jest jedynym paradygmatem, który daje **powtarzalny sygnał o znanej częstotliwości** — a więc metrykę SNR w prążku, która pozwala przypisać zmianę wyniku położeniu elektrody, a nie dyspozycji dnia. Wyobrażenie ruchu tego nie ma: jego **zmienność między sesjami przewyższa mierzony efekt geometrii**, więc zamiana paradygmatu **uniemożliwiłaby pomiar, dla którego projekt istnieje**.
+
+`[wniosek]` Wniosek praktyczny: **zależność od wzroku zostaje, jest opisana w ograniczeniach, i jest opisana liczbami cudzych prac.** Odpowiedź jurorowi — `02_TWIERDZENIE.md` §7, pytanie czwarte.
+
+---
+
+## 8. Konkurencja na ISEF — sprawdzona u źródła
 
 `[fakt]` Baza abstraktów Society for Science, **trzynaście roczników 2014–2026**, przeszukana formularzem:
 
@@ -129,7 +160,7 @@ Wszystkie pięć projektów SSVEP to **zastosowania** — sterowanie muzyką, uw
 
 ---
 
-## 8. Wykonalność — potwierdzona cudzą opublikowaną konstrukcją
+## 9. Wykonalność — potwierdzona cudzą opublikowaną konstrukcją
 
 `[fakt]` **arXiv 2601.01772** (grupa Chin-Teng Lina, UTS Sydney), *„Design and Quantitative Evaluation of an Embedded EEG Instrumentation Platform for Real-Time SSVEP Decoding"* — **dokładnie architektura tego projektu**: ESP32-S3 + ADS1299, 8 kanałów, CCA na urządzeniu.
 
@@ -148,7 +179,7 @@ Wszystkie pięć projektów SSVEP to **zastosowania** — sterowanie muzyką, uw
 
 ---
 
-## 9. Czego nie sprawdzono i sprawdzić się nie da
+## 10. Czego nie sprawdzono i sprawdzić się nie da
 
 `[luka]` **CNKI** — największa chińska baza, blokuje ten adres na poziomie aplikacji (HTTP 418). Chińskie rozprawy doktorskie i materiały konferencyjne pozostają poza zasięgiem. **To jest największa pojedyncza dziura** i tym istotniejsza, że **to właśnie z literatury chińskiej wyszła praca, która zabiła poprzednie brzmienie twierdzenia.** `[domysł]` ryzyko, że siedzi tam praca o odległości odniesienia: **3–6%**.
 
