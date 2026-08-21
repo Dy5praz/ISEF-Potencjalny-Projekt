@@ -38,8 +38,8 @@
 | **`10_STUDIA_USA.md`** | cel nadrzędny: uczelnie, kalendarz rekrutacyjny, SAT i egzamin z angielskiego |
 | **`12_REANALIZA.md`** | **jedyny własny pomiar, jaki projekt dotąd ma** — reanaliza cudzych danych, odtworzona dwukrotnie |
 | **`METODA.md`** | jak się w tym projekcie sprawdza literaturę: procedura tożsamości, trzy kanały przeszukania, stan dostępu do baz |
-| **`13_WERDYKT.md`** | **czy w to grać: trzy bramki, liczby bezwarunkowe, warunki odwrócenia werdyktu.** Wydany 21 VIII 2026 |
-| **`KOREKTY.md`** | rejestr błędów, **K-001…K-110**. Dopisuj każdy nowy |
+| **`13_WERDYKT.md`** | **czy w to grać — rozstrzygnięcie w §0, cztery akapity.** Rachunek (bramki, liczby bezwarunkowe) w części drugiej |
+| **`KOREKTY.md`** | rejestr błędów, **K-001…K-111**. Dopisuj każdy nowy |
 | **`analiza/`** | jedenaście skryptów w Pythonie — FBCCA, TRCA, SVM, montaże, okna, harmoniczne |
 | **`archiwum/`** | 42 pliki poprzednich wersji. **Nic nie zostało usunięte** |
 

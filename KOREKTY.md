@@ -1843,3 +1843,23 @@ Najprostszy wariant „na LED-ach" — jedna dwukolorowa dioda w jednym punkcie,
 ---
 
 **Reguła, wpisana do `METODA.md`:** **każda tabela prawdopodobieństw musi podawać warunek obok liczby, a warunek musi mieć własną liczbę.** Wskaźnik warunkowy bez wypisanego warunku jest tym samym uchybieniem co dokładność bez podanego N — i w tym projekcie jest zakazany z tego samego powodu.
+
+---
+
+### K-111 — na pytanie o decyzję odpowiedziałem rachunkiem, i wyszła z tego trzecia strona tabel
+
+**Skąd.** Reakcja autora na pierwszą wersję `13_WERDYKT.md`, 21 VIII 2026: *„Zamiast napisać coś sensownego skupiłeś się na liczeniu szans. (…) A doczytać się tutaj sensownego werdyktu to jest wyczyn."*
+
+**Co było.** Pytanie brzmiało: *„warto? Stawiać na ten projekt czy szukać czegoś innego?"* — czyli **pytanie o osąd, od kogoś, kto przeczytał całość.** Dostał: wyprowadzenie prawdopodobieństwa dowiezienia, poprawkę do tabeli szans, nowy wpis do rejestru błędów i **176 linii, w których zdanie „rób to" nie padło ani razu.**
+
+`[wniosek]` **Odpowiedź nie była fałszywa — była odpowiedzią na inne pytanie.** Liczby w niej stoją i zostają w części drugiej pliku. Ale **na pytanie „czy w to grać" odpowiada się rozstrzygnięciem, a rachunek jest dopiero uzasadnieniem** — i kolejność tych dwóch rzeczy nie jest kwestią układu tekstu, tylko tego, czy w ogóle padła odpowiedź.
+
+**Skąd wziął się błąd.** `[wniosek]` **Sięgnąłem po narzędzie, które umiem obsłużyć najszybciej, zamiast po to, którego wymagało pytanie.** Rachunek zamknięty był w tym tygodniu skuteczny cztery razy pod rząd (K-105…K-107, K-110), więc został użyty piąty raz — na zadaniu, które nie było zadaniem rachunkowym. **To jest ten sam kształt co K-105 i K-109: rzecz prawdziwa w wąskiej ramce, podana jako odpowiedź ogólna.** Czwarty raz w tygodniu, tym razem nie w opisie projektu, tylko w rozmowie o nim.
+
+**Poprawka.** `13_WERDYKT.md` przepisany: **§0 to rozstrzygnięcie, cztery akapity, bez ani jednej tabeli prawdopodobieństw.** Rachunek przeniesiony do części drugiej z jawnym zdaniem, że **nie jest werdyktem, tylko jego ramą.** Sekcje zdublowane usunięte.
+
+**Znalezisko przy okazji, i ważniejsze od samej poprawki.** `[fakt]` **Pięć dni audytu, 5 700 linii dokumentacji, zero sprzętu i zero własnych pomiarów.** Jeden dzień reanalizy (16 VIII) dał **całe twierdzenie bieżące**; pięć dni po nim dało **jedenaście poprawek do opisu**. Poprawki są dobre i potrzebne — ale `[wniosek]` **ten projekt nie umrze na złej fizyce, tylko wtedy, gdy stanie się projektem o pisaniu dokumentacji. I model to napędza, bo pisanie dokumentów jest tym, co robi najszybciej.**
+
+**Reguła, wiążąca od teraz:** **do listopada 2026 nie powstaje żaden nowy plik dokumentacji.** Dopuszczalne są wyłącznie: wpisy do `KOREKTY.md`, wynik E0 i dziennik budowy. **Następna rzecz, która ma przybyć w tym repozytorium, to liczba zmierzona własnym torem albo taśmą — nie akapit.**
+
+**Reguła druga:** **kiedy pada pytanie o decyzję, pierwszym zdaniem odpowiedzi jest decyzja.** Rachunek wolno dołożyć poniżej i trzeba go dołożyć — ale nie zamiast.
