@@ -81,6 +81,8 @@ To jest zgodne z każdym punktem, który mam:
 | O1−Oz, O2−Oz (reanaliza) | **skośna**, blisko poziomej | 48,8% i 55,0% |
 | para sutkowata (Cardoso) | **pozioma**, całkowicie poza polem | **2,5 bit/min\*** |
 
+> **WZMOCNIONE 21 VIII 2026 — `40` §4.** Hipoteza kierunku przestaje być domysłem z czterech rozrzuconych punktów. `[fakt, PMID 16544207 i 17671957, 110 elektrod]` Pole SSVEP ma **strukturę falową**: fale biegnące o **λ > 15–20 cm** propagujące się **potylica → przedczołowie**, czyli **wzdłuż osi Oz–POz**. Dla pary odległej o `d` wzdłuż tej osi amplituda różnicy wynosi **`|2·sin(πd/λ)|`** — przy d = 3,5 cm i λ = 15–20 cm daje to **1,04–1,34**, czyli sygnał **zachowany**, a para w poprzek osi ma różnicę faz ≈ 0 i **kasuje**. **Jeden wzór tłumaczy wszystkie sześć opublikowanych punktów.**
+
 `[luka]` **Nikt tego nie zmierzył jako zmiennej.** Wszystkie cztery punkty pochodzą z czterech różnych prac, sprzętów i grup badanych — czyli różnią się wszystkim naraz. **To jest dokładnie ten sam problem, który uzasadnia całe twierdzenie projektu, tylko w drugim wymiarze.**
 
 ---
@@ -113,6 +115,8 @@ To jest zgodne z każdym punktem, który mam:
 **Obawa:** wynik brzmiący „musi być pudełko" źle się ogląda.
 
 `[wniosek]` **Po tej poprawce najbardziej prawdopodobny wynik nie brzmi tak.** Jeżeli hipoteza kierunku się potwierdzi, zdanie końcowe brzmi:
+
+> **POPRAWKA 21 VIII 2026 — K-100.** Sformułowanie „naklejka wielkości karty płatniczej" niżej **opisuje rozpiętość elektrod jako bryłę i jest mylące**. `[wniosek]` Realna obudowa to **~32×48×12 mm, mniej niż pudełko zapałek**, a **odległość Oz–POz (~35 mm) mieści się na jej własnym spodzie** — krytyczna para nie wymaga ani jednego przewodu. Rozbiór: `40_GABARYT_MECHANIZM_I_DOMKNIECIE.md` część I.
 
 > **Moduł potyliczny musi być wydłużony w pionie, nie duży.** Para elektrod odległa o ~3,5 cm wzdłuż osi góra-dół zachowuje przepustowość, para o tej samej odległości w poprzek — nie. Urządzenie jest **naklejką wielkości karty płatniczej**, a nie pudełkiem.
 

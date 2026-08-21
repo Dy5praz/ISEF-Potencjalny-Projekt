@@ -13,14 +13,15 @@
 | **3** | **`37_PROCEDURA_TOZSAMOSCI_I_ROZBIORY.md`** | **procedura: czy cudza praca jest tym samym projektem, czy tylko tym samym pytaniem** — siedem pytań; rozbiór pięciu prac, które zabiły osie (wszystkie **sąsiednie**, nie tożsame); przeszukiwanie po grafie cytowań; **instrukcja po klucze API** |
 | **4** | **`38_DLACZEGO_NIKT_TEGO_NIE_MIERZY.md`** | **dlaczego pole jest puste** — bo dziedzina rozwiązuje problem odniesienia obliczeniowo, a to wymaga wielu elektrod. Plus **zła wiadomość: okolica podpotyliczna ma trzech mieszkańców**, jeden reaguje na bodziec wzrokowy. Nowe ryzyko R12 |
 | **5** | **`39_KIERUNEK_NIE_TYLKO_ODLEGLOSC.md`** | **urządzenie nie musi być pudełkiem.** Wszystko opublikowane przeliczone na bit/min; para pionowa POz−Oz daje **~46 bit/min przy 40 celach**, para sutkowata 2,5. Dziura w planie elektrod i poprawka za zero złotych |
-| 6 | **`30_POWROT_DO_INTERFEJSU.md`** | **projekt bieżący** — czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a |
-| 7 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
-| 8 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
-| 9 | **`34_PARAMETRY_I_RAMY.md`** | **budżet 8 000 zł, 10 h/tydzień, kategoria EBED, drabinka zejść, plan pomiarowy** |
-| 10 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
-| 11 | `KOREKTY.md` | rejestr błędów **K-001…K-095**. Dopisuj każdy nowy. **Uwaga: odsyłacze K-051…K-059 w plikach odzyskanych z gałęzi `etap-2` zostały przemapowane 18 VIII 2026 — mapowanie przy K-089** |
-| 12 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
-| 13 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
+| **6** | **`40_GABARYT_MECHANIZM_I_DOMKNIECIE.md`** | **co naprawdę ma 4×8 cm** (obudowa to pudełko zapałek, para Oz–POz mieści się na jej spodzie); **mechanizm falowy** — hipoteza kierunku dostaje wzór; **domknięcie przeglądu, 97%** |
+| 7 | **`30_POWROT_DO_INTERFEJSU.md`** | **projekt bieżący** — czym jest, twierdzenie, przebudowa demonstracji, poprawki 6a |
+| 8 | **`32_STUDIA_USA.md`** | **cel nadrzędny** — uczelnie, kalendarz rekrutacyjny, zadania, werdykt „czy warto" |
+| 9 | **`31_ANALIZA_STAWKI_2026.md`** | z kim się konkuruje: noty 21 finalistów Explory 2026, wzorce rzemiosła, plan treningu |
+| 10 | **`34_PARAMETRY_I_RAMY.md`** | **budżet 8 000 zł, 10 h/tydzień, kategoria EBED, drabinka zejść, plan pomiarowy** |
+| 11 | **`33_KONKURSY_ROZBIEGOWE.md`** | El-Robo-Mech i olimpiada OITwEiM: regulaminy, terminy, szanse, decyzja o przesunięciu olimpiady na edycję 2027/28 |
+| 12 | `KOREKTY.md` | rejestr błędów **K-001…K-101**. Dopisuj każdy nowy. **Uwaga: odsyłacze K-051…K-059 w plikach odzyskanych z gałęzi `etap-2` zostały przemapowane 18 VIII 2026 — mapowanie przy K-089** |
+| 13 | `HANDBOOK.md` | zasady współpracy. **Sekcje 1–8 i 12–13 obowiązują. Sekcje 9–11 to historia** |
+| 14 | `12_AUDYT.md` | **wzorzec audytu adwersaryjnego** — metoda zostaje w mocy |
 
 **Pliki odzyskane 18 VIII 2026 z gałęzi `claude/etap-2-v9dtnt` (K-076)** — dorobek etapu 2 dla interfejsu, którego `main` nigdy nie widziała:
 
@@ -92,7 +93,8 @@ Lejek zweryfikowany w informacji prasowej FZT z 1 VI 2026: **377 zgłoszeń → 
 | **P11** | **reanaliza zbioru Zhu i in. 2021 — 102 osoby, PMID 33578754, publiczny.** Powtórzyć analizę montaży z `14` §5 na próbie ośmiokrotnie większej niż Kołodziej. Kod z `analiza/` już działa, koszt zero złotych | **IX 2026** |
 | **P12** | **sekcja o stanie wiedzy** z sześcioma pracami z `35` §2 — pod §7 pkt 2d regulaminu Explory, który daje **10 pkt na 40 za znajomość dotychczasowych badań** | przed zgłoszeniem |
 | **P13** | **przećwiczyć odpowiedź na zarzut „to wynika z fizyki objętościowego przewodzenia"** (`35` §2.7) | trening IX 2027 |
-| **P28** | **[!] PYTANIE DO CIEBIE:** czy moduł wydłużony pionowo (~4×8 cm, od Oz do POz) mieści się w granicy z decyzji 3 („zero hełmów")? Od tego zależy, czy odniesienie może iść w górę · JT | **do rozstrzygnięcia** |
+| **P28a** | **[!] PYTANIE DO CIEBIE, węższe:** czy dopuszczasz **dwa cienkie przewody w bok, do O1 i O2** — takie same jak ten na wyrostek sutkowaty z decyzji 6? Para Oz–POz mieści się w obudowie, więc granica gabarytu nie jest już problemem (`40` §3) · JT | **do rozstrzygnięcia** |
+| **P31** | **przewidywanie zapisane z góry**: krzywa `\|2·sin(πd/λ)\|`, λ = 15–20 cm, plus zależność od pasma — do rejestracji twierdzeń w `16` §1 | przed pomiarem |
 | **P29** | tabela przeliczeniowa z `39` §1 (wszystko opublikowane w bit/min) — gotowy materiał na `Research Problem` i na plakat | z P12 |
 | **P23** | **raportować SNR osobno dla f₀ i 2f₀** przy każdym położeniu odniesienia — test rozdzielający mechanizm móżdżkowy od gładkiego pola (`38` §5.2). Koszt: jedna kolumna | do planu pomiarowego |
 | **P25** | do stanu wiedzy: cytaty **Choi 2006** i **Yao 2019** — uzasadnienie luki cudzą ręką (`38` §1–2) | z P12 |

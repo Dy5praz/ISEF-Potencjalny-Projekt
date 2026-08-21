@@ -1429,3 +1429,35 @@ Czyli: **czepek ośmiokanałowy rozpięty od POz do O2**, odniesienie i masa **n
 **Poprawka.** Wejście 4 przeniesione z „2 cm poniżej Oz" na **POz, ~3,5 cm powyżej Oz**; wejście 5 na „2 cm poniżej Oz" jako **warunek porównawczy dla kierunku**. Zmienna główna w `16` §3.2 staje się **dwuwymiarowa: odległość oraz kierunek**. Koszt: zero — ta sama liczba wejść, ta sama płytka, te same sesje. Przy okazji **obniża R12**, bo POz leży powyżej inionu, poza zasięgiem mięśnia karku i tylnego dołu czaszki.
 
 **Reguła, i jest ogólniejsza niż ten przypadek:** **przy budowaniu planu pomiarowego na podstawie reanalizy cudzych danych wypisać, czego w tamtym zbiorze NIE BYŁO** — i sprawdzić, czy brakująca rzecz nie jest przypadkiem zmienną. `14_REANALIZA.md` §9 wymienia dziewięć ograniczeń reanalizy i **żadne z nich nie brzmi „zbiór nie zawiera par pionowych"**. Brakujące wymiary zbioru są niewidoczne w wynikach — trzeba je wypisać z układu elektrod, zanim się na nich cokolwiek zbuduje.
+
+---
+
+### K-100 — „naklejka wielkości karty płatniczej" opisywała rozpiętość elektrod jako bryłę urządzenia
+
+**Co było.** `39_KIERUNEK_NIE_TYLKO_ODLEGLOSC.md` §4: *„Urządzenie jest **naklejką wielkości karty płatniczej**, a nie pudełkiem"*, oraz pytanie P28 o to, czy moduł **4×8 cm** mieści się w granicy gabarytu.
+
+**Co jest.** Użytkownik wyłapał: *„Te 4×8 to nie będzie sama płytka i elektronika? Tylko raczej elektrody w większości?"* **Ma rację.** 4×8 cm to **rozpiętość czterech punktów elektrodowych**, a nie obrys bryły. Elektroda kubkowa ma ~10 mm średnicy i poniżej 2 mm grubości; cztery takie punkty nie tworzą żadnej bryły — tworzą ją tylko przewody, a te chowa włos.
+
+`[wniosek]` Realna elektronika: ADS1299 w TQFP-64 to **10×10 mm**, moduł ESP32-S3-MINI ~15×21 mm, ogniwo LiPo 402030 ~30×20×4 mm. Płytka czterowarstwowa **~30×45 mm**, całość z obudową **~32×48×12 mm — mniej niż pudełko zapałek.**
+
+**Rzecz, której nie zauważyłem, a która rozwiązuje sprawę:** **obudowa ma ~48 mm wysokości, a odległość Oz–POz wynosi ~35 mm.** Obudowa ustawiona pionowo **mieści obie elektrody krytycznej pary na własnym spodzie**. Para, na której stoi całe twierdzenie, **nie wymaga ani jednego przewodu**; na przewodach zostają tylko O1 i O2.
+
+**Dlaczego to był realny błąd, a nie przejęzyczenie:** sformułowanie „naklejka wielkości karty płatniczej" **opisywało wariant, który sam bym odrzucił** (jedna sztywna płyta 4×8 cm), i postawiło użytkownikowi pytanie o granicę gabarytu, na które **nie trzeba było odpowiadać**, bo krytyczna para mieści się w obudowie.
+
+**Reguła:** **przy podawaniu gabarytu rozdzielać rozpiętość elektrod od obrysu bryły.** To są dwie różne wielkości i tylko druga jest widoczna. Skala widoczności z `06_TABELA_PARAMETROW.md` §4 mierzy **widoczność**, nie powierzchnię zajętą przez punkty pomiarowe.
+
+---
+
+### K-101 — dziewięć rund przeszukania i ani jedna nie zajrzała do sekcji metod
+
+**Co było.** Dziewięć rund przeszukania prior art: PubMed, Europe PMC, Crossref, OpenAIRE, DOAJ, arXiv, J-STAGE, CiNii, CQVIP, Semantic Scholar, Google Patents, Patentscope. **Wszystkie przeszukiwały tytuły, abstrakty i słowa kluczowe.**
+
+**Czego to nie mogło znaleźć.** `[wniosek]` **Położenie elektrody odniesienia jest podawane w sekcji metod i prawie nigdy w abstrakcie.** Praca, która postawiła odniesienie w nietypowym miejscu, **nie napisze o tym w abstrakcie**, bo dla niej to jest szczegół aparaturowy. Dziewięć rund szukało informacji tam, gdzie z definicji jej nie ma.
+
+**Co jest.** `[fakt]` Europe PMC pozwala przeszukiwać sekcje osobno: **`METHODS:`** (861 prac o SSVEP), `BODY:` (1 928), `TEXT:` (569), `ABSTRACT:` (1 493). Pole **`FULL_TEXT:` nie istnieje** i zwraca zero na każde zapytanie — **kontrolę pozytywną znowu trzeba było uruchomić, i znowu wykryła pułapkę** (czwarte wystąpienie po arXiv, OpenAIRE i CQVIP, K-093).
+
+**Wynik po przeszukaniu metod:** **178 prac podaje w metodach i SSVEP, i elektrodę odniesienia. Ani jedna nie traktuje jej położenia jako zmiennej.** To jest najmocniejszy wynik negatywny całego przeglądu — pochodzi z przeszukania **tego miejsca w tekście, w którym ta informacja musi być zapisana**.
+
+**Znalezisko uboczne, ważniejsze od samego wyniku negatywnego:** zapytanie o `inter-electrode distance` w metodach wyciągnęło **Srinivasan, Bibi, Nunez 2006 (PMID 16544207)** i **Thorpe, Nunez, Srinivasan 2007 (PMID 17671957)** — dwie prace o **strukturze falowej pola SSVEP**, z długością fali i kierunkiem propagacji. **Dają mechanizm i wzór hipotezie kierunku**, która w `39` była domysłem z czterech rozrzuconych punktów. Rozbiór: `40_GABARYT_MECHANIZM_I_DOMKNIECIE.md` §4.
+
+**Reguła:** **`METHODS:` i `BODY:` w Europe PMC wchodzą na stałe do zestawu.** Ogólniej: **zanim uzna się pole za puste, sprawdzić, w której sekcji pracy szukana informacja by się znalazła** — i przeszukać tę sekcję, a nie abstrakt.
