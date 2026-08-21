@@ -96,9 +96,21 @@ Czyli: **osiem elektrod to przyrząd pomiarowy. Cztery to wyrób.** A **to, któ
 | **mikrokontroler** (ESP32-S3) | liczy, który rytm jest najsilniejszy, i wysyła wynik bezprzewodowo |
 | **bateria** | bo **żadnego kabla do gniazdka przy głowie** — to jest warunek bezpieczeństwa, nie wygody |
 
-### 4.3 Demonstracja
+### 4.3 Demonstracja — cztery sceny, jeden ciąg
 
-Migające znaczniki są **na przedmiotach w otoczeniu**, nie na tablicy przed twarzą. Patrzysz na żarówkę — zapala się. Patrzysz na gniazdko — włącza się wentylator.
+**Scena 1.** Migające znaczniki są **na przedmiotach w otoczeniu**, nie na tablicy przed twarzą. Patrzysz na żarówkę — zapala się. Patrzysz na gniazdko — włącza się wentylator. Szybko i płynnie. **W tym momencie widz myśli: „ładne, ale kamerka zrobi to samo" — i ma rację.**
+
+**Scena 2.** Zarzut wypowiadam sam, zanim padnie: *kamerka jest szybsza, 28,2 bita na minutę wobec 20,9 najlepszego interfejsu mózgowego, zmierzone na jedenastu osobach*.
+
+**Scena 3 — to jest cały pokaz.** Na stole **jedna plama kropek**: czerwone kręcą się w lewo, niebieskie w prawo, **obie w tym samym miejscu**. Obok telefon na statywie pokazuje **zbliżenie na moje oczy na żywo**. Patrzę w środek plamy i **nie ruszam oczami**. Mówię „teraz czerwone" — żarówka się zapala. „Teraz niebieskie" — gaśnie. **Widz przez cały czas widzi, że oczy stoją.**
+
+> **Kamerka patrzy na te same nieruchome oczy i nie ma z czego odczytać wyboru. To urządzenie odczytuje.**
+
+**Scena 4.** Podaję cenę sam: *w tym trybie mam dwa cele zamiast czterdziestu i około 70% zamiast 95%*.
+
+**Jeżeli scena 3 u mnie nie zadziała** — a szansa jest z grubsza pół na pół — **zostaje w pokazie z wynikiem negatywnym i podaną liczbą.** Z analizy stawki finałowej 2026: raportowanie wyników negatywnych obok pozytywnych robi **jeden projekt w całej stawce.**
+
+**Warunek:** sceny 3 nie wolno obiecać w żadnym materiale przed jej zmierzeniem (E6, `04_PLAN_POMIAROWY.md` §6a).
 
 **Przedmioty są kupione, nie budowane** — poniżej 200 zł, zero godzin warsztatu. To jest reguła, nie oszczędność: **każda godzina włożona w rekwizyt jest godziną zabraną urządzeniu, a oceniane jest urządzenie.**
 

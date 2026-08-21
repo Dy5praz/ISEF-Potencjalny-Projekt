@@ -315,11 +315,48 @@ Schodzi do tabeli towarzyszącej, ale **jest mierzony**, bo kosztuje tylko dyscy
 
 **Odstępstwo, które trzeba zapisać:** `[fakt]` bodziec wymaga **ekranu**, a `03_SPRZET.md` §5 nakazuje diody LED. **Warunek dopuszczenia: wyłącznie częstotliwości będące dokładnymi dzielnikami odświeżania ekranu** — przy 120 Hz są to **10, 12 i 15 Hz** — plus **obowiązkowa weryfikacja fotodiodą**, tak jak w warunku głównym. Poza tymi częstotliwościami warunek jest nieważny.
 
-**Rozmiar:** **dwie sesje**, ~4 h łącznie, po zakończeniu E2. **Dwie klasy, po 120 prób.**
+**Rozmiar — poprawiony 21 VIII 2026, poprzednie oszacowanie było zaniżone (K-108a):**
+
+| Pozycja | Godziny |
+|---|---|
+| napisanie programu bodźcowego (dwie obracające się chmury kropek, dwie częstotliwości) | `[domysł]` **4–8 h** |
+| **trzy sesje treningowe** — Zhang i in. prowadzili **trzydniowy trening online**, bez niego wynik 72,6% nie powstał | **~3 h** |
+| dwie sesje pomiarowe, po 120 prób, dwie klasy | **~4 h** |
+| **razem** | **11–15 h** |
+
+`[fakt]` **Wcześniej stało tu „dwie sesje, ~4 h" — pominąłem trening, który u Zhanga był warunkiem uzyskania wyniku.** Poprawione.
+
+`[wniosek]` **Gdzie te godziny są:** w miejscu zwolnionym przez przeniesienie materiału półfinałowego z maja–czerwca na marzec–kwiecień (K-107, budżet godzin w `07_HARMONOGRAM.md`) — tamta poprawka zwolniła w maju–czerwcu **~45–70 h**. **E6 mieści się w niej z zapasem, ale tylko dlatego, że tamta poprawka została wykonana.** Program bodźcowy pisze się wcześniej, w slocie pracy merytorycznej.
 
 **Przewidywanie zapisane z góry:** `[domysł]` dokładność **65–80%** przy dwóch klasach; **strata z tytułu zwarcia odniesienia będzie WIĘKSZA niż w warunku wzrokowym**, bo modulacja uwagą jest słabsza od modulacji fiksacją, więc ten sam ubytek SNR zjada większą część zapasu. **Jeżeli strata okaże się mniejsza — to jest wynik przeciwny do przewidywania i raportuje się go w całości.**
 
 **Kryterium zaniechania:** jeżeli po dwóch sesjach dokładność nie przekroczy **60% przy dwóch klasach**, warunek zamyka się wynikiem negatywnym *„u autora ten tryb nie działa"* i **nie jest powtarzany.** Koszt zatrzymania: 4 h. `[fakt]` Zhang i in. odnotowali poprawę u **8 z 18 osób** — czyli ryzyko, że autor jest w gorszej połowie, wynosi około połowy.
+
+### 6a.1 Jak wygląda demonstracja z tym trybem
+
+**Problem do rozwiązania nie jest techniczny, tylko dramaturgiczny:** dwie klasy przy 72% same z siebie wyglądają gorzej niż czterdzieści przy 95%. **Siła tego trybu nie leży w tym, co potrafi, tylko w tym, czego kamerka przy nim nie potrafi** — a to widać dopiero w zestawieniu. Dlatego pokaz jest **jednym ciągiem z czterech scen**, a nie osobną atrakcją.
+
+**Scena 1 — tryb wzrokowy, ~30 s.** Jak dotąd: spojrzenie na żarówkę ją zapala, spojrzenie na gniazdko uruchamia wentylator. Szybko i płynnie. `[wniosek]` **Juror w tym momencie myśli „ładne, ale kamerka zrobi to samo" — i ma rację.**
+
+**Scena 2 — wyprzedzenie zarzutu, ~10 s.** Zarzut wypowiada **autor, nie juror**:
+> *Kamerka jest szybsza. Zmierzono to na jedenastu osobach w tym samym zadaniu: kamerka 28,2 bita na minutę, najlepszy interfejs mózgowy 20,9. Teraz drugi tryb.*
+
+**Scena 3 — tryb bez wzroku, ze świadkiem, ~60 s.** Na stole **jedna plama kropek**: czerwone obracają się w lewo, niebieskie w prawo, **obie w tym samym miejscu**, migając 12 i 15 Hz. Obok — **drugi ekran albo telefon na statywie, pokazujący zbliżenie na oczy autora na żywo.** Autor patrzy w środek plamy i **nie rusza oczami**. Mówi „teraz czerwone" — po kilku sekundach żarówka się zapala. „Teraz niebieskie" — gaśnie.
+
+> `[wniosek]` **To jest cała demonstracja.** Przez cały czas juror widzi na drugim ekranie, że **oczy stoją nieruchomo** — a mimo to wynik się zmienia. **Kamerka patrzy na te same nieruchome oczy i nie ma z czego odczytać wyboru. Urządzenie odczytuje.**
+
+**Scena 4 — cena, podana samemu, ~10 s.**
+> *W tym trybie mam dwa cele zamiast czterdziestu i około siedemdziesięciu procent zamiast dziewięćdziesięciu pięciu. To jest cena rezygnacji ze wzroku i jest zmierzona.*
+
+**Dlaczego kamera na oczy, a nie prawdziwy okulograf.** `[wniosek]` Telefon pokazujący oczy kosztuje zero, nie wymaga oprogramowania, i — najważniejsze — **juror weryfikuje go własnymi oczami.** Prawdziwy okulograf wprowadzałby pytanie *„a skąd wiemy, że był dobrze skalibrowany"*, czyli zamieniałby dowód na kolejną rzecz do uwierzenia.
+
+**Wersja filmowa na półfinał:** **ekran dzielony** — po lewej zbliżenie na nieruchome oczy, po prawej plama i przełączająca się żarówka. Obie rzeczy jednocześnie, **w pierwszych dziesięciu sekundach filmu** (reguła z `07_HARMONOGRAM.md`, kamień milowy 7).
+
+**Plan awaryjny, jeżeli tryb u autora nie zadziała.** `[fakt]` U Zhanga poprawiło się **8 z 18 osób**, więc szansa jest z grubsza pół na pół. Wtedy **scena 3 zostaje, ale z wynikiem negatywnym**: *„u mnie ten tryb dał X procent, poniżej progu — to jest wynik, który raportuję"*. `[fakt]` Z analizy stawki finałowej 2026 (`08_KONKURSY.md` §3.1 pkt 4): **raportowanie wyników negatywnych obok pozytywnych robi jeden projekt w całej stawce.** To jest przewaga wiarygodnościowa do wzięcia za darmo — i jedyny znany mi pokaz, który **działa także wtedy, gdy się nie udał.**
+
+**Zasada wiążąca:** **sceny 3 nie wolno obiecać w żadnym materiale przed wykonaniem E6.** Do filmu i na plakat wchodzi dopiero po pomiarze, z własną liczbą.
+
+**Koszt sprzętowy pokazu: zero złotych** — tablet albo laptop i telefon na statywie już są.
 
 **Czego E6 NIE jest:** nie jest urządzeniem użytkowym. Dwie klasy przy ~72% to **dowód możliwości i materiał na film**, nie sposób sterowania żarówką. **Do materiałów zgłoszeniowych wchodzi jako warunek dodatkowy, nigdy jako główny wynik.**
 

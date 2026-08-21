@@ -269,7 +269,7 @@ Przegląd objął **wszystkie siedem znanych nieinwazyjnych sposobów sterowania
 
 **Liczba druga — SSVEP działa u największej liczby ludzi ze wszystkich paradygmatów.** 96,2% osób powyżej 80% dokładności i **nikt poniżej 60%**, wobec **19%** dla wyobrażenia ruchu. Przejście na sterowanie „intencją", o które autor pytał, **zamieniłoby urządzenie działające u wszystkich na działające u jednego na pięciu** — i to niezależnie od wszystkich innych kosztów.
 
-**Rozwiązanie: jedna opcja z siedmiu zabija zarzut o kamerkę, nie ruszając w projekcie niczego.** Dwie nałożone na siebie migające powierzchnie w jednym punkcie, wybierane uwagą przy nieruchomym oku (Tsinghua 2010, 72,6% przy dwóch klasach). **Kamerka nie ma wtedy czego mierzyć, bo nie ma dokąd patrzeć**, a moduł, elektrody, tor i metryka zostają nietknięte. Wpisane jako **E6**, dwie sesje, cztery godziny — **P38, czeka na decyzję autora.**
+**Rozwiązanie: jedna opcja z siedmiu zabija zarzut o kamerkę, nie ruszając w projekcie niczego.** Dwie nałożone na siebie migające powierzchnie w jednym punkcie, wybierane uwagą przy nieruchomym oku (Tsinghua 2010, 72,6% przy dwóch klasach). **Kamerka nie ma wtedy czego mierzyć, bo nie ma dokąd patrzeć**, a moduł, elektrody, tor i metryka zostają nietknięte. Wpisane jako **E6**, 11–15 h razem z treningiem i programem bodźcowym — **P38, czeka na decyzję autora.**
 
 **Reguła, która z tego została:** zarzut, na który jest jedna odpowiedź, jest zarzutem otwartym. **Zamyka go dopiero druga odpowiedź w postaci demonstracji, a nie argumentu.**
 

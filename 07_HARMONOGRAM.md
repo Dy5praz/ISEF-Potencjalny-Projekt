@@ -154,7 +154,7 @@
 - [ ] **E5 — metryki użytkowe**: czas montażu, dryf w ciągu dnia, odsetek sesji bez rekalibracji. **Bez wyspania i zmęczenia** — to zmienna ludzka i łamie zwolnienie · JT
 - [ ] Kontrola: montaż zwarty zmierzony **fizycznie**, nie tylko wyprowadzony odejmowaniem · JT
 - [ ] Hiperparametry klasyfikatora **zamrożone po sesjach 1–2**; sesje 3–8 to zbiór testowy · JT
-- [ ] **E6 warunkowo (P38)** — tryb bez sterowania wzrokiem: uwaga nieprzestrzenna na nakładanych powierzchniach, dwie sesje, ~4 h. Odpowiedź na zarzut o kamerkę **działającą demonstracją**. Nie rusza modułu, elektrod ani metryki (`04_PLAN_POMIAROWY.md` §6a) · JT
+- [ ] **E6 warunkowo (P38)** — tryb bez sterowania wzrokiem: uwaga nieprzestrzenna na nakładanych powierzchniach. **Trzy sesje treningowe + dwie pomiarowe, 11–15 h razem z programem bodźcowym** — mieści się w godzinach zwolnionych przez przeniesienie materiału półfinałowego na III–IV. Odpowiedź na zarzut o kamerkę **działającą demonstracją**. Nie rusza modułu, elektrod ani metryki (`04_PLAN_POMIAROWY.md` §6a) · JT
 - [ ] **E4 warunkowo** — kompensacja EMG karku, tylko jeśli użyteczne odniesienie wypadło nad mięśniem. Przewidywanie z góry: efektu nie będzie · JT
 
 ---
