@@ -17,6 +17,8 @@ Użytkownik: Julek. **Odpowiadaj po polsku.**
 7. **`14_PROTOKOL.md`** — **protokół wytrwania. Obowiązuje w każdej sesji, bez przypominania**
 8. **`KOREKTY.md`** — rejestr błędów K-001…K-116. Dopisuj każdy nowy
 
+**`15_NAUKA_DZIEDZINY.md`** — słownik dziedziny od zera. `[fakt]` Autor jest licealistą bez doświadczenia w EEG i **sam zgłosił, że nie zna terminologii** (21 VIII 2026). **Przy każdym nowym terminie sprawdź, czy jest w `15`; jeżeli nie ma — wyjaśnij i dopisz.**
+
 Reszta: `01` laik · `03` sprzęt i budżet · `04` plan pomiarowy · `06` ryzyka · `07` harmonogram · `08` konkursy · `09` formalności · `10` studia · `12` reanaliza.
 
 ---

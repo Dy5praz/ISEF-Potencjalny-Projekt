@@ -90,6 +90,8 @@
 
 - [ ] **[!] START NAUKI PROJEKTOWANIA PCB** — przeniesiona tutaj z XI–XII 2026, bo tamten etap jest przekroczony godzinowo, a wrzesień i październik mają razem 33–49 h wolnego. **Nic nie wymaga zakupu, nic nie koliduje z E0** · JT
 - [ ] **Baza patentów dla nowej osi** — ostatnia nieprzeszukana pozycja, R8 · AI
+- [ ] **[!!] NAUKA DZIEDZINY — `15_NAUKA_DZIEDZINY.md`, bloki 1–2 (nazwy elektrod, odniesienie).** Jeden wieczór. **Wpisane PRZED preprintem i przed zakupem sprzętu, decyzją autora z 21 VIII 2026:** *„zanim zamówię Cereloga, zanim zacznę naukę projektowania (…) najzwyczajniej nauka o dziedzinie"* · JT
+- [ ] Film 3Blue1Brown o transformacie Fouriera, 21 min — fundament pod całe wykrywanie SSVEP · JT
 - [ ] **[!] DOKOŃCZYĆ PREPRINT Z REANALIZY** — przeniesione tutaj z KM8 (K-112). **Najwyższy stosunek wartości rekrutacyjnej do pozostałej pracy w całym projekcie**, i jedyna pozycja wysokiej wartości wykonalna **z laptopa, bez sprzętu, z dowolnego miejsca** · JT + AI
 
 ### Praca możliwa bez dostępu do sprzętu — dopisane 21 VIII 2026 (K-112)
