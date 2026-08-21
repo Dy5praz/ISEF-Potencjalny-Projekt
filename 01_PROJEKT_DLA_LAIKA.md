@@ -96,23 +96,13 @@ Czyli: **osiem elektrod to przyrząd pomiarowy. Cztery to wyrób.** A **to, któ
 | **mikrokontroler** (ESP32-S3) | liczy, który rytm jest najsilniejszy, i wysyła wynik bezprzewodowo |
 | **bateria** | bo **żadnego kabla do gniazdka przy głowie** — to jest warunek bezpieczeństwa, nie wygody |
 
-### 4.3 Demonstracja — cztery sceny, jeden ciąg
+### 4.3 Demonstracja
 
-**Scena 1.** Migające znaczniki są **na przedmiotach w otoczeniu**, nie na tablicy przed twarzą. Patrzysz na żarówkę — zapala się. Patrzysz na gniazdko — włącza się wentylator. Szybko i płynnie. **W tym momencie widz myśli: „ładne, ale kamerka zrobi to samo" — i ma rację.**
-
-**Scena 2.** Zarzut wypowiadam sam, zanim padnie: *kamerka jest szybsza, 28,2 bita na minutę wobec 20,9 najlepszego interfejsu mózgowego, zmierzone na jedenastu osobach*.
-
-**Scena 3 — to jest cały pokaz.** Na stole **krzyżyk pośrodku i cztery migające pola wokół niego**. Obok telefon na statywie pokazuje **zbliżenie na moje oczy na żywo**. Patrzę **w krzyżyk i tylko w krzyżyk**. Zapowiadam „góra" — włącza się żarówka. „Prawo" — rusza wentylator. „Dół" — coś trzeciego. **Widz przez cały czas widzi, że oczy stoją w jednym punkcie.**
-
-> **Kamerka patrzy na te same nieruchome oczy i nie ma z czego odczytać wyboru. To urządzenie odczytuje.**
-
-**Scena 4.** Podaję cenę sam: *w tym trybie mam cztery cele zamiast czterdziestu i około 80% zamiast 95%*. **Tryb wzrokowy zachowuje wszystkie czterdzieści — nic nie oddaję, urządzenie ma po prostu dwa biegi.**
-
-**Jeżeli scena 3 u mnie nie zadziała** — a szansa jest z grubsza pół na pół — **zostaje w pokazie z wynikiem negatywnym i podaną liczbą.** Z analizy stawki finałowej 2026: raportowanie wyników negatywnych obok pozytywnych robi **jeden projekt w całej stawce.**
-
-**Warunek:** sceny 3 nie wolno obiecać w żadnym materiale przed jej zmierzeniem (E6, `04_PLAN_POMIAROWY.md` §6a).
+Migające znaczniki są **na przedmiotach w otoczeniu**, nie na tablicy przed twarzą. Patrzysz na żarówkę — zapala się. Patrzysz na gniazdko — włącza się wentylator.
 
 **Przedmioty są kupione, nie budowane** — poniżej 200 zł, zero godzin warsztatu. To jest reguła, nie oszczędność: **każda godzina włożona w rekwizyt jest godziną zabraną urządzeniu, a oceniane jest urządzenie.**
+
+`[fakt]` Rozważany był drugi tryb pokazu — **bez sterowania wzrokiem** — z gotowym scenariuszem i planem pomiarowym. **Decyzją autora z 21 VIII 2026 odłożony; projekt idzie w wersji podstawowej.** Materiał nie przepadł: `05_STAN_WIEDZY.md` §7.6, wraz z terminami powrotu do decyzji.
 
 ---
 
@@ -154,7 +144,9 @@ Ceny są trzy i wszystkie zmierzono:
 
 **Jest jednak sztuczka, która działa i nie wymaga zmiany urządzenia — nazywa się uwagą utajoną.** Migające pola zostają tam, gdzie były, ale **oko stoi nieruchomo w krzyżyku pośrodku**, a wybierasz tym, **na które pole skierujesz uwagę** — kątem oka, nie spojrzeniem. Każdy to potrafi: tak się podgląda kogoś, nie patrząc wprost.
 
-**I to jest odpowiedź na kamerkę, tym razem nie słowna tylko działająca:** kamerka odczytuje **kierunek patrzenia**, a kierunek patrzenia jest przez cały czas **taki sam** — w krzyżyk. **Kamerka nie ma z czego odczytać wyboru.** Urządzenie ma.
+**I to jest odpowiedź na kamerkę:** kamerka odczytuje **kierunek patrzenia**, a przy uwadze utajonej kierunek patrzenia jest przez cały czas **taki sam** — w krzyżyk. **Kamerka nie ma z czego odczytać wyboru.** Urządzenie ma.
+
+**Czy to buduję:** `[fakt]` **na razie nie.** Warunek pomiarowy jest rozpisany i gotowy, ale **decyzją autora z 21 VIII 2026 odłożony** — projekt idzie w wersji podstawowej, z jednym trybem. Rozbiór wszystkich siedmiu możliwości i gotowy plan: `05_STAN_WIEDZY.md` §7.
 
 `[fakt]` Zmierzone: 2004 rok — przejście z patrzenia na uwagę kosztowało **20 punktów procentowych**. 2021 rok, lepsza metoda odczytu — **88,4% u dziewięciu osób, które nigdy wcześniej nie miały do czynienia z takim urządzeniem i nie przechodziły treningu.** Ile z tej kary zostało dwadzieścia lat później, **nikt nie zmierzył na jednym urządzeniu i jednej osobie** — i to jest drugi, mniejszy wynik, który mogę przy okazji dowieźć.
 

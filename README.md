@@ -76,7 +76,6 @@
 | **P20** | kontrola grafu cytowań co pół roku (Wu i Su 2014, Diez 2010) | co pół roku |
 | **P37** | **nauka projektowania PCB — zacząć we wrześniu.** **Zatwierdzone 21 VIII 2026** | **IX 2026** |
 | **P34** | rozstrzygnąć przy projekcie płytki, czy DRL mieści się na spodzie obudowy, czy zostaje na przewodzie do karku (`03_SPRZET.md` §4.1) | I 2027 |
-| **P38** | **[!] decyzja: czy dokładamy E6** — tryb bez sterowania wzrokiem, **11–15 h**, nie rusza modułu, elektrod ani metryki. Zabija zarzut o kamerkę demonstracją zamiast argumentem (`05_STAN_WIEDZY.md` §7) | **czeka** |
 | **P35** | **zmierzyć taśmą własny łuk nasion–inion** — pięć minut, zero złotych | **od ręki** |
 
 **Zamknięte 21 VIII 2026:**
@@ -84,6 +83,7 @@
 - **P36** — elektroda 5 przeniesiona na **Iz**, symetrycznie do POz. Para kierunkowa przestaje mieszać kierunek z odległością (K-106)
 - **P37** — nauka PCB przesunięta na IX–X 2026
 - **materiał półfinałowy** przeniesiony na III–IV 2027; maj i czerwiec zostają na kampanię (K-107)
+- **P38 — ODŁOŻONE, nie odrzucone.** Projekt idzie w **wersji podstawowej**: SSVEP wzrokiem, czterdzieści celów, jeden tryb. Gotowy plan trybu bez sterowania wzrokiem leży w `05_STAN_WIEDZY.md` §7.6 wraz z terminami powrotu do decyzji — **najpóźniej 31 III 2027**
 
 Pełna lista: `07_HARMONOGRAM.md`.
 

@@ -137,6 +137,7 @@
 ## Kamień milowy 5 — marzec–kwiecień 2027: prototyp
 
 - [ ] Płytka v2 po błędach v1 — **wpisana w plan, nie doproszona** (R7) · JT
+- [ ] **[!] DO 31 III: ostatni termin decyzji o warunku E6** (P38, odłożone 21 VIII 2026). Po tej dacie sceny bez sterowania wzrokiem nie da się już nakręcić przed półfinałem. Gotowy plan i wyzwalacze: `05_STAN_WIEDZY.md` §7.6 · JT
 - [ ] **[!] Wideo, plakat i materiał plebiscytowy — PRZENIESIONE TUTAJ z maja–czerwca** (K-107). Wolno, bo **półfinał Explory nie podlega regule 12 miesięcy** (`09_FORMALNOSCI.md` §6): materiał może pokazywać v2 i pomiary rozwojowe sprzed maja. W maju zostaje sama dokrętka i podmiana liczb · JT
 - [ ] Obudowa drukowana z żywicy ISO 10993, elektrody suche · JT
 - [ ] **Zwolnienie awaryjne i kontrola bezpieczeństwa**: zasilanie wyłącznie bateryjne, brak połączenia z siecią w czasie pomiaru · JT
@@ -154,7 +155,6 @@
 - [ ] **E5 — metryki użytkowe**: czas montażu, dryf w ciągu dnia, odsetek sesji bez rekalibracji. **Bez wyspania i zmęczenia** — to zmienna ludzka i łamie zwolnienie · JT
 - [ ] Kontrola: montaż zwarty zmierzony **fizycznie**, nie tylko wyprowadzony odejmowaniem · JT
 - [ ] Hiperparametry klasyfikatora **zamrożone po sesjach 1–2**; sesje 3–8 to zbiór testowy · JT
-- [ ] **E6 warunkowo (P38)** — tryb bez sterowania wzrokiem: **uwaga utajona przestrzenna**, drabinka 2 → 4 → 8 celów. **Trzy sesje treningowe + dwie pomiarowe, 11–15 h razem z programem bodźcowym** — mieści się w godzinach zwolnionych przez przeniesienie materiału półfinałowego na III–IV. Odpowiedź na zarzut o kamerkę **działającą demonstracją**. Nie rusza modułu, elektrod ani metryki (`04_PLAN_POMIAROWY.md` §6a) · JT
 - [ ] **E4 warunkowo** — kompensacja EMG karku, tylko jeśli użyteczne odniesienie wypadło nad mięśniem. Przewidywanie z góry: efektu nie będzie · JT
 
 ---

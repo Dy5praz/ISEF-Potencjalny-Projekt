@@ -314,7 +314,110 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 
 `[wniosek]` **Cztery cele przy 78% dają prawie dwukrotnie więcej niż dwa cele przy 88%, i sześciokrotnie więcej niż konfiguracja Zhanga.** Osiem celów przy 70% bije wszystko powyżej. **Wzór Wolpawa karze małą liczbę celów mocniej, niż nagradza wysoką dokładność** — dlatego drabinka 2 → 4 → 8 jest właściwą strategią, a zatrzymanie się na dwóch było moim błędem projektowym, nie ograniczeniem paradygmatu.
 
-**Rekomendacja po poprawce, do rozstrzygnięcia przez autora (P38):** **zostawić SSVEP wzrokowy jako paradygmat główny i dołożyć E6 — uwagę utajoną przestrzenną, z drabinką 2 → 4 → 8 celów.** Szczegóły i kryteria zatrzymania: `04_PLAN_POMIAROWY.md` §6a.
+**Rekomendacja po poprawce:** zostawić SSVEP wzrokowy jako paradygmat główny i dołożyć E6 — uwagę utajoną przestrzenną, z drabinką 2 → 4 → 8 celów.
+
+> **Stan decyzji (P38): ODŁOŻONA 21 VIII 2026.** Projekt idzie w wersji podstawowej. Gotowy plan E6, wraz z terminami powrotu do decyzji — **§7.6 poniżej**.
+
+---
+
+### 7.6 Gotowy plan warunku E6 — ODŁOŻONY 21 sierpnia 2026
+
+> **Stan: odłożone, nie odrzucone.** Decyzja autora z 21 VIII 2026, cytat: *„Szczerze, nie wiem. Zachowaj to w jakimś dokumencie, na razie zostajemy przy wersji podstawowej."*
+>
+> **Co obowiązuje:** projekt idzie w wersji podstawowej — **SSVEP sterowany wzrokiem, czterdzieści celów, jeden tryb.** Warunku E6 **nie ma w `04_PLAN_POMIAROWY.md`, nie ma w harmonogramie i nie wchodzi do żadnych materiałów.**
+>
+> **Po co ten plan tu leży:** żeby decyzja dała się podjąć później **bez powtarzania przeglądu**. Wszystko poniżej jest gotowe do uruchomienia w dniu, w którym autor powie „tak".
+>
+> **Kiedy wrócić — trzy wyzwalacze, którykolwiek pierwszy:**
+> 1. **31 III 2027**, przy produkcji materiału półfinałowego — **ostatni moment**, w którym scenę bez wzroku da się nakręcić przed półfinałem. Po tej dacie E6 przestaje mieć wartość demonstracyjną na sezon 2027
+> 2. **po dry-runie na El-Robo-Mech (IV 2027)** — jeżeli zarzut o kamerkę padnie od kogoś z zewnątrz, to jest sygnał, że sama odpowiedź słowna nie wystarcza
+> 3. **jeżeli E0 (X 2026) wypadnie bardzo dobrze** — mocna własna odpowiedź SSVEP obniża ryzyko, że tryb utajony nie zadziała, i zmienia rachunek
+>
+> **Koszt odłożenia: zero.** E6 nie dzieli niczego ze ścieżką główną — nie zmienia modułu, elektrod, toru, metryki ani twierdzenia. **Jedyne, co odłożenie zabiera, to czas** — 11–15 h, które w maju–czerwcu 2027 są, ale tylko dzięki przeniesieniu materiału półfinałowego na marzec–kwiecień.
+
+#### Plan warunku E6, gotowy do uruchomienia
+
+**Po co:** odpowiedzieć na zarzut *„po co to, skoro kamerka"* **działającą demonstracją zamiast argumentu**, oraz zmierzyć tę samą zależność od geometrii odniesienia **w drugim, trudniejszym reżimie SNR**. Rozbiór siedmiu paradygmatów: §7.3 powyżej.
+
+**Paradygmat, wersja obowiązująca po poprawce z 21 VIII 2026 (K-109): uwaga utajona przestrzenna.** Bodźce w kilku miejscach wokół **nieruchomego punktu fiksacji pośrodku**; oko stoi w środku przez cały czas, wybór następuje przez przesunięcie **uwagi**. `[fakt]` Wzorzec: **Zhang i in. 2021, EMBC, PMID 34892414** — kodowanie fazowe jednej częstotliwości (15 Hz w przeciwfazie), **88,4 ± 8% u dziewięciu osób bez żadnego doświadczenia z BCI i bez treningu**.
+
+**Dlaczego to, a nie nałożone powierzchnie** (poprzednia wersja tej sekcji): kamerka odczytuje **kierunek patrzenia**, a przy uwadze utajonej kierunek patrzenia jest **stały i identyczny dla każdego wyboru** — więc kamerka jest pokonana tak samo, a poza tym odpada **trzydniowy trening**, odpada **wymóg ekranu** (bodziec robi się na panelu LED) i **znika sufit dwóch celów**. Rozbiór: `05_STAN_WIEDZY.md` §7.3 opcja 4 i §7.5.
+
+### Drabinka celów — bo liczba celów bije dokładność
+
+`[fakt, przeliczone]` **4 cele przy 78% dają 10,7 bit/min, a 2 cele przy 88% tylko 5,8.** Wzór Wolpawa karze małą liczbę celów mocniej, niż nagradza wysoką dokładność. Dlatego E6 **nie zatrzymuje się na dwóch celach**:
+
+| Krok | Cele | Kryterium przejścia dalej |
+|---|---|---|
+| **E6a** | **2** (lewo–prawo) | dokładność **> 70%** → idź dalej |
+| **E6b** | **4** (góra, dół, lewo, prawo) | **ITR wyższy niż w E6a** → idź dalej |
+| **E6c** | **8** | **ITR wyższy niż w E6b** → zostaw jako wynik |
+
+**Zatrzymanie następuje na kroku, po którym ITR przestaje rosnąć** — i to jest wynik do zaraportowania, a nie porażka. `[luka]` Powyżej czterech celów **pole tego nie zbadało**, więc E6c jest wejściem w niezbadane, z odpowiednio ostrożnym opisem.
+
+**Wariant zapasowy:** jeżeli sceptyk zakwestionuje, czy oko naprawdę stało, **wraca wariant z nałożonymi powierzchniami** (Zhang 2010, dwie chmury kropek obracające się w przeciwne strony w jednym punkcie, 72,6%) — tam zerknąć **nie ma dokąd**. Kosztuje ekran i trzy dni treningu, więc jest zapasem, nie planem.
+
+**Dlaczego to nie rusza niczego w projekcie:**
+
+| Element | Czy się zmienia |
+|---|---|
+| moduł, obudowa, gabaryt | **nie** |
+| rozkład elektrod (`03_SPRZET.md` §2) | **nie** |
+| tor analogowy, ADS1299, fotodioda | **nie** |
+| metryka: SNR w prążku, ITR wzorem Wolpawa | **nie** — sygnał pozostaje SSVEP o znanej częstotliwości |
+| twierdzenie i jego zmienna niezależna | **nie** |
+| bodziec i instrukcja dla badanego | **tak — to jest cała zmiana** |
+
+**Odstępstwo, które trzeba zapisać:** `[fakt]` bodziec wymaga **ekranu**, a `03_SPRZET.md` §5 nakazuje diody LED. **Warunek dopuszczenia: wyłącznie częstotliwości będące dokładnymi dzielnikami odświeżania ekranu** — przy 120 Hz są to **10, 12 i 15 Hz** — plus **obowiązkowa weryfikacja fotodiodą**, tak jak w warunku głównym. Poza tymi częstotliwościami warunek jest nieważny.
+
+**Rozmiar — poprawiony 21 VIII 2026, poprzednie oszacowanie było zaniżone (K-108a):**
+
+| Pozycja | Godziny |
+|---|---|
+| napisanie programu bodźcowego (dwie obracające się chmury kropek, dwie częstotliwości) | `[domysł]` **4–8 h** |
+| **trzy sesje treningowe** — Zhang i in. prowadzili **trzydniowy trening online**, bez niego wynik 72,6% nie powstał | **~3 h** |
+| dwie sesje pomiarowe, po 120 prób, dwie klasy | **~4 h** |
+| **razem** | **11–15 h** |
+
+`[fakt]` **Wcześniej stało tu „dwie sesje, ~4 h" — pominąłem trening, który u Zhanga był warunkiem uzyskania wyniku.** Poprawione.
+
+`[wniosek]` **Gdzie te godziny są:** w miejscu zwolnionym przez przeniesienie materiału półfinałowego z maja–czerwca na marzec–kwiecień (K-107, budżet godzin w `07_HARMONOGRAM.md`) — tamta poprawka zwolniła w maju–czerwcu **~45–70 h**. **E6 mieści się w niej z zapasem, ale tylko dlatego, że tamta poprawka została wykonana.** Program bodźcowy pisze się wcześniej, w slocie pracy merytorycznej.
+
+**Przewidywanie zapisane z góry:** `[domysł]` dokładność **75–88% przy dwóch celach** i **65–80% przy czterech**; **strata z tytułu zwarcia odniesienia będzie WIĘKSZA niż w warunku wzrokowym**, bo modulacja uwagą jest słabsza od modulacji fiksacją, więc ten sam ubytek SNR zjada większą część zapasu. **Jeżeli strata okaże się mniejsza — to jest wynik przeciwny do przewidywania i raportuje się go w całości.**
+
+**Kryterium zaniechania:** jeżeli po dwóch sesjach dokładność w kroku E6a nie przekroczy **70% przy dwóch celach**, warunek zamyka się wynikiem negatywnym *„u autora ten tryb nie działa"* i **nie jest powtarzany.** `[wniosek]` Ryzyko jest **niższe niż w poprzedniej wersji planu**: kodowanie fazowe dało 88,4% u **osób bez treningu**, więc nie ma tu progu wejścia w postaci trzech dni ćwiczeń.
+
+##### Jak wyglądałaby demonstracja
+
+**Problem do rozwiązania nie jest techniczny, tylko dramaturgiczny:** dwie klasy przy 72% same z siebie wyglądają gorzej niż czterdzieści przy 95%. **Siła tego trybu nie leży w tym, co potrafi, tylko w tym, czego kamerka przy nim nie potrafi** — a to widać dopiero w zestawieniu. Dlatego pokaz jest **jednym ciągiem z czterech scen**, a nie osobną atrakcją.
+
+**Scena 1 — tryb wzrokowy, ~30 s.** Jak dotąd: spojrzenie na żarówkę ją zapala, spojrzenie na gniazdko uruchamia wentylator. Szybko i płynnie. `[wniosek]` **Juror w tym momencie myśli „ładne, ale kamerka zrobi to samo" — i ma rację.**
+
+**Scena 2 — wyprzedzenie zarzutu, ~10 s.** Zarzut wypowiada **autor, nie juror**:
+> *Kamerka jest szybsza. Zmierzono to na jedenastu osobach w tym samym zadaniu: kamerka 28,2 bita na minutę, najlepszy interfejs mózgowy 20,9. Teraz drugi tryb.*
+
+**Scena 3 — tryb bez wzroku, ze świadkiem, ~60 s.** Na stole **krzyżyk fiksacji pośrodku i cztery migające pola wokół niego** — góra, dół, lewo, prawo. Obok — **telefon na statywie, pokazujący zbliżenie na oczy autora na żywo.** Autor patrzy **w krzyżyk i tylko w krzyżyk**, przez całą scenę. Zapowiada kolejno „góra", „prawo", „dół" — i za każdym razem włącza się inne urządzenie. **Oczy przez cały czas stoją w tym samym punkcie.**
+
+> `[wniosek]` **To jest cała demonstracja.** Juror widzi na drugim ekranie, że **oczy stoją w jednym punkcie** — a mimo to za każdym razem włącza się co innego. **Kamerka patrzy na te same nieruchome oczy i nie ma z czego odczytać wyboru. Urządzenie odczytuje.** Im więcej celów w tej scenie, tym mocniej: przy czterech **przypadek daje 25%**, a widz liczy to sam.
+
+**Scena 4 — cena, podana samemu, ~10 s.**
+> *W tym trybie mam cztery cele zamiast czterdziestu i około osiemdziesięciu procent zamiast dziewięćdziesięciu pięciu. To jest cena rezygnacji ze wzroku i jest zmierzona. Kara podana w literaturze w 2004 roku wynosiła dwadzieścia punktów procentowych — sprawdzam, ile z niej zostało po dwudziestu latach lepszych metod odczytu.*
+
+**Dlaczego kamera na oczy, a nie prawdziwy okulograf.** `[wniosek]` Telefon pokazujący oczy kosztuje zero, nie wymaga oprogramowania, i — najważniejsze — **juror weryfikuje go własnymi oczami.** Prawdziwy okulograf wprowadzałby pytanie *„a skąd wiemy, że był dobrze skalibrowany"*, czyli zamieniałby dowód na kolejną rzecz do uwierzenia.
+
+**Wersja filmowa na półfinał:** **ekran dzielony** — po lewej zbliżenie na nieruchome oczy, po prawej plama i przełączająca się żarówka. Obie rzeczy jednocześnie, **w pierwszych dziesięciu sekundach filmu** (reguła z `07_HARMONOGRAM.md`, kamień milowy 7).
+
+**Plan awaryjny, jeżeli tryb u autora nie zadziała.** `[fakt]` U Zhanga poprawiło się **8 z 18 osób**, więc szansa jest z grubsza pół na pół. Wtedy **scena 3 zostaje, ale z wynikiem negatywnym**: *„u mnie ten tryb dał X procent, poniżej progu — to jest wynik, który raportuję"*. `[fakt]` Z analizy stawki finałowej 2026 (`08_KONKURSY.md` §3.1 pkt 4): **raportowanie wyników negatywnych obok pozytywnych robi jeden projekt w całej stawce.** To jest przewaga wiarygodnościowa do wzięcia za darmo — i jedyny znany mi pokaz, który **działa także wtedy, gdy się nie udał.**
+
+**Zasada wiążąca:** **sceny 3 nie wolno obiecać w żadnym materiale przed wykonaniem E6.** Do filmu i na plakat wchodzi dopiero po pomiarze, z własną liczbą.
+
+**Koszt sprzętowy pokazu: zero złotych** — tablet albo laptop i telefon na statywie już są.
+
+**Czego E6 NIE jest:** nie jest urządzeniem użytkowym i nie zastępuje trybu głównego. **Tryb wzrokowy zachowuje wszystkie czterdzieści celów — nic nie jest oddawane.** Urządzenie ma **dwa biegi**: szybki, gdy oko działa, i wolniejszy, gdy nie działa. Do materiałów zgłoszeniowych E6 wchodzi jako warunek dodatkowy, **nigdy jako główny wynik**.
+
+**Drugi wynik, który E6 daje przy okazji, i który jest ciekawszy od samego pokazu:** `[fakt]` kara za przejście z uwagi jawnej na utajoną została zmierzona w **2004 roku i wyniosła −20 pp**. `[fakt]` W 2021 kodowanie fazowe dało **88,4% u osób nieprzeszkolonych**, co sugeruje, że kara zmalała — ale **nikt tego nie zmierzył wprost na jednym torze i jednej osobie**. E6 mierzy dokładnie to: **na tym samym sprzęcie, tą samą osobą, tym samym paradygmatem** — czyli w tej samej formie, w jakiej postawione jest twierdzenie główne. `[wniosek]` **To zamienia E6 ze słabszego trybu w drugi, mały wynik pomiarowy.**
+
+---
 
 ---
 
