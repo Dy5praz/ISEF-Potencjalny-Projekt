@@ -209,19 +209,31 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 
 ---
 
-#### Opcja 4. Uwaga utajona przy zwykłym SSVEP
+#### Opcja 4. Uwaga utajona przestrzenna — **REKOMENDACJA PO POPRAWCE, mocniejsza od opcji 2**
 
-**Co to jest:** bodźce w różnych miejscach, jak zwykle, ale oko stoi w środku, a Ty przesuwasz uwagę kątem oka.
+**Co to jest:** bodźce w różnych miejscach, jak zwykle, **oko nieruchomo w punkcie fiksacji pośrodku**, a wybór następuje przez przesunięcie **uwagi**, nie spojrzenia.
 
-`[fakt]` **Kelly i in. 2004** (PMID 17271364): **−20 pp** przy samej tej zamianie. **Lesenfants i in. 2014** (PMID 24838215): dwie klasy, online **74 ± 13%**, **0,173 bit na wybór** wobec 4,687 przy czterdziestu celach; z sześciu pacjentów z zespołem zamknięcia **jeden na czterech porozumiał się online**.
+`[fakt]` **Poprawka z 21 VIII 2026, K-109.** Ta opcja stała tu wcześniej jako odrzucona, z uzasadnieniem *„kamerka nadal działa, bo bodźce są w różnych miejscach"*. **To było błędne rozumowanie.** Kamerka odczytuje **kierunek patrzenia**, a przy uwadze utajonej kierunek patrzenia **jest stały przez cały czas i identyczny dla każdego wyboru**. Kamerka ma więc **zero informacji o wyborze** — dokładnie tak samo jak przy nałożonych powierzchniach. **Zarzut o kamerkę znika tu równie skutecznie, a reszta bilansu wypada lepiej.**
+
+**Liczby, w kolejności powstawania:**
+
+| Praca | Układ | Wynik |
+|---|---|---|
+| **Kelly i in. 2004** (PMID 17271364) | jawna wobec utajonej, ten sam układ | **−20 pp** — górna granica kary, **sprzed dwudziestu dwóch lat** |
+| **Zhang i in. 2010** (PMID 20083864) | nałożone powierzchnie, 2 klasy, 3 dni treningu | 72,6 ± 16,1% |
+| **Lesenfants i in. 2014** (PMID 24838215) | 2 klasy, online, pacjenci LIS | 74 ± 13% |
+| **Egan i in. 2017** (PMID 28513478) | hybryda SSVEP + alfa **+ P300** | **+9 pp** z samego dołożenia trzeciej cechy |
+| **Zhang i in. 2021, EMBC** (PMID 34892414) | **kodowanie fazowe jednej częstotliwości**, 2 stymulatory 15 Hz w przeciwfazie, **9 osób bez żadnego doświadczenia z BCI, bez treningu** | **88,4 ± 8%**, i autorzy piszą wprost, że to *„otwiera drogę do znacznie większej liczby celów"* |
 
 | Plusy | Minusy |
 |---|---|
-| ten sam sprzęt i ten sam bodziec | **kamerka nadal działa** — bodźce są w różnych miejscach, więc śledzenie ma czego szukać. **Zarzut nie znika** |
-| sprawdzone na pacjentach | −20 pp, dwie klasy |
-| | `[fakt]` **Walter i in. 2012** (PMID 22579858): maksimum sygnału przenosi się z elektrod **środkowo-potylicznych** na **przeciwstronne ciemieniowo-potyliczne** — czyli **spod modułu** |
+| **kamerka pokonana** — oczy stoją, więc nie ma czego śledzić | `[luka]` 88,4% to **symulacja trybu online offline**, 9 osób, dwie klasy |
+| **ten sam sprzęt, ten sam typ bodźca, ten sam SSVEP** — metryka i pomiar bez zmian | sceptyk może powiedzieć „a może zerknął" — odpowiada na to **wideo oczu** w pokazie |
+| **88,4% u osób bez treningu** wobec 72,6% po trzech dniach — **nowsza metoda usuwa główny koszt opcji 2** | `[fakt]` **Walter i in. 2012** (PMID 22579858): maksimum przenosi się na **przeciwstronne ciemieniowo-potyliczne** — czyli na **O1, O2 i POz**, które są w montażu, ale nie na Oz |
+| **skaluje się na więcej niż dwa cele**, w przeciwieństwie do nałożonych powierzchni | powyżej ~4 celów pole tego nie zbadało — `[luka]` |
+| bodziec da się zrobić na **panelu LED**, bez ekranu | |
 
-**Koszt dla projektu:** średni, a **zysk żaden** — bo to jedyna opcja, która kosztuje dużo i **nie rozwiązuje problemu z kamerką.** **Odrzucona.**
+**Koszt dla projektu: taki sam jak opcji 2, a wynik lepszy.** Moduł, elektrody, tor i metryka bez zmian; **odpada trzydniowy trening i odpada wymóg ekranu.**
 
 ---
 
@@ -274,19 +286,35 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 
 ### 7.4 Zestawienie i decyzja
 
-| Opcja | Kamerka przestaje być zarzutem? | Moduł potyliczny przeżywa? | Pomiar geometrii przeżywa? | Koszt |
-|---|---|---|---|---|
-| 1. SSVEP wzrokiem (stan bieżący) | nie | **tak** | **tak** | zero |
-| **2. Uwaga nieprzestrzenna, nakładane powierzchnie** | **TAK** | **tak** | **tak** | **~4 h + program bodźcowy** |
-| 3. RSVP | **tak** | nie — moduł rośnie do Pz | nie — trzeba zbudować od nowa | duży |
-| 4. Uwaga utajona | **nie** | częściowo | tak | średni, bez zysku |
-| 5. Wyobrażenie ruchu | tak | **nie** | **nie** | inny projekt |
-| 6. Mowa wewnętrzna | tak | **nie** | **nie** | inny projekt + ryzyko |
-| 7. Słuch, dotyk | tak | **nie** | **nie** | inny projekt |
+| Opcja | Kamerka przestaje być zarzutem? | Moduł potyliczny przeżywa? | Pomiar geometrii przeżywa? | Ile celów | Koszt |
+|---|---|---|---|---|---|
+| 1. SSVEP wzrokiem (stan bieżący) | nie | **tak** | **tak** | **40** | zero |
+| **4. Uwaga utajona przestrzenna** | **TAK** | **tak** | **tak** | **2, realnie do 4** | **11–15 h** |
+| 2. Uwaga nieprzestrzenna, nakładane powierzchnie | **tak** | tak | tak | **2, i nie więcej** | 11–15 h + ekran + 3 dni treningu |
+| 3. RSVP | tak | nie — moduł rośnie do Pz | nie — trzeba zbudować od nowa | 30 | duży |
+| 5. Wyobrażenie ruchu | tak | **nie** | **nie** | 2–4 | inny projekt |
+| 6. Mowa wewnętrzna | tak | **nie** | **nie** | — | inny projekt + ryzyko |
+| 7. Słuch, dotyk | tak | **nie** | **nie** | do 36 | inny projekt |
 
-`[wniosek]` **Jedna opcja z siedmiu zabija zarzut o kamerkę, nie ruszając ani modułu, ani elektrod, ani metryki, ani twierdzenia — opcja 2.** Wszystkie pozostałe, które usuwają wzrok, **usuwają razem z nim potylicę**, a z potylicą całą podstawę projektu.
+`[wniosek]` **Dwie opcje z siedmiu zabijają zarzut o kamerkę, nie ruszając ani modułu, ani elektrod, ani metryki, ani twierdzenia — 4 i 2.** Wszystkie pozostałe, które usuwają wzrok, **usuwają razem z nim potylicę**, a z potylicą całą podstawę projektu.
 
-**Rekomendacja, do rozstrzygnięcia przez autora (P38):** **zostawić SSVEP wzrokowy jako paradygmat główny i dołożyć warunek E6 — uwagę nieprzestrzenną na nakładających się powierzchniach — jako warunek dodatkowy, dwie sesje.** Daje trzy rzeczy naraz: **odpowiedź na kamerkę w postaci działającej demonstracji, a nie argumentu**; drugi reżim SNR, w którym ta sama zależność od geometrii odniesienia jest lepiej widoczna; oraz uczciwe zdanie do materiałów — *„to samo urządzenie działa też bez kierowania wzrokiem, wolniej i przy dwóch celach"*.
+**Z tych dwóch lepsza jest opcja 4**, bo skaluje się na więcej niż dwa cele, nie wymaga trzydniowego treningu, nie wymaga ekranu i ma nowszy, wyższy wynik odniesienia (88,4% u osób nieprzeszkolonych wobec 72,6% po treningu).
+
+### 7.5 Dlaczego liczba celów bije dokładność — i na tym stoi kompromis
+
+`[fakt, przeliczone wzorem Wolpawa]` Zarzut *„rezygnacja z 90% celów boli"* jest słuszny co do odczucia, ale **kierunek naprawy jest inny, niż się wydaje: nie podnosić dokładności, tylko dokładać cele.**
+
+| Konfiguracja utajona | bit na wybór | ITR przy oknie 5 s |
+|---|---|---|
+| 2 cele, 72,6% (Zhang 2010, po 3 dniach) | 0,153 | **1,8 bit/min** |
+| 2 cele, 88,4% (kodowanie fazowe 2021) | 0,482 | **5,8 bit/min** |
+| **4 cele, 78%** | **0,891** | **10,7 bit/min** |
+| **4 cele, 85%** | 1,152 | **13,8 bit/min** |
+| 8 celów, 70% | 1,277 | **15,3 bit/min** |
+
+`[wniosek]` **Cztery cele przy 78% dają prawie dwukrotnie więcej niż dwa cele przy 88%, i sześciokrotnie więcej niż konfiguracja Zhanga.** Osiem celów przy 70% bije wszystko powyżej. **Wzór Wolpawa karze małą liczbę celów mocniej, niż nagradza wysoką dokładność** — dlatego drabinka 2 → 4 → 8 jest właściwą strategią, a zatrzymanie się na dwóch było moim błędem projektowym, nie ograniczeniem paradygmatu.
+
+**Rekomendacja po poprawce, do rozstrzygnięcia przez autora (P38):** **zostawić SSVEP wzrokowy jako paradygmat główny i dołożyć E6 — uwagę utajoną przestrzenną, z drabinką 2 → 4 → 8 celów.** Szczegóły i kryteria zatrzymania: `04_PLAN_POMIAROWY.md` §6a.
 
 ---
 

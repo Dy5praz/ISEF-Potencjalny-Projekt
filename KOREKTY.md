@@ -1732,3 +1732,53 @@ Najprostszy wariant „na LED-ach" — jedna dwukolorowa dioda w jednym punkcie,
 > **Zarzut, na który jest jedna odpowiedź, jest zarzutem otwartym.** Jedna odpowiedź zawsze da się podważyć jako wykręt — szczególnie odpowiedź w kształcie *„to nie jest cel mojego projektu"*, bo ona przyznaje zarzutowi rację i tylko odsuwa go na bok. **Zarzut jest zamknięty dopiero wtedy, gdy druga odpowiedź jest demonstracją, a nie argumentem.**
 
 `[wniosek]` I dlatego wynikiem tego przeglądu nie jest zdanie, tylko **czterogodzinny warunek pomiarowy**, po którym da się powiedzieć: *„to samo urządzenie działa też bez kierowania wzrokiem — wolniej i przy dwóch celach, i mam to zmierzone."*
+
+
+---
+
+### K-109 — odrzuciłem najlepszą opcję na podstawie błędnego rozumowania o tym, co kamerka mierzy
+
+**Skąd.** Autor po przeczytaniu przeglądu siedmiu paradygmatów, 21 VIII 2026: *„demonstracja brzmi świetnie, ale spadek o te 20% i w zasadzie rezygnacja z 90% celi boli i to bardzo. Kurde, a nie ma jakiegoś kompromisu?"*
+
+**Kompromis był, i to od początku — w opcji, którą sam odrzuciłem godzinę wcześniej.**
+
+**Co napisałem źle.** `05_STAN_WIEDZY.md` §7.3 opcja 4, uwaga utajona przestrzenna, dostała werdykt: *„kamerka nadal działa — bodźce są w różnych miejscach, więc śledzenie ma czego szukać. Zarzut nie znika. Odrzucona."*
+
+**Dlaczego to nieprawda.** `[fakt]` Kamerka odczytuje **kierunek patrzenia**. Przy uwadze utajonej kierunek patrzenia jest **stały przez całą sesję i identyczny dla każdego wyboru** — oko stoi w krzyżyku pośrodku, zmienia się wyłącznie to, gdzie skierowana jest uwaga. `[wniosek]` **Kamerka ma zatem zero informacji o wyborze — dokładnie tak samo jak przy nałożonych powierzchniach.** Zarzut znika równie skutecznie.
+
+**Skąd wziął się błąd.** `[wniosek]` Pomyliłem dwie różne role kamerki: **odczytywanie wyboru** z **weryfikowaniem, czy badany nie oszukuje przez zerknięcie.** Kamerka potrafi to drugie i nie potrafi pierwszego. Zapisałem „ma czego szukać" — prawdziwe dla weryfikacji, fałszywe dla odczytu — i na tej podstawie skreśliłem opcję. **To jest ten sam kształt błędu co K-105: zdanie prawdziwe w wąskim znaczeniu, zapisane jako werdykt ogólny.** Trzeci raz w tym tygodniu.
+
+---
+
+**Co ta poprawka daje — opcja 4 jest lepsza od opcji 2 w każdym wymiarze poza jednym:**
+
+| | Opcja 2, nałożone powierzchnie | **Opcja 4, uwaga utajona przestrzenna** |
+|---|---|---|
+| kamerka pokonana | tak | **tak** |
+| liczba celów | **2, i to jest sufit paradygmatu** | **2, realnie do 4, autorzy piszą o więcej** |
+| wynik odniesienia | 72,6% **po trzech dniach treningu** (Zhang 2010) | **88,4% u osób bez treningu** (Zhang 2021, PMID 34892414) |
+| bodziec | **wymaga ekranu** | **wystarczy panel LED** |
+| odporność na zarzut „a może zerknął" | **pełna — nie ma dokąd zerknąć** | wymaga wideo oczu w pokazie |
+
+`[wniosek]` Jedyna przewaga opcji 2 to niepodważalność fiksacji — i **na to wystarcza telefon pokazujący oczy**, który i tak był w scenariuszu pokazu. **Opcja 2 zostaje jako wariant zapasowy**, gdyby ktoś zakwestionował fiksację.
+
+---
+
+**Znalezisko drugie, ważniejsze od samej poprawki: liczba celów bije dokładność, a ja projektowałem odwrotnie.**
+
+`[fakt, przeliczone wzorem Wolpawa, okno 5 s]`
+
+| Konfiguracja | bit na wybór | ITR |
+|---|---|---|
+| 2 cele, 72,6% | 0,153 | **1,8 bit/min** |
+| 2 cele, 88,4% | 0,482 | **5,8 bit/min** |
+| **4 cele, 78%** | **0,891** | **10,7 bit/min** |
+| 8 celów, 70% | 1,277 | **15,3 bit/min** |
+
+`[wniosek]` **Cztery cele przy 78% dają prawie dwa razy więcej niż dwa cele przy 88%, i sześć razy więcej niż konfiguracja, którą zaproponowałem.** Wzór Wolpawa karze małą liczbę celów mocniej, niż nagradza wysoką dokładność — a ja szukałem najwyższej dokładności przy dwóch celach zamiast najwyższego ITR. **Stąd drabinka E6a → E6b → E6c (2 → 4 → 8), z zatrzymaniem tam, gdzie ITR przestaje rosnąć.**
+
+**Trzecia rzecz, która z tego wyszła i której nie było:** E6 przestaje być „słabszym trybem". `[fakt]` Kara za przejście z uwagi jawnej na utajoną została zmierzona **w 2004 roku i wyniosła −20 pp**; kodowanie fazowe z 2021 sugeruje, że zmalała, ale **nikt nie zmierzył tego wprost na jednym torze, jedną osobą, jednym paradygmatem.** E6 mierzy dokładnie to — **w tej samej formie, w jakiej postawione jest twierdzenie główne.** `[wniosek]` To jest **drugi, mały wynik pomiarowy**, a nie gorsza wersja pokazu.
+
+---
+
+**Reguła:** **zanim skreślisz opcję, sprawdź, czy zdanie, którym ją skreślasz, dotyczy tego, co ona ma robić.** „Kamerka ma czego szukać" jest prawdą o weryfikacji fiksacji i fałszem o odczycie wyboru. **Werdykt odrzucający wymaga tej samej staranności co werdykt tożsamości z `METODA.md` §2** — a dostał jedno zdanie napisane z rozpędu.

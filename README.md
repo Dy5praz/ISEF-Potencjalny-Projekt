@@ -74,13 +74,16 @@
 | **P14** | trzy pytania do FZT jednym mailem: SRC jako IRB · łączenie z EUCYS · **czy badanie na sobie jest zwolnione** | jesień 2026 |
 | **E0** | **przesiew: czy SSVEP działa u autora.** ~20 minut na kupionej platformie. **Najważniejszy punkt w całym planie** | **X 2026** |
 | **P20** | kontrola grafu cytowań co pół roku (Wu i Su 2014, Diez 2010) | co pół roku |
-| **P37** | **zacząć naukę projektowania PCB we wrześniu, nie w listopadzie.** XI–XII 2026 jest przekroczony godzinowo, IX–X mają 33–49 h wolnego (`07_HARMONOGRAM.md`, budżet godzin) | **IX 2026** |
+| **P37** | **nauka projektowania PCB — zacząć we wrześniu.** **Zatwierdzone 21 VIII 2026** | **IX 2026** |
 | **P34** | rozstrzygnąć przy projekcie płytki, czy DRL mieści się na spodzie obudowy, czy zostaje na przewodzie do karku (`03_SPRZET.md` §4.1) | I 2027 |
-| **P35** | **zmierzyć taśmą własny łuk nasion–inion** i wpisać własną liczbę zamiast „~3,5 cm" — pięć minut, zero złotych, a wszystkie odległości w projekcie przestają być średnią z literatury | **od ręki** |
 | **P38** | **[!] decyzja: czy dokładamy E6** — tryb bez sterowania wzrokiem, **11–15 h**, nie rusza modułu, elektrod ani metryki. Zabija zarzut o kamerkę demonstracją zamiast argumentem (`05_STAN_WIEDZY.md` §7) | **czeka** |
-| **P36** | **[!] potwierdzić przeniesienie elektrody 5** z „2 cm poniżej Oz" na **Iz** (na inionie) — bez tego para kierunkowa miesza kierunek z odległością, K-106 | **czeka** |
+| **P35** | **zmierzyć taśmą własny łuk nasion–inion** — pięć minut, zero złotych | **od ręki** |
 
-**Zamknięte 21 VIII 2026:** **P28a** — autor dopuścił dwa cienkie przewody w bok do O1 i O2, gabaryt ~32×48×12 mm zostaje w mocy (`03_SPRZET.md` §2).
+**Zamknięte 21 VIII 2026:**
+- **P28a** — dwa cienkie przewody w bok do O1 i O2 dopuszczone; gabaryt ~32×48×12 mm zostaje w mocy
+- **P36** — elektroda 5 przeniesiona na **Iz**, symetrycznie do POz. Para kierunkowa przestaje mieszać kierunek z odległością (K-106)
+- **P37** — nauka PCB przesunięta na IX–X 2026
+- **materiał półfinałowy** przeniesiony na III–IV 2027; maj i czerwiec zostają na kampanię (K-107)
 
 Pełna lista: `07_HARMONOGRAM.md`.
 

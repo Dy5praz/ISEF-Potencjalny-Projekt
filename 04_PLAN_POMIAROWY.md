@@ -300,7 +300,23 @@ Schodzi do tabeli towarzyszącej, ale **jest mierzony**, bo kosztuje tylko dyscy
 
 **Po co:** odpowiedzieć na zarzut *„po co to, skoro kamerka"* **działającą demonstracją zamiast argumentu**, oraz zmierzyć tę samą zależność od geometrii odniesienia **w drugim, trudniejszym reżimie SNR**. Pełny rozbiór siedmiu możliwych paradygmatów: `05_STAN_WIEDZY.md` §7.
 
-**Paradygmat:** uwaga nieprzestrzenna na **dwóch nałożonych na siebie powierzchniach** — dwie chmury kropek o różnych kolorach, obracające się w przeciwne strony **w tym samym miejscu**, migające dwiema częstotliwościami. Wybór następuje przez skierowanie uwagi na jedną z powierzchni, **przy nieruchomym punkcie fiksacji**. `[fakt]` Wzorzec: Zhang i in. 2010, PMID 20083864, 18 osób, **72,6 ± 16,1% przy dwóch klasach** po trzech dniach treningu.
+**Paradygmat, wersja obowiązująca po poprawce z 21 VIII 2026 (K-109): uwaga utajona przestrzenna.** Bodźce w kilku miejscach wokół **nieruchomego punktu fiksacji pośrodku**; oko stoi w środku przez cały czas, wybór następuje przez przesunięcie **uwagi**. `[fakt]` Wzorzec: **Zhang i in. 2021, EMBC, PMID 34892414** — kodowanie fazowe jednej częstotliwości (15 Hz w przeciwfazie), **88,4 ± 8% u dziewięciu osób bez żadnego doświadczenia z BCI i bez treningu**.
+
+**Dlaczego to, a nie nałożone powierzchnie** (poprzednia wersja tej sekcji): kamerka odczytuje **kierunek patrzenia**, a przy uwadze utajonej kierunek patrzenia jest **stały i identyczny dla każdego wyboru** — więc kamerka jest pokonana tak samo, a poza tym odpada **trzydniowy trening**, odpada **wymóg ekranu** (bodziec robi się na panelu LED) i **znika sufit dwóch celów**. Rozbiór: `05_STAN_WIEDZY.md` §7.3 opcja 4 i §7.5.
+
+### Drabinka celów — bo liczba celów bije dokładność
+
+`[fakt, przeliczone]` **4 cele przy 78% dają 10,7 bit/min, a 2 cele przy 88% tylko 5,8.** Wzór Wolpawa karze małą liczbę celów mocniej, niż nagradza wysoką dokładność. Dlatego E6 **nie zatrzymuje się na dwóch celach**:
+
+| Krok | Cele | Kryterium przejścia dalej |
+|---|---|---|
+| **E6a** | **2** (lewo–prawo) | dokładność **> 70%** → idź dalej |
+| **E6b** | **4** (góra, dół, lewo, prawo) | **ITR wyższy niż w E6a** → idź dalej |
+| **E6c** | **8** | **ITR wyższy niż w E6b** → zostaw jako wynik |
+
+**Zatrzymanie następuje na kroku, po którym ITR przestaje rosnąć** — i to jest wynik do zaraportowania, a nie porażka. `[luka]` Powyżej czterech celów **pole tego nie zbadało**, więc E6c jest wejściem w niezbadane, z odpowiednio ostrożnym opisem.
+
+**Wariant zapasowy:** jeżeli sceptyk zakwestionuje, czy oko naprawdę stało, **wraca wariant z nałożonymi powierzchniami** (Zhang 2010, dwie chmury kropek obracające się w przeciwne strony w jednym punkcie, 72,6%) — tam zerknąć **nie ma dokąd**. Kosztuje ekran i trzy dni treningu, więc jest zapasem, nie planem.
 
 **Dlaczego to nie rusza niczego w projekcie:**
 
@@ -328,9 +344,9 @@ Schodzi do tabeli towarzyszącej, ale **jest mierzony**, bo kosztuje tylko dyscy
 
 `[wniosek]` **Gdzie te godziny są:** w miejscu zwolnionym przez przeniesienie materiału półfinałowego z maja–czerwca na marzec–kwiecień (K-107, budżet godzin w `07_HARMONOGRAM.md`) — tamta poprawka zwolniła w maju–czerwcu **~45–70 h**. **E6 mieści się w niej z zapasem, ale tylko dlatego, że tamta poprawka została wykonana.** Program bodźcowy pisze się wcześniej, w slocie pracy merytorycznej.
 
-**Przewidywanie zapisane z góry:** `[domysł]` dokładność **65–80%** przy dwóch klasach; **strata z tytułu zwarcia odniesienia będzie WIĘKSZA niż w warunku wzrokowym**, bo modulacja uwagą jest słabsza od modulacji fiksacją, więc ten sam ubytek SNR zjada większą część zapasu. **Jeżeli strata okaże się mniejsza — to jest wynik przeciwny do przewidywania i raportuje się go w całości.**
+**Przewidywanie zapisane z góry:** `[domysł]` dokładność **75–88% przy dwóch celach** i **65–80% przy czterech**; **strata z tytułu zwarcia odniesienia będzie WIĘKSZA niż w warunku wzrokowym**, bo modulacja uwagą jest słabsza od modulacji fiksacją, więc ten sam ubytek SNR zjada większą część zapasu. **Jeżeli strata okaże się mniejsza — to jest wynik przeciwny do przewidywania i raportuje się go w całości.**
 
-**Kryterium zaniechania:** jeżeli po dwóch sesjach dokładność nie przekroczy **60% przy dwóch klasach**, warunek zamyka się wynikiem negatywnym *„u autora ten tryb nie działa"* i **nie jest powtarzany.** Koszt zatrzymania: 4 h. `[fakt]` Zhang i in. odnotowali poprawę u **8 z 18 osób** — czyli ryzyko, że autor jest w gorszej połowie, wynosi około połowy.
+**Kryterium zaniechania:** jeżeli po dwóch sesjach dokładność w kroku E6a nie przekroczy **70% przy dwóch celach**, warunek zamyka się wynikiem negatywnym *„u autora ten tryb nie działa"* i **nie jest powtarzany.** `[wniosek]` Ryzyko jest **niższe niż w poprzedniej wersji planu**: kodowanie fazowe dało 88,4% u **osób bez treningu**, więc nie ma tu progu wejścia w postaci trzech dni ćwiczeń.
 
 ### 6a.1 Jak wygląda demonstracja z tym trybem
 
@@ -341,12 +357,12 @@ Schodzi do tabeli towarzyszącej, ale **jest mierzony**, bo kosztuje tylko dyscy
 **Scena 2 — wyprzedzenie zarzutu, ~10 s.** Zarzut wypowiada **autor, nie juror**:
 > *Kamerka jest szybsza. Zmierzono to na jedenastu osobach w tym samym zadaniu: kamerka 28,2 bita na minutę, najlepszy interfejs mózgowy 20,9. Teraz drugi tryb.*
 
-**Scena 3 — tryb bez wzroku, ze świadkiem, ~60 s.** Na stole **jedna plama kropek**: czerwone obracają się w lewo, niebieskie w prawo, **obie w tym samym miejscu**, migając 12 i 15 Hz. Obok — **drugi ekran albo telefon na statywie, pokazujący zbliżenie na oczy autora na żywo.** Autor patrzy w środek plamy i **nie rusza oczami**. Mówi „teraz czerwone" — po kilku sekundach żarówka się zapala. „Teraz niebieskie" — gaśnie.
+**Scena 3 — tryb bez wzroku, ze świadkiem, ~60 s.** Na stole **krzyżyk fiksacji pośrodku i cztery migające pola wokół niego** — góra, dół, lewo, prawo. Obok — **telefon na statywie, pokazujący zbliżenie na oczy autora na żywo.** Autor patrzy **w krzyżyk i tylko w krzyżyk**, przez całą scenę. Zapowiada kolejno „góra", „prawo", „dół" — i za każdym razem włącza się inne urządzenie. **Oczy przez cały czas stoją w tym samym punkcie.**
 
-> `[wniosek]` **To jest cała demonstracja.** Przez cały czas juror widzi na drugim ekranie, że **oczy stoją nieruchomo** — a mimo to wynik się zmienia. **Kamerka patrzy na te same nieruchome oczy i nie ma z czego odczytać wyboru. Urządzenie odczytuje.**
+> `[wniosek]` **To jest cała demonstracja.** Juror widzi na drugim ekranie, że **oczy stoją w jednym punkcie** — a mimo to za każdym razem włącza się co innego. **Kamerka patrzy na te same nieruchome oczy i nie ma z czego odczytać wyboru. Urządzenie odczytuje.** Im więcej celów w tej scenie, tym mocniej: przy czterech **przypadek daje 25%**, a widz liczy to sam.
 
 **Scena 4 — cena, podana samemu, ~10 s.**
-> *W tym trybie mam dwa cele zamiast czterdziestu i około siedemdziesięciu procent zamiast dziewięćdziesięciu pięciu. To jest cena rezygnacji ze wzroku i jest zmierzona.*
+> *W tym trybie mam cztery cele zamiast czterdziestu i około osiemdziesięciu procent zamiast dziewięćdziesięciu pięciu. To jest cena rezygnacji ze wzroku i jest zmierzona. Kara podana w literaturze w 2004 roku wynosiła dwadzieścia punktów procentowych — sprawdzam, ile z niej zostało po dwudziestu latach lepszych metod odczytu.*
 
 **Dlaczego kamera na oczy, a nie prawdziwy okulograf.** `[wniosek]` Telefon pokazujący oczy kosztuje zero, nie wymaga oprogramowania, i — najważniejsze — **juror weryfikuje go własnymi oczami.** Prawdziwy okulograf wprowadzałby pytanie *„a skąd wiemy, że był dobrze skalibrowany"*, czyli zamieniałby dowód na kolejną rzecz do uwierzenia.
 
@@ -358,7 +374,9 @@ Schodzi do tabeli towarzyszącej, ale **jest mierzony**, bo kosztuje tylko dyscy
 
 **Koszt sprzętowy pokazu: zero złotych** — tablet albo laptop i telefon na statywie już są.
 
-**Czego E6 NIE jest:** nie jest urządzeniem użytkowym. Dwie klasy przy ~72% to **dowód możliwości i materiał na film**, nie sposób sterowania żarówką. **Do materiałów zgłoszeniowych wchodzi jako warunek dodatkowy, nigdy jako główny wynik.**
+**Czego E6 NIE jest:** nie jest urządzeniem użytkowym i nie zastępuje trybu głównego. **Tryb wzrokowy zachowuje wszystkie czterdzieści celów — nic nie jest oddawane.** Urządzenie ma **dwa biegi**: szybki, gdy oko działa, i wolniejszy, gdy nie działa. Do materiałów zgłoszeniowych E6 wchodzi jako warunek dodatkowy, **nigdy jako główny wynik**.
+
+**Drugi wynik, który E6 daje przy okazji, i który jest ciekawszy od samego pokazu:** `[fakt]` kara za przejście z uwagi jawnej na utajoną została zmierzona w **2004 roku i wyniosła −20 pp**. `[fakt]` W 2021 kodowanie fazowe dało **88,4% u osób nieprzeszkolonych**, co sugeruje, że kara zmalała — ale **nikt tego nie zmierzył wprost na jednym torze i jednej osobie**. E6 mierzy dokładnie to: **na tym samym sprzęcie, tą samą osobą, tym samym paradygmatem** — czyli w tej samej formie, w jakiej postawione jest twierdzenie główne. `[wniosek]` **To zamienia E6 ze słabszego trybu w drugi, mały wynik pomiarowy.**
 
 ---
 

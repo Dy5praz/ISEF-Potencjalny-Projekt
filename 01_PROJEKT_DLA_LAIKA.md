@@ -102,11 +102,11 @@ Czyli: **osiem elektrod to przyrząd pomiarowy. Cztery to wyrób.** A **to, któ
 
 **Scena 2.** Zarzut wypowiadam sam, zanim padnie: *kamerka jest szybsza, 28,2 bita na minutę wobec 20,9 najlepszego interfejsu mózgowego, zmierzone na jedenastu osobach*.
 
-**Scena 3 — to jest cały pokaz.** Na stole **jedna plama kropek**: czerwone kręcą się w lewo, niebieskie w prawo, **obie w tym samym miejscu**. Obok telefon na statywie pokazuje **zbliżenie na moje oczy na żywo**. Patrzę w środek plamy i **nie ruszam oczami**. Mówię „teraz czerwone" — żarówka się zapala. „Teraz niebieskie" — gaśnie. **Widz przez cały czas widzi, że oczy stoją.**
+**Scena 3 — to jest cały pokaz.** Na stole **krzyżyk pośrodku i cztery migające pola wokół niego**. Obok telefon na statywie pokazuje **zbliżenie na moje oczy na żywo**. Patrzę **w krzyżyk i tylko w krzyżyk**. Zapowiadam „góra" — włącza się żarówka. „Prawo" — rusza wentylator. „Dół" — coś trzeciego. **Widz przez cały czas widzi, że oczy stoją w jednym punkcie.**
 
 > **Kamerka patrzy na te same nieruchome oczy i nie ma z czego odczytać wyboru. To urządzenie odczytuje.**
 
-**Scena 4.** Podaję cenę sam: *w tym trybie mam dwa cele zamiast czterdziestu i około 70% zamiast 95%*.
+**Scena 4.** Podaję cenę sam: *w tym trybie mam cztery cele zamiast czterdziestu i około 80% zamiast 95%*. **Tryb wzrokowy zachowuje wszystkie czterdzieści — nic nie oddaję, urządzenie ma po prostu dwa biegi.**
 
 **Jeżeli scena 3 u mnie nie zadziała** — a szansa jest z grubsza pół na pół — **zostaje w pokazie z wynikiem negatywnym i podaną liczbą.** Z analizy stawki finałowej 2026: raportowanie wyników negatywnych obok pozytywnych robi **jeden projekt w całej stawce.**
 
@@ -152,9 +152,11 @@ Ceny są trzy i wszystkie zmierzono:
 2. `[fakt]` **liczba rzeczy do wyboru spada z kilkudziesięciu do dwóch.** Najlepszy opublikowany układ tego typu przenosi **0,17 bita na wybór**; układ sterowany wzrokiem przy czterdziestu celach — **4,69 bita**. **Dwadzieścia siedem razy mniej informacji** (Lesenfants 2014)
 3. `[fakt]` **sygnał przenosi się w inne miejsce głowy** — przy patrzeniu wprost jest najsilniejszy na środku potylicy, przy uwadze utajonej przenosi się wyżej i w bok (Walter 2012). Czyli **ucieka spod urządzenia, które ma leżeć na potylicy**
 
-**Jest jednak sztuczka, która działa lepiej i nie wymaga zmiany urządzenia.** Zamiast rozstawiać migające punkty w różnych miejscach, nakłada się **dwie migające warstwy na siebie, w jednym punkcie** — dwie chmury kropek o różnych kolorach, obracające się w przeciwne strony. Patrzysz cały czas w to samo miejsce, a wybierasz tym, **którą warstwę śledzisz uwagą.** `[fakt]` Tsinghua zmierzyła to na osiemnastu osobach: **72,6% przy dwóch możliwościach.**
+**Jest jednak sztuczka, która działa i nie wymaga zmiany urządzenia — nazywa się uwagą utajoną.** Migające pola zostają tam, gdzie były, ale **oko stoi nieruchomo w krzyżyku pośrodku**, a wybierasz tym, **na które pole skierujesz uwagę** — kątem oka, nie spojrzeniem. Każdy to potrafi: tak się podgląda kogoś, nie patrząc wprost.
 
-**I to jest odpowiedź na kamerkę, tym razem nie słowna tylko działająca:** kamerka nie ma wtedy czego mierzyć, **bo nie ma dokąd patrzeć.** Wszystko jest w jednym punkcie.
+**I to jest odpowiedź na kamerkę, tym razem nie słowna tylko działająca:** kamerka odczytuje **kierunek patrzenia**, a kierunek patrzenia jest przez cały czas **taki sam** — w krzyżyk. **Kamerka nie ma z czego odczytać wyboru.** Urządzenie ma.
+
+`[fakt]` Zmierzone: 2004 rok — przejście z patrzenia na uwagę kosztowało **20 punktów procentowych**. 2021 rok, lepsza metoda odczytu — **88,4% u dziewięciu osób, które nigdy wcześniej nie miały do czynienia z takim urządzeniem i nie przechodziły treningu.** Ile z tej kary zostało dwadzieścia lat później, **nikt nie zmierzył na jednym urządzeniu i jednej osobie** — i to jest drugi, mniejszy wynik, który mogę przy okazji dowieźć.
 
 **Dlaczego mimo to główny tryb zostaje wzrokowy:** bo daje czterdzieści możliwości zamiast dwóch i 95% zamiast 72%, a **projekt mierzy elektrodę, nie człowieka** — do pomiaru potrzebny jest najsilniejszy dostępny sygnał.
 
