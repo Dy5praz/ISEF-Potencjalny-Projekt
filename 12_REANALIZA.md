@@ -20,6 +20,76 @@
 
 ---
 
+## 0A. ODTWORZENIE NIEZALEŻNE, 21 sierpnia 2026 — na żądanie autora
+
+**Zarzut autora:** *„jesteś pewny co do tego wyniku? Jakby wiesz, to nie ja to obalałem tylko ty."*
+
+**Zarzut trafny i jedyną poprawną odpowiedzią było przeliczenie od nowa, nie zapewnienie.** Zbiór pobrany ponownie z GitHuba, rozpakowany, cały łańcuch przepuszczony od surowych plików `.mat`. **Wynik: wszystko odtwarza się co do liczby.**
+
+**Walidacja wobec publikacji — sześć współczynników, wszystkie trafione co do trzeciego miejsca:**
+
+| kanał | moje odtworzenie | Tabela 9 pracy |
+|---|---|---|
+| **Cz** | **0,416** | **0,416** |
+| Fp1 | 0,115 | 0,115 |
+| HEOG | 0,136 | 0,136 |
+| kark | 0,097 | 0,097 |
+| policzek | 0,127 | 0,127 |
+| szczęka | 0,132 | 0,132 |
+
+`[fakt]` **Moje czyszczenie wobec ich własnego, zapisanego w plikach `X_tgt_cln`: różnica względna 0,0000.** Nie „zbliżone" — **identyczne.** To dowodzi, że reimplementacja jest ich pipeline'em, a nie czymś podobnym.
+
+**Wynik właściwy, odtworzony 21 VIII 2026 (FBCCA, 54 rekordy, 3 240 okien):**
+
+| Warunek | Dokładność | Zysk |
+|---|---|---|
+| **Cz + szczęka** | 78,4% | **+5,1 pp** |
+| **Cz sam** | 78,0% | **+4,6 pp** |
+| wszystkie sześć aux | 77,4% | +4,1 pp |
+| bez Cz (pięć pozostałych) | 75,0% | +1,7 pp |
+| **szczęka sama** | 73,5% | **+0,1 pp** |
+| **bez kompensacji** | **73,3%** | — |
+| kark sam | 73,3% | −0,0 pp |
+| **tylko mięśniowe (kark+policzek+szczęka)** | 73,2% | **−0,1 pp** |
+
+**Najostrzejszy test, górny decyl skażenia (324 okna), odtworzony:**
+
+| | dokładność | SNR |
+|---|---|---|
+| O-only | 71,6% | 2,46 dB |
+| **O + szczęka** | **72,2% (+0,6 pp)** | +0,13 dB |
+| O + Cz | 77,8% (+6,2 pp) | +1,54 dB |
+
+**Per osoba, zysk szczęki ponad Cz:** **dziesięć z dwunastu osób dokładnie +0,0 pp**, dwie po +5,6 pp. **Średnia +0,93 ± 2,16 pp, t = 1,48, p = 0,166 — nieistotne.**
+
+`[fakt]` **Kontrola wewnętrzna trafia ponownie:** trzej badani, u których procedura autorów wybrała szczękę do optymalnego zestawu (**S03, S05, S10**), mają w tym teście zysk **dokładnie 0,0 pp**.
+
+> `[wniosek]` **Wszystkie liczby z tego pliku zostały odtworzone od surowych danych, drugi raz, w innej sesji, bez dostępu do poprzednich wyników pośrednich. Pipeline jest zwalidowany wobec publikacji dwiema niezależnymi drogami: współczynnikami z Tabeli 9 i identycznością z ich własnym plikiem wyczyszczonym.**
+
+**Czego to NIE dowodzi, i trzeba to powiedzieć osobno:** dowodzi, że **liczby są poprawne**. **Nie dowodzi, że interpretacja jest poprawna.** Zdanie *„zysk należy do Cz jako odniesienia, nie do kanału mięśniowego"* jest **wnioskiem** — mocno popartym (§6A.2: zysk Cz **rośnie** z poziomem skażenia EMG, z +2,5 na +6,9 pp, czyli Cz obsługuje artefakt mięśniowy, ale **jako składową wspólną**, nie jako lokalny czujnik mięśnia), ale **wnioskiem.**
+
+### 0A.1 Jak to odtworzyć samodzielnie — i dlaczego autor MUSI to zrobić przed preprintem
+
+```bash
+git clone --depth 1 https://github.com/kolodzima/EEG_artefact_SSVEP_EMG_EOG ds
+cd ds && mkdir -p un
+for i in $(seq -w 1 12); do unzip -oq S$i.zip -d un; done
+pip install numpy scipy scikit-learn h5py
+cd /sciezka/do/analiza
+EEG_DATA=/sciezka/do/ds/un python3 analiza.py     # walidacja wobec Tabeli 9
+EEG_DATA=/sciezka/do/ds/un python3 szczeka2.py    # test decylowy i test t
+```
+
+`[wniosek]` **Powodem nie jest to, że wynik może być błędny — właśnie został sprawdzony drugi raz.** Powody są trzy i wszystkie są o autorze, nie o liczbach:
+
+1. **Podpis pod pracą znaczy, że się za nią ręczy.** Nie da się ręczyć za coś, czego się nie uruchomiło.
+2. **Arkusz ISEF punktuje `degree of independence` w rozmowie wartej 25 punktów na 100.** Odpowiedź *„model to policzył"* jest tam śmiertelna, niezależnie od tego, czy liczby są dobre.
+3. **Autorzy pracy mogą odpowiedzieć.** Trzeba wtedy umieć obronić każdą liczbę z pamięci, na własnym ekranie.
+
+**To jest pozycja numer jeden w pracy nad preprintem i wykonuje się ją z laptopa.**
+
+---
+
 ## 1. Skąd dane i jak sprawdzone
 
 `[fakt]` Pełny tekst pracy (PMC12899023) zawiera zdanie przeoczone w etapie 1:
