@@ -117,6 +117,32 @@
 
 **To jest najgorzej ulokowany zasób w całym projekcie i leżał tak przez pięć dni audytu.**
 
+`[wniosek, K-113]` **Poprawka do tego alarmu, ta sama data, wieczór:** był w kierunku słuszny, ale **w sile zawyżony, bo policzony na Caltechu** — jedynej uczelni, którą dało się odczytać, i najostrzejszej z całej listy. **MIT stawia „extracurricular activities" i „talent/ability" wyżej.** Osiem CDS-ów do odczytania z oryginałów, zadanie 5a w `10 §7`.
+
+---
+
+## 0.6 Studia — cztery rzeczy, bo to jest cel nadrzędny, a nie konkurs
+
+`[fakt, 10 §3.1]` **Esej, rekomendacje i ocena charakteru są w pierwszym stopniu wagi u każdej sprawdzonej uczelni. Konkurs jest w drugim.** Stąd cztery ustalenia z 21 VIII (K-114):
+
+**a) Praca nad narracją na finał Explory JEST pracą nad esejem rekrutacyjnym.** Trzy historie, struktura „ograniczenie, nie wynik", uczciwość wobec kamerki — to nie streszczenie eseju, to jego treść. `[wniosek]` **Dwuużytkowa: jedna trzecia noty finałowej i jednocześnie czynnik pierwszego stopnia w rekrutacji. Nic innego w tym projekcie nie robi obu rzeczy naraz** — i dlatego przestaje być kosztem konkursowym.
+
+**b) Najlepszy materiał na esej już istnieje i nie jest nim urządzenie.** `[fakt]` 16 VIII autor kazał sprawdzić, czy oś, na której stał jego projekt, w ogóle się broni — i **przyjął odpowiedź, że nie.** `[wniosek]` **Siedemnastolatek, który zlecił analizę niszczącą własną hipotezę i zaakceptował wynik — to jest esej. Urządzenie jest tłem.**
+
+**c) Kolizja, której żaden plik nie widział.** `[fakt]` Pierwsze podejście do **SAT** planowane na **wiosnę 2028** wypada w tym samym oknie co szczyt przygotowań do **ISEF (maj 2028)**, a aplikacje idą jesienią 2028. `10 §6` sprawdzał kolizję **matury** z ISEF i **nie sprawdził kolizji SAT z ISEF** — ta sama klasa przeoczenia co K-107. **Poprawka: pierwsze podejście na grudzień 2027**, zostają trzy okna poprawkowe zamiast jednego. `[luka]` terminy do potwierdzenia na collegeboard.org.
+
+**d) Największa dźwignia w rekrutacji nie leży w tym projekcie.** `[fakt, 10 §5.1]` Konstrukcja listy uczelni daje **kilkanaście punktów procentowych**; różnica finalista ISEF wobec laureata kategorii — **pojedyncze punkty**. Przy ośmiu–dziesięciu dobrze dobranych zgłoszeniach: **~25–35% na co najmniej jedną ofertę, którą da się sfinansować.** Przy słabym SAT albo słabych ocenach: **5–10%, i żaden projekt tego nie odrabia.**
+
+---
+
+## 0.7 Jak to się skończy
+
+**Wyjazdu na ISEF prawdopodobnie nie będzie.** `[domysł]` ~12,6% dla projektu dowiezionego, ~9% licząc od dziś, ze wszystkimi bramkami otwartymi. **Nie owijam tego.** Ale liczba jest mała, bo **Polska wysyła trzy osoby na 377 zgłoszeń** — to jest stwierdzenie o kwocie, nie o jakości. Przy 9% siedzisz **jedenaście razy powyżej bazy losowego zgłoszenia** i mniej więcej w **górnych ośmiu procentach stawki.**
+
+**Będzie natomiast:** urządzenie, które działa · umiejętność projektowania toru analogowego dla sygnałów mikrowoltowych, której nie ma prawie nikt w Twoim wieku · **własna liczba, której nikt wcześniej nie zmierzył** · **preprint z DOI** · dwa lata dziennika budowy · i historia o zabiciu własnej hipotezy, którą da się opowiadać przez pół godziny.
+
+> **To jest wynik. Jest wart czternastu miesięcy. Konkurs jest opcją doklejoną na wierzchu i tak należy go traktować.**
+
 ---
 
 ---

@@ -57,7 +57,28 @@ Poprzednia wersja tego pliku znała tylko warunek „brak ryzyka" i wokół nieg
 
 > ### WYWIADY Z PRZYSZŁYMI UŻYTKOWNIKAMI — POZYCJA DOPISANA 21 VIII 2026, K-113
 >
-> **Plan autora:** trzy wywiady z osobami, którym takie urządzenie mogłoby pomóc, jako materiał do rubryk „praktyczna stosowalność" i „społeczne oddziaływanie".
+> **DOPRECYZOWANIE 21 VIII 2026 po wyjaśnieniu autora — K-114. Wersja poniżej postawiła regułę na złej podstawie.**
+>
+> **Plan autora, w jego brzmieniu:** *„nie wywiad, nie testy, tylko opowiedzenie historii"* — trzy historie osób z różnych środowisk, **jako materiał narracyjny dla jury Explory**, nie jako dane i nie jako pytanie o urządzenie.
+>
+> `[fakt, societyforscience.org/isef/international-rules/human-participants/, odczytane 21 VIII 2026]` **Regułę uruchamia nie temat rozmowy, tylko sama interakcja:** uczestnik badania to *„a living individual **about whom** an investigator (…) obtains data (…) through intervention or **interaction**"*, a lista przykładów zawiera wprost *„Studies in which the researcher **interacts with another human for purposes of their study**"*. **Rozmowa o czyimś życiu, bez jednego pomiaru i bez pytania o urządzenie, nadal nią jest.**
+>
+> **ALE w tej samej sekcji jest zwolnienie i jest czyste:**
+>
+> > `[fakt, cytat]` *„Data/record review studies (…) in which the data are taken from **preexisting data sets that are publicly available and/or published** and do not involve **any interaction with humans** or the collection of any data from a human participant"* — **zwolnione z IRB w całości.**
+>
+> | Droga | IRB | Formularze |
+> |---|---|---|
+> | **własne trzy rozmowy** | **wymagane PRZED pierwszą** | Form 4, zgody, zatwierdzone pytania |
+> | **trzy relacje już opublikowane** — reportaże, wywiady prasowe, materiały stowarzyszeń pacjenckich, dokumenty, świadectwa w pracach naukowych | **żadne** | **żadne** |
+>
+> `[wniosek]` **Do celu, który autor opisuje — poruszyć jury, nie zmierzyć czegokolwiek — relacje opublikowane są nie tylko prostsze, ale LEPSZE:** bogatsze, sprawdzalne, cytowalne, i juror może je zweryfikować zamiast brać na słowo. **Rekomendacja: relacje opublikowane.**
+>
+> **Skutek dla R6:** `06_RYZYKA.md` **wraca z „warunek wstępny" na „plan awaryjny"** — o ile autor zostanie przy relacjach opublikowanych. Przy własnych rozmowach obowiązuje wersja poniżej, bez zmian.
+>
+> ---
+>
+> **Wersja z rana 21 VIII 2026, zachowana, bo obowiązuje przy własnych rozmowach:**
 >
 > `[wniosek]` **Pomysł trafia dokładnie tam, gdzie siedzi cały rozrzut noty finałowej** (`13_WERDYKT.md` §0.1). **Ale wchodzi w regułę zacytowaną powyżej i nie jest to sprawa interpretacji:** rozmowa o tym, czy urządzenie by komuś pomogło, jest *„survey conducted regarding **potential use or opinions of the invention**"* — nawet gdy nikt niczego nie zakłada na głowę i nie pada ani jeden pomiar.
 >

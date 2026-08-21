@@ -1996,3 +1996,62 @@ Dwie dopuszczalne drogi, wybór **raz, w lutym 2027 po E1**. Pomiar krzyżowy wo
 ---
 
 **Reguła, wpisana do `METODA.md`:** **zanim postawisz wniosek ogólny, policz, ile masz punktów danych.** Jeden punkt to nie jest przesłanka o świecie — to jest przesłanka o tym punkcie. **Trzy wystąpienia tego błędu w tym projekcie: K-099 (jeden zbiór bez par pionowych), K-113 (jedna uczelnia, najostrzejsza z listy), oraz — w drugą stronę — cztery „zero trafień" pochodzące od narzędzia, nie od literatury.**
+
+---
+
+### K-114 — regułę o wywiadach postawiłem na złej podstawie; i dwie rzeczy o studiach, których nie widziałem
+
+**Skąd.** Wyjaśnienie autora, 21 VIII 2026 wieczorem: *„nie wywiad, nie testy, tylko opowiedzenie historii"* — celem nie jest pytać osoby niepełnosprawne o urządzenie, tylko **poruszyć jury Explory, w którym nie ma nikogo od interfejsów mózg–komputer.**
+
+---
+
+#### 1. Trafiłem we wniosek, minąłem się z powodem
+
+**Co napisałem rano:** że plan wchodzi w regułę, bo jest *„surveys regarding potential use or opinions of the invention"*.
+
+`[fakt, societyforscience.org/isef/international-rules/human-participants/, odczytane 21 VIII 2026]` **Regułę uruchamia nie temat rozmowy, tylko sama interakcja.** Uczestnik to *„a living individual **about whom** an investigator (…) obtains data (…) through intervention or **interaction**"*, a lista przykładów zawiera *„Studies in which the researcher **interacts with another human for purposes of their study**"*. **Rozmowa o czyimś życiu, bez pomiaru i bez pytania o urządzenie, nadal nią jest.**
+
+`[wniosek]` **Alarm był słuszny, uzasadnienie za wąskie.** Gdyby autor przyjął moje uzasadnienie i uznał, że skoro nie pyta o urządzenie, to reguła nie działa — **wpadłby w nią mimo wszystko.** Werdykt trafny z błędnego powodu jest niebezpieczniejszy od błędnego, bo nie da się go poprawnie zastosować do sąsiedniego przypadku.
+
+**Czego nie znalazłem rano, a było w tej samej sekcji:** `[fakt, cytat]` *„Data/record review studies (…) taken from **preexisting data sets that are publicly available and/or published** and do not involve **any interaction with humans**"* — **zwolnione w całości.**
+
+| Droga | IRB | Formularze |
+|---|---|---|
+| własne trzy rozmowy | **przed pierwszą** | Form 4, zgody, zatwierdzone pytania |
+| **trzy relacje już opublikowane** | **żadne** | **żadne** |
+
+`[wniosek]` **Do celu autora relacje opublikowane są nie tylko prostsze, ale lepsze** — bogatsze, sprawdzalne, cytowalne przez jurora. **R6 wraca z „warunek wstępny" na „plan awaryjny".**
+
+---
+
+#### 2. Kryterium doboru historii, bez którego strategia obraca się przeciw projektowi
+
+`[wniosek]` Im mocniej opowiedziane, komu urządzenie pomoże, tym pewniej pada zarzut o kamerkę. **Stąd jedyne kryterium, które się liczy:**
+
+> **Wszystkie trzy osoby muszą być takie, u których śledzenie wzroku kamerką nie działa** — po utracie kontroli nad ruchami gałek ocznych. **Wtedy zarzut umiera wewnątrz historii.** Historia o kimś sterującym wzrokiem sprawnie **sama podkłada jurorowi najgroźniejszy zarzut projektu.**
+
+**Struktura zamykająca pozostałe ryzyka: historia uzasadnia OGRANICZENIE, nie WYNIK.** „Ta osoba nie założy czepka → urządzenie musi być małe → małe znaczy, że odniesienie nie ma dokąd pójść → to zmierzyłem" — zamiast „to przywróci im samodzielność". `[wniosek]` **Nic nie jest obiecane na wyrost, a emocja zostaje, bo ograniczenie jest ludzkie.** Rozbiór: `08_KONKURSY.md` §3.1a.
+
+---
+
+#### 3. Praca nad narracją jest jednocześnie pracą nad esejem — czego nie zauważyłem
+
+`[fakt, 10 §3.1]` Esej, rekomendacje i ocena charakteru są w **pierwszym** stopniu wagi; konkurs w drugim.
+
+`[wniosek]` **Materiał na dwie miękkie rubryki finału Explory to ten sam materiał, z którego pisze się esej rekrutacyjny.** Przez cały audyt traktowałem tę pracę jako **koszt konkursowy** — godziny wydane na opowiadanie zamiast na płytkę. **Jest dwuużytkowa i to jedyna pozycja w projekcie, która pracuje na jedną trzecią noty finałowej i na czynnik pierwszego stopnia w rekrutacji naraz.**
+
+**A najlepszy materiał na esej już istnieje i nie jest nim urządzenie:** `[fakt]` autor zlecił 16 VIII analizę, która zniszczyła oś jego własnego projektu, i przyjął wynik. **To jest esej. Urządzenie jest tłem.**
+
+---
+
+#### 4. Kolizja SAT z ISEF, nierozpatrzona przez żaden plik
+
+`[fakt]` `10 §4` planuje **pierwsze podejście do SAT na wiosnę 2028**. `[fakt]` **ISEF jest w maju 2028**, a przygotowanie prezentacji po angielsku zajmuje III–V 2028. Aplikacje idą **jesienią 2028**.
+
+`[fakt]` **`10 §6` sprawdzał kolizję matury z ISEF. Kolizji SAT z ISEF nie sprawdził nikt** — dwie daty w dwóch sekcjach tego samego pliku, nigdy nieskonfrontowane. **Ta sama klasa przeoczenia co K-107 i szósty raz ten sam wzorzec.**
+
+**Poprawka:** `[wniosek]` **pierwsze podejście przesunąć na grudzień 2027** — po finale Explory, przed szczytem przygotowań do ISEF. Zostają **co najmniej trzy okna poprawkowe** zamiast jednego. `[luka]` Terminów SAT 2027–28 nie sprawdziłem w kalendarzu College Board; rozumowanie stoi na typowym rozkładzie. **Zadanie 6 w `10 §7`, podniesione z jesieni 2027 na jesień 2026.**
+
+---
+
+**Reguła:** **werdykt trafny z błędnego powodu jest gorszy od błędnego, bo nie da się go zastosować do następnego przypadku.** Przy każdym „to podpada pod regułę X" **cytuj zdanie, które ją uruchamia** — nie streszczaj go własnymi słowami, bo streszczenie zawęża.

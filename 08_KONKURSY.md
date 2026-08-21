@@ -136,6 +136,40 @@ Projekty wykorzystujące szkodliwe substancje, zakładające **inwazyjne** badan
 3. **Tabela z liczbami z wielu warunków odróżnia górę od dołu.** Z dziesięciu najlepszych **siedem** ma własną tabelę albo wykres; z dziesięciu najniższych — **zero**
 4. **Raportowanie wyników negatywnych obok pozytywnych** robi tylko jeden projekt w całej stawce. To jest przewaga wiarygodnościowa do wzięcia za darmo
 
+### 3.1a Narracja na finał — strategia autora, rozebrana 21 VIII 2026 (K-114)
+
+**Diagnoza autora:** w jury Explory nie ma nikogo od interfejsów mózg–komputer; są inżynierowie, w tym od elektroniki, plus **część laicka**. Wniosek: przekonać ich historią osób, którym urządzenie mogłoby przywrócić namiastkę samodzielności.
+
+`[wniosek]` **Diagnoza trafna i poparta danymi ze stawki 2026** (obserwacja 1 poniżej): nanokompozyt z pełnym warsztatem analitycznym poszedł na listę rezerwową, kolano pneumatyczne z jednym renderem CAD zostało finalistą. **Dwie z trzech rubryk finałowych są nietechniczne, a cały rozrzut noty tego projektu (23 → 26) siedzi właśnie w nich** (`13_WERDYKT.md` §0.1).
+
+**Trzy ryzyka i sposób ich zamknięcia:**
+
+**1. Przepaść między obietnicą a urządzeniem.** Trzy poruszające historie, a potem osiem celów przy 70% w laboratorium. `[wniosek]` **Inżynier w jury żyje dokładnie w tej szczelinie**, a projekt ma zasób, którego nikt inny w stawce nie ma — uczciwość (wyniki negatywne, przyznanie się do zabicia własnej osi). **Nadobietnica wydaje ten zasób w całości.**
+
+**2. Zarzut o kamerkę wraca ostrzejszy — i tu jest jedyne kryterium doboru, jakie się liczy.**
+
+> `[wniosek]` **Wszystkie trzy osoby muszą być takie, u których śledzenie wzroku kamerką nie działa.** Nie dowolne osoby sparaliżowane — takie, które **straciły albo tracą kontrolę nad ruchami gałek ocznych** (późne stadium SLA z oftalmoplegią, zespół zamknięcia z niepewnym spojrzeniem).
+>
+> **Wtedy zarzut o kamerkę umiera wewnątrz samej historii, zanim ktokolwiek zdąży go postawić.** Historia o kimś, kto steruje wzrokiem sprawnie, **sama podkłada jurorowi najgroźniejszy zarzut projektu.**
+
+**3. R13 i pokaz.** Po trzech emocjonalnych historiach **nieudany pokaz na ochotniku spada z dużo większej wysokości** (39% u Fodora). Zakaz demonstracji na jurorze jako jedynej formy pokazu robi się przez tę strategię **ważniejszy, nie mniej ważny.**
+
+**Struktura, która zamyka wszystkie trzy naraz — historia uzasadnia OGRANICZENIE, nie WYNIK:**
+
+| Wersja słabsza | **Wersja mocna** |
+|---|---|
+| „Tym ludziom to urządzenie przywróci samodzielność" | „Ta osoba nie założy czepka z przewodami. **Dlatego urządzenie musi być małe.** Małe znaczy, że elektroda odniesienia nie ma dokąd pójść. **To zmierzyłem, oto liczba.**" |
+| historia stoi **obok** projektu | historia **wchodzi** w projekt i kończy się na tabeli wyników |
+| obiecuje skutek niedowieziony | **opisuje ograniczenie faktycznie zmierzone** |
+
+`[wniosek]` **W tej wersji nic nie jest obiecane na wyrost, a laik i tak dostaje całą emocję — bo ograniczenie jest ludzkie, nie techniczne.** I rubryka merytoryczna zaczyna pracować na dwie miękkie, zamiast leżeć obok nich.
+
+**Źródło historii: relacje już opublikowane, nie własne rozmowy** — `09_FORMALNOSCI.md` §1.2. Zwolnione z IRB w całości, sprawdzalne przez jurora, cytowalne.
+
+**Prezentacja przed publicznością, równolegle do finału:** `[wniosek]` osobna okazja i **osobny materiał** — audytorium w całości laickie, więc udział historii może być większy. **Wersja dla jury zostaje ta z tabelą na końcu.**
+
+---
+
 **Sześć rzeczy do przeniesienia wprost do materiałów:** tabela wieloczynnikowa na plakacie · liczba w konkluzji zamiast przymiotnika · wyraz **„grupa kontrolna"** wypisany wprost · raportowanie wyników negatywnych · historia osobista albo lokalna w motywacji · **nie pokazywać aparatury, której nie umie się obsłużyć samodzielnie**.
 
 ---

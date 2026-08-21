@@ -505,6 +505,30 @@ Pytanie użytkownika: *„czy mogę liczyć na studia w Stanach, czy to bardziej
 
 ---
 
+## 5.2 Dwie rzeczy o studiach, ustalone 21 VIII 2026 — K-114
+
+### 5.2.1 Praca nad narracją na Explory JEST pracą nad esejem rekrutacyjnym
+
+`[fakt, 10 §3.1]` Trzy czynniki w **pierwszym stopniu wagi** u każdej sprawdzonej uczelni to **esej, rekomendacje i ocena charakteru**. Konkurs jest w drugim.
+
+`[wniosek]` **A materiał, który powstaje na dwie miękkie rubryki finału Explory, jest tym samym materiałem, z którego pisze się esej.** Trzy historie osób, dla których urządzenie ma sens; struktura „ograniczenie, nie wynik"; uczciwość wobec kamerki — to nie jest streszczenie eseju, to jest **jego treść**.
+
+**To zmienia priorytet tej pracy.** Dotąd wyglądała na koszt konkursowy — godziny wydane na opowiadanie zamiast na płytkę. **Jest dwuużytkowa: pracuje na rubrykę wartą jedną trzecią noty finałowej i jednocześnie na czynnik pierwszego stopnia w rekrutacji.** Nic innego w tym projekcie nie robi obu rzeczy naraz.
+
+**A najlepszy pojedynczy materiał na esej już istnieje i nie jest nim urządzenie:** `[fakt]` **16 VIII 2026 autor kazał sprawdzić, czy oś, na której stał jego projekt, w ogóle się broni — i przyjął odpowiedź, że nie** (+0,2 pp zamiast +9 pp). `[wniosek]` **Siedemnastolatek, który przeprowadził analizę niszczącą własną hipotezę i zaakceptował wynik, to jest esej.** Urządzenie jest tłem.
+
+### 5.2.2 Kolizja SAT z kampanią ISEF — nierozpatrzona do dziś
+
+`[fakt]` §4 tego pliku planuje **pierwsze podejście do SAT na wiosnę 2028.** `[fakt]` **ISEF odbywa się w maju 2028**, a przygotowanie prezentacji po angielsku zajmuje III–V 2028 (`07`, KM9).
+
+`[wniosek]` **Pierwsze podejście do SAT wypada w tym samym oknie co szczyt przygotowań do ISEF** — a aplikacje składa się jesienią 2028, więc na poprawkę zostaje bardzo mało miejsca. **Plik sprawdzał kolizję matury z ISEF (§6) i nie sprawdził kolizji SAT z ISEF.** Ta sama klasa przeoczenia co K-107: dwie daty w dwóch sekcjach, nigdy nieskonfrontowane.
+
+**Poprawka:** `[wniosek]` **pierwsze podejście przesunąć na grudzień 2027** — po finale Explory (X 2027), przed szczytem przygotowań do ISEF. Zostają wtedy **co najmniej trzy okna poprawkowe** przed aplikacjami zamiast jednego.
+
+`[luka]` **Dokładnych terminów SAT na lata 2027–28 nie sprawdziłem w kalendarzu College Board** — rozumowanie stoi na typowym rozkładzie terminów. **Do potwierdzenia na collegeboard.org, zadanie 6 w §7.**
+
+---
+
 ## 6. Matura wobec ISEF — kolizja jest częściowa, nie całkowita
 
 `[fakt]` Matura obowiązkowa (polski, matematyka, język obcy) wypada **4–6 maja**; rozszerzenia od 7 do 21 maja. ISEF odbywa się konsekwentnie **9–16 maja** (2025: 10–16 V Columbus; 2026: 9–15 V Phoenix).
@@ -529,7 +553,7 @@ Pytanie użytkownika: *„czy mogę liczyć na studia w Stanach, czy to bardziej
 | 4 | sprawdzić, czy **CMU ma aerospace** na poziomie licencjackim | jesień 2027 | otwarte |
 | 5 | zweryfikować **realną wagę statusu finalisty ISEF** w rekrutacji — dane uczelni albo Society for Science, **nie blogi** | 17 VIII 2026 | **CZĘŚCIOWO, sekcja 3.1.** Liczby z blogów wykreślone; twarde dane to CDS C7 |
 | **5a** | **odczytać C7 z ORYGINALNYCH PDF-ów dla ośmiu uczelni z listy** — MIT, Princeton, Brown, Stanford, CMU, Georgia Tech, Notre Dame, Olin. **Jedna uczelnia to n = 1, a Caltech jest przypadkiem skrajnym, nie typowym** (K-113) | **jesień 2026** | **OTWARTE, priorytet.** Zmienia wagę całej osi konkursowej w planie |
-| 6 | **terminarz SAT/TOEFL** wobec kalendarza projektu | jesień 2027 | otwarte |
+| 6 | **terminarz SAT/TOEFL** wobec kalendarza projektu — **potwierdzić terminy 2027–28 na collegeboard.org i przesunąć pierwsze podejście na XII 2027** (§5.2.2, K-114) | **jesień 2026, nie 2027** | **otwarte, podniesione** |
 | 7 | ustawić w szkole **rekomendacje** (2 nauczycieli + wychowawca) | wiosna 2028 | otwarte |
 | 8 | pytanie do **OKE o termin dodatkowy** matury | jesień 2028 | otwarte, dotyczy tylko ISEF 2029 |
 | 9 | **rozstrzygnąć aerospace vs elektronika/mechatronika** jako kierunek docelowy — decyzja użytkownika, wpływa na listę uczelni | do 2028 | **otwarte, wpływa na wszystko powyżej** |

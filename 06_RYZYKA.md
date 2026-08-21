@@ -99,6 +99,8 @@ Ocena z `METODA.md` §10 pozostaje: grupa z Politechniki Warszawskiej to **zesp�
 
 ## R6 — komisja IRB nie powstaje
 
+> **STATUS ZMIENIANY DWA RAZY 21 VIII 2026, końcowo: PLAN AWARYJNY.** Rano podniesiony na **warunek wstępny**, bo plan trzech historii wyglądał na wymagający własnych wywiadów. Wieczorem, po wyjaśnieniu autora i odczytaniu zwolnienia dla **relacji już opublikowanych** (`09_FORMALNOSCI.md` §1.2), **obniżony z powrotem.** `[wniosek]` **Przy relacjach opublikowanych IRB nie jest do narracji potrzebne w ogóle.** Wraca jako warunek wstępny wyłącznie wtedy, gdy autor zdecyduje się na własne rozmowy albo na badanie innych osób po złym E0.
+
 Skład wymagany: **nauczyciel inny niż opiekun projektu + dyrektor lub wicedyrektor + pielęgniarka szkolna lub psycholog** (K-022). Najdłuższy proces w harmonogramie formalnym i **jedyny zależny od osób trzecich**.
 
 Użytkownik zgłosił, że z formalnościami nie będzie problemu, i pozycja zeszła z listy ryzyk. **Wpisuję ją z powrotem, ale z niskim kosztem** — bo po R1 wiadomo, że IRB może się okazać potrzebna nie „na wszelki wypadek", tylko jako **plan awaryjny na słabą odpowiedź SSVEP u autora**. To zmienia jej wagę.
