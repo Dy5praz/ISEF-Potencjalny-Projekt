@@ -1527,3 +1527,33 @@ Dopóki historia była rozproszona po plikach roboczych, każdy z nich musiał n
 **Wniosek, który przesądza sprawę dla tego urządzenia, a nie tylko dla paradygmatu:** `[wniosek]` uwaga utajona **przesuwa sygnał spod modułu**. Moduł zbudowany wokół Oz przestaje wtedy stać w najlepszym miejscu — więc droga „covert" nie tylko kosztuje 20 pp i schodzi do dwóch klas, ale **podważa sens umieszczania elektroniki na potylicy**, czyli samą przesłankę projektu.
 
 **Reguła:** **zanim uzna się jakieś ograniczenie za oczywiste i niewarte opisania, sprawdzić, jak pole je nazywa.** Ograniczenie oczywiste dla autora ma zwykle w literaturze własny termin, własny podrozdział i własne liczby — a juror zapyta o nie w pierwszej minucie.
+
+
+---
+
+### K-105 — z opisu urządzenia wychodziły cztery elektrody, a jest ich osiem
+
+**Kto to wychwycił.** Autor, 21 VIII 2026: *„Mam wrażenie, że z opisu wychodzi jakby miały być tylko 4 elektrody — 2 główne na module »centralnym« i 2 odchodzące. (…) wcześniej wspominałeś ciągle o 8."*
+
+**Co było.** Dwa zdania, oba moje, oba napisane tego samego dnia przy domykaniu P28a:
+
+- `03_SPRZET.md` §4: *„Na przewodach zostają **tylko** O1 i O2, po ~3,5 cm w bok."*
+- `01_PROJEKT_DLA_LAIKA.md` §4.1: *„Dwie elektrody krytyczne są na jego własnym spodzie. **Dwie dodatkowe** idą w bok cienkimi przewodami."*
+
+**Dlaczego to nieprawda.** Rozkład z `03_SPRZET.md` §2 ma **osiem wejść plus DRL, czyli dziewięć punktów styku**, i wszystkie muszą być na głowie **jednocześnie**. Na przewodach są, oprócz O1 i O2: punkt 2 cm poniżej Oz, wyrostek sutkowaty, kanał karkowy R12, płatek ucha i DRL. **Siedem wyprowadzeń, nie dwa.**
+
+**Skąd wziął się błąd.** `[wniosek]` Zdanie o gabarycie było odpowiedzią na pytanie **„czy obudowa się zmieści"** — i w tej ramce interesowały mnie wyłącznie elektrody, które **wymuszają wymiar obudowy**, czyli Oz, POz, O1, O2. Reszta wypadła z pola widzenia i **zdanie zaczęło opisywać całe urządzenie**, choć odpowiadało na pytanie o jego szerokość. **Odpowiedź na wąskie pytanie zapisana jako opis ogólny** — ten sam kształt błędu co K-100 („rozpiętość elektrod" zapisana jako „obrys bryły"), tydzień po nim, przy tej samej sekcji.
+
+**Co jest teraz.** Rozróżnienie wpisane wprost, w trzech plikach:
+
+| | Konfiguracja pomiarowa | Konfiguracja demonstracyjna |
+|---|---|---|
+| elektrody | **8 + DRL** | **4 + DRL** |
+| wyprowadzenia | **7** | **2** |
+| po co | cztery położenia odniesienia naraz, na tych samych próbkach | pokaz |
+
+**Rzecz, która przy okazji wypłynęła i była luką samą w sobie:** dokumentacja **nigdzie nie tłumaczyła, po co ośmiu elektrod trzeba naraz.** Powód jest metodyczny i jest właściwie całym trikiem tego projektu: ADS1299 mierzy wszystkie wejścia wobec jednego odniesienia sprzętowego, więc **każdy montaż wyprowadza się z tej samej rejestracji przez odejmowanie, offline**. Gdyby elektrodę odniesienia **przekładać** między warunkami, różnica wyniku niosłaby oprócz geometrii także zmęczenie, wyschnięcie żelu i inny poziom alfa — a efektu rzędu kilku punktów procentowych nikt by w tym nie zobaczył. Opis: `03_SPRZET.md` §2.1, wersja dla laika w `01_PROJEKT_DLA_LAIKA.md` §4.1.
+
+**Skutek dodatni, którego nie było widać przed poprawką:** **redukcja z ośmiu elektrod do czterech jest wynikiem tego projektu, a nie ustępstwem.** Zdanie dla jurora zapisane w `03_SPRZET.md` §4.1.
+
+**Reguła:** **zdanie napisane jako odpowiedź na wąskie pytanie nie wchodzi do pliku w postaci ogólnej.** Jeżeli pomijasz część układu, bo akurat nie dotyczy pytania — napisz, że ją pomijasz, albo nie pisz „tylko" i „zostają".

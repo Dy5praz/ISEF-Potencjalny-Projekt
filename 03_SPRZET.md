@@ -28,6 +28,24 @@ Dlaczego to nie jest obejście: gdyby każde położenie odniesienia mierzyć w 
 | 8 | płatek ucha | **odniesienie literaturowe**, ~10 cm, górna granica |
 | DRL | kark, poza obszarem pomiarowym | sterowanie prawą nogą, tłumienie 50 Hz |
 
+**Razem: osiem elektrod na głowie plus DRL, czyli dziewięć punktów styku.** Wszystkie **naraz, w każdej sesji pomiarowej.**
+
+### 2.1 Dlaczego wszystkie osiem muszą być na głowie jednocześnie
+
+`[fakt]` **ADS1299 mierzy każde wejście wobec jednego wspólnego odniesienia sprzętowego (SRB1).** `[wniosek]` W tym projekcie tę rolę pełni **wejście 8 (płatek ucha)** — najdalsze, więc najmniej podatne na przypadkowe zbieżności z sygnałem potylicznym.
+
+Skutek jest taki, że **każdy montaż wyprowadza się z tej samej rejestracji przez odejmowanie, offline**:
+
+| Warunek | Jak powstaje z zarejestrowanych kanałów |
+|---|---|
+| Oz wobec płatka ucha (~10 cm) | kanał 1, wprost |
+| Oz wobec wyrostka sutkowatego (~7 cm) | kanał 1 − kanał 6 |
+| **Oz wobec POz (~3,5 cm, w górę)** | **kanał 1 − kanał 4** |
+| **Oz wobec punktu 2 cm poniżej (w dół)** | **kanał 1 − kanał 5** |
+| montaż trójkanałowy z odniesieniem odległym | kanały 1, 2, 3 wprost |
+
+`[wniosek]` **To jest cały trik metodyczny tego projektu i bez ośmiu elektrod nie działa.** Gdyby elektrodę odniesienia trzeba było **przekładać** między warunkami, każdy warunek byłby z innej chwili — a wtedy różnica wyniku niosłaby, oprócz geometrii, także zmęczenie, wyschnięcie żelu, inną dyspozycję i inny poziom alfa. **Osiem elektrod naraz zamienia porównanie międzysesyjne w porównanie na tych samych próbkach**, co jest jedyną postacią, w której efekt rzędu kilku punktów procentowych da się w ogóle zobaczyć.
+
 **Para wejść 4 i 5 to warunek kontrolny w najczystszej postaci, jaką ten projekt ma:** zbliżona odległość, **przeciwny kierunek**, ta sama sesja, te same próbki, ten sam tor. Różnica jest **czystym efektem kierunku**.
 
 `[wniosek]` **Dlaczego kandydat główny poszedł w górę, a nie w dół** (zmiana z 21 VIII 2026): okolica podpotyliczna ma trzech mieszkańców — mięsień karku, móżdżek reagujący na bodziec wzrokowy w paśmie beta, i gładkie pole (`05_STAN_WIEDZY.md` §6). **POz leży powyżej inionu, poza zasięgiem dwóch pierwszych.** Do tego para POz−Oz jest jedyną, dla której istnieje opublikowany wynik: **~46 bit/min przy 40 celach**.
@@ -62,9 +80,25 @@ Dlaczego to nie jest obejście: gdyby każde położenie odniesienia mierzyć w 
 | **płytka czterowarstwowa** | **~30 × 45 mm** |
 | **całość z obudową** | **~32 × 48 × 12 mm — mniej niż pudełko zapałek** |
 
-**Rzecz, która rozwiązuje sprawę gabarytu:** obudowa ma ~48 mm wysokości, a **odległość Oz–POz wynosi ~35 mm**. Obudowa ustawiona pionowo **mieści obie elektrody krytycznej pary na własnym spodzie** — para, na której stoi twierdzenie, **nie wymaga ani jednego przewodu**. Na przewodach zostają tylko O1 i O2, po ~3,5 cm w bok.
+**Rzecz, która rozwiązuje sprawę gabarytu:** obudowa ma ~48 mm wysokości, a **odległość Oz–POz wynosi ~35 mm**. Obudowa ustawiona pionowo **mieści obie elektrody krytycznej pary na własnym spodzie** — para, na której stoi twierdzenie, **nie wymaga ani jednego przewodu**.
 
-**Trzy architektury:**
+### 4.1 Dwie konfiguracje, których nie wolno mylić
+
+`[fakt]` **Poprawka z 21 VIII 2026, K-105.** Do tego miejsca dokumentacja opisywała tylko jedną konfigurację i wychodziło z niej, że urządzenie ma cztery elektrody. **Ma ich osiem, ale nie zawsze.**
+
+| | **Konfiguracja pomiarowa** — cała kampania E1–E4 | **Konfiguracja demonstracyjna** — stoisko, film, pokaz |
+|---|---|---|
+| **elektrody** | **8 + DRL = 9 punktów styku** | **4 + DRL = 5 punktów styku** |
+| na spodzie obudowy | Oz, POz | Oz, POz, `[domysł]` DRL |
+| na cienkich przewodach | O1, O2, punkt 2 cm poniżej Oz, wyrostek sutkowaty, kanał karkowy, płatek ucha, DRL — **7 wyprowadzeń** | O1, O2 — **2 wyprowadzenia** |
+| po co ta nadmiarowość | **cztery położenia odniesienia naraz na tych samych próbkach** (§2.1) — bez tego nie ma pomiaru | żadnej: warunek zwycięski jest już wybrany, reszta elektrod nie ma czego mierzyć |
+| jak wygląda | **jak aparatura**, i tak ma wyglądać | **jak pudełko zapałek z dwoma wąsami** |
+
+`[wniosek]` **To rozróżnienie jest zaletą, nie usprawiedliwieniem.** Zdanie dla jurora: *„W pomiarze noszę osiem elektrod, bo porównuję cztery położenia odniesienia w jednej sesji, na tych samych próbkach. W urządzeniu zostają cztery, bo pomiar rozstrzygnął, które są potrzebne."* **Redukcja z ośmiu do czterech jest wynikiem tego projektu**, a nie kompromisem, na który trzeba się tłumaczyć.
+
+`[luka]` Czy DRL zmieści się na spodzie obudowy razem z Oz i POz, czy musi zostać na przewodzie do karku — **do rozstrzygnięcia przy projekcie płytki** (P34). Nie wpływa na twierdzenie; wpływa na to, czy pokaz ma dwa wąsy, czy trzy.
+
+### 4.2 Trzy architektury
 
 | | Co to jest | Werdykt |
 |---|---|---|

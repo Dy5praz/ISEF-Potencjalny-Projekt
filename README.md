@@ -74,6 +74,7 @@
 | **P14** | trzy pytania do FZT jednym mailem: SRC jako IRB · łączenie z EUCYS · **czy badanie na sobie jest zwolnione** | jesień 2026 |
 | **E0** | **przesiew: czy SSVEP działa u autora.** ~20 minut na kupionej platformie. **Najważniejszy punkt w całym planie** | **X 2026** |
 | **P20** | kontrola grafu cytowań co pół roku (Wu i Su 2014, Diez 2010) | co pół roku |
+| **P34** | rozstrzygnąć przy projekcie płytki, czy DRL mieści się na spodzie obudowy, czy zostaje na przewodzie do karku (`03_SPRZET.md` §4.1) | I 2027 |
 
 **Zamknięte 21 VIII 2026:** **P28a** — autor dopuścił dwa cienkie przewody w bok do O1 i O2, gabaryt ~32×48×12 mm zostaje w mocy (`03_SPRZET.md` §2).
 

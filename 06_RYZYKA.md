@@ -144,6 +144,8 @@ Granica twarda: **nic zbliżonego do opaski przechylonej na tył głowy**, żadn
 
 `[wniosek]` **To nie jest złamanie decyzji 2, tylko jej doprecyzowanie**, i wymaga potwierdzenia użytkownika — pytanie P2 w `archiwum/18_PYTANIA_ETAP2.md`.
 
+**Uzupełnienie z 21 VIII 2026 (K-105):** granica gabarytowa dotyczy **konfiguracji demonstracyjnej** — moduł plus dwa przewody do O1 i O2. **Konfiguracja pomiarowa ma osiem elektrod i siedem wyprowadzeń** i granicy gabarytowej nie podlega, bo jest aparaturą, a nie wyrobem (`03_SPRZET.md` §4.1). `[wniosek]` Ryzyko, którego to nie zmniejsza: **zdjęcie z sesji pomiarowej nie nadaje się na plakat**. Materiał wizualny robi się osobno, w konfiguracji demonstracyjnej, i to jest pozycja w harmonogramie, a nie rzecz do zrobienia przy okazji.
+
 **Plan awaryjny:** kolejność ustępstw z `11_EWOLUCJA.md` decyzja 3 — najpierw gabaryt i widoczność, potem wygoda, **nigdy hełm**.
 
 ---

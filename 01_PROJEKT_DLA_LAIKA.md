@@ -77,11 +77,15 @@ I teraz robi się ciekawie, bo **obie elektrody widzą wtedy prawie to samo**. O
 
 ## 4. Co konkretnie zostanie zbudowane
 
-### 4.1 Wygląd
+### 4.1 Wygląd — i dlaczego są dwa
 
-**Jeden moduł z tyłu głowy, wielkości pudełka zapałek** (~32 × 48 × 12 mm), postawiony pionowo. Dwie elektrody krytyczne są **na jego własnym spodzie**. Dwie dodatkowe idą w bok cienkimi przewodami przy skórze, po ~3,5 cm.
+**Urządzenie gotowe:** jeden moduł z tyłu głowy, **wielkości pudełka zapałek** (~32 × 48 × 12 mm), postawiony pionowo. Dwie elektrody krytyczne są **na jego własnym spodzie**. Dwie dodatkowe idą w bok cienkimi przewodami przy skórze, po ~3,5 cm. **Cztery elektrody. Bez łuku przez głowę, bez opaski, bez kasku, bez czepka.**
 
-**Bez łuku przez głowę, bez opaski, bez kasku, bez czepka.**
+**Urządzenie w czasie pomiaru:** ten sam moduł, ale **osiem elektrod, nie cztery** — plus piąte, szóste i siódme wyprowadzenie na cienkich przewodach: za ucho, na płatek ucha, na kark i 2 cm poniżej modułu. **Wygląda wtedy jak aparatura, i ma tak wyglądać.**
+
+**Skąd ta różnica — i to jest sedno całego projektu.** Pytanie brzmi: *gdzie postawić elektrodę odniesienia*. Żeby porównać cztery jej położenia uczciwie, trzeba je zmierzyć **jednocześnie, u tej samej osoby, na tych samych próbkach**. Gdyby elektrodę **przekładać** — najpierw za ucho, potem na kark, potem obok modułu — to każdy pomiar byłby z innej chwili, a różnica wyniku niosłaby oprócz położenia elektrody także zmęczenie, wyschnięty żel i inny nastrój. **Efektu rzędu kilku punktów procentowych nikt by w tym nie zobaczył.**
+
+Czyli: **osiem elektrod to przyrząd pomiarowy. Cztery to wyrób.** A **to, które cztery zostają, jest wynikiem tego projektu** — nie da się ich wybrać przed pomiarem, bo właśnie po to się mierzy.
 
 ### 4.2 Co jest w środku
 
