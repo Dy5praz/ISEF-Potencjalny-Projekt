@@ -257,6 +257,24 @@ Odpowiedź na samo pytanie brzmi: **tak, wzrok jest limitem tego miejsca na gło
 
 ---
 
+## 22b. Zarzut o kamerkę i przegląd siedmiu paradygmatów, 21 sierpnia
+
+Autor wrócił do sprawy wzroku po raz drugi tego samego dnia, z zarzutem sformułowanym ostrzej: *„argument za kamerką jest poważny i bardzo łatwo narusza projekt. A bronienie się, że urządzenie jest głównie do pomiaru, no trochę odbiera mu wagi."*
+
+**Zarzut był trafny i moja poprzednia odpowiedź go zaniżała.** Zdanie *„SSVEP jest przyrządem pomiarowym, nie produktem"* jest prawdziwe, ale **jako jedyna obrona przyznaje zarzutowi rację i tylko odsuwa go na bok** — a przy okazji odbiera projektowi jego własny filar, czyli to, że powstaje urządzenie.
+
+Przegląd objął **wszystkie siedem znanych nieinwazyjnych sposobów sterowania**. Dał dwie liczby, których w projekcie nie było, i jedno rozwiązanie.
+
+**Liczba pierwsza — kamerka wygrywa i zawsze będzie.** Na tych samych jedenastu osobach: kamerka 28,2 bit/min, najlepszy interfejs mózgowy 20,9, słuchowy 3,3, dotykowy 3,4. **Udawanie, że jest inaczej, byłoby przegraną u pierwszego jurora, który to sprawdzi.**
+
+**Liczba druga — SSVEP działa u największej liczby ludzi ze wszystkich paradygmatów.** 96,2% osób powyżej 80% dokładności i **nikt poniżej 60%**, wobec **19%** dla wyobrażenia ruchu. Przejście na sterowanie „intencją", o które autor pytał, **zamieniłoby urządzenie działające u wszystkich na działające u jednego na pięciu** — i to niezależnie od wszystkich innych kosztów.
+
+**Rozwiązanie: jedna opcja z siedmiu zabija zarzut o kamerkę, nie ruszając w projekcie niczego.** Dwie nałożone na siebie migające powierzchnie w jednym punkcie, wybierane uwagą przy nieruchomym oku (Tsinghua 2010, 72,6% przy dwóch klasach). **Kamerka nie ma wtedy czego mierzyć, bo nie ma dokąd patrzeć**, a moduł, elektrody, tor i metryka zostają nietknięte. Wpisane jako **E6**, dwie sesje, cztery godziny — **P38, czeka na decyzję autora.**
+
+**Reguła, która z tego została:** zarzut, na który jest jedna odpowiedź, jest zarzutem otwartym. **Zamyka go dopiero druga odpowiedź w postaci demonstracji, a nie argumentu.**
+
+---
+
 ## 23. Cmentarz twierdzeń
 
 | Twierdzenie | Co je zabiło | Kiedy |

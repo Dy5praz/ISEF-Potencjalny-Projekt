@@ -296,6 +296,35 @@ Schodzi do tabeli towarzyszącej, ale **jest mierzony**, bo kosztuje tylko dyscy
 
 ---
 
+## 6a. Eksperyment E6 — tryb bez sterowania wzrokiem, **propozycja do rozstrzygnięcia (P38)**
+
+**Po co:** odpowiedzieć na zarzut *„po co to, skoro kamerka"* **działającą demonstracją zamiast argumentu**, oraz zmierzyć tę samą zależność od geometrii odniesienia **w drugim, trudniejszym reżimie SNR**. Pełny rozbiór siedmiu możliwych paradygmatów: `05_STAN_WIEDZY.md` §7.
+
+**Paradygmat:** uwaga nieprzestrzenna na **dwóch nałożonych na siebie powierzchniach** — dwie chmury kropek o różnych kolorach, obracające się w przeciwne strony **w tym samym miejscu**, migające dwiema częstotliwościami. Wybór następuje przez skierowanie uwagi na jedną z powierzchni, **przy nieruchomym punkcie fiksacji**. `[fakt]` Wzorzec: Zhang i in. 2010, PMID 20083864, 18 osób, **72,6 ± 16,1% przy dwóch klasach** po trzech dniach treningu.
+
+**Dlaczego to nie rusza niczego w projekcie:**
+
+| Element | Czy się zmienia |
+|---|---|
+| moduł, obudowa, gabaryt | **nie** |
+| rozkład elektrod (`03_SPRZET.md` §2) | **nie** |
+| tor analogowy, ADS1299, fotodioda | **nie** |
+| metryka: SNR w prążku, ITR wzorem Wolpawa | **nie** — sygnał pozostaje SSVEP o znanej częstotliwości |
+| twierdzenie i jego zmienna niezależna | **nie** |
+| bodziec i instrukcja dla badanego | **tak — to jest cała zmiana** |
+
+**Odstępstwo, które trzeba zapisać:** `[fakt]` bodziec wymaga **ekranu**, a `03_SPRZET.md` §5 nakazuje diody LED. **Warunek dopuszczenia: wyłącznie częstotliwości będące dokładnymi dzielnikami odświeżania ekranu** — przy 120 Hz są to **10, 12 i 15 Hz** — plus **obowiązkowa weryfikacja fotodiodą**, tak jak w warunku głównym. Poza tymi częstotliwościami warunek jest nieważny.
+
+**Rozmiar:** **dwie sesje**, ~4 h łącznie, po zakończeniu E2. **Dwie klasy, po 120 prób.**
+
+**Przewidywanie zapisane z góry:** `[domysł]` dokładność **65–80%** przy dwóch klasach; **strata z tytułu zwarcia odniesienia będzie WIĘKSZA niż w warunku wzrokowym**, bo modulacja uwagą jest słabsza od modulacji fiksacją, więc ten sam ubytek SNR zjada większą część zapasu. **Jeżeli strata okaże się mniejsza — to jest wynik przeciwny do przewidywania i raportuje się go w całości.**
+
+**Kryterium zaniechania:** jeżeli po dwóch sesjach dokładność nie przekroczy **60% przy dwóch klasach**, warunek zamyka się wynikiem negatywnym *„u autora ten tryb nie działa"* i **nie jest powtarzany.** Koszt zatrzymania: 4 h. `[fakt]` Zhang i in. odnotowali poprawę u **8 z 18 osób** — czyli ryzyko, że autor jest w gorszej połowie, wynosi około połowy.
+
+**Czego E6 NIE jest:** nie jest urządzeniem użytkowym. Dwie klasy przy ~72% to **dowód możliwości i materiał na film**, nie sposób sterowania żarówką. **Do materiałów zgłoszeniowych wchodzi jako warunek dodatkowy, nigdy jako główny wynik.**
+
+---
+
 ## 7. Badani, zgody, terminy
 
 | Faza | Kto | Podstawa formalna |

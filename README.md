@@ -77,6 +77,7 @@
 | **P37** | **zacząć naukę projektowania PCB we wrześniu, nie w listopadzie.** XI–XII 2026 jest przekroczony godzinowo, IX–X mają 33–49 h wolnego (`07_HARMONOGRAM.md`, budżet godzin) | **IX 2026** |
 | **P34** | rozstrzygnąć przy projekcie płytki, czy DRL mieści się na spodzie obudowy, czy zostaje na przewodzie do karku (`03_SPRZET.md` §4.1) | I 2027 |
 | **P35** | **zmierzyć taśmą własny łuk nasion–inion** i wpisać własną liczbę zamiast „~3,5 cm" — pięć minut, zero złotych, a wszystkie odległości w projekcie przestają być średnią z literatury | **od ręki** |
+| **P38** | **[!] decyzja: czy dokładamy E6** — tryb bez sterowania wzrokiem, dwie sesje, ~4 h, nie rusza modułu ani metryki. Zabija zarzut o kamerkę demonstracją zamiast argumentem (`05_STAN_WIEDZY.md` §7) | **czeka** |
 | **P36** | **[!] potwierdzić przeniesienie elektrody 5** z „2 cm poniżej Oz" na **Iz** (na inionie) — bez tego para kierunkowa miesza kierunek z odległością, K-106 | **czeka** |
 
 **Zamknięte 21 VIII 2026:** **P28a** — autor dopuścił dwa cienkie przewody w bok do O1 i O2, gabaryt ~32×48×12 mm zostaje w mocy (`03_SPRZET.md` §2).

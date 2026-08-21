@@ -1677,3 +1677,58 @@ Dopóki historia była rozproszona po plikach roboczych, każdy z nich musiał n
 > **Wszystko, co ten audyt znalazł w ostatniej fazie, to były liczby poprawne osobno i niezgodne razem albo nieskonfrontowane z niczym.** Ani jedno z jedenastu znalezisk nie wymagało dostępu do literatury. Wszystkie wymagały **policzenia własnego opisu.**
 
 **Reguła, wpisana do `METODA.md`:** **audyt literaturowy i rachunek zamknięty to dwie różne czynności i pierwsza nie zastępuje drugiej.** Rachunek zamknięty prowadzi się osobno, po każdej większej zmianie planu, i obejmuje: **sumy pieniędzy, sumy godzin, liczby porównań wobec mocy testu, wskaźniki warunkowe wobec bazowych, liczbę pinów wobec liczby rzeczy do podłączenia, i każdą wielkość zapisaną w dwóch plikach.**
+
+
+---
+
+### K-108 — przegląd wszystkich siedmiu sposobów sterowania. Zarzut o kamerkę był mocniejszy, niż dokumentacja przyznawała
+
+**Skąd.** Autor, 21 VIII 2026: *„nadal gryzie mnie jedna rzecz — wzrok. Jednak argument za kamerką jest poważny i bardzo łatwo narusza projekt. A bronienie się, że urządzenie jest głównie do pomiaru, no trochę odbiera mu wagi, bo to jednak wręcz najważniejszy filar projektu."*
+
+**Zarzut jest trafny i dokumentacja go zaniżała.** K-104 zamknął sprawę wzroku zdaniem *„SSVEP jest przyrządem pomiarowym, nie produktem"*. `[wniosek]` To jest prawda, ale **jako jedyna odpowiedź jest słaba**, bo odbiera projektowi to, co ma być jego filarem: że powstaje **urządzenie**, a nie tylko pomiar. Dwie dobre odpowiedzi są lepsze niż jedna, a druga wymagała przeszukania, którego nie było.
+
+---
+
+**Co przeszukanie dało — dwie liczby, które ustawiają całą sprawę i których w projekcie nie było.**
+
+`[fakt]` **Halder, Takano, Kansaku 2018** (PMID 29928196) — **jedyne bezpośrednie porównanie czterech sposobów sterowania na tych samych jedenastu osobach, w tym samym zadaniu:** kamerka **28,2 bit/min** przy 100% · P300 wzrokowy **20,9** · słuchowy **3,3** · dotykowy **3,4**. `[wniosek]` **Kamerka bije każdy interfejs mózgowy u człowieka panującego nad wzrokiem, i to nie jest bliski wynik.** Ucieczka od wzroku kosztuje **ośmiokrotność**. Pole płaci tę cenę świadomie od trzydziestu lat, za jedną rzecz: **żeby urządzenie działało, gdy oko nie działa.**
+
+`[fakt]` **Trzy badania g.tec o odsetku ludzi zdatnych**, te same metody, duże próby: **SSVEP — 96,2% osób powyżej 80% dokładności, nikt poniżej 60%** (Guger 2012, PMID 23181009, N = 53). **P300 — 89%** (Guger 2009, PMID 19545601, N = 100). **Wyobrażenie ruchu — 19%** (Guger 2003, PMID 12899258, N = 99).
+
+`[wniosek]` **SSVEP jest paradygmatem, który działa u największej liczby ludzi z wszystkich znanych, i wyprzedza wyobrażenie ruchu pięciokrotnie.** Zamiana na sterowanie „intencją" jest więc jednocześnie **zamianą urządzenia działającego u wszystkich na urządzenie działające u jednego na pięciu.** Tej liczby nie było w żadnym pliku, a jest ważniejsza od ITR — bo od niej zależy, czy pokaz na stoisku w ogóle wyjdzie (R13).
+
+---
+
+**Znalezisko główne: jedna opcja z siedmiu zabija zarzut o kamerkę, nie ruszając w projekcie niczego.**
+
+`[fakt]` **Zhang, Maye, Gao X., Hong, Engel, Gao S. 2010** (Tsinghua + UKE Hamburg, PMID 20083864): **dwie nałożone na siebie powierzchnie w tym samym punkcie** — dwie chmury kropek o różnych kolorach, obracające się w przeciwne strony, migające dwiema częstotliwościami. Wybór uwagą, przy nieruchomym oku. 18 osób, **72,6 ± 16,1% przy dwóch klasach**, poprawa u 8 z 18 po trzech dniach. Sygnał **nad okolicą ciemieniową i potyliczną**.
+
+`[wniosek]` **Kamerka nie ma wtedy czego mierzyć, bo nie ma dokąd patrzeć** — a moduł, elektrody, tor analogowy, metryka SNR w prążku i całe twierdzenie **zostają nietknięte**, bo sygnał dalej jest SSVEP o znanej częstotliwości. **Zmienia się wyłącznie bodziec i instrukcja.** Wpisane jako **E6, propozycja do rozstrzygnięcia (P38)**: dwie sesje, ~4 h, `04_PLAN_POMIAROWY.md` §6a.
+
+**Odstępstwo do zapisania:** bodziec wymaga **ekranu**, a `03_SPRZET.md` §5 nakazuje LED-y. Warunek dopuszczenia: **wyłącznie częstotliwości będące dokładnymi dzielnikami odświeżania** (przy 120 Hz: 10, 12, 15 Hz) plus weryfikacja fotodiodą.
+
+---
+
+**Znalezisko drugie, negatywne, i dlatego ważne: kolorowa odmiana tego pomysłu jest niepewna.**
+
+Najprostszy wariant „na LED-ach" — jedna dwukolorowa dioda w jednym punkcie, czerwień miga z f₁, zieleń z f₂, wybiera się kolor uwagą — **wygląda na tańszy i lepiej pasuje do sprzętu.** `[fakt]` **Ale istnieje preregistrowane badanie z wynikiem zerowym: Forschack, Andersen i in. 2021** (PMID 33416444) **nie znalazło modulacji SSVEP przez uwagę opartą na kolorze**, przy zachowanej kontroli pozytywnej (P300 pokazywał, że uwaga była skierowana). `[wniosek]` **Wariant kolorowy odrzucony.** Zostaje wariant powierzchniowy z Zhanga, oparty na ruchu, nie na kolorze — i to jest powód, dla którego E6 wymaga ekranu.
+
+---
+
+**Pozostałe pięć opcji i dlaczego każda odpada** — pełny rozbiór z plusami i minusami: `05_STAN_WIEDZY.md` §7.3.
+
+| Opcja | Dlaczego odpada |
+|---|---|
+| **uwaga utajona** przy zwykłym SSVEP | jedyna, która kosztuje dużo (−20 pp, 2 klasy) i **nie rozwiązuje problemu z kamerką** — bodźce dalej są w różnych miejscach |
+| **RSVP** (wszystko w jednym punkcie, po kolei) | działa i jest niezależne od wzroku (6–20 bit/min, 12/12 osób), ale sygnał to **P300b na Pz** — moduł musiałby urosnąć z 3,5 cm do ~10,5 cm od inionu, a **metryka SNR w prążku znika** |
+| **wyobrażenie ruchu** | **19% zdatnych**, sygnał na czubku głowy, zmienność międzysesyjna przewyższa mierzony efekt geometrii |
+| **mowa wewnętrzna** | binarnie ~60%, najlepsze ~72%, wieloklasowo 45–60% (PMID 39771903). **Projekt licealny obiecujący dekodowanie mowy z EEG przegrywa u pierwszego jurora znającego liczby** |
+| **słuch, dotyk, SSSEP** | 3,3–3,4 bit/min, sygnał nad korą czuciową i słuchową, wibratory na stałe na ciele — **gorszy gabaryt niż to, co projekt już odrzucił** |
+
+---
+
+**Reguła, która z tego wychodzi i której nie było:**
+
+> **Zarzut, na który jest jedna odpowiedź, jest zarzutem otwartym.** Jedna odpowiedź zawsze da się podważyć jako wykręt — szczególnie odpowiedź w kształcie *„to nie jest cel mojego projektu"*, bo ona przyznaje zarzutowi rację i tylko odsuwa go na bok. **Zarzut jest zamknięty dopiero wtedy, gdy druga odpowiedź jest demonstracją, a nie argumentem.**
+
+`[wniosek]` I dlatego wynikiem tego przeglądu nie jest zdanie, tylko **czterogodzinny warunek pomiarowy**, po którym da się powiedzieć: *„to samo urządzenie działa też bez kierowania wzrokiem — wolniej i przy dwóch celach, i mam to zmierzone."*

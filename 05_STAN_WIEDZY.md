@@ -117,30 +117,176 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 
 ---
 
-## 7. Sterowanie wzrokiem — gdzie leży granica i ile kosztuje jej przekroczenie
+## 7. Czym sterować urządzeniem — siedem opcji, koszty, decyzja
 
-**Po co to tu jest:** to jest pytanie, które juror zada, i jedyne pytanie o paradygmat, na które trzeba mieć liczby, a nie zdanie.
+**Po co ta sekcja istnieje:** zarzut *„po co to komu, skoro kamerka śledząca wzrok zrobi to samo"* jest poważny i nie da się go zbyć. Ta sekcja odpowiada na niego liczbami, a przy okazji przechodzi **wszystkie** znane nieinwazyjne sposoby sterowania interfejsem, nie tylko wzrokowe. Przegląd z 21 VIII 2026.
 
-### 7.1 Dlaczego SSVEP z potylicy jest z natury sterowany wzrokiem
+---
 
-`[fakt]` Kora potyliczna **jest** korą wzrokową, a jej mapa jest retinotopowa z powiększeniem korowym: dołek środkowy siatkówki zajmuje w niej udział nieproporcjonalnie duży wobec swojej powierzchni. `[fakt]` **Zhou, Hu, Yu, Li 2021** (PMID 34970111, 25 osób, mimośród 0,75°–13,90°): amplituda SSVEP **maleje monotonicznie z mimośrodem** bodźca względem punktu fiksacji. Skierowanie oka na bodziec jest więc **najsilniejszą modulacją, jaka jest w tym miejscu głowy dostępna nieinwazyjnie** — nie jest wyborem projektowym, tylko konsekwencją anatomii.
+### 7.1 Najpierw uczciwie: kamerka wygrywa i zawsze będzie wygrywać
 
-### 7.2 Cztery drogi wyjścia i ich zmierzony koszt
+`[fakt]` **Halder, Takano, Kansaku 2018** (PMID 29928196) — jedyne w literaturze bezpośrednie porównanie **czterech sposobów sterowania na tych samych jedenastu osobach, w tym samym zadaniu pięciu wyborów**:
 
-| Droga | Co zmienia | Zmierzony koszt | Werdykt dla tego projektu |
+| Sposób sterowania | Dokładność | Czas wyboru | **ITR** |
 |---|---|---|---|
-| **uwaga utajona** (covert attention) — oko nieruchome, uwaga przesunięta | usuwa zależność od ruchu oczu, **nie od wzroku** | **Kelly i in. 2004** (PMID 17271364): dokładność **spada o ~20 pp** przy samej zamianie jawnej na utajoną. **Lesenfants i in. 2014** (PMID 24838215, Liège): **2 klasy**, 24 osoby zdrowe, offline 85 ± 2%, **online 74 ± 13%**; **0,173 bit na wybór** wobec 4,687 bit u Li 2025 — **27-krotnie mniej informacji na wybór**, niezależnie od czasu okna | **realna, ale to inny wyrób.** Do zapisania jako wariant, nie do zbudowania |
-| **RIFT** — znakowanie częstotliwością niewidoczną (rapid invisible frequency tagging) | usuwa **widoczne migotanie**, projektor 1 440 Hz, migotanie 56 i 60 Hz | **Brickwedde i in. 2022** (PMID 36228894) | usuwa zarzut estetyczny, **nie usuwa zależności od wzroku.** Wymaga projektora 1 440 Hz — poza budżetem |
-| **zmiana miejsca na głowie** — wyobrażenie ruchu, słuch, dotyk | usuwa wzrok całkowicie | wyobrażenie ruchu: 70–85% przy dwóch klasach u osób wyszkolonych, **15–30% nie opanowuje tego wcale**; sygnał leży nad korą czuciowo-ruchową, nie nad potylicą | **rozbija i moduł, i pomiar.** Odrzucone — patrz §7.3 |
-| **inwazyjne** | usuwa wzrok, daje setki bitów na minutę | — | poza zakresem: kategoria ISEF, wiek autora, badani ludzie |
+| **kamerka śledząca wzrok** | **100%** | 5,1 s | **28,2 bit/min** |
+| P300 wzrokowy (BCI) | 88% | 4,8 s | 20,9 bit/min |
+| P300 słuchowy (BCI) | 70% | 19,9 s | **3,3 bit/min** |
+| P300 dotykowy (BCI) | 71% | 18,0 s | **3,4 bit/min** |
 
-`[fakt]` **Walter, Quigley, Andersen, Mueller 2012** (PMID 22579858) dokłada rzecz, która przesądza sprawę dla **tego** urządzenia: przy uwadze jawnej największa amplituda SSVEP wypada **na środkowych elektrodach potylicznych**, przy utajonej — **na przeciwstronnych ciemieniowo-potylicznych**. `[wniosek]` **Przejście na uwagę utajoną przesuwa sygnał spod modułu.** Moduł zbudowany wokół Oz przestaje wtedy stać w najlepszym miejscu — czyli droga „covert" nie tylko kosztuje 20 pp, ale **podważa sens umieszczenia elektroniki na potylicy.**
+`[wniosek]` **Żaden interfejs mózg–komputer nie bije kamerki u osoby, która panuje nad wzrokiem — i nie chodzi o to, żeby bił.** Ucieczka od wzroku kosztuje **sześciokrotność** wobec najlepszego BCI wzrokowego i **ośmiokrotność** wobec kamerki. To jest cena, którą pole płaci świadomie i od trzydziestu lat, **za jedną rzecz: żeby urządzenie działało wtedy, gdy oko nie działa.**
 
-### 7.3 Dlaczego to nie jest ograniczenie tego projektu
+**Zdanie do wygłoszenia, i jest mocniejsze od dotychczasowego:**
 
-`[wniosek]` **SSVEP jest w tym projekcie przyrządem pomiarowym, nie produktem.** Twierdzenie (`02_TWIERDZENIE.md`) dotyczy **geometrii elektrody odniesienia**; SSVEP został wybrany, bo jest jedynym paradygmatem, który daje **powtarzalny sygnał o znanej częstotliwości** — a więc metrykę SNR w prążku, która pozwala przypisać zmianę wyniku położeniu elektrody, a nie dyspozycji dnia. Wyobrażenie ruchu tego nie ma: jego **zmienność między sesjami przewyższa mierzony efekt geometrii**, więc zamiana paradygmatu **uniemożliwiłaby pomiar, dla którego projekt istnieje**.
+> *Kamerka jest szybsza i tańsza, i tak zostanie. Ja nie konkuruję z kamerką o użytkownika, który panuje nad wzrokiem — konkuruję o tego, który nie panuje, i tam kamerka daje zero. A rzecz, którą mierzę, dotyczy elektrody, nie sposobu sterowania: przenosi się na każde noszone urządzenie EEG, także takie, które ze wzrokiem nie ma nic wspólnego.*
 
-`[wniosek]` Wniosek praktyczny: **zależność od wzroku zostaje, jest opisana w ograniczeniach, i jest opisana liczbami cudzych prac.** Odpowiedź jurorowi — `02_TWIERDZENIE.md` §7, pytanie czwarte.
+---
+
+### 7.2 Druga liczba, która ustawia całą resztę: u ilu ludzi to w ogóle działa
+
+`[fakt]` Trzy badania jednej grupy (g.tec), ten sam styl, duże próby — **jedyne miejsce w literaturze, gdzie paradygmaty porównano pod względem odsetka ludzi zdatnych:**
+
+| Paradygmat | N osób | **80–100% dokładności** | nie działa wcale |
+|---|---|---|---|
+| **SSVEP** — Guger 2012, PMID 23181009 | 53 | **96,2%** | **0% — nikt poniżej 60%** |
+| **P300** — Guger 2009, PMID 19545601 | 100 | **89%** | < 3% |
+| **wyobrażenie ruchu** — Guger 2003, PMID 12899258 | 99 | **19%** | ~7% poniżej 60% |
+
+`[wniosek]` **SSVEP jest paradygmatem, który działa u największej liczby ludzi z wszystkich znanych — i wyprzedza wyobrażenie ruchu pięciokrotnie w paśmie użytecznej dokładności.** Każda zamiana paradygmatu na „intencyjny" jest więc jednocześnie **zamianą urządzenia działającego u wszystkich na urządzenie działające u jednego na pięciu.** Ta liczba wraca w każdej opcji poniżej i jest dla projektu ważniejsza niż ITR, bo od niej zależy, czy pokaz w ogóle wyjdzie (R13).
+
+---
+
+### 7.3 Siedem opcji — co to jest, plusy, minusy, koszt dla projektu
+
+#### Opcja 1. Zostaje jak jest: SSVEP sterowany wzrokiem
+
+**Co to jest:** migający znacznik, patrzysz na niego, urządzenie rozpoznaje częstotliwość.
+
+| Plusy | Minusy |
+|---|---|
+| **działa u 100% ludzi** (Guger 2012) | **kamerka robi to szybciej** |
+| najwyższa przepustowość w całym polu: **46–160 bit/min** | migotanie widoczne i męczące |
+| sygnał o znanej częstotliwości → **metryka SNR w prążku**, na której stoi cały pomiar | zależy od kontroli wzroku |
+| zero treningu, ~5 minut kalibracji | |
+
+**Koszt zmiany: zero.** To jest stan bieżący.
+
+---
+
+#### Opcja 2. Uwaga nieprzestrzenna na nakładających się powierzchniach — **REKOMENDOWANA jako dodatek**
+
+**Co to jest:** dwie grupy kropek o różnych kolorach obracają się w przeciwne strony **w tym samym miejscu ekranu**, migając z dwiema różnymi częstotliwościami. Patrzysz cały czas w ten sam punkt, a wybierasz **umysłem, którą z dwóch nałożonych powierzchni śledzisz.** SSVEP przy odpowiedniej częstotliwości rośnie.
+
+`[fakt]` **Zhang, Maye, Gao X., Hong, Engel, Gao S. 2010** (Tsinghua + UKE Hamburg, PMID 20083864), 18 osób, trzy dni treningu online: **72,6 ± 16,1% przy dwóch klasach**, poprawa u **8 z 18** osób. Sygnał rejestrowany **nad okolicą ciemieniową i potyliczną**.
+
+| Plusy | Minusy |
+|---|---|
+| **kamerka przestaje mieć czego mierzyć** — oba bodźce są w tym samym punkcie, więc kierunek wzroku nie niesie informacji. **Jedyna opcja, która ten zarzut zabija, a nie osłabia** | **dwie klasy** — z czterdziestu celów zostają dwa |
+| **ten sam sprzęt, te same elektrody, ten sam potok analizy.** Zmienia się wyłącznie bodziec i instrukcja | **72,6%**, i to po trzech dniach treningu |
+| **sygnał zostaje SSVEP** → metryka SNR w prążku działa, więc **pomiar geometrii odniesienia przeżywa bez zmian** | poprawa tylko u **8 z 18** osób |
+| daje **drugi reżim SNR** do zmierzenia tej samej zależności — a strata odniesienia mierzona przy niskim SNR jest **bardziej informatywna** niż przy wysokim | wymaga **ekranu**, nie panelu LED |
+
+**Koszt dla projektu:** `[wniosek]` **mały i policzalny.** Jeden dodatkowy program bodźcowy plus **dwie sesje pomiarowe** (~4 h). Konflikt z decyzją „diody LED, nie ekran" (§3 `03_SPRZET.md`) rozwiązuje się warunkiem: **w tym jednym warunku wolno użyć ekranu, ale wyłącznie z częstotliwościami będącymi dokładnymi dzielnikami odświeżania** — przy 120 Hz to **10, 12 i 15 Hz** — a fotodioda i tak weryfikuje bodziec. **Twierdzenie się nie zmienia. Moduł się nie zmienia. Elektrody się nie zmieniają.**
+
+**Czego to NIE daje:** urządzenia użytkowego. Dwie klasy przy 72,6% to jest **dowód możliwości i materiał na film**, nie sposób sterowania żarówką.
+
+---
+
+#### Opcja 3. RSVP — wszystko w jednym punkcie, po kolei
+
+**Co to jest:** litery albo ikony pokazują się **jedna po drugiej w tym samym miejscu**, szybko. Czekasz na swoją. Mózg reaguje falą P300 na tę właściwą.
+
+`[fakt]` **Acqualagna i Blankertz 2013** (PMID 23466266): 30 symboli, **wszystkie 12 osób opanowało**, 94,8% dokładności, 1,43 symbolu/min → **6,2 bit/min**. **Lin i in. 2018** (PMID 29463870), potrójny RSVP: **20,3 bit/min** przy 79%, 10 s na znak, **na obszarze 90 × 195 pikseli** — wielkości ekraniku zegarka. **Chennu i in. 2013** (PMID 23895406): RSVP klasyfikuje się **tak samo dobrze** jak klasyczna matryca, ale jest **wyraźnie wolniejszy**; matryca opiera się na wzrokozależnych VEP, **RSVP wyłącznie na niezależnym od przestrzeni P300b**.
+
+| Plusy | Minusy |
+|---|---|
+| **całkowicie niezależne od kierunku wzroku** — kamerka bezużyteczna | **sygnał przenosi się na ciemię (Pz), nie potylicę** |
+| **działa u wszystkich** (12/12 u Acqualagny) | 6–20 bit/min, czyli **2–8× mniej** niż SSVEP zwarty |
+| trzydzieści celów, nie dwa | wymaga skupienia i jest męczące |
+| mieści się na ekranie zegarka | |
+
+**Koszt dla projektu:** `[wniosek]` **duży i strukturalny.** P300b ma maksimum na **Pz — ~10,5 cm powyżej inionu**, czyli **poza modułem potylicznym**. Moduł musiałby urosnąć z pary Oz–POz (3,5 cm) do pasa Oz–Pz — **z pudełka zapałek w pasek wzdłuż tyłu głowy**. Do tego P300 jest odpowiedzią **jednorazową, bez znanej częstotliwości**, więc **metryka SNR w prążku znika i cały aparat pomiarowy trzeba zbudować od nowa.** **Twierdzenie o geometrii przeżywa, ale pomiar trzeba przeprojektować, a moduł powiększyć.**
+
+---
+
+#### Opcja 4. Uwaga utajona przy zwykłym SSVEP
+
+**Co to jest:** bodźce w różnych miejscach, jak zwykle, ale oko stoi w środku, a Ty przesuwasz uwagę kątem oka.
+
+`[fakt]` **Kelly i in. 2004** (PMID 17271364): **−20 pp** przy samej tej zamianie. **Lesenfants i in. 2014** (PMID 24838215): dwie klasy, online **74 ± 13%**, **0,173 bit na wybór** wobec 4,687 przy czterdziestu celach; z sześciu pacjentów z zespołem zamknięcia **jeden na czterech porozumiał się online**.
+
+| Plusy | Minusy |
+|---|---|
+| ten sam sprzęt i ten sam bodziec | **kamerka nadal działa** — bodźce są w różnych miejscach, więc śledzenie ma czego szukać. **Zarzut nie znika** |
+| sprawdzone na pacjentach | −20 pp, dwie klasy |
+| | `[fakt]` **Walter i in. 2012** (PMID 22579858): maksimum sygnału przenosi się z elektrod **środkowo-potylicznych** na **przeciwstronne ciemieniowo-potyliczne** — czyli **spod modułu** |
+
+**Koszt dla projektu:** średni, a **zysk żaden** — bo to jedyna opcja, która kosztuje dużo i **nie rozwiązuje problemu z kamerką.** **Odrzucona.**
+
+---
+
+#### Opcja 5. Intencje ruchowe — wyobrażenie ruchu
+
+**Co to jest:** wyobrażasz sobie ruch prawej ręki albo stopy. Nad korą ruchową spada moc rytmu mu. Żadnego bodźca zewnętrznego — to jest interfejs „aktywny", czyli najbliższy potocznemu „sterowaniu myślą".
+
+`[fakt]` Guger 2003 (PMID 12899258), 99 osób: **tylko 19% osiąga 80–100%**; ~93% przekracza 60%, co przy dwóch klasach jest blisko przypadku.
+
+| Plusy | Minusy |
+|---|---|
+| **żadnego bodźca — sterujesz, kiedy chcesz**, nie kiedy urządzenie miga | **działa u jednego na pięciu** w paśmie użytecznym |
+| brzmi najlepiej ze wszystkiego, i to nie jest bez znaczenia na stoisku | dwie–cztery klasy, dni treningu |
+| niezależne od wzroku, słuchu i dotyku | **sygnał leży nad korą czuciowo-ruchową — C3, C4, Cz, czyli na czubku głowy** |
+
+**Koszt dla projektu: całkowity.** `[wniosek]` **Moduł potyliczny przestaje mieć rację bytu**, bo nad potylicą nie ma czego mierzyć. Znika też metryka: rytm mu nie ma znanej częstotliwości bodźca, a jego **zmienność między sesjami przewyższa efekt geometrii, który projekt mierzy** — więc **pomiar staje się niewykonalny**, nie tylko trudniejszy. **To nie jest zmiana paradygmatu, to jest inny projekt.**
+
+---
+
+#### Opcja 6. Intencje językowe — mowa wewnętrzna
+
+**Co to jest:** wypowiadasz słowo w myślach, urządzenie je rozpoznaje. To jest to, co ludzie mają na myśli, mówiąc „czytanie myśli".
+
+`[fakt]` Przegląd systematyczny **Alzahrani, Banjar, Mirza 2024** (PMID 39771903, pełny tekst przejrzany): klasyfikacja binarna **~60%**, najlepsze zgłoszone podejście **ponad 72%**, wieloklasowo **45–60%**.
+
+| Plusy | Minusy |
+|---|---|
+| najbardziej naturalne, gdyby działało | **60% przy dwóch klasach to jest 0,03 bita na wybór — praktycznie zero informacji** |
+| bardzo aktywne pole badawcze | z EEG powierzchniowego **nie działa i nikt nie twierdzi, że działa** |
+
+**Koszt dla projektu: całkowity, plus ryzyko wiarygodności.** `[wniosek]` Projekt licealny obiecujący dekodowanie mowy wewnętrznej z EEG **przegrywa u pierwszego jurora, który zna liczby.** **Odrzucone.**
+
+---
+
+#### Opcja 7. Zmysł inny niż wzrok — słuch i dotyk
+
+**Co to jest:** dźwięki w słuchawkach albo wibracje na palcach zamiast migających świateł. P300 albo odpowiedź ustalona (SSSEP — dotykowy odpowiednik SSVEP, przegląd: **Petit, Rouillard, Cabestaing 2021**, PMID 34725311).
+
+`[fakt]` Halder 2018 (ta sama tabela co §7.1): słuchowy **3,3 bit/min**, dotykowy **3,4 bit/min**. `[fakt]` Dekodowanie uwagi słuchowej („na którego mówcę patrzę uchem") jest polem żywym, ale to **dwie klasy i 56,3% przy oknie 1 s** dla modelu niezależnego od osoby (AADNet 2025, PMID 40633040) — narzędzie dla aparatów słuchowych, nie kanał sterujący.
+
+| Plusy | Minusy |
+|---|---|
+| **całkowicie niezależne od wzroku** — jedyna rodzina, o której da się to powiedzieć bez zastrzeżeń | **3,3–3,4 bit/min: ośmiokrotnie mniej niż kamerka, czternastokrotnie mniej niż SSVEP zwarty** |
+| działa u osób niewidomych | wibratory albo słuchawki na stałe na ciele — **gorszy gabaryt niż to, co projekt odrzucił** |
+| SSSEP zachowuje logikę „znanej częstotliwości" | sygnał nad korą czuciową i słuchową — **znowu nie nad potylicą** |
+
+**Koszt dla projektu: całkowity.** Moduł potyliczny znika, twierdzenie o geometrii potylicznej znika razem z nim.
+
+---
+
+### 7.4 Zestawienie i decyzja
+
+| Opcja | Kamerka przestaje być zarzutem? | Moduł potyliczny przeżywa? | Pomiar geometrii przeżywa? | Koszt |
+|---|---|---|---|---|
+| 1. SSVEP wzrokiem (stan bieżący) | nie | **tak** | **tak** | zero |
+| **2. Uwaga nieprzestrzenna, nakładane powierzchnie** | **TAK** | **tak** | **tak** | **~4 h + program bodźcowy** |
+| 3. RSVP | **tak** | nie — moduł rośnie do Pz | nie — trzeba zbudować od nowa | duży |
+| 4. Uwaga utajona | **nie** | częściowo | tak | średni, bez zysku |
+| 5. Wyobrażenie ruchu | tak | **nie** | **nie** | inny projekt |
+| 6. Mowa wewnętrzna | tak | **nie** | **nie** | inny projekt + ryzyko |
+| 7. Słuch, dotyk | tak | **nie** | **nie** | inny projekt |
+
+`[wniosek]` **Jedna opcja z siedmiu zabija zarzut o kamerkę, nie ruszając ani modułu, ani elektrod, ani metryki, ani twierdzenia — opcja 2.** Wszystkie pozostałe, które usuwają wzrok, **usuwają razem z nim potylicę**, a z potylicą całą podstawę projektu.
+
+**Rekomendacja, do rozstrzygnięcia przez autora (P38):** **zostawić SSVEP wzrokowy jako paradygmat główny i dołożyć warunek E6 — uwagę nieprzestrzenną na nakładających się powierzchniach — jako warunek dodatkowy, dwie sesje.** Daje trzy rzeczy naraz: **odpowiedź na kamerkę w postaci działającej demonstracji, a nie argumentu**; drugi reżim SNR, w którym ta sama zależność od geometrii odniesienia jest lepiej widoczna; oraz uczciwe zdanie do materiałów — *„to samo urządzenie działa też bez kierowania wzrokiem, wolniej i przy dwóch celach"*.
 
 ---
 

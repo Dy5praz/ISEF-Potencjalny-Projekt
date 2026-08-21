@@ -73,7 +73,7 @@
 3. **efekt jest o dwa rzędy wielkości większy** niż ten, który odpadł: 9–24 pp zamiast 0,2 pp
 4. **uzasadnienie nie brzmi „nikt tego nie zrobił", tylko „trzy opublikowane wyniki są sprzeczne i nikt ich nie pogodził"** — a to jest odporne na znalezienie czwartej pracy
 
-## 7. Cztery odpowiedzi przygotowane na pytania jurora
+## 7. Sześć odpowiedzi przygotowanych na pytania jurora
 
 **„Czemu nie robisz tego, co DSTF-Net?"** (Yan i in. 2026, rekonstrukcja sygnału potylicznego z czołowego siecią neuronową)
 > *Tamto rozwiązuje przypadek, w którym potylicy nie da się użyć w ogóle — pacjent leży, ma ubytek kości albo stabilizator. Wymaga sieci uczonej na parach sygnałów. Mój problem jest inny: potylica jest dostępna, tylko urządzenie musi być małe. Na to sieć nie odpowiada, bo pytanie brzmi, gdzie postawić elektrodę, a nie jak odtworzyć sygnał, którego nie ma.*
@@ -84,10 +84,14 @@
 **„Przecież to wynika z fizyki objętościowego przewodzenia."**
 > *Kierunek efektu owszem, wielkość nie. Różnica między −5 pp a −24 pp decyduje o tym, czy urządzenie w danym gabarycie ma sens, a fizyka jej nie podaje. Do tego dwie opublikowane prace dają dla tej samej operacji przeciwne znaki — Diez 2010 i Li 2025 mówią, że dwubiegunowy jest lepszy, moja reanaliza cudzych danych mówi, że gorszy. Skoro znaki są przeciwne, „to wynika z fizyki" przestaje być odpowiedzią.*
 
-**„Przecież to i tak trzeba obsługiwać wzrokiem — po co to komu?"**
-> *Kora potyliczna jest korą wzrokową, więc najsilniejsza modulacja dostępna nad nią nieinwazyjnie to skierowanie oka. Zmierzono, ile kosztuje rezygnacja z tego: przy uwadze utajonej dokładność spada o około 20 punktów procentowych (Kelly 2004), a najlepszy opublikowany układ niezależny od wzroku daje dwie klasy i 0,173 bita na wybór wobec 4,687 bita przy czterdziestu celach — dwudziestosiedmiokrotnie mniej (Lesenfants 2014). Do tego przy uwadze utajonej maksimum sygnału przenosi się z elektrod potylicznych na ciemieniowo-potyliczne przeciwstronne (Walter 2012), czyli spod modułu. Ale to nie jest ograniczenie mojego wyniku: SSVEP jest u mnie przyrządem pomiarowym, nie produktem. Mierzę geometrię elektrody odniesienia, a SSVEP wybrałem dlatego, że jako jedyny paradygmat daje sygnał o znanej częstotliwości, więc zmianę wyniku da się przypisać elektrodzie, a nie dyspozycji dnia. Wynik o geometrii przenosi się na każdy interfejs potyliczny, niezależnie od tego, czym się go steruje.*
+**„Przecież to i tak trzeba obsługiwać wzrokiem — po co to komu, skoro kamerka zrobi to samo?"**
+> *Kamerka jest szybsza i tańsza, i tak zostanie. Zmierzono to na tych samych jedenastu osobach w tym samym zadaniu: kamerka 28,2 bita na minutę, najlepszy interfejs wzrokowy 20,9, słuchowy 3,3, dotykowy 3,4. Nie konkuruję z kamerką o użytkownika, który panuje nad wzrokiem — konkuruję o tego, który nie panuje, i tam kamerka daje zero. Ale to nie jest główna odpowiedź. Główna jest taka, że rzecz, którą mierzę, dotyczy elektrody, nie sposobu sterowania. Wynik „odniesienie bliżej niż X centymetrów kosztuje Y punktów procentowych" przenosi się na każde noszone urządzenie EEG z tej okolicy głowy — także takie, które ze wzrokiem nie ma nic wspólnego. SSVEP wybrałem, bo jako jedyny paradygmat daje sygnał o znanej częstotliwości, więc zmianę wyniku da się przypisać elektrodzie, a nie dyspozycji dnia.*
 
-**Liczby i źródła: `05_STAN_WIEDZY.md` §7.**
+**„Da się tym sterować bez wzroku?"**
+> *Tak, i to na tym samym urządzeniu. Dwie nałożone na siebie powierzchnie migają w tym samym punkcie ekranu z różnymi częstotliwościami; wybiera się je uwagą, nie spojrzeniem. Kamerka nie ma wtedy czego mierzyć, bo nie ma dokąd patrzeć. Kosztuje to zejście do dwóch celów i do około 72% dokładności — Tsinghua zmierzyła to na osiemnastu osobach. Pokazuję ten tryb jako warunek dodatkowy; główny pomiar prowadzę na trybie wzrokowym, bo tam sygnał jest najsilniejszy, a mierzę elektrodę, a nie człowieka.*
+
+**„Czemu nie sterowanie myślą, wyobrażeniem ruchu?"**
+> *Bo działa u jednego na pięciu. Na dziewięćdziesięciu dziewięciu osobach osiemdziesiąt do stu procent dokładności osiągnęło 19%; przy SSVEP na pięćdziesięciu trzech osobach powyżej osiemdziesięciu procent było 96%, a poniżej sześćdziesięciu nie było nikogo. Do tego wyobrażenie ruchu czyta się znad kory ruchowej, czyli z czubka głowy — moduł na potylicy przestałby mieć sens, a razem z nim pomiar, dla którego projekt istnieje.*
 
 ## 8. Kryterium porażki, zapisane przed pomiarem
 

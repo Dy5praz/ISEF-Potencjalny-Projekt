@@ -118,11 +118,13 @@ Migające znaczniki są **na przedmiotach w otoczeniu**, nie na tablicy przed tw
 
 ## 6. Pytanie, które padnie na pewno: „a czemu nie kamerka śledząca wzrok?"
 
-**Bo kamerka i to urządzenie zawodzą w innych sytuacjach — i to jest cała odpowiedź.**
+**Zacznijmy od przyznania: kamerka wygrywa i zawsze będzie wygrywać.** To zmierzono — te same jedenaście osób, to samo zadanie z pięcioma przyciskami: **kamerka 28,2 bita na minutę, najlepszy interfejs mózgowy 20,9, słuchowy 3,3, dotykowy 3,4.** Kto udaje, że jest inaczej, ten kłamie albo nie sprawdził.
 
-Kamerka potrzebuje widocznego oka i światła. Nie zadziała, jeżeli ktoś nie kontroluje powiek, ma opadającą powiekę, jest w ciemności albo ma na twarzy sprzęt medyczny. **U części osób, dla których to urządzenie jest przeznaczone, kamerka nie działa właśnie dlatego, że patrzy na oko.**
+**Dlatego odpowiedź nie brzmi „moje jest lepsze". Brzmi tak, i ma dwie części.**
 
-**Uczciwe dopowiedzenie:** dla większości ludzi kamerka jest tańsza i lepsza. **To urządzenie nie jest dla większości ludzi.**
+**Część pierwsza — kamerka potrzebuje oka.** Nie zadziała, jeżeli ktoś nie kontroluje powiek, ma opadającą powiekę, jest w ciemności albo ma na twarzy sprzęt medyczny. **U części osób, dla których to urządzenie jest przeznaczone, kamerka nie działa właśnie dlatego, że patrzy na oko.** Dla większości ludzi kamerka jest tańsza i lepsza — **to urządzenie nie jest dla większości ludzi.**
+
+**Część druga, ważniejsza — ja nie mierzę sterowania, tylko elektrodę.** Wynik brzmi „elektroda odniesienia bliżej niż X centymetrów kosztuje Y punktów procentowych". **To jest fakt o sprzęcie, nie o migającym punkcie.** Przenosi się na każde noszone urządzenie EEG z tyłu głowy — także takie, które ze wzrokiem nie ma nic wspólnego. Kamerka tego nie zastąpi, bo kamerka nie jest urządzeniem EEG.
 
 ---
 
@@ -138,7 +140,13 @@ Ceny są trzy i wszystkie zmierzono:
 2. `[fakt]` **liczba rzeczy do wyboru spada z kilkudziesięciu do dwóch.** Najlepszy opublikowany układ tego typu przenosi **0,17 bita na wybór**; układ sterowany wzrokiem przy czterdziestu celach — **4,69 bita**. **Dwadzieścia siedem razy mniej informacji** (Lesenfants 2014)
 3. `[fakt]` **sygnał przenosi się w inne miejsce głowy** — przy patrzeniu wprost jest najsilniejszy na środku potylicy, przy uwadze utajonej przenosi się wyżej i w bok (Walter 2012). Czyli **ucieka spod urządzenia, które ma leżeć na potylicy**
 
-**Dlaczego to nie jest ograniczenie tego projektu, tylko ograniczenie potylicy:** kora potyliczna **jest** korą wzrokową. Skierowanie oka jest najsilniejszą rzeczą, jaką da się z niej odczytać przez czaszkę. Chcąc uciec od wzroku całkowicie, trzeba przenieść urządzenie w inne miejsce głowy — nad korę ruchową, gdzie czyta się **wyobrażony ruch ręki**. Tam wzrok nie jest potrzebny, ale `[fakt]` **15–30% ludzi nie opanowuje tego wcale**, a wynik zmienia się z dnia na dzień tak mocno, że **przykryłby efekt, który ten projekt mierzy**.
+**Jest jednak sztuczka, która działa lepiej i nie wymaga zmiany urządzenia.** Zamiast rozstawiać migające punkty w różnych miejscach, nakłada się **dwie migające warstwy na siebie, w jednym punkcie** — dwie chmury kropek o różnych kolorach, obracające się w przeciwne strony. Patrzysz cały czas w to samo miejsce, a wybierasz tym, **którą warstwę śledzisz uwagą.** `[fakt]` Tsinghua zmierzyła to na osiemnastu osobach: **72,6% przy dwóch możliwościach.**
+
+**I to jest odpowiedź na kamerkę, tym razem nie słowna tylko działająca:** kamerka nie ma wtedy czego mierzyć, **bo nie ma dokąd patrzeć.** Wszystko jest w jednym punkcie.
+
+**Dlaczego mimo to główny tryb zostaje wzrokowy:** bo daje czterdzieści możliwości zamiast dwóch i 95% zamiast 72%, a **projekt mierzy elektrodę, nie człowieka** — do pomiaru potrzebny jest najsilniejszy dostępny sygnał.
+
+**A czego zrobić się nie da:** uciec od wzroku **całkowicie**, zostając na potylicy. Kora potyliczna **jest** korą wzrokową. Chcąc uciec zupełnie, trzeba przenieść urządzenie nad korę ruchową i czytać **wyobrażony ruch ręki** — tam wzrok jest zbędny, ale `[fakt]` **osiemdziesiąt jeden procent ludzi nie osiąga tam użytecznej dokładności** (99 osób, badanie z Grazu), a wynik zmienia się z dnia na dzień tak mocno, że **przykryłby efekt, który ten projekt mierzy**.
 
 **I to jest cała odpowiedź:** migający znacznik to nie jest wybór estetyczny ani lenistwo, tylko **przyrząd pomiarowy**. Projekt mierzy, gdzie postawić elektrodę odniesienia — a do tego potrzebny jest sygnał o znanej częstotliwości, żeby dało się powiedzieć „wynik spadł przez elektrodę", a nie „wynik spadł, bo dziś gorszy dzień". **Wynik o elektrodzie przenosi się potem na każde urządzenie potyliczne, niezależnie od tego, czym się je steruje.**
 
