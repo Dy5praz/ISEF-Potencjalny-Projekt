@@ -43,6 +43,10 @@
 >
 > Cały rozrzut 23 → 26 siedzi w **stosowalności i oddziaływaniu społecznym** — czyli tam, gdzie pomiar geometrii elektrody z natury wypada najsłabiej, **a wygrywa się opowieścią, nie liczbą.** Tam działa historia „dla ludzi, którzy nie mogą mówić ani się ruszać", uczciwość wobec kamerki i osobista motywacja. **To jest jedyne miejsce, gdzie dodatkowa godzina pracy nad narracją jest warta więcej niż godzina nad płytką.**
 
+**Plan autora na tę część, zgłoszony 21 VIII: trzy wywiady z osobami, którym urządzenie mogłoby pomóc.** `[wniosek]` **Trafia dokładnie w te dwie rubryki i jest mocniejszy niż jakikolwiek slajd o dostępności** — trzy konkretne historie biją dziesięć zdań o SDG.
+
+> **Warunek formalny, bezwzględny:** wywiad o potencjalnym zastosowaniu wynalazku **jest badaniem z udziałem ludzi w rozumieniu regulaminu ISEF** i **wymaga zgody IRB przed pierwszą rozmową.** Materiału zebranego wcześniej nie da się zalegalizować wstecz. **Skutek: R6 przestaje być planem awaryjnym i staje się warunkiem wstępnym.** Rozbiór: `09_FORMALNOSCI.md` §1.2.
+
 ### ISEF — arkusz inżynierski, 100 pkt
 
 | Sekcja | Maks | Nota `[domysł]` |
@@ -54,7 +58,13 @@
 | V. Presentation (plakat 10 + rozmowa 25) | 35 | **26–31** — zależy wyłącznie od treningu |
 | **razem** | **100** | **76–86** |
 
-`[wniosek]` **To jest realny kandydat do Grand Award.** Trzecia albo czwarta nagroda w kategorii — w zasięgu. Pierwsza albo druga — nie, i nie należy pod to planować.
+`[wniosek]` **To jest realny kandydat do Grand Award W KATEGORII EBED** — nie do Top Awards, które są osobną ligą ogólną (`08_KONKURSY.md` §4.0a). **Rozróżnienie dopisane po uwadze autora, K-113.**
+
+**Podniesione 21 VIII 2026, bo projekt ma u siebie kalibrację, której nie używałem:** `[fakt]` **ENBM074 dostał drugie miejsce w kategorii ($2 400) mając sprzęt kupiony i nie zbudowawszy niczego** — wygrał wyłącznie planem eksperymentalnym. Ten projekt ma **to samo rzemiosło plus własny tor plus własny pomiar plus przewidywanie zapisane z góry.**
+
+> **Drugie miejsce w kategorii jest w zasięgu.** Pierwsze — nie planowałbym. Top Award ogólny — nie.
+
+`[luka]` **Przełożenia noty z arkusza na miejsce nikt nie publikuje.** 76–86 to ocena wobec rubryk, nie wobec stawki. **Oszacowanie autora („stawiałbym siebie wyżej") stoi na tym samym braku danych co moje i nie jest od niego słabsze.**
 
 **Rubryka IV jest najsłabsza, bo projekt świadomie nie jest nowatorski.** Ratuje ją zdanie z samego arkusza: *„Judges should place emphasis on **research outcomes and analysis** in evaluating creativity"* — czyli **wynik bije efektowny pomysł**, i tam trzeba grać.
 

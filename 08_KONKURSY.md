@@ -154,6 +154,25 @@ Projekty wykorzystujące szkodliwe substancje, zakładające **inwazyjne** badan
 
 `[wniosek]` **Najważniejsza liczba w tym pliku: plakat wart jest 10 punktów ze 100, a rozmowa z jurorem 25 — więcej niż jakakolwiek inna pojedyncza pozycja.**
 
+### 4.0a Dwie różne ligi, których nie wolno mylić — dopisane 21 VIII 2026, K-113
+
+**Uwaga autora:** *„rozróżniaj miejsca w kategorii i ogólnie, bo to trochę mylące."* Trafna — poprzednie wersje tego pliku i `13_WERDYKT.md` używały słowa „nagroda" dla obu rzeczy naraz.
+
+`[fakt, societyforscience.org]`
+
+| Liga | Co to jest |
+|---|---|
+| **Grand Awards — W KATEGORII** | każda z **22 kategorii** ma własne miejsca **I–IV**: **$6 000 / $2 400 / $1 200 / $600**. **Liczba nagród skaluje się z liczbą projektów w kategorii** |
+| **Top Awards — OGÓLNIE** | Gordon E. Moore Award **$75 000**, Regeneron Young Scientist **$50 000**, **Best of Category $5 000** za każdą kategorię |
+
+`[fakt]` Finalistów jest **ponad 1 600** w 22 kategoriach, czyli rzędu **70–80 projektów na kategorię**.
+
+**Kalibracja, którą ten projekt ma u siebie i nie używał jej dotąd do niczego:** `[fakt]` **ENBM074 dostał Second Award — $2 400, czyli drugie miejsce W KATEGORII — mając sprzęt kupiony za 1 800 USD i nie zbudowawszy niczego.** Wygrał **wyłącznie starannym planem eksperymentalnym**: randomizacja, kontrbalansowanie, replikacja, poprawka na wielokrotne porównania, test mechanizmu przez podwójną dysocjację.
+
+`[wniosek]` **To jest najmocniejszy punkt odniesienia, jaki projekt posiada.** Ten projekt ma **to samo rzemiosło** (skopiowane świadomie), **plus własny tor analogowy**, **plus własny pomiar**, **plus przewidywanie ilościowe zapisane z góry.** **Drugie miejsce w kategorii EBED jest w zasięgu — nie „nie należy pod to planować".**
+
+`[luka]` **Czego nie wiem i nikt tego nie publikuje: przełożenia noty z arkusza na miejsce.** Rozkład punktów w kategorii nie jest udostępniany. **Każde oszacowanie miejsca — moje i autora — stoi na tym samym braku danych i żadne nie jest mocniejsze od drugiego.**
+
 **Czego arkusz NIE ma: rubryki nowości.** Ani inżynierski, ani naukowy.
 
 **Podpunkty, które ten projekt trafia wprost:**

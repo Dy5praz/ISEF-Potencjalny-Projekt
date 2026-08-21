@@ -119,6 +119,16 @@ Osiem elektrod (`03_SPRZET.md` §2.2) rejestruje się wobec wspólnego odniesien
 
 Dlaczego to jest ważne, a nie kosmetyczne: sesje różnią się impedancją kontaktu, oświetleniem i stanem badanego. Gdyby każdy montaż mierzyć osobno, różnica między sesjami byłaby większa niż mierzony efekt i wynik byłby bezwartościowy. **To jest ta sama konstrukcja, która pozwoliła policzyć §5 pliku `14` na cudzych danych, i tam zadziałała.**
 
+> **UZUPEŁNIENIE 21 VIII 2026 — WYBÓR PLATFORMY JEST WIĄŻĄCY DLA CAŁEGO E2. K-113.**
+>
+> `[wniosek]` **Cała kampania E2 idzie na jednym torze — tym samym dla wszystkich położeń odniesienia.** Zmierzenie części pozycji na platformie kupionej, a części na własnej płytce, **miesza platformę ze zmienną niezależną** i kasuje warunek kontrolny, na którym stoi całe twierdzenie („ten sam tor analogowy, ta sama osoba, ta sama sesja").
+>
+> **Dwie dopuszczalne drogi, wybór raz, w lutym 2027 po E1:**
+> 1. **plan A** — wszystko na własnym torze; twierdzenie w pełnym brzmieniu
+> 2. **plan B (R2)** — wszystko na platformie kupionej; twierdzenie stoi, znika słowo **„własnym"**, projekt zbliża się kształtem do ENBM074
+>
+> **Czego wolno użyć obu platform naraz:** E0 (przesiew), E1 (charakterystyka toru — z definicji osobna dla każdego toru) oraz **pomiar krzyżowy jako osobny, raportowany wynik zgodności** — nigdy jako uzupełnienie brakujących warunków E2.
+
 **Warunek kontrolny, którego nie wolno pominąć:** montaż zwarty musi zostać **na końcu zmierzony fizycznie**, na rzeczywistym module z odniesieniem wewnątrz, nie tylko wyprowadzony odejmowaniem. Wyprowadzenie offline zakłada, że tor jest liniowy i że nie ma nasycenia — a jednym z argumentów za kompensacją analogową jest właśnie to, że nasycenie istnieje. **Zgodność pomiaru fizycznego z wyprowadzeniem offline jest osobnym, raportowanym wynikiem.**
 
 > **UZUPEŁNIENIE 18 VIII 2026 — P15a, `05_STAN_WIEDZY.md` §2.2.** Porównanie prowadzi się **wobec dwóch baz naraz, nie jednej**: (1) montaż wielokanałowy z odniesieniem odległym — górna granica; (2) **pojedynczy kanał z odniesieniem odległym — dolna granica**. Powód: `[fakt]` Li i in. 2025 (PMID 40566767) zmierzyli, że montaż dwubiegunowy POz−Oz **bije** pojedynczy kanał Oz z odniesieniem na czole (**68,25% wobec 37,65%** przy oknie 3 s), podczas gdy reanaliza Kołodzieja pokazuje, że dwubiegunowy **przegrywa** z montażem trzykanałowym z odniesieniem odległym (48,8–64,0% wobec 73,3%). **Obie liczby są prawdziwe i dotyczą różnych porównań.** Bez drugiej bazy własny wynik da się przedstawić jako sprzeczny z opublikowaną pracą, choć sprzeczny nie będzie. Koszt: zero — obie bazy wyprowadza się offline z tej samej rejestracji (`03_SPRZET.md` §2.2).

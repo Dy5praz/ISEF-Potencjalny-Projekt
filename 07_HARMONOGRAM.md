@@ -74,7 +74,8 @@
 ### Formalności — wszystkie trzy równolegle, żadna nie czeka na inną
 
 - [ ] **[!] Mail do FZT** (`konkurs@fzt.org.pl`), dwa pytania w jednym: czy organizator prowadzi SRC pełniące funkcję komisji IRB dla polskich uczestników ISEF, oraz czy start w Explory można łączyć z EUCYS · JT
-- [ ] **[!] Rozmowa z dyrekcją o komisji IRB.** Skład: nauczyciel inny niż opiekun + dyrektor lub wicedyrektor + pielęgniarka szkolna lub psycholog. **Nie odkładać, nawet jeśli wyda się niepotrzebna** — to jest plan awaryjny na R1 i najdłuższy proces w całym harmonogramie · JT
+- [ ] **[!!] Rozmowa z dyrekcją o komisji IRB.** Skład: nauczyciel inny niż opiekun + dyrektor lub wicedyrektor + pielęgniarka szkolna lub psycholog. **PODNIESIONE 21 VIII 2026 z „nie odkładaj" na WARUNEK WSTĘPNY (K-113):** plan trzech wywiadów z przyszłymi użytkownikami czyni IRB koniecznym niezależnie od wyniku E0, a zgoda musi być **przed pierwszym wywiadem** — materiału zebranego wcześniej nie da się zalegalizować wstecz (`09_FORMALNOSCI.md` §1.2) · JT
+- [ ] **Zestaw pytań do trzech wywiadów — napisany i złożony do zatwierdzenia RAZEM z wnioskiem do IRB**, nie po nim · JT
 - [ ] **Pisemna zgoda opiekuna szkolnego** na role Adult Sponsor i Direct Supervisor. Magister wystarcza · JT
 
 ### Zakupy — kolejność ma znaczenie

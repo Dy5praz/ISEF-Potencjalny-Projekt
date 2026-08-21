@@ -1932,3 +1932,67 @@ Najprostszy wariant „na LED-ach" — jedna dwukolorowa dioda w jednym punkcie,
 ---
 
 **Reguła, wiążąca:** **przy każdej ocenie wartości czegokolwiek w tym projekcie pytaj najpierw: co to robi dla aplikacji na studia — a dopiero potem, co to robi dla jury.** Cel nadrzędny został ustalony 16 VIII i **od tej daty jest kryterium, a nie przypisem.**
+
+---
+
+### K-113 — cztery poprawki z jednej wiadomości autora, w tym drugi w tym tygodniu wniosek ogólny z jednego punktu danych
+
+**Skąd.** Uwagi autora z 21 VIII 2026 do werdyktu i do odpowiedzi o Cerelogu. **Cztery, wszystkie trafne.**
+
+---
+
+#### 1. Caltech był n = 1, i to przypadkiem skrajnym
+
+**Uwaga autora:** *„nie tylko Caltech. Na liście powinno być wiele więcej uczelni, więc nie patrz na jedną."*
+
+**Co było.** K-112 postawił alarm — *„finalista Explory dla celu nadrzędnego = praktycznie zero"* — i podparł go **jedną tabelą: Caltech CDS C7**, gdzie „extracurricular activities" jest w drugim stopniu wagi, a „talent/ability" w trzecim.
+
+`[fakt]` **Caltech odczytałem nie dlatego, że jest reprezentatywny, tylko dlatego, że jako jedyny dał się odczytać** — `10 §3.1` zapisuje wprost, że strony MIT, Princeton i Browna były zablokowane. **A Caltech jest najostrzejszą i najwęższą akademicko uczelnią z całej listy, czyli najgorszym możliwym przypadkiem dla projektu pozalekcyjnego.**
+
+`[wniosek, dwa źródła niezgodne]` MIT, CDS 2025–26: „extracurricular activities" i „talent/ability" — **Very Important** według strony MIT Institutional Research, **Important** według agregatora zewnętrznego. **Żadnego nie odczytałem z samego PDF-a**, agregator myli się też przy „Interview". `[luka]` do domknięcia ręcznie.
+
+`[wniosek]` **Kierunek alarmu pozostaje słuszny co do rozpoznawalności Explory poza Polską. Siła alarmu była zawyżona, bo policzona na uczelni najgorszej z możliwych.** Nowe zadanie **5a** w `10 §7`: odczytać C7 z oryginalnych PDF-ów dla **ośmiu** uczelni.
+
+`[wniosek]` **To jest drugi raz w tym tygodniu, kiedy zbudowałem wniosek ogólny na jednym punkcie danych.** Pierwszy: K-099 — plan elektrod przyjął „montaż zwarty jest zły" jako własność świata, choć była to własność jednego zbioru bez par pionowych. **Ten sam błąd, raz w fizyce, raz w rekrutacji.**
+
+---
+
+#### 2. Nagroda „w kategorii" i „ogólnie" używane zamiennie
+
+**Uwaga autora:** *„rozróżniaj miejsca w kategorii i ogólnie, bo to trochę mylące."*
+
+`[fakt, societyforscience.org]` **Grand Awards są przyznawane wewnątrz każdej z 22 kategorii** (I–IV: $6 000 / $2 400 / $1 200 / $600, **liczba nagród skaluje się z liczbą projektów w kategorii**), a **Top Awards** — Gordon Moore $75 000, Regeneron Young Scientist $50 000, Best of Category $5 000 — są **osobną ligą ogólną**. Finalistów ponad 1 600, czyli **rzędu 70–80 na kategorię**.
+
+**Poprawka i podniesienie oceny.** `[fakt]` **ENBM074 dostał drugie miejsce w kategorii ($2 400), mając sprzęt kupiony za 1 800 USD i nie zbudowawszy niczego** — wygrał wyłącznie planem eksperymentalnym. **Ten projekt ma to samo rzemiosło plus własny tor, własny pomiar i przewidywanie ilościowe zapisane z góry.**
+
+`[wniosek]` **„Trzecia albo czwarta nagroda, pierwsza i druga nie" było zaniżone. Drugie miejsce w kategorii jest w zasięgu.** Poprawione w `13_WERDYKT.md` §0.1 i `08 §4.0a`.
+
+`[luka]` **Przełożenia noty z arkusza na miejsce nikt nie publikuje.** Oszacowanie autora stoi na tym samym braku danych co moje i **nie jest od niego słabsze** — czego poprzednia wersja nie przyznawała.
+
+---
+
+#### 3. Rola Cerelogu wymagała zastrzeżenia, którego nigdzie nie było
+
+**Autor:** *„używamy go do testów i pomiarów, a nie w głównej osi projektu."* Rozumienie zgodne z `02 §3` — ale ujawniło lukę w `04_PLAN_POMIAROWY.md`.
+
+`[wniosek]` **Cała kampania E2 musi iść na JEDNYM torze, tym samym dla wszystkich położeń odniesienia.** Zmierzenie części warunków na platformie kupionej, a części na własnej płytce **miesza platformę ze zmienną niezależną** i kasuje warunek kontrolny, na którym stoi całe twierdzenie („ten sam tor analogowy, ta sama osoba, ta sama sesja"). **Plan nie zawierał tego zdania ani razu**, mimo że dopuszcza dwie platformy i przewiduje przejście między nimi (R2).
+
+Dwie dopuszczalne drogi, wybór **raz, w lutym 2027 po E1**. Pomiar krzyżowy wolno raportować **jako osobny wynik zgodności** — nigdy jako uzupełnienie brakujących warunków E2. Wpisane do `04 §3.1`.
+
+---
+
+#### 4. Plan wywiadów wchodzi w regułę Human Participants, i to bez wyjątku
+
+**Autor:** *„mój plan na tę część to po prostu dobrze opowiedzieć historię kilku osób, którym by takie urządzenie pomogło. Oczywiście wraz z przeprowadzonymi wywiadami (testy niekoniecznie). Tak załóżmy 3."*
+
+`[wniosek]` **Pomysł trafia dokładnie tam, gdzie siedzi cały rozrzut noty finałowej** — w rubryki „praktyczna stosowalność" i „społeczne oddziaływanie". Trzy konkretne historie biją dziesięć zdań o SDG.
+
+`[fakt, regulamin ISEF, cytat już obecny w `09` od etapu 1]` *„This includes **surveys conducted regarding potential use or opinions of the invention** or consumer product by the general public."* **Zastrzeżenie autora, że testów nie będzie, nie zwalnia — reguła obejmuje samą rozmowę o potencjalnym zastosowaniu.**
+
+**Trzy skutki wiążące:** (1) **zgoda IRB przed pierwszym wywiadem**, materiału zebranego wcześniej nie da się zalegalizować wstecz; (2) **R6 przestaje być planem awaryjnym i staje się warunkiem wstępnym** — a jest to najdłuższy proces w harmonogramie i jedyny zależny od osób trzecich; (3) rozmówcy to prawdopodobnie **osoby z niepełnosprawnością**, więc zestaw pytań musi być **zatwierdzony przed użyciem**.
+
+**Rozmowa z dyrekcją podniesiona w `07` z „nie odkładaj" na `[!!]` warunek wstępny.** Mail do FZT rośnie w wadze: jeżeli organizator prowadzi SRC pełniące funkcję IRB, **cała procedura powoływania komisji odpada.**
+
+---
+
+**Reguła, wpisana do `METODA.md`:** **zanim postawisz wniosek ogólny, policz, ile masz punktów danych.** Jeden punkt to nie jest przesłanka o świecie — to jest przesłanka o tym punkcie. **Trzy wystąpienia tego błędu w tym projekcie: K-099 (jeden zbiór bez par pionowych), K-113 (jedna uczelnia, najostrzejsza z listy), oraz — w drugą stronę — cztery „zero trafień" pochodzące od narzędzia, nie od literatury.**

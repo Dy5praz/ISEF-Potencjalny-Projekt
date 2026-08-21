@@ -300,6 +300,23 @@ CDS to standardowy formularz, który uczelnie publikują same. Sekcja C7 podaje 
 
 `[wniosek]` **We własnej publikacji Caltechu projekt siedzi w drugim stopniu wagi, a „talent/zdolności" w trzecim — poniżej ocen, wyników testów, esejów, rekomendacji i oceny charakteru.** To jest dokładnie odwrotna hierarchia niż ta, którą sugerują materiały doradcze.
 
+> **POPRAWKA 21 VIII 2026 — CALTECH BYŁ n = 1, A DO TEGO PRZYPADKIEM SKRAJNYM. K-113.**
+>
+> **Uwaga autora:** *„nie tylko Caltech. Na liście powinno być wiele więcej uczelni, więc nie patrz na jedną."* **Trafna, i jest to ten sam wzorzec błędu, który ten projekt łapie u siebie od stu korekt: wniosek ogólny z jednego punktu danych.**
+>
+> **Caltech odczytałem nie dlatego, że jest reprezentatywny, tylko dlatego, że jako jedyny dał się odczytać.** Jest przy tym najostrzejszą i najwęższą akademicko uczelnią z całej listy — czyli **najgorszym możliwym przypadkiem dla projektu pozalekcyjnego.**
+>
+> `[wniosek, dwa źródła niezgodne — patrz luka niżej]` **MIT, CDS 2025–26, sekcja C7:**
+>
+> | Czynnik | Caltech | **MIT** |
+> |---|---|---|
+> | Extracurricular activities | Important | **Very Important** |
+> | Talent/ability | **Considered** | **Very Important** |
+>
+> `[luka]` **Uczciwie o pewności tej tabeli:** strona MIT Institutional Research daje dla obu „Very Important"; agregator zewnętrzny daje „Important". Agregator myli się także przy „Interview" (podaje Very Important, źródło pierwotne — Considered), więc **ufam mu mniej — ale samego PDF-a nie odczytałem.** **Do domknięcia ręcznie.**
+>
+> `[wniosek]` **Kierunek jest jednoznaczny niezależnie od tego, które odczytanie jest trafne: przy MIT projekt siedzi wyżej niż przy Caltechu, możliwe że w pierwszym stopniu wagi.** Wniosek z §3.1 pozostaje w mocy co do **rozpoznawalności Explory** (poza Polską bliska zeru), ale **co do wagi samego projektu był policzony na najgorszej możliwej uczelni i jest przez to zaniżony.**
+
 `[luka]` Nie udało mi się odczytać C7 dla MIT, Princeton i Brown — strony ich biur badań instytucjonalnych są zablokowane dla automatu albo renderowane po stronie klienta. Wyszukiwarka zwraca streszczenie, jakoby Princeton oznaczał „extracurricular activities" jako **Very Important**, ale **nie potwierdziłem tego w dokumencie źródłowym i nie traktuję jako faktu.** Pozycja do domknięcia ręcznie: pliki CDS tych trzech uczelni, sekcja C7.
 
 **Czego ten wynik nie mówi:** że projekt nie ma znaczenia. C7 mierzy wagę **kategorii**, nie tego, co dana rzecz robi z resztą aplikacji. Projekt zasila trzy pozycje z górnego stopnia jednocześnie: **esej, rekomendacje i ocenę charakteru** — bo o czymś trzeba pisać i ktoś musi mieć o czym napisać rekomendację. To jest realny mechanizm i jest zgodny z tym, co C7 pokazuje. Nieprawdziwa jest tylko wersja, w której sam wpis „ISEF finalist" mnoży szanse przez cztery.
@@ -510,7 +527,8 @@ Pytanie użytkownika: *„czy mogę liczyć na studia w Stanach, czy to bardziej
 | 2 | ustalić, czy **CMU jest need-blind czy need-aware** wobec obcokrajowców | jesień 2027 | otwarte |
 | 3 | ustalić, czy **Georgia Tech wiąże wybór kierunku** przy aplikacji | jesień 2027 | otwarte |
 | 4 | sprawdzić, czy **CMU ma aerospace** na poziomie licencjackim | jesień 2027 | otwarte |
-| 5 | zweryfikować **realną wagę statusu finalisty ISEF** w rekrutacji — dane uczelni albo Society for Science, **nie blogi** | zrobione 17 VIII 2026 | **ZAMKNIĘTE, sekcja 3.1.** Liczby z blogów niesprawdzalne i wykreślone; twarde dane to CDS C7. Zostaje `[luka]`: odczytać C7 dla MIT, Princeton, Brown |
+| 5 | zweryfikować **realną wagę statusu finalisty ISEF** w rekrutacji — dane uczelni albo Society for Science, **nie blogi** | 17 VIII 2026 | **CZĘŚCIOWO, sekcja 3.1.** Liczby z blogów wykreślone; twarde dane to CDS C7 |
+| **5a** | **odczytać C7 z ORYGINALNYCH PDF-ów dla ośmiu uczelni z listy** — MIT, Princeton, Brown, Stanford, CMU, Georgia Tech, Notre Dame, Olin. **Jedna uczelnia to n = 1, a Caltech jest przypadkiem skrajnym, nie typowym** (K-113) | **jesień 2026** | **OTWARTE, priorytet.** Zmienia wagę całej osi konkursowej w planie |
 | 6 | **terminarz SAT/TOEFL** wobec kalendarza projektu | jesień 2027 | otwarte |
 | 7 | ustawić w szkole **rekomendacje** (2 nauczycieli + wychowawca) | wiosna 2028 | otwarte |
 | 8 | pytanie do **OKE o termin dodatkowy** matury | jesień 2028 | otwarte, dotyczy tylko ISEF 2029 |

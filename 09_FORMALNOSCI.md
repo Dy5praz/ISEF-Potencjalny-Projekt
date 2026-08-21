@@ -55,6 +55,24 @@ Poprzednia wersja tego pliku znała tylko warunek „brak ryzyka" i wokół nieg
 
 > „IRB review and pre-approval is required when the student-designed invention, prototype, application, etc. is tested by human participants other than the student researcher(s) … **This includes surveys conducted regarding potential use or opinions of the invention or consumer product by the general public.**"
 
+> ### WYWIADY Z PRZYSZŁYMI UŻYTKOWNIKAMI — POZYCJA DOPISANA 21 VIII 2026, K-113
+>
+> **Plan autora:** trzy wywiady z osobami, którym takie urządzenie mogłoby pomóc, jako materiał do rubryk „praktyczna stosowalność" i „społeczne oddziaływanie".
+>
+> `[wniosek]` **Pomysł trafia dokładnie tam, gdzie siedzi cały rozrzut noty finałowej** (`13_WERDYKT.md` §0.1). **Ale wchodzi w regułę zacytowaną powyżej i nie jest to sprawa interpretacji:** rozmowa o tym, czy urządzenie by komuś pomogło, jest *„survey conducted regarding **potential use or opinions of the invention**"* — nawet gdy nikt niczego nie zakłada na głowę i nie pada ani jeden pomiar.
+>
+> **Trzy skutki, wszystkie wiążące:**
+>
+> 1. **Zgoda IRB musi być PRZED pierwszym wywiadem.** `[fakt]` *„All human participant studies must be reviewed and approved by an IRB **prior to experimentation**."* **Materiału zebranego wcześniej nie da się zalegalizować wstecz** — trzeba by go wyrzucić albo powtórzyć całość.
+> 2. **R6 przestaje być planem awaryjnym i staje się warunkiem wstępnym.** Do tej pory komisja IRB była ubezpieczeniem na wypadek złego E0 (`06_RYZYKA.md` R1). **Ten plan czyni ją konieczną niezależnie od wszystkiego innego** — a jest to najdłuższy proces w harmonogramie i jedyny zależny od osób trzecich.
+> 3. **Rozmówcy to prawdopodobnie osoby z niepełnosprawnością**, czyli `[wniosek]` grupa wymagająca ostrożniejszego traktowania przez komisję. **Zestaw pytań musi zostać zatwierdzony przed użyciem**, nie napisany w trakcie.
+>
+> **Komplet dokumentów:** Human Participants Form (4) · zgody uczestników · **kopie pytań wywiadu** · zgody rodziców przy niepełnoletnich · Risk Assessment (3), jeżeli komisja uzna za potrzebny.
+>
+> `[wniosek]` **Wniosek operacyjny, i jest pilny:** mail do FZT (P14) rośnie w wadze, bo **jeżeli organizator prowadzi SRC pełniące funkcję IRB, cała procedura powoływania komisji przy szkole odpada.** Jedno pytanie, do wysłania z telefonu.
+>
+> **Czego wywiady NIE wymagają:** testowania urządzenia na rozmówcach. **Sama rozmowa wystarcza na materiał narracyjny** i jest wyraźnie prostsza formalnie niż pomiar — ale **zwolniona nie jest.**
+
 Skala widoczności z `archiwum/06_TABELA_PARAMETROW.md` sekcja 4 zawiera propozycję: *„zdjęcie osoby w urządzeniu, pytanie do widza »gdzie ono jest«"* jako pomiar zamieniający kolumnę opiniową w liczbę. **To jest ankieta opinii publicznej o wynalazku i wymaga uprzedniej zgody IRB.** Nie wolno tego zrobić spontanicznie na stoisku.
 
 Wyjątek zapisany w tej samej regule: *„This is not intended to apply to receiving professional feedback from experts in the field of study prior to experimentation"* — konsultacja z bratem albo z opiekunem naukowym nie jest badaniem.

@@ -212,3 +212,21 @@
 `[wniosek]` **Wskaźnik warunkowy bez wypisanego warunku jest tym samym uchybieniem co dokładność bez podanego N**, i jest zakazany z tego samego powodu: obie liczby czyta się wtedy jako coś, czym nie są. `08_KONKURSY.md` §3 wyprowadzał cały łańcuch od ogniwa *„półfinał ~85% — projekt z wideo, urządzeniem i liczbami"*, a `README.md` stawiał wynik w rubryce **„Szansa"**. Różnica wynosiła mnożnik **1,8**, i nie widział jej nikt przez pięć dni audytu, bo **każda liczba osobno była poprawna**.
 
 **Reguła praktyczna:** przy tabeli szans zawsze zadaj pytanie *„szansa pod warunkiem czego?"* — i jeżeli odpowiedź brzmi „że wszystko pójdzie zgodnie z planem", **policz, ile wynosi szansa na to.**
+
+---
+
+## Ile masz punktów danych — reguła dopisana 21 VIII 2026 po K-113
+
+**Zanim postawisz wniosek ogólny, policz, na ilu punktach stoi.** `[wniosek]` **Jeden punkt danych nie jest przesłanką o świecie — jest przesłanką o tym punkcie.**
+
+**Trzy wystąpienia tego błędu w tym projekcie, wszystkie kosztowne:**
+
+| # | Co | Jeden punkt danych | Co z niego wyprowadziłem |
+|---|---|---|---|
+| **K-099** | geometria montażu | zbiór Kołodzieja — **O1, Oz, O2 na jednej linii poprzecznej, ani jednej pary pionowej** | „montaż zwarty jest zły" **jako własność świata** — a była to własność zbioru |
+| **K-113** | waga projektu w rekrutacji | **Caltech CDS C7** — jedyna uczelnia, którą dało się odczytać, **i najostrzejsza z listy** | „projekt siedzi w drugim stopniu wagi" **dla wszystkich uczelni** |
+| K-093, K-101 | stan literatury | jedno zapytanie do jednej bazy | „pole jest puste" — a puste było narzędzie |
+
+**Pytanie kontrolne, jedno:** *czy gdyby ten jeden punkt wyglądał inaczej, wniosek by się odwrócił?* **Jeżeli tak — nie jest to wniosek, tylko obserwacja, i tak trzeba go zapisać.**
+
+**Kontrola towarzysząca, wynikająca z K-113:** **czy ten jeden punkt jest typowy, czy skrajny?** Caltech i zbiór Kołodzieja miały to wspólne, że były **nie tylko jedyne, ale i nietypowe** — a nietypowość była znana z góry i dała się przewidzieć bez żadnego dodatkowego przeszukania.
