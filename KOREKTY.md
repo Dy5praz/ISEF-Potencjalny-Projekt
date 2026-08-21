@@ -1863,3 +1863,72 @@ Najprostszy wariant „na LED-ach" — jedna dwukolorowa dioda w jednym punkcie,
 **Reguła, wiążąca od teraz:** **do listopada 2026 nie powstaje żaden nowy plik dokumentacji.** Dopuszczalne są wyłącznie: wpisy do `KOREKTY.md`, wynik E0 i dziennik budowy. **Następna rzecz, która ma przybyć w tym repozytorium, to liczba zmierzona własnym torem albo taśmą — nie akapit.**
 
 **Reguła druga:** **kiedy pada pytanie o decyzję, pierwszym zdaniem odpowiedzi jest decyzja.** Rachunek wolno dołożyć poniżej i trzeba go dołożyć — ale nie zamiast.
+
+---
+
+### K-112 — oceniałem stan bieżący zamiast projektu dowiezionego; i nie zaalarmowałem, że dla celu nadrzędnego oś konkursowa waży mało
+
+**Skąd.** Autor, 21 VIII 2026: *„zakładałem ciągle, że twój werdykt będzie opierał się o finalny projekt, taki jak zakładamy"* oraz *„wkurza mnie to, że prawie ciągle piszesz jak dobrze nam idzie (…) doskonale wiedząc o moim nadrzędnym celu — studia w Stanach. A tam finalistą Explory gówno znaczy. Dlatego nie wiem, czemu nie wyłapałeś tego od razu i mnie nie zaalarmowałeś."*
+
+**Oba zarzuty trafne. Są to dwa różne błędy i drugi jest poważniejszy.**
+
+---
+
+#### 1. Nota pomnożona przez bramkę
+
+**Co było.** `13_WERDYKT.md` podawał **ISEF ~9%** jako liczbę główną, powstałą z przemnożenia oceny projektu (~14% warunkowo) przez prawdopodobieństwo, że projekt w ogóle powstanie (~55%).
+
+`[wniosek]` **Liczba była poprawna i bezużyteczna.** Nota odpowiada na pytanie *„ile to jest warte, kiedy będzie gotowe"*; bramka na pytanie *„czy będzie gotowe"*. **Zlepienie ich w jedną liczbę nie daje odpowiedzi na żadne z dwóch** — daje wielkość, która dołuje, nie informując, bo nie da się z niej odczytać, czy problemem jest jakość projektu, czy kalendarz. **To jest ten sam kształt co K-110 (wskaźnik warunkowy w miejscu bezwarunkowego), tylko odwrócony: tam brakowało warunku, tu warunek został wchłonięty.**
+
+**Poprawka.** `13_WERDYKT.md` §0 przepisany: **noty dla projektu dowiezionego, bramka osobno w części drugiej.** Rama wpisana do `CLAUDE.md` jako ustalenie wiążące.
+
+**Co wyszło po rozdzieleniu — i jest to informacja, której poprzednia wersja nie niosła:**
+
+| | |
+|---|---|
+| półfinał Explory | **34–37 / 40**, w tym **10/10** za znajomość dotychczasowych badań |
+| finał Explory | **23–26**, przy czołówce 2026 = 25 |
+| ISEF, arkusz inżynierski | **76–86 / 100** — realny kandydat do Grand Award, trzecia–czwarta nagroda w zasięgu |
+
+`[wniosek]` **Rzecz, której nie było widać przez mnożenie:** cały rozrzut noty finałowej (23 → 26) siedzi w rubrykach **praktyczna stosowalność** i **społeczne oddziaływanie** — nie w merytorycznej. **Finał wygrywa się opowieścią, a nie pomiarem, i to jest jedyne miejsce, gdzie godzina nad narracją bije godzinę nad płytką.**
+
+---
+
+#### 2. Alarm, który powinien paść przy ustaleniu celu nadrzędnego
+
+**Co było.** Cel nadrzędny — **studia w USA** — został wpisany **16 VIII 2026** (`07`, `METODA` §3). `10_STUDIA_USA.md` §3.1 zawiera od **17 VIII** twarde ustalenie: mnożniki rekrutacyjne przypisywane statusowi finalisty ISEF są **niesprawdzalne i wykreślone**, a jedyne dane twarde (Caltech CDS C7) stawiają „extracurricular activities" w **drugim** stopniu wagi, a „talent/ability" w **trzecim**.
+
+`[fakt]` **Ustalenie leżało w pliku 10 i nigdy nie przeszło do ramy, w której omawiam projekt.** Przez pięć dni audytu oś Explory → ISEF była opisywana jako kręgosłup projektu, a szanse konkursowe podawane jako miara jego wartości — **przy celu, dla którego finalista Explory jest wielkością bliską zeru, bo konkurs jest nierozpoznawalny poza Polską.**
+
+`[wniosek]` **To jest wzorzec błędu nr 5 z `11_EWOLUCJA.md` §25 w najczystszej postaci: ustalenie zapisane do pliku i niewciągnięte do sposobu myślenia.** Rejestr miał wpis, praca szła po staremu.
+
+**Poprawka — trzy rzeczy:**
+
+**a)** Hierarchia wartości wobec celu nadrzędnego, wpisana do `13_WERDYKT.md` §0.5 i `CLAUDE.md`:
+
+| Osiągnięcie | Wartość w rekrutacji do USA |
+|---|---|
+| finalista Explory | `[wniosek]` **praktycznie zero** |
+| Nagroda Główna Explory | fakt do wpisania, nie wyróżnienie, które ktoś zna |
+| finalista ISEF | realne, ale **drugi stopień wagi** |
+| **preprint z własnej reanalizy** | **wyższa niż wszystkie trzy powyższe** |
+
+**b) `[wniosek]` Oś konkursowa jest dla celu nadrzędnego mechanizmem produkującym materiał do eseju i treść do rekomendacji — a nie nagrodą do wygrania.** Esej, rekomendacje i ocena charakteru siedzą u Caltechu w **pierwszym** stopniu wagi. Konkurs w drugim.
+
+**c) Najgorzej ulokowany zasób w projekcie, ujawniony dopiero przez ten zarzut.** `[fakt, 07 KM8]` **Preprint z reanalizy jest gotowy w ~80% i był WSTRZYMANY od 16 VIII.** Dla celu nadrzędnego jest wart **więcej niż status finalisty Explory**: weryfikowalny i międzynarodowy, niezależny od gustu jury, najmocniejszy możliwy dowód samodzielności, daje nauczycielowi treść do rekomendacji — **i istnieje niezależnie od E0, płytki i kalendarza.** **ODWIESZONY i przeniesiony do KM1 (IX 2026).**
+
+---
+
+#### 3. Przy okazji: zarzut o „stanie w miejscu" był postawiony wbrew temu, co wiedziałem
+
+`[fakt]` Autor jest na wyjeździe i **powiedział o tym wcześniej.** K-111 wyprodukował z tego regułę *„do listopada nie powstaje żaden nowy plik dokumentacji"* — **która zabraniałaby jedynej pracy, jaką autor może teraz wykonywać.**
+
+**Reguła z K-111 UCHYLONA.** W jej miejsce:
+
+> **Nie „żadnych dokumentów", tylko: żadnego dokumentu, który opisuje inny dokument.** Praca zamykająca lukę w planie, kod, reanaliza, preprint i nauka narzędzi **są pracą, nie jej odkładaniem** — niezależnie od tego, że ich wynikiem bywa plik.
+
+`[wniosek]` **Do tego najwartościowsza dostępna praca nie jest sprzętowa w ogóle:** preprint (10–20 h), **nauka PCB (35–60 h, pozycja wysadzająca kalendarz w XI–XII)** i P11 — **wszystkie wykonalne z laptopa.** Lista w `07_HARMONOGRAM.md`, KM1.
+
+---
+
+**Reguła, wiążąca:** **przy każdej ocenie wartości czegokolwiek w tym projekcie pytaj najpierw: co to robi dla aplikacji na studia — a dopiero potem, co to robi dla jury.** Cel nadrzędny został ustalony 16 VIII i **od tej daty jest kryterium, a nie przypisem.**

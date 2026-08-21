@@ -14,7 +14,7 @@ Użytkownik: Julek. **Odpowiadaj po polsku.**
 4. **`11_EWOLUCJA.md`** — jak projekt doszedł do tego kształtu. **Czytaj, zanim zaproponujesz cokolwiek zmienić** — cztery twierdzenia już zginęły i każde z konkretnego powodu
 5. **`METODA.md`** — jak się w tym projekcie sprawdza literaturę. **Obowiązuje bezwzględnie**
 6. **`13_WERDYKT.md`** — **czy w to grać. Rozstrzygnięcie jest w §0** i mieści się na jednej stronie. Rachunek w części drugiej — **nie jest werdyktem, tylko jego ramą**
-7. **`KOREKTY.md`** — rejestr błędów K-001…K-111. Dopisuj każdy nowy
+7. **`KOREKTY.md`** — rejestr błędów K-001…K-112. Dopisuj każdy nowy
 
 Reszta: `01` laik · `03` sprzęt i budżet · `04` plan pomiarowy · `06` ryzyka · `07` harmonogram · `08` konkursy · `09` formalności · `10` studia · `12` reanaliza.
 
@@ -36,6 +36,8 @@ Reszta: `01` laik · `03` sprzęt i budżet · `04` plan pomiarowy · `06` ryzyk
 
 ## Ustalenia wiążące, nie do podważania bez nowego argumentu
 
+- **WSZYSTKIE NOTY I OCENY DOTYCZĄ PROJEKTU DOWIEZIONEGO**, takiego, jaki stanie na finale — **nigdy stanu bieżącego.** Prawdopodobieństwo powstania (~55%) jest wielkością osobną i **nie wolno go wmnażać w noty**. K-112
+- **cel nadrzędny to studia w USA, a tam finalista Explory znaczy praktycznie nic.** Oś konkursowa jest mechanizmem produkującym materiał do eseju i treść do rekomendacji. **Przy każdej ocenie wartości czegokolwiek pytaj najpierw: co to robi dla aplikacji, a nie co to robi dla jury.** K-112
 - **twierdzenie ma być pomiarowe, z punktem odniesienia wewnętrznym.** To jedyny kształt, którego cudza publikacja nie unieważnia. **Cztery poprzednie twierdzenia zginęły dokładnie na tym** — `11_EWOLUCJA.md`
 - **metryka w bitach, nigdy słowa na minutę.** Jedyny mechaniczny strażnik granicy z projektem referencyjnym ENBM074
 - **nigdy dokładność bez podanej liczby celów**

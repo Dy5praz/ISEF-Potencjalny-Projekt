@@ -89,6 +89,20 @@
 
 - [ ] **[!] START NAUKI PROJEKTOWANIA PCB** — przeniesiona tutaj z XI–XII 2026, bo tamten etap jest przekroczony godzinowo, a wrzesień i październik mają razem 33–49 h wolnego. **Nic nie wymaga zakupu, nic nie koliduje z E0** · JT
 - [ ] **Baza patentów dla nowej osi** — ostatnia nieprzeszukana pozycja, R8 · AI
+- [ ] **[!] DOKOŃCZYĆ PREPRINT Z REANALIZY** — przeniesione tutaj z KM8 (K-112). **Najwyższy stosunek wartości rekrutacyjnej do pozostałej pracy w całym projekcie**, i jedyna pozycja wysokiej wartości wykonalna **z laptopa, bez sprzętu, z dowolnego miejsca** · JT + AI
+
+### Praca możliwa bez dostępu do sprzętu — dopisane 21 VIII 2026 (K-112)
+
+`[fakt]` Autor bywa poza domem. **Cztery pozycje o najwyższej wartości nie wymagają niczego poza laptopem albo telefonem** i to jest właściwa kolejność na taki czas:
+
+| # | Co | Ile | Czego wymaga |
+|---|---|---|---|
+| 1 | **preprint z reanalizy, ~80% gotowe** | `[domysł]` 10–20 h | laptop |
+| 2 | **P37 — nauka PCB, w tym czytanie otwartych schematów Cerelog** | **35–60 h** | laptop, KiCad za darmo |
+| 3 | **P11 — reanaliza zbioru Zhu 2021, 102 osoby** | kilka godzin | laptop, kod z `analiza/` działa |
+| 4 | P14 — mail do FZT; mail do `sales@openbci.com` | 30 min | telefon |
+
+`[wniosek]` **Pozycja 2 jest tą, która wysadza kalendarz w listopadzie i grudniu (K-107). Wyjazd nie jest martwym czasem — jest najlepszym dostępnym oknem na nią.**
 - [ ] **Dziennik budowy założony od dnia pierwszego** — zdjęcia wersjonowane, także nieudanych · JT
 
 ---
@@ -177,7 +191,7 @@
 
 - [ ] Kampania dokończona, dane kompletne · JT
 - [ ] Grupa badanych po powołaniu komisji IRB, 10–15 osób · JT
-- [~] **Preprint z reanalizy** — **WSTRZYMANY decyzją użytkownika 16 VIII 2026.** Oznaczony jako **pierwsza pozycja do podjęcia przy powrocie w nowej rozmowie** (`METODA.md` §1). Materiał gotowy w ~80% · JT + AI
+- [→] **Preprint z reanalizy — ODWIESZONY 21 VIII 2026 i PRZENIESIONY DO KM1 (wrzesień).** Powód: `[wniosek, K-112]` dla celu nadrzędnego (studia w USA) jest wart **więcej niż status finalisty Explory** — jest weryfikowalny, międzynarodowy, nie zależy od jury i **istnieje niezależnie od E0, płytki i kalendarza**. Materiał gotowy w ~80%, **do dokończenia z laptopa** · JT + AI
 - [ ] **20–23 X 2027 — FINAŁ EXPLORY, GDYNIA** · JT
 
 ---

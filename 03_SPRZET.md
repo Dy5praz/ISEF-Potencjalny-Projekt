@@ -196,6 +196,38 @@ Skutek jest taki, że **każdy montaż wyprowadza się z tej samej rejestracji p
 
 **Bez AliExpress.** Przyrząd odniesienia jest jedynym miejscem, gdzie nie wolno mieć wątpliwości co do autentyczności układu scalonego.
 
+#### 7.1a Cerelog ESP-EEG — trzeci kandydat, dopisany 21 VIII 2026
+
+**Stan rynku sprawdzony 21 VIII 2026** `[fakt]`: **OLX Polska — zero ofert OpenBCI. eBay, filtr „używane" — zero płytek Cyton.** Jedyne pozycje używane to czepek elektrodowy (350 USD) i zestaw za 940 USD od sprzedawcy z **0% pozytywnych ocen**, niespełniający warunków odbioru z §7.1.
+
+`[fakt, cztery źródła: strona producenta, CNX Software XII 2025, Hackster.io, Autodidacts.io]`
+
+| | |
+|---|---|
+| cena | **349,99 USD** (~1 400 zł), przecena z 649,99 |
+| kanały | **8 różnicowych** + bias |
+| przetwornik | **ADS1299**, 24 bity, 250 SPS — **ten sam układ co Cyton** |
+| zgodność | **BrainFlow, LSL, fork OpenBCI GUI** — pipeline z `analiza/` działa |
+| schematy i firmware | **otwarte, `github.com/Cerelog-ESP-EEG/ESP-EEG`** |
+| autor | Simon Hakimian, były inżynier sprzętowy SpaceX |
+| **DRL** | **prawdziwa pętla zamknięta aktywnego biasu** |
+
+**Co to rozwiązuje — trzy rzeczy, wszystkie realne:**
+
+1. **Osiem kanałów za cenę linii budżetowej.** `[wniosek]` **Znika cały problem Ganglionu z K-106** — nie trzeba schodzić na węższe twierdzenie, zostają O1 i O2, zostaje górna baza porównania i kanał kontrolny R12.
+2. **To jest ten sam układ, wokół którego projektujesz własną płytkę.** ADS1299 + ESP32, ze **schematem do czytania**. `[wniosek]` **P37 (nauka PCB, 35–60 h, „najgorzej oszacowana pozycja w planie, bo autor nie ma jej z czym porównać") dostaje punkt odniesienia.** Do tego ich DRL w pętli zamkniętej jest gotową odpowiedzią na **P34**.
+3. **To nie jest anonimowy klon.** Nazwany autor, otwarte repozytorium, trzy niezależne omówienia w prasie technicznej. **Inna klasa ryzyka niż AliExpress** — czego zakaz z §7.1 dotyczył.
+
+**Czego NIE rozwiązuje i co jest warunkiem zakupu:**
+
+1. `[fakt, Autodidacts]` **Brak izolacji galwanicznej na USB.** Cytat: *„absolutely don't ever use it with a desktop computer or a laptop that is charging"*. **Skutek wiążący: pomiar wyłącznie na laptopie odłączonym od sieci, na baterii.** Wchodzi do §6 jako warunek bezpieczeństwa i **musi być opisane w formularzach Human Participants** — `09_FORMALNOSCI.md`.
+2. `[fakt, Autodidacts]` **Firmware Bluetooth/WiFi niegotowy — na dziś tylko USB.** Cyton jest bezprzewodowy. Dla sesji na siedząco bez znaczenia, ale **degraduje E5** (metryki użytkowe, czas montażu) i pokaz „noszalności".
+3. `[luka]` **Producent nie podaje szumu wejściowego.** Rozwiązanie jest w §7.2 i nic nie kosztuje: **szum toru mierzy się samym torem** — zewrzeć wejście, RMS z próbek. **Test odbiorczy w dniu dostawy zamyka tę lukę w kwadrans.**
+4. `[wniosek]` **Brak rynku wtórnego.** Używany Cyton da się odsprzedać, tego prawdopodobnie nie. **To realnie podnosi koszt „opcji wrzesień–październik"** z §6 werdyktu, bo platforma przestaje być w pełni zbywalna.
+5. `[domysł]` Mały producent, „batch #4" — ryzyko dostawy i gwarancji, wysyłka z USA z cłem po stronie odbiorcy.
+
+**Werdykt:** `[wniosek]` **Kandydat mocniejszy niż nowy Ganglion i mocniejszy niż używany Cyton z niepewnego źródła — pod warunkiem zapisania punktu 1 do procedury bezpieczeństwa i wykonania punktu 3 w dniu dostawy.** Decyzja razem z P5, do 30 IX 2026.
+
 **Do czego naprawdę służy:** (1) test, czy SSVEP działa u autora, **zanim istnieje własna płytka** — krytyczne, X 2026; (2) ubezpieczenie, gdyby własny tor nie zadziałał. **Nie jest punktem odniesienia twierdzenia.**
 
 `[fakt]` **Ubezpieczenie jest pełne tylko w wersji ośmiokanałowej, i to trzeba powiedzieć wprost — K-106.** Ganglion ma **cztery kanały**, a montaż z §2 potrzebuje siedmiu naraz. Na Ganglionie zmieści się **Oz, POz, Iz i wyrostek sutkowaty wobec płatka ucha** — czyli **cały kontrast kierunku zostaje**, ale wypadają O1 i O2, a z nimi **górna z dwóch baz porównania** wymaganych przez `04_PLAN_POMIAROWY.md` (montaż wielokanałowy z odniesieniem odległym), oraz **kanał kontrolny R12**. `[wniosek]` **Ścieżka Ganglionowa nie jest równoważnym planem B, tylko planem B z węższym twierdzeniem** — mierzy kierunek i odległość, nie mierzy kosztu wobec montażu wielokanałowego. **To jest dodatkowy argument za znalezieniem używanego Cytona do 30 IX, mocniejszy niż różnica ceny.**

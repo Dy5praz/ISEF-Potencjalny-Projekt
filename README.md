@@ -39,7 +39,7 @@
 | **`12_REANALIZA.md`** | **jedyny własny pomiar, jaki projekt dotąd ma** — reanaliza cudzych danych, odtworzona dwukrotnie |
 | **`METODA.md`** | jak się w tym projekcie sprawdza literaturę: procedura tożsamości, trzy kanały przeszukania, stan dostępu do baz |
 | **`13_WERDYKT.md`** | **czy w to grać — rozstrzygnięcie w §0, cztery akapity.** Rachunek (bramki, liczby bezwarunkowe) w części drugiej |
-| **`KOREKTY.md`** | rejestr błędów, **K-001…K-111**. Dopisuj każdy nowy |
+| **`KOREKTY.md`** | rejestr błędów, **K-001…K-112**. Dopisuj każdy nowy |
 | **`analiza/`** | jedenaście skryptów w Pythonie — FBCCA, TRCA, SVM, montaże, okna, harmoniczne |
 | **`archiwum/`** | 42 pliki poprzednich wersji. **Nic nie zostało usunięte** |
 
@@ -57,16 +57,17 @@
 
 **Pewność, że przegląd literatury jest domknięty: 97%.** Rozbiór — `05_STAN_WIEDZY.md` §10.
 
-**Szansa, że projekt w ogóle powstanie w wersji z wynikiem (ranga C lub wyżej): `[domysł]` ~55%.** Wyprowadzenie z trzech bramek — `13_WERDYKT.md` §1.2. **Wszystkie liczby konkursowe poniżej mnożą się przez tę jedną.**
+### Ile ten projekt jest wart — **noty dla projektu DOWIEZIONEGO** (K-112)
 
-| Cel | Warunkowo, jeżeli projekt powstanie | **Bezwarunkowo** |
-|---|---|---|
-| finał Explory | ~50% | **~33%** |
-| reprezentacja na ISEF | ~14% | **~9%** (uczciwy przedział **4–9%**) |
-| Nagroda Główna Explory | ~5% | **~3%** |
-| **wartość dla aplikacji na studia, niezależna od wyniku jury** | **~100%** | **~55–80%** |
+| Gdzie | Nota `[domysł]` |
+|---|---|
+| półfinał Explory | **34–37 / 40**, w tym **10/10** za znajomość dotychczasowych badań |
+| finał Explory | **23–26**, przy czołówce 2026 = 25 |
+| **ISEF, arkusz inżynierski** | **76–86 / 100** — realny kandydat do Grand Award |
 
-`[fakt, K-110]` **Kolumna warunkowa stała tu wcześniej sama, w rubryce „Szansa".** Cały łańcuch z `08_KONKURSY.md` §3 zaczyna się od „półfinał ~85%" z uzasadnieniem *„projekt z wideo, urządzeniem i liczbami"* — czyli jest warunkowy od pierwszego ogniwa. **Warunek podaje się teraz obok liczby, tak samo jak N obok dokładności.**
+**Osobno, i nie wolno tego wmnażać w noty:** `[domysł]` **P(projekt powstanie w wersji z wynikiem) ~55%** — trzy bramki, `13_WERDYKT.md` część druga §1.2. Stąd szanse konkursowe: finał **~33%**, ISEF **~9%** bezwarunkowo (**~12,6%** warunkowo).
+
+> `[wniosek, K-112]` **Cel nadrzędny to studia w USA, a tam finalista Explory znaczy praktycznie nic.** Oś konkursowa jest mechanizmem produkującym **materiał do eseju i treść do rekomendacji**. **Preprint z reanalizy jest dla tego celu wart więcej niż status finalisty Explory** — i dlatego został odwieszony i przeniesiony na wrzesień.
 
 ---
 
@@ -75,6 +76,7 @@
 | # | Zadanie | Termin |
 |---|---|---|
 | **P5** | **szukać UŻYWANEGO Cytona, do 1 600 zł.** Warunki odbioru w `03_SPRZET.md` §7.1. Bez oferty do terminu — nowy Ganglion, nie nowy Cyton | **do 30 IX 2026** |
+| **PREPRINT** | **dokończyć preprint z reanalizy (~80% gotowe).** Odwieszony 21 VIII, K-112. **Najwyższy stosunek wartości rekrutacyjnej do pozostałej pracy w projekcie. Wykonalny z laptopa** | **IX 2026** |
 | **P11** | **reanaliza zbioru Zhu i in. 2021** (102 osoby, PMID 33578754, publiczny) — kod z `analiza/` już działa, koszt zero złotych | IX 2026 |
 | **P14** | trzy pytania do FZT jednym mailem: SRC jako IRB · łączenie z EUCYS · **czy badanie na sobie jest zwolnione** | jesień 2026 |
 | **E0** | **przesiew: czy SSVEP działa u autora.** ~20 minut na kupionej platformie. **Najważniejszy punkt w całym planie** | **X 2026** |

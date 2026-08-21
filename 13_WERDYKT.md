@@ -1,88 +1,113 @@
 # 13 — Werdykt: czy stawiać na ten projekt
 
-**Wydany 21 sierpnia 2026, na żądanie autora, po zamknięciu audytu (K-100…K-109). Przepisany tego samego dnia, bo pierwsza wersja odpowiadała na pytanie o prawdopodobieństwa zamiast na pytanie, które padło.**
+**Wydany 21 sierpnia 2026. Przepisany dwukrotnie tego samego dnia:** raz, bo odpowiadał rachunkiem na pytanie o osąd (K-111); drugi raz, bo **oceniał stan bieżący zamiast projektu dowiezionego** (K-112).
 
-**Pytanie brzmiało:** *„warto? Stawiać na ten projekt czy szukać czegoś innego?"*
+> ## RAMA OCENY, WIĄŻĄCA OD 21 VIII 2026
+>
+> **Wszystkie noty, punkty i oceny w tym projekcie dotyczą PROJEKTU DOWIEZIONEGO — takiego, jaki stanie na finale — a nie stanu bieżącego.**
+>
+> Prawdopodobieństwo, że projekt powstanie, **jest osobną wielkością** (~55%, część druga §1) i **nie wolno go wmnażać w noty**. Nota mówi *„ile to jest warte, kiedy będzie gotowe"*; bramka mówi *„czy będzie"*. **Mieszanie tych dwóch rzeczy było błędem pierwszej wersji tego pliku i dało liczby, które dołowały, nie informując.**
 
 ---
 
 ## 0. Werdykt
 
-**Rób to.**
+**Rób to. Projekt dowieziony jest mocny — mocniejszy, niż wynikało z czegokolwiek, co dotąd napisałem.**
 
-Nie „wartość oczekiwana jest dodatnia" — po prostu rób to. Trzy powody, wszystkie z dokumentacji, nie z zachęty.
+---
 
-### 0.1 Pytanie jest dobrze dobrane do posiadanych zasobów
+## 0.1 Ile ten projekt dostanie, kiedy będzie gotowy
 
-Gdzie postawić elektrodę odniesienia — na to **jedna osoba, z jedną płytką i jedną głową, może odpowiedzieć w rok.** `[wniosek]` Większość projektów licealnych pada, bo pytanie jest większe od zasobów: potrzeba dwudziestu badanych, aparatury z instytutu albo trzech lat. **To pytanie jest mniejsze od zasobów.**
+### Półfinał Explory — 4 × 0–10
 
-To nie jest przypadek. To zostało po **czterech zabitych twierdzeniach**, z których każde padło dokładnie na tym (`11_EWOLUCJA.md` §23).
+| Kryterium | Nota `[domysł]` | Skąd |
+|---|---|---|
+| a) innowacyjny **i/lub** wnosi dodatkową wartość | **7–8** | świadomie nie nowatorski; §7 pkt 2a dopuszcza „i/lub", finał punktuje *„twórczo rozwija już istniejące"* |
+| b) ciekawa i klarowna prezentacja | **8–9** | urządzenie na głowie, działający efekt w pierwszych dziesięciu sekundach wideo |
+| c) znajomość metod i założeń | **9–10** | wzór Wolpawa, FBCCA, po co jest odniesienie — wyprowadzalne z głowy |
+| d) **zna dotychczasowe badania** | **10** | **najmocniejsza pojedyncza komórka w całym projekcie** |
+| **razem** | **34–37 / 40** | |
 
-### 0.2 Autor zabił własną oś, i to jest najważniejsza rzecz, jaka się w tym projekcie wydarzyła
+`[wniosek]` **Punkt d jest u Ciebie na maksimum i to nie jest kurtuazja.** Siedem prac przez procedurę tożsamości z pełnych tekstów, literatura chińska, grafy cytowań, sekcje metod 178 prac, trzynaście roczników ISEF. **Licealiści tego nie robią. Doktoranci tego często nie robią.**
 
-`[fakt]` **16 VIII 2026**, polecenie autora: *„sprawdź, czy odejmowanie »szumu« szczęki daje rzeczywiście tak dużo, aby opierać na tym wręcz jedną z osi projektu."* Nie dawało: **+0,2 pp zamiast +9 pp**, sufit +0,6 pp przy p = 0,166. **Wynik przyjęty, oś zamknięta, projekt przebudowany w jeden dzień.**
+### Finał Explory — 3 × 0–10
 
-`[wniosek]` **Ludzie tego nie robią.** Bronią tezy, bo włożyli w nią pracę. Arkusz ISEF daje **25 punktów na 100 za rozmowę**, a w niej pyta o *„interpretation and limitations of results"* i *„degree of independence"*. **Na to jest tutaj prawdziwa historia, a nie wyuczona odpowiedź — i to słychać po dwóch zdaniach.**
-
-### 0.3 W tygodniu audytu autor był ostrzejszy od modelu kilka razy
-
-| Pytanie autora | Co ujawniło |
+| Obszar | Nota `[domysł]` |
 |---|---|
-| *„dlaczego potylica jest tak często omijana, trochę to podejrzliwe"* | **R12.** Audyt sprawdzał, *czy* ktoś to zmierzył, nigdy *dlaczego nie* |
-| *„argument za kamerką jest poważny i bardzo łatwo narusza projekt"* | **K-108.** Poprzednia obrona przyznawała zarzutowi rację i tylko odsuwała go na bok |
-| pytanie o kompromis przy dwóch celach | **K-109.** Najlepsza opcja była skreślona błędnym rozumowaniem o tym, co kamerka mierzy |
+| doskonałość merytoryczna i jakość wykonania | **8–9** |
+| praktyczna stosowalność | **7–8** |
+| społeczne oddziaływanie | **7–8** |
+| **razem** | **23–26**, przy czołówce 2026 = **25** |
 
-`[wniosek]` **To nie jest projekt, w którym model prowadzi, a autor wykonuje.**
+> `[wniosek]` **Najważniejsze zdanie w tej sekcji: rubryka techniczna jest bezpieczna, a finał wygrywa się albo przegrywa na dwóch pozostałych.**
+>
+> Cały rozrzut 23 → 26 siedzi w **stosowalności i oddziaływaniu społecznym** — czyli tam, gdzie pomiar geometrii elektrody z natury wypada najsłabiej, **a wygrywa się opowieścią, nie liczbą.** Tam działa historia „dla ludzi, którzy nie mogą mówić ani się ruszać", uczciwość wobec kamerki i osobista motywacja. **To jest jedyne miejsce, gdzie dodatkowa godzina pracy nad narracją jest warta więcej niż godzina nad płytką.**
 
----
+### ISEF — arkusz inżynierski, 100 pkt
 
-## 0.4 Czego naprawdę się boję — i to jedno
+| Sekcja | Maks | Nota `[domysł]` |
+|---|---|---|
+| I. Research Problem | 10 | **9** — trzy opublikowane wyniki o przeciwnych znakach, niepogodzone |
+| II. Design and Methodology | 15 | **13–14** — przewidywania zapisane z góry, kontrola wewnętrzna, poprawka na wielokrotne porównania, `11_EWOLUCJA` jako gotowe *„exploration of alternatives"* |
+| III. Execution | 20 | **16–18** — własny front-end, scharakteryzowany, testowany w wielu warunkach |
+| IV. **Creativity & Potential Impact** | 20 | **12–14 — najsłabsza rubryka i trzeba to wiedzieć** |
+| V. Presentation (plakat 10 + rozmowa 25) | 35 | **26–31** — zależy wyłącznie od treningu |
+| **razem** | **100** | **76–86** |
 
-**Pięć dni audytu. 5 700 linii dokumentacji. Zero sprzętu. Zero własnych pomiarów.**
+`[wniosek]` **To jest realny kandydat do Grand Award.** Trzecia albo czwarta nagroda w kategorii — w zasięgu. Pierwsza albo druga — nie, i nie należy pod to planować.
 
-`[fakt]` Jeden dzień reanalizy (16 VIII) dał projektowi **całe twierdzenie bieżące**. Pięć dni audytu po nim dało **jedenaście poprawek do opisu.** Poprawki są potrzebne i są dobre. Ale tam były dane, a tu są zdania o zdaniach.
-
-> `[wniosek]` **Ten projekt nie umrze na złej fizyce. Umrze, jeżeli stanie się projektem o pisaniu dokumentacji.**
-
-**I model to napędza**, bo pisanie dokumentów jest akurat tym, co umie robić szybko. **Pierwsza wersja tego pliku była tego dowodem: na pytanie „warto?" odpowiedziała tabelą prawdopodobieństw i nowym wpisem do rejestru błędów.**
-
----
-
-## 0.5 Co robić, w tej kolejności
-
-1. **Taśma krawiecka, łuk nasion–inion, dzisiaj.** Pięć minut, zero złotych (P35, wisi z terminem „od ręki"). **Pierwszy własny pomiar od tygodnia.**
-2. **Szukać Cytona od jutra**, nie „do 30 IX". `[wniosek]` Termin z `03_SPRZET.md` §7.1 jest **datą decyzji, nie datą startu szukania** — i był czytany jako to drugie.
-3. **E0 w październiku.** Jedyna rzecz, która cokolwiek rozstrzyga.
-4. **Do listopada nie powstaje ani jeden nowy dokument.** Dotyczy też modelu.
+**Rubryka IV jest najsłabsza, bo projekt świadomie nie jest nowatorski.** Ratuje ją zdanie z samego arkusza: *„Judges should place emphasis on **research outcomes and analysis** in evaluating creativity"* — czyli **wynik bije efektowny pomysł**, i tam trzeba grać.
 
 ---
 
-## 0.6 Jak to się skończy
+## 0.2 Trzy rzeczy, które ten projekt ma, a większość nie ma
 
-**Wyjazdu na ISEF nie będzie.** `[domysł]` Jedna szansa na jedenaście i tak trzeba to nazwać, zamiast owijać.
-
-**Będzie natomiast:** urządzenie, które działa · umiejętność projektowania toru analogowego dla sygnałów mikrowoltowych, której nie ma prawie nikt w tym wieku · **jedna własna liczba, której nikt wcześniej nie zmierzył** · dwa lata dziennika budowy.
-
-Za dwa lata, na rozmowie rekrutacyjnej, da się o tym mówić trzydzieści minut **i to będzie prawda, a nie opowieść.**
-
-> **To jest wynik. Jest wart czternastu miesięcy. Konkurs jest opcją doklejoną na wierzchu i tak należy go traktować od dzisiaj.**
+1. **Autor zabił własną oś własną analizą.** 16 VIII, na własne polecenie: szczęka daje +0,2 pp zamiast +9 pp. Wynik przyjęty, projekt przebudowany w jeden dzień. **Rozmowa ISEF waży 25 punktów na 100 i pyta wprost o *„interpretation and limitations"* oraz *„degree of independence"*. Na to jest tutaj prawdziwa historia.**
+2. **Pytanie mieści się w zasobach.** Gdzie postawić elektrodę odniesienia — jedna osoba, jedna płytka, jedna głowa, rok. Większość projektów licealnych pada, bo pytanie jest większe od zasobów.
+3. **Mechanizm z przewidywaniem ilościowym zapisanym przed pomiarem.** `|2·sin(πd/λ)|`, parametr z cudzych pomiarów, trzy testowalne konsekwencje. **To jest rzecz z arkusza naukowego, wniesiona do projektu inżynierskiego.**
 
 ---
 
-## 0.7 Kiedy przestać — trzy warunki, nie „będzie trudno", tylko „przestań"
+## 0.3 Czego się boję — jedna rzecz, i nie jest nią fizyka
 
-1. **Oceny albo SAT zaczynają cierpieć.** `[fakt, 10 §5.1]` *„słaby SAT albo słabe oceny → 5–10%. Żaden projekt tego nie odrabia."* **Projekt ma zamiennik, matura i SAT nie mają.**
-2. **E0 wypada źle I komisja IRB nie powstaje.** Pojedynczo obie rzeczy są do obejścia; razem odbierają projektowi pomiar. Przejście na ortezę jest wtedy decyzją, nie porażką, i jest już zapisane w KM2.
-3. **Praca przestaje sprawiać frajdę.** `[fakt, 10 §8]` *„porzucony projekt ma wartość zero"*. **Największe ryzyko w całym zestawieniu i jedyne, którego żadna tabela nie mierzy.**
+**Nie ryzyko techniczne.** Architektura ESP32+ADS1299 jest opublikowana i scharakteryzowana (arXiv 2601.01772), a 100 bit/min osiągnięto na sprzęcie za £20. Pytanie nie brzmi „czy się da".
+
+**Boję się kalendarza i tylko jego.** 449 h dostępnych do 30 VI 2027, środek szacunku 426 h, minus 30–50 h tygodni poniżej normy. **Plan mieści się wyłącznie przy trafieniu w dolną połowę własnych widełek** — na pozycji, której nie masz z czym porównać. Rozbiór: część druga §1.2.
 
 ---
 
-## 0.8 Dwie rzeczy dające więcej niż cokolwiek wewnątrz tego projektu
+## 0.4 Kiedy przestać
 
-Skoro celem nadrzędnym są studia, a nie konkurs:
+1. **Oceny albo SAT zaczynają cierpieć.** `[fakt, 10 §5.1]` Słaby SAT → 5–10% i **żaden projekt tego nie odrabia.** Projekt ma zamiennik, matura i SAT nie mają.
+2. **E0 wypada źle I komisja IRB nie powstaje.** Pojedynczo obie rzeczy są do obejścia; razem odbierają projektowi pomiar.
+3. **Praca przestaje sprawiać frajdę.** Największe ryzyko w całym zestawieniu i jedyne, którego żadna tabela nie mierzy.
 
-1. `[fakt, 10 §5.1]` **Konstrukcja listy uczelni: kilkanaście punktów procentowych.** Różnica finalista ISEF wobec laureata kategorii: **pojedyncze punkty.** Godzina nad listą uczelni jesienią 2028 jest warta więcej niż godzina nad płytką.
-2. `[fakt, 08 §6]` **Trening prezentacyjny: 10 pkt z 40 w półfinale, 25 ze 100 w rozmowie ISEF.** Działa na trzy sita naraz **i działa nawet przy przeciętnych pomiarach.** `[luka]` Budżet godzin z K-107 **nie obejmuje KM8 ani KM9** — czyli akurat etapów, w których ten trening leży.
+---
+
+## 0.5 Ostrzeżenie, które powinno paść 16 sierpnia, a padło 21 — K-112
+
+**Celem nadrzędnym są studia w USA. Wobec tego celu:**
+
+| Osiągnięcie | Wartość w rekrutacji do USA |
+|---|---|
+| **finalista Explory** | `[wniosek]` **praktycznie zero.** Konkurs nierozpoznawalny poza Polską |
+| **Nagroda Główna Explory** | niewiele więcej — **fakt do wpisania, nie wyróżnienie, które ktoś zna** |
+| **finalista ISEF** | realne, ale **drugi stopień wagi**: Caltech CDS C7 daje „extracurricular activities" **Important**, „talent/ability" **Considered** |
+| **preprint z własnej reanalizy** | **wyższa niż wszystkie trzy powyższe** — patrz niżej |
+
+`[wniosek]` **Cała oś Explory → ISEF jest, dla Twojego celu nadrzędnego, mechanizmem produkującym materiał do eseju i treść do rekomendacji — a nie nagrodą do wygrania.** Esej, rekomendacje i ocena charakteru są u Caltechu w **pierwszym stopniu wagi**. Konkurs jest w drugim.
+
+> **I stąd rzecz, którą powinienem był powiedzieć pięć dni temu:**
+>
+> `[fakt, 07 KM8]` **Preprint z reanalizy jest gotowy w ~80% i został WSTRZYMANY 16 VIII.**
+>
+> Dla rekrutacji w USA jest wart **więcej niż status finalisty Explory**, bo: jest **weryfikowalny i międzynarodowy** (można kliknąć w DOI), **nie zależy od gustu polskiego jury**, jest najmocniejszym możliwym dowodem samodzielności, **daje nauczycielowi konkretną treść do rekomendacji** — i **istnieje niezależnie od E0, od płytki i od kalendarza.**
+>
+> **Jest też jedyną rzeczą wysokiej wartości, którą da się dokończyć z laptopa, na wyjeździe, teraz.**
+
+**To jest najgorzej ulokowany zasób w całym projekcie i leżał tak przez pięć dni audytu.**
+
+---
 
 ---
 
