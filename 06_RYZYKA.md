@@ -21,6 +21,7 @@ Każde ryzyko w trzech wymiarach: **prawdopodobieństwo**, **sterowalność** (n
 | **R9** | moduł nie mieści się w granicy gabarytu | 25% | wysoka | średni | I 2027 |
 | **R10** | brak opiekuna z tytułem / Qualified Scientist | 20% `[luka]` | średnia | **bardzo wysoki** | XI 2026 |
 | **R12** | **elektroda odniesienia w module siedzi nad móżdżkiem i mięśniem karku** | `[domysł]` **40–60%** | średnia | **niski dla twierdzenia, średni dla gabarytu** | pierwsza własna sesja, wiosna 2027 |
+| **R14** | **wynik wychodzi NUDNY — poprawny, ale dokładnie taki, jakiego każdy się spodziewał** | `[domysł]` **35–45%** | **wysoka** | **średni dla noty, wysoki dla rubryki Creativity** | VI 2027, po kampanii |
 | **R13** | **montaż zredukowany przestaje działać u części osób całkowicie, nie stopniowo** | `[fakt]` **39% u Fodora 2025** | średnia | **wysoki dla demonstracji** | **X 2026, przesiew E0** |
 | **R11** | ~~użytkownik odrzuca zmianę osi~~ | — | — | — | **ZAMKNIĘTE 16 VIII: wariant C** |
 
@@ -191,6 +192,38 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 **Plan awaryjny — już istnieje:** decyzja 6 (`11_EWOLUCJA.md`) dopuszcza wyprowadzenie odniesienia cienkim przewodem na wyrostek sutkowaty. Zmienia się jedno położenie elektrody i jedno zdanie o gabarycie.
 
 **Test rozdzielający, koszt zerowy (P23):** raportować SNR **osobno dla f₀ i 2f₀** przy każdym położeniu odniesienia. Strata rosnąca z harmoniczną wskazuje na zanieczyszczenie odniesienia; strata niezależna od częstotliwości — na gładkie pole. `[luka]` Na danych Kołodzieja testu **nie da się wykonać** — przy bodźcach 7/8/9 Hz drugiej harmonicznej praktycznie nie ma (SNR −0,04 do +0,16 dB we wszystkich montażach). Zestaw 8,0–17,8 Hz z `16` §3.2 daje harmoniczne w paśmie 16–35,6 Hz i test umożliwia.
+
+---
+
+## R14 — wynik nudny. Ryzyko, którego rejestr nie miał
+
+**Dopisane 21 VIII 2026 po pytaniu autora, czy nie lepiej szukać projektu o większym potencjale. K-115.**
+
+**Czym to NIE jest.** `[fakt]` R4 pokrywa scenariusz *„efekt za mały, twierdzenie upada"*. **Nie pokrywa scenariusza odwrotnego: efekt wychodzi dokładnie taki, jakiego wszyscy się spodziewali.**
+
+**Na czym polega.** `[wniosek]` Zdanie *„odniesienie o 3,5 cm kosztuje 9 punktów procentowych"* jest uczciwą, dobrze zmierzoną liczbą — **i nikogo nie zaskoczy.** Bliżej znaczy gorzej; tego się spodziewano. Projekt zbiera wtedy pełnię punktów w `Execution` i `Design and Methodology`, a **traci w `Creativity & Potential Impact`, która na arkuszu ISEF waży 20 punktów na 100 i jest już dziś najsłabszą rubryką tego projektu (12–14/20).**
+
+**Dlaczego to jest ryzyko sterowalne, w przeciwieństwie do R1 i R4.** `[wniosek]` **Odpowiedzią nie jest zmiana projektu, tylko podniesienie rangi testu mechanizmu.**
+
+`[fakt, `04_PLAN_POMIAROWY.md` §3.3a]` Model falowy daje **przewidywanie 1: strata musi zmieniać się z częstotliwością bodźca**, bo zależy od `d/λ`, a nie od samego `d`. **Model „gładkiej plamy" nie przewiduje żadnej zależności od częstotliwości.** To jest test rozstrzygający między dwoma obrazami świata — i **jedyna rzecz w projekcie, której wynik nie jest z góry oczywisty dla nikogo.**
+
+**A rodzina R-C jest dziś EKSPLORACYJNA**, bo przy 32 porównaniach potrzeba **277 prób na częstotliwość**, a osiem sesji daje **240. Brakuje 15%.**
+
+### Poprawka: E2 rozszerzone do dziesięciu sesji — pozycja warunkowa
+
+| | zaplanowane | **rozszerzone** |
+|---|---|---|
+| sesje | 8 | **10** |
+| prób na częstotliwość | 240 | **300** wobec wymaganych 277 |
+| **rodzina R-C** | **eksploracyjna** | **KONFIRMACYJNA** |
+| czas w kalendarzu (co drugi dzień) | 16 dni | **20 dni** |
+| koszt pracy | — | **~4–6 h plus 4 dni** |
+
+`[wniosek]` **Cztery dni i dwa popołudnia zamieniają najciekawszą rzecz w projekcie ze „zgodności kierunku" w potwierdzony test mechanizmu.** Arkusz ISEF mówi wprost: *„Judges should place emphasis on **research outcomes and analysis** in evaluating creativity"* — a **mechanizm przewidziany ilościowo przed pomiarem jest najmocniejszą rzeczą, jaką projekt inżynierski może pokazać.**
+
+**Status: warunkowa.** Uruchamiana, **jeżeli kalendarz na to pozwoli** — decyzja przy planowaniu kampanii, **kwiecień 2027**. `[wniosek]` **Nie wolno jej uruchomić kosztem rodzin konfirmacyjnych R-A i R-B ani kosztem materiału półfinałowego.**
+
+**Druga pozycja z tej samej półki:** **E6** (warunek bez sterowania wzrokiem, 11–15 h, `05_STAN_WIEDZY.md` §7.6) — odłożony 21 VIII **z powodu czasu, nie wartości.** Zabija zarzut o kamerkę demonstracją zamiast argumentem i daje **drugi mały wynik pomiarowy.** Przy nadwyżce godzin wraca jako pierwszy.
 
 ---
 

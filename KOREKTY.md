@@ -2055,3 +2055,71 @@ Dwie dopuszczalne drogi, wybór **raz, w lutym 2027 po E1**. Pomiar krzyżowy wo
 ---
 
 **Reguła:** **werdykt trafny z błędnego powodu jest gorszy od błędnego, bo nie da się go zastosować do następnego przypadku.** Przy każdym „to podpada pod regułę X" **cytuj zdanie, które ją uruchamia** — nie streszczaj go własnymi słowami, bo streszczenie zawęża.
+
+---
+
+### K-115 — „wynik może wyjść nudny" nie było w rejestrze ryzyk; i nikt nie policzył, ile kosztuje podniesienie testu mechanizmu
+
+**Skąd.** Pytanie autora, 21 VIII 2026: *„jakbyś mógł poświęcić jeszcze trochę czasu, robiłbyś ten projekt, czy jednak poświęcił ten czas na sprawdzenie jakiegoś innego, z większym potencjałem?"*
+
+**Odpowiedź: zostać, ale wydać ten czas na podniesienie sufitu tego projektu.** Rachunek poniżej.
+
+---
+
+#### 1. Ryzyko, którego rejestr nie miał
+
+`[fakt]` R4 pokrywa *„efekt za mały, twierdzenie upada"*. **Scenariusza odwrotnego — efekt wychodzi dokładnie taki, jakiego wszyscy się spodziewali — nie pokrywał nikt.**
+
+`[wniosek]` *„Odniesienie o 3,5 cm kosztuje 9 pp"* jest liczbą uczciwą i **nudną**. Bliżej znaczy gorzej; tego się spodziewano. Projekt zbiera wtedy pełnię w `Execution` i `Design and Methodology`, a traci w **`Creativity & Potential Impact` — 20 punktów na 100, i już dziś najsłabsza rubryka projektu (12–14/20).** Wpisane jako **R14**, `[domysł]` 35–45%.
+
+---
+
+#### 2. Rachunek, którego nie zrobiłem, mimo że wszystkie liczby leżały w `04 §3.3a` od 21 VIII rano
+
+`[fakt]` Model falowy daje **przewidywanie 1: strata zależy od `d/λ`, więc musi zmieniać się z częstotliwością bodźca.** Model „gładkiej plamy" **nie przewiduje żadnej zależności od częstotliwości.** `[wniosek]` **To jest jedyny test w tym projekcie, którego wynik nie jest z góry oczywisty dla nikogo** — i jednocześnie **jedyna rzecz, która odróżnia „zmierzyłem liczbę" od „przewidziałem tę liczbę z modelu, zanim ją zmierzyłem".**
+
+**A rodzina R-C jest EKSPLORACYJNA**, bo 32 porównania wymagają 277 prób na częstotliwość, a osiem sesji daje 240.
+
+| | zaplanowane | **rozszerzone** |
+|---|---|---|
+| sesje | 8 | **10** |
+| prób na częstotliwość | 240 | **300** wobec 277 |
+| R-C | eksploracyjna, FDR q = 0,10 | **konfirmacyjna, Holm** |
+| kalendarz | 16 dni | **20 dni** |
+
+`[wniosek]` **Cztery dni i dwa popołudnia. Najtańsze podniesienie najsłabszej rubryki w całym arkuszu — i nikt tego nie policzył, mimo że obie liczby (277 i 240) stały obok siebie w tym samym akapicie od rana.** Ta sama klasa przeoczenia co K-107: liczby poprawne osobno, nieskonfrontowane ze sobą.
+
+**Status: warunkowa, decyzja IV 2027. Nigdy kosztem R-A, R-B ani materiału półfinałowego.**
+
+---
+
+#### 3. Dlaczego nie szukać nowego kierunku — rachunek, nie przywiązanie
+
+`[fakt, własna historia projektu]` kandydatów sprawdzonych 17 VIII: **7, przeżył 1 (14%)**. Twierdzeń zabitych przez literaturę: **4 z 5 (przeżywa 20%)**.
+
+`[wniosek]` **Ale ważniejsze od bazy jest to, CO ginie przy zmianie.** Ten projekt zbiera najwięcej w **Research Problem (9/10)** i **Design and Methodology (13–14/15)** — **a obie te rubryki kupiono pięcioma dniami audytu i czterema zabitymi twierdzeniami, nie ani jedną godziną przy lutownicy.**
+
+> **Drogim, nieprzenoszalnym aktywem tego projektu nie jest sprzęt ani temat, tylko przeaudytowane postawienie problemu.** Nowy kierunek startuje z zerem w obu tych rubrykach.
+
+`[wniosek]` Nowy kierunek zyskałby najwyżej w `Creativity` — `[domysł]` **4–6 punktów na 100** — ryzykując dwie najmocniejsze rubryki, przy 14–20% szans na przeżycie audytu. **Dwie dodatkowe sesje dają część tego samego zysku za cztery dni i nie ryzykują niczego.**
+
+---
+
+#### 4. Kontrfaktyczne: stawka finałowa 2026, z trzema historiami
+
+**Pytanie autora:** *„a jak byłoby w tym roku?"*
+
+`[domysł]` Rozkład noty w skali finałowej wobec stawki 2026 (grupa walcząca 21–25, czołówka 25):
+
+| Gdzie wypada | P | P(ISEF stamtąd) |
+|---|---|---|
+| **25–26 — na szczycie stawki albo powyżej** | 0,40 | 0,58 |
+| 23–24 — górna połowa grupy walczącej | 0,45 | 0,20 |
+| poniżej 23 | 0,15 | 0,03 |
+
+> **P(ISEF | staje w finale 2026 z działającym urządzeniem i trzema historiami) = ~33%.**
+> Bez historii: **~27%.** `[wniosek]` **Same trzy historie warte są ~6 punktów procentowych, czyli jedną piątą względnie.**
+
+`[luka]` **Najsłabsze założenie i trzeba je nazwać: oceniam jego plakat wobec cudzych plakatów, nie widziawszy jego.** Do tego czołówka 2026 to projekt kwantowy — **premia za glamour tematu jest realna i działa przeciwko pomiarowi położenia elektrody.**
+
+**Reguła:** **przy każdym „to jest za słabe / za mało ciekawe" policz najpierw, ile kosztuje podniesienie tego, co już masz.** Sufit bywa tańszy do podniesienia niż fundament do przeniesienia — a tego rachunku nie robi się odruchowo.

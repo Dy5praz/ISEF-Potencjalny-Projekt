@@ -224,6 +224,16 @@ Dlaczego to jest ważne, a nie kosmetyczne: sesje różnią się impedancją kon
 
 **Razem:** 8 sesji × 240 prób = **1920 prób na każdy montaż**, wszystkie z tych samych zapisów.
 
+### 3.3c Rozszerzenie warunkowe do dziesięciu sesji — R14, K-115
+
+`[fakt, przeliczone]` Rodzina **R-C** (rozbiór po ośmiu częstotliwościach, przewidywanie 1) wymaga **277 prób na częstotliwość**. Osiem sesji daje **240** — brakuje 15%, stąd status eksploracyjny.
+
+**Dziesięć sesji daje 2 400 / 8 = 300 prób na częstotliwość i przenosi R-C do rodzin konfirmacyjnych**, z Holmem zamiast FDR.
+
+**Koszt:** dwie sesje (~4–6 h) i **cztery dni** w kalendarzu — 20 zamiast 16, przy sesjach co drugi dzień.
+
+`[wniosek]` **To jest najtańszy sposób podniesienia rubryki `Creativity & Potential Impact`, która jest najsłabsza w całym arkuszu ISEF** — bo test mechanizmu odróżnia „zmierzyłem liczbę" od „przewidziałem tę liczbę z modelu przed pomiarem". **Decyzja: kwiecień 2027, po v2 i przed startem kampanii. Nigdy kosztem R-A, R-B ani materiału półfinałowego.**
+
 ### 3.4 Niepewność — jak podawana
 
 `[fakt, wzór]` ITR Wolpaw: `B = log₂N + P·log₂P + (1−P)·log₂((1−P)/(N−1))`, ITR = B · 60/t.
