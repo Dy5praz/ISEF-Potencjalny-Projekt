@@ -169,6 +169,19 @@ Suma: 10+20+20+20+20+10 = **100%**. `[fakt]` Typowy łuk nasion–inion u doros�
 
 > `[fakt]` Dlatego praca w *PNAS* z **96,4%** daje **13 bit/min** (bo miała **2 cele**), a układ z **68%** daje **46 bit/min** (bo miał **40**). **To jest cały powód zakazu podawania dokładności bez N.**
 
+### 6.1 Sześć słów z porównania inwazyjny–nieinwazyjny — dopisane 22 VIII 2026
+
+Potrzebne do `05_STAN_WIEDZY.md` §7.7 i do odpowiedzi jurorowi.
+
+| Termin | Co znaczy |
+|---|---|
+| **inwazyjny** | elektroda jest **w środku** — pod skórą, pod czaszką albo w samej korze. Wymaga operacji neurochirurgicznej |
+| **wewnątrzkorowy** (*intracortical*) | najgłębsza odmiana: **igiełki wbite w korę**, typowo matryca Utah, ~100 elektrod na 4×4 mm. Czyta **pojedyncze neurony**. Wszystkie rekordy prędkości pisania są stąd |
+| **ECoG** (*elektrokortykografia*) | siatka elektrod **na powierzchni mózgu, pod czaszką, ale nie w korze**. Pośrednia klasa: mniej ryzyka niż igły, więcej sygnału niż EEG |
+| **BCI bierne** (*passive BCI*) | urządzenie **odgaduje, co widzisz albo w jakim jesteś stanie** — a Ty niczym nie sterujesz. **Podaje ogromne ITR i nie jest kanałem sterującym.** Mylenie tego z BCI czynnym jest najczęstszym nadużyciem liczb w tym polu |
+| **utility rate** | ITR **po odjęciu kosztu poprawiania błędów** — ile znaków naprawdę zostaje na ekranie. Zawsze niższy od ITR |
+| **WER** (*word error rate*) | odsetek źle rozpoznanych słów. Metryka rozpoznawania mowy, używana przez interfejsy inwazyjne. **Nie da się jej porównać z ITR** — dlatego porównanie obu światów robi się na znakach na minutę albo na bitach, nigdy na WER |
+
 ---
 
 ## 7. Statystyka, której już używasz

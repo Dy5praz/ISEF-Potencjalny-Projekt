@@ -421,6 +421,68 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 
 ---
 
+### 7.7 Sufit nieinwazyjny wobec inwazyjnego — czy nieinwazyjny kiedykolwiek wygrał
+
+**Dopisane 22 VIII 2026 na pytanie autora** *„czy ktokolwiek był w stanie pobić wynik interfejsu inwazyjnego wersją nieinwazyjną"*. `[luka, zamknięta]` **Cała dokumentacja nie miała ani jednego zdania o interfejsach inwazyjnych** — `grep` po „inwazyj" poza archiwum zwracał wyłącznie zapis regulaminowy Explory i notatkę o odrzuconym filmie. **Juror zapyta o to prawie na pewno**, bo jest to najczęstsze skojarzenie laika ze słowem „interfejs mózg–komputer".
+
+#### 7.7.1 Odpowiedź krótka: tak, i powiedziano to wprost w *PNAS*
+
+`[fakt, Chen, Wang, Gao, Jung, Gao 2015, PNAS 112(44):E6058–67, **PMID 26483479**, abstrakt, cytat dosłowny]`
+
+> *„…can achieve information transfer rates (ITRs) up to **5.32 bits per second, the highest ITRs reported in BCI spellers using either noninvasive or invasive methods**"*
+
+**5,32 bit/s = 319,2 bit/min.** `[wniosek]` Przy 40 celach jeden wybór niesie log₂40 = 5,32 bita, więc **5,32 bit/s to dokładnie jeden wybór na sekundę = 60 znaków na minutę.**
+
+`[fakt]` **Rekord został poprawiony przez tę samą szkołę:** Nakanishi, Wang, Chen, Wang, Jung 2018, IEEE TBME, **PMID 28436836** — TRCA, 40 celów, **325,33 ± 38,17 bit/min** (20 osób, zadanie z podpowiedzią) i **198,67 ± 50,48 bit/min** w swobodnym literowaniu (10 osób). **To jest wciąż stan rekordowy dla nieinwazyjnego kanału sterującego.**
+
+#### 7.7.2 Potwierdzenie z obozu przeciwnego — najmocniejsze źródło, jakie tu jest
+
+`[fakt, Willett, Avansino, Hochberg, Henderson, Shenoy 2021, Nature 593:249–254, **PMID 33981047**, tekst główny, cytaty dosłowne]` **Praca, która ustanowiła rekord inwazyjny, sama opisuje stan rzeczy tak:**
+
+> *„EEG spellers that use visually evoked potentials have achieved speeds of **60 characters per minute**, but have important usability limitations, as they **tie up the eyes, are not typically self-paced, and require panels of flashing lights on a screen**."*
+
+> *„For intracortical BCIs, the highest performing method has been point-and-click typing with a 2D computer cursor, **peaking at 40 characters per minute**."*
+
+> *„EEG spellers based on oddball potentials or motor imagery typically achieve **1–5 characters per minute**."*
+
+`[wniosek]` **W latach 2015–2021 nieinwazyjny SSVEP był szybszy od najlepszego interfejsu wszczepionego — 60 znaków na minutę wobec 40 — i przyznaje to praca rekordzisty inwazyjnego, w recenzowanym *Nature*.** To jest trzecie niezależne potwierdzenie liczby 60 znaków/min dla Chena 2015.
+
+#### 7.7.3 Kiedy to się skończyło i co jest dzisiaj
+
+| Rok | Kto | Wynik | Rodzaj |
+|---|---|---|---|
+| 2015 | Chen i in., PNAS | **319 bit/min**, 60 znaków/min, 40 celów | **nieinwazyjny** |
+| 2017 | najlepszy kursor wewnątrzkorowy | **40 znaków/min** | inwazyjny |
+| 2018 | Nakanishi i in., TBME | **325,33 bit/min** | **nieinwazyjny** |
+| **2021** | **Willett i in., Nature** | **90 znaków/min**, 94,1% surowej trafności — pismo odręczne z kory ruchowej | **inwazyjny — przejęcie prowadzenia** |
+| 2023 | Willett i in., Nature, **PMID 37612500** | **62 słowa/min**, słownik 125 000 słów, WER 23,8% | inwazyjny |
+| 2023 | Metzger i in., Nature, **PMID 37612505** | **78 słów/min** mediana, WER 25%, plus synteza głosu i awatar | inwazyjny |
+| 2024 | Card i in., NEJM, **PMID 39141853** | **97,5% trafności przez 8,4 miesiąca**, ~32 słowa/min w rozmowie | inwazyjny |
+| **2026** | **PMID 42297978** | **1 960 163 słowa w 183 060 zdaniach, średnio 56 słów/min, >99% trafności przy słowniku 125 000** | **inwazyjny, użycie codzienne, samodzielne** |
+
+`[fakt]` **Najlepsze wyniki inwazyjne dla zadania wyboru (kursor) są dziś nadal niższe niż SSVEP:** 2,90 bit/s dla kursora z kory mowy (PMID 40280150, 2025), 1,13–4,15 bit/s dla micro-ECoG (PMID 40913530, 2025) — **wobec 5,42 bit/s Nakanishiego.**
+
+`[domysł, ±2×]` Przeliczenie 56 słów/min na bity zależy od przyjętej entropii słowa (5,5–10 bit/słowo): **310–560 bit/min**. **Czyli nawet dziś różnica w samej przepustowości jest rzędu jednokrotności, nie rzędu wielkości.**
+
+> `[wniosek]` **Inwazyjny nie wygrywa liczbą bitów. Wygrywa tym, czego bit nie mierzy:** wzrok pozostaje wolny, tempo narzuca użytkownik, nie ma migoczącego ekranu, wypowiedź jest dowolna zamiast wyboru z listy, **i działa u ludzi ze stwardnieniem zanikowym bocznym oraz tetraplegią, którzy nie mogą ani mówić, ani poruszać oczami.** Wszystkie rekordy SSVEP ustawiono na osobach zdrowych.
+
+#### 7.7.4 Pułapka obu stron: „przepustowość bierna" nie jest sterowaniem
+
+`[fakt]` Nagel i Spüler 2019, PLoS ONE, **PMID 31490999**, tytuł *„World's fastest brain-computer interface"*: **701 bit/min średnio i 1237 bit/min u najlepszej osoby** — ale to jest **BCI bierne**, przewidujące własności oglądanego bodźca. **Ta sama praca podaje dla rzeczywistego literowania „utility rate" 175 bit/min, czyli 35 bezbłędnych liter na minutę.** Różnica siedmiokrotna, w jednym artykule.
+
+`[fakt]` Strona inwazyjna ma dokładnie taki sam artefakt: preprint *SONIC* (2025, doi 10.1101/2025.09.30.679683) melduje **ponad 200 bit/s, „the highest reported BCI ITR to date"** — na **owcy**, w korze słuchowej, jako pomiar pojemności kanału czuciowego, nie jako sterowanie.
+
+> **Reguła do zapamiętania i do obrony przy stoisku: liczba bitów bez podanego, czym użytkownik naprawdę sterował, nie znaczy nic.** To jest ta sama reguła co zakaz podawania dokładności bez liczby celów, tylko o piętro wyżej.
+
+#### 7.7.5 Co z tego wynika dla tego projektu
+
+1. **Gotowa odpowiedź na pytanie jurora „po co to, skoro istnieją implanty":** *„Na metryce, której używam — bitach na minutę — nieinwazyjny SSVEP trzymał rekord od 2015 do 2021 i do dziś bije inwazyjne sterowanie kursorem. Implant wygrywa niezależnością od wzroku i tym, że działa u ludzi, u których nie działa nic innego — nie przepustowością."* **Zdanie jest sprawdzalne w trzech pracach i jedna z nich jest pracą rekordzisty inwazyjnego.**
+2. **Ostrzeżenie, którego nie wolno pominąć:** te rekordy stawiano na **64-kanałowych systemach laboratoryjnych, na osobach zdrowych**. Najlepszy udokumentowany **montaż zwarty jednokanałowy daje 46,3 bit/min** (§1). **Odległość 325 → 46,3 jest siedmiokrotna i to jest prawdziwy kontekst tego projektu**, a nie odległość do implantu.
+3. **Potwierdzenie wyboru metryki.** `CLAUDE.md`: *„metryka w bitach, nigdy słowa na minutę"*. **Ta sekcja pokazuje, dlaczego to działa w obie strony** — słowa na minutę są metryką, na której inwazyjny wygrywa z definicji, bo tylko on produkuje swobodną wypowiedź.
+4. `[luka]` **Żadna z tych prac nie ma nic wspólnego ze zmienną tego projektu** (położenie elektrody odniesienia). Procedura tożsamości nie była uruchamiana — **werdykt oczywisty: niezwiązane.** Sekcja jest materiałem do rubryki `Research Problem` i do obrony, nie zagrożeniem dla twierdzenia.
+
+---
+
 ## 8. Konkurencja na ISEF — sprawdzona u źródła
 
 `[fakt]` Baza abstraktów Society for Science, **trzynaście roczników 2014–2026**, przeszukana formularzem:

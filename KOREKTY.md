@@ -2193,3 +2193,34 @@ Dwie dopuszczalne drogi, wybór **raz, w lutym 2027 po E1**. Pomiar krzyżowy wo
 **Reguła:** **każda kwota, próg i liczba miejsc przepisana z regulaminu albo ze strony organizatora dostaje datę odczytu obok znacznika `[fakt]`.** Bez daty nie da się odróżnić liczby sprawdzonej od liczby zapamiętanej — a struktura nagród ISEF zmieniła się dwa razy w trzy lata. **To samo dotyczy: kwot Explory §8, progów napięciowych ISEF, terminów §6 i reguły dwunastu miesięcy.**
 
 **I druga, o tym, co ta poprawka dała poza poprawką:** `[wniosek]` **pytanie „jaka skala jest na nagrodę główną" wygląda na pytanie demotywujące, a zwróciło liczbę, która działa w drugą stronę:** cała odległość od tego projektu do ligi ogólnej to **jeden szczebel — z II miejsca w kategorii na I** — a I miejsce w EBED 2026 wzięła praca o skanowaniu stereowizyjnym próbek mikroskopowych, nie synteza totalna. **Poprzeczka I miejsca w kategorii jest poprzeczką przyrządu i pomiaru.**
+
+---
+
+### K-118 — dokumentacja nie miała ani jednego zdania o interfejsach inwazyjnych, a to jest pierwsze skojarzenie każdego laika i prawie pewne pytanie jurora
+
+**Data:** 22 sierpnia 2026. **Wyszło z pytania autora:** *„czy ktokolwiek był w stanie pobić wynik interfejsu inwazyjnego wersją nieinwazyjną?"*
+
+**Co było.** `[fakt]` `grep -i "inwazyj"` po całej dokumentacji poza `archiwum/`: **cztery trafienia i ani jedno nie jest porównaniem.** Dwa to zapis regulaminowy Explory („zakaz badań inwazyjnych"), jedno to notatka o odrzuconym filmie, jedno to zdanie w `11_EWOLUCJA.md`, że do obejścia sterowania wzrokiem *„nie potrzeba inwazyjnego"* — **bez jednej liczby.**
+
+`[wniosek]` **`05_STAN_WIEDZY.md` §7 przeszedł wszystkie siedem nieinwazyjnych sposobów sterowania i zatrzymał się dokładnie na granicy pola.** Sekcja powstała, żeby odeprzeć zarzut *„po co to, skoro kamerka zrobi to samo"* — **a zarzut bliźniaczy i mocniejszy, *„po co to, skoro istnieją implanty"*, nie miał żadnej odpowiedzi.** To jest ten sam kształt co K-104: pytanie autora trafiło w lukę dokumentacji, nie w lukę projektu.
+
+**Co znaleziono** `[fakt, cztery niezależne źródła recenzowane]`:
+
+| | |
+|---|---|
+| **Chen i in. 2015, PNAS, PMID 26483479** | *„5.32 bits per second, **the highest ITRs reported in BCI spellers using either noninvasive or invasive methods**"* = **319 bit/min, 60 znaków/min** |
+| **Nakanishi i in. 2018, IEEE TBME, PMID 28436836** | **325,33 ± 38,17 bit/min** — rekord nieinwazyjny do dziś |
+| **Willett i in. 2021, Nature, PMID 33981047** | praca rekordzisty **inwazyjnego** pisze sama: SSVEP **60 znaków/min**, najlepszy kursor wewnątrzkorowy **40 znaków/min**, ich własne pismo odręczne **90 znaków/min** |
+| **PMID 42297978 (2026)** | inwazyjny w użyciu codziennym: **1 960 163 słowa, 56 słów/min, >99% trafności, słownik 125 000** |
+
+> `[wniosek]` **Odpowiedź brzmi: tak, i to nie jest sprawa sporna — potwierdza ją praca rekordzisty inwazyjnego w recenzowanym *Nature*.** Nieinwazyjny SSVEP był szybszy od najlepszego implantu **w latach 2015–2021** i **do dziś bije inwazyjne sterowanie kursorem** (5,42 bit/s wobec 2,90–4,15 bit/s). **Inwazyjny wygrywa niezależnością od wzroku, swobodą wypowiedzi i tym, że działa u ludzi ze SLA i tetraplegią — nie przepustowością.**
+
+**Poprawki.** `05_STAN_WIEDZY.md` **§7.7** — pięć podsekcji: odpowiedź krótka z cytatem, potwierdzenie z obozu przeciwnego, oś czasu 2015–2026, pułapka „przepustowości biernej", wnioski dla projektu z gotową odpowiedzią dla jurora. `15_NAUKA_DZIEDZINY.md` **§6.1** — sześć terminów (inwazyjny, wewnątrzkorowy, ECoG, BCI bierne, utility rate, WER).
+
+**Metoda** `[fakt]`: Europe PMC, kontrola pozytywna przed każdym zapytaniem złożonym (12 861 i 19 895 trafień — narzędzie działa), pełny tekst Willetta 2021 przez `efetch` na PMC8163299 po tym, jak Europe PMC `fullTextXML` zwrócił zero bajtów. **Liczba 60 znaków/min potwierdzona trzema drogami: abstrakt Chena, przeliczenie log₂40 ÷ 5,32 bit/s, cytat z Willetta 2021.**
+
+---
+
+**Reguła:** **każda sekcja „przeszliśmy wszystkie opcje" musi jawnie wymienić opcję, której NIE przeszła, i powiedzieć dlaczego.** §7 nosił zdanie *„przechodzi **wszystkie** znane nieinwazyjne sposoby sterowania"* — słowo „nieinwazyjne" było prawdziwe i **było jednocześnie niezauważonym ograniczeniem zakresu.** Prawdziwe zdanie w wąskiej ramce, czytane jako rozstrzygnięcie ogólne: **ten sam kształt co K-105, K-109, K-111 i K-116.** Piąte wystąpienie.
+
+**I druga, ta sama co przy K-116:** `[wniosek]` **pytanie autora zadane w jednym zdaniu, bez zlecenia, znalazło brakującą sekcję w pliku, który był audytowany celowo pięć dni wcześniej.** Ósmy raz w tym miesiącu. **Marginesy warto sprawdzać.**
