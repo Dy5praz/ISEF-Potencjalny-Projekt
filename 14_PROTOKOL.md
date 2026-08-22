@@ -96,6 +96,27 @@ Nie „zbuduj urządzenie". **„Zmierz taśmą łuk nasion–inion. Pięć minu
 | **V–VI 2027** | kampania i półfinał naraz | **już odchudzone (K-107)** — materiał przeniesiony na III–IV |
 | **po półfinale** | odpadnięcie albo słaby wynik | **plebiscyt to druga droga**, 904 głosy w 2026. I dorobek nie zależy od jury |
 | **X 2027** | finał bez wyjazdu na ISEF | **to było w planie od początku: ~1 na 3 stojąc w finale.** Preprint, urządzenie i dziennik zostają |
+| **kiedykolwiek, bez ostrzeżenia** | **żałoba po wyobrażeniu** — patrz §4.1 poniżej | **rozdzielić: rozczarowanie dziedziną ≠ wątpliwość o projekcie** |
+
+---
+
+### 4.1 Ósmy punkt wahania, nieprzewidziany: żałoba po wyobrażeniu
+
+**Wystąpił 22 sierpnia 2026, dzień po ustanowieniu protokołu.** Zapisany, bo **nie było go w tabeli i jest to inny gatunek niż pozostałe siedem.**
+
+**Przebieg** `[fakt]`: autor zadał trzy pytania z rzędu o **granice pola** — skala projektu na nagrodę główną ISEF, czy nieinwazyjny pobił kiedykolwiek inwazyjny, czy hełm mógłby czytać intencje. Wszystkie trzy dostały odpowiedzi z liczbami. **Wszystkie trzy liczby były sufitami.** Następnie: *„znowu się waham. Nie wiem czemu. Trochę to nielogiczne, projekt jest dobry, sprawdzony i wykonalny, ale coś i tak mnie gryzie."* — i własna diagnoza: *„na początku wyobrażałem sobie taki interfejs jako po prostu coś, co pozwala nam »myślami« sterować np. komputerem. No i trochę uderzyła mnie ta rzeczywistość."*
+
+**Rozpoznanie** `[wniosek]`: **to nie jest wątpliwość o projekcie i nie ma w sobie ani jednego zarzutu wobec projektu.** Autor sam napisał, że projekt jest dobry, sprawdzony i wykonalny. **Utracony został obraz, nie plan.** To są dwie różne straty i **druga nie ma lekarstwa po stronie projektu, bo w projekcie nic nie jest zepsute.**
+
+**Dlaczego trzeba to mieć zapisane:** `[wniosek]` **wahanie bez zarzutu wygląda dokładnie tak samo jak wahanie z zarzutem** — ta sama treść, ten sam ton. **Różnica jest sprawdzalna jednym pytaniem: „na którą stronę dokumentacji to wskazuje?"** Jeżeli na żadną, to nie jest informacja o projekcie.
+
+**Trzy narzędzia na ten konkretny gatunek, w kolejności:**
+
+1. **Powiedzieć wprost, że rozczarowanie jest trafne, a wniosek z niego nie.** Dziedzina **naprawdę** ma sufit i **naprawdę** nie czyta myśli. To ustalenie, nie zła wiadomość. **Cały świat badaczy przeszedł tę samą drogę i dlatego pole mierzy w bitach, a nie w obietnicach.**
+2. **Przypomnieć, że odpowiedź na tę tęsknotę jest już w planie i ma numer: E6, uwaga utajona przestrzenna** (`05_STAN_WIEDZY.md` §7.6). Oko stoi nieruchomo, wybór następuje przez przesunięcie **uwagi**. **88,4% u dziewięciu osób bez treningu.** **Odłożone, nie odrzucone; koszt odłożenia zero; termin decyzji 31 III 2027.** To jest najbliższa istniejąca rzecz temu, co autor sobie wyobrażał — **i on ją już ma w dokumentacji.**
+3. **Sprawdzić wyjątek trzeci z §2 — uczciwie i wprost, nie asekuracyjnie.** *„Przestało sprawiać frajdę"* i *„zderzyło się z rzeczywistością, ale wciąż chcę"* wyglądają podobnie przez jeden wieczór. **Pytanie rozstrzygające: czy nie chcesz tego robić, czy nie chcesz, żeby świat był taki, jaki jest?** Na pierwsze protokół nie działa. Na drugie działa.
+
+> `[fakt]` **Zdanie, którym autor sam ustanowił ten protokół, brzmiało:** *„abym się nie wycofał, **bo to jednak lubię**."* **Napisał to o dziedzinie, której sufity już wtedy znał w dwóch trzecich.**
 
 ---
 
