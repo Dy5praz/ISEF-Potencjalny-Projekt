@@ -235,9 +235,7 @@ https://www.youtube.com/watch?v=spUNpyF58BY
 **Backyard Brains** — kanał: https://www.youtube.com/user/backyardbrains/videos
 Neuronaukowcy robiący eksperymenty w domu, tanim sprzętem, **łącznie z EEG i falą alfa.** Dokładnie duch „nie potrzeba instytutu za milion". Mają też **gotowe opisy eksperymentów** na backyardbrains.com/experiments/eeg — w tym pomiar własnej alfy.
 
-**„Making a Brain Computer Interface in My Garage"** (lipiec 2025)
-https://www.youtube.com/watch?v=5YxrpcqkTYA
-Ktoś buduje interfejs od zera w garażu. **Najbliższe temu, co Ty robisz.**
+~~**„Making a Brain Computer Interface in My Garage"**~~ — **ODRZUCONY przez autora 21 VIII 2026 po obejrzeniu.** Jego werdykt: *„w większości to jest zwykły koncept interfejsu, który jest hybrydą między inwazyjnym a nieinwazyjnym"*. `[wniosek]` **Trafnie — projekt inwazyjny albo hybrydowy nie uczy niczego o tym projekcie, bo cała trudność z odniesieniem i objętościowym przewodzeniem znika, gdy elektroda siedzi w mózgu.**
 
 **„Controlling Electronics with my Mind! | EEG Brain Computer Interface"**
 https://www.youtube.com/watch?v=6iQqklu2fg0
@@ -249,4 +247,60 @@ Sterowanie diodami przez EEG — krótkie, konkretne, widać efekt.
 https://www.youtube.com/watch?v=Dgo7F-lpyYE
 Odczyt EEG w Pythonie. **Do obejrzenia dopiero, gdy będziesz miał Cereloga w rękach** — wcześniej to abstrakcja.
 
-`[wniosek]` **Kolejność: 3Blue1Brown → Backyard Brains → garaż → reszta.** Pierwsze dwa dają fundament, trzeci daje ochotę.
+### Nie-filmy, które biją filmy
+
+**Interaktywny Fourier** — https://www.jezzamon.com/fourier/
+Suwaki w przeglądarce, rysujesz kształt i widzisz, z jakich sinusoid się składa. **Do zrobienia z laptopa, lepsze od filmu, bo sam kręcisz.**
+
+**Backyard Brains — eksperyment z falą alfa** — https://backyardbrains.com/experiments/eeg
+Gotowy opis krok po kroku: **zmierz własną alfę, otwórz i zamknij oczy, zobacz, jak się pojawia i znika.** `[wniosek]` **To jest pierwszy eksperyment do wykonania na Cerelogu — jeszcze przed E0.** Prostszy niż SSVEP, natychmiast widoczny, i jest **testem odbiorczym sprzętu przy okazji**: jeżeli alfa się nie pojawia, problem jest w torze, nie w Tobie.
+
+---
+
+### Stan pola, sprawdzony 21 VIII 2026
+
+`[fakt]` Przeszukane cztery kąty: BCI dla początkujących · Backyard Brains · wzmacniacze biopotencjałowe · SSVEP i frequency tagging. **Trzy ostatnie zwróciły prace naukowe i wykłady, nie popularyzację.**
+
+`[wniosek]` **Pole filmowe dla tej dziedziny jest cienkie i to nie jest brak szukania.** SSVEP, geometria odniesienia i analogowe tory dla mikrowoltów są za wąskie, żeby ktoś zrobił o nich dobry film. **Powyżej poziomu 3Blue1Brown i Backyard Brains nauka idzie z rozmowy i z własnych pomiarów, nie z oglądania.**
+
+**Kolejność: 3Blue1Brown → interaktywny Fourier → Backyard Brains → reszta.**
+
+
+---
+
+## 11. Jak się tego uczymy dalej — pytaniami, nie czytaniem
+
+**Ustalone 21 VIII 2026, po odrzuceniu filmu o garażu i po stwierdzeniu, że pole filmowe jest cienkie.**
+
+`[wniosek]` **Powyżej fundamentów nauka tej dziedziny nie idzie z oglądania.** Zostają dwie drogi: **własne pomiary** (od października) i **rozmowa**. Do października działa tylko druga.
+
+### 11.1 Format: pytania, nie wykłady
+
+`[fakt]` **Aktywne przypominanie bije czytanie.** Odpowiadanie na pytanie zostawia trwalszy ślad niż przeczytanie tej samej treści — i **wychodzą przy tym dziury, których czytanie nie pokazuje**, bo tekst zawsze wygląda na zrozumiały, dopóki się go nie odtworzy z głowy.
+
+**Procedura:**
+1. autor czyta blok z tego pliku
+2. model zadaje **3–5 pytań** o ten blok, bez podpowiedzi
+3. autor odpowiada **własnymi słowami, nie cytatem**
+4. model wskazuje, co było niepełne, i **dopisuje brakujące pojęcie do tego pliku**
+5. **pytania wracają po tygodniu** — powtórka rozłożona w czasie
+
+### 11.2 Dlaczego to jest jednocześnie najlepiej opłacona praca w projekcie
+
+`[fakt]` **Rozmowa z jurorem waży 25 punktów na 100 na arkuszu ISEF** — więcej niż jakakolwiek inna pozycja. **W półfinale Explory prezentacja to 10 z 40.**
+
+`[fakt]` `08_KONKURSY.md` §6 planuje trening prezentacyjny na **IX–X 2027**, w trzech poziomach: laik / inżynier spoza dziedziny / specjalista.
+
+> `[wniosek]` **Ale trening prezentacyjny na poziomie początkującym JEST najskuteczniejszą metodą nauki dziedziny.** To znaczy, że **można go zacząć teraz, czternaście miesięcy wcześniej, nie płacąc za to ani jedną dodatkową godziną** — bo zastępuje czas, który i tak poszedłby na czytanie.
+>
+> **Ta sama godzina liczy się dwa razy: raz jako nauka, raz jako trening najwyżej punktowanej umiejętności w projekcie.** Nic innego w tym planie nie ma takiej własności.
+
+### 11.3 Trzy poziomy, ten sam bank pytań
+
+| Poziom | Kiedy | Przykład |
+|---|---|---|
+| **laik** | **teraz** | *„Po co Ci druga elektroda?"* |
+| **inżynier spoza dziedziny** | wiosna 2027, po pierwszych pomiarach | *„Skąd wiesz, że mierzysz sygnał, a nie artefakt sieci?"* |
+| **specjalista** | jesień 2027 | *„Czemu nie użyłeś REST albo CAR zamiast wybierać odniesienie?"* |
+
+`[wniosek]` **Bank pytań buduje się od dziś i rośnie razem z projektem.** Trzy gotowe odpowiedzi na poziomie specjalisty leżą już w `02_TWIERDZENIE.md` §7 — **ale bez poziomu pierwszego nie da się ich obronić, bo juror laik zapyta „a co to jest odniesienie" i cała reszta się posypie.**
