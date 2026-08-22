@@ -181,6 +181,25 @@ Potrzebne do `05_STAN_WIEDZY.md` §7.7 i do odpowiedzi jurorowi.
 | **BCI bierne** (*passive BCI*) | urządzenie **odgaduje, co widzisz albo w jakim jesteś stanie** — a Ty niczym nie sterujesz. **Podaje ogromne ITR i nie jest kanałem sterującym.** Mylenie tego z BCI czynnym jest najczęstszym nadużyciem liczb w tym polu |
 | **utility rate** | ITR **po odjęciu kosztu poprawiania błędów** — ile znaków naprawdę zostaje na ekranie. Zawsze niższy od ITR |
 | **WER** (*word error rate*) | odsetek źle rozpoznanych słów. Metryka rozpoznawania mowy, używana przez interfejsy inwazyjne. **Nie da się jej porównać z ITR** — dlatego porównanie obu światów robi się na znakach na minutę albo na bitach, nigdy na WER |
+| **CER** (*character error rate*) | to samo na znakach zamiast słów. **CER 67% znaczy, że dwa znaki na trzy są złe** |
+
+### 6.2 Czym jeszcze, poza EEG, mierzy się mózg od zewnątrz — dopisane 22 VIII 2026
+
+Potrzebne do `05_STAN_WIEDZY.md` §7.8. **Nieinwazyjny nie znaczy „EEG" — to była luka w §7 przez cały czas.**
+
+| Metoda | Co mierzy | Rozdzielczość czasowa | Gabaryt |
+|---|---|---|---|
+| **EEG** | **napięcie** na skórze głowy | **milisekundy** | czepek, tanio |
+| **MEG** (*magnetoencefalografia*) | **pole magnetyczne** wytwarzane przez te same prądy | **milisekundy** | do niedawna szafa z ciekłym helem; dziś **hełm z czujnikami OPM** — ale wciąż w pokoju ekranowanym |
+| **fNIRS** | **natlenienie krwi** — światłem bliskiej podczerwieni przez czaszkę | **sekundy** (to nie jest sygnał elektryczny, tylko przepływ krwi) | opaska |
+| **fMRI** | to samo natlenienie, polem magnetycznym | **sekundy** | **magnes wielkości pokoju**, nigdy nie będzie hełmem |
+
+**Dwa terminy, które przy tym wracają:**
+
+- **OPM** (*optically pumped magnetometer*, magnetometr z pompowaniem optycznym) — czujnik pola magnetycznego **niewymagający ciekłego helu**. To on zamienił MEG z szafy w nakrycie głowy
+- **problem odwrotny** — z rozkładu napięć na skórze **nie da się jednoznacznie odtworzyć** układu źródeł w środku. Ten sam obraz na powierzchni może pochodzić z nieskończenie wielu układów prądów. **To jest twierdzenie matematyczne, nie usterka aparatury**; więcej elektrod zawęża zbiór rozwiązań, ale go nie domyka
+
+> **Dlaczego MEG bije EEG:** czaszka ma inną przewodność elektryczną niż mózg i skóra, więc **prąd rozmywa**. **Pola magnetycznego praktycznie nie zniekształca.** EEG patrzy przez matową szybę, MEG przez przezroczystą.
 
 ---
 

@@ -483,6 +483,78 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 
 ---
 
+### 7.8 Czy hełm na całą głowę mógłby czytać intencje — granica leży w fizyce czujnika, nie w oprogramowaniu
+
+**Dopisane 22 VIII 2026 na pytanie autora** *„czy w teorii interfejs nieinwazyjny, rozmiarów hełmu na całą głowę, mógłby odczytywać intencje użytkownika"*.
+
+**Uzupełnia Opcję 6 (mowa wewnętrzna) i domyka zakres §7.** `[luka, zamknięta]` §7 przeszedł **siedem paradygmatów na EEG** i nazywał to *„wszystkimi znanymi nieinwazyjnymi sposobami sterowania"* — **a nieinwazyjny to nie tylko EEG.** MEG, fNIRS i fMRI nie były wymienione ani razu. **To jest dokładnie ta klasa błędu, na którą regułę zapisano dzień wcześniej przy K-118.** K-119.
+
+#### 7.8.1 Najpierw rozdzielić trzy rzeczy nazywane „intencją"
+
+| Poziom | Co to znaczy | Czy działa nieinwazyjnie |
+|---|---|---|
+| **1. Wybór ze zbioru zamkniętego** | „lewo / prawo / stop" | **tak, słabo** — wyobrażenie ruchu, 19% osób w paśmie użytecznym (Opcja 5), 1–5 znaków/min |
+| **2. Mowa wyobrażona ze zbioru zamkniętego** | pięć zdań wyuczonych wcześniej | **tak** — z MEG **93%** przy pięciu klasach |
+| **3. Swobodna wypowiedź albo swobodna intencja** | dowolne zdanie, którego nikt wcześniej nie widział | **częściowo** — z fMRI tak, z MEG z dużym błędem, **z EEG nie** |
+
+**Odpowiedź na pytanie brzmi: tak, ale hełmem, który działa, jest hełm MEG, a nie hełm EEG. I to nie jest kwestia liczby elektrod.**
+
+#### 7.8.2 Co faktycznie zrobiono — cztery wyniki
+
+| Praca | Czujnik | Wynik |
+|---|---|---|
+| **Dash, Ferrari, Wang 2020**, Front Neurosci, **PMID 32317917** | **MEG** | **5 zdań wyobrażonych, 8 osób, 93% (wyobrażone) i 96% (wypowiedziane)** siecią splotową. Poziom losowy 20% |
+| **Tang, LeBel, Jain, Huth 2023**, Nat Neurosci, **PMID 37127759** | **fMRI** | **ciągły język** odtworzony z kory — mowa słyszana, **mowa wyobrażona** i **niemy film**. Cytat: *„a single decoder can be applied to a range of tasks"* |
+| **Brain2Qwerty, 2025**, arXiv 2502.17480, 35 osób | **MEG wobec EEG na tym samym zadaniu** | **MEG: CER 32%. EEG: CER 67%.** Najlepsza osoba 19% |
+| **Brain2Qwerty v2, 2026**, arXiv 2608.18114 | **MEG** | 9 osób × 10 h, 22 000 zdań, **WER 39%**; u najlepszej osoby połowa zdań z co najwyżej jednym błędem. **Trafność rośnie logarytmicznie-liniowo z ilością danych** |
+
+> `[fakt]` **Najważniejsza liczba w całej tej sekcji: 32% wobec 67%.** To jest **to samo zadanie, ci sami ludzie, ten sam model** — zmienia się wyłącznie czujnik. **EEG wypada dwukrotnie gorzej, a 67% błędu znakowego znaczy, że dwa znaki na trzy są złe.** Hełm EEG nie przegrywa dlatego, że ma za mało elektrod.
+
+#### 7.8.3 Dlaczego EEG przegrywa — dwie granice fizyczne, nie inżynierskie
+
+**Granica pierwsza: minimalna powierzchnia kory.** `[fakt, Tao, Ray, Hawes-Ebersole, Ebersole 2005, Epilepsia, **PMID 15857432**, cytaty dosłowne]`
+
+> *„90% of cortical spikes with a source area of **>10 cm²** produced scalp EEG spikes, whereas only 10% of cortical spikes having **<10 cm²** of source area produced scalp potentials."*
+
+> *„Intracranial spikes with **<6 cm² of area were never associated with scalp EEG spikes**."*
+
+`[fakt, PMID 10831109]` Dla MEG próg jest podobny: **6–8 cm²**.
+
+`[domysł, ±2×]` Kora ludzka ma ~16 mld neuronów na ~2 000 cm² powierzchni, czyli ~8 mln neuronów na cm². **Sześć cm² to rzędu 50 milionów neuronów.** **Czynność, która nie zsynchronizuje pięćdziesięciu milionów neuronów naraz, jest dla elektrody na skórze niewidzialna — nie „trudna do wykrycia", tylko nieobecna w sygnale.** Intencje różniące się drobnym wzorcem przestrzennym są więc poza zasięgiem **z zasady**, a nie z powodu szumu wzmacniacza.
+
+**Granica druga: problem odwrotny.** Ten sam rozkład napięć na skórze może pochodzić z nieskończenie wielu układów źródeł w środku — to jest twierdzenie, nie usterka. Więcej elektrod zawęża zbiór rozwiązań, **ale go nie domyka.**
+
+**Dlaczego MEG jest lepszy:** czaszka **zniekształca prąd elektryczny** (kość ma inną przewodność niż mózg i skóra), **a pola magnetycznego praktycznie nie zniekształca**. MEG patrzy przez czaszkę, EEG patrzy przez rozmytą szybę. **Stąd 32% wobec 67%.**
+
+#### 7.8.4 Czy hełm MEG to naprawdę hełm
+
+`[fakt, Hill i in. 2020, NeuroImage, **PMID 32480036**]` Tak, dosłownie: **noszony OPM-MEG z pokryciem całej głowy**, dwa warianty mocowania — **elastyczny czepek i sztywny hełm drukowany przyrostowo**; przy **pięciokrotnie mniejszej liczbie czujników** osiąga wyniki porównywalne z systemem kriogenicznym. **OPM** (*optically pumped magnetometer*, magnetometr z pompowaniem optycznym) to czujnik pola magnetycznego niewymagający chłodzenia ciekłym helem — to on zamienił MEG z szafy w nakrycie głowy.
+
+`[fakt, PMID 30031934]` **Czego ten hełm nadal wymaga: pokoju ekranowanego magnetycznie i układu cewek zerujących tło.** Bez tego ruch głowy w resztkowym polu ziemskim nasyca czujniki i dane są bezużyteczne. **Hełm jest przenośny. Pokój nie.**
+
+#### 7.8.5 Trzy warunki, które musiałyby być spełnione — i status każdego
+
+| Warunek | Status |
+|---|---|
+| **czujnik, który nie patrzy przez czaszkę jak przez mgłę** | **spełniony** — OPM-MEG istnieje i ma kształt hełmu. Cena i ekranowanie **niespełnione** |
+| **dość danych** | `[fakt]` Brain2Qwerty v2 pokazuje wzrost **logarytmicznie-liniowy** z ilością danych — czyli podwojenie wyniku wymaga wielokrotnego zwiększenia zbioru, ale **kierunek jest udowodniony, nie postulowany** |
+| **współpraca badanego** | `[fakt, Tang 2023]` *„subject cooperation is required both to train and to apply the decoder"*. **Czytanie intencji osoby, która tego nie chce, nie jest na dziś na stole** — i autorzy sprawdzili to celowo, w sekcji o prywatności umysłowej |
+
+#### 7.8.6 Odpowiedź jednym akapitem — do powiedzenia jurorowi
+
+> *„W teorii tak, i częściowo już się to robi — ale nie hełmem EEG. Skóra i czaszka rozmywają prąd tak mocno, że czynność mniejsza niż sześć centymetrów kwadratowych kory nigdy nie pojawia się na skórze głowy; to zmierzono na jednoczesnych zapisach wewnątrzczaszkowych i powierzchniowych. Hełm, który to potrafi, jest hełmem MEG — mierzy pole magnetyczne, którego czaszka nie zniekształca — i na tym samym zadaniu ma dwukrotnie mniejszy błąd niż EEG. Tyle że wciąż potrzebuje pokoju ekranowanego magnetycznie. Ograniczeniem jest fizyka czujnika, nie oprogramowanie."*
+
+#### 7.8.7 Co z tego wynika dla tego projektu
+
+`[wniosek]` **Nic w kwestii twierdzenia — i to jest dobra wiadomość, nie zła.** Sekcja nie otwiera żadnej ścieżki, bo:
+
+1. **Wszystkie trzy wyniki „tak" wymagają MEG albo fMRI** — czyli sprzętu za setki tysięcy do milionów złotych, plus pokój ekranowany. `06_RYZYKA.md` nie ma szczebla, na którym to się mieści, i mieć nie może.
+2. **Gałąź EEG tego pytania jest już w §7 jako Opcja 6 i jest odrzucona z liczbami.** Ta sekcja dokłada do niej **przyczynę fizyczną**, której tam nie było — i przez to czyni odrzucenie mocniejszym, nie słabszym.
+3. **Zysk jest retoryczny i realny:** projekt, który potrafi powiedzieć, **dlaczego** hełm EEG nie czyta myśli — z liczbą 6 cm² i z porównaniem 32% wobec 67% — pokazuje panowanie nad dziedziną w miejscu, w którym większość projektów licealnych ma marketing. `[fakt]` Explory §7 pkt 2d płaci za to **10 pkt na 40**.
+4. **I jedno zdanie o granicy własnego pomiaru:** ten projekt mierzy, co się dzieje, gdy elektroda odniesienia zmienia miejsce **o centymetry**. Sekcja 7.8.3 mówi, że **kora poniżej 6 cm² jest niewidoczna z powierzchni** — to są dwie różne skale i **nie ma między nimi sprzeczności**, ale warto umieć to rozdzielić, bo juror może je pomylić.
+
+---
+
 ## 8. Konkurencja na ISEF — sprawdzona u źródła
 
 `[fakt]` Baza abstraktów Society for Science, **trzynaście roczników 2014–2026**, przeszukana formularzem:

@@ -99,6 +99,20 @@
 
 ---
 
+## 3.4 Reguła etykiety zakresu — dopisana 22 VIII 2026, K-119
+
+**Przy każdym przeglądzie sprawdź, czy nazwa klasy w nagłówku jest tą samą klasą, którą przeszły wiersze.**
+
+`[fakt]` `05_STAN_WIEDZY.md` §7 miał w nagłówku *„wszystkie znane **nieinwazyjne** sposoby sterowania"*, a w wierszach **siedem paradygmatów EEG**. Żadna liczba nie była błędna. **Błędna była etykieta** — i przez nią czytelnik wychodził z wnioskiem o całej klasie „nieinwazyjne", podczas gdy materiał dotyczył jednej metody pomiarowej z czterech.
+
+**Etykieta szersza od zawartości jest błędem tego samego rodzaju co liczba bez jednostki.**
+
+`[fakt]` **Sześć wystąpień tego kształtu w tym projekcie: K-105, K-109, K-111, K-116, K-118, K-119** — prawdziwe zdanie w wąskiej ramce, zapisane jako rozstrzygnięcie ogólne. **Jest to najczęstszy pojedynczy błąd w całym rejestrze.**
+
+**Test, który zajmuje trzydzieści sekund:** przeczytaj nagłówek sekcji i wypisz, co musiałoby się w niej znaleźć, gdyby był prawdziwy dosłownie. **Czego brakuje na tej liście, to jest luka.**
+
+---
+
 ## 4. Reguła, która obowiązuje bezwzględnie: kontrola pozytywna
 
 **Każde „zero trafień" wymaga zapytania, o którym wiadomo, że musi coś zwrócić — i to PRZED zapytaniem właściwym.**
@@ -108,6 +122,8 @@
 | Gdzie | Na czym polegała pułapka |
 |---|---|
 | **arXiv** | składnia `all:"fraza w cudzysłowie"` zwraca zero na każde zapytanie |
+| **arXiv, drugi raz** | `http://export.arxiv.org` zwraca **zero rekordów na kontroli pozytywnej**; `https://` na to samo zapytanie zwraca trafienia. **22 VIII 2026, K-119** |
+| **arXiv, trzeci raz** | odpowiedź to Atom, w którym `<title>` występuje też w nagłówku kanału. **Wyrażenie regularne zszywa tytuł jednego rekordu ze streszczeniem innego.** Parsować `xml.etree`, nigdy `re` |
 | **OpenAIRE** | parametr `keywords` wymaga **wszystkich słów naraz** — długie zapytanie zawsze daje zero |
 | **CQVIP** | wyniki są w polu `class="abstr"`, nie w selektorze tytułu |
 | **Europe PMC** | pole `FULL_TEXT:` **nie istnieje** |

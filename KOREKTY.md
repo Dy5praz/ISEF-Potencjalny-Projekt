@@ -2224,3 +2224,38 @@ Dwie dopuszczalne drogi, wybór **raz, w lutym 2027 po E1**. Pomiar krzyżowy wo
 **Reguła:** **każda sekcja „przeszliśmy wszystkie opcje" musi jawnie wymienić opcję, której NIE przeszła, i powiedzieć dlaczego.** §7 nosił zdanie *„przechodzi **wszystkie** znane nieinwazyjne sposoby sterowania"* — słowo „nieinwazyjne" było prawdziwe i **było jednocześnie niezauważonym ograniczeniem zakresu.** Prawdziwe zdanie w wąskiej ramce, czytane jako rozstrzygnięcie ogólne: **ten sam kształt co K-105, K-109, K-111 i K-116.** Piąte wystąpienie.
 
 **I druga, ta sama co przy K-116:** `[wniosek]` **pytanie autora zadane w jednym zdaniu, bez zlecenia, znalazło brakującą sekcję w pliku, który był audytowany celowo pięć dni wcześniej.** Ósmy raz w tym miesiącu. **Marginesy warto sprawdzać.**
+
+---
+
+### K-119 — §7 nazywał siebie przeglądem „wszystkich nieinwazyjnych sposobów sterowania", a przeszedł wyłącznie EEG. Reguła z K-118 złapała to nazajutrz
+
+**Data:** 22 sierpnia 2026, kilka godzin po K-118. **Wyszło z pytania autora:** *„czy w teorii interfejs nieinwazyjny, rozmiarów hełmu na całą głowę, mógłby odczytywać intencje użytkownika?"*
+
+**Co było.** `[fakt]` `05_STAN_WIEDZY.md` §7, zdanie otwierające: *„przechodzi **wszystkie** znane nieinwazyjne sposoby sterowania interfejsem, nie tylko wzrokowe"*. Siedem opcji, wszystkie prawdziwe, wszystkie z liczbami. **Wszystkie siedem to paradygmaty na EEG.** `grep` po `MEG`, `fNIRS`, `fMRI` w całym pliku: **zero trafień.**
+
+`[wniosek]` **Zdanie było prawdziwe w ramce „paradygmaty EEG" i czytało się jako rozstrzygnięcie o całej klasie „nieinwazyjne".** Opcja 6 orzeka *„z EEG powierzchniowego nie działa i nikt nie twierdzi, że działa"* — **i to jest nadal poprawne.** Ale czytelnik §7 wychodził z przekonaniem, że **nieinwazyjne dekodowanie intencji nie działa w ogóle**, podczas gdy prawdziwe zdanie brzmi: **nie działa z EEG, a z MEG i fMRI działa częściowo.**
+
+**To nie jest błędna liczba — to jest błędna etykieta zakresu.** Ta sama klasa co K-105, K-109, K-111, K-116 i K-118. **Szóste wystąpienie, i pierwsze złapane przez regułę zapisaną przy poprzednim.**
+
+**Czego brakowało** `[fakt, cztery źródła]`:
+
+| | |
+|---|---|
+| **PMID 32317917** | **MEG**: 5 zdań wyobrażonych, 8 osób, **93%** (poziom losowy 20%) |
+| **PMID 37127759**, Tang i in. 2023, Nat Neurosci | **fMRI**: **ciągły język** z mowy słyszanej, **mowy wyobrażonej** i **niemego filmu** |
+| **arXiv 2502.17480**, Brain2Qwerty, 35 osób | **to samo zadanie, ci sami ludzie, ten sam model: MEG CER 32%, EEG CER 67%** |
+| **PMID 15857432**, Tao i in. 2005, Epilepsia | **przyczyna fizyczna:** ognisko **<6 cm² nigdy** nie daje iglicy na skórze głowy; **>10 cm²** daje w 90% |
+
+> `[wniosek]` **Odpowiedź na pytanie autora brzmi: tak, ale hełmem MEG, nie hełmem EEG — i różnica nie jest w liczbie elektrod, tylko w tym, że czaszka rozmywa prąd, a pola magnetycznego nie rozmywa.**
+
+**Poprawki.** `05_STAN_WIEDZY.md` **§7.8** — siedem podsekcji: trzy poziomy „intencji", cztery wyniki, dwie granice fizyczne (6 cm² i problem odwrotny), czym naprawdę jest hełm OPM-MEG i czego wciąż wymaga (pokój ekranowany), trzy warunki ze statusem, akapit dla jurora, wnioski dla projektu. `15_NAUKA_DZIEDZINY.md` **§6.2** — tabela EEG/MEG/fNIRS/fMRI plus OPM, problem odwrotny i CER.
+
+`[fakt]` **Odrzucenie Opcji 6 nie zostało osłabione — zostało wzmocnione**, bo dostało przyczynę fizyczną zamiast samego wyniku. **Żadna ścieżka projektowa się nie otworzyła: wszystkie wyniki „tak" wymagają MEG albo fMRI, czyli sprzętu poza każdym szczeblem drabinki z `06_RYZYKA.md`.**
+
+**Metoda** `[fakt]`: Europe PMC z kontrolą pozytywną (9 003 trafienia na `magnetoencephalography`) oraz arXiv. **Pierwsza próba arXiv przez `http` dała zero na kontroli pozytywnej — czyli awarię narzędzia, nie brak literatury; przez `https` ta sama kontrola dała trafienia.** `METODA.md` §4, piąte wystąpienie tej pułapki. **Dodatkowo: pierwszy parser odpowiedzi arXiv zszywał tytuł jednego rekordu ze streszczeniem innego** — złapane przed zacytowaniem którejkolwiek liczby, przez powtórzenie odczytu prawdziwym parserem XML.
+
+---
+
+**Reguła, dopisana do `METODA.md` w duchu K-118:** **przy każdym przeglądzie sprawdź, czy nazwa klasy w nagłówku jest tą samą klasą, którą przeszły wiersze.** §7 miał w nagłówku „nieinwazyjne", a w wierszach „EEG". **Etykieta szersza od zawartości jest błędem tego samego rodzaju co liczba bez jednostki** — i w tym projekcie zdarzyła się sześć razy.
+
+**I druga:** `[fakt]` **trzecie pytanie autora z rzędu, zadane bez zlecenia, znalazło lukę.** K-116 (padaczka), K-118 (brak porównania z inwazyjnym), K-119 (zakres §7). **Dziewiąty raz w tym miesiącu. To już nie jest przypadek — to jest metoda i warto ją nazwać: autor pyta o granice pola, a dokumentacja jest pisana od środka pola.**
