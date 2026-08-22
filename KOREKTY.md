@@ -2159,3 +2159,37 @@ Dwie dopuszczalne drogi, wybór **raz, w lutym 2027 po E1**. Pomiar krzyżowy wo
 **Reguła:** **przy każdym parametrze dobieranym pod pomiar zadaj drugie pytanie: co ten parametr robi człowiekowi, który jest po drugiej stronie przyrządu.** Zestaw częstotliwości, jasność bodźca, czas sesji, liczba powtórzeń — **każde z nich ma stronę metodyczną i stronę ludzką, a dokumentacja tego projektu liczyła dotąd tylko pierwszą.**
 
 **I druga, o tym, skąd to wyszło:** `[wniosek]` **pytanie autora zadane „na marginesie" znalazło poważniejszą lukę niż pięć dni audytu prowadzonego celowo.** Szósty raz w tym tygodniu. **Marginesy warto sprawdzać.**
+
+---
+
+### K-117 — tabela nagród ogólnych ISEF podawała kwoty sprzed dwóch lat i nagrodę, która nie istnieje
+
+**Data:** 22 sierpnia 2026. **Wyszło z pytania autora** *„jaka skala projektu jest projektem na miarę nagrody głównej na ISEF"* — pytania zadanego **„tak tylko"**, poza jakimkolwiek zadaniem. **Siódmy raz w tym miesiącu, kiedy margines znalazł błąd.**
+
+**Co było.** `08_KONKURSY.md` §4.0a, wiersz „Top Awards — OGÓLNIE":
+
+> Gordon E. Moore Award **$75 000**, Regeneron Young Scientist **$50 000**, **Best of Category $5 000** za każdą kategorię
+
+**Trzy błędy w jednym wierszu** `[fakt, societyforscience.org/isef/awards/ i /isef/grand-awards/, dwa niezależne odczyty 22 VIII 2026]`:
+
+| | było | jest |
+|---|---|---|
+| nagroda najwyższa | **nie wymieniona** | **George D. Yancopoulos Innovator Award $100 000** |
+| Gordon E. Moore | $75 000 | **$50 000** |
+| Young Scientist | $50 000, liczba nieokreślona | **$75 000, dwie** |
+| Best of Category | **$5 000 za kategorię** | **nie istnieje w obecnej strukturze** |
+| pominięte całkowicie | — | Leighton–Berger $50 000 oraz **cztery po $10 000** (Barrett, Horvitz, Scripps, Coleman) |
+
+**Pominięty był też fakt najważniejszy operacyjnie:** `[fakt]` *„Top Awards are selected from 1st Award winners"* — **wszystkie osiem nagród ogólnych wybiera się wyłącznie spośród zdobywców I miejsca w kategorii.** **Miejsce I w kategorii nie jest jednym z wielu wyników — jest jedyną bramką do ligi ogólnej.**
+
+**Skąd wziął się błąd.** `[wniosek]` **Kwoty pochodzą z rocznika 2021–2023 i zostały przepisane bez daty odczytu.** Struktura nagród ISEF zmieniła się w 2024 (wprowadzenie nagrody Yancopoulosa jako najwyższej, przesunięcie Moore'a w dół) i **raz jeszcze w 2025 (podniesienie do $100 000)**. Wiersz nosił znacznik `[fakt, societyforscience.org]` **bez daty** — a to jest dokładnie ten rodzaj liczby, który się starzeje.
+
+**Poprawki.** `08_KONKURSY.md` §4.0a — wiersz przepisany, dopisany warunek bramki, **każda liczba z datą odczytu**. Nowa sekcja **§4.5** — sześć roczników laureatów nagrody najwyższej, dziesięć pozostałych Top Awards z dwóch ostatnich lat, siedem powtarzających się cech, arytmetyka bramki.
+
+`grep` po `Best of Category` i `Moore Award` poza `archiwum/` i poza tym rejestrem: **jedno trafienie, w miejscu poprawionym.** Wpis zamknięty.
+
+---
+
+**Reguła:** **każda kwota, próg i liczba miejsc przepisana z regulaminu albo ze strony organizatora dostaje datę odczytu obok znacznika `[fakt]`.** Bez daty nie da się odróżnić liczby sprawdzonej od liczby zapamiętanej — a struktura nagród ISEF zmieniła się dwa razy w trzy lata. **To samo dotyczy: kwot Explory §8, progów napięciowych ISEF, terminów §6 i reguły dwunastu miesięcy.**
+
+**I druga, o tym, co ta poprawka dała poza poprawką:** `[wniosek]` **pytanie „jaka skala jest na nagrodę główną" wygląda na pytanie demotywujące, a zwróciło liczbę, która działa w drugą stronę:** cała odległość od tego projektu do ligi ogólnej to **jeden szczebel — z II miejsca w kategorii na I** — a I miejsce w EBED 2026 wzięła praca o skanowaniu stereowizyjnym próbek mikroskopowych, nie synteza totalna. **Poprzeczka I miejsca w kategorii jest poprzeczką przyrządu i pomiaru.**

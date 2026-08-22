@@ -197,7 +197,9 @@ Projekty wykorzystujące szkodliwe substancje, zakładające **inwazyjne** badan
 | Liga | Co to jest |
 |---|---|
 | **Grand Awards — W KATEGORII** | każda z **22 kategorii** ma własne miejsca **I–IV**: **$6 000 / $2 400 / $1 200 / $600**. **Liczba nagród skaluje się z liczbą projektów w kategorii** |
-| **Top Awards — OGÓLNIE** | Gordon E. Moore Award **$75 000**, Regeneron Young Scientist **$50 000**, **Best of Category $5 000** za każdą kategorię |
+| **Top Awards — OGÓLNIE** | **George D. Yancopoulos Innovator Award $100 000** (jedna), **Regeneron Young Scientist Award $75 000** (dwie), **Gordon E. Moore Award $50 000**, **Leighton–Berger Family Prize $50 000**, oraz **cztery po $10 000** (Barrett, Horvitz, Scripps, Coleman). **Razem osiem.** Nagrody „Best of Category $5 000" **nie ma w obecnej strukturze** |
+
+> `[fakt, societyforscience.org/isef/awards/ oraz /isef/grand-awards/, odczyt 22 VIII 2026]` **Top Awards wybiera się WYŁĄCZNIE spośród zdobywców I miejsca w kategorii** — *„selected from 1st Award winners"*. **Miejsce I w kategorii jest jedyną bramką do ligi ogólnej.** Poprzednia wersja tej tabeli podawała kwoty sprzed 2024 i nagrodę, która nie istnieje. **K-117.**
 
 `[fakt]` Finalistów jest **ponad 1 600** w 22 kategoriach, czyli rzędu **70–80 projektów na kategorię**.
 
@@ -247,6 +249,60 @@ Sprzęt **kupiony za 1 800 USD**, nic nie zbudowane. Twierdzenie o **paradygmaci
 **Czego się z tego uczymy — i to jest dozwolone:** ten projekt zdobył drugie miejsce **bez zbudowania czegokolwiek**, przez staranny plan eksperymentalny. **Rzemiosło kopiujemy świadomie; rozwiązania nie.**
 
 **Ścieżka, w którą nie wchodzimy:** rozstrzyganie intencji z małego zbioru zamiast literowania, mierzone w **słowach na minutę**. Granicy pilnuje to, że produktem jest **sprzęt i pomiar**, a metryką **bity**.
+
+---
+
+### 4.5 Skala Top Award — co robią laureaci nagrody ogólnej
+
+**Dopisane 22 VIII 2026 na pytanie autora** *„jaka skala projektu jest projektem na miarę nagrody głównej"*. **To jest opis ligi, do której projekt nie startuje, i sekcja nie jest wezwaniem, żeby wystartował.** Powód, dla którego jest w pliku: **bramką do tej ligi jest miejsce I w kategorii, a miejsce I w kategorii jest celem realnym** — jeden szczebel nad `ENBM074` z §4.4.
+
+#### 4.5.1 Sześć roczników, zwycięzca nagrody najwyższej
+
+`[fakt, societyforscience.org — informacje prasowe rocznikowe i strona nagrody Yancopoulosa, odczyt 22 VIII 2026]`
+
+| Rok | Laureat | Projekt | Kwota |
+|---|---|---|---|
+| 2026 | Hikaru Kuribayashi, 17, Sapporo | symulacja składania materiałów metodą **Markov Chain Monte Carlo**; zastosowania: żagle słoneczne, narzędzia medyczne | $100 000 |
+| 2025 | Adam Kovalčík, 19, Dulovce (SK) | nowa **synteza totalna** galidesiviru z odpadu kukurydzianego: **15 → 10 kroków**, koszt **75 → ~12,5 USD/g** | $100 000 |
+| 2024 | Grace Sun, 16, Kentucky | **organiczny tranzystor elektrochemiczny** — nowa obróbka chemiczna warstwy organicznej | $75 000 |
+| 2023 | Kaitlyn Wang, 17, Kalifornia | wykrycie **najmniejszej znanej planety ultrakrótkookresowej** własnym systemem phase-folding na taniej karcie GPU | $75 000 |
+| 2022 | Robert Sansone, Floryda | poprawa sprawności **silnika reluktancyjnego synchronicznego** | $75 000 |
+| 2021 | Michelle Hua, Michigan | algorytm rozpoznawania czynności człowieka | $75 000 |
+
+**Pozostałe Top Awards, dwa ostatnie roczniki** `[fakt]`
+
+| Rocznik | Nagroda | Projekt | Liczba w tytule |
+|---|---|---|---|
+| 2026 | Young Scientist $75 000 | filtr-gąbka z odpadu juty na zanieczyszczenia oponowe | **usuwa do 80% substancji** |
+| 2026 | Young Scientist $75 000 | **nowe twierdzenie** o warunkach nierozwiązywalności równań (topologia, symetria, teoria Galois) | — |
+| 2026 | Moore $50 000 | podwodna kamera holograficzna 3D na robocie | **94% wykrywalności** mikroplastiku mniejszego od erytrocytu |
+| 2026 | Coleman $10 000 | pętla zamknięta: ultradźwięki sterowane detekcją napadu u nicieni | **spadek nawrotów o 70,1%** |
+| 2026 | Horvitz $10 000 | pole magnetyczne modyfikujące sygnalizację wapniową w astrocytach | redukcja markerów stresu komórkowego |
+| 2025 | Young Scientist $75 000 | biurkowy recykling filamentu do druku 3D | **+45% sprawności, −90% kosztu** wobec konkurencji |
+| 2025 | Young Scientist $75 000 | dwa tanie detektory pyłu uranowego i krzemionkowego (kopalnie porzucone, społeczności rdzenne) | zmiana barwna, koszt |
+| 2025 | **Moore $50 000** | **Neuroflex — proteza nogi sterowana EEG z opaski** | **98% trafności predykcji ruchu** |
+| 2025 | Barrett $10 000 | materiał rozkładający formaldehyd do CO₂ i wody | **−90% stężenia w 18 h** |
+| 2024 | Moore $50 000 | filtracja mikroplastiku falą ultradźwiękową | **84–94% w jednym przejściu** |
+
+#### 4.5.2 Siedem cech, które powtarzają się w każdym z nich
+
+1. **Jedno zdanie z liczbą, zrozumiałe dla laika.** *„15 kroków na 10, 75 dolarów na 12,5"*. **Nie ma ani jednego laureata, którego wyniku nie da się streścić jedną liczbą i jednym porównaniem.**
+2. **Punkt odniesienia jest ZEWNĘTRZNY** — pokonany zostaje stan techniki albo cudza metoda, nie własna kontrola. `[wniosek]` **To jest dokładnie oś, z której ten projekt świadomie zrezygnował** (`11_EWOLUCJA.md`): odniesienie wewnętrzne jest tańsze i **nie da się go unieważnić cudzą publikacją**, ale **odcina od ligi ogólnej**. Wymiana była świadoma i pozostaje słuszna.
+3. **Metoda, nie zastosowanie.** Nowa synteza, nowe twierdzenie, nowy solver, nowy materiał. Projekty typu „znana metoda w nowym miejscu" **wygrywają kategorie, nie Top Awards**.
+4. **Zasięg poza jedną dziedzinę.** Składanie origami → żagle słoneczne i narzędzia chirurgiczne. Tranzystor → cukrzyca, padaczka, niewydolność narządów. **Laureat sam wskazuje trzy odległe zastosowania.**
+5. **Zaplecze, którego szkoła nie ma.** `[domysł, na podstawie samych opisów projektów — Society for Science nie publikuje danych o mentoringu]` Synteza totalna, sygnalizacja wapniowa w astrocytach, cryo-EM na FPGA — **to są prace wymagające dostępu do laboratorium uczelnianego albo do sprzętu rzędu dziesiątek tysięcy dolarów.** Wyjątki istnieją i są znaczące: **Neuroflex (2025, $50 000) zbudowano na opasce EEG**, a Wang (2023) liczyła **na taniej karcie GPU**.
+6. **Skala czasu 1–3 lata i wiele iteracji**, mimo reguły dwunastu miesięcy — **reguła obejmuje badanie zgłoszone, nie naukę i nie prace rozwojowe.**
+7. **Odpowiedź na pytanie „dlaczego to działa", nie tylko „że działa".** Ten punkt jest jedynym z siedmiu, który **ten projekt już ma zaplanowany** — test mechanizmu, §4.4.
+
+#### 4.5.3 Arytmetyka bramki — i po co ta sekcja naprawdę jest
+
+`[fakt]` **Osiem Top Awards.** `[fakt]` **Wybierane wyłącznie spośród I miejsc w kategoriach.** `[fakt, pełna lista nagród ISEF 2026]` **W kategorii EBED przyznano w 2026 jedno I miejsce** (Filip Lajciak, Słowacja, *„A Novel Stereo Vision 3D Scanning System for Microscopic Samples"*, $6 000) **i cztery II miejsca.**
+
+`[domysł, błąd ×1,5]` Jeżeli w 22 kategoriach przyznaje się rzędu **22–30 pierwszych miejsc**, to **prawdopodobieństwo Top Award WARUNKOWE na zdobyciu I miejsca w kategorii wynosi rzędu 25–35%.** **Nie jest to prognoza dla tego projektu** — jest to stwierdzenie, że **cała odległość między tym projektem a ligą ogólną mieści się w jednym szczeblu: z II miejsca w kategorii na I.**
+
+> **Kalibracja, którą warto trzymać obok siebie:** `ENBM074` wziął **II miejsce w EBED-owym sąsiedztwie za $2 400, nie zbudowawszy niczego**, samym planem eksperymentalnym. **I miejsce w EBED 2026 wzięła praca o skanowaniu stereowizyjnym próbek mikroskopowych** — solidny przyrząd z pomiarem, **nie synteza totalna i nie twierdzenie z teorii Galois.** **Poprzeczka I miejsca w kategorii jest poprzeczką przyrządu i pomiaru, a nie poprzeczką $100 000.**
+
+`[luka]` **Czego nadal nie wiadomo: przełożenia noty z arkusza na miejsce.** Ta sekcja tego nie zmienia i nie udaje, że zmienia.
 
 ---
 
