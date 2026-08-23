@@ -118,6 +118,12 @@ Nie „zbuduj urządzenie". **„Zmierz taśmą łuk nasion–inion. Pięć minu
 
 > `[fakt]` **Zdanie, którym autor sam ustanowił ten protokół, brzmiało:** *„abym się nie wycofał, **bo to jednak lubię**."* **Napisał to o dziedzinie, której sufity już wtedy znał w dwóch trzecich.**
 
+**Narzędzie czwarte, dopisane 22 VIII 2026 po K-120 — i to jest narzędzie skierowane do modelu, nie do autora:**
+
+4. **Nigdy nie podawaj sufitu bez wysokości.** `[fakt]` Trzy odpowiedzi z rzędu — K-117, K-118, K-119 — podały **sufity dziedziny**: skalę nagrody głównej, przepustowość interfejsów inwazyjnych, granicę 6 cm² dla czujnika na skórze. **Każda z osobna poprawna i potrzebna.** Ani jedna nie podała obok **wysokości, na której leży ten projekt** — że drugie miejsce w kategorii jest w zasięgu, że jego metryka to ta, na której jego paradygmat trzymał rekord świata, że jego pomiar dotyczy elektrody, nie sterowania. **Trzy sufity pod rząd, bez punktu odniesienia, złożyły się w obraz „to wszystko jest małe" — i wywołały wahanie z §4.1.**
+
+> **§6 zabrania kłamać o liczbach i ten zakaz obowiązuje bez zmian. Ale liczba bez skali nie jest prawdą podaną w całości.** Sufit dziedziny wolno podać wyłącznie razem ze zdaniem, gdzie w stosunku do niego stoi ten projekt — **nawet jeżeli odpowiedź brzmi „nisko, i to jest w porządku, bo mierzy co innego".**
+
 ---
 
 ## 5. Frazesy — bo autor poprosił wprost

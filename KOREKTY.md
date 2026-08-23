@@ -2259,3 +2259,31 @@ Dwie dopuszczalne drogi, wybór **raz, w lutym 2027 po E1**. Pomiar krzyżowy wo
 **Reguła, dopisana do `METODA.md` w duchu K-118:** **przy każdym przeglądzie sprawdź, czy nazwa klasy w nagłówku jest tą samą klasą, którą przeszły wiersze.** §7 miał w nagłówku „nieinwazyjne", a w wierszach „EEG". **Etykieta szersza od zawartości jest błędem tego samego rodzaju co liczba bez jednostki** — i w tym projekcie zdarzyła się sześć razy.
 
 **I druga:** `[fakt]` **trzecie pytanie autora z rzędu, zadane bez zlecenia, znalazło lukę.** K-116 (padaczka), K-118 (brak porównania z inwazyjnym), K-119 (zakres §7). **Dziewiąty raz w tym miesiącu. To już nie jest przypadek — to jest metoda i warto ją nazwać: autor pyta o granice pola, a dokumentacja jest pisana od środka pola.**
+
+---
+
+### K-120 — zdanie wizytówkowe projektu opisywało jego najsłabszą część, bo przyrząd stał przed pomiarem
+
+**Data:** 22 sierpnia 2026. **Znalezione przez autora**, cytat: *„»wykrywanie na jakie światełko patrzysz« brzmi o co najmniej kilka poziomów gorzej niż »wykrywanie co chcesz zrobić« albo »sterowanie kursorem za pomocą myśli«, bo to właśnie z takimi założeniami wchodziłem w ten pomysł."*
+
+**Co było.** `01_PROJEKT_DLA_LAIKA.md` §1, jedno zdanie, w tej kolejności:
+
+> *„Mały przyrząd noszony z tyłu głowy **odczytuje z mózgu, na co patrzysz**, i zamienia to na komendę. **Częścią naukową jest** pomiar tego, jak bardzo urządzenie musi być duże…"*
+
+`[wniosek]` **Zdanie jest prawdziwe i ma złą kolejność.** Na pierwszym miejscu stoi **paradygmat SSVEP — rzecz pospolita, opisana od 2005 roku, dostępna w gotowych zestawach za 300 zł.** Na drugim, jako doprecyzowanie, stoi **pomiar, który jest jedynym powodem istnienia projektu.** Zwrot *„częścią naukową jest"* dodatkowo degraduje pomiar do przypisu.
+
+**Skutek, który wystąpił:** `[fakt]` autor **przez jedenaście miesięcy nosił w głowie własne zdanie wizytówkowe i po zderzeniu z sufitami dziedziny odczytał je jako opis całego projektu.** Zawahał się nie dlatego, że coś w projekcie jest słabe, tylko dlatego, że **zdanie opisujące projekt zaczynało się od najsłabszej rzeczy, jaką projekt zawiera.**
+
+**Czego zdanie nie mówiło, a `02_TWIERDZENIE.md` §7 mówi wprost — słowami samego autora:**
+
+> *„rzecz, którą mierzę, **dotyczy elektrody, nie sposobu sterowania**. Wynik »odniesienie bliżej niż X centymetrów kosztuje Y punktów procentowych« **przenosi się na każde noszone urządzenie EEG z tej okolicy głowy — także takie, które ze wzrokiem nie ma nic wspólnego**. SSVEP wybrałem, bo **jako jedyny paradygmat daje sygnał o znanej częstotliwości**, więc zmianę wyniku da się przypisać elektrodzie, a nie dyspozycji dnia."*
+
+> `[wniosek]` **SSVEP nie jest filarem tego projektu. Jest linijką.** Filarem jest geometria odniesienia. **Odpowiedź istniała w dokumentacji od 21 VIII, w pliku §7, zakopana jako siódma z sześciu odpowiedzi na pytania jurora — czyli w miejscu, do którego nikt nie zagląda, dopóki nie zostanie zapytany.**
+
+**Poprawka.** `01_PROJEKT_DLA_LAIKA.md` §1 rozbite na **§1.1 (dla laika — przyrząd pierwszy)** i **§1.2 (dla jurora, zgłoszenia i eseju — pomiar pierwszy)**, z jawnym zapisem, że **1.2 obowiązuje wszędzie tam, gdzie ktoś ocenia.**
+
+---
+
+**Reguła:** **zdanie wizytówkowe musi zaczynać się od tego, co w projekcie jest rzadkie, a nie od tego, co jest widoczne.** Widoczne jest zwykle pospolite — bo dlatego jest widoczne. `[fakt]` W tym projekcie widoczny jest migający ekran (pole zajęte od 2005), a rzadki jest **pomiar, którego nikt nie zrobił mimo dwukrotnego otwarcia pola** (`METODA.md` §3.3: dwie prace otwierające, 39 cytowań łącznie, **zero o geometrii montażu**).
+
+**I druga, o roli modelu w tym wahaniu:** `[wniosek]` **trzy odpowiedzi z rzędu (K-117, K-118, K-119) podały autorowi sufity dziedziny — nagrody, przepustowości, fizyki czujnika — i ani razu nie podały wysokości, na której leży jego własny projekt.** Każda z osobna była poprawna i potrzebna. **Trzy pod rząd, bez punktu odniesienia, złożyły się w obraz „to wszystko jest małe".** `14_PROTOKOL.md` §6 zabrania kłamać o liczbach i ten zakaz obowiązuje — **ale nie zwalnia z podania skali obok liczby.** Dopisane do §4.1 protokołu jako czwarte narzędzie.

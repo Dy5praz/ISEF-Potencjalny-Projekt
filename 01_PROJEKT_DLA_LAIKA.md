@@ -5,13 +5,23 @@
 
 ---
 
-## 1. Jedno zdanie
+## 1. Jedno zdanie — dwie wersje, zależnie od tego, kto pyta
+
+**Poprawione 22 VIII 2026, K-120.** Poprzednia wersja miała jedno zdanie i **stawiało ono przyrząd przed pomiarem** — przez co wizytówka projektu opisywała jego najsłabszą, najbardziej pospolitą część. **Uwaga autora, cytat:** *„»wykrywanie na jakie światełko patrzysz« brzmi o co najmniej kilka poziomów gorzej niż »wykrywanie co chcesz zrobić«."* **Trafna wobec zdania, nie wobec projektu.**
+
+### 1.1 Wersja dla kogoś, kto nie wie nic — rodzic, kolega, nauczyciel
 
 > **Mały przyrząd noszony z tyłu głowy odczytuje z mózgu, na co patrzysz, i zamienia to na komendę. Częścią naukową jest pomiar tego, jak bardzo urządzenie musi być duże, żeby jeszcze działało.**
 
-Jeżeli ktoś ma czas na dwa zdania, dochodzi drugie:
-
 > **Nie czyta myśli. Czyta reakcję mózgu na migający obraz — a to jest coś zupełnie innego i trzeba to mówić od razu.**
+
+### 1.2 Wersja dla jurora, do zgłoszenia i do eseju — **prowadzi pomiar, nie przyrząd**
+
+> **Interfejsy mózg–komputer nie schodzą z laboratoryjnego stołu między innymi dlatego, że elektroda odniesienia musi leżeć daleko od pozostałych — na uchu, na czole, na kablu biegnącym przez głowę. Mierzę, o ile wolno ją przysunąć, zanim przepustowość urządzenia się załamie, i w którą stronę wolno bardziej. Do tego pomiaru buduję własny tor analogowy, bo kupiony nie podaje swojej charakterystyki.**
+
+> **Migający obraz jest w tym projekcie przyrządem pomiarowym, nie produktem.** Wybrałem go, **bo jako jedyny paradygmat daje sygnał o znanej częstotliwości** — więc każdą zmianę wyniku da się przypisać elektrodzie, a nie dyspozycji dnia. **Wynik przenosi się na każde noszone urządzenie EEG z tej okolicy głowy, także takie, które ze wzrokiem nie ma nic wspólnego.**
+
+`[wniosek]` **Obie wersje są prawdziwe i opisują ten sam projekt.** Różnią się tym, co stoi na początku. **1.1 zaczyna od tego, co widać. 1.2 zaczyna od tego, co się mierzy — i to jest wersja obowiązująca wszędzie tam, gdzie ktoś ocenia.** Zdanie z 1.2 jest zwięzłą postacią odpowiedzi, którą autor sam sformułował w `02_TWIERDZENIE.md` §7.
 
 ---
 
