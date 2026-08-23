@@ -170,6 +170,32 @@ Skutek jest taki, że **każdy montaż wyprowadza się z tej samej rejestracji p
 
 `[wniosek]` Dobór okazał się trafiony także z drugiego powodu: drugie harmoniczne wypadają w **16,0–35,6 Hz**, czyli w paśmie, w którym ECeG reaguje na bodziec wzrokowy — **co umożliwia test rozdzielający mechanizmy** (`04_PLAN_POMIAROWY.md`).
 
+### 5.1 Dwa zestawy bodźców, nie jeden — decyzja otwarta, dwa niezależne powody
+
+**Dopisane 22 VIII 2026 po uwadze autora o użytkowaniu nocą. K-122.**
+
+`[fakt]` Zestaw **8,0–17,8 Hz** został dobrany **wyłącznie pod pomiar**: maksymalna amplituda odpowiedzi, zero kolizji harmonicznych, drugie harmoniczne w paśmie 16,0–35,6 Hz dla testu rozdzielającego R12. **Kryterium było jedno i było metodyczne.**
+
+`[wniosek]` **Ten sam zestaw jest najgorszym możliwym wyborem dla użytkownika**, i to z dwóch niezależnych powodów:
+
+| Powód | Źródło | Co mówi |
+|---|---|---|
+| **padaczka fotogenna** | K-116, `03_SPRZET.md` §6.1 | pasmo prowokacyjne **15–25 Hz, szczyt ~18 Hz**. Górny koniec zestawu leży dokładnie tam |
+| **zwykły komfort i akceptowalność** | K-122 | migotanie 8–18 Hz jest **jaskrawo widoczne**, męczy wzrok i jest nie do przyjęcia w mieszkaniu, zwłaszcza nocą |
+
+**Rozwiązanie, które nie wymaga wyboru między nimi: rozdzielić zestawy.**
+
+| Zestaw | Częstotliwości | Do czego | Uzasadnienie |
+|---|---|---|---|
+| **pomiarowy** | **8,0–17,8 Hz**, krok 1,4 Hz | **kampania E1–E5**, warunki kontrolowane, jedna przebadana osoba (autor), krótkie bloki z przerwami | pomiar potrzebuje **najsilniejszego dostępnego sygnału**; osłabienie bodźca osłabia efekt, który się mierzy |
+| **demonstracyjny** | `[luka]` **do wybrania: 37–45 Hz albo powyżej progu zlewania, 61–65 Hz** | **stoisko, wideo, scenariusz użycia**, osoby postronne | `[fakt, PMID 25577407]` **88,0% dokładności przy 61/63/65 Hz i brak wykrywalnego zmęczenia**, wobec 93,1% i spadku CFF o 5,7% przy 41–45 Hz |
+
+**Co to kosztuje** `[wniosek]`: **panel LED jest sterowany licznikiem sprzętowym, więc zmiana zestawu częstotliwości jest zmianą stałej w programie — nie zmianą sprzętu.** Koszt materiałowy zero. Koszt czasu: **jedna dodatkowa sesja kalibracyjna**, żeby wiedzieć, czy przy 61–65 Hz sygnał u autora w ogóle jest wykrywalny na jego torze.
+
+**Czego nie wolno zrobić** `[fakt]`: **nie wolno raportować pomiaru z jednego zestawu, a demonstrować drugiego, nie mówiąc o tym.** Wynik główny dotyczy zestawu pomiarowego i tak ma być opisany. **Demonstracja z innym zestawem jest osobną rzeczą i wymaga jednego zdania w materiałach.**
+
+**Kiedy decyzja:** `[luka]` **razem z wnioskiem do IRB, jesień 2026** — ten sam termin, na który K-116 odłożył decyzję o paśmie prowokacyjnym. **Teraz są dwa powody, żeby ją wtedy podjąć, a nie jeden.**
+
 ---
 
 ## 6. Bezpieczeństwo — warunek wstępny, nie pozycja na końcu

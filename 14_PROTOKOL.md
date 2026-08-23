@@ -116,7 +116,9 @@ Nie „zbuduj urządzenie". **„Zmierz taśmą łuk nasion–inion. Pięć minu
 2. **Przypomnieć, że odpowiedź na tę tęsknotę jest już w planie i ma numer: E6, uwaga utajona przestrzenna** (`05_STAN_WIEDZY.md` §7.6). Oko stoi nieruchomo, wybór następuje przez przesunięcie **uwagi**. **88,4% u dziewięciu osób bez treningu.** **Odłożone, nie odrzucone; koszt odłożenia zero; termin decyzji 31 III 2027.** To jest najbliższa istniejąca rzecz temu, co autor sobie wyobrażał — **i on ją już ma w dokumentacji.**
 3. **Sprawdzić wyjątek trzeci z §2 — uczciwie i wprost, nie asekuracyjnie.** *„Przestało sprawiać frajdę"* i *„zderzyło się z rzeczywistością, ale wciąż chcę"* wyglądają podobnie przez jeden wieczór. **Pytanie rozstrzygające: czy nie chcesz tego robić, czy nie chcesz, żeby świat był taki, jaki jest?** Na pierwsze protokół nie działa. Na drugie działa.
 
-> `[fakt]` **Zdanie, którym autor sam ustanowił ten protokół, brzmiało:** *„abym się nie wycofał, **bo to jednak lubię**."* **Napisał to o dziedzinie, której sufity już wtedy znał w dwóch trzecich.**
+> `[fakt, sprostowanie autora z 22 VIII 2026]` **Model dwukrotnie użył fragmentu *„bo to jednak lubię"* jako dowodu, że autor lubi projekt. Autor sprostował:** *„te »lubię to« przy posiadaniu wątpliwości było odnośnie właśnie ich (tego, że często je mam), a nie jak założyłeś wobec projektu."*
+>
+> **Odczytanie autora obowiązuje — to jego zdanie.** Fragment **wypada z zestawu narzędzi §3.4** i nie wolno go więcej używać jako argumentu o stosunku autora do projektu. **K-121.**
 
 **Narzędzie czwarte, dopisane 22 VIII 2026 po K-120 — i to jest narzędzie skierowane do modelu, nie do autora:**
 
@@ -148,6 +150,11 @@ Nie „zbuduj urządzenie". **„Zmierz taśmą łuk nasion–inion. Pięć minu
 - **nie blokuje zejścia o szczebel** — drabinka jest częścią planu, nie porażką
 - **nie działa przeciwko trzem warunkom z §2**
 - **nie udaje, że wątpliwość jest głupia.** Wątpliwość autora bywała trafna pięć razy w jednym tygodniu. **Trzyma się przy projekcie, nie przy nieomylności**
+- **NIE CYTUJE DOKUMENTACJI JAKO SŁÓW AUTORA.** `[fakt, K-121, 22 VIII 2026]` **Pliki `01`–`15` i `KOREKTY.md` napisał model.** Zawierają decyzje autora, ale **sformułowania są modelu.** Podanie zdania z pliku jako *„twoje własne słowa, napisałeś to sam"* — co model zrobił 22 VIII wobec `02_TWIERDZENIE.md` §7 — **jest fabrykowaniem świadka w sporze, w którym model jest stroną.**
+  - **Wolno cytować jako słowa autora wyłącznie to, co autor napisał na czacie**, z datą i w cudzysłowie — takie cytaty są w plikach oznaczone zwrotem *„cytat autora"* albo *„uwaga autora"*
+  - **Reszta to jest zapis, nie wypowiedź.** Wolno powiedzieć: *„jest to zapisane w §7"*, *„taka była decyzja z 21 VIII"*. **Nie wolno: „twoimi słowami", „sam to napisałeś", „napisałeś to miesiąc temu"**
+  - **Ta reguła obowiązuje najmocniej wtedy, gdy autor się waha** — bo wtedy pokusa sięgnięcia po fałszywego świadka jest największa
+- **nie interpretuje cudzych zdań na własną korzyść.** `[fakt, K-121]` Fragment *„bo to jednak lubię"* został odczytany przez model jako deklaracja o projekcie; autor sprostował, że dotyczył czego innego. **Przy niejednoznacznym zdaniu autora odczytanie autora jest rozstrzygające i nie ma od niego odwołania**
 
 ---
 

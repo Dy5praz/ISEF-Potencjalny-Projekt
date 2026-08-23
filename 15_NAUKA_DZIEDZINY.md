@@ -203,6 +203,16 @@ Potrzebne do `05_STAN_WIEDZY.md` §7.8. **Nieinwazyjny nie znaczy „EEG" — to
 
 ---
 
+### 6.3 Trzy słowa z opisu użytkowania — dopisane 22 VIII 2026
+
+| Termin | Co znaczy |
+|---|---|
+| **próg zlewania migotania** (*critical flicker frequency*, **CFF**) | częstotliwość, powyżej której **oko przestaje widzieć miganie i widzi stałe światło**. U człowieka ~50–60 Hz, zależnie od jasności i tego, czy patrzy się wprost. **Bodziec powyżej CFF nadal wywołuje SSVEP, choć użytkownik nie widzi, że coś miga** |
+| **tryb asynchroniczny** (*asynchronous / self-paced BCI*) | interfejs, w którym **użytkownik decyduje, kiedy sterować** — a układ musi umieć odróżnić „chcę" od „nic nie robię". Przeciwieństwo: tryb z podpowiedzią, w którym urządzenie mówi, kiedy patrzeć |
+| **stan bezczynności** (*idle state*) i **stan sterowania** (*control state*) | dwie sytuacje, które tryb asynchroniczny musi rozróżnić. **W stanie bezczynności bodziec można w ogóle wygasić** — i to jest odpowiedź na pytanie „czy to miga całą dobę". Miara jakości: **FAR** (*false activation rate*), fałszywe włączenia na minutę |
+
+---
+
 ## 7. Statystyka, której już używasz
 
 | Termin | Po ludzku |

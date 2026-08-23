@@ -106,13 +106,90 @@ Czyli: **osiem elektrod to przyrząd pomiarowy. Cztery to wyrób.** A **to, któ
 | **mikrokontroler** (ESP32-S3) | liczy, który rytm jest najsilniejszy, i wysyła wynik bezprzewodowo |
 | **bateria** | bo **żadnego kabla do gniazdka przy głowie** — to jest warunek bezpieczeństwa, nie wygody |
 
-### 4.3 Demonstracja
+### 4.3 Jak się z tego korzysta — opis, którego do 22 VIII 2026 w ogóle nie było
 
-Migające znaczniki są **na przedmiotach w otoczeniu**, nie na tablicy przed twarzą. Patrzysz na żarówkę — zapala się. Patrzysz na gniazdko — włącza się wentylator.
+**Napisane na żądanie autora, 22 VIII 2026, cytat:** *„nigdy nie raczyłeś wyjaśnić na czym by polegała dokładnie demonstracja/samo użytkowanie. Jedyne co wiem to, że osoba patrzy na mrugające ledy (…) Nie wiem na czym będą umiejscowione, jak je wcielimy w inne urządzenia oprócz lampki/włącznika (…) Nawet nie pomyślałeś, że może osoba potrzebująca nie chce, aby w nocy napierdalał jej LED na żarówce, hm?"*
 
-**Przedmioty są kupione, nie budowane** — poniżej 200 zł, zero godzin warsztatu. To jest reguła, nie oszczędność: **każda godzina włożona w rekwizyt jest godziną zabraną urządzeniu, a oceniane jest urządzenie.**
+**Zarzut trafny w całości.** Poprzednia wersja tej sekcji miała **trzy zdania** i nie odpowiadała na żadne z tych pytań. **K-122.**
 
-`[fakt]` Rozważany był drugi tryb pokazu — **bez sterowania wzrokiem** — z gotowym scenariuszem i planem pomiarowym. **Decyzją autora z 21 VIII 2026 odłożony; projekt idzie w wersji podstawowej.** Materiał nie przepadł: `05_STAN_WIEDZY.md` §7.6, wraz z terminami powrotu do decyzji.
+#### 4.3.1 Czym fizycznie jest znacznik
+
+**Znacznik to nie jest przerobiona żarówka.** To osobny przedmiot, przyklejany **obok** sterowanej rzeczy:
+
+| | |
+|---|---|
+| wielkość | **mniejszy od pudełka zapałek** — dwie diody LED po ~3 mm, mikrokontroler, fotodioda kontrolna |
+| mocowanie | **taśma dwustronna, na obudowie albo obok** — nic się nie rozbiera, nic nie jest przerabiane |
+| zasilanie | bateria pastylkowa albo zwykły zasilacz. **Znacznik nie znajduje się przy głowie**, więc zakaz zasilania sieciowego z §6 `03_SPRZET.md` go nie dotyczy |
+| co robi | miga z jedną, przypisaną sobie częstotliwością — **i to jedyne, co robi** |
+
+**Sterowana rzecz jest kupiona, nie budowana** — gniazdko sterowane, lampka, wentylator, poniżej 200 zł. **Każda godzina włożona w rekwizyt jest godziną zabraną urządzeniu, a oceniane jest urządzenie.**
+
+#### 4.3.2 Pełna sekwencja użycia, krok po kroku
+
+1. **Moduł na potylicy jest włączony. Nic nigdzie nie miga.** To jest stan domyślny i trwa większość doby
+2. Użytkownik chce włączyć lampę. **Budzi układ** — potrójnym mrugnięciem, przyciskiem pod ręką albo dowolnym innym pojedynczym gestem, który mu został
+3. **Znaczniki zapalają się** — wszystkie naraz, każdy ze swoją częstotliwością
+4. Użytkownik **kieruje wzrok na znacznik przy lampie** i trzyma go tam **1–3 sekundy**
+5. Moduł rozpoznaje częstotliwość, wysyła bezprzewodowo liczbę: *„cel numer trzy"*
+6. **Lampa się włącza. Znaczniki gasną.** Układ wraca do stanu z punktu 1
+
+**Punkty 1 i 6 są odpowiedzią na zarzut o noc i nie są moim wymysłem** — patrz 4.3.3.
+
+#### 4.3.3 Tryb asynchroniczny: domyślnym stanem jest ciemno
+
+`[fakt, Zhu i in. 2020, Front Neurorobot, **PMID 33328950**, cytat dosłowny]`
+
+> *„**Stopping flash in the idle state** can help to reduce visual fatigue and false activation rate."*
+
+Ich układ: **potrójne mrugnięcie powieką (mierzone z EOG) włącza i wyłącza migotanie** interfejsu SSVEP o piętnastu celach. Wynik: **92,09% dokładności, 35,98 bit/min**, a **częstość fałszywych włączeń przełącznika wyniosła 0,01 na minutę** — czyli **jedno przypadkowe włączenie na sto minut**.
+
+`[fakt, PMID 37027558, IEEE TNSRE 2023]` Wersja bez żadnego dodatkowego gestu — układ sam rozpoznaje, czy użytkownik **w ogóle chce sterować**: 14 celów, okno **591,63 ± 5,65 ms**, **124,95 ± 12,35 bit/min**, czułość 93,16 ± 4,4%, **fałszywe zadziałania 5,21 ± 5,85%**.
+
+> `[wniosek]` **Dziedzina nazywa to „idle state detection" i zajmuje się tym od co najmniej 2011 roku.** Interfejs SSVEP **nie musi migać cały czas i w praktycznych układach nie miga.** Ten opis nie był w dokumentacji **wyłącznie dlatego, że nikt go nie napisał**, a nie dlatego, że problem był nierozwiązany.
+
+#### 4.3.4 Noc — odpowiedź wprost, z liczbami
+
+**Termin, który tu rozstrzyga: próg zlewania migotania** (*critical flicker frequency*, CFF) — częstotliwość, powyżej której oko przestaje widzieć miganie i widzi **stałe światło**. U człowieka leży w okolicach 50–60 Hz, zależnie od jasności i tego, czy patrzy się wprost.
+
+`[fakt, Sakurada i in. 2015, Clin Neurophysiol, **PMID 25577407**]` Zbadano to na interfejsie SSVEP wprost:
+
+| Warunek | Częstotliwości | Dokładność | Zmęczenie wzroku po sesji |
+|---|---|---|---|
+| migotanie **widoczne** | 41, 43, 45 Hz | **93,1%** | **spadek CFF o 5,7%, p < 0,001** |
+| migotanie **niewidoczne** | **61, 63, 65 Hz** | **88,0%** | **nie wykryto** |
+
+**Czyli: interfejs działa na bodźcu, którego użytkownik nie widzi jako migającego** — widzi słabo świecący punkt. Kosztuje to **5 punktów procentowych dokładności**.
+
+Dwa niezależne potwierdzenia: `[fakt, PMID 23339894]` wózek inwalidzki sterowany na **37–40 Hz** — *„Volunteers expressed neither discomfort nor fatigue"*. `[fakt, PMID 21421448, 86 osób]` bodźce **powyżej 30 Hz zmniejszają zmęczenie i ryzyko napadu światłoczułego**; zmianę zmęczenia zgłosiło **5 osób z 86**.
+
+**Cena, podana uczciwie:** `[fakt, PMID 35614168 (2022) i PMID 34544060 (2021)]` wysoka częstotliwość **poprawia komfort, ale obniża trafność klasyfikacji** — obie prace mówią to wprost. **To jest wymiana, nie darmowy zysk.**
+
+**Do tego rzecz banalna, a rozstrzygająca dla scenariusza nocnego:** znacznik nie musi świecić jasno. **Jasność rzędu diody czuwania telewizora wystarcza** — bodziec ma trafić w siatkówkę, nie oświetlić pokój. `[fakt]` `03_SPRZET.md` §6.1 wymienia **obniżony kontrast i mały bodziec zamiast dużego pola** jako środki bezkosztowe, wpisane tam z powodu padaczki fotogennej. **Ten sam środek załatwia noc.**
+
+#### 4.3.5 Do czego to się podłącza — poza lampką i włącznikiem
+
+**Z modułu wychodzi bezprzewodowo jedna liczba: który cel został wybrany.** Co ją odbierze, jest **poza projektem i celowo**:
+
+| Odbiornik | Co robi | Koszt |
+|---|---|---|
+| **gniazdko sterowane radiowo** | wszystko, co się wtyka do prądu — lampa, wentylator, czajnik | 30–60 zł/szt. |
+| **komputer** | liczba staje się **naciśnięciem klawisza** — czyli działa wszystko, co obsługuje się klawiaturą: pisanie, przeglądarka, syntezator mowy | 0 zł |
+| **telefon** | to samo przez Bluetooth | 0 zł |
+| **przekaźnik na płytce** | dowolne urządzenie z własnym włącznikiem | ~20 zł |
+
+> **Ograniczeniem nie jest to, czym da się sterować. Ograniczeniem jest liczba znaczników, które mieszczą się w polu widzenia — bo tyle jest celów.**
+
+**Czego świadomie NIE robimy:** nie budujemy sprzętu docelowego, nie robimy aplikacji, nie robimy obudowy dla lampy. **To są godziny zabrane pomiarowi, a oceniany jest pomiar i urządzenie na głowie.**
+
+#### 4.3.6 Czego ten opis nie obiecuje
+
+- **nie działa, kiedy użytkownik nie patrzy na znacznik.** To jest cecha, nie usterka — dlatego układ może stać wygaszony
+- `[fakt]` **nie działa u 10–30% ludzi**
+- **celów jest tyle, ile znaczników w polu widzenia** — realnie kilka do kilkunastu w pomieszczeniu
+- **wersja mierzona w tym projekcie używa 8,0–17,8 Hz, czyli migotania widocznego** — bo pomiar potrzebuje najsilniejszego dostępnego sygnału. **Wersja komfortowa dla użytkownika to osobny zestaw częstotliwości i osobna decyzja:** `03_SPRZET.md` §5.1
+
+`[fakt]` Rozważany był drugi tryb sterowania — **bez ruchu oczu**, wybór samą uwagą. **Decyzją autora z 21 VIII 2026 odłożony; projekt idzie w wersji podstawowej.** Materiał: `05_STAN_WIEDZY.md` §7.6, wraz z terminami powrotu do decyzji.
 
 ---
 
