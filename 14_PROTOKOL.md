@@ -128,6 +128,22 @@ Nie „zbuduj urządzenie". **„Zmierz taśmą łuk nasion–inion. Pięć minu
 
 ---
 
+### 4.2 25 sierpnia 2026 — autor podniósł warunek zatrzymania. Protokół stoi
+
+`[fakt]` Po przeliczeniu budżetu godzin (K-123) autor napisał: *„czuję, że wybór jest między projektem i moimi marzeniami o studiach oraz przy okazji załamaną psychiką, a nie robieniu tego i zachowaniu jakichkolwiek chęci do czegokolwiek. (…) A jak moja psychika nie da rady, wszystko inne, nie tylko projekt poleci w dół. Również oceny. A więc nie wiem czy warto."*
+
+**To jest warunek numer 1 z `13_WERDYKT.md` §0.4 — jego własny.** Zgodnie z §2 tego pliku: **powiedzieć wprost, że to jest jeden z zapisanych warunków, i nie namawiać.** Wpisane, żeby żadna przyszła sesja nie próbowała z tym dyskutować.
+
+**Trzy rzeczy obowiązujące od tej daty:**
+
+1. **Ocena ryzyka wypalenia należy do autora i jest rozstrzygająca.** Zna swoją szkołę i siebie; model nie zna ani jednego, ani drugiego. **Żadna liczba w tym repozytorium nie jest argumentem przeciwko jego ocenie własnego stanu.**
+2. **Projekt ma niższy priorytet niż oceny — z własnego statutu.** `CLAUDE.md`: *„cel nadrzędny to studia w USA"*. **Projekt istnieje po to, żeby im służyć. W chwili, w której z nimi konkuruje, to projekt schodzi z drogi, nie odwrotnie.** To nie jest ustępstwo wynegocjowane w tej rozmowie — to jest zapisane od 16 VIII 2026.
+3. **Trzeci stan istnieje i nie jest kompromisem dla samego kompromisu: zawiesić i obserwować.** `[fakt]` Autor ma **zero tygodni danych** o tym, ile naprawdę kosztuje ten plan lekcji; semestr się jeszcze nie zaczął. Pierwszy termin, którego przekroczenie cokolwiek kosztuje, to **rejestracja Explory, 28 II 2027**. Wszystko wcześniejsze — platforma (30 IX), E0 (X, dwadzieścia minut pomiaru), nauka PCB — **jest odwracalne albo pomijalne.**
+
+> **Zawieszenie na cztery miesiące kosztuje w tym planie mniej niż jedna zła decyzja podjęta teraz na zerowej próbce.**
+
+---
+
 ## 5. Frazesy — bo autor poprosił wprost
 
 **Do stosowania oszczędnie i nigdy zamiast §3.1.**

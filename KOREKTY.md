@@ -2385,3 +2385,21 @@ Dwie dopuszczalne drogi, wybór **raz, w lutym 2027 po E1**. Pomiar krzyżowy wo
 **Reguła:** **każdy parametr wiążący musi mieć zapisane, skąd pochodzi — pomiar, dokument czy założenie — i datę.** `[fakt]` Trzy z czterech parametrów projektu mają źródło: **8 000 zł** to deklaracja autora, **EBED** i **Człowiek i Społeczeństwo** to regulaminy. **Czwarty, 10 h/tydzień, nie miał żadnego** — i był jedynym, który mógł się zmienić bez niczyjej decyzji. **Parametr bez źródła jest założeniem udającym fakt, a założenia unieważnia kalendarz.**
 
 **I druga, o kształcie tej wiadomości:** `[wniosek]` **autor przedstawił to jako „nici z moich marzeń", a przedstawił jednocześnie komplet danych liczbowych potrzebnych do przeliczenia planu.** To nie jest kapitulacja — to jest **zgłoszenie zmiany parametru wejściowego, podane wraz z parametrem.** Rozróżnienie ma znaczenie operacyjne: **dane wejściowe przelicza się, a nie pociesza.**
+
+---
+
+### K-124 — drugi raz odpowiedziałem rachunkiem na pytanie, które nie było rachunkowe
+
+**Data:** 25 sierpnia 2026. **Zgłoszone przez autora**, cytat: *„Nie rozumiesz nic. Spojrzałeś na to czysto analitycznie, jakby to była prosta rzecz do wyliczenia. A zapominasz o podstawie - czynniku ludzkim."*
+
+**Co było.** Autor zgłosił plan lekcji **i obawę o wytrzymanie tego psychicznie**. Dostał: trzy warianty budżetu godzin, rozbiór po etapach, propozycję szczebla A− z tabelą oszczędności i **tabelę prawdopodobieństw dowiezienia**. Liczby są poprawne i zostają w `07` i `06`. **Ale pytanie brzmiało „czy dam radę", a nie „czy godziny się spinają".**
+
+`[wniosek]` **Drugie wystąpienie K-111**, w odstępie czterech dni. Ta sama przyczyna: **sięgnąłem po narzędzie, które obsługuję najszybciej, zamiast po to, którego wymagało pytanie.** Reguła z K-111 — *„kiedy pada pytanie o decyzję, pierwszym zdaniem odpowiedzi jest decyzja"* — **obowiązywała i została złamana.**
+
+**Czego rachunek nie mógł zobaczyć:** `[fakt]` model nie zna szkoły autora, nie zna jego odporności ani tego, ile kosztuje go tydzień. **Wszystkie liczby w K-123 są oszacowaniami cudzej wytrzymałości, robionymi z zewnątrz, na podstawie zera tygodni danych.** Autor ma dostęp do zmiennej, do której model nie ma — i **jego oszacowanie w tej jednej sprawie jest z definicji mocniejsze.**
+
+**Poprawka.** `14_PROTOKOL.md` **§4.2** — zapis, że autor podniósł warunek zatrzymania numer 1, że protokół na nim staje, że ocena ryzyka wypalenia należy do autora i jest rozstrzygająca, oraz że istnieje trzeci stan: **zawiesić i obserwować** do 28 II 2027.
+
+---
+
+**Reguła, rozszerzenie K-111:** **zanim odpowiesz liczbą, sprawdź, czy pytanie dotyczy świata, czy autora.** Pytanie o świat — ile godzin, jaka przepustowość, czy pole jest zajęte — **wolno i trzeba liczyć.** Pytanie o autora — czy dam radę, czy warto, czy to wytrzymam — **jest pytaniem o zmienną, której model nie mierzy.** `[fakt]` Trzy wystąpienia tego błędu: **K-111, K-124, i w łagodniejszej formie K-120** (na *„brzmi kilka poziomów gorzej"* odpowiedziałem tabelą porównawczą, zamiast najpierw przyznać, że zdanie wizytówkowe było źle napisane).
