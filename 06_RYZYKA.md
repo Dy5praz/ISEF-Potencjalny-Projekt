@@ -272,6 +272,55 @@ Trzech nazwanych mieszkańców miejsca, w którym musiałaby usiąść elektroda
 
 `[wniosek]` **Rzeczywisty próg leży między C a D: powyżej niego projekt ma wynik, poniżej ma tylko urządzenie.** Szczeble B i C nie są myśleniem życzeniowym; opis D i E jako równoważnych pozostałym — był.
 
+### Szczebel A− — PROPOZYCJA z 25 VIII 2026, decyzja należy do autora
+
+**Powód liczbowy:** `07_HARMONOGRAM.md`, przeliczenie z 25 VIII 2026. Plan lekcji na I półrocze obniża realny budżet z **10 h/tydzień do 6–9**, co daje **395 h wobec 426 h środka szacunku pracy: deficyt 31 h w wariancie środkowym, 64 h w pesymistycznym.** Deficyt jest **skupiony w KM3 (XI–XII): 65 h dostępnych wobec 80–135 h pracy**, a poprawka z K-107 (przeniesienie nauki PCB na IX–X) **przestała być wykonalna** — luz w tych miesiącach spadł z 33–49 h do 3–27 h.
+
+**Na czym polega szczebel A−:**
+
+> **Zrezygnować z zaprojektowania własnej płytki od zera. Zbudować, uruchomić i w pełni scharakteryzować tor analogowy na otwartym schemacie Cerelog ESP-EEG** (`03_SPRZET.md` §7.1a — ADS1299 + ESP32, schematy i firmware otwarte, DRL w pętli zamkniętej).
+
+| | A (pełny) | **A−** |
+|---|---|---|
+| P37 nauka PCB | **35–60 h** | **10–15 h** — czytanie schematu, nie projektowanie |
+| projekt i wykonanie płytki v1 | **40–70 h** | **0 h** |
+| charakteryzacja toru (szum, pasmo, CMRR, kalibracja) | jest | **jest, bez zmian** |
+| ryzyko R7 „v1 nie działa" (40%) | **jest** | **znika** |
+| **oszczędność** | — | **65–115 h** |
+
+**Co zostaje nietknięte — i to jest sedno tej propozycji:**
+
+- **twierdzenie w brzmieniu z `02_TWIERDZENIE.md` §1** — zmienna niezależna, dwa wymiary, przewidywanie `|2·sin(πd/λ)|`, kryterium porażki
+- **osiem kanałów jednocześnie**, obie bazy porównania, kanał kontrolny R12
+- **fotodioda na kanale 8** — warunek konieczny, `03_SPRZET.md` §5
+- **cała kampania E1–E5 i cała analiza**
+- **metrologia toru: szum zwartego wejścia, pasmo, CMRR** — czyli to, co arkusz ISEF punktuje w rubryce `Execution`
+
+**Co jest poświęcone — wprost, bez łagodzenia:**
+
+1. **Zwrot „własny tor analogowy" w zdaniu twierdzenia wymaga przeformułowania** na *„jeden tor o zmierzonej przez siebie charakterystyce"*. **To jest realna strata i wymaga poprawki w `02_TWIERDZENIE.md` §1, nie przemilczenia.**
+2. **Rubryka `Execution` (20 pkt) traci najmocniejszy pojedynczy argument** — *„zaprojektowałem czterowarstwową płytkę mieszaną analogowo-cyfrową"*. `[domysł]` **koszt: 2–4 pkt na 20.**
+3. **Narracja „zbudowałem to sam" słabnie** — zostaje montaż, uruchomienie, charakteryzacja i pomiar.
+4. **Znika też nauka, która miała wartość poza projektem.** Projektowanie PCB jest umiejętnością na lata; to nie jest strata punktowa, tylko realna.
+
+**Co przemawia za, poza godzinami** `[fakt]`: **ENBM074 wziął drugie miejsce w kategorii ($2 400) na sprzęcie kupionym za 1 800 USD, nie zbudowawszy niczego** — wyłącznie planem eksperymentalnym. **A− jest wyraźnie powyżej tego poziomu**, bo zawiera własną charakteryzację toru i własny pomiar.
+
+`[domysł, ±0,1]` **Wpływ na prawdopodobieństwo dowiezienia w terminie:**
+
+| | P(zmieszczenie się w czasie) |
+|---|---|
+| przed planem lekcji, szczebel A | **0,35** |
+| po planie lekcji, szczebel A | **0,15–0,20** |
+| **po planie lekcji, szczebel A−** | **0,45–0,55** |
+
+> **A− daje wyższą szansę dowiezienia niż plan sprzed złej wiadomości.** Powód nie jest sztuczką rachunkową: **usuwana pozycja jest jednocześnie największa i najgorzej oszacowana**, więc spada i wartość oczekiwana pracy, i jej rozrzut.
+
+**Termin decyzji: 30 IX 2026** — ten sam, co decyzja o platformie sprzętowej (P5). **To jest jedna decyzja, nie dwie.**
+
+**Zejście nie jest wykonane.** `[fakt]` Zgodnie z regułą powyżej wymaga wpisu do `KOREKTY.md` z datą, powodem liczbowym i wskazaniem, co poświęcone — **i wymaga decyzji autora.** Rachunek jest zrobiony; wybór nie.
+
+**Szczeble B–E pozostają bez zmian i A− ich nie zastępuje** — jest zejściem w innym wymiarze (sposób wykonania toru), podczas gdy B–E schodzą w zakresie pomiaru. **Można być na A− i na A jednocześnie co do zakresu.**
+
 **Terminy decyzji o zejściu.** Bez nich zejście następuje w maju 2027 pod presją, a nie zimą z decyzji:
 
 | Zejście | Termin | Wyzwalacz |

@@ -2347,3 +2347,41 @@ Dwie dopuszczalne drogi, wybór **raz, w lutym 2027 po E1**. Pomiar krzyżowy wo
 ---
 
 **Reguła:** **dokumentacja przyrządu pomiarowego nie jest dokumentacją urządzenia.** `03_SPRZET.md` §5 opisywał stymulator wyczerpująco — jako **źródło bodźca o znanej częstotliwości dla pomiaru.** Ani jedno zdanie nie dotyczyło **człowieka, który ma na to patrzeć przez rok.** `[fakt]` **Trzecie wystąpienie tego samego kształtu w tym projekcie:** K-116 (częstotliwości dobrane pod pomiar, nikt nie zapytał, co robią z okiem), K-122 (stymulator opisany jako przyrząd, nikt nie zapytał, jak się z nim żyje), i szerzej — **cała dokumentacja jest pisana od strony pomiaru, bo pomiar jest twierdzeniem.** **Przy każdym elemencie zadaj drugie pytanie: jak to wygląda dla kogoś, kto ma tego używać, a nie tego mierzyć.**
+
+---
+
+### K-123 — parametr „10 h/tydzień" był założeniem, nie pomiarem, i właśnie przestał obowiązywać
+
+**Data:** 25 sierpnia 2026. **Zgłoszone przez autora** wraz z planem lekcji na pierwsze półrocze.
+
+**Co było.** `[fakt]` **10 h/tydzień** stoi w `CLAUDE.md` jako jeden z **czterech parametrów wiążących**, obok 8 000 zł, kategorii EBED i poprzeczki „gotowy w całości". Cały rachunek godzin z K-107 — 449 h dostępnych, 44,7 tygodnia — jest zbudowany na tej jednej liczbie.
+
+`[wniosek]` **Ta liczba nigdy nie była mierzona ani wyprowadzona.** Nie ma w dokumentacji zdania, skąd się wzięła. **Budżet pieniężny miał rozpisane pozycje i margines; budżet godzinowy miał jedną liczbę wziętą z sufitu i pomnożoną przez czterdzieści pięć.**
+
+**Co się stało.** Plan lekcji na I półrocze (IX 2026 – koniec I 2027): powrót do domu ok. 16:30 praktycznie codziennie, do tego rozszerzenia w liceum o wysokich wymaganiach i utrzymanie aktywności fizycznej. **Szacunek autora: 2–4 h na projekt w całym tygodniu roboczym, wyjątkowo 6, reszta w weekend.** W II półroczu plan się zmienia.
+
+**Przeliczenie** `[wniosek]`, pełna tabela w `07_HARMONOGRAM.md`:
+
+| | I półrocze | II półrocze | Razem | Bilans wobec 426 h |
+|---|---|---|---|---|
+| pesymistyczny | 6 h/tydz | 10 h/tydz | **362 h** | **−64** |
+| **środkowy** | **7,5 h/tydz** | **10 h/tydz** | **395 h** | **−31** |
+| optymistyczny | 9 h/tydz | 11 h/tydz | **449 h** | **+23** |
+
+> **Znak się odwrócił.** Poprzednio: 449 h wobec 426, czyli +23 h i 5% zapasu. Teraz środek daje **−31 h**. **Plan spina się wyłącznie przy dolnym końcu szacunku pracy (326 h).**
+
+**Znalezisko drugiego rzędu, którego nie dałoby się zobaczyć bez przeliczenia** `[fakt]`: **poprawka z K-107 przestała być wykonalna.** K-107 ratował przeciążony listopad–grudzień, przenosząc naukę PCB (35–60 h) na wrzesień i październik, bo te miesiące miały *„razem 33–49 h wolnego — dokładnie tyle, ile blok nauki potrzebuje"*. **Przy 7,5 h/tydzień luz wynosi 3–27 h. Nawet w wariancie optymistycznym: 16–40 h wobec potrzebnych 35–60.** **Poprawka, na której stał cały ratunek KM3, umarła cicho.**
+
+**Gdzie leży deficyt:** nie jest rozmazany po roku. **KM3 (XI–XII): 65 h dostępnych wobec 80–135 h pracy.** Jedna pozycja — **nauka PCB plus projekt płytki v1, 75–130 h** — jest większa od całego deficytu **i jest jednocześnie pozycją opisaną w `07` jako najgorzej oszacowana w całym planie.**
+
+**Poprawki.** `07_HARMONOGRAM.md` — nowa sekcja z przeliczeniem, trzy warianty, rozbiór po etapach, jawne stwierdzenie śmierci poprawki K-107. `06_RYZYKA.md`, Drabinka zejść — **propozycja szczebla A−**: zrezygnować z projektowania własnej płytki od zera, zbudować i w pełni scharakteryzować tor na **otwartym schemacie Cerelog ESP-EEG**. Oszczędność **65–115 h**, twierdzenie nietknięte, poświęcone wymienione bez łagodzenia (przeformułowanie zwrotu „własny tor" w `02` §1, 2–4 pkt na 20 w rubryce `Execution`, narracja „zbudowałem sam", oraz umiejętność wartościowa poza projektem).
+
+`[domysł, ±0,1]` P(zmieszczenie się w czasie): **0,35 przed → 0,15–0,20 przy A → 0,45–0,55 przy A−.** **A− daje wyższą szansę niż plan sprzed złej wiadomości**, bo usuwana pozycja jest zarazem największa i najbardziej rozrzucona.
+
+**Zejście NIE zostało wykonane. Decyzja należy do autora, termin 30 IX 2026, łącznie z decyzją o platformie (P5).**
+
+---
+
+**Reguła:** **każdy parametr wiążący musi mieć zapisane, skąd pochodzi — pomiar, dokument czy założenie — i datę.** `[fakt]` Trzy z czterech parametrów projektu mają źródło: **8 000 zł** to deklaracja autora, **EBED** i **Człowiek i Społeczeństwo** to regulaminy. **Czwarty, 10 h/tydzień, nie miał żadnego** — i był jedynym, który mógł się zmienić bez niczyjej decyzji. **Parametr bez źródła jest założeniem udającym fakt, a założenia unieważnia kalendarz.**
+
+**I druga, o kształcie tej wiadomości:** `[wniosek]` **autor przedstawił to jako „nici z moich marzeń", a przedstawił jednocześnie komplet danych liczbowych potrzebnych do przeliczenia planu.** To nie jest kapitulacja — to jest **zgłoszenie zmiany parametru wejściowego, podane wraz z parametrem.** Rozróżnienie ma znaczenie operacyjne: **dane wejściowe przelicza się, a nie pociesza.**

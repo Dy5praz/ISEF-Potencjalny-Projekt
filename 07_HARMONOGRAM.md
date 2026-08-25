@@ -45,6 +45,47 @@
 
 > **Poprawka towarzysząca: E2 upakować w pierwszej połowie maja.** Osiem sesji w ośmiu różnych dniach **nie znaczy ośmiu tygodni** — sesje co drugi dzień dają komplet w **szesnaście dni**, a wymóg „różnych dni" (zmienność międzysesyjna, twierdzenie T2) jest spełniony tak samo. Czerwiec zostaje wolny na półfinał.
 
+### Przeliczenie z 25 sierpnia 2026 — plan lekcji autora unieważnił parametr 10 h/tydzień
+
+**Wejście** `[fakt, zgłoszone przez autora 25 VIII 2026]`: plan lekcji na **pierwsze półrocze** (IX 2026 – koniec I 2027) daje powrót do domu ok. 16:30 praktycznie codziennie. Autor szacuje **2–4 h na projekt w całym tygodniu roboczym, wyjątkowo 6**, resztę do nadrobienia w weekend. Do tego rozszerzenia w liceum o wysokich wymaganiach oraz utrzymanie aktywności fizycznej. **W drugim półroczu plan lekcji się zmienia.**
+
+`[wniosek]` **Realistyczne pasmo na I półrocze: 6–9 h/tydzień, środek 7,5.** Dolny koniec zakłada 2 h w tygodniu i 4 h w weekend; górny 6 h w tygodniu i 3 h w weekend. **II półrocze: przyjmuję powrót do 10–11 h/tydzień**, bez podstawy poza deklaracją autora, że plan się poprawia — `[luka]`.
+
+**Podział roku:** I półrocze = KM1 + KM2 + KM3 + połowa KM4 = **21,7 tygodnia.** II półrocze = połowa KM4 + KM5 + KM6/7 = **21,7 tygodnia.**
+
+| Wariant | I półrocze | II półrocze | **Razem** | Bilans wobec środka pracy (426 h) |
+|---|---|---|---|---|
+| pesymistyczny | 6 h/tydz → 130 h | 10 h/tydz → 217 h | **362 h** | **−64** |
+| **środkowy** | **7,5 h/tydz → 163 h** | **10 h/tydz → 217 h** | **395 h** | **−31** |
+| optymistyczny | 9 h/tydz → 195 h | 11 h/tydz → 239 h | **449 h** | **+23** |
+
+*(plus 15 h z KM0, sierpień, wliczone w każdą sumę)*
+
+> `[wniosek]` **Znak się odwrócił.** Poprzedni rachunek dawał 449 h dostępnych wobec 426 środka pracy, czyli **+23 h i 5% zapasu**. Teraz środek wariantu daje **395 h, czyli −31 h**. **Plan przestał się spinać w środku własnych widełek i spina się wyłącznie przy dolnym końcu szacunku pracy (326 h).**
+
+#### Gdzie dokładnie leży deficyt — i dlaczego to jest gorsze, niż wygląda z sumy
+
+`[fakt]` **Godziny nie przenoszą się wstecz.** Suma to nie miara; miarą jest najgorszy etap.
+
+| Etap | Dostępne przy 7,5 h/tydz | Praca | Bilans |
+|---|---|---|---|
+| KM1 + KM2 (IX + X) | **65 h** | 38–62 h | **+3 do +27** |
+| **KM3 (XI–XII)** | **65 h** | **80–135 h** | **−15 do −70** |
+
+**I najważniejsze znalezisko tego przeliczenia** `[wniosek]`: **poprawka z K-107 właśnie umarła.**
+
+K-107 ratował przeciążony listopad–grudzień, **przenosząc naukę projektowania PCB (35–60 h) na wrzesień i październik** — bo te dwa miesiące miały wtedy *„razem 33–49 h wolnego — dokładnie tyle, ile blok nauki potrzebuje"*. **Przy 7,5 h/tydzień ten luz wynosi 3–27 h.** Blok się tam nie mieści **nawet w wariancie optymistycznym** (16–40 h wobec potrzebnych 35–60).
+
+> **Deficyt nie jest rozmazany po roku. Jest skupiony w jednej pozycji, w jednym etapie: nauka PCB plus projekt płytki v1, 75–130 h, w listopadzie–grudniu, przy 65 h dostępnych.** To jest jednocześnie **pozycja opisana w tym pliku jako najgorzej oszacowana w całym planie, bo autor nie ma jej z czym porównać.**
+
+#### Co z tego wynika
+
+`[wniosek]` **Nie jest to problem tempa pracy ani motywacji — jest to problem jednej pozycji kosztorysu godzinowego.** Usunięcie albo skrócenie tej pozycji zamyka deficyt z zapasem: **75–130 h wobec deficytu 31–64 h.** Propozycja szczebla **A−** i rachunek: `06_RYZYKA.md`, Drabinka zejść.
+
+`[fakt]` **Czego ten rachunek NIE proponuje i nie zaproponuje:** skrócenia snu, rezygnacji z aktywności fizycznej ani ograniczenia nauki do szkoły. `13_WERDYKT.md` §0.4 pkt 1 — *„oceny albo SAT zaczynają cierpieć"* — jest **warunkiem zatrzymania projektu**, a nie zasobem do wydania. **Godziny bierze się z zakresu projektu, nie z autora.**
+
+---
+
 ### Czego ten rachunek nie obejmuje
 
 `[luka]` **Tygodnie, w których 10 h nie będzie.** Sesje egzaminacyjne, święta, choroba. `[domysł]` Realistycznie **6–8 tygodni w roku** wypada poniżej połowy normy, co zjada **30–50 h** — czyli **cały zapas środka widełek.** Stąd wniosek praktyczny: **obie poprawki kolejności trzeba wykonać, a nie potraktować jako zapas na wypadek poślizgu.** Zapasu nie ma.
