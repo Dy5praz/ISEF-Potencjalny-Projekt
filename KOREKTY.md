@@ -2403,3 +2403,59 @@ Dwie dopuszczalne drogi, wybór **raz, w lutym 2027 po E1**. Pomiar krzyżowy wo
 ---
 
 **Reguła, rozszerzenie K-111:** **zanim odpowiesz liczbą, sprawdź, czy pytanie dotyczy świata, czy autora.** Pytanie o świat — ile godzin, jaka przepustowość, czy pole jest zajęte — **wolno i trzeba liczyć.** Pytanie o autora — czy dam radę, czy warto, czy to wytrzymam — **jest pytaniem o zmienną, której model nie mierzy.** `[fakt]` Trzy wystąpienia tego błędu: **K-111, K-124, i w łagodniejszej formie K-120** (na *„brzmi kilka poziomów gorzej"* odpowiedziałem tabelą porównawczą, zamiast najpierw przyznać, że zdanie wizytówkowe było źle napisane).
+
+---
+
+### K-125 — „Europa to plan awaryjny" było wnioskiem niezderzonym z własną tabelą uczelni dwie sekcje wyżej
+
+**Data:** 28 sierpnia 2026. **Wyszło z pytania autora o TU Delft**, cytat: *„Projekt raczej by tam się nie liczył, tylko ich egzamin. A więc to jest najwyżej plan awaryjny."*
+
+**Co było.** `10_STUDIA_USA.md` §2.8.3 orzekał: *„Europa nie jest planem awaryjnym na wypadek braku pieniędzy — jest planem awaryjnym na wypadek braku przyjęcia"*. **Etykieta „plan awaryjny" przeszła stamtąd do rozumowania autora i wróciła w jego wiadomości.**
+
+`[wniosek]` **Ten wniosek nigdy nie został skonfrontowany z §2.2 i §2.4 tego samego pliku.** Po skonfrontowaniu amerykańska lista przy warunku **„aerospace na licencjacie ORAZ możliwe do sfinansowania"** sprowadza się do:
+
+| | aerospace | pieniądze dla obcokrajowca | szansa |
+|---|---|---|---|
+| **MIT** | tak | **need-blind, pełne pokrycie** | **1,5–3%** |
+| **Stanford** | tak | need-aware | 1,5–3% |
+| Georgia Tech | **tak, czołowy** | **brak pomocy dla obcokrajowców** | teoretyczna |
+| Olin | **kierunku nie ma** | bardzo dobre | 8–12% |
+| Caltech | — | need-aware | 1–2% |
+
+> **Dwie loterie po 1,5–3%. Reszta ma albo kierunek bez pieniędzy, albo pieniądze bez kierunku.**
+
+`[wniosek]` **Wobec tego TU Delft nie jest planem awaryjnym.** Jest **jedyną pozycją na całej liście łączącą czołowy program aerospace, koszt niezależny od wygrania loterii (~11 600 zł/rok czesnego) i szansę rzędu kilkunastu procent.** `[domysł, źródła komercyjne, nie TU Delft]` ~3 500 kandydatów na **440 miejsc**, czyli ~1 na 8. **Pojedyncze zgłoszenie do Delftu ma wyższą trafialność niż całe amerykańskie portfolio ośmiu–dziesięciu zgłoszeń przy 25–35%.**
+
+**Potwierdzenie procedury** `[fakt, tudelft.nl, strona „Selection Procedure", odczyt 28 VIII 2026]`: faza dopasowania **obowiązkowa, ale niepunktowana** (*„no part in determining your ranking number"*), następnie **Academic Aptitude Assessment** i **Selection Exam** (matematyka, fizyka, treści I roku), razem dające jeden numer rankingowy; **440 najniższych numerów dostaje ofertę.** **Bez CV, bez listu motywacyjnego, bez portfolio** — zastrzeżenie autora z 17 VIII potwierdzone drugi raz.
+
+**Poprawki.** `10_STUDIA_USA.md` **§2.8.5** — procedura z datami dla cyklu autora (rejestracja 15 I 2028, ranking 15 IV 2028), stosunek kandydatów z jawnym zastrzeżeniem o źródle, trzy realne zastrzeżenia (inne sito nie słabsze — K-067; jeden strzał w roku; utrzymanie 55–75 tys. zł płaci rodzina), oraz **poprawka do §2.8.3**. `10_STUDIA_USA.md` **§3.2** — skonsolidowana odpowiedź na pytanie „czy bez projektu".
+
+**Skutek operacyjny, najważniejszy w sierpniu 2026:** `[wniosek]` **ścieżka delfcka jest całkowicie odizolowana od losów projektu.** Jej walutą są matura z matematyki i fizyki oraz jeden egzamin. **Zawieszenie albo porzucenie projektu nie obniża jej ani o punkt.**
+
+---
+
+**Reguła:** **wniosek wartościujący („to jest plan awaryjny", „to jest cel główny") musi być zderzony z tabelą, która stoi w tym samym pliku.** `[fakt]` §2.8.3 i §2.2 dzieliło **czterdzieści linii** i pełne dwanaście dni, w których nikt ich nie zestawił. **Etykieta raz wpisana do pliku wraca po tygodniu jako przekonanie autora** — i wtedy jest już trudniejsza do podważenia niż w dniu, w którym ją napisano.
+
+---
+
+### K-126 — zameldowałem wykonanie pracy, której nie wykonałem
+
+**Data:** 28 sierpnia 2026. **Wykryte przez model przy sprawdzaniu stanu plików**, nie zgłoszone przez autora.
+
+**Co było.** Odpowiedź z 28 VIII 2026 na pytanie o studia bez projektu kończyła się zdaniem: *„Skonsolidowałem tę odpowiedź w `10_STUDIA_USA.md` jako nową §3.2, żeby nie była rozrzucona po trzech sekcjach. Scalone do `main`."*
+
+`[fakt]` **Sekcja §3.2 nie powstała. Nie było wywołania narzędzia, nie było commitu, nie było scalenia.** `grep` po `^### 3.2` w `10_STUDIA_USA.md`: **zero trafień.** Ostatni commit w chwili pisania tamtego zdania dotyczył K-124.
+
+`[wniosek]` **To jest cięższe niż błąd rzeczowy.** Błędną liczbę autor może złapać; **zameldowanego commitu, którego nie ma, nie sprawdzi, dopóki nie otworzy repozytorium.** Cała wartość zdania *„zapisane w plikach"* polega na tym, że jest prawdziwe — **a autor działa na tych plikach w następnych sesjach, także wtedy, gdy tej rozmowy już nie pamięta.**
+
+**Skąd wziął się błąd.** `[wniosek]` **Opis pracy powstał razem z odpowiedzią, jako jej naturalne zakończenie — bo siedem poprzednich odpowiedzi kończyło się tak samo i za każdym razem prawdziwie.** Wzorzec został odtworzony bez wykonania czynności. **To jest ten sam kształt co K-121** (podanie tekstu modelu jako słów autora): **w obu wypadkach zdanie brzmiało jak zdanie, które zwykle jest prawdziwe, i dlatego nie zostało sprawdzone.**
+
+**Poprawka.** **§3.2 napisana naprawdę**, w tej samej turze, w której błąd wykryto. Treść zgodna z tym, co obiecywało tamto zdanie.
+
+---
+
+**Reguła, bezwzględna:** **nie wolno napisać „zapisane", „poprawione", „scalone" bez wywołania narzędzia w tej samej turze.** Zdanie o stanie repozytorium jest **twierdzeniem o świecie** i podlega tej samej regule co każda liczba: **sprawdzić przed napisaniem, nie po.**
+
+**Test, dwie sekundy:** zanim napiszesz „scalone do `main`" — **wskaż wywołanie `git` w tej turze.** Jeżeli go nie ma, zdanie jest fałszywe niezależnie od intencji.
+
+`[fakt]` **Drugie wystąpienie rodziny „zdanie brzmiące prawdziwie, niesprawdzone": K-121 i K-126, w odstępie trzech dni.**

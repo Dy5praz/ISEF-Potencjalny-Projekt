@@ -252,7 +252,52 @@ Czyli: **uczelnia amerykańska z pomocą jest tańsza niż europejska**, a europ
 1. **Zasada pierwszeństwa z sekcji 4 tego pliku umacnia się.** Przy kolizji o czas **projekt ustępuje maturze i SAT** — bo matura jest jedyną walutą w wariancie europejskim, a SAT w amerykańskim. Projekt nie ma waluty w żadnym z nich osobno; ma ją tylko w amerykańskim, i tam jako dodatek.
 2. **Zdanie „sito europejskie jest łagodniejsze" wymaga poprawki.** Jest łagodniejsze **dla kogoś z bardzo dobrą maturą z matematyki i fizyki** i praktycznie nieprzepuszczalne dla kogoś, kto ma świetny projekt i przeciętny egzamin. To jest inne sito, nie słabsze. Wpisane jako **K-067**.
 
-`[luka]` Nadal nie sprawdzone: dokładna równoważność polskiej matury rozszerzonej z holenderskim VWO wiskunde B i natuurkunde (tabele Nuffic), procedura TUM, oraz czy podwyżka czesnego w ETH obejmuje obywatela UE po polskiej maturze.
+`[luka]` Nadal nie sprawdzone: procedura TUM oraz czy podwyżka czesnego w ETH obejmuje obywatela UE po polskiej maturze.
+
+### 2.8.5 TU Delft — procedura odczytana ze stron uczelni 28 VIII 2026, i poprawka do werdyktu „plan awaryjny"
+
+**Potwierdzenie procedury** `[fakt, tudelft.nl, strona „Selection Procedure", cykl 2026/27]` — uszczegóławia §2.8.4, nie zmienia go:
+
+| Element | Charakter | Co daje |
+|---|---|---|
+| **faza dopasowania** (matching) — test poziomu z matematyki i fizyki + zadania autorefleksyjne | **obowiązkowa, ale NIEPUNKTOWANA.** Cytat: *„no part in determining your ranking number"* | nic do rankingu |
+| **Academic Aptitude Assessment** — test dotyczący sytuacji studenckich | punktowany, *„no preparation needed"* | kryterium **Academic Aptitude** |
+| **Selection Exam** — matematyka, fizyka i treści I roku aerospace, online pod nadzorem | punktowany | kryterium **Academic Performance** |
+
+`[fakt]` Oba wyniki dają **jeden numer rankingowy**; *„lowest 440 ranking numbers receive admission offers"*. **440 miejsc.** Rejestracja w Studielink: **15 stycznia**, ranking ogłaszany **15 kwietnia**.
+
+`[fakt]` **W procedurze nie ma CV, listu motywacyjnego ani portfolio.** Zastrzeżenie autora z 17 VIII 2026 potwierdzone drugi raz, teraz na stronie procedury.
+
+**Kalendarz dla tego autora (start studiów IX 2028):** rejestracja **15 I 2028** · dopasowanie I–II 2028 · aptitude ~początek III · egzamin ~połowa III · numer rankingowy ~15 IV 2028.
+
+`[domysł, niepotwierdzone]` Liczba kandydatów rzędu **3 500 na 440 miejsc, czyli ~1 na 8**. **Źródłem są komercyjne poradniki rekrutacyjne, nie TU Delft** — uczelnia nie publikuje tej liczby ani w FAQ, ani na stronie procedury. **Traktować jako rząd wielkości, nie jako liczbę.**
+
+`[wniosek, dwa źródła wtórne]` **Polska matura jest uznawana za równoważną VWO pod warunkiem spełnienia wymagań przedmiotowych**, a decyzję podejmuje uczelnia. **Bramką jest matematyka i fizyka na poziomie rozszerzonym, nie sam typ dyplomu.** `[luka]` **Wiążącej odpowiedzi TU Delft nadal nie ma** — do zamknięcia jednym mailem do ESA, i **warto to zrobić w 2026, nie w 2028**, bo odpowiedź może zmienić wybór przedmiotów rozszerzonych.
+
+#### Poprawka do §2.8.3 — „plan awaryjny" jest błędną etykietą. K-125
+
+`[wniosek]` §2.8.3 orzekł: *„Europa nie jest planem awaryjnym na wypadek braku pieniędzy — jest planem awaryjnym na wypadek braku przyjęcia"*. **Ten wniosek nie został skonfrontowany z §2.2 i §2.4 tego samego pliku.** Po skonfrontowaniu:
+
+| Uczelnia z listy | Aerospace na licencjacie | Pieniądze dla obcokrajowca | Szansa |
+|---|---|---|---|
+| **MIT** | tak | **need-blind, pełne pokrycie** | **1,5–3%** |
+| **Stanford** | tak | need-aware | 1,5–3% |
+| Caltech | — | need-aware | 1–2% |
+| Georgia Tech | **tak, czołowy** | **brak pomocy dla obcokrajowców** | teoretyczna bez pełnej ceny |
+| Olin | **NIE MA KIERUNKU** | bardzo dobre | 8–12% |
+| CMU | `[luka]` | deklaruje pokrycie | 3–5% |
+
+> **Dla celu „aerospace na licencjacie ORAZ możliwe do sfinansowania" amerykańska lista sprowadza się do MIT i Stanforda — dwóch loterii po 1,5–3%.** Reszta ma albo kierunek bez pieniędzy, albo pieniądze bez kierunku.
+
+**Wobec tego TU Delft nie jest planem awaryjnym.** `[wniosek]` Jest **jedyną pozycją na całej liście, która ma jednocześnie: czołowy program aerospace, koszt niezależny od wygrania loterii (~11 600 zł/rok czesnego) i szansę rzędu kilkunastu procent zamiast kilku.** **Pojedyncze zgłoszenie do Delftu ma wyższą trafialność niż całe amerykańskie portfolio ośmiu–dziesięciu zgłoszeń przy 25–35%** — i jest to porównanie jednej aplikacji z dziesięcioma.
+
+**Czego to nie znaczy** — trzy zastrzeżenia, wszystkie realne:
+
+1. `[fakt, K-067]` **To jest inne sito, nie słabsze.** Świetny projekt i przeciętny egzamin = odrzucenie. Cała stawka leży w matematyce i fizyce.
+2. **Jeden strzał w roku, twardy termin 15 I**, bez rekrutacji uzupełniającej.
+3. **Utrzymanie 55–75 tys. zł rocznie płaci rodzina.** MIT z pełną pomocą jest **tańszy** — ale wymaga wygrania loterii 1,5–3%.
+
+**Skutek operacyjny, najważniejszy dla decyzji z sierpnia 2026:** `[wniosek]` **ścieżka delfcka jest całkowicie odizolowana od losów projektu.** Jej walutą są matura z matematyki i fizyki oraz jeden egzamin — **czyli dokładnie ta sama praca, którą autor i tak wykonuje w szkole.** Zawieszenie albo porzucenie projektu **nie obniża jej ani o punkt.**
 
 ---
 
@@ -320,6 +365,35 @@ CDS to standardowy formularz, który uczelnie publikują same. Sekcja C7 podaje 
 `[luka]` Nie udało mi się odczytać C7 dla MIT, Princeton i Brown — strony ich biur badań instytucjonalnych są zablokowane dla automatu albo renderowane po stronie klienta. Wyszukiwarka zwraca streszczenie, jakoby Princeton oznaczał „extracurricular activities" jako **Very Important**, ale **nie potwierdziłem tego w dokumencie źródłowym i nie traktuję jako faktu.** Pozycja do domknięcia ręcznie: pliki CDS tych trzech uczelni, sekcja C7.
 
 **Czego ten wynik nie mówi:** że projekt nie ma znaczenia. C7 mierzy wagę **kategorii**, nie tego, co dana rzecz robi z resztą aplikacji. Projekt zasila trzy pozycje z górnego stopnia jednocześnie: **esej, rekomendacje i ocenę charakteru** — bo o czymś trzeba pisać i ktoś musi mieć o czym napisać rekomendację. To jest realny mechanizm i jest zgodny z tym, co C7 pokazuje. Nieprawdziwa jest tylko wersja, w której sam wpis „ISEF finalist" mnoży szanse przez cztery.
+
+---
+
+### 3.2 Czy bez projektu i bez ISEF ta ścieżka nadal istnieje — odpowiedź skonsolidowana, 28 VIII 2026
+
+**Pytanie autora, 28 VIII 2026:** *„czy bez projektu (czyli docelowo finału ISEF) miałbym nadal realistyczne szanse na studia w Stanach? Czy jednak jest on potrzebny lub jakąkolwiek inną olimpiada?"*
+
+**Odpowiedź: tak, szanse zostają — bo oszacowanie z §5.1 nigdy nie zawierało wyniku ISEF.**
+
+`[fakt, §5.1]` Liczba **~25–35% na co najmniej jedną ofertę możliwą do sfinansowania** przy 8–10 zgłoszeniach została policzona przy założeniu *„projekt dowieziony, przyzwoity SAT, dobre oceny"* — **i z jawnym zastrzeżeniem, że nie zawiera wyniku ISEF i zawierać go nie może**, bo `[domysł]` prawdopodobieństwo samego wyjazdu na ISEF wynosi **~9% bezwarunkowo**. **Usunięcie ISEF z równania nie zmienia tej liczby, bo ISEF nigdy w niej nie był.**
+
+**Czy potrzebna jest jakakolwiek olimpiada: nie.** `[fakt, Common Data Set §C7, §3.1]` W pierwszym stopniu wagi („Very Important") u każdej sprawdzonej uczelni stoi pięć rzeczy: **trudność programu w liceum, wyniki testów, esej, rekomendacje, ocena charakteru.** Konkurs siedzi w drugim (Caltech: „Important") albo, przy łagodniejszym odczytaniu, w pierwszym (MIT). **Punktuje się esej, rekomendację i charakter — nie puchar.**
+
+**Ale „nic" nie jest równoważne.** `[wniosek]` Esej i rekomendacja **potrzebują treści**, a rekomendacja potrzebuje nauczyciela, który ma o czym pisać. **Potrzebne jest coś trwałego, własnego i możliwego do poświadczenia — dowolnego kształtu, niekoniecznie konkursowego i niekoniecznie technicznego.**
+
+**Hierarchia dźwigni, w kolejności siły** `[wniosek, z §3.1, §4 i §5.1]`:
+
+| # | Dźwignia | Uwaga |
+|---|---|---|
+| 1 | **oceny i trudność programu** | liczą się **od pierwszej klasy** |
+| 2 | **SAT** | `[fakt, §5.1]` słaby SAT albo słabe oceny zbijają całość do **5–10%**, i **żaden projekt tego nie odrabia** |
+| 3 | **esej i rekomendacje** | potrzebują treści, nie trofeum |
+| 4 | **konstrukcja listy uczelni** | `[fakt, §5.1]` **daje więcej niż jakiekolwiek dodatkowe osiągnięcie konkursowe.** Sama czołówka → spada do ~10%; dopisanie Notre Dame, Olina i ścieżki stypendialnej → **największy pojedynczy przyrost w całym zestawieniu** |
+| 5 | **finanse i mechanika CSS Profile** | `[luka]` traktowanie mieszkania rodzinnego — do zamknięcia przed jesienią 2028 |
+| 6 | **projekt / konkurs** | ostatni |
+
+`[fakt, §4]` **Zasada pierwszeństwa obowiązuje bez zmian:** *„SAT i oceny nie mają zamiennika w rekrutacji do USA, a projekt ma. Przy konflikcie o czas projekt ustępuje."*
+
+> `[wniosek]` **Wartość rekrutacyjna projektu jest prawie w całości zawarta w jego najmniejszej wersji: zbudować coś, zmierzyć coś, opisać uczciwie.** Explory, ISEF i miejsce w kategorii to jest ta część, która i tak ma ~9% szans. **Rekrutacja płaci za to, że coś się robiło i umie się o tym opowiedzieć — nie za wygraną.**
 
 ---
 
