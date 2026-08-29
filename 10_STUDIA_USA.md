@@ -268,7 +268,19 @@ Czyli: **uczelnia amerykańska z pomocą jest tańsza niż europejska**, a europ
 
 `[fakt]` **W procedurze nie ma CV, listu motywacyjnego ani portfolio.** Zastrzeżenie autora z 17 VIII 2026 potwierdzone drugi raz, teraz na stronie procedury.
 
-**Kalendarz dla tego autora (start studiów IX 2028):** rejestracja **15 I 2028** · dopasowanie I–II 2028 · aptitude ~początek III · egzamin ~połowa III · numer rankingowy ~15 IV 2028.
+**Kalendarz dla tego autora — wyprowadzony, nie przepisany.** `[fakt, §1 i `08_KONKURSY.md` §1]` Aplikacje do USA składa się **jesienią 2028**, decyzje zapadają **w marcu 2029** — czyli **studia zaczynają się we wrześniu 2029**, a matura wypada **wiosną 2029**.
+
+| Krok | Termin |
+|---|---|
+| rejestracja w Studielink | **15 I 2029** |
+| faza dopasowania | I–II 2029 |
+| Academic Aptitude Assessment | ~początek III 2029 |
+| **Selection Exam** | **~połowa III 2029** |
+| numer rankingowy | ~15 IV 2029 |
+
+`[wniosek]` **Egzamin selekcyjny wypada na dwa miesiące przed maturą, w tym samym oknie co finalizacja zgłoszeń amerykańskich.** To jest kolizja tego samego rodzaju co opisana w §5.2.2 (SAT wobec kampanii ISEF) i **wymaga wpisania do kalendarza teraz, a nie w 2029.**
+
+`[luka]` **Poprawione 28 VIII 2026 tego samego dnia, w którym powstało — pierwsza wersja tej tabeli podawała rok 2028 i była błędna o rok.** Wzięła start studiów z daty składania aplikacji zamiast z daty decyzji.
 
 `[domysł, niepotwierdzone]` Liczba kandydatów rzędu **3 500 na 440 miejsc, czyli ~1 na 8**. **Źródłem są komercyjne poradniki rekrutacyjne, nie TU Delft** — uczelnia nie publikuje tej liczby ani w FAQ, ani na stronie procedury. **Traktować jako rząd wielkości, nie jako liczbę.**
 
