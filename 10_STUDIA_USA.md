@@ -319,6 +319,34 @@ Czyli: **uczelnia amerykańska z pomocą jest tańsza niż europejska**, a europ
 | pokój przez Housing Service (z mediami, internetem, podatkami) | 500–1 350 EUR | 2 155–5 819 zł |
 | pokój dzielony prywatnie / mieszkanie studenckie | 350–400 / ~700 EUR | 1 509–1 724 / ~3 017 zł |
 
+**Dlaczego w Holandii czesne w ogóle jest — pytanie autora z 8 IX 2026:** *„przecież jestem obywatelem Unii Europejskiej, więc chyba mam darmowe studia"*
+
+`[fakt]` **Darmowe studia dla obywatela UE to jest zasada niemiecka, nie holenderska.** Holandia ma **dwie stawki**, a obywatelstwo UE decyduje o tym, którą się płaci — nie o tym, czy się płaci:
+
+| Stawka | Kto płaci | Ile, rok 2026/27 |
+|---|---|---|
+| **wettelijk collegegeld** (ustawowa) | obywatele **UE/EOG i Szwajcarii**, przy pierwszym dyplomie danego stopnia | **2 694 EUR** = **11 611 zł** |
+| **instellingscollegegeld** (instytucjonalna) | wszyscy pozostali | `[fakt, tudelft.nl]` **17 310 EUR** dla licencjatu, rocznik 2025/26 |
+
+> `[wniosek]` **Obywatelstwo UE jest tam warte około 14 600 EUR rocznie — czyli ~63 tys. zł — ale nie zeruje opłaty.** Kupuje stawkę sześciokrotnie niższą, nie darmowe studia.
+
+`[fakt, rijksoverheid.nl, sprawdzone 8 IX 2026]` **Ulga „halvering collegegeld" dla pierwszego roku została zniesiona.** Obowiązywała do rocznika 2023/24; **od 1 IX 2025 nikt nie ma prawa do obniżonego czesnego ustawowego.** Sprawdzone celowo, zanim została wliczona — **nie wolno jej zakładać.**
+
+`[fakt]` **Stawka 2 694 EUR dotyczy rocznika 2026/27.** Autor zaczyna w 2029 — kwota będzie wyższa, bo jest waloryzowana corocznie.
+
+**Dla porównania, ta sama pozycja u sąsiadów** `[fakt, §2.8.3]`:
+
+| Kraj | Czesne dla obywatela Polski |
+|---|---|
+| **Polska**, uczelnia publiczna, studia stacjonarne | **0 zł** |
+| **Niemcy** (TU Monachium) | **brak czesnego dla obywateli UE**, opłata semestralna 100–200 EUR ≈ **1–2 tys. zł/rok** |
+| **Holandia** (TU Delft) | **2 694 EUR ≈ 11,6 tys. zł/rok** |
+| **Szwajcaria** (ETH) | 730 CHF/sem ≈ 6,7 tys. zł/rok; `[luka]` możliwa stawka „międzynarodowa" 2 190 CHF/sem |
+
+`[fakt, DUO]` **Jeżeli autor spełni warunek pracownika migrującego (≥ 56 h/mies), nabywa prawo także do `collegegeldkrediet`** — niskooprocentowanej pożyczki na samo czesne, spłacanej po studiach. **Nie jest to stypendium i zwiększa dług, ale zdejmuje czesne z rocznego budżetu rodziny.**
+
+`[luka]` **Niezgodność do zamknięcia:** §2.8.3 podaje stawkę spoza UE jako **19 906 EUR**, a strona TU Delft dla licencjatu 2025/26 — **17 310 EUR**. Możliwe, że chodzi o różne roczniki albo różne poziomy studiów. **Dla tego autora bez znaczenia (płaci stawkę ustawową), ale liczba w pliku jest niepotwierdzona.**
+
 **Zestawienie roczne, z czesnym:**
 
 | Wariant | Utrzymanie | Czesne | **Razem/rok** |
