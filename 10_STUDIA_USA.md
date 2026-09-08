@@ -278,13 +278,73 @@ Czyli: **uczelnia amerykańska z pomocą jest tańsza niż europejska**, a europ
 | **Selection Exam** | **~połowa III 2029** |
 | numer rankingowy | ~15 IV 2029 |
 
-`[wniosek]` **Egzamin selekcyjny wypada na dwa miesiące przed maturą, w tym samym oknie co finalizacja zgłoszeń amerykańskich.** To jest kolizja tego samego rodzaju co opisana w §5.2.2 (SAT wobec kampanii ISEF) i **wymaga wpisania do kalendarza teraz, a nie w 2029.**
+`[wniosek]` **Egzamin selekcyjny wypada na dwa miesiące przed maturą, w tym samym oknie co finalizacja zgłoszeń amerykańskich.**
+
+> **POPRAWKA 8 IX 2026 — nazwałem to kolizją i to było błędne. K-127.**
+>
+> **Uwaga autora, cytat:** *„akurat nakładanie na siebie terminów nie jest problemem. To jest matematyka i fizyka, czyli moje planowane matury. Po prostu muszę być szybciej i doskonale przygotowany. To tak jakbym pisał maturę 2 miesiące wcześniej i dodał trochę materiału ze studiów."*
+>
+> `[wniosek]` **Trafna.** Selection Exam sprawdza **matematykę i fizykę**, czyli **ten sam materiał, którego autor i tak uczy się do matury rozszerzonej**, plus treści I roku aerospace. **To jest przesunięcie tego samego obciążenia o dwa miesiące w przód, a nie dołożenie drugiego obciążenia obok pierwszego.**
+>
+> **Różnica wobec §5.2.2 (SAT wobec kampanii ISEF) jest zasadnicza:** SAT to **inny materiał, inny język i inny format** niż matura — tam obciążenia się sumują. **Tutaj się pokrywają.**
+>
+> **Co zostaje realnym kosztem, i tylko to:** (1) **termin gotowości przesuwa się z maja na marzec**, więc nie ma miesięcy końcowego szlifu; (2) dochodzi **nadwyżka materiału z I roku aerospace**, której w maturze nie ma; (3) egzamin jest **po angielsku i wielokrotnego wyboru**, czyli inny format tej samej wiedzy.
 
 `[luka]` **Poprawione 28 VIII 2026 tego samego dnia, w którym powstało — pierwsza wersja tej tabeli podawała rok 2028 i była błędna o rok.** Wzięła start studiów z daty składania aplikacji zamiast z daty decyzji.
 
 `[domysł, niepotwierdzone]` Liczba kandydatów rzędu **3 500 na 440 miejsc, czyli ~1 na 8**. **Źródłem są komercyjne poradniki rekrutacyjne, nie TU Delft** — uczelnia nie publikuje tej liczby ani w FAQ, ani na stronie procedury. **Traktować jako rząd wielkości, nie jako liczbę.**
 
 `[wniosek, dwa źródła wtórne]` **Polska matura jest uznawana za równoważną VWO pod warunkiem spełnienia wymagań przedmiotowych**, a decyzję podejmuje uczelnia. **Bramką jest matematyka i fizyka na poziomie rozszerzonym, nie sam typ dyplomu.** `[luka]` **Wiążącej odpowiedzi TU Delft nadal nie ma** — do zamknięcia jednym mailem do ESA, i **warto to zrobić w 2026, nie w 2028**, bo odpowiedź może zmienić wybór przedmiotów rozszerzonych.
+
+#### 2.8.5a Ile to kosztuje wobec studiów w Warszawie — porównanie na żądanie autora, 8 IX 2026
+
+`[fakt, NBP, 7 IX 2026]` **1 EUR = 4,31 zł.**
+
+**Warszawa** `[fakt, przegląd cen 2026: GazetaPrawna, Akademiki.pl, otouczelnie.pl, StudentSpace]`
+
+| Pozycja | Miesięcznie |
+|---|---|
+| akademik publiczny (UW od 600 zł; przykład 2026/27: 750 zł miejsce w dwójce, 850 zł jedynka) | **500–1 000 zł** |
+| akademik prywatny | **od 1 800 zł, do 3 000+** |
+| pokój w mieszkaniu | **1 500–2 700 zł**, centrum do 3 000 |
+| **koszt całkowity, akademik publiczny, oszczędnie** | **2 800–3 500 zł** |
+| **koszt całkowity, wynajęty pokój** | **3 300–4 800 zł** |
+
+**Delft** `[fakt, tudelft.nl oraz przegląd cen najmu 2026]`
+
+| Pozycja | Miesięcznie | W złotych |
+|---|---|---|
+| **oficjalna podstawa TU Delft** (student w akademiku uczelnianym) | **909 EUR** | **3 918 zł** |
+| typowy przedział wydatków studenta | **900–1 400 EUR** | **3 880–6 034 zł** |
+| pokój przez Housing Service (z mediami, internetem, podatkami) | 500–1 350 EUR | 2 155–5 819 zł |
+| pokój dzielony prywatnie / mieszkanie studenckie | 350–400 / ~700 EUR | 1 509–1 724 / ~3 017 zł |
+
+**Zestawienie roczne, z czesnym:**
+
+| Wariant | Utrzymanie | Czesne | **Razem/rok** |
+|---|---|---|---|
+| **Warszawa, akademik publiczny** | 34–42 tys. zł | **0 zł** (studia stacjonarne) | **34–42 tys. zł** |
+| **Warszawa, wynajęty pokój** | 40–58 tys. zł | 0 zł | **40–58 tys. zł** |
+| **Delft, akademik uczelniany** | ~47 tys. zł | **11,6 tys. zł** | **~59 tys. zł** |
+| **Delft, wyższy standard** | ~72 tys. zł | 11,6 tys. zł | **~84 tys. zł** |
+
+> `[wniosek]` **Delft kosztuje rzędu 1,4–2× tego, co Warszawa. Różnica bezwzględna: około 20–45 tys. zł rocznie, czyli 60–135 tys. zł przez trzyletni licencjat.**
+
+**Poprawka do §2.8.3:** stała tam liczba **55–75 tys. zł** dla utrzymania w Delfcie. `[fakt]` **Oficjalna podstawa TU Delft to 909 EUR/mies, czyli ~47 tys. zł/rok** — **dolny koniec przedziału był zawyżony o ~8 tys. zł.** Górny koniec się broni.
+
+**Czynnik, którego w żadnym wcześniejszym rachunku nie było: holenderskie stypendium dla studenta pracującego.**
+
+`[fakt, DUO]` Obywatel UE **pracujący w Holandii co najmniej 56 godzin miesięcznie** (albo osiągający dochód ≥ 50% normy socjalnej, w 2026 **700,75 EUR/mies**) nabywa status **pracownika migrującego** i **prawo do studiefinanciering na równi ze studentem holenderskim**. Obejmuje to **basisbeurs rzędu 110–300 EUR/mies**, który **staje się bezzwrotny po uzyskaniu dyplomu w ciągu dziesięciu lat**.
+
+`[wniosek]` Samo stypendium to **5,7–15,5 tys. zł rocznie**. **Do tego dochodzi wynagrodzenie za te 56 godzin** — `[luka]` **holenderskiej stawki minimalnej dla osoby poniżej 21 lat nie sprawdziłem** i nie wolno tu zgadywać, bo stawki młodzieżowe są w Holandii wyraźnie niższe od podstawowej.
+
+**Koszt tej opcji jest czasowy, nie pieniężny: 56 h/mies to około 13 h tygodniowo pracy zarobkowej obok jednego z trudniejszych programów inżynierskich w Europie.** `[wniosek]` **Przy profilu autora — który we wrześniu 2026 wprost zgłosił ryzyko przeciążenia — to jest pozycja do rozważenia, nie do założenia z góry.**
+
+**Trzy zastrzeżenia do całego porównania:**
+
+1. `[fakt]` **W Delfcie brakuje tanich mieszkań studenckich.** Zasób Housing Service jest ograniczony; przy porażce trafia się na rynek prywatny, czyli do górnego wiersza tabeli.
+2. **To są ceny z 2026, a start studiów to 2029.** Inflacja dotyczy obu stron i przedziały należy odczytywać jako **stosunek**, nie jako kwoty.
+3. **Porównanie jest wyłącznie finansowe.** `[luka]` Krajowym odpowiednikiem merytorycznym jest **Lotnictwo i Kosmonautyka na Wydziale MEiL Politechniki Warszawskiej** — **nieoceniony w tym pliku ani razu.** Pozycja do zamknięcia, jeżeli wariant polski ma być traktowany poważnie, a nie jako tło do liczb.
 
 #### Poprawka do §2.8.3 — „plan awaryjny" jest błędną etykietą. K-125
 
