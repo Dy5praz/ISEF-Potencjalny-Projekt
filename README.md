@@ -1,65 +1,111 @@
-# ISEF — nieinwazyjny interfejs neuralny
+# Interfejs SSVEP w module noszonym — dokumentacja projektu
 
-Repozytorium robocze projektu. Dokumentacja żyje tutaj, nie w wątkach rozmowy.
-
-**Cel:** Explory 2027 → reprezentacja Polski na Regeneron ISEF, maj 2028.
+**Stan na 21 sierpnia 2026.** Projekt indywidualny, autor: Julek. Cel: Explory 2027 → **ISEF 2028**.
 
 ---
 
-## Stan na 15 sierpnia 2026
+## Projekt w trzech zdaniach
 
-| Etap | Status |
-|---|---|
-| Sekcja 14 handbooka — drugie czytanie, luki i pytania | **zrobione** → `00_PYTANIA_I_LUKI.md` |
-| Odpowiedzi użytkownika na pytania A/B/C | **zebrane** → `00_PYTANIA_I_LUKI.md` sekcja 4b |
-| Etap 1 — przemiał literatury | **zablokowany do czasu przełączenia sieci na Full**, patrz `00_PYTANIA_I_LUKI.md` sekcja 0 i 4b/A1 |
-
-### Ustalenia kierunkowe (15 VIII 2026)
-
-- **zdolność:** sterowanie, nie komunikacja. **Odczyt dyskretny, zachowanie sterowanego obiektu ciągłe** — odczyt ciągły wymusza elektrody nad korą ruchową, czyli hełm
-- **sEMG/EOG:** dopuszczone jako **kanał odniesienia do usuwania zakłóceń** w torze analogowym; jako źródło sterowania odłożone, nie odrzucone. Typ przed weryfikacją: w wersji ogólnej znane i stare, szczelina najwyżej w realizacji sprzętowej
-- **forma:** element zauszny wielkości aparatu słuchowego przechodzi; opaska raczej nie
-- **badani:** na start sam autor, rozszerzenie na grupę przed finałem Explory — **zgoda komisji ISEF musi poprzedzać tę kampanię**
-- **czas:** 10 h/tydz. → ~350 h do El-Robo-Mech, ~910 h do ISEF
-- **budżet:** świadomie nieustalony, decyzja po opracowaniu
-- **drukarka:** zakup wstrzymany. Wymaganie z drona (PA12-CF) prawdopodobnie nie obowiązuje; dla wkładek dousznych właściwy jest druk żywiczny
-- **sprzęt pomiarowy:** brak; plan pomiaru szumu bez oscyloskopu w `00_PYTANIA_I_LUKI.md` sekcja 4c/B3
-
-### Żeby ruszyć dalej
-
-`claude.ai/code` → ikona chmurki nad polem wiadomości → zębatka przy środowisku → **Network access: Full** → zapisz → **nowa sesja** na gałęzi `claude/oto-handbook-instrukcje-g3e7hd` z poleceniem „rób etap 1".
-| Etap 2 — opracowanie projektu | przed nim etap 1 |
+> **Buduję interfejs, który odczytuje z tyłu głowy, na co patrzysz, i zamienia to na komendę — dla ludzi, którzy nie mogą mówić ani się ruszać.**
+>
+> **Żeby taki przyrząd dało się nosić, musi być mały, a wtedy obie elektrody siedzą obok siebie i mogą skasować sygnał, który mają mierzyć.**
+>
+> **Mierzę, jak blisko mogą usiąść, zanim to się stanie — i z której strony — czego nikt dotąd nie zmierzył.**
 
 ---
 
-## Struktura docelowa
+## Czytaj w tej kolejności
 
-| Plik | Zawartość | Status |
+### Dla kogoś, kto wchodzi w projekt pierwszy raz
+
+| # | Plik | Po co |
 |---|---|---|
-| `00_PYTANIA_I_LUKI.md` | luki, sprzeczności, pytania do użytkownika | gotowy |
-| `00_STRESZCZENIE.md` | 2 strony, co z etapu 1 wynika | — |
-| `01_HISTORIA.md` | rozwój technologii inwazyjnych i nieinwazyjnych, z datami | — |
-| `02_MECHANIZMY.md` | mechanizm fizyczny każdej klasy rozwiązań, po polsku, każdy termin z definicją | — |
-| `03_SCIANY_FIZYCZNE.md` | co uznano za niemożliwe, z rozróżnieniem fizyczne / technologiczne | — |
-| `04_LUKI_ZAPISANE.md` | sekcje „future work" i „open challenges" z cytatami i namiarami | — |
-| `05_RYNEK.md` | baseline komercyjny: co, za ile, z jakimi parametrami | — |
-| `06_TABELA_PARAMETROW.md` | wspólna metryka porównawcza + kolumna widoczności urządzenia | — |
-| `07_DEKODOWANIE.md` | paradygmaty, metody klasyczne i sieciowe, metryki, zbiory danych | — |
-| `08_KONKURENCJA_ISEF.md` | ENBM074 i projekty pokrewne z ostatnich lat | — |
-| `ZRODLA.md` | pełna bibliografia z oceną wiarygodności | — |
-| `KOREKTY.md` | rejestr błędów i poprawek | prowadzony |
+| **1** | **`01_PROJEKT_DLA_LAIKA.md`** | czym to jest, bez żargonu. **Zacznij tutaj, niezależnie od tego, kim jesteś** |
+| **2** | **`02_TWIERDZENIE.md`** | zdanie obowiązujące, metryka, granice, **trzy gotowe odpowiedzi dla jurora** |
+| **3** | **`11_EWOLUCJA.md`** | jak projekt doszedł do tego kształtu: cztery zabite twierdzenia, kto je zabił, jakie decyzje zapadły |
+
+### Dla pracy nad projektem
+
+| Plik | Zawiera |
+|---|---|
+| **`03_SPRZET.md`** | tor sygnałowy, rozkład ośmiu elektrod, stymulator, bezpieczeństwo, **zakupy i budżet** |
+| **`04_PLAN_POMIAROWY.md`** | rejestracja twierdzeń z góry, eksperymenty E0–E5, częstotliwości, liczba prób |
+| **`05_STAN_WIEDZY.md`** | **wszystko opublikowane przeliczone na bit/min**, sześć prac do cytowania, mechanizm falowy, dlaczego pole jest puste |
+| **`06_RYZYKA.md`** | dwanaście ryzyk z planami awaryjnymi, **drabinka zejść z terminami** |
+| **`07_HARMONOGRAM.md`** | kamienie milowe od dziś do ISEF 2028, lista zadań |
+| **`08_KONKURSY.md`** | Explory i ISEF: regulaminy, kryteria, arkusze oceny, stawka, trening prezentacyjny |
+| **`09_FORMALNOSCI.md`** | Human Participants, komisja IRB, formularze, reguła dwunastu miesięcy |
+| **`10_STUDIA_USA.md`** | cel nadrzędny: uczelnie, kalendarz rekrutacyjny, SAT i egzamin z angielskiego |
+| **`12_REANALIZA.md`** | **jedyny własny pomiar, jaki projekt dotąd ma** — reanaliza cudzych danych, odtworzona dwukrotnie |
+| **`METODA.md`** | jak się w tym projekcie sprawdza literaturę: procedura tożsamości, trzy kanały przeszukania, stan dostępu do baz |
+| **`15_NAUKA_DZIEDZINY.md`** | **słownik i ścieżka nauki od zera** — nazwy elektrod, odniesienie, SSVEP, przetwarzanie, statystyka, sprzęt, filmy |
+| **`14_PROTOKOL.md`** | **protokół wytrwania — co robić, gdy autor chce się wycofać.** Ustanowiony 21 VIII 2026 jego własnym poleceniem |
+| **`13_WERDYKT.md`** | **czy w to grać — rozstrzygnięcie w §0, cztery akapity.** Rachunek (bramki, liczby bezwarunkowe) w części drugiej |
+| **`KOREKTY.md`** | rejestr błędów, **K-001…K-116**. Dopisuj każdy nowy |
+| **`analiza/`** | jedenaście skryptów w Pythonie — FBCCA, TRCA, SVM, montaże, okna, harmoniczne |
+| **`archiwum/`** | 42 pliki poprzednich wersji. **Nic nie zostało usunięte** |
+
+---
+
+## Stan bieżący
+
+**Twierdzenie** — pełne brzmienie w `02_TWIERDZENIE.md`:
+
+> Mierzę, o ile spada dokładność i przepustowość interfejsu SSVEP, gdy elektroda odniesienia musi zmieścić się w module noszonym na potylicy zamiast leżeć w miejscu standardowym, i wyznaczam najmniejszą odległość, przy której przepustowość jeszcze się nie załamuje.
+
+**Parametry, wiążące:** budżet **8 000 zł** · **10 h/tydzień** · kategoria ISEF **EBED** · obszar Explory **Człowiek i Społeczeństwo** · poprzeczka **„gotowy w całości, nie prototyp"**.
+
+**Metryka:** dokładność i **ITR w bitach**, zawsze z podaniem N, P i t. **Nigdy słowa na minutę.**
+
+**Pewność, że przegląd literatury jest domknięty: 97%.** Rozbiór — `05_STAN_WIEDZY.md` §10.
+
+### Ile ten projekt jest wart — **noty dla projektu DOWIEZIONEGO** (K-112)
+
+| Gdzie | Nota `[domysł]` |
+|---|---|
+| półfinał Explory | **34–37 / 40**, w tym **10/10** za znajomość dotychczasowych badań |
+| finał Explory | **23–26**, przy czołówce 2026 = 25 |
+| **ISEF, arkusz inżynierski** | **76–86 / 100** — realny kandydat do Grand Award |
+
+**Osobno, i nie wolno tego wmnażać w noty:** `[domysł]` **P(projekt powstanie w wersji z wynikiem) ~55%** — trzy bramki, `13_WERDYKT.md` część druga §1.2. Stąd szanse konkursowe: finał **~33%**, ISEF **~9%** bezwarunkowo (**~12,6%** warunkowo).
+
+> `[wniosek, K-112]` **Cel nadrzędny to studia w USA, a tam finalista Explory znaczy praktycznie nic.** Oś konkursowa jest mechanizmem produkującym **materiał do eseju i treść do rekomendacji**. **Preprint z reanalizy jest dla tego celu wart więcej niż status finalisty Explory** — i dlatego został odwieszony i przeniesiony na wrzesień.
+
+---
+
+## Co jest teraz do zrobienia
+
+| # | Zadanie | Termin |
+|---|---|---|
+| **P5** | **szukać UŻYWANEGO Cytona, do 1 600 zł.** Warunki odbioru w `03_SPRZET.md` §7.1. Bez oferty do terminu — nowy Ganglion, nie nowy Cyton | **do 30 IX 2026** |
+| **PREPRINT** | **dokończyć preprint z reanalizy (~80% gotowe).** Odwieszony 21 VIII, K-112. **Najwyższy stosunek wartości rekrutacyjnej do pozostałej pracy w projekcie. Wykonalny z laptopa** | **IX 2026** |
+| **P11** | **reanaliza zbioru Zhu i in. 2021** (102 osoby, PMID 33578754, publiczny) — kod z `analiza/` już działa, koszt zero złotych | IX 2026 |
+| **P14** | trzy pytania do FZT jednym mailem: SRC jako IRB · łączenie z EUCYS · **czy badanie na sobie jest zwolnione** | jesień 2026 |
+| **E0** | **przesiew: czy SSVEP działa u autora.** ~20 minut na kupionej platformie. **Najważniejszy punkt w całym planie** | **X 2026** |
+| **P20** | kontrola grafu cytowań co pół roku (Wu i Su 2014, Diez 2010) | co pół roku |
+| **P37** | **nauka projektowania PCB — zacząć we wrześniu.** **Zatwierdzone 21 VIII 2026** | **IX 2026** |
+| **P34** | rozstrzygnąć przy projekcie płytki, czy DRL mieści się na spodzie obudowy, czy zostaje na przewodzie do karku (`03_SPRZET.md` §4.1) | I 2027 |
+| **P35** | **zmierzyć taśmą własny łuk nasion–inion** — pięć minut, zero złotych | **od ręki** |
+
+**Zamknięte 21 VIII 2026:**
+- **P28a** — dwa cienkie przewody w bok do O1 i O2 dopuszczone; gabaryt ~32×48×12 mm zostaje w mocy
+- **P36** — elektroda 5 przeniesiona na **Iz**, symetrycznie do POz. Para kierunkowa przestaje mieszać kierunek z odległością (K-106)
+- **P37** — nauka PCB przesunięta na IX–X 2026
+- **materiał półfinałowy** przeniesiony na III–IV 2027; maj i czerwiec zostają na kampanię (K-107)
+- **P38 — ODŁOŻONE, nie odrzucone.** Projekt idzie w **wersji podstawowej**: SSVEP wzrokiem, czterdzieści celów, jeden tryb. Gotowy plan trybu bez sterowania wzrokiem leży w `05_STAN_WIEDZY.md` §7.6 wraz z terminami powrotu do decyzji — **najpóźniej 31 III 2027**
+
+Pełna lista: `07_HARMONOGRAM.md`.
 
 ---
 
 ## Zasady obowiązujące w każdym pliku
 
-Znaczniki pewności przy każdym stwierdzeniu:
+**Znaczniki pewności przy każdym stwierdzeniu:** `[fakt]` `[wniosek]` `[domysł]` `[luka]`.
 
-- `[fakt]` — twarde dowody, źródło sprawdzone
-- `[wniosek]` — silne wnioskowanie z faktów
-- `[domysł]` — uzupełnianie luki, spekulacja
-- `[luka]` — wiadomo, że nie wiadomo
+**Każda liczba, na której cokolwiek stoi: 2–3 niezależne źródła.** Jedno źródło — oznaczone przy twierdzeniu, nie w przypisie.
 
-Każda liczba, na której cokolwiek się opiera: 2–3 niezależne źródła. Jedno źródło — oznaczone wyraźnie przy twierdzeniu, nie w przypisie.
+**Liczba pojedyncza w całej dokumentacji.** Projekt jest indywidualny, autorem jest Julek, rola modelu jest doradcza.
 
-Hierarchia przy sprzeczności: dokument regulaminowy > publikacja recenzowana > preprint > materiał prasowy > blog/forum.
+**Zakaz słowa „pierwszy" w materiałach zgłoszeniowych.** Twierdzenie jest pomiarowe, nie o pierwszeństwie.
+
+**Zdanie o luce ma jedną dopuszczalną postać i nie wolno go skracać:** *nie ma tego w dziewięciu bazach naukowych, trzech niezależnych grafach cytowań, sekcjach metod 178 prac i trzynastu rocznikach abstraktów ISEF.*

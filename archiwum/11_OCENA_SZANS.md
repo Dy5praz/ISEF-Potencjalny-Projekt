@@ -1,0 +1,403 @@
+# 11 — Ocena szans: Explory i ISEF
+
+**Data:** 15 sierpnia 2026 — finał etapu 1
+**Podstawa:** liczby zweryfikowane w oryginałach (regulaminy, listy finalistów, baza abstraktów ISEF), nie w streszczeniach.
+
+**Uprzedzenie, bez którego reszta jest nieuczciwa.** Handbook, sekcja 8, błąd nr 5: *„Założyłem lukę w stanie techniki zamiast ją sprawdzić, a potem zbudowałem na tym całą strategię i wystawiłem na jej podstawie oceny szans. Oceny wystawione na niesprawdzonym założeniu są bezwartościowe niezależnie od tego, czy wypadły wysoko czy nisko."*
+
+Ta ocena jest wystawiona po sprawdzeniu założeń — ale **na projekcie, który jeszcze nie istnieje**. Liczby w sekcjach 2 i 3 są twarde (`[fakt]`). Prawdopodobieństwa w sekcjach 4 i 5 są moim oszacowaniem (`[domysł]`) i zmienią się, gdy pojawi się pierwszy działający prototyp. **Nie traktuj ich jak pomiaru.**
+
+---
+
+## 1. Odpowiedź w trzech zdaniach
+
+**Cel postawiony w handbooku — nie sam udział w ISEF, tylko miejsce w kategorii — jest celem o prawdopodobieństwie rzędu 1,5%.** Cel łagodniejszy, czyli jakakolwiek nagroda na ISEF, to rząd 4%. Sam wyjazd na ISEF: rząd **9%**.
+
+*(Liczby podniesione 15 VIII wieczorem po K-041 — wcześniej odpowiednio 1%, 3% i 7%. Powód: użytkownik czytał plakaty finalistów Explory i ocenia medianę stawki niżej, niż wynikało z mojej analizy metadanych.)*
+
+**To są liczby niskie i mówię to wprost, tak jak wymaga sekcja 11 handbooka.**
+
+**Ale liczba to jeden z trzech wymiarów, a w pozostałych dwóch ten projekt wypada nietypowo dobrze** — wąskie gardło leży dokładnie tam, gdzie masz największy wpływ, a wszystkie ścieżki porażki zostawiają coś wartościowego. Rozwinięcie w sekcji 6.
+
+---
+
+## 2. Lejek Explory — liczby twarde
+
+`[fakt]` Wszystko poniżej ze zweryfikowanych źródeł: regulamin Explory, `glosuj.explory.pl` (pełna lista półfinałowa 2026), `Wyniki_Polfinal_2026.pdf` (oficjalna lista finalistów), artykuł organizatora z listą finalistów 2025.
+
+| Przejście | Liczby (edycja 2026) | Szansa warunkowa |
+|---|---|---|
+| zgłoszenie → półfinał | ~300 zgłoszeń → **133 projekty** | **~44%** |
+| **półfinał → finał** | **133 → 21** | **~16%** |
+| finał → reprezentacja ISEF | **21 → 3 projekty** | **~14%** |
+| finał → Nagroda Główna | 21 → 1 | ~5% |
+| **łącznie: zgłoszenie → ISEF** | | **~1,0%** |
+
+### 2.1 Rzecz o strukturze finału, której wcześniej nie znaliśmy
+
+`[fakt]` Finał 2026 nie jest listą 21 najlepszych projektów z całej stawki. Jest zbudowany jako **TOP 5 w każdym z czterech obszarów** — Człowiek i Społeczeństwo, Klimat i Środowisko, Gospodarka i Bezpieczeństwo, Poza Kategoriami — plus jeden projekt wprowadzony przez plebiscyt internetowy. Razem 21.
+
+**To zmienia sposób myślenia o konkurencji w sposób konkretny:** nie konkurujesz z całą stawką 133 projektów, tylko z tymi w swoim obszarze — czyli z około trzydziestoma. I **obszar wybierasz sam**, przez wskazanie celu zrównoważonego rozwoju przy zgłoszeniu (regulamin §4 pkt 4, obowiązkowe).
+
+`[wniosek]` To jest realna dźwignia strategiczna, a nie formalność w formularzu. Interfejs neuralny da się uczciwie umieścić w co najmniej dwóch obszarach:
+- **Człowiek i Społeczeństwo** — dostępność, komunikacja dla osób z niepełnosprawnością ruchową (SDG 3 albo 10)
+- **Gospodarka i Bezpieczeństwo** — technologia, interfejsy człowiek-maszyna (SDG 9)
+
+Który obszar jest mniej obsadzony w danej edycji, wiadomo dopiero po ogłoszeniu listy półfinałowej — a zgłoszenie jest wcześniej. **Ale sama świadomość, że to jest wybór, a nie los, jest warta zapisania.** Do rozstrzygnięcia w etapie 2.
+
+### 2.2 Druga droga przez wąskie gardło
+
+`[fakt]` Regulamin §6 pkt 11 II i–j: projekty z półfinału mogą wziąć udział w **Plebiscycie Internetowym „Bilet na Finał"**, a zwycięzca **zostaje zakwalifikowany do finału**. W edycji 2026 wygrał projekt z 904 głosami, przy ~18 tysiącach głosów oddanych łącznie.
+
+`[wniosek]` To jest **druga, niezależna droga przez najwęższe miejsce lejka** (16%), i zależy od zupełnie innych czynników niż ocena jury — od zasięgu, od tego, ile osób da się zmobilizować, od atrakcyjności tematu dla laika. **Interfejs mózg-komputer jest tematem wyjątkowo atrakcyjnym dla laika.** To nie jest droga zamiast pracy merytorycznej, ale jest to droga istniejąca, tania i wcale nie beznadziejna dla tego konkretnego tematu.
+
+### 2.3 Gdzie leży wąskie gardło i dlaczego to dobra wiadomość
+
+`[fakt]` Przejście półfinał → finał to najwęższe miejsce (16%). Kryteria oceny w półfinale (regulamin §7 pkt 2, cztery pozycje po 0–10 punktów):
+
+| Kryterium | Czy ten projekt jest tu mocny |
+|---|---|
+| projekt jest innowacyjny i wnosi wartość do stanu wiedzy | **tak** — twierdzenie pomiarowe z baseline'em wewnętrznym |
+| uczestnik umie ciekawie i klarownie przedstawić projekt | **niesprawdzone** — jedyna niewiadoma |
+| uczestnik zna zastosowane metody i założenia | **tak** |
+| **uczestnik zna dotychczasowe badania w dziedzinie** | **tak, i to bardzo** — to jest dokładnie produkt etapu 1 |
+
+**Trzy z czterech kryteriów w najwęższym miejscu lejka mierzą to, co ten projekt już ma.** To nie jest przypadek — to jest powód, dla którego etap 1 był wart tych dwóch dni, i to jest treść korekty K-003.
+
+---
+
+## 3. ISEF — liczby twarde
+
+`[fakt]` Z bazy abstraktów i komunikatu o pełnych wynikach ISEF 2026.
+
+| Liczba | Wartość |
+|---|---|
+| finalistów ISEF 2026 | ponad 1700 |
+| projektów nagrodzonych (łącznie z nagrodami specjalnymi) | ponad 540 |
+| **struktura Grand Awards w kategorii ENBM 2026** | **2 × I miejsce ($6 000), 5 × II ($2 400), 8 × III ($1 200), 10 × IV ($600)** |
+| razem nagrodzonych w ENBM | **25 projektów** |
+| projektów zawierających „EEG" na ISEF 2026 | **22** (wobec 8 w 2024 i 15 w 2025) |
+
+`[wniosek]` Przy ~1700 finalistach w 22 kategoriach średnia kategoria liczy ~77 projektów; ENBM należy do większych, więc szacuję **~90–100 projektów**. Przy 25 nagrodzonych daje to **~26% szans na jakąkolwiek nagrodę** i **~7% na miejsce I–II** dla przeciętnego uczestnika kategorii.
+
+### 3.1 Punkt kalibracyjny, najcenniejsza liczba w tym pliku
+
+`[fakt]` **ENBM079 (2026): *„Low-Cost EEG Device With Open-Source BCI"* — trzecia nagroda, $1 200.**
+
+Co ten projekt zrobił, wg własnego abstraktu: własna konstrukcja EEG o koszcie **poniżej 11 USD na kanał**, cztery iteracje projektowe, doklejony interfejs mózg-komputer, sterowanie diodami LED z **~52% trafnością** wskazania skupienia.
+
+**52% przy zadaniu dwuklasowym to jest ledwie nad rzutem monetą.** I to wystarczyło na trzecie miejsce w ENBM.
+
+`[wniosek]` To jest najbardziej informatywny pojedynczy punkt odniesienia, jaki mamy, i mówi dwie rzeczy naraz:
+- **domowej roboty EEG się kwalifikuje** i realnie zdobywa nagrody — próg wejścia jest niższy, niż się wydaje
+- **sam fakt zbudowania taniego EEG nie wystarcza na czołowe miejsce** — bo wynik był słaby i miejsce było trzecie
+
+Różnica między trzecim a drugim miejscem leży w rzemiośle pomiarowym, nie w budżecie.
+
+### 3.2 Z kim się przegrywa o pierwsze miejsce
+
+`[fakt]` Pierwsze miejsca w ENBM 2026: BREATHE (pęcherzyki zewnątrzkomórkowe w terapii uzależnienia od waporyzatorów) oraz Cost-Effective MalariaX (system optomechatroniczny z AI do diagnostyki malarii, projekt trzyosobowy z Tajlandii).
+
+`[wniosek]` To są projekty o zapleczu, którego licealista pracujący sam w domu nie ma. **Pierwsze miejsce w ENBM nie jest realistycznym celem planistycznym.** Może się zdarzyć; nie należy pod nie planować.
+
+### 3.3 Wzorzec metodologiczny, który wygrywa
+
+`[fakt]` Projekt referencyjny ENBM074 (2026) — drugie miejsce, $2 400 — zrobił to **na kupionym sprzęcie konsumenckim za 1 800 USD, nic nie budując**. Wygrał strukturą eksperymentu: warunek kontrolny na tym samym sprzęcie, 111 prób randomizowanych i kontrbalansowanych, replikacja na drugiej grupie, poprawka na wielokrotne porównania, rozmiar efektu, oraz test mechanizmu przez podwójną dysocjację.
+
+`[wniosek]` **To jest instrukcja.** Sekcja 9.2 handbooka zakazuje kopiowania tamtego rozwiązania — nie zakazuje kopiowania rzemiosła. Projekt, który dołoży własny sprzęt **do** takiej struktury eksperymentu, stoi wyżej niż tamten, bo tamten sprzętu nie miał.
+
+---
+
+## 4. Oszacowanie szans — Explory
+
+`[domysł]` Wszystkie liczby poniżej są moim oszacowaniem. Warunek nadrzędny dla całej tabeli: **urządzenie działa i ma zmierzone wyniki do września 2027**. Prawdopodobieństwo samego tego warunku jest w sekcji 5.
+
+| Etap | Baseline | Ten projekt | Dlaczego |
+|---|---|---|---|
+| zgłoszenie → półfinał | 44% | **~85%** | kryteria etapu I to znajomość tematu, wartość dodana, zastosowanie praktyczne. Projekt z udokumentowanym przeglądem literatury jest tu wyraźnie nad medianą stawki licealnej |
+| **półfinał → finał** | 16% | **~40–50%** | trzy z czterech kryteriów mierzą przemiał literatury i znajomość metod. **Podniesione z 30–40% po K-041** — użytkownik czytał plakaty finalistów i ocenia medianę stawki jako słabą (brak pomiarów albo pomiary za słabe). Obserwacja bezpośrednia bije moje wnioskowanie z metadanych |
+| finał → reprezentacja ISEF | 14% | **~20–30%** | działający przedmiot na stoisku plus pomiary. Ale finał ocenia też oddziaływanie społeczne i związek z SDG, gdzie projekty medyczne i środowiskowe mają naturalną przewagę |
+| **łącznie do ISEF** | 1,0% | **~8–11%** | |
+
+**Czyli około dziewięciokrotnie powyżej przeciętnej stawki** — i praktycznie cała ta przewaga pochodzi z jednego etapu, tego najwęższego.
+
+**Do tego dochodzi „Bilet na Finał"** jako niezależna droga przez to samo wąskie gardło. Nie wliczam jej do liczb, ale **przesuwa oszacowanie w górę, nie w dół** — i po uwadze użytkownika trzeba ją potraktować poważniej, niż to zrobiłem.
+
+`[fakt]` **Próg jest niski: w edycji 2026 plebiscyt wygrał projekt z 904 głosami**, przy ~18 tysiącach oddanych łącznie. To nie jest liczba wymagająca zasięgu medialnego — to jest liczba osiągalna przez szkołę, rodzinę i znajomych, przy dwóch tygodniach głosowania i limicie jednego głosu na projekt na osobę.
+
+`[wniosek]` **Interfejs mózg-komputer jest przy tym tematem wyjątkowo wdzięcznym w plebiscycie** — laik rozumie, o co chodzi, w jednym zdaniu, i jest to temat, który sam się opowiada. Konkurenci to kompensator napięcia dla fotowoltaiki i system nawadniania upraw.
+
+**Do wpisania w plan etapu 2 jako pozycja z terminem**, a nie jako pomysł awaryjny: przygotować krótkie wideo i grafikę **zanim** ruszy plebiscyt, bo głosowanie trwa krótko i wygrywa je ten, kto jest gotowy pierwszego dnia.
+
+---
+
+## 5. Oszacowanie szans — ISEF, licząc od momentu, w którym już tam jesteś
+
+**PRZELICZONE 15 VIII wieczorem** na żądanie użytkownika: *„a co do szans na ISEF, przelicz je jak już się dostanę"*. Poniższe liczby są **warunkowe** — zakładają, że reprezentacja jest zdobyta, projekt zbudowany i pomiary zrobione. To jest właściwe ujęcie do planowania, bo w chwili wylotu do USA lejek Explory jest już przeszłością i nie wpływa na nic.
+
+### 5.0 Liczba, której wcześniej nie użyłem, a jest najważniejsza
+
+`[fakt, dane organizatora, zweryfikowane na explory.pl/isef 15 VIII 2026]`
+
+> „Do tej pory Fundacja umożliwiła udział **53 młodym polskim innowatorom i innowatorkom**, którzy zdobyli łącznie **33 nagród i wyróżnień**."
+
+Na tej samej stronie, w innym miejscu: „Zdobyliśmy do tej pory na ISEF **31 różnych nagród i wyróżnień**. Dokonała tego grupa **50 naszych reprezentantów**." Dwie wersje liczb, prawdopodobnie z różnych momentów aktualizacji.
+
+**Stosunek: około 0,62 nagrody na reprezentanta.** Wobec bazowego wskaźnika ISEF rzędu **jednej trzeciej** (ponad 540 nagrodzonych projektów na ponad 1700 finalistów) to jest **prawie dwukrotnie więcej**.
+
+**Trzy zastrzeżenia, bez których ta liczba wprowadza w błąd:**
+1. to są **dane własne organizatora**, nieweryfikowalne niezależnie — handbook zaznaczał to już w sekcji 5.3
+2. mianownik jest niejednoznaczny: 53 to **osoby**, a projekty zespołowe liczą się jako kilka osób. Per projekt wskaźnik byłby wyższy, co czyni go jeszcze mniej wiarygodnym
+3. „nagrody i wyróżnienia" obejmują **nagrody specjalne partnerów i wyróżnienia**, nie tylko Grand Awards
+
+**Ale nawet po ostrożnym zdyskontowaniu** kierunek jest jednoznaczny: **polska reprezentacja wraca z ISEF z nagrodą częściej niż przeciętny finalista.** To ma sens mechanistycznie — Explory przepuszcza ~3 projekty z ~300 zgłoszeń, czyli sito krajowe jest ostrzejsze niż sito wielu targów regionalnych w USA, które wysyłają na ISEF znacznie większy odsetek swoich uczestników.
+
+### 5.1 Liczby warunkowe
+
+`[domysł]` Zakładając: jesteś na ISEF, urządzenie działa, pomiary są zrobione z warunkiem kontrolnym.
+
+| Wynik | Baseline ISEF | Baseline polskiej reprezentacji | **Ten projekt** |
+|---|---|---|---|
+| jakakolwiek nagroda (Grand lub specjalna) | ~32% | **~62%** | **~45–60%** |
+| Grand Award w kategorii | ~26% | — | **~30–40%** |
+| miejsce I–II w kategorii | ~7% | — | **~12–18%** |
+| I miejsce w kategorii | ~2% | — | **~3–5%** |
+
+**Dlaczego plasuję się poniżej historycznego wskaźnika polskiej reprezentacji (62%), a powyżej bazowego (32%):** wskaźnik 62% jest samoraportowany i liczony na osobach, więc go dyskontuję. Przewaga nad bazowym wynika z punktu kalibracyjnego z sekcji 3.1 — **ENBM079 zdobył trzecią nagrodę mając domowe EEG i 52% trafności przy zadaniu dwuklasowym.** Projekt, który dowozi własny sprzęt **plus** strukturę eksperymentu z sekcji 3.3, powinien plasować się wyżej.
+
+**Odpowiedź na pytanie „co wtedy": w chwili, gdy stoisz przy stoisku na ISEF, szansa na powrót z czymkolwiek to mniej więcej rzut monetą, a na miejsce I–II — jedna na sześć do jednej na osiem.** To jest zupełnie inna sytuacja niż liczby bezwarunkowe z sekcji 1, i różnica bierze się w całości z lejka Explory, nie z ISEF.
+
+### 5.2 Co z tego wynika dla planowania
+
+`[wniosek]` **Wąskim gardłem całego przedsięwzięcia nie jest ISEF, tylko przejście przez półfinał Explory.** Po dostaniu się do reprezentacji prawdopodobieństwo sukcesu rośnie skokowo — i to jest argument, żeby nakład pracy koncentrować na tym, co punktuje w półfinale (znajomość literatury, znajomość metod, prezentacja), a nie na tym, co robi wrażenie dopiero na ISEF.
+
+To jest odwrotność intuicji, która mówi „szykuj się na ISEF, Explory jakoś przejdzie".
+
+**Uzasadnienie odchylenia w górę:** punkt kalibracyjny z 3.1 (własny sprzęt + słaby wynik = trzecie miejsce) plus struktura eksperymentu z 3.3. Projekt, który dowozi jedno i drugie, powinien plasować się wyżej niż ENBM079.
+
+**Uzasadnienie, dlaczego nie wyżej:** kategoria rośnie (22 projekty EEG w 2026 wobec 8 w 2024), jurorzy ENBM będą znać to pole dobrze, a konkurencja o czołowe miejsca ma zaplecze instytucjonalne.
+
+### 5.1 Ryzyko dominujące — czy to w ogóle powstanie
+
+To jest większe ryzyko niż wszystkie oceny jurorskie razem wzięte, i musi stać osobno.
+
+Do zrobienia od zera: nauka projektowania PCB, budowa toru analogowego o szumie mikrowoltowym, elektrody suche przechodzące przez włosy, mocowanie na potylicy (gdzie nie ma zaczepu), obudowa z druku żywicznego, dekodowanie, kampania pomiarowa. Budżet czasu: **~350 h do kwietnia 2027, ~610 h do finału Explory, ~910 h do ISEF** przy 10 h/tydzień.
+
+| Zdarzenie | Oszacowanie |
+|---|---|
+| **cokolwiek działającego i zmierzonego do X 2027** | **~80%** |
+| **własny tor analogowy z kompensacją, z mierzalną poprawą** | **~50%** |
+| oba, plus dopracowana prezentacja | ~40% |
+
+**Dwie rzeczy z tej sesji istotnie obniżyły to ryzyko** i warto je nazwać, bo zmieniają plan na jesień 2026:
+
+1. **OpenBCI jako zapasowy tor.** Praca Knierima z 2023 pokazuje, że OpenBCI ma szum porównywalny ze wzmacniaczem badawczym w zapisach przyusznych. Można go kupić i mieć **działający pomiar EEG, zanim powstanie własna płytka** — czyli projekt ma demonstrację nawet w scenariuszu, w którym własny front-end się nie uda. To zamienia ryzyko „nie ma nic" na ryzyko „jest słabsze twierdzenie".
+2. **Dwa publiczne zbiory danych na licencji CC-BY.** Zbiór 102 osób z SSVEP na elektrodach mokrych i suchych oraz zbiór ear-EEG z paradygmatami sterowania. **Warstwę dekodowania można rozwijać od jesieni 2026, bez żadnego sprzętu.**
+
+`[wniosek]` Wniosek operacyjny, który z tego wynika i jest konkretny: **jesień 2026 nie musi być wyłącznie nauką PCB.** Może być równolegle: nauka PCB + pomiary na kupionym OpenBCI + dekodowanie na publicznych danych. Trzy fronty, z których dwa nie zależą od tego, czy własna płytka wyjdzie.
+
+### 5.2 Liczby łączne
+
+`[domysł]`
+
+| Cel | Prawdopodobieństwo |
+|---|---|
+| wyjazd na ISEF | 0,8 × 0,095 ≈ **~8%** |
+| jakakolwiek nagroda na ISEF | ≈ **~4%** |
+| **miejsce w kategorii (cel z handbooka)** | ≈ **~1,2%** |
+| Nagroda Główna Explory | ≈ **~2,5%** |
+| jakikolwiek wymierny sukces konkursowy (finał Explory, laureat OITwEiM, EUCYS) | **~50%** |
+
+---
+
+## 6. Trzy wymiary, nie jeden — i tu obraz się zmienia
+
+Handbook, sekcja 2.2, wymaga oceniania decyzji strategicznych w trzech wymiarach, nie tylko po szansach. Zastosowane:
+
+### Prawdopodobieństwo: niskie
+~0,8% dla celu postawionego wprost. **Mówię to bez łagodzenia.**
+
+### Sterowalność: nietypowo wysoka
+To jest najważniejsza rzecz w tym pliku.
+
+Wąskie gardło całego lejka (półfinał → finał, ~16%) jest oceniane w trzech czwartych po **znajomości literatury, znajomości metod i jakości prezentacji**. Wszystkie trzy zależą wyłącznie od Ciebie i od włożonej pracy. Żadna nie zależy od tego, czy pomiar wyjdzie, czy jury lubi temat, czy trafi się dobry rok.
+
+Porównaj z projektem, którego powodzenie zależy od tego, czy zmierzona wartość okaże się istotna statystycznie — tam sterowalność jest bliska zeru.
+
+**Do tego dochodzi twierdzenie pomiarowe zamiast twierdzenia o pierwszeństwie.** Trzy poprzednie kierunki tego projektu zginęły, bo ktoś opublikował to wcześniej. Twierdzenie „mój układ z kompensacją wobec mojego układu bez kompensacji, oto liczba" **nie może zginąć w ten sposób**. To usuwa dokładnie ten tryb porażki, który zabił ten projekt trzy razy.
+
+### Koszt porażki: niski, i to jest drugi powód, dla którego to jest dobry zakład
+
+Ścieżki porażki i co po nich zostaje:
+
+| Gdzie się urwie | Co zostaje |
+|---|---|
+| nie przejdzie kwalifikacji | umiejętność projektowania PCB, działający tor analogowy, przeczytana literatura |
+| odpadnie w półfinale | jw. plus doświadczenie prezentacyjne przed jury naukowym |
+| odpadnie w finale | jw. plus finał ogólnopolskiego konkursu w CV |
+| nie dostanie miejsca na ISEF | jw. plus wyjazd na największy konkurs naukowy świata |
+| **równolegle, niezależnie od Explory** | **OITwEiM** — olimpiada z przywilejami rekrutacyjnymi, etap centralny wymaga działającego prototypu, czyli **tego samego przedmiotu**; **EUCYS** — eliminacje krajowe do finału europejskiego, wejście przez „praca, która wygrała konkurs krajowy" |
+
+**Kluczowe: te ścieżki nie są alternatywami wobec siebie.** To jest jeden przedmiot i jeden przemiał literatury, zgłaszany do kilku konkursów o różnych terminach i różnych progach. Praca się nie dubluje.
+
+`[wniosek]` **Prawdopodobieństwo, że z tego projektu nie wyjdzie nic — ani konkursowo, ani umiejętnościowo — jest małe.** To jest inna sytuacja niż „szansa 1%", chociaż obie liczby są prawdziwe.
+
+---
+
+## 7. Co najmocniej przesunęłoby te liczby
+
+W kolejności stosunku efektu do nakładu:
+
+1. **Kupić OpenBCI teraz i mieć pierwszy własny zapis EEG jeszcze jesienią 2026.** Zamienia najgroźniejsze ryzyko (nic nie działa) na ryzyko łagodne (własna płytka nie bije kupionej). Odblokowuje też pomiary rozpoznawcze przed startem formalnego okna w maju 2027.
+2. **Ćwiczyć mówienie o projekcie.** Na ISEF rozmowa z jurorem jest warta **25 ze 100 punktów** — więcej niż jakakolwiek inna pojedyncza pozycja arkusza, i więcej niż plakat (10). W półfinale Explory prezentacja to 10 z 40. To jest jedyne kryterium w najwęższym miejscu lejka, w którym ten projekt **nie** jest jeszcze mocny.
+3. **Szkolne Explory jako darmowy dry-run** — ta sama rubryka co etap I, festiwal do końca lutego kwalifikuje do bieżącej edycji.
+4. **Świadomie wybrać obszar tematyczny przy zgłoszeniu** (sekcja 2.1) — konkurujesz o TOP 5 w obszarze, nie w całej stawce.
+5. **Zaplanować „Bilet na Finał"** jako drugą drogę przez wąskie gardło, a nie odkryć go w maju 2027.
+
+---
+
+## 8. Werdykt
+
+**Cel z handbooka — miejsce w kategorii na ISEF 2028 — ma prawdopodobieństwo rzędu 1% i nie należy planować pod niego jako pod wynik oczekiwany.**
+
+**Ale to nie jest ta sama sytuacja co „projekt bez szans", i różnica jest merytoryczna, nie pocieszająca:** wąskie gardło leży w miejscu, na które masz największy wpływ; twierdzenie projektu zostało tak sformułowane, że nie może zginąć od cudzej publikacji; a wszystkie ścieżki porażki zostawiają albo umiejętność, albo wpis do dorobku, albo jedno i drugie.
+
+**Jedna rzecz, która wymaga Twojej świadomej zgody, a nie mojej rekomendacji:** teza „jeden strzał" z sekcji 3 handbooka jest prawdziwa i potwierdzona regulaminem. Następny cykl koliduje z maturą. **To znaczy, że przy poślizgu harmonogramu nie ma dogrywki** — i dlatego termin kwietnia 2027 na działający prototyp, mimo że samonarzucony, warto potraktować poważnie.
+
+Jeżeli po przeczytaniu tego uznasz, że chcesz iść dalej — sekcja 11 handbooka mówi, że dopiero wtedy mogę dostać większą autonomię i zgodę na kompromisy. **Nie zaczynam iść na kompromisy samodzielnie i nie proszę o tę zgodę teraz**, bo nic jeszcze nie zawiodło.
+
+---
+
+# PRZELICZENIE PO AUDYCIE — 15 VIII 2026, wieczór
+
+**Zlecenie użytkownika po audycie:** przeliczyć szanse, bo trzy z czterech twierdzeń projektu okazały się zajęte.
+
+## A. Dlaczego liczby się nie ruszają — i dlaczego to nie jest wykręt
+
+Oszacowania w sekcjach 4 i 5 **nigdy nie były zbudowane na nowości**. Były zbudowane na dwóch punktach kalibracyjnych i na strukturze arkusza oceny:
+
+1. **ENBM079 (2026): domowe EEG za mniej niż 11 USD/kanał, 52% trafności przy zadaniu dwuklasowym → trzecia nagroda.** Ten projekt nie miał żadnej nowości względem literatury. Tanie EEG istnieje od lat, a 52% to ledwie nad przypadkiem.
+2. **ENBM074 (2026): nic nie zbudowano, sprzęt kupiony za 1 800 USD → druga nagroda.** Wygrał strukturą eksperymentu.
+
+**Ani jeden z tych punktów nie zależy od pierwszeństwa w literaturze światowej.** Audyt uderzył w warstwę, na której te liczby nie stały.
+
+**Potwierdzenie w regulaminie, nie w moim przekonaniu.** Arkusz inżynierski ISEF w całości: Research Problem 10, Design and Methodology 15, Execution 20, Creativity & Potential Impact 20, Presentation 35. **Nie istnieje kryterium „czy jest to nowe względem stanu literatury".** Wytyczne dla jurorów precyzują, jak czytać kreatywność: *„Judges should place emphasis on **research outcomes and analysis** in evaluating creativity and potential impact."*
+
+Regulamin Explory §7 pkt 2a: *„Projekt jest innowacyjny, nowatorski **i/lub wnosi dodatkową wartość** w dotychczasowy stan wiedzy"*. Alternatywa jest w tekście regulaminu.
+
+## B. Co drugie przejście audytu realnie zmieniło w liczbach
+
+| Składnik | Przed audytem | Po dwóch przejściach | Dlaczego |
+|---|---|---|---|
+| **P(cokolwiek działającego i zmierzonego do X 2027)** | 80% | **85%** | opublikowana, scharakteryzowana platforma ESP32+ADS1299 (arXiv 2601.01772) to gotowy przepis, nie zgadywanka |
+| **P(własny tor z kompensacją, mierzalna poprawa)** | 50% | **55%** | dwie zewnętrzne podpory: Kołodziej 2026 (+9 pp z kanału szczękowego) i Yang–Lin 2023 (sprzęt działa tam, gdzie cyfrowe metody zawodzą) |
+| zgłoszenie → półfinał | 85% | **85%** | bez zmian |
+| półfinał → finał | 40–50% | **40–50%** | bez zmian; opiera się na kryteriach §7 i na ocenie stawki przez użytkownika |
+| finał → reprezentacja | 20–30% | **20–30%** | bez zmian |
+| P(nagroda \| na ISEF) | 45–60% | **45–60%** | bez zmian; oparte na ENBM079 i na wskaźniku polskiej reprezentacji |
+| P(Grand Award w kategorii \| na ISEF) | 30–40% | **30–40%** | bez zmian |
+| P(miejsce I–II \| na ISEF) | 12–18% | **12–18%** | bez zmian |
+| **ryzyko: grupa z PW publikuje pierwsza** | dziesiątki procent | **10–20%** | to zespół algorytmiczny, bez ani jednej pracy sprzętowej w dorobku |
+
+## C. Liczby łączne po audycie
+
+| Cel | Przed | **Po audycie** |
+|---|---|---|
+| wyjazd na ISEF | ~8% | **~8%** |
+| jakakolwiek nagroda na ISEF | ~4% | **~4%** |
+| **miejsce w kategorii (cel z handbooka)** | ~1,2% | **~1,2%** |
+| Nagroda Główna Explory | ~2,5% | ~2,5% |
+| jakikolwiek wymierny sukces konkursowy | ~50% | **~52%** |
+
+**Audyt nie ruszył liczb, bo liczby nie stały na nowości. Ruszył za to ryzyko techniczne — w dół.**
+
+## D. Jedno ryzyko, które audyt podniósł, i jest sterowalne
+
+**Rozmowa z jurorem, 25 punktów ze 100.** Juror z ENBM znający dziedzinę może zapytać: „czym to się różni od Kołodzieja 2026?".
+
+- **odpowiedź nieprzygotowana** — kosztuje istotną część tych 25 punktów i podważa wiarygodność całego projektu
+- **odpowiedź przygotowana** — jest jednym z najmocniejszych momentów prezentacji, bo pokazuje znajomość literatury na poziomie pojedynczej pracy sprzed roku, umiejętność wyprowadzenia z niej zadania, i jego wykonanie
+
+To ryzyko **w całości leży po stronie przygotowania**, czyli w wymiarze o najwyższej sterowalności. Do wpisania w plan etapu 2 jako pozycja obowiązkowa: **przygotować i przećwiczyć odpowiedź na pytanie o odróżnienie od Kołodziej 2026 i od PNAS 2025.**
+
+## E. Werdykt po audycie
+
+**Cel z handbooka — miejsce w kategorii na ISEF — nadal ma prawdopodobieństwo rzędu 1,2%, i to się nie zmieniło.**
+
+Zmieniło się co innego: **przed audytem to była liczba oparta na czterech twierdzeniach, z których żadne nie było sprawdzone do końca. Po audycie jest oparta na jednym twierdzeniu, sprawdzonym w dwóch przejściach, dwóch bazach, patentach i dorobku konkurenta — z trzema zewnętrznymi podporami i policzonym ryzykiem utraty pierwszeństwa.**
+
+To jest ta sama liczba o zupełnie innej jakości. Ocena szans wystawiona na niesprawdzonych założeniach jest bezwartościowa niezależnie od wysokości — tak mówi błąd nr 5 z sekcji 8 handbooka. Ta już taka nie jest.
+
+---
+
+# F. SZANSE ROZBITE NA POSZCZEGÓLNE WYNIKI — Explory i ISEF osobno
+
+**Zlecenie użytkownika:** podać osobno szanse na wyniki w Explory, oraz jeszcze raz szanse na ISEF liczone od momentu dostania się tam.
+
+`[domysł]` Wszystkie prawdopodobieństwa poniżej są moim oszacowaniem. Twarde są tylko liczby bazowe (kolumna „baza"), pochodzące z list finalistów i regulaminów.
+
+---
+
+## F.1 Założenia techniczne, na których stoi cała tabela
+
+| Zdarzenie | Prawdopodobieństwo | Dlaczego |
+|---|---|---|
+| urządzenie działa i ma pomiary **do maja 2027** (półfinał) | **~70%** | krótszy termin, ale wystarczy wersja na kupionym ADS1299 |
+| urządzenie działa i ma pomiary **do października 2027** (finał) | **~85%** | pięć dodatkowych miesięcy; opublikowany przepis ESP32+ADS1299 |
+| własny tor z kompensacją, z mierzalną poprawą | **~55%** | to jest wkład naukowy, i to jest najbardziej niepewna pozycja |
+
+**Rzecz, która obniża zależność od sprzętu na wejściu:** regulamin Explory nie wymaga ukończonego projektu przy zgłoszeniu, a kryteria etapu I (znajomość tematu, wartość dodana, praktyczne zastosowanie) są spełnialne samym przemiałem literatury i jasno postawionym twierdzeniem.
+
+---
+
+## F.2 Explory — wynik po wyniku
+
+| Wynik | Baza (2026) | Warunkowo, gdy dojdzie do tego etapu | **Łącznie** |
+|---|---|---|---|
+| **kwalifikacja do półfinału** | 133 z ~300 → 44% | ~85% | **~85%** |
+| **awans do finału** | 21 ze 133 → 16% | ~45% jeśli sprzęt działa w V 2027, ~20% jeśli nie | **~32%** |
+| **reprezentacja Polski na ISEF** | 3 z 21 → 14% | ~25% | **~8%** |
+| **Nagroda Zrównoważonego Rozwoju** (3 × do 5 000 zł — **poprawione 18 VIII 2026, K-080**; było 7 500 zł) | 3 z 21 → 14% | ~17% | **~5,5%** |
+| **Nagroda Specjalna Partnera** (3 000 zł) | kilka na 21 | ~25% | **~8%** |
+| **Nagroda Publiczności** | 1 z 21 → 5% | ~12% | **~4%** |
+| **Nagroda Główna** (15 000 zł) | 1 z 21 → 5% | ~10% | **~3%** |
+| **jakakolwiek nagroda finansowa w Explory** | — | ~40% | **~13%** |
+
+**Trzy uwagi, bez których ta tabela wprowadza w błąd:**
+
+1. **Te wyniki się nie wykluczają.** Emil Pająk w 2025 zdobył Nagrodę Główną **i** wyjechał na ISEF. Sumowanie wierszy nie ma sensu.
+2. **Wiersz „awans do finału" nie uwzględnia plebiscytu „Bilet na Finał"** — drugiej, niezależnej drogi przez to samo wąskie gardło. Próg to **904 głosy** (edycja 2026). Nie wliczam go, bo nie umiem oszacować mobilizacji, ale **przesuwa wiersz finałowy w górę**, a wszystkie pod nim razem z nim.
+3. **Nagroda Publiczności jest zaniżona względem realnych szans tego tematu.** Interfejs mózg-komputer opowiada się laikowi w jednym zdaniu; konkurencja w plebiscycie 2026 to kompensator napięcia dla fotowoltaiki i system nawadniania upraw.
+
+---
+
+## F.3 ISEF — od momentu, w którym już tam jesteś
+
+Poniższe **nie zawiera** lejka Explory. To są szanse w chwili, gdy stoisz przy stoisku w USA.
+
+| Wynik | Baza ISEF | Baza polskiej reprezentacji | **Ten projekt** |
+|---|---|---|---|
+| **jakakolwiek nagroda** (Grand lub specjalna) | ~32% | ~62% `[dane organizatora]` | **45–60%** |
+| **Grand Award w kategorii** (I–IV miejsce) | ~26% | — | **30–40%** |
+| **miejsce I–II** | ~7% | — | **12–18%** |
+| **I miejsce** | ~2% | — | **3–5%** |
+
+**Struktura nagród w ENBM 2026, dla orientacji, co te procenty znaczą:** 2 × I miejsce (6 000 USD), 5 × II (2 400), 8 × III (1 200), 10 × IV (600) — razem **25 nagrodzonych projektów** przy szacowanych 90–100 startujących w kategorii.
+
+**Punkt kalibracyjny, do którego wracam trzeci raz, bo jest najważniejszy:** **ENBM079 — domowe EEG poniżej 11 USD na kanał, 52% trafności przy zadaniu dwuklasowym — trzecia nagroda, 1 200 USD.** Projekt bez żadnej nowości względem literatury, ze słabym wynikiem. To jest próg, nad którym trzeba się znaleźć, a nie PNAS i nie Imperial College.
+
+---
+
+## F.4 Zestawienie końcowe — trzy poziomy ambicji
+
+| Cel | Prawdopodobieństwo | Uwaga |
+|---|---|---|
+| **finał Explory** | **~32%** | plus plebiscyt, nieuwzględniony |
+| **jakakolwiek nagroda finansowa w Explory** | ~13% | |
+| **wyjazd na ISEF** | **~8%** | |
+| **jakakolwiek nagroda na ISEF** | **~4%** | 0,08 × 0,5 |
+| **Grand Award w kategorii ISEF** | **~2,8%** | 0,08 × 0,35 |
+| **miejsce I–II na ISEF (cel z handbooka)** | **~1,2%** | 0,08 × 0,15 |
+| **jakikolwiek wymierny sukces konkursowy** (finał Explory, laureat OITwEiM, EUCYS) | **~52%** | trzy niezależne ścieżki, jedna praca |
+
+**Zdanie, które warto mieć na oku przy czytaniu tej tabeli:** różnica między pierwszym a ostatnim wierszem to nie jest różnica w jakości projektu — to jest różnica w tym, ile niezależnych sit trzeba przejść. **Projekt jest ten sam; sit jest siedem.**

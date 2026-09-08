@@ -62,6 +62,23 @@ en.wikipedia.org
 
 **Do czasu odblokowania robię wszystko, co nie zależy od sieci** — czyli ten plik, `KOREKTY.md` i strukturę repozytorium.
 
+### AKTUALIZACJA, 15 VIII 2026 — sesja etapu 1
+
+**Blokada nie została zdjęta — i znana jest przyczyna.**
+
+`[fakt]` Użytkownik ustawił `Network access: Full` poprawnie, ale na **nowym** środowisku „Projekty Full Acess" (`env_01USAAMBR9QZf9W8ERvrVkEA`, utworzone 15 VIII o 07:42). Ta sesja została utworzona o 09:10 i jest przypisana do środowiska **„Projekty"** (`env_01NdKrhepeQo6dVAHusCvQFj`, domyślne z onboardingu, 14 VIII).
+
+**Polityka sieciowa idzie ze środowiska sesji i sesji nie da się przenieść między środowiskami.** Restart kontenera o 14:00 nic nie zmienił — 403 utrzymuje się na tunelu kontenera, w narzędziu WebFetch i w bezpośrednim curl-u.
+
+**Rozwiązanie: nowa sesja założona w środowisku „Projekty Full Acess".** Nie zmieniać już ustawień — są prawidłowe.
+
+**Zmiana decyzji względem powyższego: etap 1 został mimo to wykonany w części, w której da się to zrobić uczciwie.** Powód: druga sesja bez żadnego produktu byłaby gorsza niż produkt z jawnie oznaczonym statusem źródłowym. Podział:
+
+- **wykonane** — literatura naukowa (pliki `01`–`07`), z oznaczeniem `[wniosek, streszczenie]` przy każdej liczbie i z bibliografią, w której widać, czego nie otwarto
+- **niewykonane** — dokumenty regulaminowe (ISEF International Rules, regulamin Explory, baza abstraktów, listy finalistów). Tu parafraza streszczenia byłaby błędem nr 5 z sekcji 8 handbooka, a dokument regulaminowy stoi na szczycie hierarchii z sekcji 13
+
+Pełne postawienie sprawy: `00_STRESZCZENIE.md` sekcja 0. Lista pozycji otwartych: `README.md`.
+
 ---
 
 ## 1. Błędy i rozbieżności znalezione w samym handbooku

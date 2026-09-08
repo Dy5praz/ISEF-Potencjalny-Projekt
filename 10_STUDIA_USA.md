@@ -1,0 +1,765 @@
+# 10 — Studia w USA. Cel nadrzędny
+
+**Stan na 21 sierpnia 2026.** **To jest cel nadrzędny — Explory i ISEF są do niego drogą, nie celem samym w sobie.**
+
+---
+
+## 1. Znalezisko, które przestawia cały kalendarz
+
+Użytkownik zaczyna **drugą klasę we wrześniu 2026**, matura **maj 2029**, studia od **września 2029**.
+
+`[fakt]` Aplikacje do uczelni w USA składa się **jesienią 2028**, decyzje zapadają w **marcu 2029**.
+
+> ## ISEF 2029 (maj 2029) jest PO decyzjach rekrutacyjnych i NIE WCHODZI do aplikacji.
+> ## Jedynym ISEF-em, który liczy się dla celu nadrzędnego, jest MAJ 2028 — czyli ścieżka przez Explory 2027.
+
+**Konsekwencja:** logika planu dwuletniego obowiązuje dla wartości konkursowej i naukowej, ale **nie rekrutacyjnej**. Pod rekrutację liczy się jeden strzał, ten wcześniejszy. Harmonogram trzeba przeliczyć pod jeden cykl — pozycja otwarta nr 1.
+
+---
+
+## 2. Uczelnie — stan wiedzy zweryfikowany
+
+Użytkownik wymienił: **Olin College, Georgia Tech, coś z Carnegie w nazwie (CMU)**. MIT jako marzenie uznane przez niego za nierealne. **17 VIII 2026 dopisał Caltech i Stanford — sekcja 2.6.**
+
+### 2.1 Tabela porównawcza
+
+| | **MIT** | **Carnegie Mellon** | **Georgia Tech** | **Olin College** |
+|---|---|---|---|---|
+| **rekrutacja na kierunek** | `[fakt]` **ślepa na kierunek** — kierunek wybiera się wiosną I roku | `[fakt]` **aplikuje się do konkretnej szkoły / programu** | `[luka]` nieustalone | `[fakt]` tylko 3 kierunki, patrz niżej |
+| **pomoc finansowa dla obcokrajowców** | `[fakt]` **need-blind + pełne pokrycie potrzeby**; przy dochodzie rodziny **< 200 000 USD — bez czesnego** | `[fakt]` deklaruje pokrycie pełnej udokumentowanej potrzeby, dane obejmują obcokrajowców. `[luka]` need-blind czy need-aware — **nieustalone** | `[fakt]` **studenci zagraniczni nie kwalifikują się do pomocy federalnej i stanowej, a stypendia własne uczelni „często nie są przyznawane studentom zagranicznym"** | `[fakt]` każdy przyjęty dostaje **10 000 USD/rok**; przy udokumentowanej potrzebie deklarowane pokrycie pełnej potrzeby. **2. miejsce w USA za pomoc finansową**, Princeton Review 2026 |
+| **aerospace** | tak (AeroAstro) | `[luka]` do sprawdzenia | tak — jeden z czołowych programów w USA | **NIE — patrz 2.2** |
+| **wskaźnik przyjęć** | ~4,7% ogólny; `[wniosek]` dla obcokrajowców rzędu **1,5–3%** | ~11% ogólny | ~15% ogólny, ~9% spoza stanu | 13–25% zależnie od rocznika; obcokrajowcy to **6% studentów** |
+| **werdykt finansowy** | **najłatwiejszy z całej czwórki** | wykonalny | **teoretyczny bez gotowości na pełną cenę** (~200–240 tys. USD za 4 lata) | wykonalny |
+
+### 2.2 Olin — trzy kierunki i brak aerospace
+
+`[fakt]` Olin oferuje **trzy kierunki akredytowane ABET**: Engineering (ogólny), Electrical and Computer Engineering, Mechanical Engineering.
+
+Koncentracje w ramach ogólnego Engineering: Computing (E:C), Bioengineering (E:BE), Materials Science (E:MS), Systems Design (E:SYS), albo **własna, zatwierdzana przez uczelnię**.
+
+**Aerospace nie istnieje jako kierunek. Osobnego Computer Science też nie ma.**
+
+`[wniosek]` Przy celu aerospace Olin schodzi z listy albo wymaga obejścia przez mechanikę z własną koncentracją — a **był tą uczelnią z trójki, do której profil użytkownika pasował najlepiej.** To jest realny koszt zmiany kierunku studiów i trzeba go widzieć teraz.
+
+### 2.3 Olin — dlaczego pasuje profilowi użytkownika
+
+`[fakt]` **Rekrutacja dwuetapowa.** Po pierwszym sicie zapraszają **275–300 kandydatów** na *Candidates' Weekend*: panele, wywiad i **zespołowe ćwiczenie projektowe**, po którym komisja podejmuje decyzję. Obcokrajowcy mogą uczestniczyć zdalnie. Terminy w cyklu 2027: 19–20 II, 26–27 II, 5–6 III; analogicznie **luty–marzec 2029** dla użytkownika.
+
+`[wniosek]` To jest proces nagradzający kogoś, kto od dwóch lat buduje urządzenie i umie na żywo rozłożyć problem projektowy — a omijający arms race wyników testów. **Jedyna z czwórki, gdzie profil użytkownika jest przewagą, a nie dodatkiem.**
+
+### 2.4 Wniosek o aerospace
+
+`[wniosek]` **Cel aerospace przesuwa środek ciężkości w stronę MIT**, i jest to kontrintuicyjne: uczelnia rekrutacyjnie najtrudniejsza jest jednocześnie tą, w której **najmniej ryzykuje się niedopasowaniem tematu projektu** (rekrutacja ślepa na kierunek) i **najmniej ryzykuje się finansowo**.
+
+Georgia Tech to jeden z czołowych programów aerospace w USA i naturalny cel merytoryczny — pozostaje teoretyczny bez gotowości rodziny na pełną cenę.
+
+**Poprawka po dopisaniu Stanforda (sekcja 2.6):** MIT nie jest już jedyną uczelnią łączącą aerospace na licencjacie z rekrutacją ślepą na kierunek. **Stanford ma jedno i drugie** i wchodzi na drugie miejsce listy aerospace, za MIT wyłącznie z powodu pomocy finansowej.
+
+### 2.5 Czy interfejs neuralny „przechodzi" na aerospace
+
+`[wniosek]` Temat projektu waży mniej, niż się wydaje — **komisje czytają, co kandydat potrafi, nie co go interesowało w drugiej klasie.** Zbudowany tor analogowy, własny czujnik, kampania pomiarowa z warunkiem kontrolnym i budżetem niepewności to kompetencje, które aerospace czyta bez problemu — przyrządy pomiarowe i systemy sterowania są rdzeniem tej dziedziny.
+
+**Zastrzeżenie:** przy CMU, gdzie program wybiera się w aplikacji, rozjazd między projektem a kierunkiem jest widoczny i wymaga jednego zdania wyjaśnienia w eseju. Przy MIT nie ma tego problemu w ogóle.
+
+**To nie jest argument za zmianą projektu.** Projekt zmieniano w tej sesji sześć razy; informacja służy decyzji o uczelniach.
+
+---
+
+## 2.6 Caltech i Stanford — dopisane 17 VIII 2026 na życzenie użytkownika
+
+Sprawdzone w źródłach pierwotnych: strony rekrutacji i pomocy finansowej obu uczelni, katalog Caltechu, biuletyn Stanforda, Common Data Set.
+
+### 2.6.1 Tabela
+
+| | **Caltech** | **Stanford** |
+|---|---|---|
+| **rekrutacja na kierunek** | `[fakt]` **ślepa na kierunek** — „option" (odpowiednik kierunku) wybiera się **na koniec pierwszego roku** | `[fakt]` **ślepa na kierunek** — deklaruje się zainteresowanie, nie aplikuje do programu |
+| **aerospace na licencjacie** | `[fakt]` **NIE.** Aerospace istnieje jako **minor** (uzupełnienie kierunku) i jako **option doktorancko-magisterski** w GALCIT. Najbliższy kierunek to Mechanical Engineering | `[fakt]` **TAK — B.S. in Aeronautics and Astronautics**, program licencjacki otwarty jesienią 2017 |
+| **pomoc dla obcokrajowców** | `[fakt]` **need-aware.** Dosłownie: *„We are need-aware for international students because the total amount of financial aid funds for international students is limited"* oraz *„This limitation may result in financial need being a factor in the Institute's admissions decisions for international applicants"* | `[fakt]` **need-aware.** Dosłownie: *„your request for financial aid will be a factor in our admission evaluation"*; *„financial aid resources are limited for international citizens"* |
+| **czy pokrywa pełną potrzebę po przyjęciu** | `[fakt]` tak — *„committed to meeting the full demonstrated financial need of all admitted students"* | `[fakt]` tak, **bez pożyczek**, niezależnie od obywatelstwa |
+| **progi dochodowe** | `[fakt]` dochód < **100 000 USD** — pakiet bez pożyczek pokrywający czesne, opłaty, mieszkanie i wyżywienie; < **200 000 USD** — pokryte czesne | `[fakt]` dochód < **100 000 USD** — bez czesnego, akademika i wyżywienia; **100–150 tys.** — bez czesnego (rok 2025/26) |
+| **pułapka proceduralna** | `[fakt]` **o pomoc trzeba wystąpić razem z aplikacją.** Kto nie wystąpił albo dostał odmowę na pierwszym roku, **nie ma prawa do pomocy przez całe studia** | `[fakt]` **to samo:** kto zadeklarował, że nie będzie wnioskował, **nie może wnioskować przez cztery lata** |
+| **skala** | `[fakt]` ~990 studentów licencjatu **w całej uczelni**; klasa 2030: **428 przyjętych**, 43 stany, 23 kraje. `[domysł, źródła wtórne]` wskaźnik przyjęć ~3,5% | `[fakt, jedno źródło — opracowanie CDS 2025/26]` **57 326 zgłoszeń, 2 067 ofert, 3,8%**. `[fakt]` obcokrajowcy to **12,7%** rocznika 2029 |
+| **testy** | `[fakt]` SAT albo ACT **wymagany** ponownie; **wymagany egzamin z angielskiego** dla obcokrajowców (TOEFL, IELTS albo Duolingo) | `[fakt]` SAT albo ACT **wymagany** od rocznika aplikującego jesienią 2025; `[fakt]` **egzamin z angielskiego nie jest wymagany** |
+
+`[fakt, jedno źródło — odczyt z Common Data Set Caltechu, tabela H6]` Instytucjonalną pomoc finansową dostało **63 studentów zagranicznych** ze średnią **~82 700 USD**. To jest miara tego, co znaczy „ograniczona pula": przy ~990 studentach licencjatu mówimy o kilkudziesięciu osobach na całej uczelni.
+
+### 2.6.2 Co te dwie uczelnie zmieniają, a czego nie zmieniają
+
+**Nie zmieniają reguły finansowej.** `[wniosek]` **MIT pozostaje jedyną uczelnią z całej szóstki, która jest need-blind wobec obcokrajowców i pokrywa pełną potrzebę.** Caltech i Stanford są need-aware — czyli **sam wniosek o pomoc obniża szansę przyjęcia**, i jest to zapisane wprost, nie domniemane. Dopisanie ich do listy nie rozwiązuje problemu pieniędzy, tylko dokłada dwie loterie.
+
+Kolejność bezpieczeństwa finansowego, po aktualizacji:
+
+**MIT** (need-blind, pełna potrzeba) → **Olin** (10 000 USD dla każdego + pełna potrzeba) → **Stanford ≈ Caltech ≈ CMU** (need-aware, ale pełna potrzeba po przyjęciu) → **Georgia Tech** (brak pomocy dla obcokrajowców).
+
+**Zmieniają obraz aerospace.** `[wniosek]` Stanford jest **jedyną uczelnią poza MIT**, która daje jednocześnie: aerospace na licencjacie, rekrutację ślepą na kierunek i pełne pokrycie potrzeby po przyjęciu. Przy celu aerospace to jest druga pozycja listy. **Caltech przy celu aerospace jest najsłabszy z całej szóstki** — kierunku nie ma, jest minor przy mechanice; ma sens dopiero wtedy, gdy cel przesunie się w stronę fizyki i badań, gdzie Caltech jest bezkonkurencyjny.
+
+**Uwaga o skali Caltechu:** `[wniosek]` 428 przyjętych na cały rocznik, w tym obcokrajowcy z 23 krajów, przy need-aware i puli rzędu kilkudziesięciu stypendiów — to jest najostrzejsze sito z całej szóstki i najmniej przewidywalne. Nie jest to powód, żeby nie aplikować; jest to powód, żeby nie budować wokół Caltechu żadnej decyzji.
+
+---
+
+## 2.7 Progi dochodowe w złotówkach — stan na 17 VIII 2026
+
+`[fakt]` Przelicznik: **kurs średni NBP z 17 VIII 2026, tabela 158/A/NBP/2026: 1 USD = 3,7137 zł.** Wszystkie kwoty poniżej są przy tym kursie i zmienią się razem z nim — przy 4,20 zł progi rosną o ~13%.
+
+### 2.7.1 Maksymalny dochód rodziny, przy którym uczelnia nie bierze pieniędzy
+
+| Uczelnia | **Bez czesnego, jeżeli dochód poniżej** | **Zero wkładu rodziny (czesne + mieszkanie + wyżywienie), jeżeli dochód poniżej** |
+|---|---|---|
+| **MIT** | **743 000 zł** (200 000 USD) | **371 000 zł** (100 000 USD) |
+| **Caltech** | **743 000 zł** (200 000 USD) | **371 000 zł** (100 000 USD), pakiet bez pożyczek |
+| **Stanford** | **557 000 zł** (150 000 USD) | **371 000 zł** (100 000 USD) |
+| **Carnegie Mellon** | `[luka]` progu nie publikuje — deklaruje pokrycie pełnej udokumentowanej potrzeby | `[luka]` |
+| **Olin** | `[luka]` progu nie publikuje; **37 000 zł/rok (10 000 USD) dostaje każdy przyjęty** niezależnie od dochodu, reszta wg potrzeby | `[luka]` |
+| **Georgia Tech** | **progu nie ma, bo nie ma pomocy** dla obcokrajowców | — |
+
+`[fakt]` Wszystkie progi mają dopisek **„with typical assets"** — czyli liczy się majątek, nie sam dochód. Drugie mieszkanie, firma, gospodarstwo, znaczne oszczędności podnoszą oczekiwany wkład niezależnie od tego, po której stronie progu leży dochód.
+
+`[wniosek]` Progi opisują **sposób liczenia pomocy po przyjęciu**, nie prawdopodobieństwo przyjęcia. Na Caltechu, Stanfordzie i CMU wniosek o pomoc jest jednocześnie czynnikiem w decyzji rekrutacyjnej (sekcja 2.6).
+
+### 2.7.2 Ile kosztuje rok bez pomocy — cena katalogowa
+
+| Uczelnia | Rok akademicki | W złotówkach |
+|---|---|---|
+| **Caltech** 2026/27 | 93 225 USD kosztów bezpośrednich, **98 622 USD** pełnego kosztu (+ ubezpieczenie zdrowotne ~5 049 USD) | **~366 000 zł**, z ubezpieczeniem ~385 000 zł |
+| **Olin** 2026/27 | 97 088 USD, minus 10 000 USD dla każdego przyjętego | **~323 000 zł** po odjęciu stypendium |
+| **Carnegie Mellon** 2026/27 | **93 614 USD** | **~348 000 zł** |
+| **MIT** 2026/27 | **92 760 USD** | **~344 000 zł** |
+| **Stanford** 2026/27 | 67 731 USD czesnego + 22 944 USD mieszkania i wyżywienia = **90 675 USD** | **~337 000 zł** |
+| **Georgia Tech** | ~200–240 tys. USD za cztery lata (`32` sekcja 2.1) | **~186–223 000 zł rocznie** |
+
+**Cztery lata pełnej ceny: rzędu 1,3–1,4 mln zł.**
+
+### 2.7.3 Wniosek, który jest ważniejszy od tabel
+
+`[wniosek]` **Dla polskiej rodziny próg dochodowy prawie nigdy nie jest tym, co ogranicza.** Żeby przekroczyć próg 200 000 USD, gospodarstwo domowe musiałoby mieć **ponad 62 000 zł brutto miesięcznie**. Żeby przekroczyć próg 100 000 USD, czyli granicę „zero wkładu" — **ponad 31 000 zł brutto miesięcznie**.
+
+Praktycznie: **przy typowym polskim dochodzie MIT i Caltech nie biorą czesnego, a jeżeli dochód mieści się poniżej ~371 tys. zł rocznie, MIT nie bierze nic.**
+
+**Co realnie ogranicza, w kolejności:**
+
+1. **Przyjęcie.** 1–3% i to jest cała gra
+2. **Need-aware.** Na Caltechu, Stanfordzie i CMU wniosek o pomoc obniża szansę przyjęcia. Na MIT nie obniża — to jest cała różnica między nimi
+3. **Majątek, nie dochód.** Formularz CSS Profile pyta o wartość nieruchomości, oszczędności, firmę i o oboje rodziców, także rozwiedzionych. `[luka]` **Nie sprawdzałem, jak poszczególne uczelnie traktują wartość mieszkania rodzinnego** — to jest pozycja do zamknięcia przed jesienią 2028, bo potrafi przesunąć wynik o kilkadziesiąt tysięcy złotych rocznie
+4. **Koszty poza rachunkiem uczelni:** przelot, wiza, ubezpieczenie zdrowotne (na Caltechu ~19 000 zł rocznie, dla obcokrajowców zwykle obowiązkowe), wydatki osobiste. Pomoc finansowa zwykle pokrywa część z nich, ale nie wszystkie
+5. **Dowód wypłacalności do wizy studenckiej (I-20)** — wymagany nawet wtedy, gdy pomoc pokrywa całość
+
+`[fakt]` Wszystkie kwoty przeliczane są przez uczelnię z dochodu podanego w formularzu; **kurs walutowy jest realnym ryzykiem po stronie rodziny**, bo próg jest w dolarach, a dochód w złotych.
+
+---
+
+## 2.8 Rozszerzona lista uczelni — dopisana 17 VIII 2026
+
+Dwie kategorie, o które prosił użytkownik: **I — aerospace i kierunki pokrewne**, **II — pod tematykę tego projektu** (elektronika, przetwarzanie sygnału, inżynieria biomedyczna, neurotechnologia).
+
+**Filtr nadrzędny, ten sam dla obu kategorii:** obcokrajowiec potrzebujący pomocy finansowej. Uczelnia bez pomocy dla obcokrajowców jest na tej liście pozycją teoretyczną, niezależnie od jakości programu.
+
+### 2.8.0 Trzy poziomy polityki finansowej — słownik
+
+| Poziom | Co znaczy | Konsekwencja |
+|---|---|---|
+| **need-blind + pełna potrzeba** | wniosek o pomoc **nie wpływa** na decyzję o przyjęciu, a po przyjęciu uczelnia pokrywa całą wyliczoną potrzebę | **jedyny poziom bez ukrytego kosztu** |
+| **need-aware + pełna potrzeba** | wniosek o pomoc **jest czynnikiem** w decyzji, ale po przyjęciu potrzeba jest pokryta | płaci się szansą przyjęcia, nie pieniędzmi |
+| **stypendia za osiągnięcia** | pomoc nie zależy od dochodu, tylko od dorobku; osobny wniosek, osobny konkurs | **tu dorobek ISEF pracuje najmocniej** |
+
+`[fakt]` Uczelni **need-blind wobec obcokrajowców jest w USA mniej niż dziesięć**: Harvard, Yale, Princeton, MIT, Dartmouth, Amherst, Bowdoin, Washington and Lee, **Brown** (od rocznika 2029) i **Notre Dame** (od rocznika 2029). Wszystkie pokrywają pełną potrzebę.
+
+---
+
+### 2.8.1 Kategoria I — aerospace i kierunki pokrewne
+
+| Uczelnia | Kierunek na licencjacie | Polityka wobec obcokrajowców | Uwaga |
+|---|---|---|---|
+| **MIT** | `[fakt]` AeroAstro (Course 16) | **need-blind + pełna potrzeba** | pozycja niezmieniona: najtrudniejszy rekrutacyjnie, najłatwiejszy finansowo |
+| **Princeton** | `[fakt]` Wydział **Mechanical and Aerospace Engineering** daje trzy osobne dyplomy B.S.E., w tym **Aerospace Engineering** | `[fakt]` **need-blind + pełna potrzeba, granty zamiast pożyczek.** Jedna z niecałych dziesięciu uczelni, które nie limitują pomocy dla obcokrajowców | **największe znalezisko tej listy.** Ta sama polityka finansowa co MIT, osobny dyplom z aerospace. `[fakt]` **Żadnych stypendiów za osiągnięcia — wyłącznie potrzeba** |
+| **Notre Dame** | `[fakt]` **B.S. in Aerospace Engineering**, akredytacja ABET, osobny wydział Aerospace and Mechanical Engineering | `[fakt]` **need-blind od rocznika 2029 + pełna potrzeba, bez pożyczek** | `[fakt]` wskaźnik przyjęć ~9%, obcokrajowcy 8% rocznika — **najłagodniejsze sito z całej grupy need-blind** |
+| **Stanford** | `[fakt]` B.S. Aeronautics and Astronautics | need-aware + pełna potrzeba | sekcja 2.6 |
+| **Caltech** | `[fakt]` **brak** — aerospace tylko jako minor | need-aware + pełna potrzeba | sekcja 2.6 |
+| **Georgia Tech** | czołowy program w USA | **brak pomocy** | pozycja teoretyczna |
+| **USC** | `[fakt]` **Astronautical Engineering** jako osobny kierunek — rzadkość | `[fakt]` **stypendium Trustee: pełne czesne, ~100 osób rocznie, obcokrajowcy się kwalifikują** | ścieżka „za osiągnięcia", nie „za potrzebę" |
+| **Purdue, Michigan, UIUC, Texas A&M, Virginia Tech** | czołowe programy aerospace | `[luka]` **niesprawdzone imiennie**, ale to uczelnie publiczne, a dla Georgia Tech potwierdzono brak pomocy dla obcokrajowców | `[wniosek]` traktować jak Georgia Tech do czasu sprawdzenia |
+| **Cornell** | `[luka]` aerospace jako specjalizacja przy mechanice, nie sprawdzone | need-aware + pełna potrzeba | do domknięcia |
+
+`[wniosek]` **Lista aerospace, w której pieniądze i kierunek spinają się jednocześnie, ma trzy pozycje: MIT, Princeton, Notre Dame.** Stanford czwarty, z kosztem w postaci need-aware. Reszta to albo brak kierunku, albo brak pieniędzy.
+
+---
+
+### 2.8.2 Kategoria II — pod tematykę tego projektu
+
+Czyli: elektronika analogowa, przetwarzanie sygnału, inżynieria biomedyczna, interfejsy mózg–komputer.
+
+| Uczelnia | Dlaczego pasuje tematycznie | Polityka wobec obcokrajowców |
+|---|---|---|
+| **Brown** | `[fakt]` **Carney Institute for Brain Science i program BrainGate** — jeden z najważniejszych ośrodków interfejsów mózg–komputer na świecie, ponad 200 osób kadry z 20 jednostek. Inżynieria biomedyczna na miejscu | `[fakt]` **need-blind od rocznika 2029 + pełna potrzeba** |
+| **MIT** | EECS i bioinżynieria; sygnał, elektronika i neurotechnologia w jednym miejscu | **need-blind + pełna potrzeba** |
+| **Harvard, Yale, Dartmouth** | `[luka]` programy niesprawdzone imiennie; wszystkie mają inżynierię biomedyczną albo ogólną | **need-blind + pełna potrzeba** |
+| **Johns Hopkins** | `[wniosek]` najsilniejsza inżynieria biomedyczna w USA, z osobną ścieżką neuroinżynieryjną | `[fakt]` **need-aware, pomoc dla obcokrajowców ograniczona**, ale 100% potrzeby po przyjęciu |
+| **Duke** | inżynieria biomedyczna w czołówce | `[fakt]` need-aware + 100% potrzeby |
+| **Northwestern** | inżynieria biomedyczna i neuroinżynieria | `[fakt]` need-aware + 100% potrzeby |
+| **Rice** | elektronika i bioinżynieria, mała uczelnia o profilu projektowym | `[fakt]` need-aware + 100% potrzeby, granty zamiast pożyczek |
+| **Carnegie Mellon** | elektronika, przetwarzanie sygnału, neuronauka | need-aware; `[luka]` z sekcji 2.1 nadal otwarta |
+| **Olin** | Electrical and Computer Engineering; profil projektowy pasuje najlepiej z całej listy | 10 000 USD dla każdego + potrzeba |
+| **Vanderbilt, Boston University, Case Western** | przyzwoita inżynieria biomedyczna, **ale to ścieżka stypendialna, nie potrzebowa** | `[fakt]` pełne czesne za osiągnięcia, obcokrajowcy się kwalifikują: **Cornelius Vanderbilt**, **BU Trustee** (~20 osób rocznie), **CWRU University Scholarship** |
+| **Georgia Tech** | inżynieria biomedyczna w ścisłej czołówce | **brak pomocy** |
+
+`[wniosek]` **Brown jest w kategorii II tym, czym Princeton w kategorii I:** najlepsza polityka finansowa, jaka istnieje, połączona z ośrodkiem robiącym dokładnie to, o czym jest ten projekt. Jeżeli lista ma się rozszerzyć o jedną pozycję, to o tę.
+
+`[wniosek]` **Ścieżka stypendiów za osiągnięcia jest osobnym mechanizmem i to w niej dorobek ISEF waży najwięcej.** Przy uczelniach need-blind projekt konkuruje z całym dorobkiem kandydata o miejsce; przy stypendiach Trustee, Cornelius i podobnych **dorobek jest wprost kryterium przyznania pieniędzy**. To jest jedyne miejsce w całej rekrutacji, gdzie finał ISEF przekłada się na kwotę, a nie na wrażenie.
+
+---
+
+### 2.8.3 Europa — opcja nieobecna we wszystkich wcześniejszych plikach
+
+`[fakt]` Kursy NBP z 17 VIII 2026: 1 EUR = 4,3075 zł, 1 CHF = 4,5903 zł.
+
+| Uczelnia | Kierunek | Czesne dla obywatela Polski | W złotówkach |
+|---|---|---|---|
+| **TU Delft** | aerospace engineering, licencjat po angielsku | `[fakt]` **2 694 EUR/rok** (stawka ustawowa dla UE/EOG; spoza UE 19 906 EUR) | **~11 600 zł/rok** |
+| **ETH Zurych** | inżynieria mechaniczna, elektrotechnika | `[fakt]` 730 CHF/semestr; `[fakt]` od jesieni 2025 **2 190 CHF/semestr dla studentów „międzynarodowych"**. `[luka]` **nie ustaliłem, czy Polak po polskiej maturze wpada w podwyżkę** | **~6 700 zł** albo **~20 100 zł/rok** |
+| **TU Monachium** | inżynieria | `[fakt]` **obywatele UE bez czesnego**, opłata semestralna rzędu 100–200 EUR | **~1 000–2 000 zł/rok** |
+
+`[wniosek]` **Porównanie, które porządkuje całą decyzję:**
+
+1. **USA z pomocą** — przy dochodzie poniżej ~371 tys. zł na MIT, w Princeton, Brown czy Notre Dame koszt bliski **zeru**, łącznie z mieszkaniem i wyżywieniem
+2. **Europa** — czesne symboliczne, ale utrzymanie w Delfcie albo Zurychu wychodzi rzędu **55–75 tys. zł rocznie** i płaci je rodzina
+3. **USA bez pomocy** — **330–385 tys. zł rocznie**
+
+Czyli: **uczelnia amerykańska z pomocą jest tańsza niż europejska**, a europejska jest pięciokrotnie tańsza niż amerykańska bez pomocy. Europa nie jest planem awaryjnym na wypadek braku pieniędzy — jest planem awaryjnym na wypadek **braku przyjęcia**, i pod tym kątem ma sens: TU Delft to jeden z najmocniejszych programów aerospace w Europie, przy sicie rekrutacyjnym nieporównanie łagodniejszym niż amerykańskie.
+
+### 2.8.4 Czym rekrutuje Europa — zastrzeżenie użytkownika, potwierdzone
+
+**Uwaga użytkownika z 17 VIII 2026:** *„Europejskie uczelnie z tego co kojarzę niezbyt sobie cenią osiągnięcia typu ISEF. Bardziej ich interesuje egzamin."* **Sprawdzone. Trafna, i to mocniej, niż była postawiona.**
+
+**TU Delft, aerospace engineering.** `[fakt]` Kierunek objęty **numerus fixus — 440 miejsc** na rok 2026/2027, rekrutacja przez „decentrale selectie". Procedura: faza dopasowania, a potem **dwa testy — Academic Aptitude Assessment** (test dotyczący sytuacji studenckich) **i Selection Exam**, egzamin online pod nadzorem, w całości wielokrotnego wyboru, z matematyki, fizyki i wstępu do lotnictwa. `[fakt]` Wyniki przeliczane są na **jeden wynik selekcyjny i numer w rankingu**. `[fakt]` Termin rejestracji: **15 stycznia**. Wymagania wstępne: matematyka i fizyka na poziomie odpowiadającym holenderskiemu VWO (wiskunde B, natuurkunde) plus TOEFL iBT ≥ 90 albo IELTS ≥ 6,5.
+
+**W całej tej procedurze nie ma miejsca na projekt.** Nie ma CV, nie ma listu motywacyjnego, nie ma portfolio. Jest egzamin i ranking.
+
+**ETH Zurych.** `[fakt]` Polska matura jest uznawana jako porównywalna, **ale nie daje wstępu bezpośredniego**. Wymagany jest **egzamin wstępny ETH** — w wersji skróconej, jeżeli kandydat ma matematykę i fizykę na poziomie rozszerzonym, w pełnej (5–6 przedmiotów), jeżeli któregoś brakuje. `[fakt]` **Egzamin jest po niemiecku i wymagana jest znajomość terminologii przedmiotowej w tym języku**, plus osobny certyfikat z niemieckiego. `[fakt]` Kto musi zdawać egzamin, wchodzi na studia **rok później**.
+
+`[luka]` TU Monachium: procedura Eignungsfeststellungsverfahren, `[wniosek]` również oparta na ocenach, a studia licencjackie inżynierskie prowadzone są tam po niemiecku — **bariera językowa jest tam głównym kosztem, nie czesne**.
+
+`[wniosek]` **Wartość tego projektu jest asymetryczna i trzeba to zapisać wprost:**
+
+| Gdzie | Na co przelicza się projekt |
+|---|---|
+| **USA, rekrutacja holistyczna** | na **przyjęcie** — eseje, rubryka „Honors", rozmowa |
+| **USA, stypendia za osiągnięcia** (USC, Vanderbilt, BU, CWRU) | na **pieniądze**, bo dorobek jest wprost kryterium |
+| **Europa kontynentalna** (NL, CH, DE) | **na nic formalnie.** Liczy się matura, egzamin selekcyjny i język |
+| **Wielka Brytania** | `[luka]` tam list motywacyjny i rozmowa projekt widzą — ale czesne dla obcokrajowca po brexicie jest rzędu 40 tys. GBP rocznie, czyli **gorzej niż USA z pomocą** |
+
+**Skutek praktyczny, dwa punkty:**
+
+1. **Zasada pierwszeństwa z sekcji 4 tego pliku umacnia się.** Przy kolizji o czas **projekt ustępuje maturze i SAT** — bo matura jest jedyną walutą w wariancie europejskim, a SAT w amerykańskim. Projekt nie ma waluty w żadnym z nich osobno; ma ją tylko w amerykańskim, i tam jako dodatek.
+2. **Zdanie „sito europejskie jest łagodniejsze" wymaga poprawki.** Jest łagodniejsze **dla kogoś z bardzo dobrą maturą z matematyki i fizyki** i praktycznie nieprzepuszczalne dla kogoś, kto ma świetny projekt i przeciętny egzamin. To jest inne sito, nie słabsze. Wpisane jako **K-067**.
+
+`[luka]` Nadal nie sprawdzone: procedura TUM oraz czy podwyżka czesnego w ETH obejmuje obywatela UE po polskiej maturze.
+
+### 2.8.5 TU Delft — procedura odczytana ze stron uczelni 28 VIII 2026, i poprawka do werdyktu „plan awaryjny"
+
+**Potwierdzenie procedury** `[fakt, tudelft.nl, strona „Selection Procedure", cykl 2026/27]` — uszczegóławia §2.8.4, nie zmienia go:
+
+| Element | Charakter | Co daje |
+|---|---|---|
+| **faza dopasowania** (matching) — test poziomu z matematyki i fizyki + zadania autorefleksyjne | **obowiązkowa, ale NIEPUNKTOWANA.** Cytat: *„no part in determining your ranking number"* | nic do rankingu |
+| **Academic Aptitude Assessment** — test dotyczący sytuacji studenckich | punktowany, *„no preparation needed"* | kryterium **Academic Aptitude** |
+| **Selection Exam** — matematyka, fizyka i treści I roku aerospace, online pod nadzorem | punktowany | kryterium **Academic Performance** |
+
+`[fakt]` Oba wyniki dają **jeden numer rankingowy**; *„lowest 440 ranking numbers receive admission offers"*. **440 miejsc.** Rejestracja w Studielink: **15 stycznia**, ranking ogłaszany **15 kwietnia**.
+
+`[fakt]` **W procedurze nie ma CV, listu motywacyjnego ani portfolio.** Zastrzeżenie autora z 17 VIII 2026 potwierdzone drugi raz, teraz na stronie procedury.
+
+**Kalendarz dla tego autora — wyprowadzony, nie przepisany.** `[fakt, §1 i `08_KONKURSY.md` §1]` Aplikacje do USA składa się **jesienią 2028**, decyzje zapadają **w marcu 2029** — czyli **studia zaczynają się we wrześniu 2029**, a matura wypada **wiosną 2029**.
+
+| Krok | Termin |
+|---|---|
+| rejestracja w Studielink | **15 I 2029** |
+| faza dopasowania | I–II 2029 |
+| Academic Aptitude Assessment | ~początek III 2029 |
+| **Selection Exam** | **~połowa III 2029** |
+| numer rankingowy | ~15 IV 2029 |
+
+`[wniosek]` **Egzamin selekcyjny wypada na dwa miesiące przed maturą, w tym samym oknie co finalizacja zgłoszeń amerykańskich.**
+
+> **POPRAWKA 8 IX 2026 — nazwałem to kolizją i to było błędne. K-127.**
+>
+> **Uwaga autora, cytat:** *„akurat nakładanie na siebie terminów nie jest problemem. To jest matematyka i fizyka, czyli moje planowane matury. Po prostu muszę być szybciej i doskonale przygotowany. To tak jakbym pisał maturę 2 miesiące wcześniej i dodał trochę materiału ze studiów."*
+>
+> `[wniosek]` **Trafna.** Selection Exam sprawdza **matematykę i fizykę**, czyli **ten sam materiał, którego autor i tak uczy się do matury rozszerzonej**, plus treści I roku aerospace. **To jest przesunięcie tego samego obciążenia o dwa miesiące w przód, a nie dołożenie drugiego obciążenia obok pierwszego.**
+>
+> **Różnica wobec §5.2.2 (SAT wobec kampanii ISEF) jest zasadnicza:** SAT to **inny materiał, inny język i inny format** niż matura — tam obciążenia się sumują. **Tutaj się pokrywają.**
+>
+> **Co zostaje realnym kosztem, i tylko to:** (1) **termin gotowości przesuwa się z maja na marzec**, więc nie ma miesięcy końcowego szlifu; (2) dochodzi **nadwyżka materiału z I roku aerospace**, której w maturze nie ma; (3) egzamin jest **po angielsku i wielokrotnego wyboru**, czyli inny format tej samej wiedzy.
+
+`[luka]` **Poprawione 28 VIII 2026 tego samego dnia, w którym powstało — pierwsza wersja tej tabeli podawała rok 2028 i była błędna o rok.** Wzięła start studiów z daty składania aplikacji zamiast z daty decyzji.
+
+`[domysł, niepotwierdzone]` Liczba kandydatów rzędu **3 500 na 440 miejsc, czyli ~1 na 8**. **Źródłem są komercyjne poradniki rekrutacyjne, nie TU Delft** — uczelnia nie publikuje tej liczby ani w FAQ, ani na stronie procedury. **Traktować jako rząd wielkości, nie jako liczbę.**
+
+`[wniosek, dwa źródła wtórne]` **Polska matura jest uznawana za równoważną VWO pod warunkiem spełnienia wymagań przedmiotowych**, a decyzję podejmuje uczelnia. **Bramką jest matematyka i fizyka na poziomie rozszerzonym, nie sam typ dyplomu.** `[luka]` **Wiążącej odpowiedzi TU Delft nadal nie ma** — do zamknięcia jednym mailem do ESA, i **warto to zrobić w 2026, nie w 2028**, bo odpowiedź może zmienić wybór przedmiotów rozszerzonych.
+
+#### 2.8.5a Ile to kosztuje wobec studiów w Warszawie — porównanie na żądanie autora, 8 IX 2026
+
+`[fakt, NBP, 7 IX 2026]` **1 EUR = 4,31 zł.**
+
+**Warszawa** `[fakt, przegląd cen 2026: GazetaPrawna, Akademiki.pl, otouczelnie.pl, StudentSpace]`
+
+| Pozycja | Miesięcznie |
+|---|---|
+| akademik publiczny (UW od 600 zł; przykład 2026/27: 750 zł miejsce w dwójce, 850 zł jedynka) | **500–1 000 zł** |
+| akademik prywatny | **od 1 800 zł, do 3 000+** |
+| pokój w mieszkaniu | **1 500–2 700 zł**, centrum do 3 000 |
+| **koszt całkowity, akademik publiczny, oszczędnie** | **2 800–3 500 zł** |
+| **koszt całkowity, wynajęty pokój** | **3 300–4 800 zł** |
+
+**Delft** `[fakt, tudelft.nl oraz przegląd cen najmu 2026]`
+
+| Pozycja | Miesięcznie | W złotych |
+|---|---|---|
+| **oficjalna podstawa TU Delft** (student w akademiku uczelnianym) | **909 EUR** | **3 918 zł** |
+| typowy przedział wydatków studenta | **900–1 400 EUR** | **3 880–6 034 zł** |
+| pokój przez Housing Service (z mediami, internetem, podatkami) | 500–1 350 EUR | 2 155–5 819 zł |
+| pokój dzielony prywatnie / mieszkanie studenckie | 350–400 / ~700 EUR | 1 509–1 724 / ~3 017 zł |
+
+**Dlaczego w Holandii czesne w ogóle jest — pytanie autora z 8 IX 2026:** *„przecież jestem obywatelem Unii Europejskiej, więc chyba mam darmowe studia"*
+
+`[fakt]` **Darmowe studia dla obywatela UE to jest zasada niemiecka, nie holenderska.** Holandia ma **dwie stawki**, a obywatelstwo UE decyduje o tym, którą się płaci — nie o tym, czy się płaci:
+
+| Stawka | Kto płaci | Ile, rok 2026/27 |
+|---|---|---|
+| **wettelijk collegegeld** (ustawowa) | obywatele **UE/EOG i Szwajcarii**, przy pierwszym dyplomie danego stopnia | **2 694 EUR** = **11 611 zł** |
+| **instellingscollegegeld** (instytucjonalna) | wszyscy pozostali | `[fakt, tudelft.nl]` **17 310 EUR** dla licencjatu, rocznik 2025/26 |
+
+> `[wniosek]` **Obywatelstwo UE jest tam warte około 14 600 EUR rocznie — czyli ~63 tys. zł — ale nie zeruje opłaty.** Kupuje stawkę sześciokrotnie niższą, nie darmowe studia.
+
+`[fakt, rijksoverheid.nl, sprawdzone 8 IX 2026]` **Ulga „halvering collegegeld" dla pierwszego roku została zniesiona.** Obowiązywała do rocznika 2023/24; **od 1 IX 2025 nikt nie ma prawa do obniżonego czesnego ustawowego.** Sprawdzone celowo, zanim została wliczona — **nie wolno jej zakładać.**
+
+`[fakt]` **Stawka 2 694 EUR dotyczy rocznika 2026/27.** Autor zaczyna w 2029 — kwota będzie wyższa, bo jest waloryzowana corocznie.
+
+**Dla porównania, ta sama pozycja u sąsiadów** `[fakt, §2.8.3]`:
+
+| Kraj | Czesne dla obywatela Polski |
+|---|---|
+| **Polska**, uczelnia publiczna, studia stacjonarne | **0 zł** |
+| **Niemcy** (TU Monachium) | **brak czesnego dla obywateli UE**, opłata semestralna 100–200 EUR ≈ **1–2 tys. zł/rok** |
+| **Holandia** (TU Delft) | **2 694 EUR ≈ 11,6 tys. zł/rok** |
+| **Szwajcaria** (ETH) | 730 CHF/sem ≈ 6,7 tys. zł/rok; `[luka]` możliwa stawka „międzynarodowa" 2 190 CHF/sem |
+
+`[fakt, DUO]` **Jeżeli autor spełni warunek pracownika migrującego (≥ 56 h/mies), nabywa prawo także do `collegegeldkrediet`** — niskooprocentowanej pożyczki na samo czesne, spłacanej po studiach. **Nie jest to stypendium i zwiększa dług, ale zdejmuje czesne z rocznego budżetu rodziny.**
+
+`[luka]` **Niezgodność do zamknięcia:** §2.8.3 podaje stawkę spoza UE jako **19 906 EUR**, a strona TU Delft dla licencjatu 2025/26 — **17 310 EUR**. Możliwe, że chodzi o różne roczniki albo różne poziomy studiów. **Dla tego autora bez znaczenia (płaci stawkę ustawową), ale liczba w pliku jest niepotwierdzona.**
+
+**Zestawienie roczne, z czesnym:**
+
+| Wariant | Utrzymanie | Czesne | **Razem/rok** |
+|---|---|---|---|
+| **Warszawa, akademik publiczny** | 34–42 tys. zł | **0 zł** (studia stacjonarne) | **34–42 tys. zł** |
+| **Warszawa, wynajęty pokój** | 40–58 tys. zł | 0 zł | **40–58 tys. zł** |
+| **Delft, akademik uczelniany** | ~47 tys. zł | **11,6 tys. zł** | **~59 tys. zł** |
+| **Delft, wyższy standard** | ~72 tys. zł | 11,6 tys. zł | **~84 tys. zł** |
+
+> `[wniosek]` **Delft kosztuje rzędu 1,4–2× tego, co Warszawa. Różnica bezwzględna: około 20–45 tys. zł rocznie, czyli 60–135 tys. zł przez trzyletni licencjat.**
+
+**Poprawka do §2.8.3:** stała tam liczba **55–75 tys. zł** dla utrzymania w Delfcie. `[fakt]` **Oficjalna podstawa TU Delft to 909 EUR/mies, czyli ~47 tys. zł/rok** — **dolny koniec przedziału był zawyżony o ~8 tys. zł.** Górny koniec się broni.
+
+**Czynnik, którego w żadnym wcześniejszym rachunku nie było: holenderskie stypendium dla studenta pracującego.**
+
+`[fakt, DUO]` Obywatel UE **pracujący w Holandii co najmniej 56 godzin miesięcznie** (albo osiągający dochód ≥ 50% normy socjalnej, w 2026 **700,75 EUR/mies**) nabywa status **pracownika migrującego** i **prawo do studiefinanciering na równi ze studentem holenderskim**. Obejmuje to **basisbeurs rzędu 110–300 EUR/mies**, który **staje się bezzwrotny po uzyskaniu dyplomu w ciągu dziesięciu lat**.
+
+`[wniosek]` Samo stypendium to **5,7–15,5 tys. zł rocznie**. **Do tego dochodzi wynagrodzenie za te 56 godzin** — `[luka]` **holenderskiej stawki minimalnej dla osoby poniżej 21 lat nie sprawdziłem** i nie wolno tu zgadywać, bo stawki młodzieżowe są w Holandii wyraźnie niższe od podstawowej.
+
+**Koszt tej opcji jest czasowy, nie pieniężny: 56 h/mies to około 13 h tygodniowo pracy zarobkowej obok jednego z trudniejszych programów inżynierskich w Europie.** `[wniosek]` **Przy profilu autora — który we wrześniu 2026 wprost zgłosił ryzyko przeciążenia — to jest pozycja do rozważenia, nie do założenia z góry.**
+
+**Trzy zastrzeżenia do całego porównania:**
+
+1. `[fakt]` **W Delfcie brakuje tanich mieszkań studenckich.** Zasób Housing Service jest ograniczony; przy porażce trafia się na rynek prywatny, czyli do górnego wiersza tabeli.
+2. **To są ceny z 2026, a start studiów to 2029.** Inflacja dotyczy obu stron i przedziały należy odczytywać jako **stosunek**, nie jako kwoty.
+3. **Porównanie jest wyłącznie finansowe.** `[luka]` Krajowym odpowiednikiem merytorycznym jest **Lotnictwo i Kosmonautyka na Wydziale MEiL Politechniki Warszawskiej** — **nieoceniony w tym pliku ani razu.** Pozycja do zamknięcia, jeżeli wariant polski ma być traktowany poważnie, a nie jako tło do liczb.
+
+#### Poprawka do §2.8.3 — „plan awaryjny" jest błędną etykietą. K-125
+
+`[wniosek]` §2.8.3 orzekł: *„Europa nie jest planem awaryjnym na wypadek braku pieniędzy — jest planem awaryjnym na wypadek braku przyjęcia"*. **Ten wniosek nie został skonfrontowany z §2.2 i §2.4 tego samego pliku.** Po skonfrontowaniu:
+
+| Uczelnia z listy | Aerospace na licencjacie | Pieniądze dla obcokrajowca | Szansa |
+|---|---|---|---|
+| **MIT** | tak | **need-blind, pełne pokrycie** | **1,5–3%** |
+| **Stanford** | tak | need-aware | 1,5–3% |
+| Caltech | — | need-aware | 1–2% |
+| Georgia Tech | **tak, czołowy** | **brak pomocy dla obcokrajowców** | teoretyczna bez pełnej ceny |
+| Olin | **NIE MA KIERUNKU** | bardzo dobre | 8–12% |
+| CMU | `[luka]` | deklaruje pokrycie | 3–5% |
+
+> **Dla celu „aerospace na licencjacie ORAZ możliwe do sfinansowania" amerykańska lista sprowadza się do MIT i Stanforda — dwóch loterii po 1,5–3%.** Reszta ma albo kierunek bez pieniędzy, albo pieniądze bez kierunku.
+
+**Wobec tego TU Delft nie jest planem awaryjnym.** `[wniosek]` Jest **jedyną pozycją na całej liście, która ma jednocześnie: czołowy program aerospace, koszt niezależny od wygrania loterii (~11 600 zł/rok czesnego) i szansę rzędu kilkunastu procent zamiast kilku.** **Pojedyncze zgłoszenie do Delftu ma wyższą trafialność niż całe amerykańskie portfolio ośmiu–dziesięciu zgłoszeń przy 25–35%** — i jest to porównanie jednej aplikacji z dziesięcioma.
+
+**Czego to nie znaczy** — trzy zastrzeżenia, wszystkie realne:
+
+1. `[fakt, K-067]` **To jest inne sito, nie słabsze.** Świetny projekt i przeciętny egzamin = odrzucenie. Cała stawka leży w matematyce i fizyce.
+2. **Jeden strzał w roku, twardy termin 15 I**, bez rekrutacji uzupełniającej.
+3. **Utrzymanie 55–75 tys. zł rocznie płaci rodzina.** MIT z pełną pomocą jest **tańszy** — ale wymaga wygrania loterii 1,5–3%.
+
+**Skutek operacyjny, najważniejszy dla decyzji z sierpnia 2026:** `[wniosek]` **ścieżka delfcka jest całkowicie odizolowana od losów projektu.** Jej walutą są matura z matematyki i fizyki oraz jeden egzamin — **czyli dokładnie ta sama praca, którą autor i tak wykonuje w szkole.** Zawieszenie albo porzucenie projektu **nie obniża jej ani o punkt.**
+
+---
+
+## 3. Jaki wynik ISEF jest potrzebny
+
+`[wniosek]` **Nie ma progu.** Żaden wynik nie jest ani warunkiem, ani gwarancją. Skala:
+
+| Wynik | Waga |
+|---|---|
+| **finalista ISEF** (sam wyjazd) | rozpoznawalne wyróżnienie, realnie liczy się w rubryce „distinction" |
+| **Grand Award, miejsca I–IV** | wyraźnie mocniej |
+| **miejsce I–II w kategorii** | bardzo mocno, ale nie należy pod to planować |
+
+`[wniosek]` **Dla tej czwórki różnica między finalistą a czwartą nagrodą jest mniejsza, niż się wydaje.** Znacznie większą różnicę robi umiejętność opowiedzenia o projekcie i pokazania, że jest własny.
+
+### 3.1 Waga statusu finalisty ISEF — pozycja R5 SPRAWDZONA, 17 VIII 2026
+
+**Zlecenie brzmiało: zweryfikować na danych uczelni, nie na blogach. Zrobione. Wynik jest w dwóch częściach i pierwsza jest negatywna.**
+
+**Część 1: liczby, które krążą, są niesprawdzalne.**
+
+`[fakt]` Twierdzenia „finaliści ISEF mają 3–4× wyższy wskaźnik przyjęć, laureaci kategorii 5–6×" oraz „23% przyjętych na MIT startowało w konkursach naukowych, w tym 8% finalistów ISEF" **występują wyłącznie w materiałach firm doradztwa rekrutacyjnego i nie mają wskazanego źródła pierwotnego.** Przeszukane: strony Society for Science (fact sheety ISEF, raporty roczne, sekcja o absolwentach) — **publikują wyróżnienia absolwentów, nie statystyki rekrutacyjne**. Żadna uczelnia nie publikuje wskaźnika przyjęć w rozbiciu na osiągnięcia kandydatów.
+
+**Wniosek operacyjny: tę liczbę wykreślić z rozumowania na stałe.** Nie da się jej zweryfikować, więc nie wolno na niej niczego opierać — również w drugą stronę, jako argumentu, że ISEF nie działa.
+
+**Część 2: jedyne twarde dane, jakie istnieją, to Common Data Set, sekcja C7.**
+
+CDS to standardowy formularz, który uczelnie publikują same. Sekcja C7 podaje **wagę każdego czynnika rekrutacyjnego w czterech stopniach**: Very Important, Important, Considered, Not Considered.
+
+`[fakt]` Odczytane **z oryginalnego pliku PDF Caltechu (Common Data Set 2024–2025, maj 2025)**, tabela C7:
+
+| Czynnik | Waga u Caltechu |
+|---|---|
+| Rigor of secondary school record (trudność programu w liceum) | **Very Important** |
+| Standardized test scores | **Very Important** |
+| Application Essay | **Very Important** |
+| Recommendations | **Very Important** |
+| Character/personal qualities | **Very Important** |
+| Academic GPA | Important |
+| Class rank | Important |
+| **Extracurricular activities** | **Important** — drugi stopień |
+| **Talent/ability** | **Considered** — trzeci stopień |
+| Volunteer work, work experience, first generation, geographical residence | Considered |
+| Interview, alumni relation, state residency, religious affiliation, level of interest | Not Considered |
+
+`[wniosek]` **We własnej publikacji Caltechu projekt siedzi w drugim stopniu wagi, a „talent/zdolności" w trzecim — poniżej ocen, wyników testów, esejów, rekomendacji i oceny charakteru.** To jest dokładnie odwrotna hierarchia niż ta, którą sugerują materiały doradcze.
+
+> **POPRAWKA 21 VIII 2026 — CALTECH BYŁ n = 1, A DO TEGO PRZYPADKIEM SKRAJNYM. K-113.**
+>
+> **Uwaga autora:** *„nie tylko Caltech. Na liście powinno być wiele więcej uczelni, więc nie patrz na jedną."* **Trafna, i jest to ten sam wzorzec błędu, który ten projekt łapie u siebie od stu korekt: wniosek ogólny z jednego punktu danych.**
+>
+> **Caltech odczytałem nie dlatego, że jest reprezentatywny, tylko dlatego, że jako jedyny dał się odczytać.** Jest przy tym najostrzejszą i najwęższą akademicko uczelnią z całej listy — czyli **najgorszym możliwym przypadkiem dla projektu pozalekcyjnego.**
+>
+> `[wniosek, dwa źródła niezgodne — patrz luka niżej]` **MIT, CDS 2025–26, sekcja C7:**
+>
+> | Czynnik | Caltech | **MIT** |
+> |---|---|---|
+> | Extracurricular activities | Important | **Very Important** |
+> | Talent/ability | **Considered** | **Very Important** |
+>
+> `[luka]` **Uczciwie o pewności tej tabeli:** strona MIT Institutional Research daje dla obu „Very Important"; agregator zewnętrzny daje „Important". Agregator myli się także przy „Interview" (podaje Very Important, źródło pierwotne — Considered), więc **ufam mu mniej — ale samego PDF-a nie odczytałem.** **Do domknięcia ręcznie.**
+>
+> `[wniosek]` **Kierunek jest jednoznaczny niezależnie od tego, które odczytanie jest trafne: przy MIT projekt siedzi wyżej niż przy Caltechu, możliwe że w pierwszym stopniu wagi.** Wniosek z §3.1 pozostaje w mocy co do **rozpoznawalności Explory** (poza Polską bliska zeru), ale **co do wagi samego projektu był policzony na najgorszej możliwej uczelni i jest przez to zaniżony.**
+
+`[luka]` Nie udało mi się odczytać C7 dla MIT, Princeton i Brown — strony ich biur badań instytucjonalnych są zablokowane dla automatu albo renderowane po stronie klienta. Wyszukiwarka zwraca streszczenie, jakoby Princeton oznaczał „extracurricular activities" jako **Very Important**, ale **nie potwierdziłem tego w dokumencie źródłowym i nie traktuję jako faktu.** Pozycja do domknięcia ręcznie: pliki CDS tych trzech uczelni, sekcja C7.
+
+**Czego ten wynik nie mówi:** że projekt nie ma znaczenia. C7 mierzy wagę **kategorii**, nie tego, co dana rzecz robi z resztą aplikacji. Projekt zasila trzy pozycje z górnego stopnia jednocześnie: **esej, rekomendacje i ocenę charakteru** — bo o czymś trzeba pisać i ktoś musi mieć o czym napisać rekomendację. To jest realny mechanizm i jest zgodny z tym, co C7 pokazuje. Nieprawdziwa jest tylko wersja, w której sam wpis „ISEF finalist" mnoży szanse przez cztery.
+
+---
+
+### 3.2 Czy bez projektu i bez ISEF ta ścieżka nadal istnieje — odpowiedź skonsolidowana, 28 VIII 2026
+
+**Pytanie autora, 28 VIII 2026:** *„czy bez projektu (czyli docelowo finału ISEF) miałbym nadal realistyczne szanse na studia w Stanach? Czy jednak jest on potrzebny lub jakąkolwiek inną olimpiada?"*
+
+**Odpowiedź: tak, szanse zostają — bo oszacowanie z §5.1 nigdy nie zawierało wyniku ISEF.**
+
+`[fakt, §5.1]` Liczba **~25–35% na co najmniej jedną ofertę możliwą do sfinansowania** przy 8–10 zgłoszeniach została policzona przy założeniu *„projekt dowieziony, przyzwoity SAT, dobre oceny"* — **i z jawnym zastrzeżeniem, że nie zawiera wyniku ISEF i zawierać go nie może**, bo `[domysł]` prawdopodobieństwo samego wyjazdu na ISEF wynosi **~9% bezwarunkowo**. **Usunięcie ISEF z równania nie zmienia tej liczby, bo ISEF nigdy w niej nie był.**
+
+**Czy potrzebna jest jakakolwiek olimpiada: nie.** `[fakt, Common Data Set §C7, §3.1]` W pierwszym stopniu wagi („Very Important") u każdej sprawdzonej uczelni stoi pięć rzeczy: **trudność programu w liceum, wyniki testów, esej, rekomendacje, ocena charakteru.** Konkurs siedzi w drugim (Caltech: „Important") albo, przy łagodniejszym odczytaniu, w pierwszym (MIT). **Punktuje się esej, rekomendację i charakter — nie puchar.**
+
+**Ale „nic" nie jest równoważne.** `[wniosek]` Esej i rekomendacja **potrzebują treści**, a rekomendacja potrzebuje nauczyciela, który ma o czym pisać. **Potrzebne jest coś trwałego, własnego i możliwego do poświadczenia — dowolnego kształtu, niekoniecznie konkursowego i niekoniecznie technicznego.**
+
+**Hierarchia dźwigni, w kolejności siły** `[wniosek, z §3.1, §4 i §5.1]`:
+
+| # | Dźwignia | Uwaga |
+|---|---|---|
+| 1 | **oceny i trudność programu** | liczą się **od pierwszej klasy** |
+| 2 | **SAT** | `[fakt, §5.1]` słaby SAT albo słabe oceny zbijają całość do **5–10%**, i **żaden projekt tego nie odrabia** |
+| 3 | **esej i rekomendacje** | potrzebują treści, nie trofeum |
+| 4 | **konstrukcja listy uczelni** | `[fakt, §5.1]` **daje więcej niż jakiekolwiek dodatkowe osiągnięcie konkursowe.** Sama czołówka → spada do ~10%; dopisanie Notre Dame, Olina i ścieżki stypendialnej → **największy pojedynczy przyrost w całym zestawieniu** |
+| 5 | **finanse i mechanika CSS Profile** | `[luka]` traktowanie mieszkania rodzinnego — do zamknięcia przed jesienią 2028 |
+| 6 | **projekt / konkurs** | ostatni |
+
+`[fakt, §4]` **Zasada pierwszeństwa obowiązuje bez zmian:** *„SAT i oceny nie mają zamiennika w rekrutacji do USA, a projekt ma. Przy konflikcie o czas projekt ustępuje."*
+
+> `[wniosek]` **Wartość rekrutacyjna projektu jest prawie w całości zawarta w jego najmniejszej wersji: zbudować coś, zmierzyć coś, opisać uczciwie.** Explory, ISEF i miejsce w kategorii to jest ta część, która i tak ma ~9% szans. **Rekrutacja płaci za to, że coś się robiło i umie się o tym opowiedzieć — nie za wygraną.**
+
+---
+
+## 4. Czego jeszcze potrzeba poza projektem
+
+Projekt to jeden z sześciu elementów i nie największy.
+
+| Co | Kiedy | Uwaga |
+|---|---|---|
+| **SAT albo ACT** | pierwsze podejście wiosna 2028 | dla CMU i GT konkurencyjne wyniki są wysokie; osobny, duży nakład |
+| **TOEFL albo IELTS** | 2028 | formalność, ale wymagana |
+| **oceny ze wszystkich lat liceum** | — | liczą się od klasy 1, czyli **już teraz** |
+| **eseje** | jesień 2028 | tu projekt zamienia się w opowieść; miejsce, gdzie ISEF naprawdę pracuje |
+| **rekomendacje** — 2 nauczycieli + wychowawca | jesień 2028 | w polskiej szkole trzeba ustawić zawczasu, nie ma takiej tradycji |
+| **dokumenty finansowe rodziny** | po przyjęciu | przy CMU i Olin decydują o kwocie |
+
+**Zasada pierwszeństwa przy kolizji:** SAT i oceny **nie mają zamiennika** w rekrutacji do USA, a projekt ma. Przy konflikcie o czas **projekt ustępuje**.
+
+### 4.1 SAT — jaki wynik, jak trudny, ile podejść. Sprawdzone 17 VIII 2026
+
+#### Struktura egzaminu
+
+`[fakt]` SAT jest od 2023 roku **cyfrowy**, zdawany w aplikacji Bluebook w ośrodku egzaminacyjnym. Dwie części, każda punktowana **200–800**, razem **400–1600**:
+
+| Część | Pytania | Czas | Na pytanie |
+|---|---|---|---|
+| Reading and Writing | 54 | 64 min (2 moduły po 32) | ~71 s |
+| **Math** | **44** | **70 min (2 moduły po 35)** | **~95 s** |
+
+`[fakt]` Egzamin jest **adaptacyjny modułowo**: pierwszy moduł jest ten sam dla wszystkich, a wynik z niego decyduje, czy drugi moduł będzie trudniejszy czy łatwiejszy. Dostęp do najwyższych wyników prowadzi wyłącznie przez trudniejszy drugi moduł.
+
+`[fakt]` Zakres matematyki: **algebra ~35%, „advanced math" czyli funkcje i równania kwadratowe ~35%, dane i statystyka ~15%, geometria i trygonometria ~15%.** `[fakt]` **Kalkulator Desmos jest wbudowany i dostępny przy każdym zadaniu matematycznym** — nie ma części bez kalkulatora.
+
+#### Porównanie z maturą rozszerzoną — intuicja użytkownika potwierdzona
+
+`[wniosek]` **Materiał SAT jest węższy niż matury rozszerzonej.** Nie ma rachunku różniczkowego, ciągów w zakresie maturalnym, stereometrii z dowodem ani zadań na dowodzenie w ogóle. Prawie wszystko jest zamknięte albo z krótką odpowiedzią liczbową, a Desmos rozwiązuje układy i rysuje wykresy za zdającego.
+
+`[wniosek]` **Trudność siedzi gdzie indziej: w tempie i w bezbłędności.** Na maturze rozszerzonej jest 180 minut na kilkanaście zadań, w tym czas na powrót do zadania. Na SAT jest **95 sekund na zadanie średnio**, a próg, który interesuje uczelnie z tej listy, oznacza **zero do dwóch błędów w całej części matematycznej**.
+
+**Konsekwencja praktyczna, ważna dla harmonogramu:** dla kogoś, kto ogarnia maturę rozszerzoną z matematyki, przygotowanie do SAT Math **nie jest nauką nowego materiału, tylko treningiem tempa i formatu**. To jest inny rodzaj kosztu — godziny na arkusze na czas, nie miesiące na teorię. Część językowa (Reading and Writing) jest dla polskiego kandydata trudniejsza niż matematyczna i to ona wymaga realnej nauki.
+
+#### Jaki wynik jest „tym wyższym"
+
+| Uczelnia | Zakres 25–75 percentyla | Źródło |
+|---|---|---|
+| **MIT**, rocznik 2029 | **Math 780–800**, Reading and Writing **740–780** | `[fakt]` statystyki rekrutacyjne MIT |
+| Princeton, Stanford, Brown | `[domysł, źródła wtórne]` łącznie ~1500–1580, matematyka ~770–800 | do potwierdzenia w CDS |
+| **Caltech** | `[luka]` **nie publikuje** — do rocznika 2025 nie brał wyników w ogóle, rubryki SAT w jego Common Data Set 2024/25 są puste. Wymóg wrócił od rekrutacji na jesień 2026 | — |
+| Notre Dame, Olin, ścieżka stypendialna | `[domysł]` ~1420–1540 wystarcza | — |
+
+`[fakt]` **Caltech od cyklu 2026/27 pokazuje komisji wyniki sekcji w „koszykach" (przedziałach), a nie jako liczby, i w ogóle nie rozpatruje wyniku łącznego.**
+
+`[wniosek]` **Cel operacyjny: matematyka 780+, łącznie 1500+.** Przy górnej półce listy wynik poniżej ~1450 zaczyna działać przeciwko kandydatowi, bo mediana matematyki wynosi tam 800 — czyli **wynik z matematyki nie wyróżnia, on tylko nie może zawieść.** Wyróżnia część językowa i cała reszta aplikacji.
+
+#### Powtarzanie
+
+`[fakt]` **Liczba podejść nie jest ograniczona.** W roku 2026/27 jest **osiem terminów**, tych samych dla USA i dla zdających za granicą: **22 VIII, 12 IX, 3 X, 7 XI, 5 XII 2026 oraz 6 III, 1 V, 5 VI 2027**. Rejestracja zamyka się ~2 tygodnie przed terminem.
+
+`[fakt]` **MIT stosuje superscore** — *„If you take the same test multiple times, we primarily consider the highest score achieved in each section"*. Czyli: matematyka z jednego terminu i część językowa z innego składają się na wynik brany pod uwagę. `[fakt]` MIT **nie wymaga oficjalnego przesyłania wyników** — zgłasza się je samodzielnie w formularzu.
+
+`[fakt]` Koszty: rejestracja **68 USD**, zmiana ośrodka 34 USD, dodatkowe raporty 15 USD za sztukę (pierwsze cztery bezpłatne, jeżeli zamówione w ciągu 9 dni od egzaminu). `[luka]` Opłaty regionalnej dla zdających poza USA nie udało się odczytać ze strony College Board — do sprawdzenia przy rejestracji.
+
+`[wniosek]` **Plan realistyczny: dwa do trzech podejść**, pierwsze wiosną 2028, ostatnie użyteczne **wrzesień albo październik 2028**, bo aplikacje idą jesienią 2028. Superscore sprawia, że kolejne podejścia mają sens nawet przy poprawie jednej sekcji.
+
+`[wniosek]` **Jedna kolizja do zapamiętania:** majowy termin SAT wypada zwykle w pierwszą sobotę maja, a ISEF 2028 przypada 9–16 maja. Terminy majowe 2028 omijać — brać marzec i czerwiec.
+
+#### Czy SAT zdaje się w Polsce — tak, wyjazd do USA nie jest potrzebny
+
+`[fakt]` SAT jest egzaminem prowadzonym w ośrodkach na całym świecie; College Board podaje, że wyniki przyjmuje ponad 4 000 uczelni w USA i w 65 innych krajach. `[fakt]` **Poza USA egzamin jest w wersji cyfrowej (Bluebook) od dawna — wersji papierowej tam nie ma.** Rejestracja idzie przez to samo konto College Board co w USA, bez osobnego portalu.
+
+`[domysł, źródło wtórne]` Ośrodki w Polsce to **Warszawa (American School of Warsaw) i Kraków**. Wyszukiwarki ośrodków College Board nie dało się odczytać automatem — jest renderowana po stronie klienta (`METODA.md` sekcja 5, znany problem). **Do sprawdzenia ręcznie przy zakładaniu konta**, razem z liczbą wolnych miejsc.
+
+`[domysł, źródło wtórne]` Koszt dla zdającego poza USA: **~111 USD**, czyli zweryfikowana opłata bazowa 68 USD plus opłata regionalna. To ~412 zł po kursie z 17 VIII 2026.
+
+**Dwie rzeczy do sprawdzenia przy rejestracji, obie mogą zaskoczyć:**
+
+1. `[luka]` **Dostępność terminów.** Główna strona terminów College Board mówi, że kalendarz 2026/27 „dotyczy wszystkich uczniów — z USA i międzynarodowych". Starsza strona międzynarodowa tego samego wydawcy pisze, że „w większości lat oferujemy SAT w marcu, maju, sierpniu, październiku i grudniu". **Sprzeczność w obrębie jednego wydawcy — rozstrzygać wyszukiwarką ośrodków**, bo i tak decyduje to, czy konkretny ośrodek otwiera się na dany termin. Przy dwóch ośrodkach w kraju miejsca kończą się szybko: rejestrować się od razu po otwarciu.
+2. `[fakt]` **Dokument tożsamości.** Zasada College Board: *„If you travel to another country to test, you must use a valid passport as your ID"*. `[wniosek]` Zdając we własnym kraju, dowód osobisty ze zdjęciem i imieniem w alfabecie łacińskim powinien wystarczyć — Polski nie ma na liście krajów z wyjątkami — **ale paszport jest wyborem bez ryzyka i tak go trzeba mieć na wyjazd na ISEF.**
+
+`[fakt]` W części lokalizacji poza USA College Board stosuje **system biometryczny z rozpoznawaniem twarzy**, porównujący zdjęcie z dokumentu z obrazem z egzaminu.
+
+### 4.2 Egzamin z angielskiego — kto go potrzebuje i jaki poziom. Sprawdzone 17 VIII 2026
+
+#### Kto w ogóle musi
+
+| Uczelnia | Wymóg |
+|---|---|
+| **Caltech** | `[fakt]` **wymagany od wszystkich obcokrajowców**, chyba że angielski jest językiem ojczystym **albo głównym językiem nauczania w szkole średniej** |
+| **MIT** | `[fakt]` **silnie rekomendowany** dla osób, które używają angielskiego krócej niż 5 lat albo nie mówią nim w domu ani w szkole |
+| **Stanford** | `[fakt]` **nie wymaga żadnego egzaminu z angielskiego** |
+| **TU Delft** | `[fakt]` wymaga: TOEFL iBT ≥ 90 albo IELTS ≥ 6,5 (stara skala) |
+| Princeton, Brown, Notre Dame, CMU | `[luka]` niesprawdzone imiennie |
+
+`[wniosek]` Przy polskim liceum ogólnokształcącym **zwolnienie nie przysługuje** — egzamin będzie potrzebny wszędzie poza Stanfordem.
+
+#### Zmiana, o której trzeba wiedzieć: TOEFL ma od 2026 nową skalę
+
+`[fakt]` **Od 21 stycznia 2026 TOEFL iBT punktuje w skali 1–6 co pół stopnia, zamiast 0–120.** Wynik ogólny to średnia z czterech części (czytanie, słuchanie, mówienie, pisanie), zaokrąglana do połowy stopnia. `[fakt]` **Skala jest wprost przypisana do CEFR: 5,0 w danej części oznacza poziom C1.** `[fakt]` W okresie przejściowym 2026–2028 raport pokazuje równolegle nową skalę, starą 0–120 i poziom CEFR. Wyniki przychodzą w 72 godziny.
+
+**Ponieważ użytkownik będzie zdawał w 2028, obowiązuje go skala nowa.**
+
+#### Wymagane progi — liczby z uczelni
+
+| Egzamin | **MIT** (minimum / rekomendowane) | **Caltech** (minimum) |
+|---|---|---|
+| TOEFL, nowa skala | **5 / 5,5** | **5 ogólnie i 5 w każdej części** |
+| TOEFL, stara skala | 90 / 100 | 100 ogólnie i 25 w każdej części |
+| IELTS | **7 / 7,5** | **7 ogólnie i 7 w każdej części** |
+| Duolingo English Test | **120 / 125** | **130 i 130 w każdej części** |
+| PTE Academic | 65 / 70 | — |
+| Cambridge C1/C2 | 185 / 190 | — |
+
+`[wniosek]` **Poziom docelowy to C1, a rekomendowany górny C1.** Nie jest to poziom native'a i nie o to chodzi — chodzi o zdolność słuchania wykładu akademickiego i pisania na czas.
+
+`[wniosek]` **Konstrukcja progu Caltechu jest ważniejsza od samej liczby:** wymaga 5 (czyli C1) **w każdej z czterech części osobno**. Rządzi więc umiejętność najsłabsza. U polskiego kandydata po maturze rozszerzonej jest to zwykle **mówienie** — bo na TOEFL mówi się do mikrofonu, do nagrania, z limitem czasu na odpowiedź, czego polska szkoła nie ćwiczy w ogóle.
+
+`[wniosek]` Punkt odniesienia: matura rozszerzona z angielskiego plasuje się w okolicach **B2, górne wyniki przy C1**. Czyli **dystans do pokonania jest niewielki i dotyczy formatu, nie języka** — podobnie jak przy SAT Math, tylko po drugiej stronie: tam brakowało tempa, tu brakuje ćwiczenia mówienia i pisania akademickiego pod stoper.
+
+`[luka]` Nie sprawdzone: koszt egzaminu w Polsce, ośrodki, oraz okres ważności wyniku (tradycyjnie dwa lata — jeżeli to się potwierdzi, **egzamin zdawać nie wcześniej niż w 2027**, żeby był ważny przy aplikacjach z jesieni 2028 i przy rekrutacji do marca 2029).
+
+---
+
+## 5. Oszacowanie szans rekrutacyjnych
+
+`[domysł]` Przy scenariuszu: projekt dowieziony, wyjazd na ISEF 2028, przyzwoity SAT, dobre oceny.
+
+| Uczelnia | Szansa | Uwaga |
+|---|---|---|
+| **Olin** | realne, rzędu kilkunastu procent | profil pasuje do procesu lepiej niż gdziekolwiek indziej — **ale bez aerospace** |
+| **Carnegie Mellon** | rząd kilku procent | finansowo wykonalne |
+| **Georgia Tech** | rekrutacyjnie porównywalnie | **bez pieniędzy teoretyczne** |
+| **MIT** | 1,5–3% | **finansowo najłatwiejszy z całej czwórki** |
+| **Stanford** | **~1,5–3%**, przy wniosku o pomoc bliżej dolnego końca | aerospace na licencjacie + rekrutacja ślepa na kierunek; need-aware |
+| **Caltech** | **~1–2%** | najostrzejsze sito, brak aerospace na licencjacie, need-aware przy puli rzędu kilkudziesięciu stypendiów |
+
+**Reguła, którą trzeba zapamiętać:** nie odrzucać MIT z powodu pieniędzy. Akurat pieniądze są tam najmniejszym problemem — patrz `KOREKTY.md` K-053.
+
+**Reguła druga, po dopisaniu Caltechu i Stanforda:** przy uczelniach need-aware **wniosek o pomoc jest częścią decyzji rekrutacyjnej**, a rezygnacja z wniosku jest nieodwracalna na cztery lata. To jest decyzja do podjęcia świadomie jesienią 2028, nie odruchowo przy wypełnianiu formularza.
+
+**Przeliczenie zbiorcze, z listą rozszerzoną i z czułością na SAT i oceny: sekcja 5.1 poniżej.**
+
+### 5.1 Czy ten cel jest realny — odpowiedź wprost, 17 VIII 2026
+
+Pytanie użytkownika: *„czy mogę liczyć na studia w Stanach, czy to bardziej możliwe, ale lepiej się nie nakręcać".*
+
+**Odpowiedź: realne, ale nie jako plan z jednym wynikiem. Jako portfel.**
+
+`[domysł]`, błąd rzędu ×1,5 w każdą stronę. Założenie: projekt dowieziony, przyzwoity SAT, dobre oceny, obcokrajowiec wnioskujący o pomoc, bez powiązań rodzinnych z uczelnią.
+
+| Uczelnia | Szansa na przyjęcie z pokryciem kosztów |
+|---|---|
+| MIT | 2–3% |
+| Princeton | 1,5–2,5% |
+| Brown | 2–3% |
+| Stanford | 1,5–3% |
+| Caltech | 1–2% |
+| Carnegie Mellon | 3–5% |
+| **Notre Dame** | **5–8%** |
+| **Olin** | **8–12%** |
+| ścieżka stypendialna (CWRU, BU, USC, Vanderbilt) — przyjęcie łatwiejsze, ale pełne czesne rzadkie | 3–8% na komplet „przyjęcie + pieniądze" |
+
+**Przy ośmiu–dziesięciu dobrze dobranych zgłoszeniach: `[domysł]` ~25–35% na co najmniej jedną ofertę, którą da się sfinansować.**
+
+**Czułość tej liczby — to jest najważniejsza część odpowiedzi:**
+
+| Co się zmienia | Dokąd idzie liczba |
+|---|---|
+| słaby SAT albo słabe oceny | **spada do 5–10%.** Żaden projekt tego nie odrabia |
+| SAT w górnym przedziale, mocne eseje | **rośnie do 40–50%** |
+| lista złożona z samych uczelni z pierwszej piątki tabeli | **spada do ~10%**, bo to osiem loterii o tym samym rozkładzie |
+| dopisanie Notre Dame, Olin i ścieżki stypendialnej | **największy pojedynczy przyrost w całym zestawieniu** |
+
+`[wniosek]` **Konstrukcja listy uczelni daje więcej niż jakiekolwiek dodatkowe osiągnięcie konkursowe.** Różnica między listą źle a dobrze złożoną to kilkanaście punktów procentowych; różnica między finalistą ISEF a laureatem — pojedyncze punkty.
+
+**Czego ta liczba nie zawiera i zawierać nie może:** wyniku ISEF. `[domysł]` Prawdopodobieństwo, że użytkownik w ogóle pojedzie na ISEF, wynosi **~9% bezwarunkowo** — ~14% warunkowo, jeżeli projekt powstanie, przemnożone przez ~55% na powstanie (`08_KONKURSY.md` §3.0a, K-110). **Plan rekrutacyjny nie może być na tym oparty** — i nie jest, bo urządzenie, dziennik pracy i materiał na esej powstają niezależnie od tego, czy jury Explory wybierze ten projekt do trójki.
+
+**Zdanie, które jest uczciwym podsumowaniem:**
+
+> Prawdopodobieństwo **konkretnej wymarzonej uczelni** jest niskie i tak zostanie — to jest 1–3% i żadna praca tego nie zmieni w 30%.
+> Prawdopodobieństwo **jakiegoś dobrego zakończenia** — amerykańska uczelnia z pokryciem kosztów, mocny program europejski albo najlepszy polski kierunek z zagranicznym magisterium — jest **wysokie**, pod warunkiem że lista jest zbudowana pod finanse, a matura i SAT nie ucierpią.
+
+**Nakręcać się warto na proces, nie na nazwę uczelni.** Wersja „dostanę się do MIT albo porażka" jest statystycznie gwarantowanym rozczarowaniem przy każdym poziomie pracy. Wersja „zbuduję urządzenie, zdam dobrze maturę i SAT, złożę dziesięć przemyślanych zgłoszeń" ma około jednej trzeciej szans na wynik amerykański i bardzo wysoką na wynik dobry.
+
+---
+
+## 5.2 Dwie rzeczy o studiach, ustalone 21 VIII 2026 — K-114
+
+### 5.2.1 Praca nad narracją na Explory JEST pracą nad esejem rekrutacyjnym
+
+`[fakt, 10 §3.1]` Trzy czynniki w **pierwszym stopniu wagi** u każdej sprawdzonej uczelni to **esej, rekomendacje i ocena charakteru**. Konkurs jest w drugim.
+
+`[wniosek]` **A materiał, który powstaje na dwie miękkie rubryki finału Explory, jest tym samym materiałem, z którego pisze się esej.** Trzy historie osób, dla których urządzenie ma sens; struktura „ograniczenie, nie wynik"; uczciwość wobec kamerki — to nie jest streszczenie eseju, to jest **jego treść**.
+
+**To zmienia priorytet tej pracy.** Dotąd wyglądała na koszt konkursowy — godziny wydane na opowiadanie zamiast na płytkę. **Jest dwuużytkowa: pracuje na rubrykę wartą jedną trzecią noty finałowej i jednocześnie na czynnik pierwszego stopnia w rekrutacji.** Nic innego w tym projekcie nie robi obu rzeczy naraz.
+
+**A najlepszy pojedynczy materiał na esej już istnieje i nie jest nim urządzenie:** `[fakt]` **16 VIII 2026 autor kazał sprawdzić, czy oś, na której stał jego projekt, w ogóle się broni — i przyjął odpowiedź, że nie** (+0,2 pp zamiast +9 pp). `[wniosek]` **Siedemnastolatek, który przeprowadził analizę niszczącą własną hipotezę i zaakceptował wynik, to jest esej.** Urządzenie jest tłem.
+
+### 5.2.2 Kolizja SAT z kampanią ISEF — nierozpatrzona do dziś
+
+`[fakt]` §4 tego pliku planuje **pierwsze podejście do SAT na wiosnę 2028.** `[fakt]` **ISEF odbywa się w maju 2028**, a przygotowanie prezentacji po angielsku zajmuje III–V 2028 (`07`, KM9).
+
+`[wniosek]` **Pierwsze podejście do SAT wypada w tym samym oknie co szczyt przygotowań do ISEF** — a aplikacje składa się jesienią 2028, więc na poprawkę zostaje bardzo mało miejsca. **Plik sprawdzał kolizję matury z ISEF (§6) i nie sprawdził kolizji SAT z ISEF.** Ta sama klasa przeoczenia co K-107: dwie daty w dwóch sekcjach, nigdy nieskonfrontowane.
+
+**Poprawka:** `[wniosek]` **pierwsze podejście przesunąć na grudzień 2027** — po finale Explory (X 2027), przed szczytem przygotowań do ISEF. Zostają wtedy **co najmniej trzy okna poprawkowe** przed aplikacjami zamiast jednego.
+
+`[luka]` **Dokładnych terminów SAT na lata 2027–28 nie sprawdziłem w kalendarzu College Board** — rozumowanie stoi na typowym rozkładzie terminów. **Do potwierdzenia na collegeboard.org, zadanie 6 w §7.**
+
+---
+
+## 6. Matura wobec ISEF — kolizja jest częściowa, nie całkowita
+
+`[fakt]` Matura obowiązkowa (polski, matematyka, język obcy) wypada **4–6 maja**; rozszerzenia od 7 do 21 maja. ISEF odbywa się konsekwentnie **9–16 maja** (2025: 10–16 V Columbus; 2026: 9–15 V Phoenix).
+
+**Matura obowiązkowa nie koliduje z ISEF.** Kolidują wyłącznie rozszerzenia wypadające w tygodniu ISEF-u.
+
+`[fakt]` Istnieje **termin dodatkowy w czerwcu**, przyznawany przez dyrektora OKE na udokumentowany wniosek.
+
+`[luka]` Przepis mówi o przyczynach **losowych lub zdrowotnych**, a zaplanowany wyjazd trudno tak nazwać. **Nie zakładać, że zostanie przyznany.** Pytanie do OKE — jesień 2028, nie kwiecień 2029.
+
+**Uwaga:** ta kolizja dotyczy ISEF **2029**, który i tak nie wchodzi do aplikacji (sekcja 1). Dla ISEF **2028** użytkownik jest w trzeciej klasie i kolizji nie ma żadnej.
+
+---
+
+## 7. Zadania otwarte na ścieżce rekrutacyjnej
+
+| # | Zadanie | Termin | Status |
+|---|---|---|---|
+| 1 | **przeliczyć harmonogram projektu pod JEDEN cykl** (Explory 2027 → ISEF 2028), bo rok drugi nie liczy się rekrutacyjnie | przed planowaniem budowy | **otwarte, priorytet** |
+| 2 | ustalić, czy **CMU jest need-blind czy need-aware** wobec obcokrajowców | jesień 2027 | otwarte |
+| 3 | ustalić, czy **Georgia Tech wiąże wybór kierunku** przy aplikacji | jesień 2027 | otwarte |
+| 4 | sprawdzić, czy **CMU ma aerospace** na poziomie licencjackim | jesień 2027 | otwarte |
+| 5 | zweryfikować **realną wagę statusu finalisty ISEF** w rekrutacji — dane uczelni albo Society for Science, **nie blogi** | 17 VIII 2026 | **CZĘŚCIOWO, sekcja 3.1.** Liczby z blogów wykreślone; twarde dane to CDS C7 |
+| **5a** | **odczytać C7 z ORYGINALNYCH PDF-ów dla ośmiu uczelni z listy** — MIT, Princeton, Brown, Stanford, CMU, Georgia Tech, Notre Dame, Olin. **Jedna uczelnia to n = 1, a Caltech jest przypadkiem skrajnym, nie typowym** (K-113) | **jesień 2026** | **OTWARTE, priorytet.** Zmienia wagę całej osi konkursowej w planie |
+| 6 | **terminarz SAT/TOEFL** wobec kalendarza projektu — **potwierdzić terminy 2027–28 na collegeboard.org i przesunąć pierwsze podejście na XII 2027** (§5.2.2, K-114) | **jesień 2026, nie 2027** | **otwarte, podniesione** |
+| 7 | ustawić w szkole **rekomendacje** (2 nauczycieli + wychowawca) | wiosna 2028 | otwarte |
+| 8 | pytanie do **OKE o termin dodatkowy** matury | jesień 2028 | otwarte, dotyczy tylko ISEF 2029 |
+| 9 | **rozstrzygnąć aerospace vs elektronika/mechatronika** jako kierunek docelowy — decyzja użytkownika, wpływa na listę uczelni | do 2028 | **otwarte, wpływa na wszystko powyżej** |
+| 10 | decyzja świadoma: **czy wnioskować o pomoc finansową na uczelniach need-aware** (Caltech, Stanford, CMU) — rezygnacja jest nieodwracalna na cztery lata | jesień 2028, przygotować wcześniej | otwarte |
+| 11 | sprawdzić wymagania programowe **B.S. in Aeronautics and Astronautics** na Stanfordzie (przedmioty wstępne, akredytacja ABET) | jesień 2027 | otwarte |
+| 12 | zweryfikować wskaźniki przyjęć Caltechu i Stanforda w oficjalnym Common Data Set, nie w opracowaniach firm doradczych | jesień 2027 | otwarte, liczby z sekcji 2.6 mają jedno źródło pośrednie |
+| 13 | sprawdzić imiennie politykę pomocy dla obcokrajowców na **Purdue, Michigan, UIUC, Cornell** — sekcja 2.8.1 zostawia to jako `[luka]` | jesień 2027 | otwarte |
+| 14 | rozstrzygnąć, czy **Europa (TU Delft, ETH, TUM)** wchodzi na listę jako ścieżka równoległa; jeżeli tak — terminy, numerus fixus, wymagania językowe | do 2028 | otwarte, sekcja 2.8.3 |
+| 15 | zebrać terminy i wymogi **stypendiów za osiągnięcia** otwartych dla obcokrajowców (USC Trustee, Cornelius Vanderbilt, BU Trustee, CWRU) — mają osobne, wcześniejsze terminy niż zwykła aplikacja | wiosna 2028 | otwarte, jedyna ścieżka, w której ISEF przelicza się na kwotę |
+
+---
+
+## 8. Werdykt: czy projekt jest wart zachodu dla tego celu
+
+`[wniosek]` **Tak — ale nie z powodu tabeli prawdopodobieństw konkursowych.**
+
+Liczby konkursowe **bezwarunkowe** (`08_KONKURSY.md` §3.0a, K-110): finał Explory **~33%**, **reprezentacja ~9%** (uczciwie 4–9%), **Nagroda Główna ~3%**, **jakakolwiek nagroda ISEF ~2%**.
+
+**Gdyby projekt był wart tylko tego, byłby złym interesem** — 890 godzin za kilkuprocentową szansę.
+
+**Wartość dla celu nadrzędnego nie zależy od wyniku.** Aplikacja składana jesienią 2028 zawiera: zbudowane urządzenie, dwa lata dziennika pracy, umiejętność projektowania płytek i toru analogowego, przemiał literatury i temat, o którym da się mówić przez trzydzieści minut rozmowy kwalifikacyjnej. **To wszystko przy prawdopodobieństwie bliskim stu procent, jeżeli projekt w ogóle powstanie.** Wynik konkursowy jest opcją doklejoną na wierzchu.
+
+### Trzy warunki, przy których to NIE jest warte
+
+1. **Jeżeli zje czas na SAT i oceny.** Nie mają zamiennika, projekt ma.
+2. **Jeżeli użytkownik przestanie chcieć to robić.** Czternaście miesięcy to długo, a porzucony projekt ma wartość zero. To jest większe ryzyko niż wszystkie oceny jurorskie razem.
+3. **Jeżeli traktować to jako zakład o Nagrodę Główną.** Wtedy się nie opłaca.
+
+### Czego nie da się doprowadzić do wysokiej pewności
+
+- **czy pomiar wyjdzie ciekawy** — jedyna zmienna decydująca o różnicy między czwartą nagrodą a pierwszą; znana dopiero latem 2027
+- ~~**czy użytkownik dowiezie** — brak danych~~ → **policzone 21 VIII 2026: ~55% na rangę C lub wyżej**, wyprowadzenie z trzech bramek w `13_WERDYKT.md` §1.2 (K-110). Nadal `[domysł]`, ale już z jawnym łańcuchem do podważenia
+- **jakikolwiek konkretny wynik konkursowy** — oszacowania mają błąd rzędu ×1,5 w każdą stronę
+
+**Pewność osiągalna dotyczy zdania: „to jest solidny plan, który zwraca się niezależnie od wyniku konkursowego".** Na zdanie „to wygra" nie da jej nikt.

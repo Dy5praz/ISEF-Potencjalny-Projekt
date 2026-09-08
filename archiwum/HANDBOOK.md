@@ -1,3 +1,13 @@
+> **POPRAWKA, 16 VIII 2026 — `KOREKTY.md` K-059. Hierarchia celów była w tym dokumencie postawiona o jeden poziom za nisko.**
+>
+> **Celem nadrzędnym są studia za granicą, najpewniej w Stanach** — ustalone przez użytkownika. **Placement na ISEF jest środkiem, nie celem.**
+>
+> Konsekwencja, nie kosmetyczna: wyjazd na ISEF ma prawdopodobieństwo **~14%**, a **dorobek** (zbudowane urządzenie, odtwarzalne badanie, preprint) **~50–60%** i leży prawie w całości pod kontrolą autora. **Optymalizować pod dorobek, wynik konkursowy traktować jako premię.** Rozbiór: `21_ODPOWIEDZI.md` §5, `19_SZANSE_PO_ZMIANIE.md`.
+>
+> `[fakt]` **Kalendarz sprzyja:** ISEF maj 2028 wypada **przed** aplikacjami na studia (matura maj 2029 → aplikacje jesień 2028). Wynik i preprint zdążą wejść do dokumentów rekrutacyjnych.
+>
+> `[luka]` SAT, TOEFL, terminy aplikacji, pomoc finansowa dla obcokrajowców, need-blind wobec need-aware — **nieustalone, poza kompetencją tego dokumentu**, do osobnej pracy.
+
 # HANDBOOK — pełny kontekst i zlecenie
 
 **Dla:** Claude Code
@@ -127,7 +137,10 @@ Bez kompletu tych trzech nie masz prawa napisać, że coś odpada. Niewykonalno�
 
 **Dlaczego jeden strzał:** następny cykl to Explory 2028 → ISEF maj 2029, co koliduje z maturą. [wniosek] Ten cykl jest jedyny użyteczny.
 
-**Ile realnie czasu:** do zgłoszenia ~6,5 miesiąca, ale zgłoszenie nie wymaga gotowości. Do działającego prototypu ~14 miesięcy (El-Robo-Mech). Do ISEF ~21 miesięcy. **Nie licz sześciu.**
+**Ile realnie czasu:** do zgłoszenia ~6,5 miesiąca, ale zgłoszenie nie wymaga gotowości. Do działającego prototypu **~8 miesięcy** (El-Robo-Mech, IV 2027). Do finału krajowego ~14 miesięcy. Do ISEF ~21 miesięcy. **Nie licz sześciu.**
+
+> **POPRAWKA, 15 VIII 2026 — `KOREKTY.md` K-001.** Pierwotnie było tu „do działającego prototypu ~14 miesięcy". To błąd arytmetyczny: 14 miesięcy to dystans do finału krajowego, do El-Robo-Mech jest **8 miesięcy**. Margines do pierwszego twardego terminu sprzętowego jest o 43% krótszy, niż podawał dokument.
+> **POTWIERDZENIE, etap 1 — `KOREKTY.md` K-013.** Założenie „finał X 2027 → ISEF V 2028" zostało **sprawdzone i potwierdzone**: wzorzec to finał w październiku roku N → ISEF w maju roku N+1 (Explory 2025 → ISEF 2026 Phoenix; Explory 2026 → ISEF 2027). Teza „jeden strzał" stoi.
 
 ---
 
@@ -135,7 +148,7 @@ Bez kompletu tych trzech nie masz prawa napisać, że coś odpada. Niewykonalno�
 
 *Źródła: Regulamin Konkursu Explory (dokument prawnie wiążący), Regulamin Szkolnych Explory, ABC Konkursu Explory, Vademecum Uczestnika (starsze, część treści może dotyczyć nieaktualnej struktury etapów), Podsumowanie GEW 2025, shotx.explory.pl, zrzuty oficjalnej listy finalistów i jury 2026.*
 
-**Hierarchia źródeł przy sprzeczności:** Regulamin > informacje prasowe > ABC/broszury > Vademecum i archiwalia. Przykład rozbieżności: nagrody SDG — regulamin 7500 zł, ABC błędnie 5000 zł. Ufaj regulaminowi.
+**Hierarchia źródeł przy sprzeczności:** Regulamin > informacje prasowe > ABC/broszury > Vademecum i archiwalia. Przykład rozbieżności: nagrody SDG. **POPRAWKA 18 VIII 2026 — K-080:** przykład był tu wpisany odwrotnie. `[fakt, regulamin §8 pkt 4b odczytany 18 VIII 2026]` **Regulamin mówi „trzy kwoty do 5 000 złotych każda"** — czyli 5 000 zł, a nie 7 500 zł. Zasada „ufaj regulaminowi" obowiązuje bez zmian; ilustrujący ją przykład był błędny przez trzy dni i po poprawce jest lepszą ilustracją tej samej zasady.
 
 ### 4.1 Organizacja
 - Organizator: Fundacja Zaawansowanych Technologii, ul. Nowy Świat 60/9, 00-357 Warszawa. KRS 0000379454, NIP 1182059688
@@ -206,7 +219,7 @@ Gala Finałowa to osobne wydarzenie, nie sesja oceny.
 
 ### 4.9 Nagrody
 - **Nagroda Główna:** 15 000 zł (ORLEN S.A.)
-- **Nagrody Zrównoważonego Rozwoju:** 3 × 7 500 zł (Człowiek i Społeczeństwo / Klimat i Środowisko / Gospodarka i Bezpieczeństwo)
+- **Nagrody Zrównoważonego Rozwoju:** **3 × do 5 000 zł** (Człowiek i Społeczeństwo / Klimat i Środowisko / Gospodarka i Bezpieczeństwo) — **poprawione 18 VIII 2026, K-080.** Stało tu 3 × 7 500 zł. `[fakt, regulamin §8 pkt 4b odczytany w oryginale]` **Obszar „Poza kategoriami" nie ma nagrody SDG** (K-059)
 - **Reprezentacja Polski na ISEF:** tygodniowy wyjazd, pełne koszty. Liczba miejsc zmienna (2025: 3 projekty / 4 osoby)
 - **Nagrody Specjalne Partnerów:** 3 000 zł
 - **Nagroda Publiczności:** osobne głosowanie internautów, zwycięzca bywa inny niż laureaci jurorscy
@@ -310,9 +323,13 @@ W sekcji Execution arkusza inżynierskiego punktowane jest wprost, czy prototyp 
 - **Wniosek strategiczny:** twarde sito jest w Explory (~300 zgłoszeń → ~3 miejsca w reprezentacji, rzędu 1%), nie na ISEF. Optymalizacja pod Explory jest optymalizacją pod ISEF
 
 ### 5.4 Reguła 12 miesięcy
-[fakt] Dotyczy ISEF, nie Explory. Maksymalnie 12 miesięcy ciągłych badań, zakaz wykorzystywania badań wykonanych wcześniej niż 18 miesięcy przed ISEF. **To wymóg dokumentacyjny dotyczący formalnej kampanii eksperymentalnej, nie zakaz wcześniejszego rozwoju.** Eksperymenty wykonane poza oknem można po prostu powtórzyć w oknie.
+[fakt] Dotyczy ISEF, nie Explory. Maksymalnie 12 miesięcy ciągłych badań. **To wymóg dokumentacyjny dotyczący formalnej kampanii eksperymentalnej, nie zakaz wcześniejszego rozwoju.** Eksperymenty wykonane poza oknem można po prostu powtórzyć w oknie.
 
-Konsekwencja praktyczna: zasoby jednorazowe (wizyta w laboratorium uczelnianym, dostęp do specjalistycznego sprzętu) rezerwować **po czerwcu 2027**, bo nie da się ich łatwo powtórzyć.
+> **POPRAWKA, 15 VIII 2026, sesja druga — `KOREKTY.md` K-023. Regulamin odczytany w oryginale.**
+> Zdanie „zakaz wykorzystywania badań wykonanych wcześniej niż **18 miesięcy** przed ISEF" **nie ma pokrycia w regulaminie**. W *International Rules 2026–2027* reguła jest zakotwiczona w kalendarzu, nie w odstępie od imprezy, i brzmi: „may not include research performed **before January 2026**" oraz „12 continuous months **beginning no earlier than January 2026 and ending May 2027**".
+> Przeniesione na nasz rocznik `[wniosek]`: okno **styczeń 2027 – maj 2028**, z dowolnym ciągłym blokiem dwunastu miesięcy w środku.
+> **Konsekwencja praktyczna, łagodniejsza niż w K-006:** formalną kampanię pomiarową pod ISEF zaczynać w **maju 2027**. Wszystko wcześniejsze to prace rozwojowe — i liczą się bez ograniczeń na Explory oraz El-Robo-Mech, bo tamte konkursy reguły czasowej nie mają (sprawdzone w regulaminie Explory).
+> Zalecenie o rezerwowaniu zasobów jednorazowych po czerwcu 2027 **pozostaje słuszne**, tylko z innego powodu: bo wtedy zaczyna się okno.
 
 ### 5.5 PRIORYTET WERYFIKACYJNY NR 1 — Human Participants
 
@@ -325,6 +342,14 @@ Konsekwencja praktyczna: zasoby jednorazowe (wizyta w laboratorium uczelnianym, 
 
 **To jest najbardziej prawdopodobna przyczyna dyskwalifikacji na technikalium w całym projekcie i jest to pozycja harmonogramowa, nie formalność do załatwienia na końcu.** Zweryfikuj kompletnie i jako pierwsze: dokładne wymogi, terminy, kto wystawia zgodę dla uczestnika z zagranicy, czy badanie na samym sobie podlega tym samym regułom, jakie są wymogi wobec urządzeń elektrycznych mających kontakt z człowiekiem (prawdopodobnie osobna kategoria ryzyka). Wynik do osobnego pliku `ISEF_HUMAN_PARTICIPANTS.md` z terminarzem wstecznym.
 
+> **WYKONANE I ROZSTRZYGNIĘTE, 15 VIII 2026, sesja druga.** Regulamin *International Rules 2026–2027* odczytany w całości. Wynik: **alarm z tej sekcji był ostrożnym domysłem i się nie potwierdził.**
+> - badanie prototypu **wyłącznie na sobie jest zwolnione** z uprzedniej zgody komisji i z papierologii badań na ludziach; warunki: brak zagrożenia zdrowia oraz **brak wprowadzenia zmiennej ludzkiej** (drugi warunek jest tu trudniejszy i był przeoczony)
+> - **osobna kategoria ryzyka dla urządzeń elektrycznych w kontakcie z człowiekiem nie istnieje.** Sekcja *Hazardous Chemicals, Activities or Devices* obejmuje substancje kontrolowane, leki, alkohol, broń, promieniowanie, lasery i drony. Reguły elektryczne dotyczą **stoiska**, próg to 36 V na obwodach odsłoniętych
+> - Qualified Scientist **nie wymaga doktoratu** — regulamin dopuszcza „extensive experience and expertise" jako alternatywę (K-020)
+> - **doszła jedna realna pozycja, której ta sekcja nie przewidywała:** komisję IRB trzeba **powołać przy szkole**, w składzie edukator + dyrektor + pracownik medyczny lub psycholog. To jedyna rzecz w całej sprawie wymagająca zgody osób trzecich, i dlatego jedyna warta traktowania jako pozycja harmonogramowa
+>
+> Ocena ryzyka formalnego: **obniżona z „najbardziej prawdopodobna przyczyna dyskwalifikacji" na „jedna rozmowa z dyrekcją i jeden mail, jesień 2026".** Nie planować harmonogramu pod alarm z tej sekcji.
+
 ---
 
 ## 6. El-Robo-Mech
@@ -332,6 +357,8 @@ Konsekwencja praktyczna: zasoby jednorazowe (wizyta w laboratorium uczelnianym, 
 [wniosek, do weryfikacji] Konkurs na uczelni technicznej w Białymstoku, historycznie ~14–17 kwietnia. Potwierdzona zgodność z równoległym zgłoszeniem do Explory na podstawie precedensu.
 
 **Rola:** zewnętrzna walidacja, której projektowi brakowało. Silne wpisy w Explory mają podium z niezależnych zawodów.
+
+> **POPRAWKA, etap 1, 15 VIII 2026 — `KOREKTY.md` K-016.** Powyższe zdanie skleja dwie różne role. Ustalone dla edycji XI (2025/2026): zgłoszenia do 25 III 2026, finał 15–16 IV 2026, tematyka od mechaniki po inżynierię biomedyczną (**interfejs neuralny kwalifikuje się**), nagrodą jest **indeks na studia**, laureatów **34**. To nie jest podium z selektywnych zawodów. El-Robo-Mech zachowuje wartość jako **wymuszony termin i tani dry-run prezentacji**, nie jako zewnętrzna walidacja w rozumieniu sekcji 4.13. Skutek: termin IV 2027 jest **samonarzucony** i można go przesunąć bez straty strategicznej. Szczegóły i alternatywy: `08_KONKURENCJA_ISEF.md` sekcja 4.
 
 **Do weryfikacji przez ciebie:** aktualny regulamin, kategorie, dokładna data 2027, **i czy projekt typu interfejs neuralny w ogóle się tam kwalifikuje** — to konkurs robotyczno-mechatroniczny i może nie mieć kategorii, w którą wchodzi urządzenie pomiarowe. Jeżeli nie kwalifikuje, znajdź alternatywne konkursy dające zewnętrzną walidację (polskie i międzynarodowe, dla licealistów, w obszarze elektroniki/biomedycyny).
 
@@ -383,11 +410,22 @@ Sformułowane przez niego, cytuję sens wiernie:
 
 ### 9.2 Precedens — dowód istnienia, nie wzorzec
 
-[fakt] ISEF 2026, kod projektu **ENBM074**. Autorka: **Ameya Kharade**, Nashua High School South, New Hampshire.
+[fakt] ISEF 2026, kod projektu **ENBM074**. Autorstwo: **Ameya Kharade**, Nashua High School South, New Hampshire. Grand Award.
+
+> **UWAGA, etap 1 — `KOREKTY.md` K-018.** Podważyłem tu kod ENBM074 i **myliłem się**; poprawka K-012 została wycofana. Kod jest prawidłowy dla edycji **2026**, zweryfikowany przez użytkownika bezpośrednio w tegorocznej bazie. Zasada, o której trzeba pamiętać przy każdym dalszym cytowaniu: **kody ISEF są numerowane w obrębie edycji i używane ponownie co roku**, więc zawsze podawać kod **razem z rocznikiem** — `ENBM074 (2026)`. Ten sam kod w 2022 należał do innej pracy.
+> **Rodzaj gramatyczny nierozstrzygnięty — `KOREKTY.md` K-008.** Poniższy tekst używa rodzaju żeńskiego, bo tak został napisany pierwotnie; w dokumentach etapu 1 piszę neutralnie do czasu potwierdzenia.
 
 Tytuł: „Breaking the Brain-Computer Interface Ceiling: Discovering a New Paradigm for Brain-Machine Communication that Enables Noninvasive Interfaces to Reach Invasive-Class Communication Speeds".
 
 Twierdzenie wg relacji użytkownika: umożliwia komunikację osoby niemówiącej z komputerem, ~65 słów na minutę wobec ~3 dla typowych rozwiązań nieinwazyjnych, czyli dwudziestokrotna poprawa.
+
+> **ZWERYFIKOWANE, 15 VIII 2026, sesja druga — `KOREKTY.md` K-025. Pełny abstrakt odczytany w bazie Society for Science.**
+> - **Liczby 65 i 3 wpm są prawdziwe** i pochodzą wprost z abstraktu. K-004 zamknięty na korzyść handbooka, znacznik `[domysł]` zdjęty.
+> - **Nagroda to Second Award of $2,400**, nie nieokreślone „Grand Award". Pierwsze miejsca w ENBM 2026 zdobyły projekty o innej tematyce.
+> - **Sprzęt był kupiony:** „$1,800 of consumer electroencephalography hardware". Nic nie zostało zbudowane.
+> - **Baseline 3 wpm to własny warunek kontrolny autora na tym samym sprzęcie**, w 111 randomizowanych i kontrbalansowanych próbach, z replikacją na drugiej grupie — a nie wybrany z literatury dolny koniec rozrzutu, jak podejrzewałem. Zarzut wycofany.
+> - Istota pracy: **rozstrzyganie intencji zamiast literowania**, czyli zmiana definicji zadania, a nie lepszy klasyfikator.
+> Pełny tekst abstraktu i rozbiór: `08_KONKURENCJA_ISEF.md` sekcja 2.
 
 [fakt] Ta sama autorka wygrała 1. miejsce Grand Award w kategorii BEHA na ISEF 2025 za projekt CLIMB — sieci konwolucyjne i curriculum learning na rs-fMRI. **Czyli nie jest to osoba, która zbudowała nowy czujnik — to osoba pracująca w warstwie dekodowania.**
 
@@ -417,6 +455,11 @@ Cytuję jego rozumowanie, bo jest sensowne i ma być zweryfikowane, nie przyjęt
 
 **Zweryfikuj to twardo:** przejrzyj listy finalistów Explory 2016–2026 i policz, ile było projektów z obszaru neurotechnologii, EEG, interfejsów mózg-komputer i szerzej elektroniki medycznej. Podaj liczby, nie wrażenie.
 
+> **WYKONANE, 15 VIII 2026, sesja druga — `KOREKTY.md` K-034. Rozumowanie użytkownika potwierdzone liczbowo.**
+> Explory 2026: **133 projekty półfinałowe, z tego 1 oparty na EEG** („Aletheia — rozpoznawanie emocji"), który **do finału nie przeszedł**. Finał 2026: 21 projektów, **zero EEG i zero BCI**. Finał 2025: 22 projekty, **zero**.
+> Edycje 2016–2024 nieprzeliczone — archiwalne listy finalistów są aplikacjami renderowanymi w przeglądarce, a przeglądarka w tym środowisku nie ma dostępu do sieci.
+> **Ale ta sama metoda zastosowana do ISEF daje wynik przeciwny:** projektów zawierających „EEG" było 8 w 2024, 15 w 2025 i **22 w 2026**. Czyli **argument użytkownika jest słuszny dla Explory i nieprawdziwy dla ISEF** — a to są dwa różne etapy tej samej drogi i wymagają różnych optymalizacji. Rozbiór: `08_KONKURENCJA_ISEF.md` sekcja 3.3.
+
 ### 9.4 Moja hipoteza robocza — do weryfikacji lub obalenia, NIE ustalenie
 
 Oznaczam jako `[domysł]` w całości. Nie buduj na tym, dopóki nie sprawdzisz.
@@ -429,6 +472,10 @@ Oznaczam jako `[domysł]` w całości. Nie buduj na tym, dopóki nie sprawdzisz.
 4. **Dekodowanie** — algorytm zamieniający sygnał na intencję. **Od 14 VIII 2026 dostępne.** To jest warstwa, w której najprawdopodobniej mieszka dwudziestokrotność Kharade
 
 Ograniczenie, które zostaje niezależnie od wszystkiego: fizyka przewodnictwa objętościowego i tłumienia przez czaszkę ogranicza stosunek sygnału do szumu i rozdzielczość przestrzenną EEG. To ograniczenie **fizyczne**, nie technologiczne, i żadna warstwa go nie znosi — warstwy 1–3 poprawiają to, co dociera do przetwornika, warstwa 4 lepiej wyciska to, co już zostało zarejestrowane.
+
+> **UZUPEŁNIENIE, 15 VIII 2026, sesja druga — `KOREKTY.md` K-028. Hipoteza z tej sekcji dostała mocne wsparcie z literatury, w punkcie, którego się nie spodziewałem.**
+> Praca *„Conformal in-ear bioelectronics for visual and auditory brain-computer interfaces"* (Tsinghua, **Nature Communications 14:4213, 2023**) pokazuje z kanału słuchowego **95% dokładności SSVEP na 9 celach i speller 40-celowy online bez kalibracji** — o rząd wielkości powyżej wszystkiego, co wcześniej raportowano z ucha. Czynnikiem, który to umożliwił, był **kontakt konformalny elektrody**, czyli **warstwa 1 i 2 z listy powyżej**.
+> **To znaczy, że warstwy 1–3 robią więcej, niż zakładała ta sekcja.** Nie tylko „poprawiają to, co dociera do przetwornika" — w formie dousznej **decydują o tym, czy sygnał w ogóle jest użyteczny do sterowania**. Ostrzeżenie o zatłoczonym polu algorytmicznym pozostaje w mocy; hipoteza o kombinacji sprzętu i dekodowania jest po tej pracy mocniejsza, nie słabsza.
 
 **Ostrzeżenie strategiczne, [wniosek]:** projekt czysto dekodujący stawia użytkownika na tym samym polu co każdy uczestnik z doświadczeniem w uczeniu maszynowym, bez sprzętu i bez przewagi. Publiczne zbiory danych EEG są dostępne dla wszystkich, więc jedyną barierą wejścia jest umiejętność algorytmiczna — a to nie jest przewaga użytkownika. Odwrotnie: projekt czysto sprzętowy oddaje całą dostępną poprawę wydajności.
 
